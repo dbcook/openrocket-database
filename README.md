@@ -25,8 +25,8 @@ ln -s ~/openrocket-database/orc Components
 Caveat - I do not have a Windows machine to test this on so the details may not be 100% good.  Basically
 you need to clone the git repo and create a soft directory symlink to where you cloned it.
 
-.Install git for Windows (https://git-for-windows.github.io/)
-.Get a command prompt.  You either have to use "Run as administrator" or have Developer Mode enabled.  Run
+* Install git for Windows (https://git-for-windows.github.io/)
+* Get a command prompt.  You either have to use "Run as administrator" or have Developer Mode enabled.  Run
 the following:
 
 ```bash
