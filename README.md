@@ -80,6 +80,22 @@ zip -d OpenRocket-version.jar datafiles/presets/Estes.orc datafiles/presets/LocP
 
 If Sampo will bless it I'll post a version of OpenRocket here that has this already done.
 
+### Database Files Provided in OpenRocket 15.03
+
+```
+Estes.orc *
+LocPrecision.orc *
+Quest.orc
+bluetube.orc
+bms.orc
+Fliskits.orc
+giantleaprocketry.orc
+publicmissiles.orc
+semroc.orc
+```
+
+Files marked with (*) have been upgraded in this project thus far.
+
 ## Conventions
 
 Various conventions have been adopted to make the database files more organized, readable,
