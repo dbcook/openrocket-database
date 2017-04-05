@@ -340,10 +340,6 @@ structural.
 * Launch lugs:
    * Only knows about tubular lugs; no support for rail buttons or guides
    * No support for standoffs
-* Engine Blocks:
-   * Cannot define engine block components at all
-* Centering Rings and Bulkheads:
-   * Cannot define centering ring or bulkhead components at all
 
 ### Hardcoded Default Materials and Preference/Registry Augmentation of the Materials Dropdown List
 
