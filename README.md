@@ -48,6 +48,7 @@ not included in OpenRocket at all:
 * FSI (unusual tube sizes)
 * Madcow / Rocketry Warehouse
 * Wildman
+* Fruity, Rocketman, Sky Angle, B2 Chutes
 
 ## Features and improvements:
 
