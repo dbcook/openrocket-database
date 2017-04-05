@@ -12,6 +12,43 @@ Current version:  0.9.0.1
 
 OpenRocket compatibility:  tested with OpenRocket 15.03
 
+## Release Notes
+
+0.9.0.1
+* Publishing what I have to date: Estes and LOC Precision.
+
+## State of the Project
+
+Although a lot of work has gone into this project over the last 3+ years, I would still
+characterize it as very incomplete.  The information about how OpenRocket databases work
+has been through several iterations including code dives and is pretty accurate, but it's
+somewhat Mac centric because that's what I use most.
+
+The LOC Precision file is effectively complete, and the Estes file is probably 80-90%
+complete.  Both represent really major improvements over the previous state of things, but
+more work is needed.  The newly added Top Flight and competition chute/streamer files are
+in pretty good shape.  Most items still need validation checks put into the `ork`
+directory to make sure they generate reasonable masses.
+
+There are several built-in database files that have not been touched yet (see below for list).
+
+Accurate data is really hard to come by for some items.  The newer Estes plastic nose
+cones are difficult, as many have never been sold separately and don't even have discrete
+part numbers.  Likewise the dimensional data from LOC Precision is notoriously incomplete
+and error-filled, but I've resolved most of it using Apogee's tabulated data and some
+measurements of actual parts.
+
+There are product lines from legacy and major manufacturers, especially high power vendors, that are
+not included in OpenRocket at all:
+
+* Centuri (many cloneable kits with parts different than Estes)
+* MPC (? maybe not too much unique here)
+* Apogee (they mostly OEM other vendors parts, but have some unique ones)
+* CMR (unusual tube sizes)
+* FSI (unusual tube sizes)
+* Madcow / Rocketry Warehouse
+* Wildman
+
 ## Features and improvements:
 
 * Detailed documentation on how the components database works, and much info about restrictions and limitations.
@@ -20,9 +57,10 @@ OpenRocket compatibility:  tested with OpenRocket 15.03
 * Mass data for tubing analyzed to remove outliers and derive correct average densities
 * A master materials reference file is provided with heavily researched data
 * Major expansion and cleanup of the Estes parts file
-  * All (nearly) body tubes from the comprehensive Brohm tube index, including BT-51, BT-52, BT-56, BT-58, etc.
+  * Added most missing body tubes from the comprehensive Brohm tube index, including BT-51, BT-52, BT-56, BT-58, etc.
   * Many nose cones added from the Brohm nose cone reference
   * Numeric PNs and old style part numbers both listed where known
+  * Tons of research information are in the file
 * Greatly improved LOC Precision parts file
   * Best available size and mass data (much of it from Apogee); many conflicts and errors resolved
   * Parachutes added
@@ -172,6 +210,8 @@ This section explains where OpenRocket will look for component database files.  
 * If %APPDATA% is set:  `%APPDATA%/OpenRocket/Components/*.orc`
 * If %APPDATA% is not set: `%HOMEPATH%/OpenRocket/Components/*.orc`
 
+*TBD* need description of how Windows stores locally added prefs in the registry from a contributor!
+
 #### Linux External File Locations
 
 * `$HOME/.openrocket/Components/*.orc`
@@ -182,10 +222,10 @@ This section explains where OpenRocket will look for component database files.  
 * Preferences in `~/Library/Preferences/com.apple.java.util.pref.plist`
 
 The OSX prefs are only used to hold materials definitions, not components.  Unfortunately,
-it is ONLY the prefs values that appear in the materials dropdown when editing a
+it is *only* the prefs values that appear in the materials dropdown when editing a
 component.
 
-### Top Level Structure of an .orc Database File
+### Top Level Structure of .orc Database Files
 
 ```xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
@@ -207,7 +247,7 @@ component.
 </OpenRocketComponent>
 ```
 
-### Organization of an .orc Database File
+### Organization of .orc Database Files
 
 Each manufacturer's file in OpenRocket.jar has a set of material definitions at the top.
 These material definitions only have scope within the current datafile.
