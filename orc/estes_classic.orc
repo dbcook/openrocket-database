@@ -1,0 +1,3249 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+Estes classic parts file for OpenRocket
+
+by Dave Cook  NAR 21953  caveduck17@gmail.com 2014-2017
+
+This file provides separate entries for each part per the original Estes part numbering scheme with
+prefixes and suffixes such as "BT-20J".  The newer non-significant all-numeric part numbers are also
+included in the PartNumber and Description string where known.  Be aware that there are many
+conflicts in the Estes assigned PNs.
+
+Many items are based on part definitions from the stock OpenRocket component files, but
+with various cleanups and fixes:
+
+    * Descriptions normalized to comma-separated list of attributes in increasing specificity
+    * Material types all matched to generic_materials.orc
+    * Dimension units changed to those specified in reference materials such as catalogs
+    * Excess significant digits removed from dimensions; generally kept 3-4 significant figures
+    * Numerous dimension/mass/material/part number errors fixed (sorry, WAY too many to list)
+    * Mass overrides have been eliminated wherever feasible
+
+Using this file:
+    Drop this file in the OS-dependent location where OpenRocket looks for component databases:
+        Windows:  $APPDATA/OpenRocket/Components/ (you need to set $APPDATA)
+        OSX:      $HOME/Library/Application Support/OpenRocket/Components/
+        Linux:    $HOME/.openrocket/Components/
+
+    When you start up OpenRocket and use the "from Database..." option when selecting components,
+    you will see a LOT more Estes components than before.  Unfortunately unless you do some advanced
+    surgery to remove the built-ins from your OpenRocket jar, you will have some duplicating entries
+    from the baked-in OpenRocket components.  You can easily recognize the new components from this
+    file because they will have much longer descriptions.
+
+Hints:
+    You can see the fields that can be set in a database presets file by getting a source
+    code tree and doing this with a Bash shell:
+
+       find . -name "*.java" | xargs grep XmlElement
+
+Known issues:
+         No way to include materials definitions from a separate common file
+         Shoulder thicknesses of hollow parts cannot be set in presets database files in OpenRocket
+         End caps of hollow parts cannot be set in presets database files in OpenRocket
+         Cannot create preset components for bulkheads, finsets, bulkheads, or centering rings
+         Cannot create assemblies that are compositions of other parts
+         Parallel wound material for BT-30 not supported yet (need density)
+         Unusual nose cone shapes such as Honest John and Spaceman noses not supported by OpenRocket code
+         All Estes balsa assumed same density
+-->
+<!--     -->
+<OpenRocketComponent>
+    <Version>0.1</Version>
+    <Materials>
+        <!-- Would be nice to be able to 'include' generic_materials.orc -->
+        <!-- Materials have to be in this file, and can only be referenced by components in this file.
+             Unfortunately they will not show up in any dropdown menus.
+             The UnitsOfMeasure attribute for materials is IGNORED.  See preset/xml/MaterialDTO.java -
+             it just calls a default constructor that sets the units to default.
+             -->
+
+        <!--
+            Estes catalog weights for balsa parts imply a typical density of about 10 lb/ft3 for smaller cones
+            and about 8 lb/ft3 for larger ones, but they are very inconsistent.
+        -->
+        <Material UnitsOfMeasure="kg/m3">
+          <Name>Balsa, bulk, Estes typical</Name>
+          <Density>160.2</Density>
+          <Type>BULK</Type>
+        </Material>
+        <Material UnitsOfMeasure="kg/m3">
+          <Name>Balsa, bulk, 10lb/ft3</Name>
+          <Density>160.2</Density>
+          <Type>BULK</Type>
+        </Material>
+        <Material UnitsOfMeasure="kg/m3">
+          <Name>Balsa, bulk, 8lb/ft3</Name>
+          <Density>128.1</Density>
+          <Type>BULK</Type>
+        </Material>
+        <Material UnitsOfMeasure="kg/m3">
+          <Name>Balsa, bulk, 7lb/ft3</Name>
+          <Density>112.0</Density>
+          <Type>BULK</Type>
+        </Material>
+
+        <!-- Average paper tube density for Estes kraft+glassine tubes -->
+        <!--
+          Here are the computed densities of Estes tubing, based on 1975 and 1985 catalog specs
+           BT-5    0.9745   g/cm3    0.013" wall
+           BT-20   0.9350            0.013" wall
+           BT-50   0.9221            0.013" wall
+           BT-55   0.7510            0.021" wall
+           BT-60   0.8655            0.021" wall
+           BT-70   0.8869            0.021" wall
+           BT-80   0.4787            0.021" wall     bogus catalog mass for this tube
+           BT-80   0.8944            0.021" wall     *if they had weighed the correct length tube
+           BT-101  0.8006            0.021" wall
+
+           Throwing out the BT-55 value, the average density is 894.4 kg/m3.
+
+           Notice that BT-55 and BT-80 are outliers.
+
+           Presuming that glassine is denser than the kraft layer, the BT-55 density ought
+           to be at least as high as the BT-60 value.  At this point I don't have any
+           explanation for the BT-55 anomaly; we need to weigh a real one.
+
+           The catalog value of .637 oz for the weight of a 14.2" BT-80 is drastically too low.
+           However the density comes out to a near perfect 0.8944 g/cm3 if you assume that they
+           mistakenly weighed the 7.6" long BT-80 that was used in the Saturn V kit.
+
+        -->
+        <Material UnitsOfMeasure="kg/m3">
+            <Name>Paper, spiral kraft glassine, bulk</Name>
+            <Density>799.0</Density>
+            <Type>BULK</Type>
+        </Material>
+        <Material UnitsOfMeasure="kg/m3">
+            <Name>Paper, spiral kraft glassine, Estes avg, bulk</Name>
+            <Density>894.4</Density>
+            <Type>BULK</Type>
+        </Material>
+
+        <Material UnitsOfMeasure="kg/cm3">
+            <Name>Polystyrene, cast, bulk</Name>
+            <Density>1050.0</Density>
+            <Type>BULK</Type>
+        </Material>
+        <Material UnitsOfMeasure="kg/m3">
+            <Name>Polyethylene, HDPE, bulk</Name>
+            <Density>950.0</Density>
+            <Type>BULK</Type>
+        </Material>
+        <Material UnitsOfMeasure="kg/m3">
+            <Name>Polyethylene, LDPE, bulk</Name>
+            <Density>925.0</Density>
+            <Type>BULK</Type>
+        </Material>
+        <Material UnitsOfMeasure="kg/m3">
+            <Name>Water, bulk</Name>
+            <Density>1000.0</Density>
+            <Type>BULK</Type>
+        </Material>
+
+        <!-- SURFACE (sheet) materials, only needed for parachute and streamer components -->
+        
+        <!-- Estes/Centuri HDPE poly chute material (100% printed) is about 1 mil thick -->
+        <!-- This value is just the bare poly value for 1.0 mil thick, printed material may be a bit different -->
+        <Material UnitsOfMeasure="g/m2">
+            <Name>Polyethylene film, HDPE, 1.0 mil, bare</Name>
+            <Density>0.0235</Density>
+            <Type>SURFACE</Type>
+        </Material>
+        
+    </Materials>
+    <Components>
+      <!-- Body Tubes -->
+      <!-- Some obscure sizes (e.g. BT-50 outside nesting) are still missing -->
+      <!--
+           *** find dimension/mass info on HBT-5, HBT-20, and HBT-50 mentioned in Brohm v10.1.  See Apogee newsletter 09 indicating the HBT series was
+           created by Mike Dorffler and were named for OD of tube, notably HBT-1090 and HBT-3000 used in Pro Series
+           Patriot.  The "HBT-5/20/50" in Brohm does not fit this mold and may be translations for "HD" as discussed in
+           his intro.  We have no information on actual dimensions of those tubes.
+           The Estes Nose Cone/Kit List Ref rev Feb 2005 on rocketshoppe indicates various HBT-1090 rockets exist, using PNC-1090
+           with PNs 072630, 072634, 072636 and 072663 in different (unspecified #$%!) colors.
+             ***
+      -->
+
+      <!-- BT-5 -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-5, 030302</PartNumber>
+        <Description>Body tube, BT-5, 18 in., PN 030302</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.515</InsideDiameter>
+        <OutsideDiameter Unit="in">0.541</OutsideDiameter>
+        <Length Unit="in">18.0</Length>
+      </BodyTube>
+      <!-- BT-5 12.25" PN ????? used in #2009 Rain Maker -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-5_12.25in</PartNumber>
+        <Description>Body tube, BT-5, 12.25 in.</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.515</InsideDiameter>
+        <OutsideDiameter Unit="in">0.541</OutsideDiameter>
+        <Length Unit="in">12.25</Length>
+      </BodyTube>
+      <!-- BT-5 9.0" PN ????? used in #0880 Skinny Mini, #0885 Sprite, #0891 Prime Number Explorer -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-5_9.0in</PartNumber>
+        <Description>Body tube, BT-5, 9.0 in.</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.515</InsideDiameter>
+        <OutsideDiameter Unit="in">0.541</OutsideDiameter>
+        <Length Unit="in">9.0</Length>
+      </BodyTube>
+      <!-- black 9.0" BT-5 PN 030293 used in #2159 Fireflash -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-5_9.0in_black, 030293</PartNumber>
+        <Description>Body tube, BT-5, 9.0 in., black, PN 030293</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.515</InsideDiameter>
+        <OutsideDiameter Unit="in">0.541</OutsideDiameter>
+        <Length Unit="in">9.0</Length>
+      </BodyTube>
+      <!-- silver 9.0" BT-5 PN 030292 used in #0835 Nike-Arrow -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-5_9.0in_silver, 030292</PartNumber>
+        <Description>Body tube, BT-5, 9.0 in., silver, PN 030292</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.515</InsideDiameter>
+        <OutsideDiameter Unit="in">0.541</OutsideDiameter>
+        <Length Unit="in">9.0</Length>
+      </BodyTube>
+      <!-- black 8.0" BT-5 PN 030291 used in #0834 X-Ray -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-5_8.0in_black, 030291</PartNumber>
+        <Description>Body tube, BT-5, 8.0 in., black, PN 030291</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.515</InsideDiameter>
+        <OutsideDiameter Unit="in">0.541</OutsideDiameter>
+        <Length Unit="in">8.0</Length>
+      </BodyTube>
+      <!-- silver 8.0" BT-5 PN ???? used in #0886 Gnome (silver version) -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-5_8.0in_silver</PartNumber>
+        <Description>Body tube, BT-5, 8.0 in., silver</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.515</InsideDiameter>
+        <OutsideDiameter Unit="in">0.541</OutsideDiameter>
+        <Length Unit="in">8.0</Length>
+      </BodyTube>
+      <!-- white 8.0" WBT-5 PN 030301 used in #0886 Gnome (white version) and #0887 Leprechaun -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-5_8.0in_white, 030301</PartNumber>
+        <Description>Body tube, WBT-5, 8.0 in., white, PN 030301</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.515</InsideDiameter>
+        <OutsideDiameter Unit="in">0.541</OutsideDiameter>
+        <Length Unit="in">8.0</Length>
+      </BodyTube>
+      <!-- PN 030306 overload for 6.5in and 5.1 in parts -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-5_6.5in, 030306</PartNumber>
+        <Description>Body tube, BT-5, 6.5 in., PN 030306</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.515</InsideDiameter>
+        <OutsideDiameter Unit="in">0.541</OutsideDiameter>
+        <Length Unit="in">6.5</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-5_6.0in, 030303</PartNumber>
+        <Description>Body tube, BT-5, 6.0 in., PN 030303</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.515</InsideDiameter>
+        <OutsideDiameter Unit="in">0.541</OutsideDiameter>
+        <Length Unit="in">6.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-5_5.5in_beige, 030307</PartNumber>
+        <Description>Body tube, BT-5, beige, 5.5 in., PN 030307</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.515</InsideDiameter>
+        <OutsideDiameter Unit="in">0.541</OutsideDiameter>
+        <Length Unit="in">5.5</Length>
+      </BodyTube>
+      <!-- See note below about ambiguity between the 5.0" and BT-5P 5 3/32" tube -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-5P, 030306</PartNumber>
+        <Description>Body tube, BT-5, 5.1 in., PN 030306</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.515</InsideDiameter>
+        <OutsideDiameter Unit="in">0.541</OutsideDiameter>
+        <Length Unit="in">5.1</Length>
+      </BodyTube>
+      <!--
+          BT-5 5.0" PN ???? in used in #0870 Pulsar and #0871 Vector, #2015 Strike Fighter
+          Brohm discussion suggests possibly intended by Estes as same part as BT-5P which was 5 5/32"
+      -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-5_5.0in</PartNumber>
+        <Description>Body tube, BT-5, 5.0 in.</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.515</InsideDiameter>
+        <OutsideDiameter Unit="in">0.541</OutsideDiameter>
+        <Length Unit="in">5.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-5_4.0in, 030305</PartNumber>
+        <Description>Body tube, BT-5, 4.0 in., PN 030305</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.515</InsideDiameter>
+        <OutsideDiameter Unit="in">0.541</OutsideDiameter>
+        <Length Unit="in">4.0</Length>
+      </BodyTube>
+      <!-- BT-5 3.75" PN ???? used in #2019 Titan IIIE -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-5_3.75in</PartNumber>
+        <Description>Body tube, BT-5, 3.75 in.</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.515</InsideDiameter>
+        <OutsideDiameter Unit="in">0.541</OutsideDiameter>
+        <Length Unit="in">3.75</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-5CJ, 030310</PartNumber>
+        <Description>Body tube, BT-5, 3.0 in., PN 030310</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.515</InsideDiameter>
+        <OutsideDiameter Unit="in">0.541</OutsideDiameter>
+        <Length Unit="in">3.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-5BJ, 030304</PartNumber>
+        <Description>Body tube, BT-5, 2.0 in., PN 030304</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.515</InsideDiameter>
+        <OutsideDiameter Unit="in">0.541</OutsideDiameter>
+        <Length Unit="in">2.0</Length>
+      </BodyTube>
+      <!-- PN 030304 re-used for #0802 Quark tube at 1.75" vs 2.0" for regular BT-5BJ -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-5_quark, 030304</PartNumber>
+        <Description>Body tube, BT-5, 1.75 in., PN 030304</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.515</InsideDiameter>
+        <OutsideDiameter Unit="in">0.541</OutsideDiameter>
+        <Length Unit="in">1.75</Length>
+      </BodyTube>
+      <!-- #0810 Swift and #0809 Gauchito uses a 1.75" BT-5 with PN 030290 (possible fix after Quark?) -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-5_1.75in, 030290</PartNumber>
+        <Description>Body tube, BT-5, 1.75 in., PN 030390</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.515</InsideDiameter>
+        <OutsideDiameter Unit="in">0.541</OutsideDiameter>
+        <Length Unit="in">1.75</Length>
+      </BodyTube>
+      <!--
+          HBT-5 1.688" used by #2122 Invader, #2123 Raider
+          *** exact dimensions of heavy-wall tube unknown ***
+      -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-5_HBT_1.688in</PartNumber>
+        <Description>Body tube, HBT-5, heavy, 1.688 in.</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.515</InsideDiameter>
+        <OutsideDiameter Unit="in">0.541</OutsideDiameter>
+        <Length Unit="in">1.688</Length>
+      </BodyTube>
+      <!-- BT-5 1.625" used in Bandito -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-5_1.625in, 030309</PartNumber>
+        <Description>Body tube, BT-5, 1.625 in., PN 030309</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.515</InsideDiameter>
+        <OutsideDiameter Unit="in">0.541</OutsideDiameter>
+        <Length Unit="in">1.625</Length>
+      </BodyTube>
+      <!-- BT-5 1.56" PN ????? used in #0881 Mini Mars Lander -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-5_1.56in</PartNumber>
+        <Description>Body tube, BT-5, 1.56 in.</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.515</InsideDiameter>
+        <OutsideDiameter Unit="in">0.541</OutsideDiameter>
+        <Length Unit="in">1.56</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-5T, 030308</PartNumber>
+        <Description>Body tube, BT-5, 1.5 in., PN 030308</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.515</InsideDiameter>
+        <OutsideDiameter Unit="in">0.541</OutsideDiameter>
+        <Length Unit="in">1.5</Length>
+      </BodyTube>
+      <!--
+          BT-5 1.434" used in #1202 Mini Meanie and #1203 Freaky Flyer
+          The Brohm reference gives the length as 1.438" in one place with same PN 031174
+      -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-5_1.434in, 031174</PartNumber>
+        <Description>Body tube, BT-5, 1.434 in., PN 031174</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.515</InsideDiameter>
+        <OutsideDiameter Unit="in">0.541</OutsideDiameter>
+        <Length Unit="in">1.434</Length>
+      </BodyTube>
+      <!-- 1.375" 030468 used in #0807 Lucky Seven -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-5_1.375in, 030468</PartNumber>
+        <Description>Body tube, BT-5, 1.375 in., PN 030468</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.515</InsideDiameter>
+        <OutsideDiameter Unit="in">0.541</OutsideDiameter>
+        <Length Unit="in">1.375</Length>
+      </BodyTube>
+      <!-- 1.375" 030311 used in #1298 X-Wing -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-5XW, 030311</PartNumber>
+        <Description>Body tube, BT-5, 1.375 in., PN 030311</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.515</InsideDiameter>
+        <OutsideDiameter Unit="in">0.541</OutsideDiameter>
+        <Length Unit="in">1.375</Length>
+      </BodyTube>
+      <!-- 1.375" 030295 used in #2077 Sky Winder -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-5_1.375in, 030295</PartNumber>
+        <Description>Body tube, BT-5, 1.375 in., PN 030295</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.515</InsideDiameter>
+        <OutsideDiameter Unit="in">0.541</OutsideDiameter>
+        <Length Unit="in">1.375</Length>
+      </BodyTube>
+      <!-- 0.75" 030409 used in #2109 Renegade -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-5_0.75in, 030409</PartNumber>
+        <Description>Body tube, BT-5, 0.75 in., PN 030409</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.515</InsideDiameter>
+        <OutsideDiameter Unit="in">0.541</OutsideDiameter>
+        <Length Unit="in">0.75</Length>
+      </BodyTube>
+
+      <!-- BT-10 Mylar -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-10, 30312</PartNumber>
+        <Description>Body tube, BT-10, 9.0 in., PN 30312</Description>
+        <Material Type="BULK">Mylar, bulk</Material>
+        <InsideDiameter Unit="in">0.710</InsideDiameter>
+        <OutsideDiameter Unit="in">0.720</OutsideDiameter>
+        <Length Unit="in">9.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-10H</PartNumber>
+        <Description>Body tube, BT-10, 3.062 in.</Description>
+        <Material Type="BULK">Mylar, bulk</Material>
+        <InsideDiameter Unit="in">0.710</InsideDiameter>
+        <OutsideDiameter Unit="in">0.720</OutsideDiameter>
+        <Length Unit="in">3.062</Length>
+      </BodyTube>
+
+      <!-- BT-20 -->
+
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-20</PartNumber>
+        <Description>Body tube, BT-20, 18 in.</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.710</InsideDiameter>
+        <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+        <Length Unit="in">18.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-20B</PartNumber>
+        <Description>Body tube, BT-20, 8.65 in.</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.710</InsideDiameter>
+        <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+        <Length Unit="in">8.65</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-20D</PartNumber>
+        <Description>Body tube, BT-20, 6.5 in.</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.710</InsideDiameter>
+        <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+        <Length Unit="in">6.5</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-20G</PartNumber>
+        <Description>Body tube, BT-20, 3.5 in.</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.710</InsideDiameter>
+        <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+        <Length Unit="in">3.5</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-20J</PartNumber>
+        <Description>Body tube, BT-20, 2.75 in.</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.710</InsideDiameter>
+        <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+        <Length Unit="in">2.75</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-20M</PartNumber>
+        <Description>Body tube, BT-20, 2.25 in.</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.710</InsideDiameter>
+        <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+        <Length Unit="in">2.25</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>PST-20, 30602</PartNumber>
+        <Description>Body tube, clear, PST-20, 8.0 in.</Description>
+        <Material Type="BULK">Mylar, bulk</Material>
+        <InsideDiameter Unit="in">0.710</InsideDiameter>
+        <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+        <Length Unit="in">8.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>PST-20J</PartNumber>
+        <Description>Body tube, clear, PST-20J, 2.75 in.</Description>
+        <Material Type="BULK">Mylar, bulk</Material>
+        <InsideDiameter Unit="in">0.710</InsideDiameter>
+        <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+        <Length Unit="in">2.75</Length>
+      </BodyTube>
+      
+      <!-- BT-30 -->
+      <!-- BT-30 parallel material type and spiral/parallel variants not covered -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-30</PartNumber>
+        <Description>Body tube, BT-30, parallel-wound, 9 in.</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.725</InsideDiameter>
+        <OutsideDiameter Unit="in">0.765</OutsideDiameter>
+        <Length Unit="in">9.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-30F</PartNumber>
+        <Description>Body tube, BT-30, parallel-wound, 7 in.</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.725</InsideDiameter>
+        <OutsideDiameter Unit="in">0.765</OutsideDiameter>
+        <Length Unit="in">7.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-30B</PartNumber>
+        <Description>Body tube, BT-30, parallel-wound, 6.125 in.</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.725</InsideDiameter>
+        <OutsideDiameter Unit="in">0.765</OutsideDiameter>
+        <Length Unit="in">6.125</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-30C</PartNumber>
+        <Description>Body tube, BT-30, parallel-wound, 5.5 in.</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.725</InsideDiameter>
+        <OutsideDiameter Unit="in">0.765</OutsideDiameter>
+        <Length Unit="in">5.5</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-30A</PartNumber>
+        <Description>Body tube, BT-30, parallel-wound, 3.5 in., Scout perforated</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.725</InsideDiameter>
+        <OutsideDiameter Unit="in">0.765</OutsideDiameter>
+        <Length Unit="in">3.5</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-30J</PartNumber>
+        <Description>Body tube, BT-30, parallel-wound, 2.75 in.</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.725</InsideDiameter>
+        <OutsideDiameter Unit="in">0.765</OutsideDiameter>
+        <Length Unit="in">2.75</Length>
+      </BodyTube>
+
+      <!-- BT-50 -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-50, 30352</PartNumber>
+        <Description>Body tube, BT-50, 18 in., PN 30352</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.950</InsideDiameter>
+        <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+        <Length Unit="in">18.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-50 (yellow), 30355</PartNumber>
+        <Description>Body tube, BT-50, yellow, 18 in., PN 30355</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.950</InsideDiameter>
+        <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+        <Length Unit="in">18.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-50WH, 31177</PartNumber>
+        <Description>Body tube, BT-50, white, 18 in., PN 31177</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.950</InsideDiameter>
+        <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+        <Length Unit="in">18.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-50V, 30370</PartNumber>
+        <Description>Body tube, BT-50, 16.5 in., PN 30370</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.950</InsideDiameter>
+        <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+        <Length Unit="in">16.5</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-50SV, 30370</PartNumber>
+        <Description>Body tube, BT-50, 16.25 in., PN 30370</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.950</InsideDiameter>
+        <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+        <Length Unit="in">16.25</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-50TF, 30369</PartNumber>
+        <Description>Body tube, BT-50, 16.0 in., PN 30369</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.950</InsideDiameter>
+        <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+        <Length Unit="in">16.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-50XW, 30371</PartNumber>
+        <Description>Body tube, BT-50, 15.5 in., PN 30371</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.950</InsideDiameter>
+        <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+        <Length Unit="in">15.5</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-50KE, 30364</PartNumber>
+        <Description>Body tube, BT-50, 15.0 in., PN 30364</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.950</InsideDiameter>
+        <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+        <Length Unit="in">15.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-50N, 30367</PartNumber>
+        <Description>Body tube, BT-50, 14.0 in., PN 30367</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.950</InsideDiameter>
+        <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+        <Length Unit="in">14.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-50L, 30366</PartNumber>
+        <Description>Body tube, BT-50, 12.7 in., PN 30366</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.950</InsideDiameter>
+        <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+        <Length Unit="in">12.7</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-50_11.25in, 30381</PartNumber>
+        <Description>Body tube, BT-50, 11.25 in., PN 30381</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.950</InsideDiameter>
+        <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+        <Length Unit="in">11.25</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-50P, 30365</PartNumber>
+        <Description>Body tube, BT-50, 11 in., PN 30365</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.950</InsideDiameter>
+        <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+        <Length Unit="in">11.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-50WH, 31180</PartNumber>
+        <Description>Body tube, BT-50, white, 11 in., PN 31180</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.950</InsideDiameter>
+        <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+        <Length Unit="in">11.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-50_10.75in, 31682</PartNumber>
+        <Description>Body tube, BT-50, 10.75 in., PN 31682</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.950</InsideDiameter>
+        <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+        <Length Unit="in">10.75</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-50B, 30379</PartNumber>
+        <Description>Body tube, BT-50, 10.25 in., PN 30379</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.950</InsideDiameter>
+        <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+        <Length Unit="in">10.25</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-50A, 30456</PartNumber>
+        <Description>Body tube, BT-50, 10 in., PN 30456</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.950</InsideDiameter>
+        <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+        <Length Unit="in">10.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-50W, 30372</PartNumber>
+        <Description>Body tube, BT-50, 9.5 in., PN 30372</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.950</InsideDiameter>
+        <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+        <Length Unit="in">9.5</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-50_9.5in, 31168</PartNumber>
+        <Description>Body tube, BT-50, 9.5 in., PN 31168</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.950</InsideDiameter>
+        <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+        <Length Unit="in">9.5</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>WBT-50W, 30373</PartNumber>
+        <Description>Body tube, BT-50, white, 9.5 in., PN 30373</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.950</InsideDiameter>
+        <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+        <Length Unit="in">9.5</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-50_9.5in (yellow), 30349</PartNumber>
+        <Description>Body tube, BT-50, yellow, 9.5 in., PN 30349</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.950</InsideDiameter>
+        <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+        <Length Unit="in">9.5</Length>
+      </BodyTube>
+      <!-- ***TBD***  HBT-50 may be heavy-wall with different dimensions, fix -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>HBT-50, 31291</PartNumber>
+        <Description>Body tube, HBT-50, 9 in., PN 31291</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.950</InsideDiameter>
+        <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+        <Length Unit="in">9.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-50_9.0in (gray), 30372</PartNumber>
+        <Description>Body tube, BT-50, gray, 9 in., PN 30372</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.950</InsideDiameter>
+        <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+        <Length Unit="in">9.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-50_9.0in (black), 30351</PartNumber>
+        <Description>Body tube, BT-50, black, 9 in., PN 30351</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.950</InsideDiameter>
+        <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+        <Length Unit="in">9.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-50_8.25in, 30353</PartNumber>
+        <Description>Body tube, BT-50, 8.25 in., PN 30353</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.950</InsideDiameter>
+        <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+        <Length Unit="in">8.25</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-50H, 30360</PartNumber>
+        <Description>Body tube, BT-50, 7.75 in., PN 30360</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.950</InsideDiameter>
+        <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+        <Length Unit="in">7.75</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>PBT-50H</PartNumber>
+        <Description>Body tube, BT-50, punched, 7.75 in., no PN</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.950</InsideDiameter>
+        <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+        <Length Unit="in">7.75</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-50FE, 30359</PartNumber>
+        <Description>Body tube, BT-50, 6.5 in., PN 30359</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.950</InsideDiameter>
+        <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+        <Length Unit="in">6.5</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>WBT-50EE, 30357</PartNumber>
+        <Description>Body tube, BT-50, white, 5.5 in., PN 30357</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.950</InsideDiameter>
+        <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+        <Length Unit="in">5.5</Length>
+      </BodyTube>
+      <!-- Beige 5.5 BT-50 has same PN as white WBT-50EE -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-50_5.5in (beige), 30357</PartNumber>
+        <Description>Body tube, BT-50, beige, 5.5 in., PN 30357</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.950</InsideDiameter>
+        <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+        <Length Unit="in">5.5</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-50EE, 30382</PartNumber>
+        <Description>Body tube, BT-50, 5.5 in., PN 30382</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.950</InsideDiameter>
+        <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+        <Length Unit="in">5.5</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-50EE (red), 30380</PartNumber>
+        <Description>Body tube, BT-50, red, 5.5 in., PN 30357</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.950</InsideDiameter>
+        <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+        <Length Unit="in">5.5</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-50F, 30377</PartNumber>
+        <Description>Body tube, BT-50, 5 in., PN 30377</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.950</InsideDiameter>
+        <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+        <Length Unit="in">5.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-50_5.0in, 30415</PartNumber>
+        <Description>Body tube, BT-50, 5 in., PN 30415</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.950</InsideDiameter>
+        <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+        <Length Unit="in">5.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-50S, 30368</PartNumber>
+        <Description>Body tube, BT-50, 4 in., PN 30368</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.950</InsideDiameter>
+        <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+        <Length Unit="in">4.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-50_3.5in, 30357</PartNumber>
+        <Description>Body tube, BT-50, 3.5 in., PN 30357</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.950</InsideDiameter>
+        <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+        <Length Unit="in">3.5</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-50_3.0in, 30412</PartNumber>
+        <Description>Body tube, BT-50, 3 in., PN 30412</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.950</InsideDiameter>
+        <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+        <Length Unit="in">3.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-50J, 30362</PartNumber>
+        <Description>Body tube, BT-50, 2.75 in., PN 30362</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.950</InsideDiameter>
+        <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+        <Length Unit="in">2.75</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-50_2.5in, 30383</PartNumber>
+        <Description>Body tube, BT-50, 2.5 in., PN 30383</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.950</InsideDiameter>
+        <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+        <Length Unit="in">2.5</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-50AH, 30356</PartNumber>
+        <Description>Body tube, BT-50, 1.875 in., PN 30356</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.950</InsideDiameter>
+        <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+        <Length Unit="in">1.875</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-50_1.875in (yellow), 30356</PartNumber>
+        <Description>Body tube, BT-50, yellow, 1.875 in., PN 30356</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.950</InsideDiameter>
+        <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+        <Length Unit="in">1.875</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-50AE, 30354</PartNumber>
+        <Description>Body tube, BT-50, 1.5 in., PN 30354</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.950</InsideDiameter>
+        <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+        <Length Unit="in">1.5</Length>
+      </BodyTube>
+
+      
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>PST-50S, 30608</PartNumber>
+        <Description>Body tube, clear, PST-50, 4 in., PN 30608</Description>
+        <Material Type="BULK">Mylar, bulk</Material>
+        <InsideDiameter Unit="in">0.950</InsideDiameter>
+        <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+        <Length Unit="in">4.0</Length>
+      </BodyTube>
+
+      <!-- BT-55 -->
+      
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-55, 30382</PartNumber>
+        <Description>Body tube, BT-55, 18 in., PN 30382</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.283</InsideDiameter>
+        <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+        <Length Unit="in">18.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-55G, 30386</PartNumber>
+        <Description>Body tube, BT-55, 16.75 in., PN 30386</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.283</InsideDiameter>
+        <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+        <Length Unit="in">16.75</Length>
+      </BodyTube>
+      <!-- BT-55KG used in K-51/#1251 Sandhawk semi-scale -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-55KG, 30388</PartNumber>
+        <Description>Body tube, BT-55, 16.69 in., PN 30388</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.283</InsideDiameter>
+        <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+        <Length Unit="in">16.69</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-55V, 30392</PartNumber>
+        <Description>Body tube, BT-55, 16.35 in., PN 30392</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.283</InsideDiameter>
+        <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+        <Length Unit="in">16.35</Length>
+      </BodyTube>
+      <!-- BT-55 PN 30383 14.5" (#2115 SR-X) conflicts with PN 30383 for BT-55C 14" below -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-55_14.5in, 30383</PartNumber>
+        <Description>Body tube, BT-55, 14.5 in., PN 30383</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.283</InsideDiameter>
+        <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+        <Length Unit="in">14.5</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-55_14.125in, 30470</PartNumber>
+        <Description>Body tube, BT-55, 14.125 in., PN 30470</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.283</InsideDiameter>
+        <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+        <Length Unit="in">14.125</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-55C, 30383</PartNumber>
+        <Description>Body tube, BT-55, 14 in., PN 30383</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.283</InsideDiameter>
+        <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+        <Length Unit="in">14.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-55_13.75in, 31188</PartNumber>
+        <Description>Body tube, BT-55, 13.75 in., PN 31188</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.283</InsideDiameter>
+        <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+        <Length Unit="in">13.75</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-55_13.75in, 31188, slotted</PartNumber>
+        <Description>Body tube, BT-55, 13.75 in., slotted, SM-3 Seahawk type, PN 31188</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.283</InsideDiameter>
+        <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+        <Length Unit="in">13.75</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-55_12.5in, 30403</PartNumber>
+        <Description>Body tube, BT-55, 12.5 in., PN 30403</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.283</InsideDiameter>
+        <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+        <Length Unit="in">12.5</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-55W, 30391</PartNumber>
+        <Description>Body tube, BT-55, 12 in., PN 30391</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.283</InsideDiameter>
+        <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+        <Length Unit="in">12.00</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-55_11.25in, 31172</PartNumber>
+        <Description>Body tube, BT-55, 11.25 in., slotted, AIM-9 type, PN 31172</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.283</InsideDiameter>
+        <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+        <Length Unit="in">11.25</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-55_11.19in, 30381</PartNumber>
+        <Description>Body tube, BT-55, 11.19 in., PN 30381</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.283</InsideDiameter>
+        <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+        <Length Unit="in">11.19</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-55_11.0in, 31191</PartNumber>
+        <Description>Body tube, BT-55, 11 in., PN 31191</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.283</InsideDiameter>
+        <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+        <Length Unit="in">11.0</Length>
+      </BodyTube>
+      <!-- BT-55 PN 30374 conflicts with BT-51CI 3.875" long per Brohm -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-55_10.75in, 30374</PartNumber>
+        <Description>Body tube, BT-55, 10.75 in., PN 30374</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.283</InsideDiameter>
+        <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+        <Length Unit="in">10.75</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-55KA, 30387</PartNumber>
+        <Description>Body tube, BT-55, 10.625 in., PN 30387</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.283</InsideDiameter>
+        <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+        <Length Unit="in">10.625</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-55_10.625in, 31174</PartNumber>
+        <Description>Body tube, BT-55, 10.625 in., slotted, F-22 type, PN 31174</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.283</InsideDiameter>
+        <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+        <Length Unit="in">10.625</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-55IJ, 30384</PartNumber>
+        <Description>Body tube, BT-55, 9 in., PN 30384</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.283</InsideDiameter>
+        <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+        <Length Unit="in">9.0</Length>
+      </BodyTube>
+      <!-- Unclear how 30379 (#2184 Metor Masher) differs from 30384 BT-55IJ -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-55_9.0in, 30379</PartNumber>
+        <Description>Body tube, BT-55, 9 in., PN 30379</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.283</InsideDiameter>
+        <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+        <Length Unit="in">9.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-55_8.65in, 30375</PartNumber>
+        <Description>Body tube, BT-55, 8.65 in., PN 30375</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.283</InsideDiameter>
+        <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+        <Length Unit="in">8.65</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-55_7.5in, 31167</PartNumber>
+        <Description>Body tube, BT-55, 7.5 in., PN 31167</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.283</InsideDiameter>
+        <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+        <Length Unit="in">7.5</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-55V, 30454</PartNumber>
+        <Description>Body tube, BT-55, 7 in., PN 30454</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.283</InsideDiameter>
+        <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+        <Length Unit="in">7.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-55_6.875in, 30376</PartNumber>
+        <Description>Body tube, BT-55, 6.875 in., green, PN 30376</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.283</InsideDiameter>
+        <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+        <Length Unit="in">6.875</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-55_5.625in, 30380</PartNumber>
+        <Description>Body tube, BT-55, 5.625 in., PN 30380</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.283</InsideDiameter>
+        <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+        <Length Unit="in">5.625</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-55_4.625in, 60174</PartNumber>
+        <Description>Body tube, BT-55, 4.625 in., printed, Shuttle Xpress type 2, PN 60174</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.283</InsideDiameter>
+        <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+        <Length Unit="in">4.625</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-55_4.313in, 30391</PartNumber>
+        <Description>Body tube, BT-55, 4.313 in., PN 30391</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.283</InsideDiameter>
+        <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+        <Length Unit="in">4.313</Length>
+      </BodyTube>
+      <!-- #2183 Shuttle Xpress had two different printed BT-55 lengths -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-55_4.25in, 60368</PartNumber>
+        <Description>Body tube, BT-55, 4.25 in., printed, Shuttle Xpress type 1, PN 60368</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.283</InsideDiameter>
+        <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+        <Length Unit="in">4.625</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-55S, 30390</PartNumber>
+        <Description>Body tube, BT-55, 4 in., PN 30390</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.283</InsideDiameter>
+        <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+        <Length Unit="in">4.0</Length>
+      </BodyTube>
+      <!-- BT-55 PN 31166 is slotted for #2120 Venus Probe -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-55_4.0in, 31166</PartNumber>
+        <Description>Body tube, BT-55, 4 in., slotted, Venus Probe type, PN 31166</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.283</InsideDiameter>
+        <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+        <Length Unit="in">4.0</Length>
+      </BodyTube>
+      <!-- #2125 AIM-9 Sidewinder has 2 different lengths of slotted BT-55 -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-55_3.75in, 31173</PartNumber>
+        <Description>Body tube, BT-55, 3.75 in., slotted, AIM-9 type 2nd, PN 31173</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.283</InsideDiameter>
+        <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+        <Length Unit="in">3.75</Length>
+      </BodyTube>
+      <!-- Note "BT-55" PN 30387 duplicates PN for BT-55KA above -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-55_3.5in, 30387</PartNumber>
+        <Description>Body tube, BT-55, 3.5 in., PN 30387</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.283</InsideDiameter>
+        <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+        <Length Unit="in">3.5</Length>
+      </BodyTube>
+      <!-- BT-55 PN 30392 3.25" (#2054 Beta Launch Vehicle) conflicts with same PN for BT-55V above -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-55_3.25in, 30392</PartNumber>
+        <Description>Body tube, BT-55, 3.25 in., PN 30392</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.283</InsideDiameter>
+        <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+        <Length Unit="in">3.25</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-55J, 30386</PartNumber>
+        <Description>Body tube, BT-55, 2.75 in., PN 30386</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.283</InsideDiameter>
+        <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+        <Length Unit="in">2.75</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-55E, 30381</PartNumber>
+        <Description>Body tube, BT-55, 2.1 in., PN 30381</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.283</InsideDiameter>
+        <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+        <Length Unit="in">2.1</Length>
+      </BodyTube>
+
+      <!-- BT-56 -->
+      <!-- NOTE: BT-56 is the same as old Centuri ST-13; only slightly larger than BT-55 -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-56</PartNumber>
+        <Description>Body tube, BT-56, 18 in.</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.304</InsideDiameter>
+        <OutsideDiameter Unit="in">1.346</OutsideDiameter>
+        <Length Unit="in">18.0</Length>
+      </BodyTube>
+
+      <!-- BT-60 -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-60, 30396</PartNumber>
+        <Description>Body tube, BT-60, 18 in., PN 30396</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.595</InsideDiameter>
+        <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+        <Length Unit="in">18.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-60D, 30406</PartNumber>
+        <Description>Body tube, BT-60, 11 in., PN 30406</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.595</InsideDiameter>
+        <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+        <Length Unit="in">11.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-60K</PartNumber>
+        <Description>Body tube, BT-60, 7 in.</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.595</InsideDiameter>
+        <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+        <Length Unit="in">7.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-60R</PartNumber>
+        <Description>Body tube, BT-60, 5 in.</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.595</InsideDiameter>
+        <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+        <Length Unit="in">5.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-60J</PartNumber>
+        <Description>Body tube, BT-60, 2.75 in.</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.595</InsideDiameter>
+        <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+        <Length Unit="in">2.75</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>PST-60R</PartNumber>
+        <Description>Body tube, clear, PST-60R, 5 in.</Description>
+        <Material Type="BULK">Mylar, bulk</Material>
+        <InsideDiameter Unit="in">1.595</InsideDiameter>
+        <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+        <Length Unit="in">5.0</Length>
+      </BodyTube>
+
+      <!-- PST-65 -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>PST-65R</PartNumber>
+        <Description>Body tube, PST-65R, 5 in.</Description>
+        <Material Type="BULK">Mylar, bulk</Material>
+        <InsideDiameter Unit="in">1.595</InsideDiameter>
+        <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+        <Length Unit="in">5.0</Length>
+      </BodyTube>
+      
+
+      <!-- BT-70 -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-70, 30424</PartNumber>
+        <Description>Body Tube, BT-70, 17.5 in., PN 30424</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">2.175</InsideDiameter>
+        <OutsideDiameter Unit="in">2.217</OutsideDiameter>
+        <Length Unit="in">17.5</Length>
+      </BodyTube>
+
+      <!-- BT-80 -->
+      <!-- BT-80 (no suffix) is an oddball as it is not the longest tube in the series,
+           and has been used for multiple lengths, differentiated only by the new PN.  The
+           WBT-80x are among the first white tubes.   -->
+      <!-- BT-80KD is from #1269 Maxi Honest John, #2018 Super Big Bertha, etc. -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-80KD, 30433</PartNumber>
+        <Description>Body tube, BT-80, 14.2 in., PN 30433</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">2.560</InsideDiameter>
+        <OutsideDiameter Unit="in">2.600</OutsideDiameter>
+        <Length Unit="in">14.2</Length>
+      </BodyTube>
+      <!-- BT-80 14.2" PN 31180 is slotted, used in #1951 Executioner.  PN conflicts with
+           older BT-50WH -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-80, 31180</PartNumber>
+        <Description>Body tube, BT-80, 14.2 in., slotted, Executioner type, PN 31180</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">2.560</InsideDiameter>
+        <OutsideDiameter Unit="in">2.600</OutsideDiameter>
+        <Length Unit="in">14.2</Length>
+      </BodyTube>
+      <!-- BT-80 12" PN 30458 is from #2188 Canadian Arrow -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-80, 30458</PartNumber>
+        <Description>Body tube, BT-80, 12.0 in., PN 30458</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">2.560</InsideDiameter>
+        <OutsideDiameter Unit="in">2.600</OutsideDiameter>
+        <Length Unit="in">7.6</Length>
+      </BodyTube>
+      <!-- Per Brohm, PN of BT-80T conflicts with older BT-100D -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-80T, 30435</PartNumber>
+        <Description>Body tube, BT-80, 11.0 in., PN 30427</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">2.560</InsideDiameter>
+        <OutsideDiameter Unit="in">2.600</OutsideDiameter>
+        <Length Unit="in">11.0</Length>
+      </BodyTube>
+      <!-- BT-80 11" PN 30437 is white, used in #1380 Phoenix re-release, I give it "TW" suffix -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-80TW, 30437</PartNumber>
+        <Description>Body tube, BT-80, 11.0 in., white, PN 30437</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">2.560</InsideDiameter>
+        <OutsideDiameter Unit="in">2.600</OutsideDiameter>
+        <Length Unit="in">7.6</Length>
+      </BodyTube>
+      <!-- BT-80SV is from the #2001 Saturn V per Brohm -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-80SV, 30434</PartNumber>
+        <Description>Body tube, BT-80, 8.81 in., PN 30434</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">2.560</InsideDiameter>
+        <OutsideDiameter Unit="in">2.600</OutsideDiameter>
+        <Length Unit="in">8.81</Length>
+      </BodyTube>
+      <!-- BT-80WH from #2139 Fat Boy, ref instructions -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-80WH, 31179</PartNumber>
+        <Description>Body tube, BT-80, 8.0 in., slotted, Fat Boy type, PN 31179</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">2.560</InsideDiameter>
+        <OutsideDiameter Unit="in">2.600</OutsideDiameter>
+        <Length Unit="in">8.0</Length>
+      </BodyTube>
+      <!-- BT-80 7.6" was used in the K-36/#1236 Saturn V and #1926 V-2 -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-80_7.6in, 30432</PartNumber>
+        <Description>Body tube, BT-80, 7.6 in., PN 30432</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">2.560</InsideDiameter>
+        <OutsideDiameter Unit="in">2.600</OutsideDiameter>
+        <Length Unit="in">7.6</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-80S, 30427</PartNumber>
+        <Description>Body tube, BT-80, 4.5 in., PN 30427</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">2.560</InsideDiameter>
+        <OutsideDiameter Unit="in">2.600</OutsideDiameter>
+        <Length Unit="in">4.5</Length>
+      </BodyTube>
+      
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>WBT-80A, 30429</PartNumber>
+        <Description>Body tube, BT-80, 9.0 in., white, PN 30429</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">2.560</InsideDiameter>
+        <OutsideDiameter Unit="in">2.600</OutsideDiameter>
+        <Length Unit="in">9.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>WBT-80MA, 30431</PartNumber>
+        <Description>Body tube, BT-80, 3.22 in., white, PN 30431</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">2.560</InsideDiameter>
+        <OutsideDiameter Unit="in">2.600</OutsideDiameter>
+        <Length Unit="in">3.22</Length>
+      </BodyTube>
+
+      <!-- BT-101 -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-101, 30438</PartNumber>
+        <Description>Body tube, BT-101, 16.5 in., PN 30438</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">3.938</InsideDiameter>
+        <OutsideDiameter Unit="in">3.896</OutsideDiameter>
+        <Length Unit="in">16.5</Length>
+      </BodyTube>
+
+      <!-- Couplers (tube) All validated except JT-80C -->
+      <TubeCoupler>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>JT-5C, 30252</PartNumber>
+        <Description>Tube coupler, paper, JT-5C, PN 30252</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.455</InsideDiameter>
+        <OutsideDiameter Unit="in">0.513</OutsideDiameter>
+        <Length Unit="in">0.75</Length>
+      </TubeCoupler>
+      <TubeCoupler>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>JT-20C, 30254</PartNumber>
+        <Description>Tube coupler, paper, JT-20C, PN 30254</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.650</InsideDiameter>
+        <OutsideDiameter Unit="in">0.708</OutsideDiameter>
+        <Length Unit="in">0.75</Length>
+      </TubeCoupler>
+      <TubeCoupler>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>JT-30C, 30256</PartNumber>
+        <Description>Tube coupler, paper, JT-30C, PN 30256</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.650</InsideDiameter>
+        <OutsideDiameter Unit="in">0.724</OutsideDiameter>
+        <Length Unit="in">0.75</Length>
+      </TubeCoupler>
+      <TubeCoupler>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>JT-50C, 30260</PartNumber>
+        <Description>Tube coupler, paper, JT-50C, PN 30260</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.920</InsideDiameter>
+        <OutsideDiameter Unit="in">0.949</OutsideDiameter>
+        <Length Unit="in">1.0</Length>
+      </TubeCoupler>
+      <TubeCoupler>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>JT-55C, 30262</PartNumber>
+        <Description>Tube coupler, paper, JT-55C, PN 30262</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.25</InsideDiameter>
+        <OutsideDiameter Unit="in">1.28</OutsideDiameter>
+        <Length Unit="in">1.25</Length>
+      </TubeCoupler>
+      <TubeCoupler>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>JT-60C, 30266</PartNumber>
+        <Description>Tube coupler, paper, JT-60C, PN 30266</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.55</InsideDiameter>
+        <OutsideDiameter Unit="in">1.59</OutsideDiameter>
+        <Length Unit="in">1.5</Length>
+      </TubeCoupler>
+      <TubeCoupler>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>JT-70A, 30270</PartNumber>
+        <Description>Tube coupler, paper, JT-70A, PN 30270</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">2.115</InsideDiameter>
+        <OutsideDiameter Unit="in">2.175</OutsideDiameter>
+        <Length Unit="in">1.25</Length>
+      </TubeCoupler>
+      <TubeCoupler>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>JT-80C</PartNumber>
+        <Description>Tube coupler, paper, JT-80C</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">2.470</InsideDiameter>
+        <OutsideDiameter Unit="in">2.55</OutsideDiameter>
+        <Length Unit="in">3.0</Length>
+      </TubeCoupler>
+
+      <!-- Couplers (balsa) all validated -->
+      <TubeCoupler>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>NB-20, 70152</PartNumber>
+        <Description>Tube coupler, balsa, NB-20, PN 70152</Description>
+        <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+        <InsideDiameter Unit="in">0.0</InsideDiameter>
+        <OutsideDiameter Unit="in">0.710</OutsideDiameter>
+        <Length Unit="in">0.75</Length>
+      </TubeCoupler>
+      <TubeCoupler>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>NB-30, 70156</PartNumber>
+        <Description>Tube coupler, balsa, NB-30, PN 70156</Description>
+        <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+        <InsideDiameter Unit="in">0.0</InsideDiameter>
+        <OutsideDiameter Unit="in">0.725</OutsideDiameter>
+        <Length Unit="in">0.75</Length>
+      </TubeCoupler>
+      <TubeCoupler>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>NB-50, 70158</PartNumber>
+        <Description>Tube coupler, balsa, NB-50, PN 70158</Description>
+        <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+        <InsideDiameter Unit="in">0.0</InsideDiameter>
+        <OutsideDiameter Unit="in">0.950</OutsideDiameter>
+        <Length Unit="in">1.0</Length>
+      </TubeCoupler>
+      <TubeCoupler>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>NB-55, 70162</PartNumber>
+        <Description>Tube coupler, balsa, NB-55, PN 70162</Description>
+        <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+        <InsideDiameter Unit="in">0.0</InsideDiameter>
+        <OutsideDiameter Unit="in">1.283</OutsideDiameter>
+        <Length Unit="in">1.25</Length>
+      </TubeCoupler>
+      <TubeCoupler>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>NB-60, 70164</PartNumber>
+        <Description>Tube coupler, balsa, NB-60, PN 70164</Description>
+        <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+        <InsideDiameter Unit="in">0.0</InsideDiameter>
+        <OutsideDiameter Unit="in">1.595</OutsideDiameter>
+        <Length Unit="in">1.5</Length>
+      </TubeCoupler>
+      
+      <!-- Engine Blocks -->
+      <!-- EB-5 and EB-50 are missing -->
+        <EngineBlock>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>EB-20A, 3132</PartNumber>
+            <Description>Engine Block, BT-20, 0.25 in len, PN 3132</Description>
+            <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+            <InsideDiameter Unit="in">0.65</InsideDiameter>
+            <OutsideDiameter Unit="in">0.708</OutsideDiameter>
+            <Length Unit="in">0.25</Length>
+        </EngineBlock>
+        <EngineBlock>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>EB-20B, 3134</PartNumber>
+            <Description>Engine Block, BT-20, 0.125 in len, PN 3134</Description>
+            <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+            <InsideDiameter Unit="in">0.65</InsideDiameter>
+            <OutsideDiameter Unit="in">0.708</OutsideDiameter>
+            <Length Unit="in">0.125</Length>
+        </EngineBlock>
+        <EngineBlock>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>EB-30A, 3136</PartNumber>
+            <Description>Engine Block, BT-30, 0.25 in len, PN 3136</Description>
+            <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+            <InsideDiameter Unit="in">0.65</InsideDiameter>
+            <OutsideDiameter Unit="in">0.724</OutsideDiameter>
+            <Length Unit="in">0.25</Length>
+        </EngineBlock>
+
+      <!-- Transitions (balsa) -->
+      <!-- Two versions are given for each part -->
+      <!-- Normal version has fore diameter smaller than aft diameter -->
+      <!-- [R] means a reducer, fore diameter is larger than aft diameter -->
+        <Transition>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>BNC-80K [R]</PartNumber>
+            <Description>Tail cone, balsa, reducing</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Shape>OGIVE</Shape>
+            <ForeOutsideDiameter Unit="m">0.067056</ForeOutsideDiameter>
+            <ForeShoulderDiameter Unit="m">0.064973</ForeShoulderDiameter>
+            <ForeShoulderLength Unit="m">0.0254</ForeShoulderLength>
+            <AftOutsideDiameter Unit="m">0.03175</AftOutsideDiameter>
+            <AftShoulderDiameter Unit="m">0.0</AftShoulderDiameter>
+            <AftShoulderLength Unit="m">0.0</AftShoulderLength>
+            <Length Unit="m">0.1524</Length>
+            <Thickness Unit="m">0.003175</Thickness>
+        </Transition>
+        <Transition>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>TA-520, 70002</PartNumber>
+            <Description>Transition, balsa, TA-520, increasing, PN 70002</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Shape>CONICAL</Shape>
+            <Filled>true</Filled>
+            <ForeOutsideDiameter Unit="in">0.541</ForeOutsideDiameter>
+            <ForeShoulderDiameter Unit="in">0.515</ForeShoulderDiameter>
+            <ForeShoulderLength Unit="in">0.5</ForeShoulderLength>
+            <AftOutsideDiameter Unit="in">0.736</AftOutsideDiameter>
+            <AftShoulderDiameter Unit="in">0.710</AftShoulderDiameter>
+            <AftShoulderLength Unit="in">0.5</AftShoulderLength>
+            <Length Unit="in">0.75</Length>
+        </Transition>
+        <Transition>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>TA-520 [R], 70002</PartNumber>
+            <Description>Transition, balsa, TA-520, reducing, PN 70002</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Shape>CONICAL</Shape>
+            <Filled>true</Filled>
+            <ForeOutsideDiameter Unit="in">0.736</ForeOutsideDiameter>
+            <ForeShoulderDiameter Unit="in">0.710</ForeShoulderDiameter>
+            <ForeShoulderLength Unit="in">0.5</ForeShoulderLength>
+            <AftOutsideDiameter Unit="in">0.541</AftOutsideDiameter>
+            <AftShoulderDiameter Unit="in">0.515</AftShoulderDiameter>
+            <AftShoulderLength Unit="in">0.5</AftShoulderLength>
+            <Length Unit="in">0.75</Length>
+        </Transition>
+        
+        <Transition>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>TA-550, 70004</PartNumber>
+            <Description>Transition, balsa, TA-550, increasing, PN 70004</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Shape>CONICAL</Shape>
+            <Filled>true</Filled>
+            <ForeOutsideDiameter Unit="in">0.541</ForeOutsideDiameter>
+            <ForeShoulderDiameter Unit="in">0.515</ForeShoulderDiameter>
+            <ForeShoulderLength Unit="in">0.6</ForeShoulderLength>
+            <AftOutsideDiameter Unit="in">0.976</AftOutsideDiameter>
+            <AftShoulderDiameter Unit="in">0.950</AftShoulderDiameter>
+            <AftShoulderLength Unit="in">0.6</AftShoulderLength>
+            <Length Unit="in">1.0</Length>
+        </Transition>
+        <Transition>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>TA-550 [R], 70004</PartNumber>
+            <Description>Transition, balsa, TA-550, reducing, PN 70004</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Shape>CONICAL</Shape>
+            <Filled>true</Filled>
+            <ForeOutsideDiameter Unit="in">0.976</ForeOutsideDiameter>
+            <ForeShoulderDiameter Unit="in">0.950</ForeShoulderDiameter>
+            <ForeShoulderLength Unit="in">0.6</ForeShoulderLength>
+            <AftOutsideDiameter Unit="in">0.541</AftOutsideDiameter>
+            <AftShoulderDiameter Unit="in">0.515</AftShoulderDiameter>
+            <AftShoulderLength Unit="in">0.6</AftShoulderLength>
+            <Length Unit="in">1.0</Length>
+        </Transition>
+
+        <Transition>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>TA-2050A, 70008</PartNumber>
+            <Description>Transition, balsa, TA-2050A, increasing, PN 70008</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Shape>CONICAL</Shape>
+            <Filled>true</Filled>
+            <ForeOutsideDiameter Unit="in">0.736</ForeOutsideDiameter>
+            <ForeShoulderDiameter Unit="in">0.710</ForeShoulderDiameter>
+            <ForeShoulderLength Unit="in">0.5</ForeShoulderLength>
+            <AftOutsideDiameter Unit="in">0.976</AftOutsideDiameter>
+            <AftShoulderDiameter Unit="in">0.950</AftShoulderDiameter>
+            <AftShoulderLength Unit="in">0.5</AftShoulderLength>
+            <Length Unit="in">1.0</Length>
+        </Transition>
+        <Transition>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>TA-2050A [R], 70008</PartNumber>
+            <Description>Transition, balsa, TA-2050A, reducing, PN 70008</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Shape>CONICAL</Shape>
+            <Filled>true</Filled>
+            <ForeOutsideDiameter Unit="in">0.976</ForeOutsideDiameter>
+            <ForeShoulderDiameter Unit="in">0.950</ForeShoulderDiameter>
+            <ForeShoulderLength Unit="in">0.5</ForeShoulderLength>
+            <AftOutsideDiameter Unit="in">0.736</AftOutsideDiameter>
+            <AftShoulderDiameter Unit="in">0.710</AftShoulderDiameter>
+            <AftShoulderLength Unit="in">0.5</AftShoulderLength>
+            <Length Unit="in">1.0</Length>
+        </Transition>
+
+        <Transition>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>TA-2055, 70010</PartNumber>
+            <Description>Transition, balsa, TA-2055, increasing, PN 70010</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Shape>CONICAL</Shape>
+            <Filled>true</Filled>
+            <ForeOutsideDiameter Unit="in">0.736</ForeOutsideDiameter>
+            <ForeShoulderDiameter Unit="in">0.710</ForeShoulderDiameter>
+            <ForeShoulderLength Unit="in">0.5</ForeShoulderLength>
+            <AftOutsideDiameter Unit="in">1.325</AftOutsideDiameter>
+            <AftShoulderDiameter Unit="in">1.283</AftShoulderDiameter>
+            <AftShoulderLength Unit="in">0.5</AftShoulderLength>
+            <Length Unit="in">1.5</Length>
+        </Transition>
+        <Transition>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>TA-2055 [R], 70010</PartNumber>
+            <Description>Transition, balsa, TA-2055, reducing, PN 70010</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Shape>CONICAL</Shape>
+            <Filled>true</Filled>
+            <ForeOutsideDiameter Unit="in">1.325</ForeOutsideDiameter>
+            <ForeShoulderDiameter Unit="in">1.283</ForeShoulderDiameter>
+            <ForeShoulderLength Unit="in">0.5</ForeShoulderLength>
+            <AftOutsideDiameter Unit="in">0.736</AftOutsideDiameter>
+            <AftShoulderDiameter Unit="in">0.710</AftShoulderDiameter>
+            <AftShoulderLength Unit="in">0.5</AftShoulderLength>
+            <Length Unit="in">1.5</Length>
+        </Transition>
+
+        <Transition>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>TA-2060, 70012</PartNumber>
+            <Description>Transition, balsa, TA-2060, increasing, PN 70012</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Shape>CONICAL</Shape>
+            <Filled>true</Filled>
+            <ForeOutsideDiameter Unit="in">0.736</ForeOutsideDiameter>
+            <ForeShoulderDiameter Unit="in">0.710</ForeShoulderDiameter>
+            <ForeShoulderLength Unit="in">0.5</ForeShoulderLength>
+            <AftOutsideDiameter Unit="in">1.637</AftOutsideDiameter>
+            <AftShoulderDiameter Unit="in">1.595</AftShoulderDiameter>
+            <AftShoulderLength Unit="in">0.5</AftShoulderLength>
+            <Length Unit="in">2.0</Length>
+        </Transition>
+        <Transition>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>TA-2060 [R], 70012</PartNumber>
+            <Description>Transition, balsa, TA-2060, reducing, PN 70012</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Shape>CONICAL</Shape>
+            <Filled>true</Filled>
+            <ForeOutsideDiameter Unit="in">1.637</ForeOutsideDiameter>
+            <ForeShoulderDiameter Unit="in">1.595</ForeShoulderDiameter>
+            <ForeShoulderLength Unit="in">0.5</ForeShoulderLength>
+            <AftOutsideDiameter Unit="in">0.736</AftOutsideDiameter>
+            <AftShoulderDiameter Unit="in">0.710</AftShoulderDiameter>
+            <AftShoulderLength Unit="in">0.5</AftShoulderLength>
+            <Length Unit="in">2.0</Length>
+        </Transition>
+
+        <Transition>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>TA-5055, 70014</PartNumber>
+            <Description>Transition, balsa, TA-5055, increasing, PN 70014</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Shape>CONICAL</Shape>
+            <Filled>true</Filled>
+            <ForeOutsideDiameter Unit="in">0.976</ForeOutsideDiameter>
+            <ForeShoulderDiameter Unit="in">0.950</ForeShoulderDiameter>
+            <ForeShoulderLength Unit="in">0.5</ForeShoulderLength>
+            <AftOutsideDiameter Unit="in">1.325</AftOutsideDiameter>
+            <AftShoulderDiameter Unit="in">1.283</AftShoulderDiameter>
+            <AftShoulderLength Unit="in">0.5</AftShoulderLength>
+            <Length Unit="in">1.0</Length>
+        </Transition>
+        <Transition>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>TA-5055 [R], 70014</PartNumber>
+            <Description>Transition, balsa, TA-5055, reducing, PN 70014</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Shape>CONICAL</Shape>
+            <Filled>true</Filled>
+            <ForeOutsideDiameter Unit="in">1.325</ForeOutsideDiameter>
+            <ForeShoulderDiameter Unit="in">1.283</ForeShoulderDiameter>
+            <ForeShoulderLength Unit="in">0.5</ForeShoulderLength>
+            <AftOutsideDiameter Unit="in">0.976</AftOutsideDiameter>
+            <AftShoulderDiameter Unit="in">0.950</AftShoulderDiameter>
+            <AftShoulderLength Unit="in">0.5</AftShoulderLength>
+            <Length Unit="in">1.0</Length>
+        </Transition>
+
+        <Transition>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>TA-5050, 70016</PartNumber>
+            <Description>Transition, balsa, TA-5060, increasing, PN 70016</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Shape>CONICAL</Shape>
+            <Filled>true</Filled>
+            <ForeOutsideDiameter Unit="in">0.976</ForeOutsideDiameter>
+            <ForeShoulderDiameter Unit="in">0.950</ForeShoulderDiameter>
+            <ForeShoulderLength Unit="in">0.5</ForeShoulderLength>
+            <AftOutsideDiameter Unit="in">1.637</AftOutsideDiameter>
+            <AftShoulderDiameter Unit="in">1.595</AftShoulderDiameter>
+            <AftShoulderLength Unit="in">0.5</AftShoulderLength>
+            <Length Unit="in">2.0</Length>
+        </Transition>
+        <Transition>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>TA-5060 [R], 70016</PartNumber>
+            <Description>Transition, balsa, TA-5060, reducing, PN 70016</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Shape>CONICAL</Shape>
+            <Filled>true</Filled>
+            <ForeOutsideDiameter Unit="in">1.637</ForeOutsideDiameter>
+            <ForeShoulderDiameter Unit="in">1.595</ForeShoulderDiameter>
+            <ForeShoulderLength Unit="in">0.5</ForeShoulderLength>
+            <AftOutsideDiameter Unit="in">0.976</AftOutsideDiameter>
+            <AftShoulderDiameter Unit="in">0.950</AftShoulderDiameter>
+            <AftShoulderLength Unit="in">0.5</AftShoulderLength>
+            <Length Unit="in">2.0</Length>
+        </Transition>
+
+        <Transition>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>TA-5065, 70020</PartNumber>
+            <Description>Transition, balsa, TA-5065, increasing, PN 70020</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Shape>CONICAL</Shape>
+            <Filled>true</Filled>
+            <ForeOutsideDiameter Unit="in">0.976</ForeOutsideDiameter>
+            <ForeShoulderDiameter Unit="in">0.950</ForeShoulderDiameter>
+            <ForeShoulderLength Unit="in">0.5</ForeShoulderLength>
+            <AftOutsideDiameter Unit="in">1.796</AftOutsideDiameter>
+            <AftShoulderDiameter Unit="in">1.750</AftShoulderDiameter>
+            <AftShoulderLength Unit="in">0.5</AftShoulderLength>
+            <Length Unit="in">2.0</Length>
+        </Transition>
+        <Transition>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>TA-5065 [R], 70020</PartNumber>
+            <Description>Transition, balsa, TA-5065, reducing, PN 70020</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Shape>CONICAL</Shape>
+            <Filled>true</Filled>
+            <ForeOutsideDiameter Unit="in">1.796</ForeOutsideDiameter>
+            <ForeShoulderDiameter Unit="in">1.750</ForeShoulderDiameter>
+            <ForeShoulderLength Unit="in">0.5</ForeShoulderLength>
+            <AftOutsideDiameter Unit="in">0.976</AftOutsideDiameter>
+            <AftShoulderDiameter Unit="in">0.950</AftShoulderDiameter>
+            <AftShoulderLength Unit="in">0.5</AftShoulderLength>
+            <Length Unit="in">2.0</Length>
+        </Transition>
+
+        <Transition>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>TA-5560, 70028</PartNumber>
+            <Description>Transition, balsa, TA-5560, increasing, PN 70028</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Shape>CONICAL</Shape>
+            <Filled>true</Filled>
+            <ForeOutsideDiameter Unit="in">1.325</ForeOutsideDiameter>
+            <ForeShoulderDiameter Unit="in">1.283</ForeShoulderDiameter>
+            <ForeShoulderLength Unit="in">0.6</ForeShoulderLength>
+            <AftOutsideDiameter Unit="in">1.637</AftOutsideDiameter>
+            <AftShoulderDiameter Unit="in">1.595</AftShoulderDiameter>
+            <AftShoulderLength Unit="in">0.6</AftShoulderLength>
+            <Length Unit="in">1.0</Length>
+        </Transition>
+        <Transition>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>TA-5560 [R], 70028</PartNumber>
+            <Description>Transition, balsa, TA-5560, reducing, PN 70028</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Shape>CONICAL</Shape>
+            <Filled>true</Filled>
+            <ForeOutsideDiameter Unit="in">1.637</ForeOutsideDiameter>
+            <ForeShoulderDiameter Unit="in">1.595</ForeShoulderDiameter>
+            <ForeShoulderLength Unit="in">0.6</ForeShoulderLength>
+            <AftOutsideDiameter Unit="in">1.325</AftOutsideDiameter>
+            <AftShoulderDiameter Unit="in">1.283</AftShoulderDiameter>
+            <AftShoulderLength Unit="in">0.6</AftShoulderLength>
+            <Length Unit="in">1.0</Length>
+        </Transition>
+
+        <Transition>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>TA-5565, 70030</PartNumber>
+            <Description>Transition, balsa, TA-5565, increasing, PN 70030</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Shape>CONICAL</Shape>
+            <Filled>true</Filled>
+            <ForeOutsideDiameter Unit="in">1.325</ForeOutsideDiameter>
+            <ForeShoulderDiameter Unit="in">1.283</ForeShoulderDiameter>
+            <ForeShoulderLength Unit="in">0.6</ForeShoulderLength>
+            <AftOutsideDiameter Unit="in">1.796</AftOutsideDiameter>
+            <AftShoulderDiameter Unit="in">1.750</AftShoulderDiameter>
+            <AftShoulderLength Unit="in">0.6</AftShoulderLength>
+            <Length Unit="in">1.5</Length>
+        </Transition>
+        <Transition>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>TA-5565 [R], 70030</PartNumber>
+            <Description>Transition, balsa, TA-5565, reducing, PN 70030</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Shape>CONICAL</Shape>
+            <Filled>true</Filled>
+            <ForeOutsideDiameter Unit="in">1.796</ForeOutsideDiameter>
+            <ForeShoulderDiameter Unit="in">1.750</ForeShoulderDiameter>
+            <ForeShoulderLength Unit="in">0.6</ForeShoulderLength>
+            <AftOutsideDiameter Unit="in">1.325</AftOutsideDiameter>
+            <AftShoulderDiameter Unit="in">1.283</AftShoulderDiameter>
+            <AftShoulderLength Unit="in">0.6</AftShoulderLength>
+            <Length Unit="in">1.5</Length>
+        </Transition>
+
+        <Transition>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>TA-6065, 70032</PartNumber>
+            <Description>Transition, balsa, TA-6065, increasing, PN 70032</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Shape>CONICAL</Shape>
+            <Filled>true</Filled>
+            <ForeOutsideDiameter Unit="in">1.637</ForeOutsideDiameter>
+            <ForeShoulderDiameter Unit="in">1.595</ForeShoulderDiameter>
+            <ForeShoulderLength Unit="in">0.75</ForeShoulderLength>
+            <AftOutsideDiameter Unit="in">1.796</AftOutsideDiameter>
+            <AftShoulderDiameter Unit="in">1.750</AftShoulderDiameter>
+            <AftShoulderLength Unit="in">0.75</AftShoulderLength>
+            <Length Unit="in">0.5</Length>
+        </Transition>
+        <Transition>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>TA-6065 [R], 70032</PartNumber>
+            <Description>Transition, balsa, TA-6065, reducing, PN 70032</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Shape>CONICAL</Shape>
+            <Filled>true</Filled>
+            <ForeOutsideDiameter Unit="in">1.796</ForeOutsideDiameter>
+            <ForeShoulderDiameter Unit="in">1.750</ForeShoulderDiameter>
+            <ForeShoulderLength Unit="in">0.75</ForeShoulderLength>
+            <AftOutsideDiameter Unit="in">1.637</AftOutsideDiameter>
+            <AftShoulderDiameter Unit="in">1.595</AftShoulderDiameter>
+            <AftShoulderLength Unit="in">0.75</AftShoulderLength>
+            <Length Unit="in">0.5</Length>
+        </Transition>
+
+        <Transition>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>TA-6070, 70034</PartNumber>
+            <Description>Transition, balsa, TA-6070, increasing, PN 70034</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Shape>CONICAL</Shape>
+            <Filled>true</Filled>
+            <ForeOutsideDiameter Unit="in">1.637</ForeOutsideDiameter>
+            <ForeShoulderDiameter Unit="in">1.595</ForeShoulderDiameter>
+            <ForeShoulderLength Unit="in">0.6</ForeShoulderLength>
+            <AftOutsideDiameter Unit="in">2.217</AftOutsideDiameter>
+            <AftShoulderDiameter Unit="in">2.175</AftShoulderDiameter>
+            <AftShoulderLength Unit="in">0.6</AftShoulderLength>
+            <Length Unit="in">1.5</Length>
+        </Transition>
+        <Transition>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>TA-6070 [R], 70034</PartNumber>
+            <Description>Transition, balsa, TA-6070, reducing, PN 70034</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Shape>CONICAL</Shape>
+            <Filled>true</Filled>
+            <ForeOutsideDiameter Unit="in">2.217</ForeOutsideDiameter>
+            <ForeShoulderDiameter Unit="in">2.175</ForeShoulderDiameter>
+            <ForeShoulderLength Unit="in">0.6</ForeShoulderLength>
+            <AftOutsideDiameter Unit="in">1.637</AftOutsideDiameter>
+            <AftShoulderDiameter Unit="in">1.595</AftShoulderDiameter>
+            <AftShoulderLength Unit="in">0.6</AftShoulderLength>
+            <Length Unit="in">1.5</Length>
+        </Transition>
+
+      <!-- Transitions (plastic) -->
+
+
+        <!-- Nose cones (balsa)
+             ***TODO*** get rid of mass overrides? Need to determine average Estes  balsa density
+             This list is still not complete, but much better than the stock OpenRocket data file.
+             There is an OpenRocket research spreadsheet giving a source of "13.09.1" for much of the PNC info
+             But there are obvious mistakes and blanks in this
+             The best existing reference is Brohm's list: www.rocketshoppe.com/info/Estes_Nose_Cone_Reference_10.1.pdf
+             This lists all cones *used in kits* by numeric PN, traditional part num, and kit usage, but has no
+             dimensions or mass info.  It fails to list nose cones that were sold in the catalog but never used in a kit,
+             such as BNC-55AA, BNC-10B, and multiple BNC-30XX.  There are numerous errors but it's a great start.
+
+             BNC-5AW PN 070206 (Star Dart only), no dimensions available
+             BNC-5AX PN 070208 (Screamer/Javelin), no dimensions
+             BNC-5BA PN 070210 (Mini-BOMARC and #1220 Mars Snooper), no dimensions available
+             xxxxxxx PN 070217 (Red Alert #0893 only), balsa NC, no dimensions available, no traditional PN
+             BNC-50xx
+             BNC-50AR (old Starship Vega #0653 only), no official dimensions available, spacemodeling.com
+             only has plans of newer version #1320 with PNC-
+             BNC-50BA (old Bomarc #0657 only), no dimensions available
+        -->
+
+        <!-- BNC-5E, 0.020 oz -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>BNC-5E, 70212</PartNumber>
+            <Description>Nose cone, balse, BNC-5E, PN 70212</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Filled>true</Filled>
+            <Shape>PARABOLIC</Shape>
+            <OutsideDiameter Unit="in">0.541</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.515</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.25</ShoulderLength>
+            <Length Unit="in">1.375</Length>
+        </NoseCone>
+        <!-- BNC-5S, 0.016 oz -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>BNC-5S, 70214</PartNumber>
+            <Description>Nose cone, balsa, BNC-5S, PN 70214</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Filled>true</Filled>
+            <Shape>CONICAL</Shape>
+            <OutsideDiameter Unit="in">0.541</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.515</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.25</ShoulderLength>
+            <Length Unit="in">1.5</Length>
+        </NoseCone>
+        <!-- BNC-5V, 0.013 oz -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>BNC-5V, 70216</PartNumber>
+            <Description>Nose cone, balsa, BNC-5V, PN 70216</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Filled>true</Filled>
+            <Shape>PARABOLIC</Shape>
+            <OutsideDiameter Unit="in">0.541</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.515</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.25</ShoulderLength>
+            <Length Unit="in">0.75</Length>
+        </NoseCone>
+        <!-- BNC-5W, 0.039 oz -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>BNC-5W, 70218</PartNumber>
+            <Description>Nose cone, balsa, BNC-5W, PN 70218</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Filled>true</Filled>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">0.541</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.515</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.25</ShoulderLength>
+            <Length Unit="in">2.875</Length>
+        </NoseCone>
+
+        <!-- BNC-10xx -->
+        <!-- Note that the stated OD of the BNC-10xx (see 1975 cat) of .728 is different than the
+             given OD of 0.720 for the BT-10 mylar tubes.  This is real; the nose cones were
+             slightly oversized for the tubes -->
+
+        <!-- BNC-10A, 0.03 oz -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>BNC-10A, 70220</PartNumber>
+            <Description>Nose cone, balsa, BNC-10A, PN 70220</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Filled>true</Filled>
+            <Shape>PARABOLIC</Shape>
+            <OutsideDiameter Unit="in">0.728</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.25</ShoulderLength>
+            <Length Unit="in">0.812</Length>
+        </NoseCone>
+        <!-- BNC-10B not known to have ever been used in any Estes kit, 0.05 oz -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>BNC-10B, 70222</PartNumber>
+            <Description>Nose cone, balsa, BNC-10B, PN 70222</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Filled>true</Filled>
+            <Shape>PARABOLIC</Shape>
+            <OutsideDiameter Unit="in">0.728</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.312</ShoulderLength>
+            <Length Unit="in">1.687</Length>
+        </NoseCone>
+
+        <!-- BNC-20xx -->
+        <!-- BNC-20CB 70231 (#1279 Nike-Ajax), no dimensions available -->
+
+        <!-- BNC-20A (K-7 Phantom, K-13 Falcon) ref 1975 catalog, 0.03 oz -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>BNC-20A, 70224</PartNumber>
+            <Description>Nose cone, balsa, BNC-20A, PN 70224</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Mass Unit="oz">0.03</Mass>
+            <Filled>true</Filled>
+            <Shape>PARABOLIC</Shape>
+            <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.25</ShoulderLength>
+            <Length Unit="in">0.812</Length>
+        </NoseCone>
+        <!-- BNC-20AM (K-53 Stinger etc) ref 1988 catalog, 0.06 oz -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>BNC-20AM, 70226</PartNumber>
+            <Description>Nose cone, balsa, BNC-20AM, PN 70226</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Mass Unit="oz">0.06</Mass>
+            <Filled>true</Filled>
+            <Shape>PARABOLIC</Shape>
+            <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.50</ShoulderLength>
+            <Length Unit="in">2.00</Length>
+        </NoseCone>
+        <!-- BNC-20AZ (#2033 Trident II etc.), ref balsamachining.com classic part -->
+        <!-- Note BMS drawing shows 2.4 in length but gives length incorrectly in a note as 1.25 -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>BNC-20AZ, 70288</PartNumber>
+            <Description>Nose cone, balsa, BNC-20AZ, PN 70288</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Mass Unit="oz">0.06</Mass>
+            <Filled>true</Filled>
+            <Shape>PARABOLIC</Shape>
+            <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.50</ShoulderLength>
+            <Length Unit="in">2.4</Length>
+        </NoseCone>
+        <!-- BNC-20B (K-5 Apogee II etc.) ref 1988 catalog, 0.05 oz -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>BNC-20B, 70230</PartNumber>
+            <Description>Nose cone, balsa, BNC-20B, PN 70230</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Mass Unit="oz">0.05</Mass>
+            <Filled>true</Filled>
+            <Shape>PARABOLIC</Shape>
+            <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.312</ShoulderLength>
+            <Length Unit="in">1.687</Length>
+        </NoseCone>
+        <!-- BNC-20L 70234 (Mini-Bertha #0803c only), dimensions from balsamachining.com, no mass given -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>BNC-20L, 70234</PartNumber>
+            <Description>Nose cone, balsa, BNC-20L, PN 70234, Mini-Bertha</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Filled>true</Filled>
+            <Shape>PARABOLIC</Shape>
+            <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.50</ShoulderLength>
+            <Length Unit="in">1.40</Length>
+        </NoseCone>
+        <!-- BNC-20N 70236 ref 1975 catalog, 0.08 oz -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>BNC-20N, 70236</PartNumber>
+            <Description>Nose cone, balsa, BNC-20N, PN 70236</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Mass Unit="oz">0.08</Mass>
+            <Filled>true</Filled>
+            <Shape>PARABOLIC</Shape>
+            <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.50</ShoulderLength>
+            <Length Unit="in">2.75</Length>
+        </NoseCone>
+        <!-- BNC-20P 70238 (Spaceman only), shape PARABOLIC is approximation, 0.07 oz -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>BNC-20P, 70238</PartNumber>
+            <Description>Nose cone, balsa, BNC-20P, PN 70238, Spaceman type</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Mass Unit="oz">0.07</Mass>
+            <Filled>true</Filled>
+            <Shape>PARABOLIC</Shape>
+            <OutsideDiameter Unit="in">0.90</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.437</ShoulderLength>
+            <Length Unit="in">1.312</Length>
+        </NoseCone>
+        <!-- BNC-20R 70240 ref 1975 catalog, 0.07 oz -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>BNC-20R, 70240</PartNumber>
+            <Description>Nose cone, balsa, BNC-20R, PN 70240</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Mass Unit="oz">0.07</Mass>
+            <Filled>true</Filled>
+            <Shape>CONICAL</Shape>
+            <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.711</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.375</ShoulderLength>
+            <Length Unit="in">2.75</Length>
+        </NoseCone>
+        <!-- BNC-20Y 70241 (Yankee #1381 only) ref 1988 catalog, 0.02 oz -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>BNC-20Y, 70241</PartNumber>
+            <Description>Nose cone, balsa, BNC-20Y, PN 70241</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Mass Unit="oz">0.02</Mass>
+            <Filled>true</Filled>
+            <Shape>CONICAL</Shape>
+            <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.375</ShoulderLength>
+            <Length Unit="in">1.0</Length>
+        </NoseCone>
+
+        <!-- BNC-30XX -->
+        <!-- Some of the BNC-30xx were never used in kits according to the rocketshoppe index -->
+        <!-- BNC-30C 70242 ref 1975 catalog -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>BNC-30C, 70242</PartNumber>
+            <Description>Nose cone, balsa, BNC-30C, PN 70242</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Mass Unit="oz">0.04</Mass>
+            <Filled>true</Filled>
+            <Shape>PARABOLIC</Shape>
+            <OutsideDiameter Unit="in">0.767</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.725</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.375</ShoulderLength>
+            <Length Unit="in">0.75</Length>
+        </NoseCone>
+        <!-- BNC-30D 70244 ref 1975 catalog -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>BNC-30D, 70244</PartNumber>
+            <Description>Nose cone, balsa, BNC-30D, PN 70244</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Mass Unit="oz">0.06</Mass>
+            <Filled>true</Filled>
+            <Shape>PARABOLIC</Shape>
+            <OutsideDiameter Unit="in">0.767</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.725</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.375</ShoulderLength>
+            <Length Unit="in">1.5</Length>
+        </NoseCone>
+        <!-- BNC-30E 70246 ref 1975 catalog -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>BNC-30E, 70246</PartNumber>
+            <Description>Nose cone, balsa, BNC-30E, PN 70246</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Mass Unit="oz">0.07</Mass>
+            <Filled>true</Filled>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">0.767</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.725</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.437</ShoulderLength>
+            <Length Unit="in">2.187</Length>
+        </NoseCone>
+        <!-- BNC-30M 70248 ref 1975 catalog -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>BNC-30M, 70248</PartNumber>
+            <Description>Nose cone, balsa, BNC-30M, PN 70248</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Mass Unit="oz">0.06</Mass>
+            <Filled>true</Filled>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">0.767</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.725</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.500</ShoulderLength>
+            <Length Unit="in">1.5</Length>
+        </NoseCone>
+        <!-- BNC-30N 70250 ref 1975 catalog -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>BNC-30N, 70250</PartNumber>
+            <Description>Nose cone, balsa, BNC-30N, PN 70250</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Mass Unit="oz">0.08</Mass>
+            <Filled>true</Filled>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">0.767</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.725</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.50</ShoulderLength>
+            <Length Unit="in">2.75</Length>
+        </NoseCone>
+
+        <!-- BNC-50AD 70252 ref 1975 catalog, shape PARABOLIC is approximation -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>BNC-50AD, 70252</PartNumber>
+            <Description>Nose cone, balsa, BNC-50AD, PN 70252, Honest John type</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Mass Unit="oz">0.25</Mass>
+            <Filled>true</Filled>
+            <Shape>PARABOLIC</Shape>
+            <OutsideDiameter Unit="in">1.30</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.5</ShoulderLength>
+            <Length Unit="in">4.062</Length>
+        </NoseCone>
+        <!-- BNC-50BC (Wolverine #0816 etc.), no official dimensions available. Ramjet style cone a la BOMARC pods
+             Scaling from scans on spacemodeling.com, total length is 2.7 in, and length of the ramjet
+             cone is 0.5".  Shoulder length and mass cannot be determined; adopted mass of BNC-50K.  -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>BNC-50BC, 70258</PartNumber>
+            <Description>Nose cone, balsa, BNC-50BC, PN 70258, Wolverine ramjet type</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Mass Unit="oz">0.13</Mass>
+            <Filled>true</Filled>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.5</ShoulderLength>
+            <Length Unit="in">2.7</Length>
+        </NoseCone>
+        <!-- BNC-50BD (old Firecat #0821 only), flared ogive so shape is an approximation, mass assumed same
+             as Honest John BNC-50AD
+             erockets.biz shows semroc legacy part as a 4.5 in flared ogive, this is generally confirmed by
+             kit instructions on www.spacemoodeling.org/jimz.
+             Overall len of firecat is 14.35, body tube is 9.5 and engine hook overhang is 0.25, so NC length
+             must be 4.6 inches.  NC diameter is not given, we are assuming similar to the Honest John BNC-50AD
+             If you want to model this cone more accurately for aerodynamics you should mate a 1.3" ogive nose
+             of about 3" long to a 1.3 to .976 transition of about 1.6" long.
+             For this and similar cases we really need OR to support predefined parts that are compositions
+             of other parts.
+        -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>BNC-50BD, 70252</PartNumber>
+            <Description>Nose cone, balsa, BNC-50BD, PN 70260, Firecat type</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Mass Unit="oz">0.25</Mass>
+            <Filled>true</Filled>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">1.30</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.5</ShoulderLength>
+            <Length Unit="in">4.6</Length>
+        </NoseCone>
+        <!-- BNC-50J ref 1975 catalog -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>BNC-50J, 70256</PartNumber>
+            <Description>Nose cone, balsa, BNC-50J, PN 70256</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Mass Unit="oz">0.08</Mass>
+            <Filled>true</Filled>
+            <Shape>PARABOLIC</Shape>
+            <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.50</ShoulderLength>
+            <Length Unit="in">1.375</Length>
+        </NoseCone>
+        <!-- BNC-50K ref 1975 catalog -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>BNC-50K, 70262</PartNumber>
+            <Description>Nose cone, balsa, BNC-50K, PN 70262</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Mass Unit="oz">0.13</Mass>
+            <Filled>true</Filled>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.50</ShoulderLength>
+            <Length Unit="in">2.75</Length>
+        </NoseCone>
+        <!-- BNC-50X ref 1975 catalog -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>BNC-50X, 70264</PartNumber>
+            <Description>Nose cone, balsa, BNC-50X, PN 70264</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Mass Unit="oz">0.15</Mass>
+            <Filled>true</Filled>
+            <Shape>PARABOLIC</Shape>
+            <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.50</ShoulderLength>
+            <Length Unit="in">3.25</Length>
+        </NoseCone>
+        <!-- BNC-50Y ref 1975 catalog -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>BNC-50Y, 70266</PartNumber>
+            <Description>Nose cone, balsa, BNC-50Y, PN 70266</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Mass Unit="oz">0.16</Mass>
+            <Filled>true</Filled>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.375</ShoulderLength>
+            <Length Unit="in">4.375</Length>
+        </NoseCone>
+
+        <!-- BNC-55xx  -->
+        
+        <!-- BNC-55AA ref 1975 catalog.  rocketshoppe.com index shows no uses in kits -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>BNC-55AA, 70272</PartNumber>
+            <Description>Nose cone, balsa, BNC-55AA, PN 70272</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Mass Unit="oz">0.15</Mass>
+            <Filled>true</Filled>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+            <ShoulderDiameter Unit="in">1.283</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.5</ShoulderLength>
+            <Length Unit="in">3.125</Length>
+        </NoseCone>
+        <!-- BNC-55F (K-22/1222 V-2 only), never got a new PN (discontinued long ago) -->
+        <!-- *** BTC-55Z tailcone for V-2 missing *** -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>BNC-55F</PartNumber>
+            <Description>Nose cone, balsa, BNC-55F</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Mass Unit="oz">0.19</Mass>
+            <Filled>true</Filled>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+            <ShoulderDiameter Unit="in">1.283</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.5</ShoulderLength>
+            <Length Unit="in">3.875</Length>
+        </NoseCone>
+        <!-- BNC-55AC (K-26 ARCAS etc.) -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>BNC-55AC, 70274</PartNumber>
+            <Description>Nose cone, balsa, BNC-55AC, PN 70274</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Mass Unit="oz">0.32</Mass>
+            <Filled>true</Filled>
+            <Shape>CONICAL</Shape>
+            <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+            <ShoulderDiameter Unit="in">1.283</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.375</ShoulderLength>
+            <Length Unit="in">5.375</Length>
+        </NoseCone>
+        <!-- BNC-55AO (K-48 Bandit etc.).  OR built in file has typo as "BNC-55AD" -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>BNC-55AO, 70276</PartNumber>
+            <Description>Nose cone, balsa, BNC-55AO, PN 70276</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Mass Unit="oz">0.43</Mass>
+            <Filled>true</Filled>
+            <Shape>PARABOLIC</Shape>
+            <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+            <ShoulderDiameter Unit="in">1.283</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.75</ShoulderLength>
+            <Length Unit="in">5.0</Length>
+        </NoseCone>
+
+        <!-- BNC-60xx (see 1971 catalog) -->
+        <!-- BNC-60AB is Gemini capsule, conical shape is approximate -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>BNC-60AB</PartNumber>
+            <Description>Nose cone, balsa, BNC-60AB, Gemini Capsule</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Mass Unit="oz">0.23</Mass>
+            <Filled>true</Filled>
+            <Shape>CONICAL</Shape>
+            <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+            <ShoulderDiameter Unit="in">1.595</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.375</ShoulderLength>
+            <Length Unit="in">2.625</Length>
+        </NoseCone>
+        <!-- BNC-60T is Gemini Capsule, conical shape is approximate, 0.17 oz -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>BNC-60T</PartNumber>
+            <Description>Nose cone, balsa, BNC-60T, Gemini Capsule</Description>
+            <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+            <Filled>true</Filled>
+            <Shape>CONICAL</Shape>
+            <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+            <ShoulderDiameter Unit="in">1.595</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.5</ShoulderLength>
+            <Length Unit="in">2.875</Length>
+        </NoseCone>
+
+        <!-- BNC-60AH, 1.0 oz -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>BNC-60AH</PartNumber>
+            <Description>Nose cone, balsa, BNC-60AH</Description>
+            <Material Type="BULK">Balsa, bulk, 10lb/ft3</Material>
+            <Filled>true</Filled>
+            <Shape>PARABOLIC</Shape>
+            <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+            <ShoulderDiameter Unit="in">1.595</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.875</ShoulderLength>
+            <Length Unit="in">6.625</Length>
+        </NoseCone>
+
+        <!-- BNC-65xx (see 1971, 1975 catalogs) -->
+
+        <!-- BNC-65L, rounded tip ogive, 0.41 oz -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>BNC-65L, 70298</PartNumber>
+            <Description>Nose cone, balsa, BNC-65L, PN 70298</Description>
+            <Material Type="BULK">Balsa, bulk, 8lb/ft3</Material>
+            <Filled>true</Filled>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">1.796</OutsideDiameter>
+            <ShoulderDiameter Unit="in">1.750</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.5</ShoulderLength>
+            <Length Unit="in">3.25</Length>
+        </NoseCone>
+
+        <!-- BNC-70xx (see 1971 catalog) -->
+
+        <!--
+            BNC-70AJ, ref 1977 cataloog, rounded tip ogive, 0.85 oz
+            This was PN 8019 in catalogs thru 1984, changed to PN 70300 in 1985 catalog
+        -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>BNC-70AJ, 8019/70300</PartNumber>
+            <Description>Nose cone, balsa, BNC-70AJ, PN 70300, old PN 8019</Description>
+            <Material Type="BULK">Balsa, bulk, 8lb/ft3</Material>
+            <Filled>true</Filled>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">2.217</OutsideDiameter>
+            <ShoulderDiameter Unit="in">2.175</ShoulderDiameter>
+            <ShoulderLength Unit="in">1.0</ShoulderLength>
+            <Length Unit="in">4.25</Length>
+        </NoseCone>
+
+        <!--
+          ========================================================================================
+          Nose cones (plastic).  Getting good PNs, dimensions and masses for Estes plastic nose cones is very difficult;
+          for most modern plastic nose cones it's a research project requiring an actual example.
+          
+          In 1975 there were only a couple of plastic nose cones in the catalog.  By 1995 Estes no longer used balsa
+          nose cones at all and no longer sold discrete nose cones, nearly everything changed to variety packs.  Newer plastic
+          nose cones also do not have traditional designators with suffix like "PNC-20Y".  In some cases they don't even have
+          publicly known numeric PNs (when the NC is only sold in assortments and the relevant kit instructions do not list
+          PNs). If you have a defective NC in your kit, Estes sends you a whole new kit because they don't even stock
+          nose cones in the USA on a per-type basis.
+
+          Very recently (post Brohm) Estes has again been using balsa nose cones in certain kits. To
+          date I have no information about any of these.
+          
+          Brohm's encyclopedic nose cone reference list has numerous errors in the plastic nose cone listings, which I'm
+          documenting as they are discovered.
+          
+          To handle cases where there is no traditional suffix designator, I am generating obviously synthetic part IDs of the form
+              PNC-50_kitname    where 'kitname' is the name of a representative kit using the nose cone,
+          and only listing numeric PNs where they can be determined.  This will allow nose cones to be found in the alphabetic
+          listings in OpenRocket dialogs by tube series.
+           
+          Note: In OpenRocket, hollow NCs and transitions (filled == false) have additional fields that
+          CANNOT BE SET IN PRESETS database files (grrrrr):
+             AftShoulderThickness
+             ForeShoulderThickness
+             AftShoulderCapped
+             ForeShoulderCapped
+          ========================================================================================
+        -->
+
+        <!--
+            PNC-5A ref Brohm v10.1, PN 072600, #0802 Quark etc., OpenRocket file mass 2.835 gm
+            Uses base plate insert PN 072601 (PN found from other kit instructions using PNC-5 series cones)
+            PN 72600 confirmed in Quark instructions (but not PNC-5A), base insert PN 072601 not shown here
+            #0886 Gnome and #0870 Pulsar instructions have no PNs but show the glue-in base insert cap
+            Source of OpenRocket mass value is unknown.
+        -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>PNC-5A, 072600</PartNumber>
+            <Description>Nose cone, plastic, PNC-5A, PN 072600</Description>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
+            <Shape>PARABOLIC</Shape>
+            <OutsideDiameter Unit="in">0.541</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.515</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.50</ShoulderLength>
+            <Length Unit="in">2.125</Length>
+            <Thickness Unit="in">0.088</Thickness>  <!-- to make mass = 2.8 gm -->
+        </NoseCone>
+
+        <!--
+            PNC-5V ref Brohm v10.1, PN 070305, injection molded, #0801 Mosquito
+            Uses base plate insert PN 72601
+            It's a plastic version of legacy balsa BNC-5V, so using those dimensions.
+            *** actual mass unknown, assuming 1 gm ***
+        -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>PNC-5V, 070305</PartNumber>
+            <Description>Nose cone, plastic, injection molded, PNC-5V, PN 070305</Description>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
+            <Shape>ELLIPSOID</Shape>
+            <OutsideDiameter Unit="in">0.541</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.515</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.25</ShoulderLength>
+            <Length Unit="in">0.75</Length>
+            <Thickness Unit="in">0.068</Thickness>  <!-- to make mass = 1 gm -->
+        </NoseCone>
+
+        <!--
+            PNC-5_swift  PN 072609 ref #0810 Swift instructions on Estes instructions archive page
+            This is an ogive about 2 calibers (1.0") long (ref drawing in instructions)
+            Shorter than old BNC-5E (1.375")
+            *** actual mass and length unknown, assuming 1.25 gm and 1.0 in ***
+        -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>PNC-5_swift, 072609</PartNumber>
+            <Description>Nose cone, plastic, injection molded, PNC-5_swift, PN 072609</Description>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">0.541</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.515</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.25</ShoulderLength>
+            <Length Unit="in">1.0</Length>
+            <Thickness Unit="in">0.078</Thickness>  <!-- to make mass = 1.25 gm -->
+        </NoseCone>
+        
+        <!--
+            Brohm gives a PNC-20 color series as
+               PN 072606 injection molded for #1259 Orbital Transport glider only (no color specified, white?)
+                         "PNC-20" usage confirmed in #1259 instructions.
+               PN 072701 injection molded for #0804 Firehawk only (red plastic)
+                         Firehawk instructions only give 072701 PN
+                         Firehawk uses nose cone base insert PN 072603 as well, color unknown
+               PN 072702 injection molded for #0803 Bandito only (green plastic)
+                         PN confirmed by Bandito instructions.  Also uses PN 072603 insert, color unknown
+               The length given here from built-in OR file seems too long given the OT instructions drawings
+               but looks more plausible in the Firehawk and Bandito drawings.
+               I'm not totally sure that the OT glider nose is the same size as the other two.
+               *** TODO *** add red/green ones after we get the dimensions for sure
+        -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>PNC-20, 072606</PartNumber>
+            <Description>Nose cone, plastic, PNC-20, white, PN 072606</Description>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
+            <Mass Unit="oz">0.12</Mass>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="m">0.736</OutsideDiameter>
+            <ShoulderDiameter Unit="m">0.710</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.5</ShoulderLength>
+            <Length Unit="in">2.65</Length>
+            <Thickness Unit="in">0.062</Thickness>
+        </NoseCone>
+
+        <!-- PN 071095 from #1999 Corsair, #2039 Space Racer, #1941 Fox Fire, blow molded per Brohm -->
+
+        <!--
+            PN 070323 from #1381 Yankee only, injection molded per Brohm
+            Yankee instructions confirm PN and use of 072603 base insert
+        -->
+
+        <!-- PNC-20A from #1292 Wizard, #1917 Zinger, etc. injection molded per Brohm -->
+
+        <!-- PNC-20ED from #1254 SAROS, #1344 NOMAD -->
+
+        <!-- PNC-20N from #0846 Eclipse, #0868 Big Yank, #1390 Aero-Fin -->
+
+        <!-- PNC-20Y ref ***, mass 0.1 oz -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>PNC-20Y</PartNumber>
+            <Description>Nose cone, plastic, PNC-20Y</Description>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
+            <Mass Unit="oz">0.10</Mass>
+            <Shape>CONICAL</Shape>
+            <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.375</ShoulderLength>
+            <Length Unit="in">1.0</Length>
+            <Thickness Unit="in">0.062</Thickness>
+        </NoseCone>
+        
+        <!-- PNC-50K ref 1974 Custom Parts catalog.  Red, slightly shorter than PNC-50KA
+             Clear version is CPNC-50K 45015, chrome is PNC-M1 71004.  They have slightly different masses listed.
+        -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>PNC-50K, 71008</PartNumber>
+            <Description>Nose cone, plastic, red, PNC-50K, PN 71008</Description>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
+            <Mass Unit="oz">0.228</Mass>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">0.974</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.50</ShoulderLength>
+            <Length Unit="in">2.625</Length>
+            <Thickness Unit="in">0.062</Thickness>
+        </NoseCone>
+        
+        <!-- PNC-50KA ref 1988 catalog, mass 0.13 oz -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>PNC-50KA</PartNumber>
+            <Description>Nose cone, plastic, PNC-50KA</Description>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
+            <Mass Unit="oz">0.13</Mass>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.50</ShoulderLength>
+            <Length Unit="in">2.75</Length>
+            <Thickness Unit="in">0.062</Thickness>
+        </NoseCone>
+
+        <!-- PNC-50SP ref 1993 catalog, mass 7.1 g, irregular shape -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>PNC-50SP, 71001</PartNumber>
+            <Description>Nose cone, plastic, PNC-50SP, Argosy type, PN 71001</Description>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.500</ShoulderLength>
+            <Length Unit="in">4.720</Length>
+            <Thickness Unit="in">0.0457</Thickness>
+        </NoseCone>
+        
+        <!-- PNC-50Y ref 1988 catalog, mass 0.16 oz = 4.5 g -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>PNC-50Y</PartNumber>
+            <Description>Nose cone, plastic, PNC-50Y</Description>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
+            <Mass Unit="oz">0.16</Mass>
+            <Shape>PARABOLIC</Shape>
+            <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.375</ShoulderLength>
+            <Length Unit="in">4.375</Length>
+            <Thickness Unit="in">0.062</Thickness>
+        </NoseCone>
+
+        <!--
+            NC-55 with molded-in canopy for #1903 Xarconian Cruiser and #2000 Voyager II
+            Brohm v10.1 gives "PNC-55" PN 071037 for these kits; however they are too new to have a
+            genuine unique "PNC-55" designation.
+            HOWEVER, Estes Xarconian Cruiser current instructions on Estes site give PN 072689 so I'm using that.
+            Voyager II instructions clearly show the same cone though no PN given.
+            This is a recent blow molded cone, apparently white, with a large bulbous canopy
+            Dimensions in original OR file don't make sense, length 8.375 is ridiculous
+            There is a scan on JimZ plans site of cone + centering rings that allows approx scaling of dimensions
+            Len ~= 3.0 x diameter = 4.0 in, shoulder len 0.75 not counting trailing cone
+            ***need to confirm mass*** OpenRocket built-in file mass was 0.875 oz which is reasonable.
+            The base shape is an ogive with a canopy bulge added.
+         -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>PNC-55_Xarconian, 072689</PartNumber>
+            <Description>Nose cone, plastic, Xarconian type, PN 072689</Description>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+            <ShoulderDiameter Unit="in">1.283</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.75</ShoulderLength>
+            <Length Unit="in">4.0</Length>
+            <Thickness Unit="in">0.154</Thickness> <!-- to give mass 0.875 oz = 25.4 gm -->
+        </NoseCone>
+
+        <!-- PNC-55AC ref 1990 Estes Catalog, mass 0.32 oz = 9.1 g -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>PNC-55AC, 71070</PartNumber>
+            <Description>Nose cone, plastic, PNC-55AC, PN 71070</Description>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+            <ShoulderDiameter Unit="in">1.283</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.375</ShoulderLength>
+            <Length Unit="in">5.375</Length>
+            <Thickness Unit="in">0.0367</Thickness>
+        </NoseCone>
+        
+        <!--
+            PNC-55AO ref 1982 Estes Catalog, #1335 Blue Bird Zero and others, quoted mass 0.43 oz = 12.2 gm
+            However I have an actual PNC-55AO from a 1980s Blue Bird Zero that only weighs 9.0 gm.
+        -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>PNC-55AO, 71075</PartNumber>
+            <Description>Nose cone, plastic, PNC-55AO, PN 71075</Description>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
+            <Shape>ELLIPSOID</Shape>
+            <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+            <ShoulderDiameter Unit="in">1.283</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.75</ShoulderLength>
+            <Length Unit="in">5.0</Length>
+            <Thickness Unit="in">0.045</Thickness>
+        </NoseCone>
+        
+        <!--
+            PNC-55BB for #1958 Black Brant II, blow molded, PN 071044 per Brohm
+            OR original file gave mass 14.17 gm
+            Functional shoulder len from gridded photo on BRSrocketry site, add ~0.5" for aft cone taper
+        -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>PNC-55BB, 071044</PartNumber>
+            <Description>Nose cone, plastic, Black Brant II type, PNC-55BB, PN 071044</Description>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
+            <Shape>CONICAL</Shape>
+            <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+            <ShoulderDiameter Unit="in">1.283</ShoulderDiameter>
+            <ShoulderLength Unit="in">1.0</ShoulderLength>
+            <Length Unit="in">6.5</Length>
+            <Thickness Unit="in">0.0675</Thickness>
+        </NoseCone>
+        
+        <!--
+             PNC-55CB PN 71036 per Brohm #1289 Odyssey, #1363 Rigel 3
+             This is the infamous Odyssey nose cone with lots of surface detail
+        -->
+
+        <!-- PNC-55D (Sea Dart nacelle) ref 1990 Estes Catalog, mass 0.36 oz = 10.2 g
+             Performance will be worse than the given ogive shape.
+             You could make a better model with a short conical cone and a couple of
+             transitions but the aerodynamic fidelity wouln't be much better.
+        -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>PNC-55D, 71038, Sea Dart</PartNumber>
+            <Description>Nose cone, plastic, PNC-55D, Sea Dart, PN 71038</Description>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+            <ShoulderDiameter Unit="in">1.283</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.750</ShoulderLength>
+            <Length Unit="in">5.750</Length>
+            <Thickness Unit="in">0.0385</Thickness>
+        </NoseCone>
+
+        <!--
+            PNC-56 ref John Brohm Estes Nose Cone Reference List v10.1
+            Brohm calls this "PNC-56A" but I cannot find any upstream source for the "A" sufffix.
+            The only known usage of "PNC-56" is in the instructions for the #2029 Converter,
+            where it's cross-identified as a PN 72013.
+
+            Numeric PNs for "PNC-56" are as follows: (Note that Brohm's list from ca. 2007 is not correct or up to date in all respects)
+               072015   : molded in black plastic, #1262 Cosmic Cobra, #2077 Sky Winder, #2130 Mach-12, #2128 Long Shot.
+                          Has separate heli blade attachment structure, molded in white or black
+                          Ref: Cosmic Cobra instructions, which (incorrectly) make it look like the NC has an
+                          integrated heli blade hub:
+                          http://www.estesrockets.com/media/instructions/001262_COSMIC_COBRA.pdf
+                          Ref: This Cosmic Cobra build page with photo showing the black NC and separate white heli hub:
+                          http://www.seed-solutions.com/gregordy/Rockets/Cobra.htm
+                          Ref: TRF thread where user 'snuggles' confirms that the Long Shot had a black nose cone and fin can:
+                          http://www.rocketryforum.com/archive/index.php/t-62733.html                          
+               072013   : molded in yellow plastic, #1950 Eliminator, #2029 Converter, #1330 Challenger II, #1995 Helio Copter
+                          Ref: Eliminator instructions
+                          http://www.estesrockets.com/media/instructions/001950_ELIMINATOR.pdf
+                          Ref: Converter instructions, where it's cross-listed as "PNC-56"
+                          https://www.estesrockets.com/media/instructions/002029_CONVERTER.pdf
+                          Ref: 1982 Estes catalog pp 28-29. Challenger II #1330 "No painting required with...yellow nose cone..."
+                          So it is evidently a PN 072013; Brohm errs by not designating it as molded in yellow.
+                          Ref: photo of Helio Copter kit with yellow NC and separate white heli blade hub posted to TRF at
+                          http://www.rocketryforum.com/showthread.php?137939-Info-on-the-Estes-PNC-56-nosecone&p=1651303#post1651303
+                          Estes has used kit #1330 more than once:
+                          Challenger II is #1330 in 1982 catalog, Estes site has #1330 instructions for the Free Fall
+               060312   : chrome plated over black plastic, #2168 Metalizer, #2180 Chrome Dome Silver.
+                          Ref: Metalizer instructions http://www.estesrockets.com/media/instructions/002168_METALIZER.pdf
+               060340   : gold tone plated (black plastic?), #2181 Chrome Dome Gold
+                          Ref: Chrome Dome instructions http://www.estesrockets.com/media/instructions/002181_Chrome_Domes_Gold.pdf
+               072017   : molded in blue plastic, #2091 Maniac, #2443 Splendor.  No PNs in Maniac instructions.
+                          Splendor is an E2X and gives PN; 2014 catalog shows it's blue and has 1.35" diam, correct for BT-56
+               
+               There is a PN 303164 "NC-56 Nose Cone (4 pk)" on the Estes site showing
+               black nose cones that look to not be identical.  Discount Rocketry states on their site (2016)
+               that the contents of PN 303164 change randomly among varaious shapes.  To
+               date we don't have any information on the variants except a photo showing 3 black + 1 blue in an old 4-pack.
+               
+             Physical data here was measured from a PN 060312 from a #2168 Metalizer, mass 19.0 g
+        -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>PNC-56, 072015</PartNumber>
+            <Description>Nose cone, plastic, PNC-56, black, blow molded, PN 072015</Description>
+            <Material Type="BULK">Polyethylene, HDPE, bulk</Material>
+            <Shape>PARABOLIC</Shape>
+            <OutsideDiameter Unit="in">1.346</OutsideDiameter>
+            <ShoulderDiameter Unit="in">1.289</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.983</ShoulderLength>
+            <Length Unit="in">6.410</Length>
+            <Thickness Unit="in">0.0730</Thickness>
+        </NoseCone>
+
+        <!--
+            *** There is at least one transition available for BT-56/ST-13 ***
+            see the Magnum Load in the #1401 Hunter's Choice Launch Set (2 rockets, 2014 catalog), which
+            transitions from a 1.35" diam tube to something around 1.0", likely ST-10 size
+        -->
+            
+
+        <!--
+            Estes #2072 Scrambler and #1996 Eggspress - plastic egg capsule for ST-13/BT-56
+            *** Get exact masses from kit I have ***
+
+            The Scrambler/Eggspress capsule is identical to the old Centuri/Enerjet blow molded egg capsule from 1972
+            that was designed to fit the Centuri ST-13 tubes.  It's shipped as a combined NC+transition part that has to
+            be cut apart in the middle.  A 2" piece of ST-20 tube is inserted between the two parts.  For simulation
+            purposes it has to be modeled as a separate NC and transition, so artificial part numbers are needed.
+
+            Part numbers:  Unknown.  Neither the #2072 Scrambler nor #1996 Eggspress kit instructions give part numbers.
+            Colors: Enerjet versions of the capsule are molded in black (ref: I had one)
+            Eggspress capsules were molded in yellow (ref: actual instance and kit card illustration)
+            
+            Dimensions: I have a #1996 Eggspress kit, and we also have the intended external dimensions from the fortuitous
+            inclusion of a small dimensioned drawing in the 1972 Enerjet catalog.  Both the Egg Crate and later Estes
+            Eggspress kit dimensions confirm (by subtracting out known body tube lengths) that the *designed* length of
+            the egg capsule was 9.0", with a 2.5" long cone and 4.5" transition.  However, dimensions used here are from
+            measurement of an actual molded-in-yellow Eggspress capsule, which has a 2.5" nose cone but a 4.60" long
+            transition. Jim Parsons (K'Tesh on TRF) has posted a nicely done Eggspress NC.ork file with dimensions
+            that agree with mine within 0.022".  At this point we don't know if the tooling has changed
+            over time or if it's always been 0.1" off from the catalog specs.
+            
+            The functional shoulder length of the nose cone is 0.70", and there an additional very short conical section
+            leading down to the cut point that is about 0.07" long.
+            
+            The functional shoulder length of the forward large end of the transition is also 0.70" but with a slightly
+            longer conical taper down to the cut of about 0.10"
+            
+            The functional shoulder length of the rear small end of the transition is 1.18" with a further conical taper
+            of 0.60" down to a oval with axis of 0.32" perpendicular to the seams and 0.36" aligned with the seams.
+
+            Masses:  Parsons .ork has NC 17.7 g, transition 34.53 g (cyl + conical aft taper)
+        -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>PNC-56-S, Scrambler</PartNumber>
+            <Description>Nose cone, plastic, Scrambler, PNC-56-S, black</Description>
+            <Material Type="BULK">Polyethylene, HDPE, bulk</Material>
+            <Shape>ELLIPSOID</Shape>
+            <OutsideDiameter Unit="in">2.04</OutsideDiameter>
+            <ShoulderDiameter Unit="in">2.00</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.7</ShoulderLength>
+            <Length Unit="in">2.5</Length>
+            <Thickness Unit="in">0.079</Thickness>
+        </NoseCone>
+        <Transition>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>TA-2013-S [R], Scrambler</PartNumber>
+            <Description>Transition, plastic, Scrambler, TA-2013-S [R], reducing</Description>
+            <Material Type="BULK">Polyethylene, HDPE, bulk</Material>
+            <Shape>CONICAL</Shape>
+            <ForeOutsideDiameter Unit="in">2.04</ForeOutsideDiameter>
+            <ForeShoulderDiameter Unit="in">2.00</ForeShoulderDiameter>
+            <ForeShoulderLength Unit="in">0.70</ForeShoulderLength>
+            <AftOutsideDiameter Unit="in">1.346</AftOutsideDiameter>
+            <AftShoulderDiameter Unit="in">1.304</AftShoulderDiameter>
+            <AftShoulderLength Unit="in">1.18</AftShoulderLength>
+            <Length Unit="in">4.60</Length>
+            <Thickness Unit="in">0.079</Thickness>
+        </Transition>
+
+        <!--
+            "PNC-60A" - another complicated case.  There is no such NC in the Brohm index.  rocketreviews.com lists it
+            as an ogive: http://www.rocketreviews.com/estes-ogive-nose-cone-4320.html
+            with diam 1.6370 in, len 4.750 in, shoulder diam 1.5950 in, shoulder len 0.750 in, mass and PN not
+            given. That is what is used here.  OR built-in file gave the mass as 24.38 gm.
+            
+            More recently there is a PN 303165 BT-60 nose cone assortment currently (Dec 2016) described
+            on the Estes website as "003165 - NC-60 Long Nose Cone Asst. (3 pk)", and described as "NC-60A"
+            or "PNC-60A" on some vendor sites.  The Estes "Quick Overview" says "NC-60 Nose cone will fit the
+            BT-60 body tube"; here they are clearly using "NC-60" generically.  The photo on the Estes
+            site shows 3 nose cones, all obviously blow molded in white plastic.  One is an ogive that looks
+            to have similar dimensions to what is given here.  The other two have secondary pieces molded
+            into the same unit - one is a nozzle flare and the other a boattail with engine hook channel.  The
+            latter is very likely the unit used in the Astron Sprint XL.
+            SiriusRocketry.biz shows what they called aa "PNC-60NA" nose cone that they say was broken
+            out from the Estes 003165 set.  It is in black and is the ogive without a secondary piece, so
+            a black variant is proven.
+        -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>PNC-60A, white</PartNumber>
+            <Description>Nose cone, plastic, ogive, white, PNC-60A</Description>
+            <Material Type="BULK">Polyethylene, HDPE, bulk</Material>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+            <ShoulderDiameter Unit="in">1.595</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.75</ShoulderLength>
+            <Length Unit="in">4.75</Length>
+            <Thickness Unit="in">0.093</Thickness>  <!-- set to make mass 24.3 g per original OR file -->
+        </NoseCone>
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>PNC-60A, black</PartNumber>
+            <Description>Nose cone, plastic, ogive, black, PNC-60A</Description>
+            <Material Type="BULK">Polyethylene, HDPE, bulk</Material>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+            <ShoulderDiameter Unit="in">1.595</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.75</ShoulderLength>
+            <Length Unit="in">4.75</Length>
+            <Thickness Unit="in">0.093</Thickness>  <!-- set to make mass 24.3 g per original OR file -->
+        </NoseCone>
+        
+        <!-- PNC-60AH ref 1988 catalog, KC-2 Der Red Max, KC-3 Patriot, injection molded, mass 28.4 g -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>PNC-60AH, 071014</PartNumber>
+            <Description>Nose cone, plastic, PNC-60AH, PN 071014</Description>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
+            <Shape>PARABOLIC</Shape>
+            <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+            <ShoulderDiameter Unit="in">1.595</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.875</ShoulderLength>
+            <Length Unit="in">6.625</Length>
+            <Thickness Unit="in">0.0775</Thickness>
+        </NoseCone>
+        
+        <!-- PNC-60L used for Estes Gooneybirds and Camroc Carrier, mass 11.1 g -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>PNC-60L</PartNumber>
+            <Description>Nose cone, plastic, PNC-60L, PN 071019</Description>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
+            <Mass Unit="kg">0.01106</Mass>
+            <Shape>ELLIPSOID</Shape>
+            <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+            <ShoulderDiameter Unit="in">1.595</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.75</ShoulderLength>
+            <Length Unit="in">2.5</Length>
+            <Thickness Unit="in">0.125</Thickness>
+        </NoseCone>
+
+        <!-- PNC-60MS ref 1988 catalog, mass 0.39 oz -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>PNC-60MS</PartNumber>
+            <Description>Nose cone, plastic, PNC-60MS</Description>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
+            <Mass Unit="oz">0.39</Mass>
+            <Shape>PARABOLIC</Shape>
+            <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+            <ShoulderDiameter Unit="in">1.595</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.625</ShoulderLength>
+            <Length Unit="in">3.125</Length>
+            <Thickness Unit="in">0.125</Thickness>
+        </NoseCone>
+        
+        <!-- PNC-60NA is for D-Region Tomahawk, etc. Data from RocketReviews -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>PNC-60NA</PartNumber>
+            <Description>Nose cone, plastic, PNC-60NA</Description>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
+            <Mass Unit="oz">0.60</Mass>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+            <ShoulderDiameter Unit="in">1.595</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.75</ShoulderLength>
+            <Length Unit="in">4.75</Length>
+            <Thickness Unit="in">0.125</Thickness>
+        </NoseCone>
+        
+        <!--
+            PNC-80BB (#2018 Super Big Bertha, #1273 Fat Boy) 4 inch ellipsoid, blow molded
+            Dimensions partially derived, looking for more definitive
+            According to Brohm NC list and the Fat Boy instructions this is the *same* PN used on the Fat Boy; thus the
+            "PNC-80FB" designation found only on RocketReviews is bogus.
+            Length estimate:  Analysis of Fat Boy and Super Big Bertha catalog lengths vs known tube lengths and fin
+            sweep estimates puts length of PNC-80BB between 4 and 4 3/8".
+        -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>PNC-80BB, 72080</PartNumber>
+            <Description>Nose cone, plastic, PNC-80BB, PN 72080</Description>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
+            <Mass Unit="oz">1.30</Mass>
+            <Shape>ELLIPSOID</Shape>
+            <OutsideDiameter Unit="in">2.60</OutsideDiameter>
+            <ShoulderDiameter Unit="in">2.56</ShoulderDiameter>
+            <ShoulderLength Unit="in">1.75</ShoulderLength>
+            <Length Unit="in">4.0</Length>
+            <Thickness Unit="in">0.125</Thickness>
+        </NoseCone>
+
+        <!-- PNC-80K ref 1985-1988 catalog.  Catalogs give incorrect OD of 2.555; BT-80 ID is 2.560, OD is 2.600 -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>PNC-80K, 71035</PartNumber>
+            <Description>Nose cone, plastic, PNC-80K, PN 71035</Description>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
+            <Mass Unit="oz">1.68</Mass>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">2.60</OutsideDiameter>
+            <ShoulderDiameter Unit="in">2.560</ShoulderDiameter>
+            <ShoulderLength Unit="in">1.625</ShoulderLength>
+            <Length Unit="in">8.125</Length>
+            <Thickness Unit="in">0.125</Thickness>
+        </NoseCone>
+        
+        <!-- PNC-80SC, PN 072664 used only in #2141 Silver Comet, have no dimensions -->
+
+        <!-- Launch lugs -->
+        
+        <!-- Engine hooks -->
+        
+        <!-- Parachutes -->
+        
+        <!-- PK-8 ref 1975 catalog, which also has PK-12, PK-18, PK-24.  "A" versions appeared later -->
+        <Parachute>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>PK-8</PartNumber>
+            <Description>Parachute, plastic, 8 in.</Description>
+            <Material Type="SURFACE">Polyethylene film, HDPE, 1.0 mil, bare</Material>
+            <Mass Unit="oz">0.035</Mass>
+            <Diameter Unit="in">8.0</Diameter>
+            <Sides>6</Sides>
+            <LineCount>6</LineCount>
+            <LineLength Unit="in">8.0</LineLength>
+            <LineMaterial Type="LINE">Carpet Thread</LineMaterial>
+        </Parachute>
+        <Parachute>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>PK-12A</PartNumber>
+            <Description>Parachute, plastic, 12 in.</Description>
+            <Material Type="SURFACE">Polyethylene film, HDPE, 1.0 mil, bare</Material>
+            <Mass Unit="kg">0.002041</Mass>
+            <Diameter Unit="m">0.3048</Diameter>
+            <Sides>6</Sides>
+            <LineCount>6</LineCount>
+            <LineLength Unit="m">0.30478</LineLength>
+            <LineMaterial Type="LINE">Carpet Thread</LineMaterial>
+        </Parachute>
+        <Parachute>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>PK-18A</PartNumber>
+            <Description>Parachute, plastic, 18 in.</Description>
+            <Material Type="SURFACE">Polyethylene film, HDPE, 1.0 mil, bare</Material>
+            <Mass Unit="kg">0.005897</Mass>
+            <Diameter Unit="m">0.4572</Diameter>
+            <Sides>6</Sides>
+            <LineCount>6</LineCount>
+            <LineLength Unit="m">0.4572</LineLength>
+            <LineMaterial Type="LINE">Carpet Thread</LineMaterial>
+        </Parachute>
+        <Parachute>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>PK-24A</PartNumber>
+            <Description>Parachute, plastic, 24 in.</Description>
+            <Material Type="SURFACE">Polyethylene film, HDPE, 1.0 mil, bare</Material>
+            <Mass Unit="kg">0.007768</Mass>
+            <Diameter Unit="m">0.6096</Diameter>
+            <Sides>8</Sides>
+            <LineCount>8</LineCount>
+            <LineLength Unit="m">0.6096</LineLength>
+            <LineMaterial Type="LINE">Carpet Thread</LineMaterial>
+        </Parachute>
+
+    </Components>
+</OpenRocketComponent>
