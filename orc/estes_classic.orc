@@ -135,11 +135,6 @@ Known issues:
             <Density>925.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="kg/m3">
-            <Name>Water, bulk</Name>
-            <Density>1000.0</Density>
-            <Type>BULK</Type>
-        </Material>
 
         <!-- SURFACE (sheet) materials, only needed for parachute and streamer components -->
         
@@ -974,7 +969,8 @@ Known issues:
         <Length Unit="in">1.5</Length>
       </BodyTube>
 
-      
+      <!-- PST-50 clear payload tube -->
+      <!-- *** should material be PETG? *** -->
       <BodyTube>
         <Manufacturer>Estes</Manufacturer>
         <PartNumber>PST-50S, 30608</PartNumber>
@@ -985,6 +981,89 @@ Known issues:
         <Length Unit="in">4.0</Length>
       </BodyTube>
 
+      <!-- BT-51 -->
+      <!-- These parts were created specifically for some scale models.
+           ID/OD dimensions from the old Semroc website and Brohm discussion
+       -->
+      <!-- BT-51N 12.42" used in K29/#1229 Saturn V -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-51N, 30376</PartNumber>
+        <Description>Body tube, BT-51, 12.42 in., PN 30376</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.985</InsideDiameter>
+        <OutsideDiameter Unit="in">1.011</OutsideDiameter>
+        <Length Unit="in">12.42</Length>
+      </BodyTube>
+
+      <!-- BT-51CI 4.0" used in K-48/#1248 Bandit -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-51CI, 30374</PartNumber>
+        <Description>Body tube, BT-51, 3.875 in., PN 30374</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.985</InsideDiameter>
+        <OutsideDiameter Unit="in">1.011</OutsideDiameter>
+        <Length Unit="in">3.875</Length>
+      </BodyTube>
+
+      <!-- BT-51SE 2.0" used in #1373 Screaming Eagle -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-51SE, 30375</PartNumber>
+        <Description>Body tube, BT-51, 2.0 in., PN 30375</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.985</InsideDiameter>
+        <OutsideDiameter Unit="in">1.011</OutsideDiameter>
+        <Length Unit="in">2.0</Length>
+      </BodyTube>
+
+      <!-- BT-52 -->
+      <!-- This tube size is only slightly different (3 mils larger) than BT-51.  It's
+           used in a few scale models and more commonly as a slip-fit engine hook retainer
+           tube.  Dimensions from Semroc website and Brohm discussion -->
+
+      <!-- BT-52S 3.938" used in K-59 SPEV and as hook retainer in a few large kits-->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-52S, 30380</PartNumber>
+        <Description>Body tube, BT-52, 2.1 in., PN 30378</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.988</InsideDiameter>
+        <OutsideDiameter Unit="in">1.014</OutsideDiameter>
+        <Length Unit="in">3.938</Length>
+      </BodyTube>
+
+      <!-- BT-52AG PN 30378 used in K-29/#1239 Saturn V semi-scale and many kits as hook
+           retainer sleeve.  This tube has dimensions listed in Brohm and Semroc.
+           1974 parts catalog has wrong dimensions for this.
+      -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-52AG, 30378</PartNumber>
+        <Description>Body tube, BT-52, 2.1 in., PN 30378</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.988</InsideDiameter>
+        <OutsideDiameter Unit="in">1.014</OutsideDiameter>
+        <Length Unit="in">2.1</Length>
+      </BodyTube>
+
+      <!-- Later BT-52AG PN 30450 used as sleeve in #1952 Maxi V-2 re-release.  This
+           version has different dimensions and much thicker wall than the original
+           BT-52AG, which nearly match the 1974 parts catalog dimensions.  This brings up
+           the question of whether the PN 30450 tubes were specified to the erroneous 1974
+           parts catalog sizes.  See Brohm discussion. -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-52AG, 30450</PartNumber>
+        <Description>Body tube, BT-52*, 2.1 in., PN 30450</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.984</InsideDiameter>
+        <OutsideDiameter Unit="in">1.118</OutsideDiameter>
+        <Length Unit="in">2.1</Length>
+      </BodyTube>
+
+      
       <!-- BT-55 -->
       
       <BodyTube>
@@ -1304,18 +1383,223 @@ Known issues:
       </BodyTube>
 
       <!-- BT-56 -->
-      <!-- NOTE: BT-56 is the same as old Centuri ST-13; only slightly larger than BT-55 -->
+      <!-- NOTE: BT-56 is identical to old Centuri ST-13; only slightly larger than BT-55
+      -->
+
+      <!-- Standard 18" BT-56 is white like Centuri tubes were -->
       <BodyTube>
         <Manufacturer>Estes</Manufacturer>
-        <PartNumber>BT-56</PartNumber>
-        <Description>Body tube, BT-56, 18 in.</Description>
+        <PartNumber>WBT-56, 30393</PartNumber>
+        <Description>Body tube, BT-56, white, 18 in., PN 30393</Description>
         <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
         <InsideDiameter Unit="in">1.304</InsideDiameter>
         <OutsideDiameter Unit="in">1.346</OutsideDiameter>
         <Length Unit="in">18.0</Length>
       </BodyTube>
 
+      <!-- 12.0" purple BT-56 used in #1950 Eliminator -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-56, 31300</PartNumber>
+        <Description>Body tube, BT-56, purple, 12.0 in., PN 31300</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.304</InsideDiameter>
+        <OutsideDiameter Unit="in">1.346</OutsideDiameter>
+        <Length Unit="in">12.00</Length>
+      </BodyTube>
+
+      <!-- 12.0" chrome foil BT-56 used in #2168 Metalizer -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-56, 60003</PartNumber>
+        <Description>Body tube, BT-56, chrome foil, 12.0 in., PN 60003</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.304</InsideDiameter>
+        <OutsideDiameter Unit="in">1.346</OutsideDiameter>
+        <Length Unit="in">12.00</Length>
+      </BodyTube>
+
+      <!-- 12.0" BT-56 (yellow) PN is unknown -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-56_12.0in_yellow</PartNumber>
+        <Description>Body tube, BT-56, yellow, 12.0 in.</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.304</InsideDiameter>
+        <OutsideDiameter Unit="in">1.346</OutsideDiameter>
+        <Length Unit="in">12.00</Length>
+      </BodyTube>
+
+      <!-- 12.0" BT-56 with no color specified in Brohm used in #2072 Scramble
+           and later in #2128 Long Shot.  PN conflicts with old BT-30A -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-56, 30340</PartNumber>
+        <Description>Body tube, BT-56, 12.0 in., PN 30340</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.304</InsideDiameter>
+        <OutsideDiameter Unit="in">1.346</OutsideDiameter>
+        <Length Unit="in">12.00</Length>
+      </BodyTube>
+
+      <!-- 10.25" yellow BT-56 used in #1262 Cosmic Cobra -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-56, 31660</PartNumber>
+        <Description>Body tube, BT-56, yellow, 10.25 in., PN 31660</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.304</InsideDiameter>
+        <OutsideDiameter Unit="in">1.346</OutsideDiameter>
+        <Length Unit="in">10.25</Length>
+      </BodyTube>
+
+      <!-- 8.5" blue BT-56 used in #2180 Chrome Dome Silver -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-56, 60370</PartNumber>
+        <Description>Body tube, BT-56, blue, 8.5 in., PN 60370</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.304</InsideDiameter>
+        <OutsideDiameter Unit="in">1.346</OutsideDiameter>
+        <Length Unit="in">8.5</Length>
+      </BodyTube>
+
+      <!-- 8.5" red BT-56 used in #2180 Chrome Dome Gold -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-56, 60371</PartNumber>
+        <Description>Body tube, BT-56, red, 8.5 in., PN 60371</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.304</InsideDiameter>
+        <OutsideDiameter Unit="in">1.346</OutsideDiameter>
+        <Length Unit="in">8.5</Length>
+      </BodyTube>
+
+      <!-- 8.25" black BT-56 with pre-installed launch lug used in #2029 Converter -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-56, 31665</PartNumber>
+        <Description>Body tube, BT-56, black, 8.25 in., with launch lug, PN 31665</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.304</InsideDiameter>
+        <OutsideDiameter Unit="in">1.346</OutsideDiameter>
+        <Length Unit="in">8.25</Length>
+      </BodyTube>
+
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-56, 30346</PartNumber>
+        <Description>Body tube, BT-56, white, 8.0 in., PN 30346</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.304</InsideDiameter>
+        <OutsideDiameter Unit="in">1.346</OutsideDiameter>
+        <Length Unit="in">8.0</Length>
+      </BodyTube>
+
+      <!-- 7" yellow BT-56 used in #2130 Mach-12 -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-56, 30342</PartNumber>
+        <Description>Body tube, BT-56, yellow, 7.0 in.</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.304</InsideDiameter>
+        <OutsideDiameter Unit="in">1.346</OutsideDiameter>
+        <Length Unit="in">7.0</Length>
+      </BodyTube>
+
+      <!-- unknown PN for 7" blue BT-56 used in #2078 Omloid -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-56_7.0in_blue</PartNumber>
+        <Description>Body tube, BT-56, blue, 7.0 in.</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.304</InsideDiameter>
+        <OutsideDiameter Unit="in">1.346</OutsideDiameter>
+        <Length Unit="in">7.0</Length>
+      </BodyTube>
+
+      <!-- 6.0" black BT-56 used in #2029 Converter -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-56, 31710</PartNumber>
+        <Description>Body tube, BT-56, black, 6.0 in., PN 31710</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.304</InsideDiameter>
+        <OutsideDiameter Unit="in">1.346</OutsideDiameter>
+        <Length Unit="in">6.0</Length>
+      </BodyTube>
+
+      <!--  4" white BT-56 used in #2133 Aero-Sat LSX -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-56, 30347</PartNumber>
+        <Description>Body tube, BT-56, white, 4.0 in., PN 30347</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.304</InsideDiameter>
+        <OutsideDiameter Unit="in">1.346</OutsideDiameter>
+        <Length Unit="in">4.0</Length>
+      </BodyTube>
+
+      <!--  4" yellow BT-56 used in #2130 Mach-12 -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-56, 30343</PartNumber>
+        <Description>Body tube, BT-56, yellow, 4.0 in., PN 30343</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.304</InsideDiameter>
+        <OutsideDiameter Unit="in">1.346</OutsideDiameter>
+        <Length Unit="in">4.0</Length>
+      </BodyTube>
+
+      <!-- 4" blue BT-56 (unknown PN) used in #2078 Omloid -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-56_4.0in_blue</PartNumber>
+        <Description>Body tube, BT-56, blue, 4.0 in.</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.304</InsideDiameter>
+        <OutsideDiameter Unit="in">1.346</OutsideDiameter>
+        <Length Unit="in">4.0</Length>
+      </BodyTube>
+
+      <!-- 3.75" BT-56 (color not specified) used in #2128 Long Shot -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-56, 31341</PartNumber>
+        <Description>Body tube, BT-56, 3.75 in., PN 31341</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.304</InsideDiameter>
+        <OutsideDiameter Unit="in">1.346</OutsideDiameter>
+        <Length Unit="in">3.75</Length>
+      </BodyTube>
+
+      <!-- BT-58 - used only in scale models -->
+      <!-- Semroc BT-58 has ID 1.498", OD 1.540" for .042" wall.
+           BT-58 was 6.375", used in #2048 Saturn 1B
+           BT-58SV was 6.125", used in #2001 Saturn V and later #0809 Gauchito
+      -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-58, 30397</PartNumber>
+        <Description>Body tube, BT-58, 6.375 in., PN 30397</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.498</InsideDiameter>
+        <OutsideDiameter Unit="in">1.540</OutsideDiameter>
+        <Length Unit="in">6.375</Length>
+      </BodyTube>
+
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-58SV, 30466</PartNumber>
+        <Description>Body tube, BT-58, 6.125 in., PN 30466</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.498</InsideDiameter>
+        <OutsideDiameter Unit="in">1.540</OutsideDiameter>
+        <Length Unit="in">6.125</Length>
+      </BodyTube>
+
       <!-- BT-60 -->
+      <!-- *** finish this, not yet fully matched against Brohm, numeric PNs missing from descriptions *** -->
       <BodyTube>
         <Manufacturer>Estes</Manufacturer>
         <PartNumber>BT-60, 30396</PartNumber>
@@ -2904,7 +3188,7 @@ Known issues:
         </NoseCone>
         
         <!--
-             PNC-55CB PN 71036 per Brohm #1289 Odyssey, #1363 Rigel 3
+             *** PNC-55CB PN 71036 per Brohm #1289 Odyssey, #1363 Rigel 3 ***
              This is the infamous Odyssey nose cone with lots of surface detail
         -->
 
@@ -2983,7 +3267,8 @@ Known issues:
         <!--
             *** There is at least one transition available for BT-56/ST-13 ***
             see the Magnum Load in the #1401 Hunter's Choice Launch Set (2 rockets, 2014 catalog), which
-            transitions from a 1.35" diam tube to something around 1.0", likely ST-10 size
+            transitions from a 1.35" diam tube to something around 1.0", likely ST-10
+            size.  We have no actual data on this part.
         -->
             
 
@@ -3191,17 +3476,18 @@ Known issues:
 
         <!-- Launch lugs -->
         
-        <!-- Engine hooks -->
+        <!-- Parachutes (polyethylene) -->
         
-        <!-- Parachutes -->
-        
-        <!-- PK-8 ref 1975 catalog, which also has PK-12, PK-18, PK-24.  "A" versions appeared later -->
+        <!-- PK-8 ref 1975 catalog, which also has PK-12, PK-18, PK-24.  "A" versions
+             appeared later.  There are many variations in printing and shroud line
+             attachment methods.  Functionally they are virtually identical so only one
+             listing is given for each size.
+        -->
         <Parachute>
             <Manufacturer>Estes</Manufacturer>
             <PartNumber>PK-8</PartNumber>
             <Description>Parachute, plastic, 8 in.</Description>
             <Material Type="SURFACE">Polyethylene film, HDPE, 1.0 mil, bare</Material>
-            <Mass Unit="oz">0.035</Mass>
             <Diameter Unit="in">8.0</Diameter>
             <Sides>6</Sides>
             <LineCount>6</LineCount>
@@ -3213,11 +3499,10 @@ Known issues:
             <PartNumber>PK-12A</PartNumber>
             <Description>Parachute, plastic, 12 in.</Description>
             <Material Type="SURFACE">Polyethylene film, HDPE, 1.0 mil, bare</Material>
-            <Mass Unit="kg">0.002041</Mass>
-            <Diameter Unit="m">0.3048</Diameter>
+            <Diameter Unit="in">12.0</Diameter>
             <Sides>6</Sides>
             <LineCount>6</LineCount>
-            <LineLength Unit="m">0.30478</LineLength>
+            <LineLength Unit="in">12.0</LineLength>
             <LineMaterial Type="LINE">Carpet Thread</LineMaterial>
         </Parachute>
         <Parachute>
@@ -3225,11 +3510,10 @@ Known issues:
             <PartNumber>PK-18A</PartNumber>
             <Description>Parachute, plastic, 18 in.</Description>
             <Material Type="SURFACE">Polyethylene film, HDPE, 1.0 mil, bare</Material>
-            <Mass Unit="kg">0.005897</Mass>
-            <Diameter Unit="m">0.4572</Diameter>
+            <Diameter Unit="in">18.0</Diameter>
             <Sides>6</Sides>
             <LineCount>6</LineCount>
-            <LineLength Unit="m">0.4572</LineLength>
+            <LineLength Unit="m">18.0</LineLength>
             <LineMaterial Type="LINE">Carpet Thread</LineMaterial>
         </Parachute>
         <Parachute>
@@ -3237,13 +3521,15 @@ Known issues:
             <PartNumber>PK-24A</PartNumber>
             <Description>Parachute, plastic, 24 in.</Description>
             <Material Type="SURFACE">Polyethylene film, HDPE, 1.0 mil, bare</Material>
-            <Mass Unit="kg">0.007768</Mass>
-            <Diameter Unit="m">0.6096</Diameter>
+            <Diameter Unit="in">24.0</Diameter>
             <Sides>8</Sides>
             <LineCount>8</LineCount>
-            <LineLength Unit="m">0.6096</LineLength>
+            <LineLength Unit="in">24.0</LineLength>
             <LineMaterial Type="LINE">Carpet Thread</LineMaterial>
         </Parachute>
 
+        <!-- Parachutes (nylon) -->
+        
+        
     </Components>
 </OpenRocketComponent>
