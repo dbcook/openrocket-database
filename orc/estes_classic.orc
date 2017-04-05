@@ -146,6 +146,12 @@ Known issues:
             <Type>SURFACE</Type>
         </Material>
         
+        <Material UnitsOfMeasure="g/m2">
+            <Name>Nylon fabric, ripstop, 1.7 oz actual</Name>
+            <Density>0.05764</Density>
+            <Type>SURFACE</Type>
+        </Material>
+
     </Materials>
     <Components>
       <!-- Body Tubes -->
@@ -3474,8 +3480,6 @@ Known issues:
         
         <!-- PNC-80SC, PN 072664 used only in #2141 Silver Comet, have no dimensions -->
 
-        <!-- Launch lugs -->
-        
         <!-- Parachutes (polyethylene) -->
         
         <!-- PK-8 ref 1975 catalog, which also has PK-12, PK-18, PK-24.  "A" versions
@@ -3640,11 +3644,36 @@ Known issues:
             <LineMaterial Type="LINE">Carpet Thread</LineMaterial>
         </Parachute>
 
-        <!-- *** Parachutes (nylon) *** -->
-        <!-- PSII 24" nylon parachute PN 002261 on 2017 website -->
-        <!-- PSII 30" nylon parachute PN 002273 on 2017 website -->
-        
+        <!-- Parachutes (nylon) -->
+        <!-- PSII 24" nylon parachute PN 002261 on 2017 website
+             No info on materials/weight, looks like Top Flight -->
+        <Parachute>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>002261</PartNumber>
+            <Description>Parachute, 24 in., nylon, 6 lines, PN 002261</Description>
+            <Material Type="SURFACE">Nylon fabric, ripstop, 1.7 oz actual</Material>
+            <Diameter Unit="in">24.0</Diameter>
+            <Sides>6</Sides>
+            <LineCount>6</LineCount>
+            <LineLength Unit="in">24.0</LineLength>
+            <LineMaterial Type="LINE">Nylon Paracord, 110 lb, 1/16 in. dia.</LineMaterial>
+        </Parachute>
+        <!-- PSII 30" nylon parachute PN 002273 on 2017 website
+             No info on materials/weight, looks like Top Flight -->
+        <Parachute>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>002273</PartNumber>
+            <Description>Parachute, 30 in., nylon, 8 lines, PN 002273</Description>
+            <Material Type="SURFACE">Nylon fabric, ripstop, 1.7 oz actual</Material>
+            <Diameter Unit="in">30.0</Diameter>
+            <Sides>8</Sides>
+            <LineCount>8</LineCount>
+            <LineLength Unit="in">30.0</LineLength>
+            <LineMaterial Type="LINE">Nylon Paracord, 110 lb, 1/16 in. dia.</LineMaterial>
+        </Parachute>
 
+        <!-- *** Launch lugs *** -->
+        
         <!-- *** Centering rings *** -->
         <!-- InsideDiameter, OutsideDiameter, Length -->
 
