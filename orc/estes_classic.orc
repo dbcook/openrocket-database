@@ -1673,7 +1673,7 @@ Known issues:
       </BodyTube>
       
 
-      <!-- BT-70 *** incomplete *** -->
+      <!-- BT-70 -->
 
       <!-- BT-70 17.5in used in K-21 Gemini-Titan -->
       <BodyTube>
