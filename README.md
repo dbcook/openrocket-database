@@ -68,10 +68,10 @@ We only remove the files that have been replaced by content in this project.
 
 ```bash
 cd location-of-openrocket-jar
-zip -d OpenRocket-version.jar Estes.orc LocPrecision.orc
+zip -d OpenRocket-version.jar datafiles/presets/Estes.orc datafiles/presets/LocPrecision.orc
 ```
 
-If Sampo will allow it I'll post a version of OpenRocket here that has this already done.
+If Sampo will bless it I'll post a version of OpenRocket here that has this already done.
 
 ## Conventions
 
@@ -91,7 +91,7 @@ and usable from the OpenRocket user interface.
 * Descriptions have been regularized to the engineering standard of a comma-separated list
   of attributes, progressing from the most general to the most specific.  For example, an
   Estes BNC-5E has the description "Nose cone, balsa, BNC-5E, PN 70212" while a PNC-5A is
-  "Nose cone, plastic, PNC-5A, PN72600".
+  "Nose cone, plastic, PNC-5A, PN 72600".
 
 * Materials entries have been consolidated into a master reference file
   `generic_materials.orc` and pasted into the parts database .orc files where used.  Note
