@@ -1,11 +1,18 @@
-# openrocket-database
-Enhanced parts database for [OpenRocket](http://openrocket.sourceforge.net/).  This provides a massive number of
+# openrocket-database - Enhanced components database for OpenRocket
+
+This project is aimed at sport rocketry people who use OpenRocket for design and flight simulation.
+
+This is an enhanced parts database for [OpenRocket](http://openrocket.sourceforge.net/).  This provides a massive number of
 additional components (nose cones, body tubes, transitions, etc.) and corrections to the built-in parts database
 contained in the OpenRocket jar file.
 
+## Version and compatibility
+
 Current version:  0.9.0.1
 
-Among the many features and improvements:
+OpenRocket compatibility:  tested with OpenRocket 15.03
+
+## Features and improvements:
 
 * Detailed documentation on how the components database works, and much info about restrictions and limitations.
 * Much research data added as comments in the files
@@ -112,3 +119,31 @@ and usable from the OpenRocket user interface.
 
 * Leading zeroes have been removed from part numbers, except for Estes kits where they are
   significant.
+
+
+## Technical Info
+
+### Built-in Component Databases
+
+The OpenRocket builtin databases are embedded in the main OpenRocket jar as a set of
+datafiles in `datafiles/presets/` inside the jar.  There is nothing in the manifest `META-INF/MANIFEST.MF`
+that refers to these datafiles, so updating them does not require altering the manifest.
+
+### OpenRocket Data File Search Path
+
+OpenRocket searches for parts/materials definitions in the following order:
+* Items existing in the active document (*** need to explore how ***)
+* Files jarred into OpenRocket-xx.xx.jar under datafiles/presets/*.orc
+# Loaded by ComponentPresetDatabaseLoader:
+   * Home directory location, system dependent (internally calls SystemInfo.getUserApplicationDirectory())
+      * $HOME/Library/Application Support/OpenRocket/Components/*.orc   (OSX)
+      * $HOME/.openrocket/Components/*.orc (Linux)
+      * $APPDATA/OpenRocket/Components/*.orc (Windows, if $APPDATA is set)
+      * System.getProperty("user.home")/OpenRocket/Components/*.orc (Windows, if $APPDATA not set)
+   * Preferences in ~/Library/Preferences/com.apple.java.util.pref.plist  (OSX, binary file)
+
+The OSX prefs are only used to hold materials definitions, not components.
+Unfortunately, it is ONLY the prefs values that appear in the materials dropdown when
+editing a component.
+
+
