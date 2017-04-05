@@ -1673,7 +1673,9 @@ Known issues:
       </BodyTube>
       
 
-      <!-- BT-70 -->
+      <!-- BT-70 *** incomplete *** -->
+
+      <!-- BT-70 17.5in used in K-21 Gemini-Titan -->
       <BodyTube>
         <Manufacturer>Estes</Manufacturer>
         <PartNumber>BT-70, 30424</PartNumber>
@@ -1682,6 +1684,61 @@ Known issues:
         <InsideDiameter Unit="in">2.175</InsideDiameter>
         <OutsideDiameter Unit="in">2.217</OutsideDiameter>
         <Length Unit="in">17.5</Length>
+      </BodyTube>
+
+      <!-- BT-70V 10.6in used in K-29/#1229 Saturn 1B -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-70V, 30430</PartNumber>
+        <Description>Body Tube, BT-70, 10.6 in., PN 30430</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">2.175</InsideDiameter>
+        <OutsideDiameter Unit="in">2.217</OutsideDiameter>
+        <Length Unit="in">10.6</Length>
+      </BodyTube>
+
+      <!-- BT-70 10.0in used in #2055 BLU-97B -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-70_10in, 30413</PartNumber>
+        <Description>Body Tube, BT-70, 10.0 in., PN 30413</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">2.175</InsideDiameter>
+        <OutsideDiameter Unit="in">2.217</OutsideDiameter>
+        <Length Unit="in">10.0</Length>
+      </BodyTube>
+
+      <!-- BT-70H 7.15in used in K-30 Little Joe II and K-59 SPEV -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-70H, 30428</PartNumber>
+        <Description>Body Tube, BT-70, 7.15 in., PN 30428</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">2.175</InsideDiameter>
+        <OutsideDiameter Unit="in">2.217</OutsideDiameter>
+        <Length Unit="in">7.15</Length>
+      </BodyTube>
+
+      <!-- BT-70 6.25in used in #2019 Titan IIIE, no numeric PN in Brohm -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-70_6.25in</PartNumber>
+        <Description>Body Tube, BT-70, 6.25 in.</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">2.175</InsideDiameter>
+        <OutsideDiameter Unit="in">2.217</OutsideDiameter>
+        <Length Unit="in">6.25</Length>
+      </BodyTube>
+
+      <!-- BT-70 4.5in used in #2119 36 D Squared -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-70_4.5in, 31680</PartNumber>
+        <Description>Body Tube, BT-70, 4.5 in., PN 31680</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">2.175</InsideDiameter>
+        <OutsideDiameter Unit="in">2.217</OutsideDiameter>
+        <Length Unit="in">4.5</Length>
       </BodyTube>
 
       <!-- BT-80 -->
@@ -1799,6 +1856,30 @@ Known issues:
       </BodyTube>
 
       <!-- BT-101 -->
+
+      <!-- BT-101SV used in #2001 Saturn V -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-101SV, 30449</PartNumber>
+        <Description>Body tube, BT-101, 24.625 in., PN 30449</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">3.938</InsideDiameter>
+        <OutsideDiameter Unit="in">3.896</OutsideDiameter>
+        <Length Unit="in">24.625</Length>
+      </BodyTube>
+
+      <!-- BT-101LA used in #1268 Pershing 1-A -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-101LA, 30445</PartNumber>
+        <Description>Body tube, BT-101, 21.4 in., PN 30445</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">3.938</InsideDiameter>
+        <OutsideDiameter Unit="in">3.896</OutsideDiameter>
+        <Length Unit="in">21.4</Length>
+      </BodyTube>
+
+      <!-- BT-101 16.5" used in K-36/#1236 Saturn V -->
       <BodyTube>
         <Manufacturer>Estes</Manufacturer>
         <PartNumber>BT-101, 30438</PartNumber>
@@ -1808,6 +1889,40 @@ Known issues:
         <OutsideDiameter Unit="in">3.896</OutsideDiameter>
         <Length Unit="in">16.5</Length>
       </BodyTube>
+
+      <!-- BT-101KJ used in #1267 Maxi-V2 -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-101KJ, 30441</PartNumber>
+        <Description>Body tube, BT-101, 10.5 in., PN 30441</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">3.938</InsideDiameter>
+        <OutsideDiameter Unit="in">3.896</OutsideDiameter>
+        <Length Unit="in">10.5</Length>
+      </BodyTube>
+
+      <!-- BT-101K used in K-36/#1236 Saturn V -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-101K, 30440</PartNumber>
+        <Description>Body tube, BT-101, 7.59 in., PN 30440</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">3.938</InsideDiameter>
+        <OutsideDiameter Unit="in">3.896</OutsideDiameter>
+        <Length Unit="in">7.59</Length>
+      </BodyTube>
+
+      <!-- BT-101T used in K-29/#1229 Saturn 1B -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-101T, 30442</PartNumber>
+        <Description>Body tube, BT-101, 2.78 in., PN 30442</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">3.938</InsideDiameter>
+        <OutsideDiameter Unit="in">3.896</OutsideDiameter>
+        <Length Unit="in">2.78</Length>
+      </BodyTube>
+
 
       <!-- Couplers (tube) All validated except JT-80C -->
       <TubeCoupler>
@@ -2355,10 +2470,9 @@ Known issues:
 
 
         <!-- Nose cones (balsa)
-             ***TODO*** get rid of mass overrides? Need to determine average Estes  balsa density
              This list is still not complete, but much better than the stock OpenRocket data file.
              There is an OpenRocket research spreadsheet giving a source of "13.09.1" for much of the PNC info
-             But there are obvious mistakes and blanks in this
+             But there are obvious mistakes and blanks in this document.
              The best existing reference is Brohm's list: www.rocketshoppe.com/info/Estes_Nose_Cone_Reference_10.1.pdf
              This lists all cones *used in kits* by numeric PN, traditional part num, and kit usage, but has no
              dimensions or mass info.  It fails to list nose cones that were sold in the catalog but never used in a kit,
@@ -3120,7 +3234,7 @@ Known issues:
 
         <!--
             NC-55 with molded-in canopy for #1903 Xarconian Cruiser and #2000 Voyager II
-            Brohm v10.1 gives "PNC-55" PN 071037 for these kits; however they are too new to have a
+            Brohm v10.1 gives "PNC-55" PN 071037 for these kits; but they are too new to have a
             genuine unique "PNC-55" designation.
             HOWEVER, Estes Xarconian Cruiser current instructions on Estes site give PN 072689 so I'm using that.
             Voyager II instructions clearly show the same cone though no PN given.
@@ -3274,7 +3388,7 @@ Known issues:
             *** There is at least one transition available for BT-56/ST-13 ***
             see the Magnum Load in the #1401 Hunter's Choice Launch Set (2 rockets, 2014 catalog), which
             transitions from a 1.35" diam tube to something around 1.0", likely ST-10
-            size.  We have no actual data on this part.
+            size.  We have no actual data on this part, and that's a rare kit.
         -->
             
 
@@ -3503,7 +3617,7 @@ Known issues:
         <Parachute>
             <Manufacturer>Estes</Manufacturer>
             <PartNumber>parachute_9in, 002268</PartNumber>
-            <Description>Parachute, plastic, preassembled, 9 in.</Description>
+            <Description>Parachute, plastic, preassembled, 9 in., PN 002268</Description>
             <Material Type="SURFACE">Polyethylene film, HDPE, 1.0 mil, bare</Material>
             <Diameter Unit="in">9.0</Diameter>
             <Sides>6</Sides>
@@ -3575,7 +3689,7 @@ Known issues:
         <Parachute>
             <Manufacturer>Estes</Manufacturer>
             <PartNumber>PK-18A, 85566</PartNumber>
-            <Description>Parachute kit, plastic, 18 in., 85566</Description>
+            <Description>Parachute kit, plastic, 18 in., PN 85566</Description>
             <Material Type="SURFACE">Polyethylene film, HDPE, 1.0 mil, bare</Material>
             <Diameter Unit="in">18.0</Diameter>
             <Sides>6</Sides>
@@ -3587,7 +3701,7 @@ Known issues:
         <Parachute>
             <Manufacturer>Estes</Manufacturer>
             <PartNumber>parachute_18in, 302267, 002267</PartNumber>
-            <Description>Parachute, plastic, preassembled, 18 in., 302267/002267</Description>
+            <Description>Parachute, plastic, preassembled, 18 in., PN 302267/002267</Description>
             <Material Type="SURFACE">Polyethylene film, HDPE, 1.0 mil, bare</Material>
             <Diameter Unit="in">18.0</Diameter>
             <Sides>6</Sides>
@@ -3599,7 +3713,7 @@ Known issues:
         <Parachute>
             <Manufacturer>Estes</Manufacturer>
             <PartNumber>parachute_18in, 035823</PartNumber>
-            <Description>Parachute, plastic, preassembled, 18 in., Der Red Max, 035823</Description>
+            <Description>Parachute, plastic, preassembled, 18 in., Der Red Max, PN 035823</Description>
             <Material Type="SURFACE">Polyethylene film, HDPE, 1.0 mil, bare</Material>
             <Diameter Unit="in">18.0</Diameter>
             <Sides>6</Sides>
