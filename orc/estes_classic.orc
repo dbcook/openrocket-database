@@ -3481,12 +3481,13 @@ Known issues:
         <!-- PK-8 ref 1975 catalog, which also has PK-12, PK-18, PK-24.  "A" versions
              appeared later.  There are many variations in printing and shroud line
              attachment methods.  Functionally they are virtually identical so only one
-             listing is given for each size.
+             listing is given for each size.  1974 Custom Parts Catalog gives PN 2260 for
+             PK-8 and net wt of 0.35 oz.
         -->
         <Parachute>
             <Manufacturer>Estes</Manufacturer>
-            <PartNumber>PK-8</PartNumber>
-            <Description>Parachute, plastic, 8 in.</Description>
+            <PartNumber>PK-8, 2260</PartNumber>
+            <Description>Parachute kit, plastic, 8 in., PN 2260</Description>
             <Material Type="SURFACE">Polyethylene film, HDPE, 1.0 mil, bare</Material>
             <Diameter Unit="in">8.0</Diameter>
             <Sides>6</Sides>
@@ -3494,10 +3495,35 @@ Known issues:
             <LineLength Unit="in">8.0</LineLength>
             <LineMaterial Type="LINE">Carpet Thread</LineMaterial>
         </Parachute>
+        <!-- Estes 9" preassembled parachute has PN "002268" on 2017 website -->
         <Parachute>
             <Manufacturer>Estes</Manufacturer>
-            <PartNumber>PK-12A</PartNumber>
-            <Description>Parachute, plastic, 12 in.</Description>
+            <PartNumber>parachute_9in, 002268</PartNumber>
+            <Description>Parachute, plastic, preassembled, 9 in.</Description>
+            <Material Type="SURFACE">Polyethylene film, HDPE, 1.0 mil, bare</Material>
+            <Diameter Unit="in">9.0</Diameter>
+            <Sides>6</Sides>
+            <LineCount>6</LineCount>
+            <LineLength Unit="in">9.0</LineLength>
+            <LineMaterial Type="LINE">Carpet Thread</LineMaterial>
+        </Parachute>
+        <!-- PK-10 original, 1974 Custom Parts Catalog gives PN 2262, weight .074 oz -->
+        <Parachute>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>PK-10, 2262</PartNumber>
+            <Description>Parachute kit, plastic, 10 in., PN 2262</Description>
+            <Material Type="SURFACE">Polyethylene film, HDPE, 1.0 mil, bare</Material>
+            <Diameter Unit="in">10.0</Diameter>
+            <Sides>6</Sides>
+            <LineCount>6</LineCount>
+            <LineLength Unit="in">10.0</LineLength>
+            <LineMaterial Type="LINE">Carpet Thread</LineMaterial>
+        </Parachute>
+        <!-- PK-12 original, 1974 custom parts catalog gives PN 2263, weight .078 oz -->
+        <Parachute>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>PK-12, 2263</PartNumber>
+            <Description>Parachute kit, plastic, 12 in., PN 2263</Description>
             <Material Type="SURFACE">Polyethylene film, HDPE, 1.0 mil, bare</Material>
             <Diameter Unit="in">12.0</Diameter>
             <Sides>6</Sides>
@@ -3505,10 +3531,35 @@ Known issues:
             <LineLength Unit="in">12.0</LineLength>
             <LineMaterial Type="LINE">Carpet Thread</LineMaterial>
         </Parachute>
+        <!-- PK-12A - #1214 Drifter instructions show PN 85564 -->
         <Parachute>
             <Manufacturer>Estes</Manufacturer>
-            <PartNumber>PK-18A</PartNumber>
-            <Description>Parachute, plastic, 18 in.</Description>
+            <PartNumber>PK-12A, 85564</PartNumber>
+            <Description>Parachute kit, plastic, 12 in., PN 85564</Description>
+            <Material Type="SURFACE">Polyethylene film, HDPE, 1.0 mil, bare</Material>
+            <Diameter Unit="in">12.0</Diameter>
+            <Sides>6</Sides>
+            <LineCount>6</LineCount>
+            <LineLength Unit="in">12.0</LineLength>
+            <LineMaterial Type="LINE">Carpet Thread</LineMaterial>
+        </Parachute>
+        <!-- 12in preassembled parachute: PN 002264 on 2017 website, 302264 in 2007 catalog -->
+        <Parachute>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>parachute_12in, 002264, 302264</PartNumber>
+            <Description>Parachute, plastic, preassembled, 12 in., PN 002264/302264</Description>
+            <Material Type="SURFACE">Polyethylene film, HDPE, 1.0 mil, bare</Material>
+            <Diameter Unit="in">12.0</Diameter>
+            <Sides>6</Sides>
+            <LineCount>6</LineCount>
+            <LineLength Unit="in">12.0</LineLength>
+            <LineMaterial Type="LINE">Carpet Thread</LineMaterial>
+        </Parachute>
+        <!-- PK-18 original has PN 2266 in 1974 custom parts catalog, weight .144 oz -->
+        <Parachute>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>PK-18, 2266</PartNumber>
+            <Description>Parachute kit, plastic, 18 in., PN 2266</Description>
             <Material Type="SURFACE">Polyethylene film, HDPE, 1.0 mil, bare</Material>
             <Diameter Unit="in">18.0</Diameter>
             <Sides>6</Sides>
@@ -3516,10 +3567,59 @@ Known issues:
             <LineLength Unit="m">18.0</LineLength>
             <LineMaterial Type="LINE">Carpet Thread</LineMaterial>
         </Parachute>
+        <!-- PN for PK-18A was 85566 according to #1294 Cobra instructions -->
         <Parachute>
             <Manufacturer>Estes</Manufacturer>
-            <PartNumber>PK-24A</PartNumber>
-            <Description>Parachute, plastic, 24 in.</Description>
+            <PartNumber>PK-18A, 85566</PartNumber>
+            <Description>Parachute kit, plastic, 18 in., 85566</Description>
+            <Material Type="SURFACE">Polyethylene film, HDPE, 1.0 mil, bare</Material>
+            <Diameter Unit="in">18.0</Diameter>
+            <Sides>6</Sides>
+            <LineCount>6</LineCount>
+            <LineLength Unit="m">18.0</LineLength>
+            <LineMaterial Type="LINE">Carpet Thread</LineMaterial>
+        </Parachute>
+        <!-- 18in preassembled parachute:  PN 302267 in 2007 catalog, 002267 on 2017 website -->
+        <Parachute>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>parachute_18in, 302267, 002267</PartNumber>
+            <Description>Parachute, plastic, preassembled, 18 in., 302267/002267</Description>
+            <Material Type="SURFACE">Polyethylene film, HDPE, 1.0 mil, bare</Material>
+            <Diameter Unit="in">18.0</Diameter>
+            <Sides>6</Sides>
+            <LineCount>6</LineCount>
+            <LineLength Unit="m">18.0</LineLength>
+            <LineMaterial Type="LINE">Carpet Thread</LineMaterial>
+        </Parachute>
+        <!-- PK-24 was PN 2270 in 1974 custom parts catalog, weight .298 oz -->
+        <Parachute>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>PK-24, 2270</PartNumber>
+            <Description>Parachute kit, plastic, 24 in., PN 2270</Description>
+            <Material Type="SURFACE">Polyethylene film, HDPE, 1.0 mil, bare</Material>
+            <Diameter Unit="in">24.0</Diameter>
+            <Sides>8</Sides>
+            <LineCount>8</LineCount>
+            <LineLength Unit="in">24.0</LineLength>
+            <LineMaterial Type="LINE">Carpet Thread</LineMaterial>
+        </Parachute>
+        <!-- PK-24A #1214 Drifter instructions show PN 85568 -->
+        <Parachute>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>PK-24A, 85568</PartNumber>
+            <Description>Parachute kit, plastic, 24 in., PN 85568</Description>
+            <Material Type="SURFACE">Polyethylene film, HDPE, 1.0 mil, bare</Material>
+            <Diameter Unit="in">24.0</Diameter>
+            <Sides>8</Sides>
+            <LineCount>8</LineCount>
+            <LineLength Unit="in">24.0</LineLength>
+            <LineMaterial Type="LINE">Carpet Thread</LineMaterial>
+        </Parachute>
+        <!-- 24in preassembled parachute PN 302271 in 2007 catalog, PN 002271 in 2017 website -->
+        <Parachute>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>parachute_24in, 302271, 002271</PartNumber>
+            <Description>Parachute, plastic, preassembled, 24 in., PN 302271/002271</Description>
             <Material Type="SURFACE">Polyethylene film, HDPE, 1.0 mil, bare</Material>
             <Diameter Unit="in">24.0</Diameter>
             <Sides>8</Sides>
@@ -3528,7 +3628,7 @@ Known issues:
             <LineMaterial Type="LINE">Carpet Thread</LineMaterial>
         </Parachute>
 
-        <!-- Parachutes (nylon) -->
+        <!-- *** Parachutes (nylon) *** -->
         
         
     </Components>
