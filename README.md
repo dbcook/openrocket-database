@@ -13,12 +13,12 @@ Among the many features and improvements:
 * Mass data for tubing analyzed to remove outliers and derive correct average densities
 * A master materials reference file is provided with heavily researched data
 * Major expansion and cleanup of the Estes parts file
-  ** All (nearly) body tubes from the comprehensive Brohm tube index, including BT-51, BT-52, BT-56, BT-58, etc.
-  ** Many nose cones added from the Brohm nose cone reference
-  ** Numeric PNs and old style part numbers both listed where known
+  * All (nearly) body tubes from the comprehensive Brohm tube index, including BT-51, BT-52, BT-56, BT-58, etc.
+  * Many nose cones added from the Brohm nose cone reference
+  * Numeric PNs and old style part numbers both listed where known
 * Greatly improved LOC Precision parts file
-  ** Best available size and mass data (much of it from Apogee); many conflicts and errors resolved
-  ** Parachutes added
+  * Best available size and mass data (much of it from Apogee); many conflicts and errors resolved
+  * Parachutes added
 * Top Flight parachutes and streamers file added
 * Competition parachutes and streamers file added
 
