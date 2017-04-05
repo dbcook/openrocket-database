@@ -144,7 +144,7 @@ and usable from the OpenRocket user interface.
 There are two major kinds of files we are concerned with in OpenRocket:
 
 * Component definition files `*.orc`
-* Rocket definition files `*.ork"
+* Rocket definition files `*.ork`
 
 The .orc component database files are ascii XML and are human-readable.  However, the .ork
 rocket definition files are binary and there is no very easy way to inspect them.
