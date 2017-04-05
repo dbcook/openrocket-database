@@ -3591,6 +3591,18 @@ Known issues:
             <LineLength Unit="m">18.0</LineLength>
             <LineMaterial Type="LINE">Carpet Thread</LineMaterial>
         </Parachute>
+        <!-- 18in Der Red Max plastic parachute PN 035823 on 2017 website -->
+        <Parachute>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>parachute_18in, 035823</PartNumber>
+            <Description>Parachute, plastic, preassembled, 18 in., Der Red Max, 035823</Description>
+            <Material Type="SURFACE">Polyethylene film, HDPE, 1.0 mil, bare</Material>
+            <Diameter Unit="in">18.0</Diameter>
+            <Sides>6</Sides>
+            <LineCount>6</LineCount>
+            <LineLength Unit="m">18.0</LineLength>
+            <LineMaterial Type="LINE">Carpet Thread</LineMaterial>
+        </Parachute>
         <!-- PK-24 was PN 2270 in 1974 custom parts catalog, weight .298 oz -->
         <Parachute>
             <Manufacturer>Estes</Manufacturer>
@@ -3629,6 +3641,16 @@ Known issues:
         </Parachute>
 
         <!-- *** Parachutes (nylon) *** -->
+        <!-- PSII 24" nylon parachute PN 002261 on 2017 website -->
+        <!-- PSII 30" nylon parachute PN 002273 on 2017 website -->
+        
+
+        <!-- *** Centering rings *** -->
+        <!-- InsideDiameter, OutsideDiameter, Length -->
+
+        <!-- *** Bulkheads *** -->
+        <!-- OutsideDiameter, Length, Filled (usually true) -->
+        <!-- may not need, NB-xx are defined as TubeCoupler -->
         
         
     </Components>
