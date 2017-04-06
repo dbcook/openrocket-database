@@ -439,11 +439,11 @@ Known issues:
         <OutsideDiameter Unit="in">0.541</OutsideDiameter>
         <Length Unit="in">1.375</Length>
       </BodyTube>
-      <!-- 0.75" 030409 used in #2109 Renegade -->
+      <!-- 0.75" 30409 used in #2109 Renegade -->
       <BodyTube>
         <Manufacturer>Estes</Manufacturer>
-        <PartNumber>BT-5_0.75in, 030409</PartNumber>
-        <Description>Body tube, BT-5, 0.75 in., PN 030409</Description>
+        <PartNumber>BT-5_0.75in, 30409</PartNumber>
+        <Description>Body tube, BT-5, 0.75 in., PN 30409</Description>
         <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
         <InsideDiameter Unit="in">0.515</InsideDiameter>
         <OutsideDiameter Unit="in">0.541</OutsideDiameter>
@@ -526,6 +526,8 @@ Known issues:
         <OutsideDiameter Unit="in">0.736</OutsideDiameter>
         <Length Unit="in">2.25</Length>
       </BodyTube>
+
+      <!-- PST-20 clear payload tube and Phantom body -->
       <BodyTube>
         <Manufacturer>Estes</Manufacturer>
         <PartNumber>PST-20, 30602</PartNumber>
@@ -977,6 +979,17 @@ Known issues:
 
       <!-- PST-50 clear payload tube -->
       <!-- *** should material be PETG? *** -->
+      <!-- PST_50FJ 6" was only found in the original K-7B Phantom.  The updated #1207
+      Phantom used a PST-50S instead -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>PST-50FJ, 30620</PartNumber>
+        <Description>Body tube, clear, PST-50, 6 in., PN 30620</Description>
+        <Material Type="BULK">Mylar, bulk</Material>
+        <InsideDiameter Unit="in">0.950</InsideDiameter>
+        <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+        <Length Unit="in">6.0</Length>
+      </BodyTube>
       <BodyTube>
         <Manufacturer>Estes</Manufacturer>
         <PartNumber>PST-50S, 30608</PartNumber>
@@ -1388,6 +1401,18 @@ Known issues:
         <Length Unit="in">2.1</Length>
       </BodyTube>
 
+      <!-- PST-55 -->
+      <!-- PST-55 12.0" used in #2155 Super Nova Payloader -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>PST-55, 30612</PartNumber>
+        <Description>Body tube, PST-55, clear, 12 in., PN 30612</Description>
+        <Material Type="BULK">Mylar, bulk</Material>
+        <InsideDiameter Unit="in">1.283</InsideDiameter>
+        <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+        <Length Unit="in">12.0</Length>
+      </BodyTube>
+
       <!-- BT-56 -->
       <!-- NOTE: BT-56 is identical to old Centuri ST-13; only slightly larger than BT-55
       -->
@@ -1605,7 +1630,7 @@ Known issues:
       </BodyTube>
 
       <!-- BT-60 -->
-      <!-- *** finish this, not yet fully matched against Brohm, numeric PNs missing from descriptions *** -->
+
       <BodyTube>
         <Manufacturer>Estes</Manufacturer>
         <PartNumber>BT-60, 30396</PartNumber>
@@ -1615,6 +1640,194 @@ Known issues:
         <OutsideDiameter Unit="in">1.637</OutsideDiameter>
         <Length Unit="in">18.0</Length>
       </BodyTube>
+      <!-- BT-60WH used in #2127 Sizzler -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-60WH, 31175</PartNumber>
+        <Description>Body tube, BT-60, white, 18 in., PN 31175</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.595</InsideDiameter>
+        <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+        <Length Unit="in">18.0</Length>
+      </BodyTube>
+      <!-- BT-60 18" alternate PN used only in #2109 Renegade.  The tube has no special
+           features that would justify a separate PN -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-60, 30401</PartNumber>
+        <Description>Body tube, BT-60, 18 in., Renegade, PN 30401</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.595</InsideDiameter>
+        <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+        <Length Unit="in">18.0</Length>
+      </BodyTube>
+      <!-- BT-60KF 16.1" used in K-41/#1241 Semi Scale Mercury Redstone -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-60KF, 30416</PartNumber>
+        <Description>Body tube, BT-60, 16.1 in., PN 30416</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.595</InsideDiameter>
+        <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+        <Length Unit="in">16.1</Length>
+      </BodyTube>
+      <!-- BT-60P 16.0" used in #2192 Thunderstar -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-60P, 30455</PartNumber>
+        <Description>Body tube, BT-60, 16 in., PN 30455</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.595</InsideDiameter>
+        <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+        <Length Unit="in">16.0</Length>
+      </BodyTube>
+      <!-- BT-60 15.56" used in #2187 Oracle -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-60_15.56in, 60865</PartNumber>
+        <Description>Body tube, BT-60, 15.56 in., PN 60865</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.595</InsideDiameter>
+        <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+        <Length Unit="in">15.56</Length>
+      </BodyTube>
+      <!-- BT-60 14.7" used in #2173 Menace -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-60_14.7in, 30395</PartNumber>
+        <Description>Body tube, BT-60, 14.7 in., PN 30395</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.595</InsideDiameter>
+        <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+        <Length Unit="in">14.7</Length>
+      </BodyTube>
+      <!-- BT-60AE 14.25" used in #1340 SCUD-B -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-60AE, 30404</PartNumber>
+        <Description>Body tube, BT-60, 14.25 in., PN 30404</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.595</InsideDiameter>
+        <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+        <Length Unit="in">14.25</Length>
+      </BodyTube>
+      <!-- BT-60AD 14" used in K-52/#1200P Omega -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-60AD, 30398</PartNumber>
+        <Description>Body tube, BT-60, 14 in., PN 30398</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.595</InsideDiameter>
+        <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+        <Length Unit="in">14.0</Length>
+      </BodyTube>
+      <!-- BT-60 13.313" used in #2019 Titan IIIE, no PN known -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-60_13.313in</PartNumber>
+        <Description>Body tube, BT-60, 13.313 in.</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.595</InsideDiameter>
+        <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+        <Length Unit="in">13.313</Length>
+      </BodyTube>
+      <!-- BT-60 13.25" used in #2054 Beta Launch Vehicle. PN 30400 conflicts with the
+           7.5" BT-60 used in #1261 Baby Bertha.  PN 30408 is used for this length BT-60
+           in #2056 Patriot, but conflicts with BT-60FG 6.7" -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-60_13.25in, 30400, 30408</PartNumber>
+        <Description>Body tube, BT-60, 13.25 in., PN 30400/30408</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.595</InsideDiameter>
+        <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+        <Length Unit="in">13.313</Length>
+      </BodyTube>
+      <!-- BT-60KC 12.875" used in #1287 LTV Scout -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-60KC, 30415</PartNumber>
+        <Description>Body tube, BT-60, 12.875 in., PN 30415</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.595</InsideDiameter>
+        <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+        <Length Unit="in">12.875</Length>
+      </BodyTube>
+      <!-- BT-60DS 12.5" used in #1345 Dragon Ship 7. -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-60DS, 30407</PartNumber>
+        <Description>Body tube, BT-60, 12.5 in., PN 30407</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.595</InsideDiameter>
+        <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+        <Length Unit="in">12.5</Length>
+      </BodyTube>
+      <!--  BT-60 12.5" (nominally same as BT-60DS)  appears without PN in #2086 Tomcat
+           but with punched holes/slots, so it is not the same part  -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-60_12.5in_tomcat_punched</PartNumber>
+        <Description>Body tube, BT-60, tomcat punched, 12.5 in.</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.595</InsideDiameter>
+        <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+        <Length Unit="in">12.5</Length>
+      </BodyTube>
+      
+      <!-- BT-60 12.0" used in #1301 Storm Caster and #2156 Prower.  PN 30397 conflicts with
+           BT-58 used in #2048 Saturn 1B.  Brohm says this BT-60 is white -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-60_12.0in, 30397</PartNumber>
+        <Description>Body tube, BT-60, white, 12 in., PN 30397</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.595</InsideDiameter>
+        <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+        <Length Unit="in">12.0</Length>
+      </BodyTube>
+      <!-- BT-60 12.0" with 60000 series PN used in #2187 Oracle.  May be white. -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-60_12.0in, 60974</PartNumber>
+        <Description>Body tube, BT-60, 12 in., PN 60974</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.595</InsideDiameter>
+        <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+        <Length Unit="in">12.0</Length>
+      </BodyTube>
+      <!-- BT-60 12.0" blue used in #2155 Super Nova Payloader.  PN 30398 conflicts with BT-60AD -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-60_12.0in_blue, 30398</PartNumber>
+        <Description>Body tube, BT-60, blue, 12 in., PN 30398</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.595</InsideDiameter>
+        <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+        <Length Unit="in">12.0</Length>
+      </BodyTube>
+      <!-- BT-60 12.0" slotted used in #2156 Prowler -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-60_12.0in_slotted_prowler, 31189</PartNumber>
+        <Description>Body tube, BT-60, slotted, 12 in., Prowler, PN 31189</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.595</InsideDiameter>
+        <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+        <Length Unit="in">12.0</Length>
+      </BodyTube>
+      <!-- BT-60 12.0" blue prismatic used in #1300 Blue Ninja and .  PN 30406 conflicts with
+           parts catalog entry for BT-60D 11.0" --> 
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-60_12.0in_blue_prism, 30406</PartNumber>
+        <Description>Body tube, BT-60, blue prismatic, 12 in., PN 30406</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.595</InsideDiameter>
+        <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+        <Length Unit="in">12.0</Length>
+      </BodyTube>
+      <!-- BT-60D 11" appears in the 1974 parts catalog -->
       <BodyTube>
         <Manufacturer>Estes</Manufacturer>
         <PartNumber>BT-60D, 30406</PartNumber>
@@ -1624,48 +1837,234 @@ Known issues:
         <OutsideDiameter Unit="in">1.637</OutsideDiameter>
         <Length Unit="in">11.0</Length>
       </BodyTube>
+      <!-- BT-60 10.375" used in #2019 Titan IIIE, no PN known -->
       <BodyTube>
         <Manufacturer>Estes</Manufacturer>
-        <PartNumber>BT-60K</PartNumber>
-        <Description>Body tube, BT-60, 7 in.</Description>
+        <PartNumber>BT-60_10.375in</PartNumber>
+        <Description>Body tube, BT-60, 10.375 in.</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.595</InsideDiameter>
+        <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+        <Length Unit="in">10.375</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-60AJ, 30402</PartNumber>
+        <Description>Body tube, BT-60, 10 in., PN 30402</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.595</InsideDiameter>
+        <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+        <Length Unit="in">10.0</Length>
+      </BodyTube>
+      <!-- BT-60 10.0" orange used in #2071 CATO, no PN known -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-60_10.0in_orange</PartNumber>
+        <Description>Body tube, BT-60, orange, 10 in.</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.595</InsideDiameter>
+        <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+        <Length Unit="in">10.0</Length>
+      </BodyTube>
+      <!-- BT-60HE 8.5" used in #0651/KC-2 Der Red Max -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-60HE, 30410</PartNumber>
+        <Description>Body tube, BT-60, 8.5 in., PN 30410</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.595</InsideDiameter>
+        <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+        <Length Unit="in">8.5</Length>
+      </BodyTube>
+      <!-- BT-60 8.0" used in #2119 36 D Squared -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-60_8.0in, 31681</PartNumber>
+        <Description>Body tube, BT-60, 8 in., PN 31681</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.595</InsideDiameter>
+        <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+        <Length Unit="in">8.0</Length>
+      </BodyTube>
+      <!-- BT-60 8.0" blue prismatic used in #1300 Blue Ninja. PN 30407 conflicts with
+           older BT-60DS 12.5" -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-60_8.0in_blue, 30407</PartNumber>
+        <Description>Body tube, BT-60, blue prismatic, 8 in., PN 30407</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.595</InsideDiameter>
+        <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+        <Length Unit="in">8.0</Length>
+      </BodyTube>
+      <!-- BT-60 7.5" black used in #2121 Liquidator -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-60_7.5in_black, 31713</PartNumber>
+        <Description>Body tube, BT-60, black, 7.5 in., PN 31713</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.595</InsideDiameter>
+        <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+        <Length Unit="in">7.5</Length>
+      </BodyTube>
+      
+      <!-- In #1261 Baby Bertha and #2196 Space Ship One, a 7.5" BT-60 is given PN 30400,
+           which conflicts with the 13.25" BT-60 used in the #2054 Beta Launch Vehicle -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-60_7.5in, 30400</PartNumber>
+        <Description>Body tube, BT-60, 7.5 in., PN 30400</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.595</InsideDiameter>
+        <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+        <Length Unit="in">7.5</Length>
+      </BodyTube>
+      
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-60K, 30414</PartNumber>
+        <Description>Body tube, BT-60, 7 in., PN 30414</Description>
         <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
         <InsideDiameter Unit="in">1.595</InsideDiameter>
         <OutsideDiameter Unit="in">1.637</OutsideDiameter>
         <Length Unit="in">7.0</Length>
       </BodyTube>
+      <!-- BT-60FG 6.7" used in K-43 Mars Lander and K-59 SPEV and #1387 Maxi Streak -->
       <BodyTube>
         <Manufacturer>Estes</Manufacturer>
-        <PartNumber>BT-60R</PartNumber>
-        <Description>Body tube, BT-60, 5 in.</Description>
+        <PartNumber>BT-60FG, 30408</PartNumber>
+        <Description>Body tube, BT-60, 6.7 in., PN 30408</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.595</InsideDiameter>
+        <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+        <Length Unit="in">6.7</Length>
+      </BodyTube>
+      <!-- BT-60 6.656" used in re-release of #2056 Patriot -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-60_6.656in, 30414</PartNumber>
+        <Description>Body tube, BT-60, 6.656 in., PN 30414</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.595</InsideDiameter>
+        <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+        <Length Unit="in">6.656</Length>
+      </BodyTube>
+      <!-- BT-60 5.688" used in #2110 Outlander.  PN conflicts with BT-60AJ -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-60_5.688in, 30402</PartNumber>
+        <Description>Body tube, BT-60, 5.688 in., PN 30402</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.595</InsideDiameter>
+        <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+        <Length Unit="in">5.688</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-60R, 30418</PartNumber>
+        <Description>Body tube, BT-60, 5 in., PN 30418</Description>
         <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
         <InsideDiameter Unit="in">1.595</InsideDiameter>
         <OutsideDiameter Unit="in">1.637</OutsideDiameter>
         <Length Unit="in">5.0</Length>
       </BodyTube>
+      <!-- BT-60V 4.313" used in #2193 Vanguard Eagle -->
       <BodyTube>
         <Manufacturer>Estes</Manufacturer>
-        <PartNumber>BT-60J</PartNumber>
-        <Description>Body tube, BT-60, 2.75 in.</Description>
+        <PartNumber>BT-60V, 30453</PartNumber>
+        <Description>Body tube, BT-60, 4.313 in., PN 30453</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.595</InsideDiameter>
+        <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+        <Length Unit="in">4.313</Length>
+      </BodyTube>
+      <!-- BT-60 3.25" yellow used in #2056 Patriot and its re-release (under different
+      PNs).  PN 30409 from the original Patriot conflicts with 0.5" BT-5 -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-60_3.25in_yellow, 30409, 30426</PartNumber>
+        <Description>Body tube, BT-60, 3.25 in., PN 30409/30426</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.595</InsideDiameter>
+        <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+        <Length Unit="in">3.25</Length>
+      </BodyTube>
+      <!-- BT-60 3.25" used in #2109 Renegade PN 30404, which conflicts with BT-60AE PN -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-60_3.25in, 30404</PartNumber>
+        <Description>Body tube, BT-60, 3.25 in., PN 30404</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.595</InsideDiameter>
+        <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+        <Length Unit="in">3.25</Length>
+      </BodyTube>
+      <!-- BT-60XW 3.0" used in #1302 Maxi X-Wing -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-60XW, 30419</PartNumber>
+        <Description>Body tube, BT-60, 3 in., PN 30419</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.595</InsideDiameter>
+        <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+        <Length Unit="in">3.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-60J, 30412</PartNumber>
+        <Description>Body tube, BT-60, 2.75 in., PN 30412</Description>
         <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
         <InsideDiameter Unit="in">1.595</InsideDiameter>
         <OutsideDiameter Unit="in">1.637</OutsideDiameter>
         <Length Unit="in">2.75</Length>
       </BodyTube>
+      <!-- BT-60 2.0" used in #2037 National Aero Space Plane and #2110 Outlander-->
       <BodyTube>
         <Manufacturer>Estes</Manufacturer>
-        <PartNumber>PST-60R</PartNumber>
-        <Description>Body tube, clear, PST-60R, 5 in.</Description>
+        <PartNumber>BT-60_2.0in, 30411</PartNumber>
+        <Description>Body tube, BT-60, 2.0 in., PN 30411</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.595</InsideDiameter>
+        <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+        <Length Unit="in">2.0</Length>
+      </BodyTube>
+      <!-- BT-60 1.56" used in #0881 Mini Mars Lander, no PN known -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-60_1.56in</PartNumber>
+        <Description>Body tube, BT-60, 1.56 in.</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.595</InsideDiameter>
+        <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+        <Length Unit="in">1.56</Length>
+      </BodyTube>
+      <!-- BT-60C 1.0" used in #1383 Hyperion -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-60C, 30405</PartNumber>
+        <Description>Body tube, BT-60, 1.0 in., PN 30405</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.595</InsideDiameter>
+        <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+        <Length Unit="in">1.0</Length>
+      </BodyTube>
+      
+      <!-- PST-60 clear payload tube -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>PST-60R, 30614</PartNumber>
+        <Description>Body tube, clear, PST-60R, 5 in., PN 30614</Description>
         <Material Type="BULK">Mylar, bulk</Material>
         <InsideDiameter Unit="in">1.595</InsideDiameter>
         <OutsideDiameter Unit="in">1.637</OutsideDiameter>
         <Length Unit="in">5.0</Length>
       </BodyTube>
 
-      <!-- PST-65 -->
+      <!-- PST-65 clear payload tube -->
       <BodyTube>
         <Manufacturer>Estes</Manufacturer>
-        <PartNumber>PST-65R</PartNumber>
-        <Description>Body tube, PST-65R, 5 in.</Description>
+        <PartNumber>PST-65R, 30616</PartNumber>
+        <Description>Body tube, clear, PST-65R, 5 in., PN 30616</Description>
         <Material Type="BULK">Mylar, bulk</Material>
         <InsideDiameter Unit="in">1.595</InsideDiameter>
         <OutsideDiameter Unit="in">1.637</OutsideDiameter>
@@ -3625,11 +4024,11 @@ Known issues:
             <LineLength Unit="in">9.0</LineLength>
             <LineMaterial Type="LINE">Carpet Thread</LineMaterial>
         </Parachute>
-        <!-- PK-10 original, 1974 Custom Parts Catalog gives PN 2262, weight .074 oz -->
+        <!-- PK-10 original, 1974 Custom Parts Catalog gives PN 2262, weight .074 oz, and preassembled -->
         <Parachute>
             <Manufacturer>Estes</Manufacturer>
             <PartNumber>PK-10, 2262</PartNumber>
-            <Description>Parachute kit, plastic, 10 in., PN 2262</Description>
+            <Description>Parachute, plastic, preassembled, 10 in., PN 2262</Description>
             <Material Type="SURFACE">Polyethylene film, HDPE, 1.0 mil, bare</Material>
             <Diameter Unit="in">10.0</Diameter>
             <Sides>6</Sides>
