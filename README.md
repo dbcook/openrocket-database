@@ -130,7 +130,7 @@ replaced by this package.
 I like to keep both a "stock" and a "stripped" OpenRocket so that I can run either way. The
 following commands show how to achieve that.
 
-``bash
+```bash
 cd location-of-openrocket-jar
 cp OpenRocket-15.03.jar OpenRocket-15.03-nopresets.jar
 zip -d OpenRocket-15.03-nopresets.jar datafiles/presets/system.ser
