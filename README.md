@@ -136,21 +136,20 @@ cp OpenRocket-15.03.jar OpenRocket-15.03-nopresets.jar
 zip -d OpenRocket-15.03-nopresets.jar datafiles/presets/system.ser
 ```
 
-### Database Files Provided in OpenRocket 15.03
+### Database Files Status
 
-```
-Estes.orc *
-LocPrecision.orc *
-Quest.orc
-bluetube.orc
-bms.orc
-Fliskits.orc
-giantleaprocketry.orc
-publicmissiles.orc
-semroc.orc
-```
+| File                    | In Stock OR      |  Upgrade State                 |
+| ----- | ----- | ----- |
+| `Estes.orc`             | Yes  | 95%
+| `LocPrecision.orc`      | Yes  | 99%
+| `semroc.orc`            | Yes  | 1% (just started)
+| `Quest.orc`             | Yes  | --
+| `bluetube.orc`          | Yes  | --
+| `bms.orc`               | Yes  | --
+| `Fliskits.orc`          | Yes  | --
+| `giantleaprocketry.orc` | Yes  | --
+| `publicmissiles.orc`    | Yes  | --
 
-Files marked with (*) have been upgraded in this project thus far.
 
 ## Conventions
 
