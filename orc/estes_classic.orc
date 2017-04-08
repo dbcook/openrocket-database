@@ -4197,11 +4197,12 @@ Known issues:
           <Length Unit="in">8.0</Length>
         </LaunchLug>
 
-        <!-- It appears PN 2328 3/16 x 2 never had an LL designation -->
+        <!-- PN 2328 3/16 x 2 possibly has LL designation; no Estes ref but Semroc calls
+             it LL-3B.  Carl McLawhorn was pretty careful about his PNs for exact Estes parts -->
         <!-- 3/16 lug measured OD = 0.227, set ID to give same wall thickness as 1/8 lugs -->
         <LaunchLug>
           <Manufacturer>Estes</Manufacturer>
-          <PartNumber>2328</PartNumber>
+          <PartNumber>LL-3B, 2328</PartNumber>
           <Description>Launch lug, paper, 3/16 x 2", PN 2328</Description>
           <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
           <InsideDiameter Unit="in">0.210</InsideDiameter>
