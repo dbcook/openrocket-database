@@ -24,7 +24,7 @@ characterize it as very incomplete.  The information about how OpenRocket databa
 has been through several iterations including code dives and is pretty accurate, but it's
 somewhat Mac centric because that's what I use most.
 
-The LOC Precision file is effectively complete, and the Estes file is probably 80-90%
+The LOC Precision file is effectively complete, and the Estes file is very nearly - probably 95% -
 complete.  Both represent really major improvements over the previous state of things, but
 more work is needed.  The newly added Top Flight and competition chute/streamer files are
 in pretty good shape.  Most items still need validation checks put into the `ork`
@@ -38,16 +38,27 @@ part numbers.  Likewise the dimensional data from LOC Precision is notoriously i
 and error-filled, but I've resolved most of it using Apogee's tabulated data and some
 measurements of actual parts.
 
+In the Estes file I am sure that some newer plastic nose cones of all sizes, as well as parts
+created for the larger Pro Series II rockets, are missing.  They will take a great deal of
+work to cover properly, since they have never been shown in any catalog nor tabulated anywhere.
+With the 2017 decision by Estes to cease producing a product catalog in either print or electronic
+form, the difficulty of maintaining a parts database will only increase.
+
+### Missing Manufacturers
+
 There are product lines from legacy and major manufacturers, especially high power vendors, that are
 not included in OpenRocket at all:
 
 * Centuri (many cloneable kits with parts different than Estes)
 * MPC (? maybe not too much unique here)
 * Apogee (they mostly OEM other vendors parts, but have some unique ones)
-* CMR (unusual tube sizes)
-* FSI (unusual tube sizes)
-* Madcow / Rocketry Warehouse
-* Wildman
+* CMR (defunct but had unusual tube sizes)
+* FSI (defunct but also had unusual tube sizes)
+* High power kit vendors
+  * Madcow
+  * Rocketry Warehouse
+  * Polecat Aerospace
+  * Wildman
 * Fruity, Rocketman, Sky Angle, B2 Chutes
 
 ## Features and improvements:
@@ -61,6 +72,7 @@ not included in OpenRocket at all:
   * Added most missing body tubes from the comprehensive Brohm tube index, including BT-51, BT-52, BT-56, BT-58, etc.
   * Many nose cones added from the Brohm nose cone reference
   * Numeric PNs and old style part numbers both listed where known
+  * Centering rings added (missing from stock OpenRocket)
   * Tons of research information are in the file
 * Greatly improved LOC Precision parts file
   * Best available size and mass data (much of it from Apogee); many conflicts and errors resolved
@@ -110,14 +122,19 @@ For the cleanest parts browsing experience, you'll want to remove the stock buil
 files from the OpenRocket jar file.  This is a slightly technical operation and requires
 that you have the 'zip' tool or equivalent.
 
-We only remove the files that have been replaced by content in this project.
+NOTE: In the current OpenRocket 15.03, all of the built-in .orc files are serialized into
+a single binary file under datafiles/presets/system.ser.  You can remove this file safely,
+but this deletes *all* the built-in .orc components, including the ones that have not been
+replaced by this package.
 
-```bash
+I like to keep both a "stock" and a "stripped" OpenRocket so that I can run either way. The
+following commands show how to achieve that.
+
+``bash
 cd location-of-openrocket-jar
-zip -d OpenRocket-version.jar datafiles/presets/Estes.orc datafiles/presets/LocPrecision.orc
+cp OpenRocket-15.03.jar OpenRocket-15.03-nopresets.jar
+zip -d OpenRocket-15.03-nopresets.jar datafiles/presets/system.ser
 ```
-
-If Sampo will bless it I'll post a version of OpenRocket here that has this already done.
 
 ### Database Files Provided in OpenRocket 15.03
 
@@ -163,10 +180,13 @@ and usable from the OpenRocket user interface.
 * Materials entries not actually used in each components file have been removed.
 
 * Synthetic part numbers have been generated for components for which dimensions are known
-  but there is no documented part number from the vendor.  For example, the 12.25" BT-5
+  but there is no documented part number from the vendor.  For example, the 12.25 in BT-5
   used in the Estes #2009 Rain Maker is assigned a PN of "BT-5_12.25in".
 
-* Items not uniquely tied to any given manufacturer have been assigned a manufacturer name
+* When multiple part numbers are known for a given item, they are given as a comma separated
+list in the PartNumber field.
+
+  * Items not uniquely tied to any given manufacturer have been assigned a manufacturer name
   of "Generic xxxx", where xxxx (if present) may be a category like "competition".
 
 * Body tubes are listed in descending order of length so if you sort on Description, they
