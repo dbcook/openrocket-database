@@ -140,15 +140,17 @@ zip -d OpenRocket-15.03-nopresets.jar datafiles/presets/system.ser
 
 | File                    | In Stock OR      |  Upgrade State                 |
 | ----- | ----- | ----- |
-| `Estes.orc`             | Yes  | 95%
-| `LocPrecision.orc`      | Yes  | 99%
-| `semroc.orc`            | Yes  | 1% (just started)
-| `Quest.orc`             | Yes  | --
-| `bluetube.orc`          | Yes  | --
-| `bms.orc`               | Yes  | --
-| `Fliskits.orc`          | Yes  | --
-| `giantleaprocketry.orc` | Yes  | --
-| `publicmissiles.orc`    | Yes  | --
+| `Estes.orc`              | Yes  | 95%
+| `LocPrecision.orc`       | Yes  | 99%
+| `semroc.orc`             | Yes  | 1% (just started)
+| `Quest.orc`              | Yes  | --
+| `bluetube.orc`           | Yes  | --
+| `bms.orc`                | Yes  | --
+| `Fliskits.orc`           | Yes  | --
+| `giantleaprocketry.orc`  | Yes  | --
+| `publicmissiles.orc`     | Yes  | --
+| `top_flight.orc`         | No   | 100%
+| `competition_chutes.orc` | No  | 100%
 
 
 ## Conventions
@@ -185,7 +187,7 @@ and usable from the OpenRocket user interface.
 * When multiple part numbers are known for a given item, they are given as a comma separated
 list in the PartNumber field.
 
-  * Items not uniquely tied to any given manufacturer have been assigned a manufacturer name
+* Items not uniquely tied to any given manufacturer have been assigned a manufacturer name
   of "Generic xxxx", where xxxx (if present) may be a category like "competition".
 
 * Body tubes are listed in descending order of length so if you sort on Description, they
@@ -204,25 +206,39 @@ There are two major kinds of files we are concerned with in OpenRocket:
 * Component definition files `*.orc`
 * Rocket definition files `*.ork`
 
-The .orc component database files are ascii XML and are human-readable.  However, the .ork
-rocket definition files are binary and there is no very easy way to inspect them.
+The .orc component database files start life as ascii XML and are human-readable in the OpenRocket
+source tree.  However, when the OpenRocket jar is built they are serialized into a single binary
+file.  If you want to see the original built-in files you have to grab the OpenRocket source code
+from [SourceForge](https://github.com/openrocket/openrocket/).  You can either clone the repo
+and dig in, or look around on the GitHub site.  In the source tree the .orc files are under
+```
+swing/resources-src/datafiles/presets/
+```
+
+The .ork rocket definition files are always binary and there is no very easy way to inspect them.
 
 There is no .xsd XML schema definition file to go with the .orc files, though there probably should be.
 
 ### Built-in Component Databases
 
-The OpenRocket builtin databases are embedded in the main OpenRocket jar as a set of
-datafiles in `datafiles/presets/*.orc` inside the jar.
+The OpenRocket builtin databases are embedded in the main OpenRocket jar as a serialized binary file
+in `datafiles/presets/system.ser` inside the jar.
 
-There is nothing in the manifest `META-INF/MANIFEST.MF` that refers to these datafiles, so
-updating them does not require altering the manifest.
+There is nothing in the manifest `META-INF/MANIFEST.MF` that refers to this file, so
+updating or removing it does not require altering the manifest.
+
+### State of the Built-In Databases
+
+In the source tree, the .orc files are very stale and no one has worked on them recently.  The most
+recent change to the Estes file was in April 2014, and the rest have not changed since 2013 or
+before.
 
 ### OpenRocket Data File Search Path
 
 This section explains where OpenRocket will look for component database files.  The general search order is:
 
 * Items existing in the active document (we still need details on this from a code dive)
-* Files included in the OpenRocket jar under `datafiles/presets/*.orc`
+* Files included in the OpenRocket jar under `datafiles/presets/system.ser`
 * External .orc files in platform-dependent locations, as described below
 
 #### Windows External File Locations
