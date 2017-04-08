@@ -121,6 +121,15 @@
             <Density>849.0</Density>
             <Type>BULK</Type>
         </Material>
+
+        <!-- This is from the OpenRocket semroc file and represents material used for
+             spiral wound centering rings -->
+        <Material UnitsOfMeasure="g/cm3">
+            <Name>Fiber, bulk</Name>
+            <Density>657.0</Density>
+            <Type>BULK</Type>
+        </Material>
+        
         <Material UnitsOfMeasure="g/cm3">
             <Name>Fiber, vulcanized, bulk</Name>
             <Density>1250.0</Density>
@@ -134,6 +143,7 @@
           <Density>680.8</Density>
           <Type>BULK</Type>
         </Material>
+        
         <Material UnitsOfMeasure="g/cm3">
           <Name>Balsa, bulk, 5lb/ft3</Name>
           <Density>80.0</Density>
@@ -145,10 +155,16 @@
           <Type>BULK</Type>
         </Material>
         <Material UnitsOfMeasure="g/cm3">
+          <Name>Balsa, bulk, 8lb/ft3</Name>
+          <Density>128.1</Density>
+          <Type>BULK</Type>
+        </Material>
+        <Material UnitsOfMeasure="g/cm3">
           <Name>Balsa, bulk, 10lb/ft3</Name>
           <Density>160.0</Density>
           <Type>BULK</Type>
         </Material>
+        
         <Material UnitsOfMeasure="g/cm3">
           <Name>Basswood, bulk</Name>
           <Density>424.5</Density>

@@ -25,24 +25,15 @@ Using this file:
         OSX:      $HOME/Library/Application Support/OpenRocket/Components/
         Linux:    $HOME/.openrocket/Components/
 
+    You need to restart OpenRocket after adding these files before the parts will be available.
+
     When you start up OpenRocket and use the "from Database..." option when selecting components,
     you will see a LOT more Estes components than before.  Unfortunately unless you do some advanced
     surgery to remove the built-ins from your OpenRocket jar, you will have some duplicating entries
     from the baked-in OpenRocket components.  You can easily recognize the new components from this
     file because they will have much longer descriptions.
 
-Hints:
-    You can see the fields that can be set in a database presets file by getting a source
-    code tree and doing this with a Bash shell:
-
-       find . -name "*.java" | xargs grep XmlElement
-
 Known issues:
-         No way to include materials definitions from a separate common file
-         Shoulder thicknesses of hollow parts cannot be set in presets database files in OpenRocket
-         End caps of hollow parts cannot be set in presets database files in OpenRocket
-         Cannot create preset components for bulkheads, finsets, bulkheads, or centering rings
-         Cannot create assemblies that are compositions of other parts
          Parallel wound material for BT-30 not supported yet (need density)
          Unusual nose cone shapes such as Honest John and Spaceman noses not supported by OpenRocket code
          All Estes balsa assumed same density
@@ -119,6 +110,13 @@ Known issues:
             <Density>894.4</Density>
             <Type>BULK</Type>
         </Material>
+        <!-- fiber for centering rings from built-in semroc file -->
+        <Material UnitsOfMeasure="g/cm3">
+            <Name>Fiber, bulk</Name>
+            <Density>657.0</Density>
+            <Type>BULK</Type>
+        </Material>
+        
 
         <Material UnitsOfMeasure="kg/cm3">
             <Name>Polystyrene, cast, bulk</Name>
@@ -2444,36 +2442,6 @@ Known issues:
         <Length Unit="in">1.5</Length>
       </TubeCoupler>
       
-      <!-- Engine Blocks -->
-      <!-- EB-5 and EB-50 are missing -->
-        <EngineBlock>
-            <Manufacturer>Estes</Manufacturer>
-            <PartNumber>EB-20A, 3132</PartNumber>
-            <Description>Engine Block, BT-20, 0.25 in len, PN 3132</Description>
-            <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
-            <InsideDiameter Unit="in">0.65</InsideDiameter>
-            <OutsideDiameter Unit="in">0.708</OutsideDiameter>
-            <Length Unit="in">0.25</Length>
-        </EngineBlock>
-        <EngineBlock>
-            <Manufacturer>Estes</Manufacturer>
-            <PartNumber>EB-20B, 3134</PartNumber>
-            <Description>Engine Block, BT-20, 0.125 in len, PN 3134</Description>
-            <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
-            <InsideDiameter Unit="in">0.65</InsideDiameter>
-            <OutsideDiameter Unit="in">0.708</OutsideDiameter>
-            <Length Unit="in">0.125</Length>
-        </EngineBlock>
-        <EngineBlock>
-            <Manufacturer>Estes</Manufacturer>
-            <PartNumber>EB-30A, 3136</PartNumber>
-            <Description>Engine Block, BT-30, 0.25 in len, PN 3136</Description>
-            <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
-            <InsideDiameter Unit="in">0.65</InsideDiameter>
-            <OutsideDiameter Unit="in">0.724</OutsideDiameter>
-            <Length Unit="in">0.25</Length>
-        </EngineBlock>
-
       <!-- Transitions (balsa) -->
       <!-- Two versions are given for each part -->
       <!-- Normal version has fore diameter smaller than aft diameter -->
@@ -4185,10 +4153,258 @@ Known issues:
             <LineMaterial Type="LINE">Nylon Paracord, 110 lb, 1/16 in. dia.</LineMaterial>
         </Parachute>
 
-        <!-- *** Launch lugs *** -->
+        <!-- Launch lugs -->
         
-        <!-- *** Centering rings *** -->
+        <!-- OD of 1/8 lugs measured at 0.173.  ID specified as 5/32 -->
+        <LaunchLug>
+          <Manufacturer>Estes</Manufacturer>
+          <PartNumber>LL-2A, 2321</PartNumber>
+          <Description>Launch lug, paper, 1/8 x 1.25", PN 2321</Description>
+          <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+          <InsideDiameter Unit="in">0.156</InsideDiameter>
+          <OutsideDiameter Unit="in">0.173</OutsideDiameter>
+          <Length Unit="in">1.25</Length>
+        </LaunchLug>
+    
+        <LaunchLug>
+          <Manufacturer>Estes</Manufacturer>
+          <PartNumber>LL-2B, 2322</PartNumber>
+          <Description>Launch lug, paper, 1/8 x 2.375", PN 2322</Description>
+          <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+          <InsideDiameter Unit="in">0.156</InsideDiameter>
+          <OutsideDiameter Unit="in">0.173</OutsideDiameter>
+          <Length Unit="in">2.375</Length>
+        </LaunchLug>
+    
+        <LaunchLug>
+          <Manufacturer>Estes</Manufacturer>
+          <PartNumber>LL-2C, 2325</PartNumber>
+          <Description>Launch lug, paper, 1/8 x 5", PN 2325</Description>
+          <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+          <InsideDiameter Unit="in">0.156</InsideDiameter>
+          <OutsideDiameter Unit="in">0.173</OutsideDiameter>
+          <Length Unit="in">5.0</Length>
+        </LaunchLug>
+
+        <!-- LL-2D had PNs 2326 and 2327 in its lifetime -->
+        <LaunchLug>
+          <Manufacturer>Estes</Manufacturer>
+          <PartNumber>LL-2D, 2326, 2327</PartNumber>
+          <Description>Launch lug, paper, 1/8 x 8", PN 2326/2327</Description>
+          <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+          <InsideDiameter Unit="in">0.156</InsideDiameter>
+          <OutsideDiameter Unit="in">0.173</OutsideDiameter>
+          <Length Unit="in">8.0</Length>
+        </LaunchLug>
+
+        <!-- It appears PN 2328 3/16 x 2 never had an LL designation -->
+        <!-- 3/16 lug measured OD = 0.227, set ID to give same wall thickness as 1/8 lugs -->
+        <LaunchLug>
+          <Manufacturer>Estes</Manufacturer>
+          <PartNumber>2328</PartNumber>
+          <Description>Launch lug, paper, 3/16 x 2", PN 2328</Description>
+          <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+          <InsideDiameter Unit="in">0.210</InsideDiameter>
+          <OutsideDiameter Unit="in">0.227</OutsideDiameter>
+          <Length Unit="in">2.0</Length>
+        </LaunchLug>
+
+        <!-- 1/4" lug exists in PN 302320 Launch Lug Pack but length and PN not specified -->
+        <!-- ***ID/OD estimated using 9/32 ID and giving it .021 wall -->
+        <LaunchLug>
+          <Manufacturer>Estes</Manufacturer>
+          <PartNumber>LaunchLug_0.25_x_2.0*</PartNumber>
+          <Description>Launch lug, paper, 1/4 x 2"</Description>
+          <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+          <InsideDiameter Unit="in">0.281</InsideDiameter>
+          <OutsideDiameter Unit="in">0.323</OutsideDiameter>
+          <Length Unit="in">2.0</Length>
+        </LaunchLug>
+
+        
+        
+        <!-- Centering rings -->
         <!-- InsideDiameter, OutsideDiameter, Length -->
+        
+        <!-- AR type thick fiber centering rings -->
+        <!-- AR-2050, 1974 parts catalog weight 0.143 oz -->
+        <CenteringRing>
+          <Manufacturer>Estes</Manufacturer>
+          <PartNumber>AR-2050, 3101</PartNumber>
+          <Description>Centering ring, fiber, thick, BT-20 to BT-50, PN 3101</Description>
+          <Material Type="BULK">Fiber, bulk</Material>
+          <InsideDiameter Unit="in">0.738</InsideDiameter>
+          <OutsideDiameter Unit="in">0.948</OutsideDiameter>
+          <Length Unit="m">0.25</Length>
+        </CenteringRing>
+    
+        <!-- AR-5055, 1974 parts catalog weight 0.62 oz (seems anomalous)-->
+        <CenteringRing>
+          <Manufacturer>Estes</Manufacturer>
+          <PartNumber>AR-5055, 3103</PartNumber>
+          <Description>Centering ring, fiber, thick, BT-50 to BT-55, PN 3103</Description>
+          <Material Type="BULK">Fiber, bulk</Material>
+          <InsideDiameter Unit="in">0.978</InsideDiameter>
+          <OutsideDiameter Unit="in">1.281</OutsideDiameter>
+          <Length Unit="m">0.25</Length>
+        </CenteringRing>
+
+        <!-- AR-520, 1974 parts catalog weight 0.105 oz -->
+        <CenteringRing>
+          <Manufacturer>Estes</Manufacturer>
+          <PartNumber>AR-520, 30162</PartNumber>
+          <Description>Centering ring, fiber, thick, BT-5 to BT-20, PN 30162</Description>
+          <Material Type="BULK">Fiber, bulk</Material>
+          <InsideDiameter Unit="in">0.543</InsideDiameter>
+          <OutsideDiameter Unit="in">0.708</OutsideDiameter>
+          <Length Unit="in">0.25</Length>
+        </CenteringRing>
+
+        <!-- Thin fiber centering rings -->
+        <CenteringRing>
+          <Manufacturer>Estes</Manufacturer>
+          <PartNumber>RA-550, 30118</PartNumber>
+          <Description>Centering ring, fiber, BT-5 to BT-50, PN 30118</Description>
+          <Material Type="BULK">Fiber, bulk</Material>
+          <InsideDiameter Unit="in">0.543</InsideDiameter>
+          <OutsideDiameter Unit="in">0.948</OutsideDiameter>
+          <Length Unit="in">0.25</Length>
+        </CenteringRing>
+
+        <!-- Thin fiber centering rings -->
+        <CenteringRing>
+          <Manufacturer>Estes</Manufacturer>
+          <PartNumber>RA-560, 30120</PartNumber>
+          <Description>Centering ring, fiber, BT-5 to BT-60, PN 30120</Description>
+          <Material Type="BULK">Fiber, bulk</Material>
+          <InsideDiameter Unit="in">0.543</InsideDiameter>
+          <OutsideDiameter Unit="in">1.593</OutsideDiameter>
+          <Length Unit="in">0.05</Length>
+        </CenteringRing>
+
+        <!-- RA-3050 appeared in PN 85013 Multi-Purpose Set (1990 catalog) -->
+        <CenteringRing>
+          <Manufacturer>Estes</Manufacturer>
+          <PartNumber>RA-3050</PartNumber>
+          <Description>Centering ring, fiber, BT-30 to BT-50</Description>
+          <Material Type="BULK">Fiber, bulk</Material>
+          <InsideDiameter Unit="in">0.767</InsideDiameter>
+          <OutsideDiameter Unit="in">0.948</OutsideDiameter>
+          <Length Unit="in">0.05</Length>
+        </CenteringRing>
+
+        <!-- RA-2050 managed to keep the same PN, avoiding the renumbering -->
+        <CenteringRing>
+          <Manufacturer>Estes</Manufacturer>
+          <PartNumber>RA-2050, 3110</PartNumber>
+          <Description>Centering ring, fiber, BT-20 to BT-50, PN 3110</Description>
+          <Material Type="BULK">Fiber, bulk</Material>
+          <InsideDiameter Unit="in">0.738</InsideDiameter>
+          <OutsideDiameter Unit="in">0.948</OutsideDiameter>
+          <Length Unit="in">0.05</Length>
+        </CenteringRing>
+
+        <!-- RA-2055 was PN 3112 in 1974 part catalog, 3111 in 1990 catalog -->
+        <CenteringRing>
+          <Manufacturer>Estes</Manufacturer>
+          <PartNumber>RA-2055, 3112, 3111</PartNumber>
+          <Description>Centering ring, fiber, BT-20 to BT-55, PN 3112/3111</Description>
+          <Material Type="BULK">Fiber, bulk</Material>
+          <InsideDiameter Unit="in">0.738</InsideDiameter>
+          <OutsideDiameter Unit="in">1.281</OutsideDiameter>
+          <Length Unit="in">0.05</Length>
+        </CenteringRing>
+
+        <!-- RA-2056 appeared in PN 302295 Flat Centering Ring Pack and later in PN 3158
+             Engine Mount Kit -->
+        <CenteringRing>
+          <Manufacturer>Estes</Manufacturer>
+          <PartNumber>RA-2056</PartNumber>
+          <Description>Centering ring, fiber, BT-20 to BT-56</Description>
+          <Material Type="BULK">Fiber, bulk</Material>
+          <InsideDiameter Unit="in">0.738</InsideDiameter>
+          <OutsideDiameter Unit="in">1.302</OutsideDiameter>
+          <Length Unit="in">0.05</Length>
+        </CenteringRing>
+
+        <!-- RA-2060 was PN 3114 in 1974 parts catalog, 3113 in 1990 catalog -->
+        <CenteringRing>
+          <Manufacturer>Estes</Manufacturer>
+          <PartNumber>RA-2060, 3114</PartNumber>
+          <Description>Centering ring, fiber, BT-20 to BT-60, PN 3114</Description>
+          <Material Type="BULK">Fiber, bulk</Material>
+          <InsideDiameter Unit="in">0.738</InsideDiameter>
+          <OutsideDiameter Unit="in">1.593</OutsideDiameter>
+          <Length Unit="in">0.05</Length>
+        </CenteringRing>
+
+        <CenteringRing>
+          <Manufacturer>Estes</Manufacturer>
+          <PartNumber>RA-2070, 3115</PartNumber>
+          <Description>Centering ring, fiber, BT-20 to BT-70, PN 3115</Description>
+          <Material Type="BULK">Fiber, bulk</Material>
+          <InsideDiameter Unit="in">0.738</InsideDiameter>
+          <OutsideDiameter Unit="in">2.173</OutsideDiameter>
+          <Length Unit="in">0.05</Length>
+        </CenteringRing>
+
+        <!-- A 6080 ring appeared in PN 302295 Flat Centering Ring Pack.  There is no
+             known history of it being called RA-6080 but I gave it that designataion
+             since everyone will know what it is -->
+        <CenteringRing>
+          <Manufacturer>Estes</Manufacturer>
+          <PartNumber>RA-6080*</PartNumber>
+          <Description>Centering ring, fiber, BT-60 to BT-80</Description>
+          <Material Type="BULK">Fiber, bulk</Material>
+          <InsideDiameter Unit="in">1.639</InsideDiameter>
+          <OutsideDiameter Unit="in">2.586</OutsideDiameter>
+          <Length Unit="in">0.05</Length>
+        </CenteringRing>
+
+        
+
+        <!-- Engine Blocks -->
+        <EngineBlock>
+          <Manufacturer>Estes</Manufacturer>
+          <PartNumber>EB-5B, 3130</PartNumber>
+          <Description>Engine block, fiber, BT-5, 0.188" len, PN 3130</Description>
+          <Material Type="BULK">Fiber, bulk</Material>
+          <InsideDiameter Unit="in">0.49</InsideDiameter>
+          <OutsideDiameter Unit="in">0.512</OutsideDiameter>
+          <Length Unit="in">0.188</Length>
+        </EngineBlock>
+
+        <EngineBlock>
+          <Manufacturer>Estes</Manufacturer>
+          <PartNumber>EB-20A, 3132</PartNumber>
+          <Description>Engine block, fiber, BT-20, 0.25" len, PN 3132</Description>
+          <Material Type="BULK">Fiber, bulk</Material>
+          <InsideDiameter Unit="in">0.65</InsideDiameter>
+          <OutsideDiameter Unit="in">0.708</OutsideDiameter>
+          <Length Unit="in">0.25</Length>
+        </EngineBlock>
+
+        <EngineBlock>
+          <Manufacturer>Estes</Manufacturer>
+          <PartNumber>EB-20B, 3134</PartNumber>
+          <Description>Engine block, fiber, BT-20, 0.125" len, PN 3134</Description>
+          <Material Type="BULK">Fiber, bulk</Material>
+          <InsideDiameter Unit="in">0.65</InsideDiameter>
+          <OutsideDiameter Unit="in">0.708</OutsideDiameter>
+          <Length Unit="in">0.125</Length>
+        </EngineBlock>
+
+        <EngineBlock>
+          <Manufacturer>Estes</Manufacturer>
+          <PartNumber>EB-30A, 3136</PartNumber>
+          <Description>Engine block, fiber, BT-30, 0.25" len, PN 3136</Description>
+          <Material Type="BULK">Fiber, bulk</Material>
+          <InsideDiameter Unit="in">0.65</InsideDiameter>
+          <OutsideDiameter Unit="in">0.724</OutsideDiameter>
+          <Length Unit="in">0.25</Length>
+        </EngineBlock>
+
+
 
         <!-- *** Bulkheads *** -->
         <!-- OutsideDiameter, Length, Filled (usually true) -->
