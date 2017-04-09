@@ -24,25 +24,68 @@ characterize it as very incomplete.  The information about how OpenRocket databa
 has been through several iterations including code dives and is pretty accurate, but it's
 somewhat Mac centric because that's what I use most.
 
+### Database Files Status
+
+| File                    | In Stock OR      |  Upgrade State                 |
+| ----- | ----- | ----- |
+| `Estes.orc`              | Yes  | 95%
+| `LocPrecision.orc`       | Yes  | 99%
+| `semroc.orc`             | Yes  | 5% (just started)
+| `Quest.orc`              | Yes  | --
+| `bluetube.orc`           | Yes  | --
+| `bms.orc`                | Yes  | --
+| `Fliskits.orc`           | Yes  | --
+| `giantleaprocketry.orc`  | Yes  | --
+| `publicmissiles.orc`     | Yes  | --
+| `top_flight.orc`         | No   | 100%
+| `competition_chutes.orc` | No  | 100%
+
+
 The LOC Precision file is effectively complete, and the Estes file is very nearly - probably 95% -
 complete.  Both represent really major improvements over the previous state of things, but
 more work is needed.  The newly added Top Flight and competition chute/streamer files are
-in pretty good shape.  Most items still need validation checks put into the `ork`
+in good shape.  Most items still need validation checks put into the `ork`
 directory to make sure they generate reasonable masses.
 
-There are several built-in database files that have not been touched yet (see below for list).
+There are several built-in database files that have not been touched yet (see above for list).
 
-Accurate data is really hard to come by for some items.  The newer Estes plastic nose
-cones are difficult, as many have never been sold separately and don't even have discrete
-part numbers.  Likewise the dimensional data from LOC Precision is notoriously incomplete
-and error-filled, but I've resolved most of it using Apogee's tabulated data and some
-measurements of actual parts.
+### Data Gathering Discussion
 
-In the Estes file I am sure that some newer plastic nose cones of all sizes, as well as parts
-created for the larger Pro Series II rockets, are missing.  They will take a great deal of
-work to cover properly, since they have never been shown in any catalog nor tabulated anywhere.
-With the 2017 decision by Estes to cease producing a product catalog in either print or electronic
-form, the difficulty of maintaining a parts database will only increase.
+Accurate data is really hard to come by for many items.  There are some good sources such as
+the Brohm body tube / nose cone kit cross references, and archived catalogs.  However, some
+manufacturers such as LOC Precision have never provided complete or accurate parts data,
+while getting data about Estes parts has gotten much harder in the last 20 years.
+
+#### Estes
+
+Paradoxically, we have better parts data on legacy (1960s through the late 1980s) Estes parts
+than for newer ones.  They have shifted much manufacturing to China, and most individual parts
+such as nose cones are no longer available separately, since the kits are completely packaged
+offshore.  In many cases, parts don't even seem to have individual part numbers assigned, and a
+significant portion of kits have no PNs for the parts listed in the instructions.
+
+The parts that are now available are often sold as assortments, and the contents of those
+assortments are usually not identified by PN, and sometimes change over time.
+
+With the 2017 decision by Estes to cease producing a product catalog in either print or electronic form,
+the difficulty of maintaining a parts database will further increase.
+
+#### LOC Precision
+
+Dimensional data from LOC Precision is notoriously incomplete and error-filled, but I've
+been able to resolve most of it using Apogee's tabulated data and some measurements of actual parts.
+
+#### SEMROC
+
+SEMROC is unique in that a majority of its parts are dimensionally exact reproductions of
+classic Estes and Centuri parts.  The late Carl McLawhorn was a fanatic about getting those things
+right, and data from the SEMROC legacy website - especially for tubes - has helped resolve some
+uncertainties about some obscure Estes parts.  eRockets acquired SEMROC after Carl's passing
+and has done a fantastic job of getting nearly all the SEMROC parts back into production and indexing
+them on the erocket.biz website.
+
+The body tubes listing on the old SEMROC website was a unique resource, and I have digested it
+into a table of dimensions text file in this repository.
 
 ### Missing Manufacturers
 
@@ -135,23 +178,6 @@ cd location-of-openrocket-jar
 cp OpenRocket-15.03.jar OpenRocket-15.03-nopresets.jar
 zip -d OpenRocket-15.03-nopresets.jar datafiles/presets/system.ser
 ```
-
-### Database Files Status
-
-| File                    | In Stock OR      |  Upgrade State                 |
-| ----- | ----- | ----- |
-| `Estes.orc`              | Yes  | 95%
-| `LocPrecision.orc`       | Yes  | 99%
-| `semroc.orc`             | Yes  | 1% (just started)
-| `Quest.orc`              | Yes  | --
-| `bluetube.orc`           | Yes  | --
-| `bms.orc`                | Yes  | --
-| `Fliskits.orc`           | Yes  | --
-| `giantleaprocketry.orc`  | Yes  | --
-| `publicmissiles.orc`     | Yes  | --
-| `top_flight.orc`         | No   | 100%
-| `competition_chutes.orc` | No  | 100%
-
 
 ## Conventions
 

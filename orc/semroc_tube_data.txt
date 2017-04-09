@@ -4,8 +4,8 @@ SEMROC Tube Diameter Chart
 Estes-Compatible Series
 -----------------------
 All of these that match Estes designations have identical sizes.
-Ones that don't have known Estes counterparts are marked with * in the comments
-SEMROC never listed a BT-56...essentially identical to Centuri #13
+Ones that don't have known Estes counterparts are marked with * in the comments.
+SEMROC never listed a BT-56 - it was essentially identical to Centuri #13 though.
 
 SERIES    ID        OD         RingID    RingOD
                                OD+.02    ID-.02
