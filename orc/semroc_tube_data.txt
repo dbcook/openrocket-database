@@ -1,0 +1,96 @@
+SEMROC Tube Diameter Chart
+==========================
+
+Estes-Compatible Series
+-----------------------
+All of these that match Estes designations have identical sizes.
+Ones that don't have known Estes counterparts are marked with * in the comments
+SEMROC never listed a BT-56...essentially identical to Centuri #13
+
+SERIES    ID        OD         RingID    RingOD
+                               OD+.02    ID-.02
+------    -----     -----      ------    ------
+BT-1+     0.220     0.246      0.248     0.218    * Quest MMX motor mount tube
+BT-2      0.255     0.281      0.283     0.253    * slips over MMX motor mount T-1+
+BT-2+     0.297     0.310      0.312     0.295    * slips over BT-2
+BT-3      0.349     0.375      0.377     0.347
+BT-4      0.422     0.448      0.450     0.420    *
+BT-4+     0.452     0.478      0.480     0.450    * slips over BT-4
+BT-5      0.515     0.543      0.545     0.541
+BT-5+     0.559     0.585      0.587     0.557    * slips over BT-5
+BT-19     0.674     0.700      0.702     0.672    *
+BT-20     0.710     0.736      0.738     0.708
+BT-20+    0.744     0.770      0.772     0.742    * slips over BT-20
+BT-30     0.725     0.767      0.769     0.723
+BT-40     0.765     0.825      0.827     0.763
+BT-50     0.950     0.976      0.978     0.948
+BTH-50    0.950     0.992      0.994     0.948    * foil lined 24mm MMT
+BT-50+    0.984     1.010      1.012     0.982    * but only .001 different from BT-51
+BT-51     0.985     1.011      1.013     0.983
+BT-52     0.988     1.014      1.016     0.986
+BTH-52    1.140     1.220      1.222     1.138    * same as LT-115
+BT-55     1.283     1.325      1.327     1.281
+BT-58     1.498     1.540      1.542     1.496
+BT-60     1.595     1.637      1.639     1.593
+BT-70     2.175     2.217      2.219     2.173
+BTH-70    2.175     2.247      2.249     2.173    *
+BT-80     2.558     2.600      2.602     2.556
+BTH-80    2.558     2.640      2.642     2.556    *
+BT-99     3.668     3.700      3.702     3.666    aka RT-99, only avail in very short ring
+BT-100    3.702     3.744      3.746     3.700    
+BT-101    3.896     3.938      3.940     3.894
+
+
+Centuri-Compatible Series
+-------------------------
+
+SERIES    ID        OD         RingID    RingOD
+                               OD+.02    ID-.02
+------    -----     -----      ------    ------
+#2        0.234     0.260      0.262     0.232
+#5        0.515     0.543      0.545     0.513     Identical to Estes BT-5
+#6        0.610     0.650      0.652     0.608
+#7        0.715     0.759      0.761     0.713
+#8        0.865     0.908      0.910     0.863
+#8F       0.885     0.921      0.923     0.883
+#9        0.950     0.998      1.000     0.948
+#10       1.000     1.040      1.042     0.998
+#11       1.130     1.170      1.172     1.128
+#13       1.300     1.340      1.342     1.298
+#16       1.600     1.640      1.642     1.598
+#18       1.800     1.840      1.842     1.798
+#20       2.000     2.040      2.042     1.998
+#27       2.674     2.700      2.702     2.672
+#36       3.600     3.690      3.692     3.598
+
+
+Large Tube Series (compatible with old Centuri heavy wall tubes)
+----------------------------------------------------------------
+These are now listed on the eRocket/SEMROC site as LT-xxx
+
+SERIES    ID        OD         RingID    RingOD
+                               OD+.02    ID-.02
+------    -----     -----      ------    ------
+#085      0.865     0.945      0.947     0.863
+#115      1.140     1.220      1.222     1.138
+#125      1.250     1.340      1.342     1.248
+#150      1.500     1.590      1.592     1.498
+#175      1.750     1.840      1.842     1.748
+#200      2.000     2.080      2.082     1.198
+#225      2.250     2.340      2.342     2.248
+#275      2.750     2.840      2.842     2.748
+
+Clear Tube Series - CPT are Centuri sizes, PST are Estes sizes
+--------------------------------------------------------------
+
+CPT #7    0.715     0.759      0.761     0.713
+CPT #8    0.865     0.908      0.910     0.863
+CPT #10   wrong data on SEMROC legacy page
+
+PST-50    0.950     0.976      0.978     0.948
+PST-55    1.283     1.325      1.327     1.281
+PST-65    1.750     1.774      1.776     1.748
+
+Aerotech compatible tubes
+-------------------------
+AT-1.9    1.800     1.880      1.882     1.798    dimensions from Rocketarium
