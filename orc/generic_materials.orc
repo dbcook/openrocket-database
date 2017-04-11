@@ -30,32 +30,26 @@
             <Density>798.85</Density>
             <Type>BULK</Type>
         </Material>
+        <!-- computed avg density of Estes BT-5 thru BT-101 based on catalog dimensions
+        and masses, from my density analysis spreadsheet.  There is a lot of scatter in
+        these; we need some actual weighings on a good scale -->
         <Material UnitsOfMeasure="kg/m3">
             <Name>Paper, spiral kraft glassine, Estes avg, bulk</Name>
             <Density>894.4</Density>
             <Type>BULK</Type>
         </Material>
 
+        <!-- Blue tube value is average of 6 good samples in 38mm to 75mm range
+             They all came within 3% of this value.  The original OpenRocket values were
+             way too high (1237 and 1250 kg/m3).
+             Blue tube measured sizes: (move this to bluetube.orc)
+             BlueTube-38mm  OD 1.632      ID 1.510
+             BlueTube-2.6   OD 2.66-2.67, ID 2.545
+             Measured lengths of nominal 48" tubes ranges from 48.0" to 48 3/16"
+        -->
         <Material UnitsOfMeasure="g/cm3">
-            <!-- Blue tube 2.6" x 48" actuals: OD 2.66 to 2.67, ID 2.545, mass 454 gm -->
-            <Name>Blue Tube, bulk, 2.6" dia.</Name>
-            <Density>1175.0</Density>
-            <Type>BULK</Type>
-        </Material>
-        <Material UnitsOfMeasure="g/cm3">
-            <!-- Blue tube 1.6" x 18" actuals: OD 1.632, ID 1.510, mass 107 gm -->
-            <Name>Blue Tube, bulk, 1.6" dia.</Name>
-            <Density>1205.0</Density>
-            <Type>BULK</Type>
-        </Material>
-        <Material UnitsOfMeasure="g/cm3">
-            <Name>Blue Tube, bulk, OR original #1</Name>
-            <Density>1237.0</Density>
-            <Type>BULK</Type>
-        </Material>
-        <Material UnitsOfMeasure="g/cm3">
-            <Name>Blue Tube, bulk, OR original #2</Name>
-            <Density>1250.0</Density>
+            <Name>Blue Tube, bulk</Name>
+            <Density>1165.0</Density>
             <Type>BULK</Type>
         </Material>
         
