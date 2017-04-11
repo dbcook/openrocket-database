@@ -30,12 +30,14 @@ BT-51     0.985     1.011      1.013     0.983
 BT-52     0.988     1.014      1.016     0.986
 BTH-52    1.140     1.220      1.222     1.138    * same as LT-115
 BT-55     1.283     1.325      1.327     1.281
+BT-56est  1.304     1.346      1.348     1.302    not carried by Semroc
+BT-56sem  1.346     1.367      1.369     1.344    * believed to be erroneously derived from Estes sizing
 BT-58     1.498     1.540      1.542     1.496
 BT-60     1.595     1.637      1.639     1.593
 BT-70     2.175     2.217      2.219     2.173
 BTH-70    2.175     2.247      2.249     2.173    *
 BT-80     2.558     2.600      2.602     2.556
-BTH-80    2.558     2.640      2.642     2.556    *
+BTH-80    2.558     2.640      2.642     2.556    * eRocket tube size chart disagrees with old SEMROC chart
 BT-99     3.668     3.700      3.702     3.666    aka RT-99, only avail in very short ring
 BT-100    3.702     3.744      3.746     3.700    
 BT-101    3.896     3.938      3.940     3.894
@@ -93,4 +95,23 @@ PST-65    1.750     1.774      1.776     1.748
 
 Aerotech compatible tubes
 -------------------------
-AT-1.9    1.800     1.880      1.882     1.798    dimensions from Rocketarium
+See http://www.rocketryforum.com/showthread.php?70990-aerotech-tube-dimensions
+
+AER-1.9   1.800     1.880      1.882     1.798    dimensions from Rocketarium.  AT gave 1.87 OD
+AER-2.6   2.56      2.64       2.642     2.558    dimensions from Aerotech posted in TRF 16 Nov 2014
+AER-4.0   3.90      3.987                         from TRF post 16 Nov 2014, AT quotes .005 tolerance
+
+Blue Tube
+---------
+OK, now we have left the domain of things ever sold by SEMROC
+SERIES    ID        OD         MaxLen    Mass      RingID    RingOD
+                                                   OD+.003   ID-.003
+------    -----     -----      ------    ------    --------  -------
+Blu-29mm   1.136     1.276      48.0     235 g
+Blu-38mm   1.504     1.616      48.0     295 g                         measured mass: 107 g for 18" len
+Blu-54mm   2.135     2.260      48.0     410 g
+Blu-2.6    2.551     2.671      48.0     490 g                         measured mass: 454 g
+Blu-75mm   3.000     3.100      48.0     570 g
+Blu-98mm   3.900     4.014      48.0     725 g
+Blu-5.5    5.36      5.518      48.0     1078 g
+Blu-6.0    5.973     6.079      48.0     1189 g

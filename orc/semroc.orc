@@ -2096,8 +2096,2410 @@ Using this file:
       <Length Unit="in">2.1</Length>
     </BodyTube>
 
-    <!-- ST-10 ***TODO*** -->
+    <!-- ST-10 -->
+
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-10-34</PartNumber>
+      <Description>Body tube, ST-10, 34.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">1.040</OutsideDiameter>
+      <Length Unit="in">34.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-10180</PartNumber>
+      <Description>Body tube, ST-10, 18.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">1.040</OutsideDiameter>
+      <Length Unit="in">18.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-10130</PartNumber>
+      <Description>Body tube, ST-10, 13.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">1.040</OutsideDiameter>
+      <Length Unit="in">13.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-10126</PartNumber>
+      <Description>Body tube, ST-10, 12.6"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">1.040</OutsideDiameter>
+      <Length Unit="in">12.6</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-10125S4</PartNumber>
+      <Description>Body tube, ST-10, 12.5", 4 slots</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">1.040</OutsideDiameter>
+      <Length Unit="in">12.5</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-10120</PartNumber>
+      <Description>Body tube, ST-10, 12.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">1.040</OutsideDiameter>
+      <Length Unit="in">12.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-10120S3</PartNumber>
+      <Description>Body tube, ST-10, 12.0", 3 slots</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">1.040</OutsideDiameter>
+      <Length Unit="in">12.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-10113S4</PartNumber>
+      <Description>Body tube, ST-10, 11.25", 4 slots</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">1.040</OutsideDiameter>
+      <Length Unit="in">11.25</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-10108S8</PartNumber>
+      <Description>Body tube, ST-10, 10.75", 8 slots</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">1.040</OutsideDiameter>
+      <Length Unit="in">10.75</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-10105</PartNumber>
+      <Description>Body tube, ST-10, 10.5"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">1.040</OutsideDiameter>
+      <Length Unit="in">10.5</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-10105S6</PartNumber>
+      <Description>Body tube, ST-10, 10.5", 6 slots</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">1.040</OutsideDiameter>
+      <Length Unit="in">10.5</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-10100</PartNumber>
+      <Description>Body tube, ST-10, 10.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">1.040</OutsideDiameter>
+      <Length Unit="in">10.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-10100S3</PartNumber>
+      <Description>Body tube, ST-10, 10.0", 3 slots</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">1.040</OutsideDiameter>
+      <Length Unit="in">10.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-1095</PartNumber>
+      <Description>Body tube, ST-10, 9.5"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">1.040</OutsideDiameter>
+      <Length Unit="in">9.5</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-1095S3</PartNumber>
+      <Description>Body tube, ST-10, 9.5", 3 slots</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">1.040</OutsideDiameter>
+      <Length Unit="in">9.5</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-1094</PartNumber>
+      <Description>Body tube, ST-10, 9.4"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">1.040</OutsideDiameter>
+      <Length Unit="in">9.4</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-1090</PartNumber>
+      <Description>Body tube, ST-10, 9.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">1.040</OutsideDiameter>
+      <Length Unit="in">9.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-1090S3</PartNumber>
+      <Description>Body tube, ST-10, 9.0", 3 slots</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">1.040</OutsideDiameter>
+      <Length Unit="in">9.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-1090S4</PartNumber>
+      <Description>Body tube, ST-10, 9.0", 4 slots</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">1.040</OutsideDiameter>
+      <Length Unit="in">9.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-1083S3</PartNumber>
+      <Description>Body tube, ST-10, 8.25", 3 slots</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">1.040</OutsideDiameter>
+      <Length Unit="in">8.25</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-1080</PartNumber>
+      <Description>Body tube, ST-10, 8.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">1.040</OutsideDiameter>
+      <Length Unit="in">8.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-1063</PartNumber>
+      <Description>Body tube, ST-10, 6.25"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">1.040</OutsideDiameter>
+      <Length Unit="in">6.25</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-1060</PartNumber>
+      <Description>Body tube, ST-10, 6.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">1.040</OutsideDiameter>
+      <Length Unit="in">6.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-1053</PartNumber>
+      <Description>Body tube, ST-10, 5.25"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">1.040</OutsideDiameter>
+      <Length Unit="in">5.25</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-1050</PartNumber>
+      <Description>Body tube, ST-10, 5.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">1.040</OutsideDiameter>
+      <Length Unit="in">5.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-1043</PartNumber>
+      <Description>Body tube, ST-10, 4.3"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">1.040</OutsideDiameter>
+      <Length Unit="in">4.3</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-1040</PartNumber>
+      <Description>Body tube, ST-10, 4.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">1.040</OutsideDiameter>
+      <Length Unit="in">4.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-1039</PartNumber>
+      <Description>Body tube, ST-10, 3.9"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">1.040</OutsideDiameter>
+      <Length Unit="in">3.9</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-1035</PartNumber>
+      <Description>Body tube, ST-10, 3.5"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">1.040</OutsideDiameter>
+      <Length Unit="in">3.5</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-10340</PartNumber>
+      <Description>Body tube, ST-10, 3.4"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">1.040</OutsideDiameter>
+      <Length Unit="in">3.4</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-1033S4</PartNumber>
+      <Description>Body tube, ST-10, 3.25", 4 slots</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">1.040</OutsideDiameter>
+      <Length Unit="in">3.25</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-1030</PartNumber>
+      <Description>Body tube, ST-10, 3.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">1.040</OutsideDiameter>
+      <Length Unit="in">3.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-1020</PartNumber>
+      <Description>Body tube, ST-10, 2.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">1.040</OutsideDiameter>
+      <Length Unit="in">2.0</Length>
+    </BodyTube>
+
+    <!-- ST-11 -->
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-11180</PartNumber>
+      <Description>Body tube, ST-11, 18.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.130</InsideDiameter>
+      <OutsideDiameter Unit="in">1.170</OutsideDiameter>
+      <Length Unit="in">18.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-11158</PartNumber>
+      <Description>Body tube, ST-11, 15.8"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.130</InsideDiameter>
+      <OutsideDiameter Unit="in">1.170</OutsideDiameter>
+      <Length Unit="in">15.8</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-11145</PartNumber>
+      <Description>Body tube, ST-11, 14.5"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.130</InsideDiameter>
+      <OutsideDiameter Unit="in">1.170</OutsideDiameter>
+      <Length Unit="in">14.5</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-11133</PartNumber>
+      <Description>Body tube, ST-11, 13.25"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.130</InsideDiameter>
+      <OutsideDiameter Unit="in">1.170</OutsideDiameter>
+      <Length Unit="in">13.25</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-11125</PartNumber>
+      <Description>Body tube, ST-11, 12.5"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.130</InsideDiameter>
+      <OutsideDiameter Unit="in">1.170</OutsideDiameter>
+      <Length Unit="in">12.5</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-11120</PartNumber>
+      <Description>Body tube, ST-11, 12.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.130</InsideDiameter>
+      <OutsideDiameter Unit="in">1.170</OutsideDiameter>
+      <Length Unit="in">12.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-1190</PartNumber>
+      <Description>Body tube, ST-11, 9.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.130</InsideDiameter>
+      <OutsideDiameter Unit="in">1.170</OutsideDiameter>
+      <Length Unit="in">9.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-1180</PartNumber>
+      <Description>Body tube, ST-11, 8.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.130</InsideDiameter>
+      <OutsideDiameter Unit="in">1.170</OutsideDiameter>
+      <Length Unit="in">8.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-1160</PartNumber>
+      <Description>Body tube, ST-11, 6.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.130</InsideDiameter>
+      <OutsideDiameter Unit="in">1.170</OutsideDiameter>
+      <Length Unit="in">6.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-1128</PartNumber>
+      <Description>Body tube, ST-11, 2.75"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.130</InsideDiameter>
+      <OutsideDiameter Unit="in">1.170</OutsideDiameter>
+      <Length Unit="in">2.75</Length>
+    </BodyTube>
+
+    <!-- LT-115 / BTH-52 29mm motor tube -->
+
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-115340</PartNumber>
+      <Description>Body tube, LT-115, 34.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.140</InsideDiameter>
+      <OutsideDiameter Unit="in">1.220</OutsideDiameter>
+      <Length Unit="in">34.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-115300</PartNumber>
+      <Description>Body tube, LT-115, 30.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.140</InsideDiameter>
+      <OutsideDiameter Unit="in">1.220</OutsideDiameter>
+      <Length Unit="in">30.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-115220</PartNumber>
+      <Description>Body tube, LT-115, 22.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.140</InsideDiameter>
+      <OutsideDiameter Unit="in">1.220</OutsideDiameter>
+      <Length Unit="in">22.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-115180</PartNumber>
+      <Description>Body tube, LT-115, 18.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.140</InsideDiameter>
+      <OutsideDiameter Unit="in">1.220</OutsideDiameter>
+      <Length Unit="in">18.0</Length>
+    </BodyTube>
+    <!-- This is listed as an Aerotech part but is identical to LT-115 -->
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-115178, AER-12918</PartNumber>
+      <Description>Body tube, LT-115, 17.75"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.140</InsideDiameter>
+      <OutsideDiameter Unit="in">1.220</OutsideDiameter>
+      <Length Unit="in">17.750</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-115170</PartNumber>
+      <Description>Body tube, LT-115, 17.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.140</InsideDiameter>
+      <OutsideDiameter Unit="in">1.220</OutsideDiameter>
+      <Length Unit="in">17.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-115160</PartNumber>
+      <Description>Body tube, LT-115, 16.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.140</InsideDiameter>
+      <OutsideDiameter Unit="in">1.220</OutsideDiameter>
+      <Length Unit="in">16.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-115160S4</PartNumber>
+      <Description>Body tube, LT-115, 16.0", 4 slots</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.140</InsideDiameter>
+      <OutsideDiameter Unit="in">1.220</OutsideDiameter>
+      <Length Unit="in">16.0</Length>
+    </BodyTube>
+    <!-- This is listed as an Aerotech part but is identical to LT-115 -->
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-115120, AER-12912</PartNumber>
+      <Description>Body tube, LT-115, 12.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.140</InsideDiameter>
+      <OutsideDiameter Unit="in">1.220</OutsideDiameter>
+      <Length Unit="in">12.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-115109</PartNumber>
+      <Description>Body tube, LT-115, 10.9"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.140</InsideDiameter>
+      <OutsideDiameter Unit="in">1.220</OutsideDiameter>
+      <Length Unit="in">10.9</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-11580</PartNumber>
+      <Description>Body tube, LT-115, 8.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.140</InsideDiameter>
+      <OutsideDiameter Unit="in">1.220</OutsideDiameter>
+      <Length Unit="in">8.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-11575</PartNumber>
+      <Description>Body tube, LT-115, 7.5"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.140</InsideDiameter>
+      <OutsideDiameter Unit="in">1.220</OutsideDiameter>
+      <Length Unit="in">7.5</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-11560</PartNumber>
+      <Description>Body tube, LT-115, 6.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.140</InsideDiameter>
+      <OutsideDiameter Unit="in">1.220</OutsideDiameter>
+      <Length Unit="in">6.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-11555</PartNumber>
+      <Description>Body tube, LT-115, 5.5"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.140</InsideDiameter>
+      <OutsideDiameter Unit="in">1.220</OutsideDiameter>
+      <Length Unit="in">5.5</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-11550</PartNumber>
+      <Description>Body tube, LT-115, 5.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.140</InsideDiameter>
+      <OutsideDiameter Unit="in">1.220</OutsideDiameter>
+      <Length Unit="in">5.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-11545</PartNumber>
+      <Description>Body tube, LT-115, 4.5"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.140</InsideDiameter>
+      <OutsideDiameter Unit="in">1.220</OutsideDiameter>
+      <Length Unit="in">4.5</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-11535</PartNumber>
+      <Description>Body tube, LT-115, 3.5"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.140</InsideDiameter>
+      <OutsideDiameter Unit="in">1.220</OutsideDiameter>
+      <Length Unit="in">3.5</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-11530</PartNumber>
+      <Description>Body tube, LT-115, 3.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.140</InsideDiameter>
+      <OutsideDiameter Unit="in">1.220</OutsideDiameter>
+      <Length Unit="in">3.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-11520</PartNumber>
+      <Description>Body tube, LT-115, 2.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.140</InsideDiameter>
+      <OutsideDiameter Unit="in">1.220</OutsideDiameter>
+      <Length Unit="in">2.0</Length>
+    </BodyTube>
+
+    <!-- BT-55 -->
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-55-180</PartNumber>
+      <Description>Body tube, BT-55, 18.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.283</InsideDiameter>
+      <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+      <Length Unit="in">18.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-55KG</PartNumber>
+      <Description>Body tube, BT-55, 16.8"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.283</InsideDiameter>
+      <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+      <Length Unit="in">16.8</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-55V</PartNumber>
+      <Description>Body tube, BT-55, 16.4"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.283</InsideDiameter>
+      <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+      <Length Unit="in">16.4</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-55C</PartNumber>
+      <Description>Body tube, BT-55, 14.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.283</InsideDiameter>
+      <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+      <Length Unit="in">14.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-55W</PartNumber>
+      <Description>Body tube, BT-55, 12.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.283</InsideDiameter>
+      <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+      <Length Unit="in">12.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-55-120</PartNumber>
+      <Description>Body tube, BT-55, 12.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.283</InsideDiameter>
+      <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+      <Length Unit="in">12.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-55-113</PartNumber>
+      <Description>Body tube, BT-55, 11.25"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.283</InsideDiameter>
+      <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+      <Length Unit="in">11.25</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-55-110</PartNumber>
+      <Description>Body tube, BT-55, 11.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.283</InsideDiameter>
+      <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+      <Length Unit="in">11.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-55-109</PartNumber>
+      <Description>Body tube, BT-55, 10.92"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.283</InsideDiameter>
+      <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+      <Length Unit="in">11.92</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-55KA</PartNumber>
+      <Description>Body tube, BT-55, 10.5"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.283</InsideDiameter>
+      <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+      <Length Unit="in">10.5</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-55IJ</PartNumber>
+      <Description>Body tube, BT-55, 9.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.283</InsideDiameter>
+      <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+      <Length Unit="in">9.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-55K</PartNumber>
+      <Description>Body tube, BT-55, 7.1"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.283</InsideDiameter>
+      <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+      <Length Unit="in">7.1</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-55RJ</PartNumber>
+      <Description>Body tube, BT-55, 5.3"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.283</InsideDiameter>
+      <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+      <Length Unit="in">5.3</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-55S</PartNumber>
+      <Description>Body tube, BT-55, 4.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.283</InsideDiameter>
+      <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+      <Length Unit="in">4.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-55E</PartNumber>
+      <Description>Body tube, BT-55, 3.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.283</InsideDiameter>
+      <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+      <Length Unit="in">3.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-55J</PartNumber>
+      <Description>Body tube, BT-55, 2.75"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.283</InsideDiameter>
+      <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+      <Length Unit="in">2.75</Length>
+    </BodyTube>
+
+    <!-- LT-125 -->
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-125300</PartNumber>
+      <Description>Body tube, LT-125, 30.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.250</InsideDiameter>
+      <OutsideDiameter Unit="in">1.340</OutsideDiameter>
+      <Length Unit="in">30.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-125220</PartNumber>
+      <Description>Body tube, LT-125, 22.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.250</InsideDiameter>
+      <OutsideDiameter Unit="in">1.340</OutsideDiameter>
+      <Length Unit="in">22.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-125220S4</PartNumber>
+      <Description>Body tube, LT-125, 22.0", 4 slots</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.250</InsideDiameter>
+      <OutsideDiameter Unit="in">1.340</OutsideDiameter>
+      <Length Unit="in">22.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-125157S4</PartNumber>
+      <Description>Body tube, LT-125, 15.7", 4 slots</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.250</InsideDiameter>
+      <OutsideDiameter Unit="in">1.340</OutsideDiameter>
+      <Length Unit="in">15.7</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-125150</PartNumber>
+      <Description>Body tube, LT-125, 15.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.250</InsideDiameter>
+      <OutsideDiameter Unit="in">1.340</OutsideDiameter>
+      <Length Unit="in">15.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-125150S4</PartNumber>
+      <Description>Body tube, LT-125, 15.0", 4 slots</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.250</InsideDiameter>
+      <OutsideDiameter Unit="in">1.340</OutsideDiameter>
+      <Length Unit="in">15.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-1251225</PartNumber>
+      <Description>Body tube, LT-125, 12.25"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.250</InsideDiameter>
+      <OutsideDiameter Unit="in">1.340</OutsideDiameter>
+      <Length Unit="in">12.25</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-125122S3</PartNumber>
+      <Description>Body tube, LT-125, 12.2", 3 slots</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.250</InsideDiameter>
+      <OutsideDiameter Unit="in">1.340</OutsideDiameter>
+      <Length Unit="in">12.2</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-12580</PartNumber>
+      <Description>Body tube, LT-125, 8.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.250</InsideDiameter>
+      <OutsideDiameter Unit="in">1.340</OutsideDiameter>
+      <Length Unit="in">8.0</Length>
+    </BodyTube>
+
+    <!-- ST-13 -->
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-13300</PartNumber>
+      <Description>Body tube, ST-13, 30.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.300</InsideDiameter>
+      <OutsideDiameter Unit="in">1.340</OutsideDiameter>
+      <Length Unit="in">30.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-13180</PartNumber>
+      <Description>Body tube, ST-13, 18.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.300</InsideDiameter>
+      <OutsideDiameter Unit="in">1.340</OutsideDiameter>
+      <Length Unit="in">18.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-13150</PartNumber>
+      <Description>Body tube, ST-13, 15.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.300</InsideDiameter>
+      <OutsideDiameter Unit="in">1.340</OutsideDiameter>
+      <Length Unit="in">15.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-13135</PartNumber>
+      <Description>Body tube, ST-13, 13.5"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.300</InsideDiameter>
+      <OutsideDiameter Unit="in">1.340</OutsideDiameter>
+      <Length Unit="in">13.5</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-13130</PartNumber>
+      <Description>Body tube, ST-13, 13.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.300</InsideDiameter>
+      <OutsideDiameter Unit="in">1.340</OutsideDiameter>
+      <Length Unit="in">13.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-13120</PartNumber>
+      <Description>Body tube, ST-13, 12.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.300</InsideDiameter>
+      <OutsideDiameter Unit="in">1.340</OutsideDiameter>
+      <Length Unit="in">12.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-13105</PartNumber>
+      <Description>Body tube, ST-13, 10.5"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.300</InsideDiameter>
+      <OutsideDiameter Unit="in">1.340</OutsideDiameter>
+      <Length Unit="in">10.5</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-13100</PartNumber>
+      <Description>Body tube, ST-13, 10.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.300</InsideDiameter>
+      <OutsideDiameter Unit="in">1.340</OutsideDiameter>
+      <Length Unit="in">10.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-1383</PartNumber>
+      <Description>Body tube, ST-13, 8.26"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.300</InsideDiameter>
+      <OutsideDiameter Unit="in">1.340</OutsideDiameter>
+      <Length Unit="in">8.26</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-1380</PartNumber>
+      <Description>Body tube, ST-13, 8.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.300</InsideDiameter>
+      <OutsideDiameter Unit="in">1.340</OutsideDiameter>
+      <Length Unit="in">8.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-1363</PartNumber>
+      <Description>Body tube, ST-13, 6.25"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.300</InsideDiameter>
+      <OutsideDiameter Unit="in">1.340</OutsideDiameter>
+      <Length Unit="in">6.25</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-1360</PartNumber>
+      <Description>Body tube, ST-13, 6.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.300</InsideDiameter>
+      <OutsideDiameter Unit="in">1.340</OutsideDiameter>
+      <Length Unit="in">6.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-1346</PartNumber>
+      <Description>Body tube, ST-13, 4.6"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.300</InsideDiameter>
+      <OutsideDiameter Unit="in">1.340</OutsideDiameter>
+      <Length Unit="in">4.6</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-1340</PartNumber>
+      <Description>Body tube, ST-13, 4.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.300</InsideDiameter>
+      <OutsideDiameter Unit="in">1.340</OutsideDiameter>
+      <Length Unit="in">4.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-1338</PartNumber>
+      <Description>Body tube, ST-13, 3.75"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.300</InsideDiameter>
+      <OutsideDiameter Unit="in">1.340</OutsideDiameter>
+      <Length Unit="in">3.75</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-1330</PartNumber>
+      <Description>Body tube, ST-13, 3.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.300</InsideDiameter>
+      <OutsideDiameter Unit="in">1.340</OutsideDiameter>
+      <Length Unit="in">3.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-1323</PartNumber>
+      <Description>Body tube, ST-13, 2.25"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.300</InsideDiameter>
+      <OutsideDiameter Unit="in">1.340</OutsideDiameter>
+      <Length Unit="in">2.25</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-1320</PartNumber>
+      <Description>Body tube, ST-13, 2.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.300</InsideDiameter>
+      <OutsideDiameter Unit="in">1.340</OutsideDiameter>
+      <Length Unit="in">2.0</Length>
+    </BodyTube>
+
+    <!-- BT-56 dimensions given not same as Estes (1.304,1.346) but Semroc says it's
+         "same as Este BT-56" so I use the correct Estes dimensions.  BT-56 is often said
+         to be equivalent to ST-13 but the latter is actually .004 smaller with .001
+         thinner wall -->
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-56-10</PartNumber>
+      <Description>Body tube, BT-56, 10.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.304</InsideDiameter>
+      <OutsideDiameter Unit="in">1.346</OutsideDiameter>
+      <Length Unit="in">30.0</Length>
+    </BodyTube>
+
+    <!-- BT-58 -->
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-58-180</PartNumber>
+      <Description>Body tube, BT-58, 18.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.498</InsideDiameter>
+      <OutsideDiameter Unit="in">1.540</OutsideDiameter>
+      <Length Unit="in">18.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-58SA</PartNumber>
+      <Description>Body tube, BT-58, 13.9"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.498</InsideDiameter>
+      <OutsideDiameter Unit="in">1.540</OutsideDiameter>
+      <Length Unit="in">13.9</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-58-1275</PartNumber>
+      <Description>Body tube, BT-58, 12.75"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.498</InsideDiameter>
+      <OutsideDiameter Unit="in">1.540</OutsideDiameter>
+      <Length Unit="in">12.75</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-58WP</PartNumber>
+      <Description>Body tube, BT-58, 12.2"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.498</InsideDiameter>
+      <OutsideDiameter Unit="in">1.540</OutsideDiameter>
+      <Length Unit="in">12.2</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-58W</PartNumber>
+      <Description>Body tube, BT-58, 12.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.498</InsideDiameter>
+      <OutsideDiameter Unit="in">1.540</OutsideDiameter>
+      <Length Unit="in">12.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-58AC</PartNumber>
+      <Description>Body tube, BT-58, 11.5"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.498</InsideDiameter>
+      <OutsideDiameter Unit="in">1.540</OutsideDiameter>
+      <Length Unit="in">11.5</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-58AJ</PartNumber>
+      <Description>Body tube, BT-58, 10.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.498</InsideDiameter>
+      <OutsideDiameter Unit="in">1.540</OutsideDiameter>
+      <Length Unit="in">10.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-58IJ</PartNumber>
+      <Description>Body tube, BT-58, 9.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.498</InsideDiameter>
+      <OutsideDiameter Unit="in">1.540</OutsideDiameter>
+      <Length Unit="in">9.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-58MX</PartNumber>
+      <Description>Body tube, BT-58, 8.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.498</InsideDiameter>
+      <OutsideDiameter Unit="in">1.540</OutsideDiameter>
+      <Length Unit="in">8.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-58-65</PartNumber>
+      <Description>Body tube, BT-58, 6.5"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.498</InsideDiameter>
+      <OutsideDiameter Unit="in">1.540</OutsideDiameter>
+      <Length Unit="in">6.5</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-58SB</PartNumber>
+      <Description>Body tube, BT-58, 6.375"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.498</InsideDiameter>
+      <OutsideDiameter Unit="in">1.540</OutsideDiameter>
+      <Length Unit="in">6.375</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-58SV</PartNumber>
+      <Description>Body tube, BT-58, 6.125"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.498</InsideDiameter>
+      <OutsideDiameter Unit="in">1.540</OutsideDiameter>
+      <Length Unit="in">6.125</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-58AR</PartNumber>
+      <Description>Body tube, BT-58, 5.5"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.498</InsideDiameter>
+      <OutsideDiameter Unit="in">1.540</OutsideDiameter>
+      <Length Unit="in">5.5</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-58LJ</PartNumber>
+      <Description>Body tube, BT-58, 5.375"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.498</InsideDiameter>
+      <OutsideDiameter Unit="in">1.540</OutsideDiameter>
+      <Length Unit="in">5.375</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-58F</PartNumber>
+      <Description>Body tube, BT-58, 5.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.498</InsideDiameter>
+      <OutsideDiameter Unit="in">1.540</OutsideDiameter>
+      <Length Unit="in">5.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-58MY</PartNumber>
+      <Description>Body tube, BT-58, 1.75"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.498</InsideDiameter>
+      <OutsideDiameter Unit="in">1.540</OutsideDiameter>
+      <Length Unit="in">1.75</Length>
+    </BodyTube>
     
+    <!-- LT-150 -->
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-150300</PartNumber>
+      <Description>Body tube, LT-150, 30.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.500</InsideDiameter>
+      <OutsideDiameter Unit="in">1.590</OutsideDiameter>
+      <Length Unit="in">30.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-150220</PartNumber>
+      <Description>Body tube, LT-150, 22.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.500</InsideDiameter>
+      <OutsideDiameter Unit="in">1.590</OutsideDiameter>
+      <Length Unit="in">22.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-15080</PartNumber>
+      <Description>Body tube, LT-150, 8.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.500</InsideDiameter>
+      <OutsideDiameter Unit="in">1.590</OutsideDiameter>
+      <Length Unit="in">8.0</Length>
+    </BodyTube>
+    
+    <!-- BT-60 -->
+    <!-- *** INVESTIGATE *** eRockets/SEMROC site has separate BT-60 and ST-16 listings
+         but gives ST-16 dimensions for everything.  Using Estes compatible dimensions for
+         BT-60 until proven otherwise since they are .005 different in ID. -->
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>T60-34</PartNumber>
+      <Description>Body tube, BT-60, 34.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.595</InsideDiameter>
+      <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+      <Length Unit="in">34.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-60180</PartNumber>
+      <Description>Body tube, BT-60, 18.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.595</InsideDiameter>
+      <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+      <Length Unit="in">18.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-60KF</PartNumber>
+      <Description>Body tube, BT-60, 16.1"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.595</InsideDiameter>
+      <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+      <Length Unit="in">16.1</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-60P</PartNumber>
+      <Description>Body tube, BT-60, 16.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.595</InsideDiameter>
+      <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+      <Length Unit="in">16.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-60AE</PartNumber>
+      <Description>Body tube, BT-60, 14.25"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.595</InsideDiameter>
+      <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+      <Length Unit="in">14.25</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-60AD</PartNumber>
+      <Description>Body tube, BT-60, 14.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.595</InsideDiameter>
+      <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+      <Length Unit="in">14.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-60ADS4</PartNumber>
+      <Description>Body tube, BT-60, 14.0", 4 slots</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.595</InsideDiameter>
+      <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+      <Length Unit="in">14.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-60KC</PartNumber>
+      <Description>Body tube, BT-60, 12.84"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.595</InsideDiameter>
+      <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+      <Length Unit="in">12.84</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-60DS</PartNumber>
+      <Description>Body tube, BT-60, 12.5"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.595</InsideDiameter>
+      <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+      <Length Unit="in">12.5</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-60D</PartNumber>
+      <Description>Body tube, BT-60, 11.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.595</InsideDiameter>
+      <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+      <Length Unit="in">11.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-60AJ</PartNumber>
+      <Description>Body tube, BT-60, 10.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.595</InsideDiameter>
+      <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+      <Length Unit="in">10.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-60HE</PartNumber>
+      <Description>Body tube, BT-60, 8.5"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.595</InsideDiameter>
+      <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+      <Length Unit="in">8.5</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-60BB</PartNumber>
+      <Description>Body tube, BT-60, 7.5"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.595</InsideDiameter>
+      <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+      <Length Unit="in">7.5</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-60K</PartNumber>
+      <Description>Body tube, BT-60, 7.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.595</InsideDiameter>
+      <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+      <Length Unit="in">7.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-60FG</PartNumber>
+      <Description>Body tube, BT-60, 6.7"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.595</InsideDiameter>
+      <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+      <Length Unit="in">6.7</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-60-63</PartNumber>
+      <Description>Body tube, BT-60, 6.25"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.595</InsideDiameter>
+      <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+      <Length Unit="in">6.25</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-60R</PartNumber>
+      <Description>Body tube, BT-60, 5.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.595</InsideDiameter>
+      <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+      <Length Unit="in">5.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-60RS4</PartNumber>
+      <Description>Body tube, BT-60, 5.0", 4 slots Omega</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.595</InsideDiameter>
+      <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+      <Length Unit="in">5.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-60V</PartNumber>
+      <Description>Body tube, BT-60, 4.31"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.595</InsideDiameter>
+      <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+      <Length Unit="in">4.31</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-60S</PartNumber>
+      <Description>Body tube, BT-60, 4.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.595</InsideDiameter>
+      <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+      <Length Unit="in">4.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-60RB</PartNumber>
+      <Description>Body tube, BT-60, 3.25"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.595</InsideDiameter>
+      <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+      <Length Unit="in">3.25</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-60XW</PartNumber>
+      <Description>Body tube, BT-60, 3.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.595</InsideDiameter>
+      <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+      <Length Unit="in">3.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-60J</PartNumber>
+      <Description>Body tube, BT-60, 2.75"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.595</InsideDiameter>
+      <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+      <Length Unit="in">2.75</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-60C</PartNumber>
+      <Description>Body tube, BT-60, 1.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.595</InsideDiameter>
+      <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+      <Length Unit="in">1.0</Length>
+    </BodyTube>
+
+    <!-- ST-16 -->
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-16180</PartNumber>
+      <Description>Body tube, ST-16, 18.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.600</InsideDiameter>
+      <OutsideDiameter Unit="in">1.640</OutsideDiameter>
+      <Length Unit="in">18.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-16163</PartNumber>
+      <Description>Body tube, ST-16, 16.25"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.600</InsideDiameter>
+      <OutsideDiameter Unit="in">1.640</OutsideDiameter>
+      <Length Unit="in">16.25</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-16161</PartNumber>
+      <Description>Body tube, ST-16, 16.125"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.600</InsideDiameter>
+      <OutsideDiameter Unit="in">1.640</OutsideDiameter>
+      <Length Unit="in">16.125</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-16160</PartNumber>
+      <Description>Body tube, ST-16, 16.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.600</InsideDiameter>
+      <OutsideDiameter Unit="in">1.640</OutsideDiameter>
+      <Length Unit="in">16.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-16151</PartNumber>
+      <Description>Body tube, ST-16, 15.12"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.600</InsideDiameter>
+      <OutsideDiameter Unit="in">1.640</OutsideDiameter>
+      <Length Unit="in">15.12</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-16132</PartNumber>
+      <Description>Body tube, ST-16, 13.2"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.600</InsideDiameter>
+      <OutsideDiameter Unit="in">1.640</OutsideDiameter>
+      <Length Unit="in">13.2</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-16130</PartNumber>
+      <Description>Body tube, ST-16, 13.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.600</InsideDiameter>
+      <OutsideDiameter Unit="in">1.640</OutsideDiameter>
+      <Length Unit="in">13.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-16128</PartNumber>
+      <Description>Body tube, ST-16, 12.8"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.600</InsideDiameter>
+      <OutsideDiameter Unit="in">1.640</OutsideDiameter>
+      <Length Unit="in">12.8</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-16120</PartNumber>
+      <Description>Body tube, ST-16, 12.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.600</InsideDiameter>
+      <OutsideDiameter Unit="in">1.640</OutsideDiameter>
+      <Length Unit="in">12.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-16110</PartNumber>
+      <Description>Body tube, ST-16, 11.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.600</InsideDiameter>
+      <OutsideDiameter Unit="in">1.640</OutsideDiameter>
+      <Length Unit="in">11.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-16109</PartNumber>
+      <Description>Body tube, ST-16, 10.9"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.600</InsideDiameter>
+      <OutsideDiameter Unit="in">1.640</OutsideDiameter>
+      <Length Unit="in">10.9</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-16100</PartNumber>
+      <Description>Body tube, ST-16, 10.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.600</InsideDiameter>
+      <OutsideDiameter Unit="in">1.640</OutsideDiameter>
+      <Length Unit="in">10.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-1690</PartNumber>
+      <Description>Body tube, ST-16, 9.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.600</InsideDiameter>
+      <OutsideDiameter Unit="in">1.640</OutsideDiameter>
+      <Length Unit="in">9.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-1685</PartNumber>
+      <Description>Body tube, ST-16, 8.5"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.600</InsideDiameter>
+      <OutsideDiameter Unit="in">1.640</OutsideDiameter>
+      <Length Unit="in">8.5</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-1675</PartNumber>
+      <Description>Body tube, ST-16, 7.5"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.600</InsideDiameter>
+      <OutsideDiameter Unit="in">1.640</OutsideDiameter>
+      <Length Unit="in">7.5</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-1674</PartNumber>
+      <Description>Body tube, ST-16, 7.4"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.600</InsideDiameter>
+      <OutsideDiameter Unit="in">1.640</OutsideDiameter>
+      <Length Unit="in">7.4</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-1667</PartNumber>
+      <Description>Body tube, ST-16, 6.7"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.600</InsideDiameter>
+      <OutsideDiameter Unit="in">1.640</OutsideDiameter>
+      <Length Unit="in">6.7</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-1660</PartNumber>
+      <Description>Body tube, ST-16, 16.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.600</InsideDiameter>
+      <OutsideDiameter Unit="in">1.640</OutsideDiameter>
+      <Length Unit="in">6.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-1652</PartNumber>
+      <Description>Body tube, ST-16, 5.25"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.600</InsideDiameter>
+      <OutsideDiameter Unit="in">1.640</OutsideDiameter>
+      <Length Unit="in">5.25</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-1650</PartNumber>
+      <Description>Body tube, ST-16, 5.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.600</InsideDiameter>
+      <OutsideDiameter Unit="in">1.640</OutsideDiameter>
+      <Length Unit="in">5.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-1645</PartNumber>
+      <Description>Body tube, ST-16, 4.5"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.600</InsideDiameter>
+      <OutsideDiameter Unit="in">1.640</OutsideDiameter>
+      <Length Unit="in">4.5</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-1640</PartNumber>
+      <Description>Body tube, ST-16, 4.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.600</InsideDiameter>
+      <OutsideDiameter Unit="in">1.640</OutsideDiameter>
+      <Length Unit="in">4.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-1630</PartNumber>
+      <Description>Body tube, ST-16, 3.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.600</InsideDiameter>
+      <OutsideDiameter Unit="in">1.640</OutsideDiameter>
+      <Length Unit="in">3.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-1622</PartNumber>
+      <Description>Body tube, ST-16, 2.25"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.600</InsideDiameter>
+      <OutsideDiameter Unit="in">1.640</OutsideDiameter>
+      <Length Unit="in">2.25</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-1620</PartNumber>
+      <Description>Body tube, ST-16, 2.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.600</InsideDiameter>
+      <OutsideDiameter Unit="in">1.640</OutsideDiameter>
+      <Length Unit="in">2.0</Length>
+    </BodyTube>
+
+    <!-- LT-175 -->
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-175300</PartNumber>
+      <Description>Body tube, LT-175, 30.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.750</InsideDiameter>
+      <OutsideDiameter Unit="in">1.840</OutsideDiameter>
+      <Length Unit="in">30.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-175220</PartNumber>
+      <Description>Body tube, LT-175, 22.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.750</InsideDiameter>
+      <OutsideDiameter Unit="in">1.840</OutsideDiameter>
+      <Length Unit="in">22.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-175220S3</PartNumber>
+      <Description>Body tube, LT-175, 22.0", 3 slots</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.750</InsideDiameter>
+      <OutsideDiameter Unit="in">1.840</OutsideDiameter>
+      <Length Unit="in">22.0</Length>
+    </BodyTube>
+    <!-- LT-175220S4 discontinued 2017 -->
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-175220S4</PartNumber>
+      <Description>Body tube, LT-175, 22.0", 4 slots</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.750</InsideDiameter>
+      <OutsideDiameter Unit="in">1.840</OutsideDiameter>
+      <Length Unit="in">22.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-175200</PartNumber>
+      <Description>Body tube, LT-175, 20.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.750</InsideDiameter>
+      <OutsideDiameter Unit="in">1.840</OutsideDiameter>
+      <Length Unit="in">20.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-175200S4</PartNumber>
+      <Description>Body tube, LT-175, 20.0", 4 slots</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.750</InsideDiameter>
+      <OutsideDiameter Unit="in">1.840</OutsideDiameter>
+      <Length Unit="in">20.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-175165</PartNumber>
+      <Description>Body tube, LT-175, 16.5"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.750</InsideDiameter>
+      <OutsideDiameter Unit="in">1.840</OutsideDiameter>
+      <Length Unit="in">16.5</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-175165S3</PartNumber>
+      <Description>Body tube, LT-175, 16.5", 3 slots</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.750</InsideDiameter>
+      <OutsideDiameter Unit="in">1.840</OutsideDiameter>
+      <Length Unit="in">16.5</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-175120</PartNumber>
+      <Description>Body tube, LT-175, 12.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.750</InsideDiameter>
+      <OutsideDiameter Unit="in">1.840</OutsideDiameter>
+      <Length Unit="in">12.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-17580</PartNumber>
+      <Description>Body tube, LT-175, 8.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.750</InsideDiameter>
+      <OutsideDiameter Unit="in">1.840</OutsideDiameter>
+      <Length Unit="in">8.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-17560</PartNumber>
+      <Description>Body tube, LT-175, 6.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.750</InsideDiameter>
+      <OutsideDiameter Unit="in">1.840</OutsideDiameter>
+      <Length Unit="in">6.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-17555</PartNumber>
+      <Description>Body tube, LT-175, 5.5"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.750</InsideDiameter>
+      <OutsideDiameter Unit="in">1.840</OutsideDiameter>
+      <Length Unit="in">5.5</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-17530</PartNumber>
+      <Description>Body tube, LT-175, 3.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.750</InsideDiameter>
+      <OutsideDiameter Unit="in">1.840</OutsideDiameter>
+      <Length Unit="in">3.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-17520</PartNumber>
+      <Description>Body tube, LT-175, 2.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.750</InsideDiameter>
+      <OutsideDiameter Unit="in">1.840</OutsideDiameter>
+      <Length Unit="in">2.0</Length>
+    </BodyTube>
+
+    <!-- ST-18 -->
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-18180</PartNumber>
+      <Description>Body tube, ST-18, 18.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.800</InsideDiameter>
+      <OutsideDiameter Unit="in">1.840</OutsideDiameter>
+      <Length Unit="in">18.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-18160</PartNumber>
+      <Description>Body tube, ST-18, 16.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.800</InsideDiameter>
+      <OutsideDiameter Unit="in">1.840</OutsideDiameter>
+      <Length Unit="in">16.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-18150</PartNumber>
+      <Description>Body tube, ST-18, 15.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.800</InsideDiameter>
+      <OutsideDiameter Unit="in">1.840</OutsideDiameter>
+      <Length Unit="in">15.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-18120</PartNumber>
+      <Description>Body tube, ST-18, 12.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.800</InsideDiameter>
+      <OutsideDiameter Unit="in">1.840</OutsideDiameter>
+      <Length Unit="in">12.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-1890</PartNumber>
+      <Description>Body tube, ST-18, 9.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.800</InsideDiameter>
+      <OutsideDiameter Unit="in">1.840</OutsideDiameter>
+      <Length Unit="in">9.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-1860</PartNumber>
+      <Description>Body tube, ST-18, 6.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.800</InsideDiameter>
+      <OutsideDiameter Unit="in">1.840</OutsideDiameter>
+      <Length Unit="in">6.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-1849</PartNumber>
+      <Description>Body tube, ST-18, 4.9"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.800</InsideDiameter>
+      <OutsideDiameter Unit="in">1.840</OutsideDiameter>
+      <Length Unit="in">4.9</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-1844</PartNumber>
+      <Description>Body tube, ST-18, 4.375"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.800</InsideDiameter>
+      <OutsideDiameter Unit="in">1.840</OutsideDiameter>
+      <Length Unit="in">4.375</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-1830</PartNumber>
+      <Description>Body tube, ST-18, 3.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.800</InsideDiameter>
+      <OutsideDiameter Unit="in">1.840</OutsideDiameter>
+      <Length Unit="in">3.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-1817</PartNumber>
+      <Description>Body tube, ST-18, 1.7"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.800</InsideDiameter>
+      <OutsideDiameter Unit="in">1.840</OutsideDiameter>
+      <Length Unit="in">1.7</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-1815</PartNumber>
+      <Description>Body tube, ST-18, 1.5"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.800</InsideDiameter>
+      <OutsideDiameter Unit="in">1.840</OutsideDiameter>
+      <Length Unit="in">1.5</Length>
+    </BodyTube>
+
+    <!-- T-1.88 -->
+    <!-- This is an Aerotech compatible tube made by Tube Dimensional and listed in 2017 by
+    eRockets under the SEMROC parts line.  It is not a legacy SEMROC product though. -->
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>AER-11926</PartNumber>
+      <Description>Body tube, T-1.88, Aerotech type, 22.75"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.800</InsideDiameter>
+      <OutsideDiameter Unit="in">1.880</OutsideDiameter>
+      <Length Unit="in">22.75</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>AER-11924</PartNumber>
+      <Description>Body tube, T-1.88, Aerotech type, 22.75", 3 slots</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.800</InsideDiameter>
+      <OutsideDiameter Unit="in">1.880</OutsideDiameter>
+      <Length Unit="in">22.75</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>AER-11923</PartNumber>
+      <Description>Body tube, T-1.88, Aerotech type, 22.75", 4 slots</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.800</InsideDiameter>
+      <OutsideDiameter Unit="in">1.880</OutsideDiameter>
+      <Length Unit="in">22.75</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>AER-11912</PartNumber>
+      <Description>Body tube, T-1.88, Aerotech type, 12.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.800</InsideDiameter>
+      <OutsideDiameter Unit="in">1.880</OutsideDiameter>
+      <Length Unit="in">12.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>AER-11909</PartNumber>
+      <Description>Body tube, T-1.88, Aerotech type, 9.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.800</InsideDiameter>
+      <OutsideDiameter Unit="in">1.880</OutsideDiameter>
+      <Length Unit="in">9.0</Length>
+    </BodyTube>
+
+    <!-- ST-20 -->
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>T-20-34</PartNumber>
+      <Description>Body tube, ST-20, 34.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.000</InsideDiameter>
+      <OutsideDiameter Unit="in">2.040</OutsideDiameter>
+      <Length Unit="in">34.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-20180</PartNumber>
+      <Description>Body tube, ST-20, 18.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.000</InsideDiameter>
+      <OutsideDiameter Unit="in">2.040</OutsideDiameter>
+      <Length Unit="in">18.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-20145</PartNumber>
+      <Description>Body tube, ST-20, 14.5"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.000</InsideDiameter>
+      <OutsideDiameter Unit="in">2.040</OutsideDiameter>
+      <Length Unit="in">14.5</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-20140</PartNumber>
+      <Description>Body tube, ST-20, 14.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.000</InsideDiameter>
+      <OutsideDiameter Unit="in">2.040</OutsideDiameter>
+      <Length Unit="in">14.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-20128</PartNumber>
+      <Description>Body tube, ST-20, 12.8"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.000</InsideDiameter>
+      <OutsideDiameter Unit="in">2.040</OutsideDiameter>
+      <Length Unit="in">12.8</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-20120</PartNumber>
+      <Description>Body tube, ST-20, 12.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.000</InsideDiameter>
+      <OutsideDiameter Unit="in">2.040</OutsideDiameter>
+      <Length Unit="in">12.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-20100</PartNumber>
+      <Description>Body tube, ST-20, 10.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.000</InsideDiameter>
+      <OutsideDiameter Unit="in">2.040</OutsideDiameter>
+      <Length Unit="in">10.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-2098</PartNumber>
+      <Description>Body tube, ST-20, 9.8"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.000</InsideDiameter>
+      <OutsideDiameter Unit="in">2.040</OutsideDiameter>
+      <Length Unit="in">9.8</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-2090</PartNumber>
+      <Description>Body tube, ST-20, 9.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.000</InsideDiameter>
+      <OutsideDiameter Unit="in">2.040</OutsideDiameter>
+      <Length Unit="in">9.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-2060</PartNumber>
+      <Description>Body tube, ST-20, 6.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.000</InsideDiameter>
+      <OutsideDiameter Unit="in">2.040</OutsideDiameter>
+      <Length Unit="in">6.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-2050</PartNumber>
+      <Description>Body tube, ST-20, 5.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.000</InsideDiameter>
+      <OutsideDiameter Unit="in">2.040</OutsideDiameter>
+      <Length Unit="in">5.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-2030</PartNumber>
+      <Description>Body tube, ST-20, 3.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.000</InsideDiameter>
+      <OutsideDiameter Unit="in">2.040</OutsideDiameter>
+      <Length Unit="in">3.0</Length>
+    </BodyTube>
+
+    <!-- LT-200 -->
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-200300</PartNumber>
+      <Description>Body tube, LT-200, 30.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.000</InsideDiameter>
+      <OutsideDiameter Unit="in">2.088</OutsideDiameter>
+      <Length Unit="in">30.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-200220</PartNumber>
+      <Description>Body tube, LT-200, 22.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.000</InsideDiameter>
+      <OutsideDiameter Unit="in">2.088</OutsideDiameter>
+      <Length Unit="in">22.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-200215</PartNumber>
+      <Description>Body tube, LT-200, 21.5"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.000</InsideDiameter>
+      <OutsideDiameter Unit="in">2.088</OutsideDiameter>
+      <Length Unit="in">21.5</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-20080</PartNumber>
+      <Description>Body tube, LT-200, 8.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.000</InsideDiameter>
+      <OutsideDiameter Unit="in">2.088</OutsideDiameter>
+      <Length Unit="in">8.0</Length>
+    </BodyTube>
+
+    <!-- BT-70 -->
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>T-70-34</PartNumber>
+      <Description>Body tube, BT-70, 34.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.175</InsideDiameter>
+      <OutsideDiameter Unit="in">2.217</OutsideDiameter>
+      <Length Unit="in">34.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-70KD</PartNumber>
+      <Description>Body tube, BT-70, 17.5"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.175</InsideDiameter>
+      <OutsideDiameter Unit="in">2.217</OutsideDiameter>
+      <Length Unit="in">17.5</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-70BD</PartNumber>
+      <Description>Body tube, BT-70, 15.25"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.175</InsideDiameter>
+      <OutsideDiameter Unit="in">2.217</OutsideDiameter>
+      <Length Unit="in">15.25</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-70V</PartNumber>
+      <Description>Body tube, BT-70, 10.6"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.175</InsideDiameter>
+      <OutsideDiameter Unit="in">2.217</OutsideDiameter>
+      <Length Unit="in">10.6</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-70H</PartNumber>
+      <Description>Body tube, BT-70, 7.15"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.175</InsideDiameter>
+      <OutsideDiameter Unit="in">2.217</OutsideDiameter>
+      <Length Unit="in">7.15</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>RT-70</PartNumber>
+      <Description>Body tube, BT-70, 0.68", ring</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.175</InsideDiameter>
+      <OutsideDiameter Unit="in">2.217</OutsideDiameter>
+      <Length Unit="in">0.68</Length>
+    </BodyTube>
+
+    <!-- BTH-70 -->
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BTH-70-300</PartNumber>
+      <Description>Body tube, BTH-70, 30.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.175</InsideDiameter>
+      <OutsideDiameter Unit="in">2.427</OutsideDiameter>
+      <Length Unit="in">30.0</Length>
+    </BodyTube>
+    <!-- BTH-70-286 discontinued 2017 -->
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BTH-70-286</PartNumber>
+      <Description>Body tube, BTH-70, 28.6"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.175</InsideDiameter>
+      <OutsideDiameter Unit="in">2.427</OutsideDiameter>
+      <Length Unit="in">28.6</Length>
+    </BodyTube>
+    <!-- BTH-70-280 discontinued 2017 -->
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BTH-70-280</PartNumber>
+      <Description>Body tube, BTH-70, 28.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.175</InsideDiameter>
+      <OutsideDiameter Unit="in">2.427</OutsideDiameter>
+      <Length Unit="in">28.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BTH-70-180</PartNumber>
+      <Description>Body tube, BTH-70, 18.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.175</InsideDiameter>
+      <OutsideDiameter Unit="in">2.427</OutsideDiameter>
+      <Length Unit="in">18.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BTH-70-172</PartNumber>
+      <Description>Body tube, BTH-70, 17.2"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.175</InsideDiameter>
+      <OutsideDiameter Unit="in">2.427</OutsideDiameter>
+      <Length Unit="in">17.2</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BTH-70-11275</PartNumber>
+      <Description>Body tube, BTH-70, 12.75"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.175</InsideDiameter>
+      <OutsideDiameter Unit="in">2.427</OutsideDiameter>
+      <Length Unit="in">12.75</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BTH-70-120</PartNumber>
+      <Description>Body tube, BTH-70, 12.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.175</InsideDiameter>
+      <OutsideDiameter Unit="in">2.427</OutsideDiameter>
+      <Length Unit="in">12.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BTH-70-88</PartNumber>
+      <Description>Body tube, BTH-70, 8.8"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.175</InsideDiameter>
+      <OutsideDiameter Unit="in">2.427</OutsideDiameter>
+      <Length Unit="in">8.8</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BTH-70-58</PartNumber>
+      <Description>Body tube, BTH-70, 5.8"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.175</InsideDiameter>
+      <OutsideDiameter Unit="in">2.427</OutsideDiameter>
+      <Length Unit="in">5.8</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BTH-70-40</PartNumber>
+      <Description>Body tube, BTH-70, 4.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.175</InsideDiameter>
+      <OutsideDiameter Unit="in">2.427</OutsideDiameter>
+      <Length Unit="in">4.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BTH-70-28</PartNumber>
+      <Description>Body tube, BTH-70, 2.75"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.175</InsideDiameter>
+      <OutsideDiameter Unit="in">2.427</OutsideDiameter>
+      <Length Unit="in">2.75</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BTH-70-05</PartNumber>
+      <Description>Body tube, BTH-70, 0.5", ring</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.175</InsideDiameter>
+      <OutsideDiameter Unit="in">2.427</OutsideDiameter>
+      <Length Unit="in">0.5</Length>
+    </BodyTube>
+
+    <!-- LT-225 -->
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-225300</PartNumber>
+      <Description>Body tube, LT-225, 30.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.250</InsideDiameter>
+      <OutsideDiameter Unit="in">2.340</OutsideDiameter>
+      <Length Unit="in">30.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-225220</PartNumber>
+      <Description>Body tube, LT-225, 22.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.250</InsideDiameter>
+      <OutsideDiameter Unit="in">2.340</OutsideDiameter>
+      <Length Unit="in">22.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-225140</PartNumber>
+      <Description>Body tube, LT-225, 14.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.250</InsideDiameter>
+      <OutsideDiameter Unit="in">2.340</OutsideDiameter>
+      <Length Unit="in">14.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-225140S4</PartNumber>
+      <Description>Body tube, LT-225, 14.0", 4 slots, SLS Laser-X</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.250</InsideDiameter>
+      <OutsideDiameter Unit="in">2.340</OutsideDiameter>
+      <Length Unit="in">14.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-22580</PartNumber>
+      <Description>Body tube, LT-225, 8.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.250</InsideDiameter>
+      <OutsideDiameter Unit="in">2.340</OutsideDiameter>
+      <Length Unit="in">8.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-22570</PartNumber>
+      <Description>Body tube, LT-225, 7.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.250</InsideDiameter>
+      <OutsideDiameter Unit="in">2.340</OutsideDiameter>
+      <Length Unit="in">7.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-22560</PartNumber>
+      <Description>Body tube, LT-225, 6.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.250</InsideDiameter>
+      <OutsideDiameter Unit="in">2.340</OutsideDiameter>
+      <Length Unit="in">6.0</Length>
+    </BodyTube>
+
+    <!-- BT-80 -->
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-80180</PartNumber>
+      <Description>Body tube, BT-80, 18.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.558</InsideDiameter>
+      <OutsideDiameter Unit="in">2.600</OutsideDiameter>
+      <Length Unit="in">18.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-80170</PartNumber>
+      <Description>Body tube, BT-80, 17.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.558</InsideDiameter>
+      <OutsideDiameter Unit="in">2.600</OutsideDiameter>
+      <Length Unit="in">17.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-80KD</PartNumber>
+      <Description>Body tube, BT-80, 14.2"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.558</InsideDiameter>
+      <OutsideDiameter Unit="in">2.600</OutsideDiameter>
+      <Length Unit="in">14.2</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-80DA</PartNumber>
+      <Description>Body tube, BT-80, 11.6"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.558</InsideDiameter>
+      <OutsideDiameter Unit="in">2.600</OutsideDiameter>
+      <Length Unit="in">11.6</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-80OP (Oscar Papa)</PartNumber>
+      <Description>Body tube, BT-80, 11.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.558</InsideDiameter>
+      <OutsideDiameter Unit="in">2.600</OutsideDiameter>
+      <Length Unit="in">11.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-8093</PartNumber>
+      <Description>Body tube, BT-80, 9.3"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.558</InsideDiameter>
+      <OutsideDiameter Unit="in">2.600</OutsideDiameter>
+      <Length Unit="in">9.3</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-80A</PartNumber>
+      <Description>Body tube, BT-80, 9.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.558</InsideDiameter>
+      <OutsideDiameter Unit="in">2.600</OutsideDiameter>
+      <Length Unit="in">9.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-80SV</PartNumber>
+      <Description>Body tube, BT-80, 8.81"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.558</InsideDiameter>
+      <OutsideDiameter Unit="in">2.600</OutsideDiameter>
+      <Length Unit="in">8.81</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-80WH</PartNumber>
+      <Description>Body tube, BT-80, 8.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.558</InsideDiameter>
+      <OutsideDiameter Unit="in">2.600</OutsideDiameter>
+      <Length Unit="in">8.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-80V</PartNumber>
+      <Description>Body tube, BT-80, 7.6"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.558</InsideDiameter>
+      <OutsideDiameter Unit="in">2.600</OutsideDiameter>
+      <Length Unit="in">7.6</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-80S</PartNumber>
+      <Description>Body tube, BT-80, 4.5"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.558</InsideDiameter>
+      <OutsideDiameter Unit="in">2.600</OutsideDiameter>
+      <Length Unit="in">4.5</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-80MA</PartNumber>
+      <Description>Body tube, BT-80, 3.22"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.558</InsideDiameter>
+      <OutsideDiameter Unit="in">2.600</OutsideDiameter>
+      <Length Unit="in">3.22</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-80R</PartNumber>
+      <Description>Body tube, BT-80, 2.2"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.558</InsideDiameter>
+      <OutsideDiameter Unit="in">2.600</OutsideDiameter>
+      <Length Unit="in">2.2</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-80BJ</PartNumber>
+      <Description>Body tube, BT-80, 2.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.558</InsideDiameter>
+      <OutsideDiameter Unit="in">2.600</OutsideDiameter>
+      <Length Unit="in">2.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-80C</PartNumber>
+      <Description>Body tube, BT-80, 1.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.558</InsideDiameter>
+      <OutsideDiameter Unit="in">2.600</OutsideDiameter>
+      <Length Unit="in">1.0</Length>
+    </BodyTube>
+
+    <!-- BTH-80 -->
+    <!-- BTH-80 and Aerotech 2.6 dimensions are effectively identical.  The sizes given on
+         the eRockets 2017 tube size list are slighly discrepant, and the wall thickness
+         is incorrectly given as .050 when all other sources indicate .041
+         I am adopting the dimensions ID = 2.558, OD = 2.640 (wall .041) per the original
+         SEMROC chart.  This makes the most sense since it has ID identical to original
+         BT-80.  Aerotech indicated in a Nov 2014 post to TRF that their specs were
+         ID = 2.56, OD = 2.64 +/- .005
+    -->
 
 
 
