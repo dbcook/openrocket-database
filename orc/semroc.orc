@@ -4493,7 +4493,7 @@ Using this file:
 
     <!-- BTH-80 -->
     <!-- BTH-80 and Aerotech 2.6 dimensions are effectively identical.  The sizes given on
-         the eRockets 2017 tube size list are slighly discrepant, and the wall thickness
+         the eRockets 2017 tube size list are slighly discrepant, and the BTH-80 wall thickness
          is incorrectly given as .050 when all other sources indicate .041
          I am adopting the dimensions ID = 2.558, OD = 2.640 (wall .041) per the original
          SEMROC chart.  This makes the most sense since it has ID identical to original
