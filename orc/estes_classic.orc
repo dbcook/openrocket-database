@@ -153,15 +153,55 @@ Known issues:
     </Materials>
     <Components>
       <!-- Body Tubes -->
-      <!-- Some obscure sizes (e.g. BT-50 outside nesting) are still missing -->
       <!--
-           *** find dimension/mass info on HBT-5, HBT-20, and HBT-50 mentioned in Brohm v10.1.  See Apogee newsletter 09 indicating the HBT series was
-           created by Mike Dorffler and were named for OD of tube, notably HBT-1090 and HBT-3000 used in Pro Series
-           Patriot.  The "HBT-5/20/50" in Brohm does not fit this mold and may be translations for "HD" as discussed in
-           his intro.  We have no information on actual dimensions of those tubes.
-           The Estes Nose Cone/Kit List Ref rev Feb 2005 on rocketshoppe indicates various HBT-1090 rockets exist, using PNC-1090
-           with PNs 072630, 072634, 072636 and 072663 in different (unspecified #$%!) colors.
-             ***
+           *** fix up HBT-20 ***
+           
+           HEAVY WALL TUBES:
+
+           In the Brohm body tube kit reference, various PNs and lengths are given.  In a
+           note on p. 51, he notes that HBT-1000 replaced the older BT-50H / HBT-50 type.
+           Brohm also says that HBT and HD are equivalent, and I believe that BTH is yet
+           another synonym.  SEMROC gives sizes for BTH-50, BTH-52, and BTH-80.
+
+           Also see Apogee newsletter 09 indicating the (newer) HBT series was created by Mike
+           Dorffler and were named for OD of tube, notably HBT-1090 and HBT-3000 used in
+           Pro Series Patriot, which is too new to appear in the Brohm index.
+
+        .  The "OD-specifying" PNs seen in the Brohm list that are
+           not found in Appendix II are:
+               HBT-1000 (G) clear from context it's green
+               85878 HBT-1090 (Slt) slotted for #2114 Corkscrew.  Brohm doesn't note the slots.
+           
+           To date, we have no full dimensions for these tubes.  But it is safe to infer
+           that, due to use as motor mount tubes, the ID's of, say, BT-50 and HBT-50 are
+           identical, while the OD is increased.  Likewise, for the HBT-xxx and HBT-xxxx,
+           we are given the OD by the designator.
+
+           HBT-760 is nearly identical to Centuri ST-7 (ID .715, OD .759, .022 wall)
+           HBT-1000 would have .008 bigger OD than SEMROC's OD for BTH-50, and probably
+           the same .950 ID, implying a .025 wall so it can be 24mm MMT.
+
+           HBT-1090 is a bit of a puzzle.  OD of 1.090 is .010 smaller than BT-51.  But
+           what are the ID and wall thickness?  If wall is .021, ID would be 1.048.  The
+           only functional fit for that is slip fit over Centuri ST-10.
+
+           HBT-1800 and HBT-2000 could be similar to the Centuri #18 and #20 tubes, which
+           had .020 wall, but those have 1.800 and 2.000 ID's, not OD as mentioned in the
+           Apogee newsletter.
+
+           The Estes Nose Cone/Kit List Ref rev Feb 2008 on psc473.org (Pittsburth Space
+           Command) indicates various HBT-xxxx rockets exist, using PNC-1090 with PNs
+           072630, 072634, 072636 and 072663 in different (unspecified #$%!) colors
+
+           The Brohm kit reference lists for HBT-5/20/50:
+
+           31217 HBT-20 9.25" long for #2077 Sky Winder.
+           31291 HBT-50 9.0" long for #2112 Transwing Super Glider
+           ????? HBT-5 1.688" long MMT for #2122 RediRoc Intruder (Brohm: Invader) and
+           #2123 RediRoc Raider - both of these are saucers.  MMT was said to be plugged
+           by John Lee on RocketReviews.  #2123 conflicts with Eggscaliber, a rare kit PN
+           clash.  See 1996 Estes catalog.
+           ***
       -->
 
       <!-- BT-5 -->
@@ -352,19 +392,6 @@ Known issues:
         <OutsideDiameter Unit="in">0.541</OutsideDiameter>
         <Length Unit="in">1.75</Length>
       </BodyTube>
-      <!--
-          HBT-5 1.688" used by #2122 Invader, #2123 Raider
-          *** exact dimensions of heavy-wall tube unknown ***
-      -->
-      <BodyTube>
-        <Manufacturer>Estes</Manufacturer>
-        <PartNumber>BT-5_HBT_1.688in</PartNumber>
-        <Description>Body tube, HBT-5, heavy, 1.688 in.</Description>
-        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
-        <InsideDiameter Unit="in">0.515</InsideDiameter>
-        <OutsideDiameter Unit="in">0.541</OutsideDiameter>
-        <Length Unit="in">1.688</Length>
-      </BodyTube>
       <!-- BT-5 1.625" used in Bandito -->
       <BodyTube>
         <Manufacturer>Estes</Manufacturer>
@@ -448,6 +475,20 @@ Known issues:
         <Length Unit="in">0.75</Length>
       </BodyTube>
 
+      <!--
+          HBT-5 1.688" used by #2122 Invader, #2123 Raider.  PN not known.
+          *** exact OD unknown, estimating .021 wall ***
+      -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BTH-5, HBT-5, 1.688in</PartNumber>
+        <Description>Body tube, HBT-5/BTH-5, heavy wall, 1.688 in.</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.515</InsideDiameter>
+        <OutsideDiameter Unit="in">0.557</OutsideDiameter>
+        <Length Unit="in">1.688</Length>
+      </BodyTube>
+
       <!-- BT-10 Mylar -->
       <BodyTube>
         <Manufacturer>Estes</Manufacturer>
@@ -469,6 +510,7 @@ Known issues:
       </BodyTube>
 
       <!-- BT-20 -->
+      <!-- *** NOT COMPLETE, add PNs *** -->
 
       <BodyTube>
         <Manufacturer>Estes</Manufacturer>
@@ -478,6 +520,27 @@ Known issues:
         <InsideDiameter Unit="in">0.710</InsideDiameter>
         <OutsideDiameter Unit="in">0.736</OutsideDiameter>
         <Length Unit="in">18.0</Length>
+      </BodyTube>
+      <!-- Alt PN for 12" BT-20 used in #2184 Metor Masher -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-20L, 30330, 30328</PartNumber>
+        <Description>Body tube, BT-20, 12.0 in.</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.710</InsideDiameter>
+        <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+        <Length Unit="in">12.0</Length>
+      </BodyTube>
+      <!-- PN 30325 used in #2039 Space Racer.  PN 30314 is from #2170 Star Dart and
+      conflicts with old BT-10H -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-20_9in, 30325, 30314</PartNumber>
+        <Description>Body tube, BT-20, 9.0 in.</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.710</InsideDiameter>
+        <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+        <Length Unit="in">9.0</Length>
       </BodyTube>
       <BodyTube>
         <Manufacturer>Estes</Manufacturer>
@@ -490,12 +553,52 @@ Known issues:
       </BodyTube>
       <BodyTube>
         <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-20E, 30323</PartNumber>
+        <Description>Body tube, BT-20, 7.75 in.</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.710</InsideDiameter>
+        <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+        <Length Unit="in">7.75</Length>
+      </BodyTube>
+      
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
         <PartNumber>BT-20D</PartNumber>
         <Description>Body tube, BT-20, 6.5 in.</Description>
         <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
         <InsideDiameter Unit="in">0.710</InsideDiameter>
         <OutsideDiameter Unit="in">0.736</OutsideDiameter>
         <Length Unit="in">6.5</Length>
+      </BodyTube>
+      <!-- Alt PN 30330 is from #2136 Gemini DC, conflicts with older BT-20L - 12" -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-20_6in, 30327, 30330</PartNumber>
+        <Description>Body tube, BT-20, 6.0 in.</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.710</InsideDiameter>
+        <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+        <Length Unit="in">6.0</Length>
+      </BodyTube>
+      <!-- PN1 conflicts with SBT-705 from #2048 Saturn IB.  Alt PN 30310 is from  #2110 Outlander-->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-20_5in, 30329, 30310</PartNumber>
+        <Description>Body tube, BT-20, 5.0 in.</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.710</InsideDiameter>
+        <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+        <Length Unit="in">5.0</Length>
+      </BodyTube>
+      <!-- alternate PN is from #2185 Screamin' Mini -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-20DJ, 30332, 30325</PartNumber>
+        <Description>Body tube, BT-20, 4.0 in.</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.710</InsideDiameter>
+        <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+        <Length Unit="in">4.0</Length>
       </BodyTube>
       <BodyTube>
         <Manufacturer>Estes</Manufacturer>
@@ -508,7 +611,7 @@ Known issues:
       </BodyTube>
       <BodyTube>
         <Manufacturer>Estes</Manufacturer>
-        <PartNumber>BT-20J</PartNumber>
+        <PartNumber>BT-20J, 30332</PartNumber>
         <Description>Body tube, BT-20, 2.75 in.</Description>
         <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
         <InsideDiameter Unit="in">0.710</InsideDiameter>
@@ -523,6 +626,18 @@ Known issues:
         <InsideDiameter Unit="in">0.710</InsideDiameter>
         <OutsideDiameter Unit="in">0.736</OutsideDiameter>
         <Length Unit="in">2.25</Length>
+      </BodyTube>
+
+      <!-- BTH-20 / HBT-20.  Assuming .021 wall with standard BT-20 ID -->
+      <!-- PN 31217 used in #2077 Sky Winder -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-20H, HBT-20, 31217</PartNumber>
+        <Description>Body tube, BTH-20/HBT-20, heavy wall, 9.25 in.</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.710</InsideDiameter>
+        <OutsideDiameter Unit="in">0.752</OutsideDiameter>
+        <Length Unit="in">9.25</Length>
       </BodyTube>
 
       <!-- PST-20 clear payload tube and Phantom body -->
@@ -783,16 +898,6 @@ Known issues:
         <OutsideDiameter Unit="in">0.976</OutsideDiameter>
         <Length Unit="in">9.5</Length>
       </BodyTube>
-      <!-- ***TBD***  HBT-50 may be heavy-wall with different dimensions, fix -->
-      <BodyTube>
-        <Manufacturer>Estes</Manufacturer>
-        <PartNumber>HBT-50, 31291</PartNumber>
-        <Description>Body tube, HBT-50, 9 in., PN 31291</Description>
-        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
-        <InsideDiameter Unit="in">0.950</InsideDiameter>
-        <OutsideDiameter Unit="in">0.976</OutsideDiameter>
-        <Length Unit="in">9.0</Length>
-      </BodyTube>
       <BodyTube>
         <Manufacturer>Estes</Manufacturer>
         <PartNumber>BT-50_9.0in (gray), 30372</PartNumber>
@@ -973,6 +1078,17 @@ Known issues:
         <InsideDiameter Unit="in">0.950</InsideDiameter>
         <OutsideDiameter Unit="in">0.976</OutsideDiameter>
         <Length Unit="in">1.5</Length>
+      </BodyTube>
+
+      <!-- HBT-50/BTH-50 are heavy-wall with 0.021 wall.  Only one length is known so far -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>HBT-50, BTH-50, 31291</PartNumber>
+        <Description>Body tube, HBT-50, 9 in., PN 31291</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.950</InsideDiameter>
+        <OutsideDiameter Unit="in">0.992</OutsideDiameter>
+        <Length Unit="in">9.0</Length>
       </BodyTube>
 
       <!-- PST-50 clear payload tube -->
@@ -2319,6 +2435,11 @@ Known issues:
         <OutsideDiameter Unit="in">3.896</OutsideDiameter>
         <Length Unit="in">2.78</Length>
       </BodyTube>
+
+      <!-- *** PSII 2.6" tubes *** -->
+      <!-- ***Partizon #9702 uses:  Slotted tube 85865, regular tube 31390, 29mm MMT 31360,
+           2.6" coupler 30189, ogive PNC 72413, nylon parachute 35814, launch lugs 38181,
+           plywood 29mm to 2.6 rings 66475, 29mm motor block 31362 ***-->
 
 
       <!-- Couplers (tube) All validated except JT-80C -->
