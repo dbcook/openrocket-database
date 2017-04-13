@@ -510,18 +510,37 @@ Known issues:
       </BodyTube>
 
       <!-- BT-20 -->
-      <!-- *** NOT COMPLETE, add PNs *** -->
 
       <BodyTube>
         <Manufacturer>Estes</Manufacturer>
-        <PartNumber>BT-20</PartNumber>
+        <PartNumber>BT-20, 30316</PartNumber>
         <Description>Body tube, BT-20, 18 in.</Description>
         <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
         <InsideDiameter Unit="in">0.710</InsideDiameter>
         <OutsideDiameter Unit="in">0.736</OutsideDiameter>
         <Length Unit="in">18.0</Length>
       </BodyTube>
-      <!-- Alt PN for 12" BT-20 used in #2184 Metor Masher -->
+      <!-- BT-20P 13.75" used in #1931 Delta Wedge -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-20P, 30333</PartNumber>
+        <Description>Body tube, BT-20, 13.75 in.</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.710</InsideDiameter>
+        <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+        <Length Unit="in">13.75</Length>
+      </BodyTube>
+      <!-- PBT-20 18" for gliding BOMARC KC-5/#0654, PN unknown, may not have one -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>PBT-20</PartNumber>
+        <Description>Body tube, BT-20, 18 in., punched, BOMARC</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.710</InsideDiameter>
+        <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+        <Length Unit="in">18.0</Length>
+      </BodyTube>
+      <!-- Alt PN 30328 for 12" BT-20 used in #2184 Metor Masher -->
       <BodyTube>
         <Manufacturer>Estes</Manufacturer>
         <PartNumber>BT-20L, 30330, 30328</PartNumber>
@@ -530,6 +549,66 @@ Known issues:
         <InsideDiameter Unit="in">0.710</InsideDiameter>
         <OutsideDiameter Unit="in">0.736</OutsideDiameter>
         <Length Unit="in">12.0</Length>
+      </BodyTube>
+      <!-- BT-20 12" Variant PN 30451 used in #1265 Scissor Wing Transport 2005 version -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-20_12in, 30451</PartNumber>
+        <Description>Body tube, BT-20, 12.0 in.</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.710</InsideDiameter>
+        <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+        <Length Unit="in">12.0</Length>
+      </BodyTube>
+      <!-- BT-20 12" black used in #2186 Eagle Boosted Glider -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-20_12in_blk, 30452</PartNumber>
+        <Description>Body tube, BT-20, 12.0 in.</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.710</InsideDiameter>
+        <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+        <Length Unit="in">12.0</Length>
+      </BodyTube>
+      <!-- PBT-20KB 12.0" punched used in K-57/#1257 Sky Dart, PN unknown -->
+      <!-- Brohm fails to give length but it's in the K-57 Sky Dart instructions -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>PBT-20KB</PartNumber>
+        <Description>Body tube, BT-20, 12.0 in., punched, Sky Dart</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.710</InsideDiameter>
+        <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+        <Length Unit="in">12.0</Length>
+      </BodyTube>
+      <!-- BT-20 11" white used in #2096 Turbo Copter -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-20_11in_white</PartNumber>
+        <Description>Body tube, BT-20, white, 11.0 in.</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.710</InsideDiameter>
+        <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+        <Length Unit="in">11.0</Length>
+      </BodyTube>
+      <!-- BT-20 10.719" used in #2027 Pop Fly -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-20_10.719in, 31703</PartNumber>
+        <Description>Body tube, BT-20, 10.719 in.</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.710</InsideDiameter>
+        <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+        <Length Unit="in">10.719</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-20N, 30336</PartNumber>
+        <Description>Body tube, BT-20, 9.75.0 in.</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.710</InsideDiameter>
+        <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+        <Length Unit="in">9.75</Length>
       </BodyTube>
       <!-- PN 30325 used in #2039 Space Racer.  PN 30314 is from #2170 Star Dart and
       conflicts with old BT-10H -->
@@ -544,12 +623,32 @@ Known issues:
       </BodyTube>
       <BodyTube>
         <Manufacturer>Estes</Manufacturer>
-        <PartNumber>BT-20B</PartNumber>
+        <PartNumber>BT-20B, 30320</PartNumber>
         <Description>Body tube, BT-20, 8.65 in.</Description>
         <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
         <InsideDiameter Unit="in">0.710</InsideDiameter>
         <OutsideDiameter Unit="in">0.736</OutsideDiameter>
         <Length Unit="in">8.65</Length>
+      </BodyTube>
+      <!-- PBT-20B, punched for K-48/#1248 Bandit, no PN known -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>PBT-20B</PartNumber>
+        <Description>Body tube, BT-20, 8.65 in., punched, Bandit</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.710</InsideDiameter>
+        <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+        <Length Unit="in">8.65</Length>
+      </BodyTube>
+      <!-- BT-20XW 8.0" used in #1298 X-Wing Fighter -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-20XW, 30335</PartNumber>
+        <Description>Body tube, BT-20, 8.0 in.</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.710</InsideDiameter>
+        <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+        <Length Unit="in">8.0</Length>
       </BodyTube>
       <BodyTube>
         <Manufacturer>Estes</Manufacturer>
@@ -560,10 +659,39 @@ Known issues:
         <OutsideDiameter Unit="in">0.736</OutsideDiameter>
         <Length Unit="in">7.75</Length>
       </BodyTube>
-      
+      <!-- BT-20 7.5" black used in #0803 Bandito -->
       <BodyTube>
         <Manufacturer>Estes</Manufacturer>
-        <PartNumber>BT-20D</PartNumber>
+        <PartNumber>BT-20_7.5in_black, 30333</PartNumber>
+        <Description>Body tube, BT-20, black, 7.5 in.</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.710</InsideDiameter>
+        <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+        <Length Unit="in">7.75</Length>
+      </BodyTube>
+      <!-- BT-20 7" silver used in #0804 Firehawk -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-20_7in_silver, 31763</PartNumber>
+        <Description>Body tube, BT-20, silver, 7.0 in.</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.710</InsideDiameter>
+        <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+        <Length Unit="in">7.0</Length>
+      </BodyTube>
+      <!-- BT-20 6.906" PN unknown used in #2071 CATO -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-20_6.906in</PartNumber>
+        <Description>Body tube, BT-20, 6.906 in.</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.710</InsideDiameter>
+        <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+        <Length Unit="in">6.906</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-20D, 30322</PartNumber>
         <Description>Body tube, BT-20, 6.5 in.</Description>
         <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
         <InsideDiameter Unit="in">0.710</InsideDiameter>
@@ -580,7 +708,19 @@ Known issues:
         <OutsideDiameter Unit="in">0.736</OutsideDiameter>
         <Length Unit="in">6.0</Length>
       </BodyTube>
-      <!-- PN1 conflicts with SBT-705 from #2048 Saturn IB.  Alt PN 30310 is from  #2110 Outlander-->
+      <!-- BT-20 5.69" PN 30318 used in #0896 Mini Patriot, #2125 Sidewinder.  PN
+           conflicts with earlier BT-20AE -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-20_5.69in, 30318</PartNumber>
+        <Description>Body tube, BT-20, 5.69 in.</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.710</InsideDiameter>
+        <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+        <Length Unit="in">5.69</Length>
+      </BodyTube>
+      <!-- PN 30329 conflicts with SBT-705 from #2048 Saturn IB.  Alt PN 30310 is from
+           #2110 Outlander and conflicts with BT-5CJ -->
       <BodyTube>
         <Manufacturer>Estes</Manufacturer>
         <PartNumber>BT-20_5in, 30329, 30310</PartNumber>
@@ -590,7 +730,7 @@ Known issues:
         <OutsideDiameter Unit="in">0.736</OutsideDiameter>
         <Length Unit="in">5.0</Length>
       </BodyTube>
-      <!-- alternate PN is from #2185 Screamin' Mini -->
+      <!-- alternate PN 30325 is from #2185 Screamin' Mini -->
       <BodyTube>
         <Manufacturer>Estes</Manufacturer>
         <PartNumber>BT-20DJ, 30332, 30325</PartNumber>
@@ -602,30 +742,91 @@ Known issues:
       </BodyTube>
       <BodyTube>
         <Manufacturer>Estes</Manufacturer>
-        <PartNumber>BT-20G</PartNumber>
+        <PartNumber>BT-20G, 30324</PartNumber>
         <Description>Body tube, BT-20, 3.5 in.</Description>
         <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
         <InsideDiameter Unit="in">0.710</InsideDiameter>
         <OutsideDiameter Unit="in">0.736</OutsideDiameter>
         <Length Unit="in">3.5</Length>
       </BodyTube>
+      <!-- BT-20 2.813" PN 30322 used in #2125 AIM-9 Sidewinder, PN conflicts with older BT-20D -->
       <BodyTube>
         <Manufacturer>Estes</Manufacturer>
-        <PartNumber>BT-20J, 30332</PartNumber>
+        <PartNumber>BT-20_2.813in, 30322</PartNumber>
+        <Description>Body tube, BT-20, 2.813 in.</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.710</InsideDiameter>
+        <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+        <Length Unit="in">2.813</Length>
+      </BodyTube>
+      <!-- alt PN 30408 from various kits conflicts with BT-60FG -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-20J, 30326, 30332, 30408</PartNumber>
         <Description>Body tube, BT-20, 2.75 in.</Description>
         <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
         <InsideDiameter Unit="in">0.710</InsideDiameter>
         <OutsideDiameter Unit="in">0.736</OutsideDiameter>
         <Length Unit="in">2.75</Length>
       </BodyTube>
+      <!-- BT-20 2.5" PN 30335 used in #2169 Dragonite.  Conflicts with older BT-20XW -->
+      <!-- PN 30331 used in #2060 Bandit and others -->
       <BodyTube>
         <Manufacturer>Estes</Manufacturer>
-        <PartNumber>BT-20M</PartNumber>
+        <PartNumber>BT-20_2.5in, 30335, 30331</PartNumber>
+        <Description>Body tube, BT-20, 2.5 in.</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.710</InsideDiameter>
+        <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+        <Length Unit="in">2.50</Length>
+      </BodyTube>
+      <!-- BT-20 2.5" punched, PN 85870 used in #2105 Hijax -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-20_2.5in_punched, 85870</PartNumber>
+        <Description>Body tube, BT-20, 2.5 in., punched</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.710</InsideDiameter>
+        <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+        <Length Unit="in">2.50</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-20M, 30334</PartNumber>
         <Description>Body tube, BT-20, 2.25 in.</Description>
         <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
         <InsideDiameter Unit="in">0.710</InsideDiameter>
         <OutsideDiameter Unit="in">0.736</OutsideDiameter>
         <Length Unit="in">2.25</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-20AE, 30318</PartNumber>
+        <Description>Body tube, BT-20, 1.5 in.</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.710</InsideDiameter>
+        <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+        <Length Unit="in">1.5</Length>
+      </BodyTube>
+      <!-- BT-20 1.5" variant PN 30319 used in #0895 Solar Warrior, #2004 Tornado and others -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-20_1.5in, 30319</PartNumber>
+        <Description>Body tube, BT-20, 1.5 in.</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.710</InsideDiameter>
+        <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+        <Length Unit="in">1.5</Length>
+      </BodyTube>
+      <!-- BT-20 1.25" PN unknown used in #0896 Mini Patriot -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-20_1.25in</PartNumber>
+        <Description>Body tube, BT-20, 1.25 in., Mini Patriot</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.710</InsideDiameter>
+        <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+        <Length Unit="in">1.25</Length>
       </BodyTube>
 
       <!-- BTH-20 / HBT-20.  Assuming .021 wall with standard BT-20 ID -->
