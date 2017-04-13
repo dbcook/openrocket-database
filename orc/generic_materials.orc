@@ -39,9 +39,13 @@
             <Type>BULK</Type>
         </Material>
 
-        <!-- Blue tube value is average of 6 good samples in 38mm to 75mm range
-             They all came within 3% of this value.  The original OpenRocket values were
-             way too high (1237 and 1250 kg/m3).
+        <!-- Blue tube value is the average of 7 full length 48" tubes in 38mm to 98mm
+             range.  The standard deviation is 23.1 or just about 2%.  The original
+             OpenRocket values were way too high (1237 and 1250 kg/m3).  The latter value
+             is actually present in the Rocksim files - seemingly from ARR ca. 2010 - in
+             the openrocket-decal project on GitHub.  It is definitely wrong, at least for
+             tubes sold in 2013-2016.
+             
              Blue tube measured sizes: (move this to bluetube.orc)
              BlueTube-38mm  OD 1.632      ID 1.510
              BlueTube-2.6   OD 2.66-2.67, ID 2.545
@@ -49,7 +53,7 @@
         -->
         <Material UnitsOfMeasure="g/cm3">
             <Name>Blue Tube, bulk</Name>
-            <Density>1165.0</Density>
+            <Density>1162.0</Density>
             <Type>BULK</Type>
         </Material>
         
