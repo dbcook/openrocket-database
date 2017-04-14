@@ -133,6 +133,13 @@ Known issues:
             <Density>925.0</Density>
             <Type>BULK</Type>
         </Material>
+        
+        <!-- Mylar (polyester) density quoted by DuPont as 1.39 g/cc -->
+        <Material UnitsOfMeasure="g/cm3">
+            <Name>Mylar, bulk</Name>
+            <Density>1390.0</Density>
+            <Type>BULK</Type>
+        </Material>
 
         <!-- SURFACE (sheet) materials, only needed for parachute and streamer components -->
         
@@ -375,7 +382,7 @@ Known issues:
       <!-- PN 030304 re-used for #0802 Quark tube at 1.75" vs 2.0" for regular BT-5BJ -->
       <BodyTube>
         <Manufacturer>Estes</Manufacturer>
-        <PartNumber>BT-5_quark, 030304</PartNumber>
+        <PartNumber>BT-5_1.75in, 030304</PartNumber>
         <Description>Body tube, BT-5, 1.75 in., PN 030304</Description>
         <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
         <InsideDiameter Unit="in">0.515</InsideDiameter>
