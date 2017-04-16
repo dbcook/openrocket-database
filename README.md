@@ -2,20 +2,48 @@
 
 This project is aimed at sport rocketry people who use OpenRocket for design and flight simulation.
 
-This is an enhanced parts database for [OpenRocket](http://openrocket.sourceforge.net/).  This provides a massive number of
-additional components (nose cones, body tubes, transitions, etc.) and corrections to the built-in parts database
-contained in the OpenRocket jar file.
+This is an enhanced parts database for [OpenRocket](http://openrocket.sourceforge.net/).
+This provides a massive number of additional components (nose cones, body tubes,
+transitions, etc.) and corrections to the built-in parts database contained in the
+OpenRocket jar file.
+
+I apologize in advance for the geeky way you need to install this.  It's not very
+complicated, but there's a bit of command line work.  You'll need to be able to use a `git`
+client to grab this repo, and create a soft symlink so that OpenRocket finds the database
+when it starts up.  If you want to remove the built-in databases from OpenRocket, you'll
+need a `zip` tool to remove those .orc files from the OpenRocket jar.  Detailed
+instructions are given below.
+
+I invite contributors to create a packaged installer, especially for Windows.
 
 ## Version and compatibility
 
-Current version:  0.9.0.1
+Current version:  0.9.0.2
 
 OpenRocket compatibility:  tested with OpenRocket 15.03
 
 ## Release Notes
 
+0.9.0.2 - 16 Apr 2017
+* Added estes_ps2.orc with nearly all known Pro Series II parts
+* 80% of SEMROC tubes added
+* Added tube data .txt file
+* Many fixes, improvements and additions in loc_precision.orc; it's effectively done
+* Documented procedure for getting correct mass and CG of hollow nose cones
+* Fixed thickness of Estes AR-2050 and AR-2055
+
 0.9.0.1
 * Publishing what I have to date: Estes and LOC Precision.
+
+## Reporting Problems
+
+Please file issues here on GitHub so that they can be tracked and get comments.  I'm
+very interested in:
+
+* Data for missing parts, including source attribution.
+* Parts that insert into OpenRocket with zero mass (indicates a problem in the material definition)
+
+If you have a large contribution, please fork the repo, make your changes, and submit a pull request.
 
 ## State of the Project
 
@@ -28,17 +56,19 @@ somewhat Mac centric because that's what I use most.
 
 | File                    | In Stock OR      |  Upgrade State                 |
 | ----- | ----- | ----- |
-| `Estes.orc`              | Yes  | 95%
-| `LocPrecision.orc`       | Yes  | 99%
-| `semroc.orc`             | Yes  | 5% (just started)
+| `Estes.orc`              | Yes  | Split - see new files below
+| `loc_precision.orc`      | Yes  | 100% 
+| `semroc.orc`             | Yes  | 35%  (tubes 95% in, nosecones not started)
 | `Quest.orc`              | Yes  | --
 | `bluetube.orc`           | Yes  | --
 | `bms.orc`                | Yes  | --
 | `Fliskits.orc`           | Yes  | --
 | `giantleaprocketry.orc`  | Yes  | --
 | `publicmissiles.orc`     | Yes  | --
+| `estes_classic.orc`      | No   | 95%
+| `estes_ps2.orc`          | No   | 98%
 | `top_flight.orc`         | No   | 100%
-| `competition_chutes.orc` | No  | 100%
+| `competition_chutes.orc` | No   | 100%
 
 
 The LOC Precision file is effectively complete, and the Estes file is very nearly - probably 95% -
@@ -58,17 +88,19 @@ while getting data about Estes parts has gotten much harder in the last 20 years
 
 #### Estes
 
-Paradoxically, we have better parts data on legacy (1960s through the late 1980s) Estes parts
-than for newer ones.  They have shifted much manufacturing to China, and most individual parts
-such as nose cones are no longer available separately, since the kits are completely packaged
-offshore.  In many cases, parts don't even seem to have individual part numbers assigned, and a
-significant portion of kits have no PNs for the parts listed in the instructions.
+Paradoxically, we have better parts data on legacy (1960s through the late 1980s) Estes
+parts than for newer ones.  They have shifted much manufacturing to China, and most
+individual parts such as nose cones are no longer available separately, since the kits are
+completely packaged offshore.  In many cases, parts don't even seem to have individual
+part numbers assigned, and a significant portion of kits have no PNs for the parts listed
+in the instructions.
 
 The parts that are now available are often sold as assortments, and the contents of those
 assortments are usually not identified by PN, and sometimes change over time.
 
-With the 2017 decision by Estes to cease producing a product catalog in either print or electronic form,
-the difficulty of maintaining a parts database will further increase.
+With the 2017 decision by Estes to cease producing a product catalog in either print or
+electronic form, the difficulty of maintaining a parts database will further increase.  In
+short, part numbers are often no longer needed given the way Estes operates.
 
 #### LOC Precision
 
@@ -108,7 +140,7 @@ not included in OpenRocket at all:
 
 * Detailed documentation on how the components database works, and much info about restrictions and limitations.
 * Much research data added as comments in the files
-* Mass overrides removed - material densities set correctly
+* Mass overrides mostly removed - material densities set correctly
 * Mass data for tubing analyzed to remove outliers and derive correct average densities
 * A master materials reference file is provided with heavily researched data
 * Major expansion and cleanup of the Estes parts file
@@ -116,9 +148,10 @@ not included in OpenRocket at all:
   * Many nose cones added from the Brohm nose cone reference
   * Numeric PNs and old style part numbers both listed where known
   * Centering rings added (missing from stock OpenRocket)
-  * Tons of research information are in the file
+  * Tons of research information in the file
+  * Pro Series II parts file added
 * Greatly improved LOC Precision parts file
-  * Best available size and mass data (much of it from Apogee); many conflicts and errors resolved
+  * Best available size and mass data; many conflicts and errors resolved
   * Parachutes added
 * Top Flight parachutes and streamers file added
 * Competition parachutes and streamers file added
@@ -151,8 +184,8 @@ Caveat - I do not have a Windows machine to test this on so the details may not 
 you need to clone the git repo and create a soft directory symlink to where you cloned it.
 
 * Install git for Windows (https://git-for-windows.github.io/)
-* Get a command prompt.  You either have to use "Run as administrator" or have Developer Mode enabled.  Run
-the following:
+* Get a command prompt.  You either have to use "Run as administrator" or have Developer Mode enabled.
+Run the following:
 
 ```bash
 git clone https://github.com/dbcook/openrocket-database.git
@@ -178,6 +211,23 @@ cd location-of-openrocket-jar
 cp OpenRocket-15.03.jar OpenRocket-15.03-nopresets.jar
 zip -d OpenRocket-15.03-nopresets.jar datafiles/presets/system.ser
 ```
+
+## Using
+
+* Due to limitations in what OpenRocket allows you to specify for nose cones, partial manual
+  entry is required to get the most accurate mass and CG locations for heavier hollow plastic or
+  fiberglass nose cones (e.g. LOC):
+  
+  * When putting in a plastic nose cone, go select the nose cone
+    from the presets database.  At this point the displayed mass will be too small, because
+    the shoulder thickness is zero and the "end capped" setting is not on.
+  * Select and copy the "Wall thickness" value on the General tab for the nose cone.
+  * Switch to the Shoulder tab, and paste into the "Thickness field".
+  * Turn on "End capped".  Now the mass at the bottom of the nose cone dialog will be correct,
+    and the nose cone CG will also be correct.
+
+At present, only the LOC nose cones and transitions have been adjusted so this procedure works, because
+they are pretty heavy and the CG actually moves a fair amount.
 
 ## Conventions
 
@@ -210,7 +260,7 @@ and usable from the OpenRocket user interface.
   but there is no documented part number from the vendor.  For example, the 12.25 in BT-5
   used in the Estes #2009 Rain Maker is assigned a PN of "BT-5_12.25in".
 
-* When multiple part numbers are known for a given item, they are given as a comma separated
+* When multiple part numbers are known for a given item, they are given as a
 list in the PartNumber field.
 
 * Items not uniquely tied to any given manufacturer have been assigned a manufacturer name
@@ -223,7 +273,7 @@ list in the PartNumber field.
   significant.
 
 
-## Technical Info
+## Technical Info - how OpenRocket Parts Databases Work
 
 ### OpenRocket File Types
 
@@ -255,9 +305,9 @@ updating or removing it does not require altering the manifest.
 
 ### State of the Built-In Databases
 
-In the source tree, the .orc files are very stale and no one has worked on them recently.  The most
-recent change to the Estes file was in April 2014, and the rest have not changed since 2013 or
-before.
+In the OpenRocket source tree, the .orc files are very stale and no one has worked on them
+recently.  The most recent change to the Estes file was in April 2014, and the rest have
+not changed since 2013 or before.
 
 ### OpenRocket Data File Search Path
 
@@ -326,7 +376,7 @@ compiled-in default materials.
 IMPORTANT: The material definition referenced by a component is only consulted *when the
 component is first created in your .ork file* ! If you subsequently save the .ork, then
 update the material definition in the .orc, and reload your .ork design, the material
-definitions for existing components *WILL NOT BE UPDATED*.  If you change the density for
+definitions for existing components __WILL NOT BE UPDATED__.  If you change the density for
 some material, in order to get your design to update you must manually open the affected
 components, and re-select the component preset from the database.
 
@@ -338,7 +388,7 @@ kg/m3, areal density in kg/m2, and linear density in kg/m.  The parser for mater
 definitions *totally ignores* the UnitsOfMeasure attribute; you MUST express them in
 kg/m3, kg/m2 and kg/m.
 
-However, for _components_ you can use the "Unit" attribute in the component definitions to
+However, for __components__ you can use the "Unit" attribute in the component definitions to
 specify other units as desired.  In the standard OpenRocket presets files they are all
 metric, even for American parts, which makes checking the dimensions against the USA
 manufacturers' Imperial units specs very laborious.  In my custom .orc files I have
