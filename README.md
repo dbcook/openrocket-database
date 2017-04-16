@@ -105,6 +105,8 @@ very interested in:
 
 If you have a large contribution, please fork the repo, make your changes, and submit a pull request.
 
+Please don't report problems on TRF, via email, etc. - use GitHub issues; others may be ignored.
+
 ## Features and improvements:
 
 * Detailed documentation on how the components database works, and much info about restrictions and limitations.
