@@ -311,7 +311,12 @@ not changed since 2013 or before.
 
 ### OpenRocket Data File Search Path
 
-This section explains where OpenRocket will look for component database files.  The general search order is:
+When OpenRocket starts up, it hunts down __all the database files on its search path__ and loads
+all the parts ("components") from them into a single giant list.  When you choose "From database..."
+in the presets menu for any type of item in the UI, OpenRocket will show you the whole list of
+items of that type.
+
+The general search order for database files is:
 
 * Items existing in the active document (we still need details on this from a code dive)
 * Files included in the OpenRocket jar under `datafiles/presets/system.ser`
@@ -361,10 +366,10 @@ component.
 
 ### Organization of .orc Database Files
 
-Each manufacturer's file in OpenRocket.jar has a set of material definitions at the top.
+Each .orc file has a set of material definitions at the top.
 These material definitions only have scope within the current datafile.
 
-Conversely any given .orc presets file can *only* use materials defined in the same file.
+Conversely any given .orc presets database file can *only* use materials defined in the same file.
 This is why in OpenRocket there are duplicate material definitions (with identical names)
 in various built-in .orc files with densities that don't agree.  Some of this might be
 intentional to capture the fact that different manufacturer's typical materials vary, but
@@ -383,7 +388,7 @@ components, and re-select the component preset from the database.
 
 ### Units in Component Database Files
 
-IMPORTANT: _Materials_ definitions in .orc files all *must* have density specified in
+IMPORTANT: __Materials__ definitions in .orc files all *must* have density specified in
 kg/m3, areal density in kg/m2, and linear density in kg/m.  The parser for materials
 definitions *totally ignores* the UnitsOfMeasure attribute; you MUST express them in
 kg/m3, kg/m2 and kg/m.
@@ -400,12 +405,12 @@ Units recognized by OpenRocket are found in the source tree in
 core/src/net/openrocket/sf/unit/UnitGroup.java
 ```
 
-Here are the most useful groups:
+Here are the most useful units groups:
 ```
 Length:  mm, cm, m, in, in/64, ft
 Distance:  m, km, ft, yd, mi, nmi
 Velocity:  m/s, km/h, ft/s, mph
-Mass:  g, kg, oz, lb   (slug notably missing!)
+Mass:  g, kg, oz, lb   (slugs missing)
 Angle:  deg, rad, arcmin
 Density (bulk):  g/cm3, kg/dm3, kg/m3
 Density (surface):  g/cm2, g/m2, kg/m2, oz/in2, oz/ft2, lb/ft2
