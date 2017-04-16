@@ -7,6 +7,9 @@ This provides a massive number of additional components (nose cones, body tubes,
 transitions, etc.) and corrections to the built-in parts database contained in the
 OpenRocket jar file.
 
+This package does not change how OpenRocket __works__ in any way.  It only changes what
+components are available for selection in the menus.
+
 I apologize in advance for the geeky way you need to install this.  It's not very
 complicated, but there's a bit of command line work.  You'll need to be able to use a `git`
 client to grab this repo, and create a soft symlink so that OpenRocket finds the database
@@ -35,6 +38,62 @@ OpenRocket compatibility:  tested with OpenRocket 15.03
 0.9.0.1
 * Publishing what I have to date: Estes and LOC Precision.
 
+## Installing
+
+In all environments, I recommend you create a symlink to the cloned repo so that OpenRocket
+will find the components database there.  Doing it this way allows OpenRocket to
+automatically find the updated files after you do a 'git pull' to grab the latest version
+from GitHub.  Otherwise you would have to copy updated files to where OpenRocket expects them.
+
+### Mac
+
+```bash
+git clone https://github.com/dbcook/openrocket-database.git
+cd ~/Library/Application\ Support/OpenRocket
+ln -s ~/openrocket-database/orc Components
+```
+
+### Linux
+```bash
+git clone https://github.com/dbcook/openrocket-database.git
+cd ~/.openrocket
+ln -s ~/openrocket-database/orc Components
+```
+
+### Windows
+
+Caveat - I do not have a Windows machine to test this on so the details may not be 100% good.  Basically
+you need to clone the git repo and create a soft directory symlink to where you cloned it.
+
+* Install git for Windows (https://git-for-windows.github.io/)
+* Get a command prompt.  You either have to use "Run as administrator" or have Developer Mode enabled.
+Run the following:
+
+```bash
+git clone https://github.com/dbcook/openrocket-database.git
+mklink /D %HOMEPATH%\OpenRocket\Components C:\openrocket-database\orc
+```
+
+## Removing the Built-in .orc Files from OpenRocket
+
+For the cleanest parts browsing experience, you'll want to remove the stock built-in .orc
+files from the OpenRocket jar file.  This is a slightly technical operation and requires
+that you have the 'zip' tool or equivalent.
+
+NOTE: In the current OpenRocket 15.03, all of the built-in .orc files are serialized into
+a single binary file under datafiles/presets/system.ser.  You can remove this file safely,
+but this deletes *all* the built-in .orc components, including the ones that have not been
+replaced by this package.
+
+I like to keep both a "stock" and a "stripped" OpenRocket so that I can run either way. The
+following commands show how to achieve that.
+
+```bash
+cd location-of-openrocket-jar
+cp OpenRocket-15.03.jar OpenRocket-15.03-nopresets.jar
+zip -d OpenRocket-15.03-nopresets.jar datafiles/presets/system.ser
+```
+
 ## Reporting Problems
 
 Please file issues here on GitHub so that they can be tracked and get comments.  I'm
@@ -44,6 +103,26 @@ very interested in:
 * Parts that insert into OpenRocket with zero mass (indicates a problem in the material definition)
 
 If you have a large contribution, please fork the repo, make your changes, and submit a pull request.
+
+## Features and improvements:
+
+* Detailed documentation on how the components database works, and much info about restrictions and limitations.
+* Much research data added as comments in the files
+* Mass overrides mostly removed - material densities set correctly
+* Mass data for tubing analyzed to remove outliers and derive correct average densities
+* A master materials reference file is provided with heavily researched data
+* Major expansion and cleanup of the Estes parts file
+  * Added most missing body tubes from the comprehensive Brohm tube index, including BT-51, BT-52, BT-56, BT-58, etc.
+  * Many nose cones added from the Brohm nose cone reference
+  * Numeric PNs and old style part numbers both listed where known
+  * Centering rings added (missing from stock OpenRocket)
+  * Tons of research information in the file
+  * Pro Series II parts file added
+* Greatly improved LOC Precision parts file
+  * Best available size and mass data; many conflicts and errors resolved
+  * Parachutes added
+* Top Flight parachutes and streamers file added
+* Competition parachutes and streamers file added
 
 ## State of the Project
 
@@ -136,83 +215,10 @@ not included in OpenRocket at all:
   * Wildman
 * Fruity, Rocketman, Sky Angle, B2 Chutes
 
-## Features and improvements:
+## Usage and Quirks
 
-* Detailed documentation on how the components database works, and much info about restrictions and limitations.
-* Much research data added as comments in the files
-* Mass overrides mostly removed - material densities set correctly
-* Mass data for tubing analyzed to remove outliers and derive correct average densities
-* A master materials reference file is provided with heavily researched data
-* Major expansion and cleanup of the Estes parts file
-  * Added most missing body tubes from the comprehensive Brohm tube index, including BT-51, BT-52, BT-56, BT-58, etc.
-  * Many nose cones added from the Brohm nose cone reference
-  * Numeric PNs and old style part numbers both listed where known
-  * Centering rings added (missing from stock OpenRocket)
-  * Tons of research information in the file
-  * Pro Series II parts file added
-* Greatly improved LOC Precision parts file
-  * Best available size and mass data; many conflicts and errors resolved
-  * Parachutes added
-* Top Flight parachutes and streamers file added
-* Competition parachutes and streamers file added
-
-## Installing
-
-In all environments, I recommend you create a symlink to the cloned repo so that OpenRocket
-will find the components database there.  Doing it this way allows OpenRocket to
-automatically find the updated files after you do a 'git pull' to grab the latest version
-from GitHub.  Otherwise you would have to copy updated files to where OpenRocket expects them.
-
-### Mac
-
-```bash
-git clone https://github.com/dbcook/openrocket-database.git
-cd ~/Library/Application\ Support/OpenRocket
-ln -s ~/openrocket-database/orc Components
-```
-
-### Linux
-```bash
-git clone https://github.com/dbcook/openrocket-database.git
-cd ~/.openrocket
-ln -s ~/openrocket-database/orc Components
-```
-
-### Windows
-
-Caveat - I do not have a Windows machine to test this on so the details may not be 100% good.  Basically
-you need to clone the git repo and create a soft directory symlink to where you cloned it.
-
-* Install git for Windows (https://git-for-windows.github.io/)
-* Get a command prompt.  You either have to use "Run as administrator" or have Developer Mode enabled.
-Run the following:
-
-```bash
-git clone https://github.com/dbcook/openrocket-database.git
-mklink /D %HOMEPATH%\OpenRocket\Components C:\openrocket-database\orc
-```
-
-## Removing the Built-in .orc Files from OpenRocket
-
-For the cleanest parts browsing experience, you'll want to remove the stock built-in .orc
-files from the OpenRocket jar file.  This is a slightly technical operation and requires
-that you have the 'zip' tool or equivalent.
-
-NOTE: In the current OpenRocket 15.03, all of the built-in .orc files are serialized into
-a single binary file under datafiles/presets/system.ser.  You can remove this file safely,
-but this deletes *all* the built-in .orc components, including the ones that have not been
-replaced by this package.
-
-I like to keep both a "stock" and a "stripped" OpenRocket so that I can run either way. The
-following commands show how to achieve that.
-
-```bash
-cd location-of-openrocket-jar
-cp OpenRocket-15.03.jar OpenRocket-15.03-nopresets.jar
-zip -d OpenRocket-15.03-nopresets.jar datafiles/presets/system.ser
-```
-
-## Using
+For most things, you can use OpenRocket as you normally would.  However, there are a few things
+you should know about if you want maximum accuracy.
 
 * Due to limitations in what OpenRocket allows you to specify for nose cones, partial manual
   entry is required to get the most accurate mass and CG locations for heavier hollow plastic or
