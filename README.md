@@ -86,7 +86,8 @@ but this deletes *all* the built-in .orc components, including the ones that hav
 replaced by this package.
 
 I like to keep both a "stock" and a "stripped" OpenRocket so that I can run either way. The
-following commands show how to achieve that.
+following commands show how to achieve that.  You can also use a graphical "zip" tool if
+you prefer.
 
 ```bash
 cd location-of-openrocket-jar
