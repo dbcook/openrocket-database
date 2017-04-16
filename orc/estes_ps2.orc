@@ -383,18 +383,47 @@ Parts from #9701 Ventris
 
       <!-- PSII 4.0" nose cone 12.5" blunt tip ogive used in Megaa Der Red Max PN 72415
            Using LOC PNC-3.9 dimensions as they are quite close.  Should weigh about 151 gm -->
-        <NoseCone>
-            <Manufacturer>Estes</Manufacturer>
-            <PartNumber>72415</PartNumber>
-            <Description>Nose cone, plastic, 4.0" series, 12.5" ogive, PN 72415</Description>
-            <Material Type="BULK">Polystyrene, cast, bulk</Material>
-            <Shape>OGIVE</Shape>
-            <OutsideDiameter Unit="in">4.0</OutsideDiameter>
-            <ShoulderDiameter Unit="in">3.88</ShoulderDiameter>
-            <ShoulderLength Unit="in">3.75</ShoulderLength>
-            <Length Unit="in">12.75</Length>
-            <Thickness Unit="in">0.125</Thickness>
-        </NoseCone>
+      <NoseCone>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>72415</PartNumber>
+        <Description>Nose cone, plastic, 4.0" series, 12.5" ogive, PN 72415</Description>
+        <Material Type="BULK">Polystyrene, cast, bulk</Material>
+        <Shape>OGIVE</Shape>
+        <OutsideDiameter Unit="in">4.0</OutsideDiameter>
+        <ShoulderDiameter Unit="in">3.88</ShoulderDiameter>
+        <ShoulderLength Unit="in">3.75</ShoulderLength>
+        <Length Unit="in">12.75</Length>
+        <Thickness Unit="in">0.125</Thickness>
+      </NoseCone>
+
+      <!-- Parachutes (nylon) -->
+      
+      <!-- PSII 24" nylon parachute PN 002261 on 2017 website
+           No info on materials/weight, looks like Top Flight -->
+      <Parachute>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>002261</PartNumber>
+        <Description>Parachute, 24 in., nylon, 6 lines, PN 002261</Description>
+        <Material Type="SURFACE">Nylon fabric, ripstop, 1.7 oz actual</Material>
+        <Diameter Unit="in">24.0</Diameter>
+        <Sides>6</Sides>
+        <LineCount>6</LineCount>
+        <LineLength Unit="in">24.0</LineLength>
+        <LineMaterial Type="LINE">Nylon Paracord, 110 lb, 1/16 in. dia.</LineMaterial>
+      </Parachute>
+      <!-- PSII 30" nylon parachute PN 002273 on 2017 website
+           No info on materials/weight, looks like Top Flight -->
+      <Parachute>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>002273</PartNumber>
+        <Description>Parachute, 30 in., nylon, 8 lines, PN 002273</Description>
+        <Material Type="SURFACE">Nylon fabric, ripstop, 1.7 oz actual</Material>
+        <Diameter Unit="in">30.0</Diameter>
+        <Sides>8</Sides>
+        <LineCount>8</LineCount>
+        <LineLength Unit="in">30.0</LineLength>
+        <LineMaterial Type="LINE">Nylon Paracord, 110 lb, 1/16 in. dia.</LineMaterial>
+      </Parachute>
 
     </Components>
 </OpenRocketComponent>

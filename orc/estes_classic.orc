@@ -4048,7 +4048,8 @@ Known issues:
                           http://www.rocketryforum.com/showthread.php?137939-Info-on-the-Estes-PNC-56-nosecone&p=1651303#post1651303
                           Estes has used kit #1330 more than once:
                           Challenger II is #1330 in 1982 catalog, Estes site has #1330 instructions for the Free Fall
-               060312   : chrome plated over black plastic, #2168 Metalizer, #2180 Chrome Dome Silver.
+               060312   : chrome plated over plastic: black plastic in #2168 Metalizer, #2180 Chrome Dome Silver.  Seen over white
+                          plastic with the same PN in a #1417 Astrobeam.
                           Ref: Metalizer instructions http://www.estesrockets.com/media/instructions/002168_METALIZER.pdf
                060340   : gold tone plated (black plastic?), #2181 Chrome Dome Gold
                           Ref: Chrome Dome instructions http://www.estesrockets.com/media/instructions/002181_Chrome_Domes_Gold.pdf
@@ -4447,34 +4448,6 @@ Known issues:
             <LineCount>8</LineCount>
             <LineLength Unit="in">24.0</LineLength>
             <LineMaterial Type="LINE">Carpet Thread</LineMaterial>
-        </Parachute>
-
-        <!-- Parachutes (nylon) -->
-        <!-- PSII 24" nylon parachute PN 002261 on 2017 website
-             No info on materials/weight, looks like Top Flight -->
-        <Parachute>
-            <Manufacturer>Estes</Manufacturer>
-            <PartNumber>002261</PartNumber>
-            <Description>Parachute, 24 in., nylon, 6 lines, PN 002261</Description>
-            <Material Type="SURFACE">Nylon fabric, ripstop, 1.7 oz actual</Material>
-            <Diameter Unit="in">24.0</Diameter>
-            <Sides>6</Sides>
-            <LineCount>6</LineCount>
-            <LineLength Unit="in">24.0</LineLength>
-            <LineMaterial Type="LINE">Nylon Paracord, 110 lb, 1/16 in. dia.</LineMaterial>
-        </Parachute>
-        <!-- PSII 30" nylon parachute PN 002273 on 2017 website
-             No info on materials/weight, looks like Top Flight -->
-        <Parachute>
-            <Manufacturer>Estes</Manufacturer>
-            <PartNumber>002273</PartNumber>
-            <Description>Parachute, 30 in., nylon, 8 lines, PN 002273</Description>
-            <Material Type="SURFACE">Nylon fabric, ripstop, 1.7 oz actual</Material>
-            <Diameter Unit="in">30.0</Diameter>
-            <Sides>8</Sides>
-            <LineCount>8</LineCount>
-            <LineLength Unit="in">30.0</LineLength>
-            <LineMaterial Type="LINE">Nylon Paracord, 110 lb, 1/16 in. dia.</LineMaterial>
         </Parachute>
 
         <!-- Launch lugs -->
