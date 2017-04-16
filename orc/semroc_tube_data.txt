@@ -69,6 +69,7 @@ SERIES    ID        OD         RingID    RingOD
 Large Tube Series (compatible with old Centuri heavy wall tubes)
 ----------------------------------------------------------------
 These are now listed on the eRocket/SEMROC site as LT-xxx
+These are not the same as the newer PSII 2.0, 2.5, 3.0, 4.0 tubes which are .034 wall
 
 SERIES    ID        OD         RingID    RingOD
                                OD+.02    ID-.02
@@ -115,3 +116,15 @@ Blu-75mm   3.000     3.100      48.0     570 g                         measured 
 Blu-98mm   3.900     4.014      48.0     725 g                         mass reported by Coker: 696 g
 Blu-5.5    5.36      5.518      48.0     1078 g                        mass reported by Apogee, suspect!
 Blu-6.0    5.973     6.079      48.0     1189 g                        mass reported by Apogee, suspect!
+
+Estes PSII Tubes - .034 wall (my measurement)
+---------------------------------------------
+
+SERIES    ID        OD         RingID    RingOD
+                               OD+.05    ID-.05
+------    -----     -----      ------    ------
+29mm MMT   1.140     1.208     1.213     1.135
+2.0        1.932     2.000     2.005     1.927
+2.5        2.432     2.500     2.505     2.427
+3.0        2.932     3.000     3.005     2.927
+4.0        3.900     4.000     4.005     3.895     same as LOC tube, Mega Der Red Max

@@ -136,6 +136,13 @@
 
       <!-- BULK woods -->
       
+        <!-- what the heck was "rocketwood"? -->
+        <Material UnitsOfMeasure="g/cm3">
+            <Name>Rocketwood, bulk</Name>
+            <Density>529.1</Density>
+            <Type>BULK</Type>
+        </Material>
+
         <Material UnitsOfMeasure="g/cm3">
           <Name>Ash, bulk</Name>
           <Density>680.8</Density>
@@ -541,7 +548,7 @@
             <Type>BULK</Type>
         </Material>
         <Material UnitsOfMeasure="g/cm3">
-            <Name>Fiberglass, G10, filament wound tube, bulk</Name>
+z            <Name>Fiberglass, G10, filament wound tube, bulk</Name>
             <Density>1820.0</Density>
             <Type>BULK</Type>
         </Material>
@@ -576,7 +583,7 @@
             <Type>BULK</Type>
         </Material>
         <Material UnitsOfMeasure="g/cm3">
-            <Name>Phenolic, Magna type, bulk</Name>
+            <Name>Phenolic, Magna tube type, bulk</Name>
             <Density>1100.0</Density>
             <Type>BULK</Type>
         </Material>
@@ -837,18 +844,21 @@
             <Type>LINE</Type>
         </Material>
 
+        <!-- Formerly Apogee 29505 -->
         <Material UnitsOfMeasure="kg/m">
             <Name>Kevlar cord, 100 lb test, Apogee 30325</Name>
             <Density>.000371</Density>
             <Type>LINE</Type>
         </Material>
 
+        <!-- Formerly Apogee 29506 -->
         <Material UnitsOfMeasure="kg/m">
             <Name>Kevlar cord, 300 lb test, Apogee 30326</Name>
             <Density>.00102</Density>
             <Type>LINE</Type>
         </Material>
 
+        <!-- Formerly Apogee 29507 -->
         <Material UnitsOfMeasure="kg/m">
             <Name>Kevlar cord, 1500 lb test, Apogee 30327</Name>
             <Density>.00661</Density>
@@ -1127,6 +1137,7 @@
 
         <!-- String / thread -->
         
+        <!-- Carpet thread with this value was formerly Apogee 29500 -->
         <Material UnitsOfMeasure="kg/m">
             <Name>Carpet Thread</Name>
             <Density>3.3E-4</Density>

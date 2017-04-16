@@ -2644,56 +2644,6 @@ Known issues:
         <Length Unit="in">2.78</Length>
       </BodyTube>
 
-      <!-- PSII 2.5" components -->
-      <!-- ***Partizon #9702 uses:  Slotted tube 85865 15.5", regular tube 31390 15.5", 29mm MMT 31360,
-           2.5" coupler 30189, ogive PNC 72413, nylon parachute 35814, launch lugs 38181,
-           plywood 29mm to 2.5 rings 66475, 29mm motor block 31362
-           ***-->
-      <!-- PSII 2.5" tubes have OD 2.50" and 0.034" wall, white outer wrap -->
-      <BodyTube>
-        <Manufacturer>Estes</Manufacturer>
-        <PartNumber>31390</PartNumber>
-        <Description>Body tube, 2.5 dia, white, 15.5 in., PN 31390</Description>
-        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
-        <InsideDiameter Unit="in">2.438</InsideDiameter>
-        <OutsideDiameter Unit="in">2.50</OutsideDiameter>
-        <Length Unit="in">15.5</Length>
-      </BodyTube>
-      <BodyTube>
-        <Manufacturer>Estes</Manufacturer>
-        <PartNumber>85865</PartNumber>
-        <Description>Body tube, 2.5 dia, white, 15.5 in., 3 slots, PN 85865</Description>
-        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
-        <InsideDiameter Unit="in">2.438</InsideDiameter>
-        <OutsideDiameter Unit="in">2.50</OutsideDiameter>
-        <Length Unit="in">15.5</Length>
-      </BodyTube>
-
-      <!-- 2.5" series coupler 4.0" long, wall measures .030" -->
-      <TubeCoupler>
-        <Manufacturer>Estes</Manufacturer>
-        <PartNumber>30189</PartNumber>
-        <Description>Tube coupler, 2.5" series, paper, PN 30189</Description>
-        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
-        <InsideDiameter Unit="in">2,360</InsideDiameter>
-        <OutsideDiameter Unit="in">2.420</OutsideDiameter>
-        <Length Unit="in">4.0</Length>
-      </TubeCoupler>
-     
-      <!-- 2.5" series ogive nose cone 10.75" long, mass ~= 58 gm -->
-      <NoseCone>
-        <Manufacturer>Estes</Manufacturer>
-        <PartNumber>72413</PartNumber>
-        <Description>Nose cone, plastic, 2.5" series, 10.75" len, PN 72413</Description>
-        <Material Type="BULK">Polystyrene, cast, bulk</Material>
-        <Filled>false</Filled>
-        <Shape>OGIVE</Shape>
-        <OutsideDiameter Unit="in">2.500</OutsideDiameter>
-        <ShoulderDiameter Unit="in">2.420</ShoulderDiameter>
-        <ShoulderLength Unit="in">1.5"</ShoulderLength>
-        <Length Unit="in">10.75</Length>
-        <Thickness>0.125</Thickness>
-      </NoseCone>
 
       <!-- Couplers (tube) All validated except JT-80C -->
       <TubeCoupler>
@@ -4610,7 +4560,7 @@ Known issues:
           <Material Type="BULK">Fiber, bulk</Material>
           <InsideDiameter Unit="in">0.738</InsideDiameter>
           <OutsideDiameter Unit="in">0.948</OutsideDiameter>
-          <Length Unit="m">0.25</Length>
+          <Length Unit="in">0.25</Length>
         </CenteringRing>
     
         <!-- AR-5055, 1974 parts catalog weight 0.62 oz (seems anomalous)-->
@@ -4621,7 +4571,7 @@ Known issues:
           <Material Type="BULK">Fiber, bulk</Material>
           <InsideDiameter Unit="in">0.978</InsideDiameter>
           <OutsideDiameter Unit="in">1.281</OutsideDiameter>
-          <Length Unit="m">0.25</Length>
+          <Length Unit="in">0.25</Length>
         </CenteringRing>
 
         <!-- AR-520, 1974 parts catalog weight 0.105 oz -->
