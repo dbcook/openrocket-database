@@ -153,11 +153,8 @@ somewhat Mac centric because that's what I use most.
 | `competition_chutes.orc` | No   | 100%
 
 
-The LOC Precision file is effectively complete, and the Estes file is very nearly - probably 95% -
-complete.  Both represent really major improvements over the previous state of things, but
-more work is needed.  The newly added Top Flight and competition chute/streamer files are
-in good shape.  Most items still need validation checks put into the `ork`
-directory to make sure they generate reasonable masses.
+Most items still need validation checks put into the `ork` directory to make sure they
+generate reasonable masses.
 
 There are several built-in database files that have not been touched yet (see above for list).
 
@@ -231,7 +228,7 @@ you should know about if you want maximum accuracy.
     from the presets database.  At this point the displayed mass will be too small, because
     the shoulder thickness is zero and the "end capped" setting is not on.
   * Select and copy the "Wall thickness" value on the General tab for the nose cone.
-  * Switch to the Shoulder tab, and paste into the "Thickness field".
+  * Switch to the Shoulder tab, and paste into the "Thickness" field.
   * Turn on "End capped".  Now the mass at the bottom of the nose cone dialog will be correct,
     and the nose cone CG will also be correct.
 
@@ -450,7 +447,7 @@ structural.
    * Cannot set drag coefficient for parachutes though UI has this
    * Cannot set a packing volume (nor packed len/diam) for parachutes
    * Cannot set a spill hole for parachutes
-   * Cannot set different parchute shapes (flat, spherical, toroid, x-form, etc.)
+   * Cannot set different parachute designs (flat, spherical, toroid, x-form, etc.)
 * Streamers:
    * Cannot set drag coefficient or Cd automatic mode
    * You can set thickness but it does not appear in the UI and may have no effect
