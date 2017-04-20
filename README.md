@@ -26,6 +26,8 @@ Current version:  0.9.0.2
 OpenRocket compatibility:  tested with OpenRocket 15.03
 
 ## Release Notes
+0.9.0.3 - 19 Apr 2017
+* Semroc body tubes completed
 
 0.9.0.2 - 16 Apr 2017
 * Added estes_ps2.orc with nearly all known Pro Series II parts
