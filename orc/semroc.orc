@@ -3058,7 +3058,7 @@ Using this file:
     </BodyTube>
 
     <!-- BT-56 dimensions given not same as Estes (1.304,1.346) but Semroc says it's
-         "same as Este BT-56" so I use the correct Estes dimensions.  BT-56 is often said
+         "same as Estes BT-56" so I use the correct Estes dimensions.  BT-56 is often said
          to be equivalent to ST-13 but the latter is actually .004 smaller with .001
          thinner wall -->
     <BodyTube>
@@ -4500,12 +4500,173 @@ Using this file:
          BT-80.  Aerotech indicated in a Nov 2014 post to TRF that their specs were
          ID = 2.56, OD = 2.64 +/- .005
     -->
+    <!-- PN AER-12628 27" with 4 fin slots and 1 lug slot is Astrobee lower tube -->
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BTH-80_27in_4slot_1lug AER-12628</PartNumber>
+      <Description>Body tube, BTH-80, 27.0", 4 fin slots, 1 lug slot, PN AER-12628</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.558</InsideDiameter>
+      <OutsideDiameter Unit="in">2.640</OutsideDiameter>
+      <Length Unit="in">27.0</Length>
+    </BodyTube>
+    <!-- PN AER-12629 27" with 1 lug slot (only) is Astrobee upper tube -->
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BTH-80_27in_1lug AER-12629</PartNumber>
+      <Description>Body tube, BTH-80, 27.0", 1 lug slot, PN AER-12629</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.558</InsideDiameter>
+      <OutsideDiameter Unit="in">2.640</OutsideDiameter>
+      <Length Unit="in">27.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BTH-80_24in AER-12626</PartNumber>
+      <Description>Body tube, BTH-80, 24.0", PN AER-12626</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.558</InsideDiameter>
+      <OutsideDiameter Unit="in">2.640</OutsideDiameter>
+      <Length Unit="in">24.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BTH-80_24in_4slot AER-12623</PartNumber>
+      <Description>Body tube, BTH-80, 24.0", 4 fin slots, PN AER-12623</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.558</InsideDiameter>
+      <OutsideDiameter Unit="in">2.640</OutsideDiameter>
+      <Length Unit="in">24.0</Length>
+    </BodyTube>
+    <!-- PN AER-12615 with 3 fin slots + 1 lug slot is Mirage lower tube -->
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BTH-80_24in_3slot_1lug AER-12625</PartNumber>
+      <Description>Body tube, BTH-80, 24.0", 3 fin slots, 1 lug slot, PN AER-12625</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.558</InsideDiameter>
+      <OutsideDiameter Unit="in">2.640</OutsideDiameter>
+      <Length Unit="in">24.0</Length>
+    </BodyTube>
+    <!-- PN AER-12627 with 1 lut slot (only) is Mirage center tube -->
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BTH-80_24in_1lugslot AER-12627</PartNumber>
+      <Description>Body tube, BTH-80, 24.0", 1 lug slot, PN AER-12627</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.558</InsideDiameter>
+      <OutsideDiameter Unit="in">2.640</OutsideDiameter>
+      <Length Unit="in">24.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BTH-80_24in_3slot_2lug AER-12624</PartNumber>
+      <Description>Body tube, BTH-80, 24.0", 3 fin slots, 2 lug slots, PN AER-12624</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.558</InsideDiameter>
+      <OutsideDiameter Unit="in">2.640</OutsideDiameter>
+      <Length Unit="in">24.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BTH-80_19in AER-12619</PartNumber>
+      <Description>Body tube, BTH-80, 19.0", PN AER-12619</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.558</InsideDiameter>
+      <OutsideDiameter Unit="in">2.640</OutsideDiameter>
+      <Length Unit="in">19.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BTH-80_15in AER-12615</PartNumber>
+      <Description>Body tube, BTH-80, 15.0", PN AER-12615</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.558</InsideDiameter>
+      <OutsideDiameter Unit="in">2.640</OutsideDiameter>
+      <Length Unit="in">15.0</Length>
+    </BodyTube>
 
+    <!-- ST-27 Centuri standard tube -->
+    <!-- This is an odd duck since for most ST-xx sizes, the xx indicates the ID, but for
+    ST-27 it's the OD, and the wall thickness is only .013, not the normal .020 -->
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-27180</PartNumber>
+      <Description>Body tube, ST-27, 18.0", PN ST-27180</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.674</InsideDiameter>
+      <OutsideDiameter Unit="in">2.700</OutsideDiameter>
+      <Length Unit="in">18.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-27014</PartNumber>
+      <Description>Body tube, ST-27, 1.38", PN ST-27014</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.674</InsideDiameter>
+      <OutsideDiameter Unit="in">2.700</OutsideDiameter>
+      <Length Unit="in">1.38</Length>
+    </BodyTube>
 
+    <!-- LT-275 (Centuri heavy wall tube) -->
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-275300</PartNumber>
+      <Description>Body tube, LT-275, 30.0", PN LT-275300</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.674</InsideDiameter>
+      <OutsideDiameter Unit="in">2.700</OutsideDiameter>
+      <Length Unit="in">30.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-275220</PartNumber>
+      <Description>Body tube, LT-275, 22.0", PN LT-275220</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.674</InsideDiameter>
+      <OutsideDiameter Unit="in">2.700</OutsideDiameter>
+      <Length Unit="in">22.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LT-27580</PartNumber>
+      <Description>Body tube, LT-275, 8.0", PN LT-27580</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.674</InsideDiameter>
+      <OutsideDiameter Unit="in">2.700</OutsideDiameter>
+      <Length Unit="in">8.0</Length>
+    </BodyTube>
 
+    <!-- T-3.0 (supposedly) Aerotech compatible tube by Totally Tubular -->
+    <!-- *** inconsistent sizes ***  said to be "same as the Aerotech and LOC 3" tubes"
+         but lists ID=2.950, OD=3.000, wall 0.050, which is internally inconsistent
+         LOC tubes are in fact ID 3.000, OD 3.100, wall=0.050, so I use that.
+         *** questionable attribution *** The 2009-2010 Aerotech catalog (latest
+         available) lists no 3" diam kits nor 3" body tubes; there are only 1.9, 2.6 and
+         4.0 tube kits and parts listed.  Also in the 2014 TRF post about tube sizes,
+         Aerotech only gave dimensions for those sizes and did not mention a 3" tube.
+    -->
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>T-3.0</PartNumber>
+      <Description>Body tube, T-3.0"H, 34.0", PN T-3.0</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">3.000</InsideDiameter>
+      <OutsideDiameter Unit="in">3.100</OutsideDiameter>
+      <Length Unit="in">34.0</Length>
+    </BodyTube>
 
+    <!-- ST-36 Centuri compatible tube.  Only available in 3" length. -->
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>ST-3630</PartNumber>
+      <Description>Body tube, ST-36, 3.0", PN ST-3630</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">3.600</InsideDiameter>
+      <OutsideDiameter Unit="in">3.690</OutsideDiameter>
+      <Length Unit="in">30.0</Length>
+    </BodyTube>
 
-    
     <!-- RT-99 ring tube -->
     <BodyTube>
       <Manufacturer>SEMROC</Manufacturer>
@@ -4515,6 +4676,128 @@ Using this file:
       <InsideDiameter Unit="in">3.668</InsideDiameter>
       <OutsideDiameter Unit="in">3.700</OutsideDiameter>
       <Length Unit="in">0.39</Length>
+    </BodyTube>
+
+    <!-- BT-100 -->
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>T-100-34</PartNumber>
+      <Description>Body tube, BT-100, 34.0", PN T-100-34</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">3.702</InsideDiameter>
+      <OutsideDiameter Unit="in">3.744</OutsideDiameter>
+      <Length Unit="in">34.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-100Z</PartNumber>
+      <Description>Body tube, BT-100, 10.9", PN BT-100Z</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">3.702</InsideDiameter>
+      <OutsideDiameter Unit="in">3.744</OutsideDiameter>
+      <Length Unit="in">10.9</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-100D</PartNumber>
+      <Description>Body tube, BT-100, 4.09", PN BT-100D</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">3.702</InsideDiameter>
+      <OutsideDiameter Unit="in">3.744</OutsideDiameter>
+      <Length Unit="in">4.09</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-100CE</PartNumber>
+      <Description>Body tube, BT-100, 3.5", PN BT-100CE</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">3.702</InsideDiameter>
+      <OutsideDiameter Unit="in">3.744</OutsideDiameter>
+      <Length Unit="in">3.5</Length>
+    </BodyTube>
+
+    <!-- BT-101 -->
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>T-101-34</PartNumber>
+      <Description>Body tube, BT-101, 34.0", PN T-101-34</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">3.896</InsideDiameter>
+      <OutsideDiameter Unit="in">3.938</OutsideDiameter>
+      <Length Unit="in">34.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-101SV</PartNumber>
+      <Description>Body tube, BT-101, 24.625", PN BT-101SV</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">3.896</InsideDiameter>
+      <OutsideDiameter Unit="in">3.938</OutsideDiameter>
+      <Length Unit="in">24.625</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-101LA</PartNumber>
+      <Description>Body tube, BT-101, 21.4", PN BT-101LA</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">3.896</InsideDiameter>
+      <OutsideDiameter Unit="in">3.938</OutsideDiameter>
+      <Length Unit="in">21.4</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-101-2075</PartNumber>
+      <Description>Body tube, BT-101, 20.75", PN BT-101-2075</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">3.896</InsideDiameter>
+      <OutsideDiameter Unit="in">3.938</OutsideDiameter>
+      <Length Unit="in">20.75</Length>
+    </BodyTube>
+    <!-- plain "BT-101" was original Estes PN for a 16.5" tube -->
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-101</PartNumber>
+      <Description>Body tube, BT-101, 16.5", PN BT-101</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">3.896</InsideDiameter>
+      <OutsideDiameter Unit="in">3.938</OutsideDiameter>
+      <Length Unit="in">16.5</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-101KJ</PartNumber>
+      <Description>Body tube, BT-101, 10.5", PN BT-101KJ</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">3.896</InsideDiameter>
+      <OutsideDiameter Unit="in">3.938</OutsideDiameter>
+      <Length Unit="in">10.5</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-101K</PartNumber>
+      <Description>Body tube, BT-101, 7.59", PN BT-101K</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">3.896</InsideDiameter>
+      <OutsideDiameter Unit="in">3.938</OutsideDiameter>
+      <Length Unit="in">7.59</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-101T</PartNumber>
+      <Description>Body tube, BT-101, 2.78", PN BT-101T</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">3.896</InsideDiameter>
+      <OutsideDiameter Unit="in">3.938</OutsideDiameter>
+      <Length Unit="in">2.78</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BT-101A</PartNumber>
+      <Description>Body tube, BT-101, 1.0", PN BT-101A</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">3.896</InsideDiameter>
+      <OutsideDiameter Unit="in">3.938</OutsideDiameter>
+      <Length Unit="in">1.0</Length>
     </BodyTube>
 
     
