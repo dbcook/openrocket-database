@@ -21,13 +21,13 @@ I invite contributors to create a packaged installer, especially for Windows.
 
 ## Version and compatibility
 
-Current version:  0.9.0.2
+Current version:  0.9.0.3
 
 OpenRocket compatibility:  tested with OpenRocket 15.03
 
 ## Release Notes
 0.9.0.3 - 19 Apr 2017
-* Semroc body tubes completed
+* Semroc body tubes completed, added around half of centering rings
 
 0.9.0.2 - 16 Apr 2017
 * Added estes_ps2.orc with nearly all known Pro Series II parts
