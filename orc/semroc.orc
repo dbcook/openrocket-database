@@ -1647,7 +1647,7 @@ Using this file:
       <Description>Body tube, BT-50, 30.0"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">0.950</InsideDiameter>
-      <OutsideDiameter Unit="in">0.76</OutsideDiameter>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
       <Length Unit="in">30.0</Length>
     </BodyTube>
     <BodyTube>
@@ -1656,7 +1656,7 @@ Using this file:
       <Description>Body tube, BT-50, 18.0"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">0.950</InsideDiameter>
-      <OutsideDiameter Unit="in">0.76</OutsideDiameter>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
       <Length Unit="in">18.0</Length>
     </BodyTube>
     <BodyTube>
@@ -1665,7 +1665,7 @@ Using this file:
       <Description>Body tube, BT-50, 16.5"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">0.950</InsideDiameter>
-      <OutsideDiameter Unit="in">0.76</OutsideDiameter>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
       <Length Unit="in">16.5</Length>
     </BodyTube>
     <BodyTube>
@@ -1674,7 +1674,7 @@ Using this file:
       <Description>Body tube, BT-50, 16.25"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">0.950</InsideDiameter>
-      <OutsideDiameter Unit="in">0.76</OutsideDiameter>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
       <Length Unit="in">16.25</Length>
     </BodyTube>
     <BodyTube>
@@ -1683,7 +1683,7 @@ Using this file:
       <Description>Body tube, BT-50, 16.0"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">0.950</InsideDiameter>
-      <OutsideDiameter Unit="in">0.76</OutsideDiameter>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
       <Length Unit="in">16.0</Length>
     </BodyTube>
     <BodyTube>
@@ -1692,7 +1692,7 @@ Using this file:
       <Description>Body tube, BT-50, 15.5"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">0.950</InsideDiameter>
-      <OutsideDiameter Unit="in">0.76</OutsideDiameter>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
       <Length Unit="in">15.5</Length>
     </BodyTube>
     <BodyTube>
@@ -1701,7 +1701,7 @@ Using this file:
       <Description>Body tube, BT-50, 15.0"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">0.950</InsideDiameter>
-      <OutsideDiameter Unit="in">0.76</OutsideDiameter>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
       <Length Unit="in">15.0</Length>
     </BodyTube>
     <BodyTube>
@@ -1710,7 +1710,7 @@ Using this file:
       <Description>Body tube, BT-50, 14.0"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">0.950</InsideDiameter>
-      <OutsideDiameter Unit="in">0.76</OutsideDiameter>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
       <Length Unit="in">14.0</Length>
     </BodyTube>
     <BodyTube>
@@ -1719,7 +1719,7 @@ Using this file:
       <Description>Body tube, BT-50, 12.7"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">0.950</InsideDiameter>
-      <OutsideDiameter Unit="in">0.76</OutsideDiameter>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
       <Length Unit="in">12.7</Length>
     </BodyTube>
     <BodyTube>
@@ -1728,7 +1728,7 @@ Using this file:
       <Description>Body tube, BT-50, 11.25"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">0.950</InsideDiameter>
-      <OutsideDiameter Unit="in">0.76</OutsideDiameter>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
       <Length Unit="in">11.25</Length>
     </BodyTube>
     <BodyTube>
@@ -1737,7 +1737,7 @@ Using this file:
       <Description>Body tube, BT-50, 11.0"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">0.950</InsideDiameter>
-      <OutsideDiameter Unit="in">0.76</OutsideDiameter>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
       <Length Unit="in">11.0</Length>
     </BodyTube>
     <BodyTube>
@@ -1746,7 +1746,7 @@ Using this file:
       <Description>Body tube, BT-50, 10.25"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">0.950</InsideDiameter>
-      <OutsideDiameter Unit="in">0.76</OutsideDiameter>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
       <Length Unit="in">10.25</Length>
     </BodyTube>
     <BodyTube>
@@ -1755,7 +1755,7 @@ Using this file:
       <Description>Body tube, BT-50, 10.0"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">0.950</InsideDiameter>
-      <OutsideDiameter Unit="in">0.76</OutsideDiameter>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
       <Length Unit="in">10.0</Length>
     </BodyTube>
     <BodyTube>
@@ -1764,7 +1764,7 @@ Using this file:
       <Description>Body tube, BT-50, 9.5"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">0.950</InsideDiameter>
-      <OutsideDiameter Unit="in">0.76</OutsideDiameter>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
       <Length Unit="in">9.5</Length>
     </BodyTube>
     <BodyTube>
@@ -1773,7 +1773,7 @@ Using this file:
       <Description>Body tube, BT-50, 9.0"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">0.950</InsideDiameter>
-      <OutsideDiameter Unit="in">0.76</OutsideDiameter>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
       <Length Unit="in">9.0</Length>
     </BodyTube>
     <BodyTube>
@@ -1782,7 +1782,7 @@ Using this file:
       <Description>Body tube, BT-50, 8.25"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">0.950</InsideDiameter>
-      <OutsideDiameter Unit="in">0.76</OutsideDiameter>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
       <Length Unit="in">8.25</Length>
     </BodyTube>
     <BodyTube>
@@ -1791,7 +1791,7 @@ Using this file:
       <Description>Body tube, BT-50, 7.75"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">0.950</InsideDiameter>
-      <OutsideDiameter Unit="in">0.76</OutsideDiameter>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
       <Length Unit="in">7.75</Length>
     </BodyTube>
     <BodyTube>
@@ -1800,7 +1800,7 @@ Using this file:
       <Description>Body tube, BT-50, 6.5"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">0.950</InsideDiameter>
-      <OutsideDiameter Unit="in">0.76</OutsideDiameter>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
       <Length Unit="in">6.5</Length>
     </BodyTube>
     <BodyTube>
@@ -1809,7 +1809,7 @@ Using this file:
       <Description>Body tube, BT-50, 5.5"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">0.950</InsideDiameter>
-      <OutsideDiameter Unit="in">0.76</OutsideDiameter>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
       <Length Unit="in">5.5</Length>
     </BodyTube>
     <BodyTube>
@@ -1818,7 +1818,7 @@ Using this file:
       <Description>Body tube, BT-50, 5.0"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">0.950</InsideDiameter>
-      <OutsideDiameter Unit="in">0.76</OutsideDiameter>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
       <Length Unit="in">5.0</Length>
     </BodyTube>
     <BodyTube>
@@ -1827,7 +1827,7 @@ Using this file:
       <Description>Body tube, BT-50, 4.0"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">0.950</InsideDiameter>
-      <OutsideDiameter Unit="in">0.76</OutsideDiameter>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
       <Length Unit="in">4.0</Length>
     </BodyTube>
     <BodyTube>
@@ -1836,7 +1836,7 @@ Using this file:
       <Description>Body tube, BT-50, 2.75"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">0.950</InsideDiameter>
-      <OutsideDiameter Unit="in">0.76</OutsideDiameter>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
       <Length Unit="in">2.75</Length>
     </BodyTube>
     <BodyTube>
@@ -1845,7 +1845,7 @@ Using this file:
       <Description>Body tube, BT-50, 1.88"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">0.950</InsideDiameter>
-      <OutsideDiameter Unit="in">0.76</OutsideDiameter>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
       <Length Unit="in">1.88</Length>
     </BodyTube>
     <BodyTube>
@@ -1854,7 +1854,7 @@ Using this file:
       <Description>Body tube, BT-50, 1.5"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">0.950</InsideDiameter>
-      <OutsideDiameter Unit="in">0.76</OutsideDiameter>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
       <Length Unit="in">1.5</Length>
     </BodyTube>
     
@@ -4802,6 +4802,10 @@ Using this file:
 
     
     <!-- centering rings -->
+    <!-- Semroc has some unique centering rings with punch-outs that allow one ring to
+         fit multiple tube sizes.  To handle this, I have made a separate listing for each
+         size supported by the PN, and appended a suffix to the PN to indicate which size
+         has been selected. -->
 
     <!-- AR type thick centering rings for Estes compatible tube sizes -->
     <CenteringRing>
@@ -4811,7 +4815,7 @@ Using this file:
       <Material Type="BULK">Fiber, bulk</Material>
       <InsideDiameter Unit="in">0.738</InsideDiameter>
       <OutsideDiameter Unit="in">0.948</OutsideDiameter>
-      <Length Unit="m">0.25</Length>
+      <Length Unit="in">0.25</Length>
     </CenteringRing>
     
     <CenteringRing>
@@ -5439,16 +5443,345 @@ Using this file:
       <Length Unit="in">0.05</Length>
     </CenteringRing>
 
+    <!-- ST-8F: none exist -->
+
+    <!-- LT-085 -->
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-085-125</PartNumber>
+      <Description>Centering ring, plywood, LT-085 to LT-125, .125"</Description>
+      <Material Type="BULK">Plywood, light, bulk</Material>
+      <InsideDiameter Unit="in">0.947</InsideDiameter>
+      <OutsideDiameter Unit="in">1.248</OutsideDiameter>
+      <Length Unit="in">0.125</Length>
+    </CenteringRing>
+
     <!-- BT-50 inner diam: ***many to do*** -->
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>RA-50/52H-101(BT-50)</PartNumber>
+      <Description>Centering ring, fiber, BT-50 to BT-101, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">0.978</InsideDiameter>
+      <OutsideDiameter Unit="in">3.894</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>RA-50/52H-101(BT-52H)</PartNumber>
+      <Description>Centering ring, fiber, BT-52H to BT-101, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">1.138</InsideDiameter>
+      <OutsideDiameter Unit="in">3.894</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>RA-50/52H-101P(BT-50)</PartNumber>
+      <Description>Centering ring, plywood, BT-50 to BT-101, .375"</Description>
+      <Material Type="BULK">Plywood, light, bulk</Material>
+      <InsideDiameter Unit="in">0.978</InsideDiameter>
+      <OutsideDiameter Unit="in">3.894</OutsideDiameter>
+      <Length Unit="in">0.375</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>RA-50/52H-101P(BT-52H)</PartNumber>
+      <Description>Centering ring, plywood, BT-52H to BT-101, .375"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">1.138</InsideDiameter>
+      <OutsideDiameter Unit="in">3.894</OutsideDiameter>
+      <Length Unit="in">0.375</Length>
+    </CenteringRing>
     <CenteringRing>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>CR-50-18</PartNumber>
       <Description>Centering ring, fiber, BT-50 to #18, .05"</Description>
       <Material Type="BULK">Fiber, bulk</Material>
       <InsideDiameter Unit="in">0.978</InsideDiameter>
-      <OutsideDiameter Unit="m">1.798</OutsideDiameter>
+      <OutsideDiameter Unit="in">1.798</OutsideDiameter>
       <Length Unit="in">0.05</Length>
     </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-50-20P</PartNumber>
+      <Description>Centering ring, plywood, BT-50 to #20, .125"</Description>
+      <Material Type="BULK">Plywood, light, bulk</Material>
+      <InsideDiameter Unit="in">0.978</InsideDiameter>
+      <OutsideDiameter Unit="in">1.998</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>RA-50-60</PartNumber>
+      <Description>Centering ring, fiber, BT-50 to BT-60, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">0.978</InsideDiameter>
+      <OutsideDiameter Unit="in">1.593</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>RA-50-60P</PartNumber>
+      <Description>Centering ring, plywood, BT-50 to BT-60, .125"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">0.978</InsideDiameter>
+      <OutsideDiameter Unit="in">1.593</OutsideDiameter>
+      <Length Unit="in">0.125</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>RA-50/52H-101(BT-50)</PartNumber>
+      <Description>Centering ring, fiber, BT-50 to BT-101, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">0.978</InsideDiameter>
+      <OutsideDiameter Unit="in">3.894</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>RA-50/52H-101(BTH-52)</PartNumber>
+      <Description>Centering ring, fiber, BTH-52 to BT-101, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">1.222</InsideDiameter>
+      <OutsideDiameter Unit="in">3.894</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>RA-2x50-70/80(BT-70)</PartNumber>
+      <Description>Centering ring, fiber, 2xBT-50 to BT-70, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">0.978</InsideDiameter>
+      <OutsideDiameter Unit="in">2.173</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>RA-2x50-70/80(BT-80)</PartNumber>
+      <Description>Centering ring, fiber, 2xBT-50 to BT-80, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">0.978</InsideDiameter>
+      <OutsideDiameter Unit="in">2.556</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>RA-2x50-70S</PartNumber>
+      <Description>Centering ring, fiber, 2xBT-50 to BT-70, hook slots, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">0.978</InsideDiameter>
+      <OutsideDiameter Unit="in">2.173</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-50/52H-1.9(BT-50)</PartNumber>
+      <Description>Centering ring, fiber, BT-50 to T-1.88, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">0.978</InsideDiameter>
+      <OutsideDiameter Unit="in">1.798</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-50/52H-1.9(BTH-52)</PartNumber>
+      <Description>Centering ring, fiber, BTH-52 to T-1.88, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">1.222</InsideDiameter>
+      <OutsideDiameter Unit="in">1.798</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-50/52H-60(BT-50)</PartNumber>
+      <Description>Centering ring, fiber, BT-50 to BT-60, .25"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">0.978</InsideDiameter>
+      <OutsideDiameter Unit="in">1.593</OutsideDiameter>
+      <Length Unit="in">0.25</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-50/52H-60(BTH-52)</PartNumber>
+      <Description>Centering ring, fiber, BTH-52 to BT-60, .25"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">1.222</InsideDiameter>
+      <OutsideDiameter Unit="in">1.593</OutsideDiameter>
+      <Length Unit="in">0.25</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>RA-50/52H-70(BT-50)</PartNumber>
+      <Description>Centering ring, fiber, BT-50 to BT-70, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">0.978</InsideDiameter>
+      <OutsideDiameter Unit="in">2.173</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-50/52H-70(BTH-52)</PartNumber>
+      <Description>Centering ring, fiber, BTH-52 to BT-70, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">1.222</InsideDiameter>
+      <OutsideDiameter Unit="in">2.173</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>RA-50/52H-80(BT-50)</PartNumber>
+      <Description>Centering ring, fiber, BT-50 to BT-80, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">0.978</InsideDiameter>
+      <OutsideDiameter Unit="in">2.556</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-50/52H-80(BTH-52)</PartNumber>
+      <Description>Centering ring, fiber, BTH-52 to BT-80, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">1.222</InsideDiameter>
+      <OutsideDiameter Unit="in">2.556</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>RA-50-100</PartNumber>
+      <Description>Centering ring, fiber, BT-50 to BT-100, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">0.978</InsideDiameter>
+      <OutsideDiameter Unit="in">3.700</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>RA-50-101</PartNumber>
+      <Description>Centering ring, fiber, BT-50 to BT-101, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">0.978</InsideDiameter>
+      <OutsideDiameter Unit="in">3.894</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-50-52H</PartNumber>
+      <Description>Centering ring, fiber, BT-50 to BTH-52, .25"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">0.978</InsideDiameter>
+      <OutsideDiameter Unit="in">1.138</OutsideDiameter>
+      <Length Unit="in">0.25</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-50-55</PartNumber>
+      <Description>Centering ring, fiber, BT-50 to BT-55, .25"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">0.978</InsideDiameter>
+      <OutsideDiameter Unit="in">1.281</OutsideDiameter>
+      <Length Unit="in">0.25</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>RA-50-55</PartNumber>
+      <Description>Centering ring, fiber, BT-50 to BT-55, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">0.978</InsideDiameter>
+      <OutsideDiameter Unit="in">1.281</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>RA-50-55S</PartNumber>
+      <Description>Centering ring, fiber, BT-50 to BT-55, hook slot, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">0.978</InsideDiameter>
+      <OutsideDiameter Unit="in">1.281</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>RA-50-58</PartNumber>
+      <Description>Centering ring, fiber, BT-50 to BT-58, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">0.978</InsideDiameter>
+      <OutsideDiameter Unit="in">1.496</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>RA-50-60S</PartNumber>
+      <Description>Centering ring, fiber, BT-50 to BT-60, hook slot, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">0.978</InsideDiameter>
+      <OutsideDiameter Unit="in">1.593</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>RA-50-70</PartNumber>
+      <Description>Centering ring, fiber, BT-50 to BT-70, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">0.978</InsideDiameter>
+      <OutsideDiameter Unit="in">2.173</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>RA-50-80</PartNumber>
+      <Description>Centering ring, fiber, BT-50 to BT-80, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">0.978</InsideDiameter>
+      <OutsideDiameter Unit="in">2.556</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-50-T40</PartNumber>
+      <Description>Centering ring, fiber, BT-50 to T-40, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">0.978</InsideDiameter>
+      <OutsideDiameter Unit="mm">39.95</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+
+    <!-- ***Adding here*** -->
+
+    
+
+    <!-- BTH-50 (BT-50H) inner diam -->
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>RA-50H-55</PartNumber>
+      <Description>Centering ring, fiber, BTH-50 to BT-55, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">0.994</InsideDiameter>
+      <OutsideDiameter Unit="in">1.281</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>RA-50H-60</PartNumber>
+      <Description>Centering ring, fiber, BTH-50 to BT-60, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">0.994</InsideDiameter>
+      <OutsideDiameter Unit="in">1.593</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+
+    <!-- BTH-52 inner diam -->
+    <!-- *** Semroc gives wrong ID of 1.215, smaller than BTH-50 OD of 1.220 *** -->
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>RA-52H-60</PartNumber>
+      <Description>Centering ring, fiber, BTH-52 to BT-60, .25"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">1.222</InsideDiameter>
+      <OutsideDiameter Unit="in">1.593</OutsideDiameter>
+      <Length Unit="in">0.25</Length>
+    </CenteringRing>
+    
 
     <!-- #10 inner diam -->
     
