@@ -537,6 +537,8 @@
             <Density>1905.0</Density>
             <Type>BULK</Type>
         </Material>
+        <!-- G10 is glass cloth + epoxy, usually in convolute wound tubes -->
+        <!-- G12 is filament wound -->
         <Material UnitsOfMeasure="g/cm3">
             <Name>Fiberglass, G10, bulk</Name>
             <Density>2175.0</Density>
