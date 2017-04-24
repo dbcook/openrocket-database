@@ -4655,7 +4655,7 @@ Known issues:
           <Description>Centering ring, fiber, BT-60 to BT-80</Description>
           <Material Type="BULK">Fiber, bulk</Material>
           <InsideDiameter Unit="in">1.639</InsideDiameter>
-          <OutsideDiameter Unit="in">2.586</OutsideDiameter>
+          <OutsideDiameter Unit="in">2.556</OutsideDiameter>
           <Length Unit="in">0.05</Length>
         </CenteringRing>
 
