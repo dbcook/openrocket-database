@@ -27,7 +27,7 @@ OpenRocket compatibility:  tested with OpenRocket 15.03
 
 ## Release Notes
 0.9.0.4 - 23 Apr 2017
-* Added many Semroc rings.  Still nowhere hear done.
+* Finished Semroc centering rings, started on couplers.
 * Added FSI tube data to tube data text file, renamed to tube_data.txt, moved to data/ directory.
 
 0.9.0.3 - 19 Apr 2017
