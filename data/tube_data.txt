@@ -1,9 +1,9 @@
-SEMROC Tube Diameter Chart
-==========================
+Body Tube Data Tables
+=====================
 
 Estes-Compatible Series
 -----------------------
-All of these that match Estes designations have identical sizes.
+All of these listed by Semroc that match Estes designations have identical sizes.
 Ones that don't have known Estes counterparts are marked with * in the comments.
 SEMROC never listed a BT-56 - it was essentially identical to Centuri #13 though.
 
@@ -28,7 +28,7 @@ BTH-50    0.950     0.992      0.994     0.948    * foil lined 24mm MMT
 BT-50+    0.984     1.010      1.012     0.982    * but only .001 different from BT-51
 BT-51     0.985     1.011      1.013     0.983
 BT-52     0.988     1.014      1.016     0.986
-BTH-52    1.140     1.220      1.222     1.138    * same as LT-115
+BTH-52    1.140     1.220      1.222     1.138    * exactly same as LT-115
 BT-55     1.283     1.325      1.327     1.281
 BT-56est  1.304     1.346      1.348     1.302    not carried by Semroc
 BT-56sem  1.346     1.367      1.369     1.344    * believed to be erroneously derived from Estes sizing
@@ -55,7 +55,7 @@ SERIES    ID        OD         RingID    RingOD
 #7        0.715     0.759      0.761     0.713
 #8        0.865     0.908      0.910     0.863
 #8F       0.885     0.921      0.923     0.883
-#9        0.950     0.998      1.000     0.948
+#9        0.950     0.998      1.000     0.948     24mm MMT, same ID as BT-50 but .020 wall
 #10       1.000     1.040      1.042     0.998
 #11       1.130     1.170      1.172     1.128
 #13       1.300     1.340      1.342     1.298
@@ -94,8 +94,8 @@ PST-50    0.950     0.976      0.978     0.948
 PST-55    1.283     1.325      1.327     1.281
 PST-65    1.750     1.774      1.776     1.748
 
-Aerotech compatible tubes
--------------------------
+Aerotech tubes
+--------------
 See http://www.rocketryforum.com/showthread.php?70990-aerotech-tube-dimensions
 
 AER-1.9   1.800     1.880      1.882     1.798    dimensions from Rocketarium.  AT gave 1.87 OD
@@ -104,7 +104,7 @@ AER-4.0   3.90      3.987                         from TRF post 16 Nov 2014, AT 
 
 Blue Tube
 ---------
-OK, now we have left the domain of things ever sold by SEMROC
+
 SERIES    ID        OD         MaxLen    Mass      RingID    RingOD
                                                    OD+.003   ID-.003
 ------    -----     -----      ------    ------    --------  -------
@@ -128,3 +128,14 @@ SERIES    ID        OD         RingID    RingOD
 2.5        2.432     2.500     2.505     2.427
 3.0        2.932     3.000     3.005     2.927
 4.0        3.900     4.000     4.005     3.895     same as LOC tube, Mega Der Red Max
+
+FSI tube data from 1977 catalog
+-------------------------------
+
+SERIES    ID        OD      Len      Wt      RingID    RingOD   Lengths
+------    -----     -----   -----    -----   ------    ------   --------------------------
+HRT-8     0.903     0.921   16.0     0.425   0.923     0.901    HRT-816, HRT-808, HRT-804
+HRT-10    1.13      1.17    18.0     0.725   1.172     1.128    HRT-1018, HRT-1009, HRT-1004
+RT-12     1.30      1.34    18.0     0.738   1.342     1.298    RT-1218, RT-1209, RT-1204
+RT-15     1.60      1.64    18.0     0.936   1.642     1.598    RT-1518, RT-1512, RT-1506
+RT-19     2.00      2.04    18.0     1.184   2.042     1.998    RT-1918, RT-1912, RT-1906
