@@ -4800,6 +4800,317 @@ Using this file:
       <Length Unit="in">1.0</Length>
     </BodyTube>
 
+    <!-- Tube couplers -->
+
+    <!-- BT-3 couplers -->
+
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CPL-3-5-34"</PartNumber>
+      <Description>Tube coupler, paper, BT-3, 34.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.250</InsideDiameter>
+      <OutsideDiameter Unit="in">0.346</OutsideDiameter>
+      <Length Unit="in">34.0</Length>
+    </TubeCoupler>
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CPL-3-1"</PartNumber>
+      <Description>Tube coupler, paper, BT-3, 1.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.250</InsideDiameter>
+      <OutsideDiameter Unit="in">0.346</OutsideDiameter>
+      <Length Unit="in">1.0</Length>
+    </TubeCoupler>
+
+    <!-- BT-4 couplers -->
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CPL-4-34"</PartNumber>
+      <Description>Tube coupler, paper, BT-4, 34.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.376</InsideDiameter>
+      <OutsideDiameter Unit="in">0.422</OutsideDiameter>
+      <Length Unit="in">34.0</Length>
+    </TubeCoupler>
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CPL-4-2"</PartNumber>
+      <Description>Tube coupler, paper, BT-4, 2.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.376</InsideDiameter>
+      <OutsideDiameter Unit="in">0.422</OutsideDiameter>
+      <Length Unit="in">2.0</Length>
+    </TubeCoupler>
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CPL-4-1.25"</PartNumber>
+      <Description>Tube coupler, paper, BT-4, 1.25"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.376</InsideDiameter>
+      <OutsideDiameter Unit="in">0.422</OutsideDiameter>
+      <Length Unit="in">1.25</Length>
+    </TubeCoupler>
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CPL-4-1"</PartNumber>
+      <Description>Tube coupler, paper, BT-4, 1.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.376</InsideDiameter>
+      <OutsideDiameter Unit="in">0.422</OutsideDiameter>
+      <Length Unit="in">1.0</Length>
+    </TubeCoupler>
+
+    <!-- BT-5 / #5 couplers -->
+    <!-- SOURCE ERROR: Semroc quotes OD as 0.516 which is greater than BT-5 ID of .515" -->
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CPL-5-34"</PartNumber>
+      <Description>Tube coupler, paper, BT-5, 34.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.474</InsideDiameter>
+      <OutsideDiameter Unit="in">0.513</OutsideDiameter>
+      <Length Unit="in">34.0</Length>
+    </TubeCoupler>
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CPL-5-2"</PartNumber>
+      <Description>Tube coupler, paper, BT-5, 2.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.474</InsideDiameter>
+      <OutsideDiameter Unit="in">0.513</OutsideDiameter>
+      <Length Unit="in">2.0</Length>
+    </TubeCoupler>
+    <!-- SOURCE ERROR: Semroc site has PN SEM-CPL-5-1.5 but other text giving CPL-5-1.75 and
+         description says 1.75" so I went with 1.75" -->
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CPL-5-1.75"</PartNumber>
+      <Description>Tube coupler, paper, BT-5, 1.75"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.474</InsideDiameter>
+      <OutsideDiameter Unit="in">0.513</OutsideDiameter>
+      <Length Unit="in">1.75</Length>
+    </TubeCoupler>
+    <!-- Semroc lists both Estes JTC-5C and Centuri HTC-5, not known if IDs differ -->
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>JTC-5C</PartNumber>
+      <Description>Tube coupler, paper, BT-5, 0.75"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.474</InsideDiameter>
+      <OutsideDiameter Unit="in">0.513</OutsideDiameter>
+      <Length Unit="in">0.75</Length>
+    </TubeCoupler>
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>HTC-5</PartNumber>
+      <Description>Tube coupler, paper, ST-5, 0.75"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.474</InsideDiameter>
+      <OutsideDiameter Unit="in">0.513</OutsideDiameter>
+      <Length Unit="in">0.75</Length>
+    </TubeCoupler>
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>HTC-5B</PartNumber>
+      <Description>Tube coupler, paper, ST-5, 0.75", punched vent</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.474</InsideDiameter>
+      <OutsideDiameter Unit="in">0.513</OutsideDiameter>
+      <Length Unit="in">0.75</Length>
+    </TubeCoupler>
+
+    <!-- #7 / ST-7 couplers -->
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>HTC-7</PartNumber>
+      <Description>Tube coupler, paper, ST-7, 1.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.474</InsideDiameter>
+      <OutsideDiameter Unit="in">0.513</OutsideDiameter>
+      <Length Unit="in">1.0</Length>
+    </TubeCoupler>
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>HTC-7B</PartNumber>
+      <Description>Tube coupler, paper, ST-7, 1.0", large punched hole</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.474</InsideDiameter>
+      <OutsideDiameter Unit="in">0.513</OutsideDiameter>
+      <Length Unit="in">1.0</Length>
+    </TubeCoupler>
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>HTC-7P</PartNumber>
+      <Description>Tube coupler, paper, ST-7, 1.0", small punched hole</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.474</InsideDiameter>
+      <OutsideDiameter Unit="in">0.513</OutsideDiameter>
+      <Length Unit="in">1.0</Length>
+    </TubeCoupler>
+
+    <!-- BT-20 couplers -->
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CPL-20-34"</PartNumber>
+      <Description>Tube coupler, paper, BT-20, 34.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.667</InsideDiameter>
+      <OutsideDiameter Unit="in">0.708</OutsideDiameter>
+      <Length Unit="in">34.0</Length>
+    </TubeCoupler>
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CPL-20-3"</PartNumber>
+      <Description>Tube coupler, paper, BT-20, 3.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.667</InsideDiameter>
+      <OutsideDiameter Unit="in">0.708</OutsideDiameter>
+      <Length Unit="in">3.0</Length>
+    </TubeCoupler>
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>JT-20</PartNumber>
+      <Description>Tube coupler, paper, BT-20, 2.75"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.667</InsideDiameter>
+      <OutsideDiameter Unit="in">0.708</OutsideDiameter>
+      <Length Unit="in">2.75</Length>
+    </TubeCoupler>
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>JT-20C</PartNumber>
+      <Description>Tube coupler, paper, BT-20, 1.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.667</InsideDiameter>
+      <OutsideDiameter Unit="in">0.708</OutsideDiameter>
+      <Length Unit="in">1.0</Length>
+    </TubeCoupler>
+    
+    <!-- ST-8 / #8 couplers -->
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>HTC-8</PartNumber>
+      <Description>Tube coupler, paper, ST-8, 1.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.821</InsideDiameter>
+      <OutsideDiameter Unit="in">0.863</OutsideDiameter>
+      <Length Unit="in">1.0</Length>
+    </TubeCoupler>
+
+    <!-- ST-8F couplers -->
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>HTC-8F</PartNumber>
+      <Description>Tube coupler, paper, ST-8F, 1.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.841</InsideDiameter>
+      <OutsideDiameter Unit="in">0.883</OutsideDiameter>
+      <Length Unit="in">1.0</Length>
+    </TubeCoupler>
+    
+    <!-- ST-9 couplers -->
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>HTC-9</PartNumber>
+      <Description>Tube coupler, paper, ST-9, 1.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.906</InsideDiameter>
+      <OutsideDiameter Unit="in">0.948</OutsideDiameter>
+      <Length Unit="in">1.0</Length>
+    </TubeCoupler>
+
+    <!-- ST-10 couplers -->
+    <!-- SOURCE ERROR: Semroc lists a CPL-ST10-3" but dimensions are for an ST-20 tube -->
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>HTC-10</PartNumber>
+      <Description>Tube coupler, paper, ST-10, 1.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.956</InsideDiameter>
+      <OutsideDiameter Unit="in">0.998</OutsideDiameter>
+      <Length Unit="in">1.0</Length>
+    </TubeCoupler>
+
+    <!-- BT-50 couplers -->
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>JTC-50C</PartNumber>
+      <Description>Tube coupler, paper, BT-50, 1.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.906</InsideDiameter>
+      <OutsideDiameter Unit="in">0.948</OutsideDiameter>
+      <Length Unit="in">1.0</Length>
+    </TubeCoupler>
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>JTC-50B</PartNumber>
+      <Description>Tube coupler, paper, BT-50, .437"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.906</InsideDiameter>
+      <OutsideDiameter Unit="in">0.948</OutsideDiameter>
+      <Length Unit="in">0.437</Length>
+    </TubeCoupler>
+    <!-- CPL-20-50-34" is AR-2050 centering ring stock in bulk -->
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CPL-20-50-34"</PartNumber>
+      <Description>Tube coupler, paper, BT-50, 34.0", AR-2050 stock</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.738</InsideDiameter>
+      <OutsideDiameter Unit="in">0.948</OutsideDiameter>
+      <Length Unit="in">34.0</Length>
+    </TubeCoupler>
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CPL-50-34"</PartNumber>
+      <Description>Tube coupler, paper, BT-50, 34.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.880</InsideDiameter>
+      <OutsideDiameter Unit="in">0.948</OutsideDiameter>
+      <Length Unit="in">34.0</Length>
+    </TubeCoupler>
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CPL-50-4"</PartNumber>
+      <Description>Tube coupler, paper, BT-50, 4.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.880</InsideDiameter>
+      <OutsideDiameter Unit="in">0.948</OutsideDiameter>
+      <Length Unit="in">4.0</Length>
+    </TubeCoupler>
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CPL-50-1"</PartNumber>
+      <Description>Tube coupler, paper, BT-50, 1.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.880</InsideDiameter>
+      <OutsideDiameter Unit="in">0.948</OutsideDiameter>
+      <Length Unit="in">1.0</Length>
+    </TubeCoupler>
+
+    <!-- ST-11 couplers -->
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>HTC-11</PartNumber>
+      <Description>Tube coupler, paper, ST-11, 1.25"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.968</InsideDiameter>
+      <OutsideDiameter Unit="in">1.128</OutsideDiameter>
+      <Length Unit="in">34.0</Length>
+    </TubeCoupler>
+
+    <!-- LT-115 / BTH-52 / BT-52H couplers -->
+
+    <!-- BT-55 couplers -->
+
+    <!-- ST-13 couplers -->
+
+    
+    
+    <!-- *** ADDING HERE *** -->
+    
     
     <!-- centering rings -->
     
@@ -5115,7 +5426,7 @@ Using this file:
       <Length Unit="in">0.06</Length>
     </CenteringRing>
 
-    <!-- #7 inner diam: complete -->
+    <!-- #7 inner diam -->
     
     <CenteringRing>
       <Manufacturer>SEMROC</Manufacturer>
@@ -5147,6 +5458,7 @@ Using this file:
       <OutsideDiameter Unit="in">0.883</OutsideDiameter>
       <Length Unit="in">0.05</Length>
     </CenteringRing>
+    <!-- CR-7-9 same as #9 thrust ring TR-9 -->
     <CenteringRing>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>CR-7-9</PartNumber>
@@ -5231,6 +5543,15 @@ Using this file:
     </CenteringRing>
     <CenteringRing>
       <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-7-60, CR-KD-6</PartNumber>
+      <Description>Centering ring, fiber, #7 to BT-58, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">0.761</InsideDiameter>
+      <OutsideDiameter Unit="in">1.496</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>CR-7-60</PartNumber>
       <Description>Centering ring, fiber, #7 to BT-60, .05"</Description>
       <Material Type="BULK">Fiber, bulk</Material>
@@ -5256,6 +5577,8 @@ Using this file:
       <OutsideDiameter Unit="in">1.598</OutsideDiameter>
       <Length Unit="in">0.05</Length>
     </CenteringRing>
+    <!-- *** There is a separate listing of CR-7-18 as CR-KA-11 in the "for kits" section, not
+    known if different *** -->
     <CenteringRing>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>CR-7-18</PartNumber>
@@ -5293,8 +5616,8 @@ Using this file:
       <Length Unit="in">0.05</Length>
     </CenteringRing>
 
-    <!-- BT-20 inner diam: complete -->
-    <!-- CR-20-T35 centers BT-20 in metric 35mm (no data on that tube) -->
+    <!-- BT-20 inner diam -->
+    <!-- CR-20-T35 centers BT-20 in Quest metric 35mm (tube size not sold by Semroc) -->
 
     <CenteringRing>
       <Manufacturer>SEMROC</Manufacturer>
@@ -5315,6 +5638,7 @@ Using this file:
       <OutsideDiameter Unit="in">0.948</OutsideDiameter>
       <Length Unit="in">0.250</Length>
     </CenteringRing>
+    <!-- Description mentions BT-52H but conflicts with PN and other description elements -->
     <CenteringRing>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>RA-20-52</PartNumber>
@@ -5336,7 +5660,7 @@ Using this file:
     <CenteringRing>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>CR-20-11EH</PartNumber>
-      <Description>Centering ring, fiber, BT-20 to #11, .05", engine hook slot</Description>
+      <Description>Centering ring, fiber, BT-20 to #11, .05", hook slot</Description>
       <Material Type="BULK">Fiber, bulk</Material>
       <InsideDiameter Unit="in">0.738</InsideDiameter>
       <OutsideDiameter Unit="in">1.128</OutsideDiameter>
@@ -5470,28 +5794,10 @@ Using this file:
     </CenteringRing>
     <CenteringRing>
       <Manufacturer>SEMROC</Manufacturer>
-      <PartNumber>RA-50/52H-101(BT-52H)</PartNumber>
-      <Description>Centering ring, fiber, BT-52H to BT-101, .05"</Description>
-      <Material Type="BULK">Fiber, bulk</Material>
-      <InsideDiameter Unit="in">1.138</InsideDiameter>
-      <OutsideDiameter Unit="in">3.894</OutsideDiameter>
-      <Length Unit="in">0.05</Length>
-    </CenteringRing>
-    <CenteringRing>
-      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>RA-50/52H-101P(BT-50)</PartNumber>
       <Description>Centering ring, plywood, BT-50 to BT-101, .375"</Description>
       <Material Type="BULK">Plywood, light, bulk</Material>
       <InsideDiameter Unit="in">0.978</InsideDiameter>
-      <OutsideDiameter Unit="in">3.894</OutsideDiameter>
-      <Length Unit="in">0.375</Length>
-    </CenteringRing>
-    <CenteringRing>
-      <Manufacturer>SEMROC</Manufacturer>
-      <PartNumber>RA-50/52H-101P(BT-52H)</PartNumber>
-      <Description>Centering ring, plywood, BT-52H to BT-101, .375"</Description>
-      <Material Type="BULK">Fiber, bulk</Material>
-      <InsideDiameter Unit="in">1.138</InsideDiameter>
       <OutsideDiameter Unit="in">3.894</OutsideDiameter>
       <Length Unit="in">0.375</Length>
     </CenteringRing>
@@ -5812,6 +6118,269 @@ Using this file:
 
     <!-- #9 / ST-9 inner diam -->
     
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-9-225X2</PartNumber>
+      <Description>Centering ring, fiber, 2x#9 cluster to #225, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">2.248</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-9-225X2P</PartNumber>
+      <Description>Centering ring, plywood, 2x#9 cluster to #225, .125"</Description>
+      <Material Type="BULK">Plywood, light, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">2.248</OutsideDiameter>
+      <Length Unit="in">0.125</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-9-11</PartNumber>
+      <Description>Centering ring, fiber, #9 to #11, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">1.128</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-9-115</PartNumber>
+      <Description>Centering ring, fiber, #9 to #115, .25"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">1.138</OutsideDiameter>
+      <Length Unit="in">0.25</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-9-115S</PartNumber>
+      <Description>Centering ring, fiber, #9 to #115, .25", split</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">1.138</OutsideDiameter>
+      <Length Unit="in">0.25</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-9-125</PartNumber>
+      <Description>Centering ring, fiber, #9 to #125, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">1.248</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-9-55</PartNumber>
+      <Description>Centering ring, fiber, #9 to BT-55, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">1.281</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-9-55E</PartNumber>
+      <Description>Centering ring, fiber, #9 to BT-55, .05", hook cutout</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">1.281</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-9-13</PartNumber>
+      <Description>Centering ring, fiber, #9 to #13, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">1.298</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-9-60</PartNumber>
+      <Description>Centering ring, fiber, #9 to BT-60, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">1.593</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-9-150P</PartNumber>
+      <Description>Centering ring, plywood, #9 to #150, .125"</Description>
+      <Material Type="BULK">Plywood, light, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">1.498</OutsideDiameter>
+      <Length Unit="in">0.125</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-9-16</PartNumber>
+      <Description>Centering ring, fiber, #9 to #16, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">1.598</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-9-16P</PartNumber>
+      <Description>Centering ring, plywood, #9 to #16, .125"</Description>
+      <Material Type="BULK">Plywood, light, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">1.598</OutsideDiameter>
+      <Length Unit="in">0.125</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-9-175P</PartNumber>
+      <Description>Centering ring, plywood, #9 to #175, .125"</Description>
+      <Material Type="BULK">Plywood, light, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">1.748</OutsideDiameter>
+      <Length Unit="in">0.125</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-9-175P</PartNumber>
+      <Description>Centering ring, plywood, #9 to #175, .125", 4 fin locks</Description>
+      <Material Type="BULK">Plywood, light, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">1.748</OutsideDiameter>
+      <Length Unit="in">0.125</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-9-18</PartNumber>
+      <Description>Centering ring, fiber, #9 to #18, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">1.798</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-9-18P</PartNumber>
+      <Description>Centering ring, plywood, #9 to #18, .125"</Description>
+      <Material Type="BULK">Plywood, light, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">1.798</OutsideDiameter>
+      <Length Unit="in">0.125</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-9-20</PartNumber>
+      <Description>Centering ring, fiber, #9 to #20, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">1.998</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-9-70</PartNumber>
+      <Description>Centering ring, fiber, #9 to BT-70, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">2.173</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-9-70P</PartNumber>
+      <Description>Centering ring, plywood, #9 to BT-70, .125"</Description>
+      <Material Type="BULK">Plywood, light, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">2.173</OutsideDiameter>
+      <Length Unit="in">0.125</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-9-225</PartNumber>
+      <Description>Centering ring, fiber, #9 to #225, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">2.248</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-9-225P</PartNumber>
+      <Description>Centering ring, plywood, #9 to #225, .125"</Description>
+      <Material Type="BULK">Plywood, light, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">2.248</OutsideDiameter>
+      <Length Unit="in">0.125</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-9-225X2</PartNumber>
+      <Description>Centering ring, fiber, 2x#9 cluster to #225, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">2.248</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-9-225X2P</PartNumber>
+      <Description>Centering ring, plywood, 2x#9 cluster to #225, .125"</Description>
+      <Material Type="BULK">Plywood, light, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">2.248</OutsideDiameter>
+      <Length Unit="in">0.125</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-9-225X3</PartNumber>
+      <Description>Centering ring, plywood, 3x#9 cluster to #225, .125"</Description>
+      <Material Type="BULK">Plywood, light, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">2.248</OutsideDiameter>
+      <Length Unit="in">0.125</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-9-225-3F</PartNumber>
+      <Description>Centering ring, plywood, #9 to #225, .125", 3 fin locks</Description>
+      <Material Type="BULK">Plywood, light, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">2.248</OutsideDiameter>
+      <Length Unit="in">0.125</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-9-225-4F</PartNumber>
+      <Description>Centering ring, plywood, #9 to #225, .125", 4 fin locks</Description>
+      <Material Type="BULK">Plywood, light, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">2.248</OutsideDiameter>
+      <Length Unit="in">0.125</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-9-80</PartNumber>
+      <Description>Centering ring, fiber, #9 to BT-80, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">2.556</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-9-80P</PartNumber>
+      <Description>Centering ring, plywood, #9 to BT-80, .125"</Description>
+      <Material Type="BULK">Plywood, light, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">2.556</OutsideDiameter>
+      <Length Unit="in">0.125</Length>
+    </CenteringRing>
+
+    <!-- BT-51 and BT-52: none listed on Semroc site 2017 -->
 
     <!-- #10 inner diam -->
     
@@ -5836,7 +6405,7 @@ Using this file:
     <CenteringRing>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>CR-10-16</PartNumber>
-      <Description>Centering ring, fiber, #10 to #16</Description>
+      <Description>Centering ring, fiber, #10 to #16, .05"</Description>
       <Material Type="BULK">Fiber, bulk</Material>
       <InsideDiameter Unit="in">1.042</InsideDiameter>
       <OutsideDiameter Unit="in">1.598</OutsideDiameter>
@@ -5844,16 +6413,73 @@ Using this file:
     </CenteringRing>
     <CenteringRing>
       <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-10-16P</PartNumber>
+      <Description>Centering ring, plywood, #10 to #16, .125"</Description>
+      <Material Type="BULK">Plywood, light, bulk</Material>
+      <InsideDiameter Unit="in">1.042</InsideDiameter>
+      <OutsideDiameter Unit="in">1.598</OutsideDiameter>
+      <Length Unit="in">0.125</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-10-175P</PartNumber>
+      <Description>Centering ring, plywood, #10 to #175, .125"</Description>
+      <Material Type="BULK">Plywood, light, bulk</Material>
+      <InsideDiameter Unit="in">1.042</InsideDiameter>
+      <OutsideDiameter Unit="in">1.748</OutsideDiameter>
+      <Length Unit="in">0.125</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-10-18</PartNumber>
+      <Description>Centering ring, fiber, #10 to #18, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">1.042</InsideDiameter>
+      <OutsideDiameter Unit="in">1.798</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>CR-10-20</PartNumber>
-      <Description>Centering ring, fiber, #10 to #20</Description>
+      <Description>Centering ring, fiber, #10 to #20, .05"</Description>
       <Material Type="BULK">Fiber, bulk</Material>
       <InsideDiameter Unit="in">1.042</InsideDiameter>
       <OutsideDiameter Unit="in">1.998</OutsideDiameter>
       <Length Unit="in">0.05</Length>
     </CenteringRing>
 
+    <!-- #11 inside diam -->
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-11-18</PartNumber>
+      <Description>Centering ring, fiber, #11 to #18, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">1.172</InsideDiameter>
+      <OutsideDiameter Unit="in">1.798</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+    
+
     <!-- BTH-52 inner diam (same as LT-115), fiber -->
     <!-- *** Semroc gives wrong ID of 1.215, smaller than BTH-50 OD of 1.220 *** -->
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-52H-55</PartNumber>
+      <Description>Centering ring, fiber, BTH-52 to BT-55, .25"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">1.222</InsideDiameter>
+      <OutsideDiameter Unit="in">1.281</OutsideDiameter>
+      <Length Unit="in">0.25</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-52H-60</PartNumber>
+      <Description>Centering ring, fiber, BTH-52 to BT-60, .25"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">1.222</InsideDiameter>
+      <OutsideDiameter Unit="in">1.593</OutsideDiameter>
+      <Length Unit="in">0.25</Length>
+    </CenteringRing>
     <CenteringRing>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>RA-52H-60</PartNumber>
@@ -5899,6 +6525,15 @@ Using this file:
       <OutsideDiameter Unit="in">2.556</OutsideDiameter>
       <Length Unit="in">0.05</Length>
     </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>RA-50/52H-101(BT-52H)</PartNumber>
+      <Description>Centering ring, fiber, BT-52H to BT-101, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">1.138</InsideDiameter>
+      <OutsideDiameter Unit="in">3.894</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
     
     <!-- BTH-52 inner size, plywood -->
     <CenteringRing>
@@ -5921,7 +6556,7 @@ Using this file:
     </CenteringRing>
     <CenteringRing>
       <Manufacturer>SEMROC</Manufacturer>
-      <PartNumber>CR-50/52H-1,9P(BTH-52)</PartNumber>
+      <PartNumber>CR-50/52H-1.9P(BTH-52)</PartNumber>
       <Description>Centering ring, plywood, BTH-52 to 1.9", .125"</Description>
       <Material Type="BULK">Plywood, light, bulk</Material>
       <InsideDiameter Unit="in">1.222</InsideDiameter>
@@ -5937,6 +6572,7 @@ Using this file:
       <OutsideDiameter Unit="in">2.173</OutsideDiameter>
       <Length Unit="in">0.125</Length>
     </CenteringRing>
+    <!-- RA-50/52H-80P is incorrectly listed with the P suffix -->
     <CenteringRing>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>RA-50/52H-80P(BTH-52)</PartNumber>
@@ -5946,6 +6582,26 @@ Using this file:
       <OutsideDiameter Unit="in">2.556</OutsideDiameter>
       <Length Unit="in">0.125</Length>
     </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>RA-50/52H-101P(BT-52H)</PartNumber>
+      <Description>Centering ring, plywood, BT-52H to BT-101, .375"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">1.138</InsideDiameter>
+      <OutsideDiameter Unit="in">3.894</OutsideDiameter>
+      <Length Unit="in">0.375</Length>
+    </CenteringRing>
+    <!-- dual-size part with secondary "38mm" size - unusual since no 38mm tubes carried.
+         Thickness shown as 0.25" is different than RA-50/52H-101P at .375" -->
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-52H/38mm-101P(BT-52H)</PartNumber>
+      <Description>Centering ring, plywood, BT-52H to BT-101, .250"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">1.138</InsideDiameter>
+      <OutsideDiameter Unit="in">3.894</OutsideDiameter>
+      <Length Unit="in">0.250</Length>
+    </CenteringRing>
     
     <!-- #115 inner diam -->
     <!-- Same (exactly) as BTH-52 alias BT-52H -->
@@ -5953,17 +6609,36 @@ Using this file:
     <CenteringRing>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>CR-115-150P</PartNumber>
-      <Description>Centering ring, plywood, #115 to #150</Description>
+      <Description>Centering ring, plywood, #115 to #150, .125"</Description>
       <Material Type="BULK">Plywood, light, bulk</Material>
       <InsideDiameter Unit="in">1.222</InsideDiameter>
       <OutsideDiameter Unit="in">1.498</OutsideDiameter>
       <Length Unit="in">0.125</Length>
     </CenteringRing>
 
+    <!-- PN was originally CR-11516 -->
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-115-16</PartNumber>
+      <Description>Centering ring, fiber, #115 to #16, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">1.222</InsideDiameter>
+      <OutsideDiameter Unit="in">1.598</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-115-16EH</PartNumber>
+      <Description>Centering ring, fiber, #115 to #16, .05", hook slot</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">1.222</InsideDiameter>
+      <OutsideDiameter Unit="in">1.598</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
     <CenteringRing>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>CR-115-16P</PartNumber>
-      <Description>Centering ring, plywood, #115 to #16</Description>
+      <Description>Centering ring, plywood, #115 to #16, .125"</Description>
       <Material Type="BULK">Plywood, light, bulk</Material>
       <InsideDiameter Unit="in">1.222</InsideDiameter>
       <OutsideDiameter Unit="in">1.598</OutsideDiameter>
@@ -5973,7 +6648,16 @@ Using this file:
     <CenteringRing>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>CR-115-175P</PartNumber>
-      <Description>Centering ring, plywood, #115 to #175</Description>
+      <Description>Centering ring, plywood, #115 to #175, .125"</Description>
+      <Material Type="BULK">Plywood, light, bulk</Material>
+      <InsideDiameter Unit="in">1.222</InsideDiameter>
+      <OutsideDiameter Unit="in">1.748</OutsideDiameter>
+      <Length Unit="in">0.125</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-115-175-4F</PartNumber>
+      <Description>Centering ring, plywood, #115 to #175, .125", 4 fin locks</Description>
       <Material Type="BULK">Plywood, light, bulk</Material>
       <InsideDiameter Unit="in">1.222</InsideDiameter>
       <OutsideDiameter Unit="in">1.748</OutsideDiameter>
@@ -5983,17 +6667,65 @@ Using this file:
     <CenteringRing>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>CR-115-18</PartNumber>
-      <Description>Centering ring, fiber, #115 to #18</Description>
+      <Description>Centering ring, fiber, #115 to #18, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">1.222</InsideDiameter>
+      <OutsideDiameter Unit="in">1.798</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-115-18EH</PartNumber>
+      <Description>Centering ring, fiber, #115 to #18, .05", hook slot</Description>
       <Material Type="BULK">Fiber, bulk</Material>
       <InsideDiameter Unit="in">1.222</InsideDiameter>
       <OutsideDiameter Unit="in">1.798</OutsideDiameter>
       <Length Unit="in">0.05</Length>
     </CenteringRing>
 
+    <!-- PN originally CR-11520 -->
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-115-20</PartNumber>
+      <Description>Centering ring, fiber, #115 to #20, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">1.222</InsideDiameter>
+      <OutsideDiameter Unit="in">1.998</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-115-70P</PartNumber>
+      <Description>Centering ring, plywood, #115 to BT-70, .125"</Description>
+      <Material Type="BULK">Plywood, light, bulk</Material>
+      <InsideDiameter Unit="in">1.222</InsideDiameter>
+      <OutsideDiameter Unit="in">2.173</OutsideDiameter>
+      <Length Unit="in">0.125</Length>
+    </CenteringRing>
+
     <CenteringRing>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>CR-115-225P</PartNumber>
-      <Description>Centering ring, plywood, #115 to #225</Description>
+      <Description>Centering ring, plywood, #115 to #225, .125"</Description>
+      <Material Type="BULK">Plywood, light, bulk</Material>
+      <InsideDiameter Unit="in">1.222</InsideDiameter>
+      <OutsideDiameter Unit="in">2.248</OutsideDiameter>
+      <Length Unit="in">0.125</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-115-225-3F</PartNumber>
+      <Description>Centering ring, plywood, #115 to #225, .125", 3 fin locks</Description>
+      <Material Type="BULK">Plywood, light, bulk</Material>
+      <InsideDiameter Unit="in">1.222</InsideDiameter>
+      <OutsideDiameter Unit="in">2.248</OutsideDiameter>
+      <Length Unit="in">0.125</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-115-225-4F</PartNumber>
+      <Description>Centering ring, plywood, #115 to #225, .125", 4 fin locks</Description>
       <Material Type="BULK">Plywood, light, bulk</Material>
       <InsideDiameter Unit="in">1.222</InsideDiameter>
       <OutsideDiameter Unit="in">2.248</OutsideDiameter>
@@ -6002,44 +6734,158 @@ Using this file:
 
     <CenteringRing>
       <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-115-80P</PartNumber>
+      <Description>Centering ring, plywood, #115 to BT-80, .125"</Description>
+      <Material Type="BULK">Plywood, light, bulk</Material>
+      <InsideDiameter Unit="in">1.222</InsideDiameter>
+      <OutsideDiameter Unit="in">2.556</OutsideDiameter>
+      <Length Unit="in">0.125</Length>
+    </CenteringRing>
+
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>CR-115-275P</PartNumber>
-      <Description>Centering ring, plywood, #115 to #275</Description>
+      <Description>Centering ring, plywood, #115 to #275, .125"</Description>
       <Material Type="BULK">Plywood, light, bulk</Material>
       <InsideDiameter Unit="in">1.222</InsideDiameter>
       <OutsideDiameter Unit="in">2.748</OutsideDiameter>
       <Length Unit="in">0.125</Length>
     </CenteringRing>
 
-    <!-- PN was originally CR-11516 -->
+    <!-- BT-55 inner diam -->
+
     <CenteringRing>
       <Manufacturer>SEMROC</Manufacturer>
-      <PartNumber>CR-115-16</PartNumber>
-      <Description>Centering ring, fiber, #115 to #16</Description>
+      <PartNumber>RA-55-58</PartNumber>
+      <Description>Centering ring, fiber, BT-55 to BT-58, .05"</Description>
       <Material Type="BULK">Fiber, bulk</Material>
-      <InsideDiameter Unit="in">1.222</InsideDiameter>
-      <OutsideDiameter Unit="in">1.598</OutsideDiameter>
+      <InsideDiameter Unit="in">1.327</InsideDiameter>
+      <OutsideDiameter Unit="in">1.496</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>RA-55-60</PartNumber>
+      <Description>Centering ring, fiber, BT-55 to BT-60, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">1.327</InsideDiameter>
+      <OutsideDiameter Unit="in">1.593</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>RA-55-70</PartNumber>
+      <Description>Centering ring, fiber, BT-55 to BT-70, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">1.327</InsideDiameter>
+      <OutsideDiameter Unit="in">1.173</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>RA-55-80</PartNumber>
+      <Description>Centering ring, fiber, BT-55 to BT-80, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">1.327</InsideDiameter>
+      <OutsideDiameter Unit="in">2.556</OutsideDiameter>
       <Length Unit="in">0.05</Length>
     </CenteringRing>
 
-    <!-- PN originally CR-11520 -->
+
+    <!-- BT-58 inner diam -->
     <CenteringRing>
       <Manufacturer>SEMROC</Manufacturer>
-      <PartNumber>CR-115-20</PartNumber>
-      <Description>Centering ring, fiber, #115 to #20</Description>
+      <PartNumber>RA-58-80</PartNumber>
+      <Description>Centering ring, fiber, BT-58 to BT-80, .05"</Description>
       <Material Type="BULK">Fiber, bulk</Material>
-      <InsideDiameter Unit="in">1.222</InsideDiameter>
-      <OutsideDiameter Unit="in">1.998</OutsideDiameter>
+      <InsideDiameter Unit="in">1.542</InsideDiameter>
+      <OutsideDiameter Unit="in">2.556</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+
+    <!-- BT-60 inner diam -->
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>RA-60-70</PartNumber>
+      <Description>Centering ring, fiber, BT-60 to BT-70, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">1.639</InsideDiameter>
+      <OutsideDiameter Unit="in">2.173</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>RA-60-80</PartNumber>
+      <Description>Centering ring, fiber, BT-60 to BT-80, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">1.639</InsideDiameter>
+      <OutsideDiameter Unit="in">2.556</OutsideDiameter>
       <Length Unit="in">0.05</Length>
     </CenteringRing>
 
 
-
-
-    <!-- ***Adding CRs here*** -->
-
+    <!-- T-38 inner diam (ring ID = 1.64") -->
+    
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-52H/38mm-101P(38mm)</PartNumber>
+      <Description>Centering ring, plywood, 38mm to BT-101, .250"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">1.138</InsideDiameter>
+      <OutsideDiameter Unit="in">3.894</OutsideDiameter>
+      <Length Unit="in">0.250</Length>
+    </CenteringRing>
     
 
+    <!-- BT-70 inner diam -->
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>RA-70-80</PartNumber>
+      <Description>Centering ring, fiber, BT-70 to BT-80, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">2.219</InsideDiameter>
+      <OutsideDiameter Unit="in">2.556</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>RA-70-101</PartNumber>
+      <Description>Centering ring, fiber, BT-70 to BT-80, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">2.219</InsideDiameter>
+      <OutsideDiameter Unit="in">3.894</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+    
+    <!-- BT-80 inner diam -->
+
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>RA-80-101</PartNumber>
+      <Description>Centering ring, fiber, BT-80 to BT-101, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">2.602</InsideDiameter>
+      <OutsideDiameter Unit="in">3.894</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+    
+    
+    <!-- Ejection Baffle Rings  ***TODO***
+
+         Most Semroc EBR's have 7 holes.  There is both an EBR-60 and EBR-60W; unclear how
+         they differ.  I have listed them as bulkheads with a central hole to make the
+         mass correct, computed as follows: Using some quick photogrammetry on the #16
+         baffle shows about 35% of the area has been removed, so
+
+           dhole^2 = .35 * diam^2
+           dhole = .59 * diam
+    -->
+
+    
+    
     <!-- Engine Blocks -->
+
+    
     <!-- SEMROC EB-5 is also CR-3-5.  OD on 2017 eRocket site of .516 is wrong -->
     <EngineBlock>
       <Manufacturer>SEMROC</Manufacturer>
@@ -6102,14 +6948,49 @@ Using this file:
       <Length Unit="in">0.250</Length>
     </EngineBlock>
 
-    <!-- Bulkheads: thin plywood -->
+    <EngineBlock>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>TR-9</PartNumber>
+      <Description>Thrust ring, fiber, #9, 0.25" len</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">0.713</InsideDiameter>
+      <OutsideDiameter Unit="in">0.948</OutsideDiameter>
+      <Length Unit="in">0.250</Length>
+    </EngineBlock>
+    
+    <!-- TR-115 0.25" is same as CR-9-115 but Semroc 2017 website incorrectly says the
+         1.0" long version is the same.  -->
+    <EngineBlock>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>TR-115</PartNumber>
+      <Description>Thrust ring, fiber, #11, 1.0" len</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">1.128</OutsideDiameter>
+      <Length Unit="in">1.0</Length>
+    </EngineBlock>
+    <EngineBlock>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>TR-115T</PartNumber>
+      <Description>Thrust ring, fiber, #11, 0.25" len</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">1.000</InsideDiameter>
+      <OutsideDiameter Unit="in">1.128</OutsideDiameter>
+      <Length Unit="in">0.250</Length>
+    </EngineBlock>
+
+    <!-- Bulkheads -->
 
     <!-- The fits and part numbering need explanation:
          PB:  direct fit inside Estes tube sizes with two exceptions:
-              PB-75 fits no standard tube
-              PB-T20 fits a 20mm ID tube...but Semroc lists no such tube.
-         RA:  fits inside the tube *coupler*
+              PB-75 fits no known standard tube (check Quest?)
+              PB-T20 fits a Quest T20 20mm ID tube
+         RA:  fits inside the tube *coupler*, for Estes tube sizes
          CR:  direct fit inside Centuri tube sizes
+         FB:  fiber nose block, .060
+         NB:  balsa nose block (and one erroneous fiber block listing), Estes sizes
+         BNB: balsa nose block, Centuri tube sizes
+         BTC: alternate PN form for Centuri tube sizes, e.g. BTC-6 ***hunt these down***
     -->
 
     <BulkHead>
@@ -6139,6 +7020,16 @@ Using this file:
       <Filled>true</Filled>
       <OutsideDiameter Unit="mm">20.0</OutsideDiameter>
       <Length Unit="in">0.10</Length>
+    </BulkHead>
+    <!-- FB-20 has an erroneous duplicate listing as NB-20P -->
+    <BulkHead>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>FB-20</PartNumber>
+      <Description>Bulkhead, fiber, inside BT-20, .06"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <Filled>true</Filled>
+      <OutsideDiameter Unit="in">0.724</OutsideDiameter>
+      <Length Unit="in">0.06</Length>
     </BulkHead>
     <!-- RA-50P goes inside a JTC-50 coupler -->
     <BulkHead>
@@ -6199,6 +7090,15 @@ Using this file:
     </BulkHead>
     <BulkHead>
       <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CR-18P</PartNumber>
+      <Description>Bulkhead, plywood, inside #18, 3/32"</Description>
+      <Material Type="BULK">Plywood, light, bulk</Material>
+      <Filled>true</Filled>
+      <OutsideDiameter Unit="in">1.798</OutsideDiameter>
+      <Length Unit="in">0.11</Length>
+    </BulkHead>
+    <BulkHead>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>CR-20P</PartNumber>
       <Description>Bulkhead, plywood, inside #20, 3/32"</Description>
       <Material Type="BULK">Plywood, light, bulk</Material>
@@ -6209,7 +7109,7 @@ Using this file:
     <!-- RA-70P goes inside a JTC-70 coupler -->
     <BulkHead>
       <Manufacturer>SEMROC</Manufacturer>
-      <PartNumber>RA-55P</PartNumber>
+      <PartNumber>RA-70P</PartNumber>
       <Description>Bulkhead, plywood, inside JTC-70, 3/32"</Description>
       <Material Type="BULK">Plywood, light, bulk</Material>
       <Filled>true</Filled>
@@ -6227,7 +7127,133 @@ Using this file:
       <Length Unit="in">0.11</Length>
     </BulkHead>
 
-    <!-- Bulkheads: balsa cylinders -->
+    <!-- Bulkheads: balsa cylinders
+
+         The Semroc site only gives the length of the NB-52, so I use the Estes lengths
+         where available and an interpolated best estimate otherwise.
+    -->
+    <BulkHead>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>NB-3</PartNumber>
+      <Description>Nose block, balsa, BT-3</Description>
+      <Material Type="BULK">Balsa, bulk</Material>
+      <Filled>true</Filled>
+      <OutsideDiameter Unit="in">0.347</OutsideDiameter>
+      <Length Unit="in">0.50</Length>
+    </BulkHead>
+    <BulkHead>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>NB-5</PartNumber>
+      <Description>Nose block, balsa, BT-5</Description>
+      <Material Type="BULK">Balsa, bulk</Material>
+      <Filled>true</Filled>
+      <OutsideDiameter Unit="in">0.513</OutsideDiameter>
+      <Length Unit="in">0.50</Length>
+    </BulkHead>
+    <!-- NB-20 length from Estes catalogs -->
+    <BulkHead>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>NB-20</PartNumber>
+      <Description>Nose block, balsa, BT-20</Description>
+      <Material Type="BULK">Balsa, bulk</Material>
+      <Filled>true</Filled>
+      <OutsideDiameter Unit="in">0.708</OutsideDiameter>
+      <Length Unit="in">0.75</Length>
+    </BulkHead>
+    <BulkHead>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BNB-7</PartNumber>
+      <Description>Nose block, balsa, #7</Description>
+      <Material Type="BULK">Balsa, bulk</Material>
+      <Filled>true</Filled>
+      <OutsideDiameter Unit="in">0.713</OutsideDiameter>
+      <Length Unit="in">0.75</Length>
+    </BulkHead>
+    <BulkHead>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>NB-30</PartNumber>
+      <Description>Nose block, balsa, BT-30</Description>
+      <Material Type="BULK">Balsa, bulk</Material>
+      <Filled>true</Filled>
+      <OutsideDiameter Unit="in">0.723</OutsideDiameter>
+      <Length Unit="in">0.75</Length>
+    </BulkHead>
+    <BulkHead>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>NB-40</PartNumber>
+      <Description>Nose block, balsa, BT-40</Description>
+      <Material Type="BULK">Balsa, bulk</Material>
+      <Filled>true</Filled>
+      <OutsideDiameter Unit="in">0.763</OutsideDiameter>
+      <Length Unit="in">0.75</Length>
+    </BulkHead>
+    <!-- NB-50 (not L suffix though) length from Estes catalogs -->
+    <BulkHead>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>NB-50L</PartNumber>
+      <Description>Nose block, balsa, BT-50</Description>
+      <Material Type="BULK">Balsa, bulk</Material>
+      <Filled>true</Filled>
+      <OutsideDiameter Unit="in">0.948</OutsideDiameter>
+      <Length Unit="in">1.0</Length>
+    </BulkHead>
+    <!-- NB-52 Length is given as 1.18" -->
+    <BulkHead>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>NB-52</PartNumber>
+      <Description>Nose block, balsa, BT-52</Description>
+      <Material Type="BULK">Balsa, bulk</Material>
+      <Filled>true</Filled>
+      <OutsideDiameter Unit="in">0.986</OutsideDiameter>
+      <Length Unit="in">1.18</Length>
+    </BulkHead>
+    <!-- NB-55 length from Estes catalogs -->
+    <BulkHead>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>NB-55</PartNumber>
+      <Description>Nose block, balsa, BT-55</Description>
+      <Material Type="BULK">Balsa, bulk</Material>
+      <Filled>true</Filled>
+      <OutsideDiameter Unit="in">1.281</OutsideDiameter>
+      <Length Unit="in">1.25</Length>
+    </BulkHead>
+    <!-- NB-60 length from Estes catalogs -->
+    <BulkHead>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>NB-60</PartNumber>
+      <Description>Nose block, balsa, BT-60</Description>
+      <Material Type="BULK">Balsa, bulk</Material>
+      <Filled>true</Filled>
+      <OutsideDiameter Unit="in">1.593</OutsideDiameter>
+      <Length Unit="in">1.5</Length>
+    </BulkHead>
+    <BulkHead>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>NB-65</PartNumber>
+      <Description>Nose block, balsa, PST-65</Description>
+      <Material Type="BULK">Balsa, bulk</Material>
+      <Filled>true</Filled>
+      <OutsideDiameter Unit="in">1.748</OutsideDiameter>
+      <Length Unit="in">1.75</Length>
+    </BulkHead>
+    <BulkHead>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>NB-70</PartNumber>
+      <Description>Nose block, balsa, BT-70</Description>
+      <Material Type="BULK">Balsa, bulk</Material>
+      <Filled>true</Filled>
+      <OutsideDiameter Unit="in">2.173</OutsideDiameter>
+      <Length Unit="in">2.25</Length>
+    </BulkHead>
+    <BulkHead>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>NB-80</PartNumber>
+      <Description>Nose block, balsa, BT-80</Description>
+      <Material Type="BULK">Balsa, bulk</Material>
+      <Filled>true</Filled>
+      <OutsideDiameter Unit="in">2.556</OutsideDiameter>
+      <Length Unit="in">2.50</Length>
+    </BulkHead>
     
     
   </Components>
