@@ -21,11 +21,15 @@ I invite contributors to create a packaged installer, especially for Windows.
 
 ## Version and compatibility
 
-Current version:  0.9.0.3
+Current version:  0.9.0.4
 
 OpenRocket compatibility:  tested with OpenRocket 15.03
 
 ## Release Notes
+0.9.0.4 - 23 Apr 2017
+* Added many Semroc rings.  Still nowhere hear done.
+* Added FSI tube data to tube data text file, renamed to tube_data.txt, moved to data/ directory.
+
 0.9.0.3 - 19 Apr 2017
 * Semroc body tubes completed, added around half of centering rings
 
