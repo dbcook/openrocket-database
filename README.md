@@ -21,11 +21,19 @@ I invite contributors to create a packaged installer, especially for Windows.
 
 ## Version and compatibility
 
-Current version:  0.9.0.4
+Current version:  0.9.0.5
 
 OpenRocket compatibility:  tested with OpenRocket 15.03
 
 ## Release Notes
+0.9.0.6 - 30 APR 2017
+* Semroc balsa couplers added, fixed various errors in Semroc file
+* Added legacy glassine thin-wall version of JT-80C in Semroc and Estes files
+
+0.9.0.5 - 26 Apr 2017
+* Semroc tube couplers are in, except for balsa ones.
+* Found and fixed a few errors in the Semroc file.
+
 0.9.0.4 - 23 Apr 2017
 * Finished Semroc centering rings, started on couplers.
 * Added FSI tube data to tube data text file, renamed to tube_data.txt, moved to data/ directory.
@@ -41,7 +49,7 @@ OpenRocket compatibility:  tested with OpenRocket 15.03
 * Documented procedure for getting correct mass and CG of hollow nose cones
 * Fixed thickness of Estes AR-2050 and AR-2055
 
-0.9.0.1
+0.9.0.1 - 2 Apr 2017
 * Publishing what I have to date: Estes and LOC Precision.
 
 ## Installing
@@ -146,7 +154,7 @@ somewhat Mac centric because that's what I use most.
 | ----- | ----- | ----- |
 | `Estes.orc`              | Yes  | Split - see new files below
 | `loc_precision.orc`      | Yes  | 100% 
-| `semroc.orc`             | Yes  | 35%  (tubes 95% in, nosecones not started)
+| `semroc.orc`             | Yes  | 50%  (tubes, couplers, CRs in, nosecones not started)
 | `Quest.orc`              | Yes  | --
 | `bluetube.orc`           | Yes  | --
 | `bms.orc`                | Yes  | --
@@ -216,7 +224,7 @@ not included in OpenRocket at all:
 * FSI (defunct but also had unusual tube sizes)
 * High power kit vendors
   * Madcow
-  * Rocketry Warehouse
+  * Rocketry Warehouse (now part of Madcow)
   * Polecat Aerospace
   * Wildman
 * Fruity, Rocketman, Sky Angle, B2 Chutes
@@ -240,6 +248,11 @@ you should know about if you want maximum accuracy.
 
 At present, only the LOC nose cones and transitions have been adjusted so this procedure works, because
 they are pretty heavy and the CG actually moves a fair amount.
+
+* The "match fore diameter" option in the parts selection dialog is very useful for
+  narrowing the giant list to potentially compatible parts.  However, it is buggy and when
+  choosing couplers or inner tubes it sometimes shows parts that are slightly too large to
+  fit inside the outer tube.  Verify dimensions!
 
 ## Conventions
 
@@ -272,8 +285,8 @@ and usable from the OpenRocket user interface.
   but there is no documented part number from the vendor.  For example, the 12.25 in BT-5
   used in the Estes #2009 Rain Maker is assigned a PN of "BT-5_12.25in".
 
-* When multiple part numbers are known for a given item, they are given as a
-list in the PartNumber field.
+* When multiple part numbers are known for a given item, they are given as a list in the
+  PartNumber field.
 
 * Items not uniquely tied to any given manufacturer have been assigned a manufacturer name
   of "Generic xxxx", where xxxx (if present) may be a category like "competition".
@@ -381,11 +394,12 @@ component.
 Each .orc file has a set of material definitions at the top.
 These material definitions only have scope within the current datafile.
 
-Conversely any given .orc presets database file can *only* use materials defined in the same file.
-This is why in OpenRocket there are duplicate material definitions (with identical names)
-in various built-in .orc files with densities that don't agree.  Some of this might be
-intentional to capture the fact that different manufacturer's typical materials vary, but
-the variances don't look designed or systematic.
+Conversely any given .orc presets database file can *only* use materials defined in the
+same file.  This is why in OpenRocket there are duplicate material definitions (with
+identical names) in various built-in .orc files.  In some cases the density values among
+these duplicates don't agree.  Some of this might be intentional to capture the fact that
+different manufacturer's typical materials vary, but the variances don't look designed or
+systematic.
 
 There is no provision for generic, non manufacturer specific materials except via the
 compiled-in default materials.
@@ -398,7 +412,7 @@ some material, in order to get your design to update you must manually open the 
 components, and re-select the component preset from the database.
 
 
-### Units in Component Database Files
+### Units of Measure in Component Database Files
 
 IMPORTANT: __Materials__ definitions in .orc files all *must* have density specified in
 kg/m3, areal density in kg/m2, and linear density in kg/m.  The parser for materials
@@ -460,13 +474,13 @@ structural.
    * Cannot specify attachment line parameters (don't exist in UI either)
    * Cannot specify a minimum packing length (usually the stream width + margin)
 * Fins:
-   * Cannot make finset or tubefin components at all
+   * Cannot define finset or tubefin components at all
 * Mass components:
    * Cannot define mass component components at all
 * Shock cords:
    * Cannot define shock cord components at all
 * Launch lugs:
-   * Only knows about tubular lugs; no support for rail buttons or guides
+   * OpenRocket only supports tubular lugs; no support for rail buttons or guides
    * No support for standoffs
 
 ### Hardcoded Default Materials and Preference/Registry Augmentation of the Materials Dropdown List
