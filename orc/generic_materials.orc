@@ -155,6 +155,11 @@
           <Type>BULK</Type>
         </Material>
         <Material UnitsOfMeasure="g/cm3">
+          <Name>Balsa, bulk, 6lb/ft3</Name>
+          <Density>96.0</Density>
+          <Type>BULK</Type>
+        </Material>
+        <Material UnitsOfMeasure="g/cm3">
           <Name>Balsa, bulk, 7lb/ft3</Name>
           <Density>112.0</Density>
           <Type>BULK</Type>
