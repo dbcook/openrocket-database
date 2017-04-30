@@ -41,6 +41,18 @@ Using this file:
     </Material>
     
     <Material UnitsOfMeasure="g/cm3">
+      <Name>Balsa, bulk, 6lb/ft3</Name>
+      <Density>96.0</Density>
+      <Type>BULK</Type>
+    </Material>
+    
+    <Material UnitsOfMeasure="g/cm3">
+      <Name>Balsa, bulk, 7lb/ft3</Name>
+      <Density>112.0</Density>
+      <Type>BULK</Type>
+    </Material>
+
+    <Material UnitsOfMeasure="g/cm3">
       <Name>Balsa, bulk, 8lb/ft3</Name>
       <Density>128.1</Density>
       <Type>BULK</Type>
@@ -51,7 +63,7 @@ Using this file:
       <Density>894.4</Density>
       <Type>BULK</Type>
     </Material>
-    
+ 
   </Materials>
 
   <Components>
@@ -4614,8 +4626,8 @@ Using this file:
       <PartNumber>LT-275300</PartNumber>
       <Description>Body tube, LT-275, 30.0", PN LT-275300</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
-      <InsideDiameter Unit="in">2.674</InsideDiameter>
-      <OutsideDiameter Unit="in">2.700</OutsideDiameter>
+      <InsideDiameter Unit="in">2.750</InsideDiameter>
+      <OutsideDiameter Unit="in">2.840</OutsideDiameter>
       <Length Unit="in">30.0</Length>
     </BodyTube>
     <BodyTube>
@@ -4623,8 +4635,8 @@ Using this file:
       <PartNumber>LT-275220</PartNumber>
       <Description>Body tube, LT-275, 22.0", PN LT-275220</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
-      <InsideDiameter Unit="in">2.674</InsideDiameter>
-      <OutsideDiameter Unit="in">2.700</OutsideDiameter>
+      <InsideDiameter Unit="in">2.750</InsideDiameter>
+      <OutsideDiameter Unit="in">2.840</OutsideDiameter>
       <Length Unit="in">22.0</Length>
     </BodyTube>
     <BodyTube>
@@ -4632,16 +4644,16 @@ Using this file:
       <PartNumber>LT-27580</PartNumber>
       <Description>Body tube, LT-275, 8.0", PN LT-27580</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
-      <InsideDiameter Unit="in">2.674</InsideDiameter>
-      <OutsideDiameter Unit="in">2.700</OutsideDiameter>
+      <InsideDiameter Unit="in">2.750</InsideDiameter>
+      <OutsideDiameter Unit="in">2.840</OutsideDiameter>
       <Length Unit="in">8.0</Length>
     </BodyTube>
 
     <!-- T-3.0 (supposedly) Aerotech compatible tube by Totally Tubular -->
-    <!-- *** inconsistent sizes ***  said to be "same as the Aerotech and LOC 3" tubes"
+    <!-- *** SOURCE ERROR: inconsistent sizes ***  said to be "same as the Aerotech and LOC 3" tubes"
          but lists ID=2.950, OD=3.000, wall 0.050, which is internally inconsistent
          LOC tubes are in fact ID 3.000, OD 3.100, wall=0.050, so I use that.
-         *** questionable attribution *** The 2009-2010 Aerotech catalog (latest
+         *** SOURCE ERROR: incorrect mfr attribution *** The 2009-2010 Aerotech catalog (latest
          available) lists no 3" diam kits nor 3" body tubes; there are only 1.9, 2.6 and
          4.0 tube kits and parts listed.  Also in the 2014 TRF post about tube sizes,
          Aerotech only gave dimensions for those sizes and did not mention a 3" tube.
@@ -4801,6 +4813,18 @@ Using this file:
     </BodyTube>
 
     <!-- Tube couplers -->
+    <!-- ============= -->
+    <!-- Estes, Centuri and Semroc couplers are made of spiral wound "fish paper", which
+    is a vulcanized kraft material, dark bluish-grey in color.  The spiral gap is very
+    pronounced, and the material is much harder and stiffer than regular kraft body tube.
+
+    Obtaining authoritative wall thicknesses of these couplers is difficult; none of these
+    manufacturers routinely published the wall thickness of their tube couplers.
+
+    The JT-80C is a special case with two different versions having been made, one of
+    which was thinner .021" glassine/kraft, used in some legacy Estes models such as the
+    early Saturn V and #1321 Maxi-Alpha III, and as a ring tail in Hyperion and Manta Bomber.
+    -->
 
     <!-- BT-3 couplers -->
 
@@ -4824,6 +4848,7 @@ Using this file:
     </TubeCoupler>
 
     <!-- BT-4 couplers -->
+    
     <TubeCoupler>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>CPL-4-34"</PartNumber>
@@ -4862,6 +4887,7 @@ Using this file:
     </TubeCoupler>
 
     <!-- BT-5 / #5 couplers -->
+    
     <!-- SOURCE ERROR: Semroc quotes OD as 0.516 which is greater than BT-5 ID of .515" -->
     <TubeCoupler>
       <Manufacturer>SEMROC</Manufacturer>
@@ -4922,22 +4948,26 @@ Using this file:
     </TubeCoupler>
 
     <!-- #7 / ST-7 couplers -->
+    
     <TubeCoupler>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>HTC-7</PartNumber>
       <Description>Tube coupler, paper, ST-7, 1.0"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
-      <InsideDiameter Unit="in">0.474</InsideDiameter>
-      <OutsideDiameter Unit="in">0.513</OutsideDiameter>
+      <InsideDiameter Unit="in">0.674</InsideDiameter>
+      <OutsideDiameter Unit="in">0.713</OutsideDiameter>
       <Length Unit="in">1.0</Length>
     </TubeCoupler>
+    <!-- HTC-7B is Black Widow external coupler, goes over outside of #7 tube
+         SOURCE ERROR: Semroc legacy site gives OD of HTC-7B as 0.761"; this is actually the ID
+         -->
     <TubeCoupler>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>HTC-7B</PartNumber>
-      <Description>Tube coupler, paper, ST-7, 1.0", large punched hole</Description>
+      <Description>Tube coupler, paper, ST-7 external, 1.0", large punched hole</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
-      <InsideDiameter Unit="in">0.474</InsideDiameter>
-      <OutsideDiameter Unit="in">0.513</OutsideDiameter>
+      <InsideDiameter Unit="in">0.761</InsideDiameter>
+      <OutsideDiameter Unit="in">0.800</OutsideDiameter>
       <Length Unit="in">1.0</Length>
     </TubeCoupler>
     <TubeCoupler>
@@ -4945,12 +4975,13 @@ Using this file:
       <PartNumber>HTC-7P</PartNumber>
       <Description>Tube coupler, paper, ST-7, 1.0", small punched hole</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
-      <InsideDiameter Unit="in">0.474</InsideDiameter>
-      <OutsideDiameter Unit="in">0.513</OutsideDiameter>
+      <InsideDiameter Unit="in">0.674</InsideDiameter>
+      <OutsideDiameter Unit="in">0.713</OutsideDiameter>
       <Length Unit="in">1.0</Length>
     </TubeCoupler>
 
     <!-- BT-20 couplers -->
+    
     <TubeCoupler>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>CPL-20-34"</PartNumber>
@@ -4987,8 +5018,13 @@ Using this file:
       <OutsideDiameter Unit="in">0.708</OutsideDiameter>
       <Length Unit="in">1.0</Length>
     </TubeCoupler>
+
+    <!-- BT-30 couplers: NONE -->
+
+    <!-- BT-40 couplers: NONE -->
     
     <!-- ST-8 / #8 couplers -->
+    
     <TubeCoupler>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>HTC-8</PartNumber>
@@ -5000,6 +5036,7 @@ Using this file:
     </TubeCoupler>
 
     <!-- ST-8F couplers -->
+    
     <TubeCoupler>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>HTC-8F</PartNumber>
@@ -5011,6 +5048,7 @@ Using this file:
     </TubeCoupler>
     
     <!-- ST-9 couplers -->
+    
     <TubeCoupler>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>HTC-9</PartNumber>
@@ -5022,6 +5060,7 @@ Using this file:
     </TubeCoupler>
 
     <!-- ST-10 couplers -->
+    
     <!-- SOURCE ERROR: Semroc lists a CPL-ST10-3" but dimensions are for an ST-20 tube -->
     <TubeCoupler>
       <Manufacturer>SEMROC</Manufacturer>
@@ -5034,6 +5073,7 @@ Using this file:
     </TubeCoupler>
 
     <!-- BT-50 couplers -->
+    
     <TubeCoupler>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>JTC-50C</PartNumber>
@@ -5091,6 +5131,7 @@ Using this file:
     </TubeCoupler>
 
     <!-- ST-11 couplers -->
+    
     <TubeCoupler>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>HTC-11</PartNumber>
@@ -5098,27 +5139,427 @@ Using this file:
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">1.968</InsideDiameter>
       <OutsideDiameter Unit="in">1.128</OutsideDiameter>
-      <Length Unit="in">34.0</Length>
+      <Length Unit="in">1.25</Length>
     </TubeCoupler>
 
     <!-- LT-115 / BTH-52 / BT-52H couplers -->
+    
+    <!-- SOURCE ERROR: eRockets Semroc 2017 listings give OD=1.140, ID=0.980.  The OD is
+         exactly the same as the ID of the BTH-52 tube, which is virtually impossible. I
+         offset the ID and OD down by .002 to be more realistic.
+    -->
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CPL-52H-34"</PartNumber>
+      <Description>Tube coupler, paper, BTH-52/LT-115, 34.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.978</InsideDiameter>
+      <OutsideDiameter Unit="in">1.138</OutsideDiameter>
+      <Length Unit="in">34.0</Length>
+    </TubeCoupler>
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CPL-52H-4"</PartNumber>
+      <Description>Tube coupler, paper, BTH-52/LT-115, 4.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.978</InsideDiameter>
+      <OutsideDiameter Unit="in">1.138</OutsideDiameter>
+      <Length Unit="in">4.0</Length>
+    </TubeCoupler>
 
     <!-- BT-55 couplers -->
+    
+    <!-- SOURCE ERROR: here again the quoted OD of the coupler is exactly the ID of the
+    tube. -->
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CPL-55-34"</PartNumber>
+      <Description>Tube coupler, paper, BTH-55, 34.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.213</InsideDiameter>
+      <OutsideDiameter Unit="in">1.281</OutsideDiameter>
+      <Length Unit="in">34.0</Length>
+    </TubeCoupler>
+    <!-- CPL-50-55 is thick centering ring AR-5055 stock -->
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CPL-50-55-34"</PartNumber>
+      <Description>Tube coupler, paper, BT-55, AR-5055 type, 34.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.978</InsideDiameter>
+      <OutsideDiameter Unit="in">1.281</OutsideDiameter>
+      <Length Unit="in">34.0</Length>
+    </TubeCoupler>
+    <!-- JT-55C wall thickness taken to be .030 ***verify***
+         SOURCE ERROR: Estes 1980 catalog gives length 1.3", Legacy semroc site has length = 1.50", new
+         eRockets/Semroc site gives 1.25". -->
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>JT-55C</PartNumber>
+      <Description>Tube coupler, paper, BT-55, 1.3"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.221</InsideDiameter>
+      <OutsideDiameter Unit="in">1.281</OutsideDiameter>
+      <Length Unit="in">1.3</Length>
+    </TubeCoupler>
+    <!-- note on new eRockets/Semroc 2017 site says JT-55CP is "pin punched for Blue Bird Zero" -->
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>JT-55CP</PartNumber>
+      <Description>Tube coupler, paper, BT-55, 1.25", punched vent</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.221</InsideDiameter>
+      <OutsideDiameter Unit="in">1.281</OutsideDiameter>
+      <Length Unit="in">1.25</Length>
+    </TubeCoupler>
+    
+    <!-- LT-125 couplers: NONE -->
 
     <!-- ST-13 couplers -->
+    <!-- wall thickness taken to be .030 ***verify*** -->
+    <!-- SOURCE ERROR: 1975 Centuri catalog has  HTC-13 length = 1.5", legacy Semroc
+         site erroneously gives 1.75".  It's correct again in eRockets/Semroc 2017 site -->
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>HTC-13</PartNumber>
+      <Description>Tube coupler, paper, ST-13, 1.5"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.238</InsideDiameter>
+      <OutsideDiameter Unit="in">1.298</OutsideDiameter>
+      <Length Unit="in">1.50</Length>
+    </TubeCoupler>
 
+    <!-- BT-58 couplers -->
     
+    <!-- wall thickness taken to be .030 ***verify*** -->
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>JT-58C</PartNumber>
+      <Description>Tube coupler, paper, BT-58, 1.75"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.436</InsideDiameter>
+      <OutsideDiameter Unit="in">1.496</OutsideDiameter>
+      <Length Unit="in">1.75</Length>
+    </TubeCoupler>
+
+    <!-- LT-150 couplers:  NONE -->
     
-    <!-- *** ADDING HERE *** -->
+    <!-- BT-60 couplers -->
+    
+    <!-- Semroc coupler has specified wall .034" -->
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CPL-60-4"</PartNumber>
+      <Description>Tube coupler, paper, BT-60, 4.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.525</InsideDiameter>
+      <OutsideDiameter Unit="in">1.593</OutsideDiameter>
+      <Length Unit="in">4.0</Length>
+    </TubeCoupler>
+    <!-- wall thickness taken to be .036 ***verify*** -->
+    <!-- SOURCE ERROR: legacy Semroc site has JTC-60C length = 1.75", new eRockets/Semroc site has 1.5"
+         Estes 1980 catalog gives 1.5".
+    -->
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>JT-60C</PartNumber>
+      <Description>Tube coupler, paper, BT-60, 1.50"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.521</InsideDiameter>
+      <OutsideDiameter Unit="in">1.593</OutsideDiameter>
+      <Length Unit="in">1.50</Length>
+    </TubeCoupler>
+    <!-- wall thickness taken to be .036 ***verify*** -->
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>HTC-16</PartNumber>
+      <Description>Tube coupler, paper, ST-16, 1.75"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.521</InsideDiameter>
+      <OutsideDiameter Unit="in">1.593</OutsideDiameter>
+      <Length Unit="in">1.75</Length>
+    </TubeCoupler>
+    <!-- wall thickness taken to be .036 ***verify*** -->
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>HTC-16S</PartNumber>
+      <Description>Tube coupler, paper, ST-16, 0.5"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.521</InsideDiameter>
+      <OutsideDiameter Unit="in">1.593</OutsideDiameter>
+      <Length Unit="in">0.5</Length>
+    </TubeCoupler>
+
+    <!-- LT-175 couplers:  NONE -->
+
+    <!-- ST-18 couplers -->
+    
+    <!-- wall thickness taken to be .036 ***verify*** -->
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>HTC-18</PartNumber>
+      <Description>Tube coupler, paper, ST-18, 1.5"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.726</InsideDiameter>
+      <OutsideDiameter Unit="in">1.798</OutsideDiameter>
+      <Length Unit="in">1.5</Length>
+    </TubeCoupler>
+    <!-- wall thickness taken to be .036 ***verify*** -->
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>HTC-18S</PartNumber>
+      <Description>Tube coupler, paper, ST-18, 0.25"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.726</InsideDiameter>
+      <OutsideDiameter Unit="in">1.798</OutsideDiameter>
+      <Length Unit="in">0.25</Length>
+    </TubeCoupler>
+
+    <!-- Aerotech 1.9" tube couplers -->
+
+    <!-- Direct Aerotech coupler (eRockets might be reselling the actual Aerotech part here) -->
+    <!-- SOURCE ERROR: eRockets/Semroc 2017 web listing gives internally inconsistent
+         values of OD 1.804", ID 1.610", wall 0.083".  The OD is too big as the primary
+         tube ID is only 1.80", and the ID doesn't agree with the given wall thickness.  I
+         set the OD to a plausible 1.795", took the wall thickness at face value, and set
+         the ID to 1.629 accordingly. -->
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>AER-11804</PartNumber>
+      <Description>Tube coupler, paper, AT 1.9", 4.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.629</InsideDiameter>
+      <OutsideDiameter Unit="in">1.795</OutsideDiameter>
+      <Length Unit="in">4.0</Length>
+    </TubeCoupler>
+    <!-- Semroc coupler for Aerotech 1.9" tube.  Has consistent dimensions on eRockets
+         2017 site -->
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CPL-1.88-4</PartNumber>
+      <Description>Tube coupler, paper, AT 1.9", 4.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.66</InsideDiameter>
+      <OutsideDiameter Unit="in">1.79</OutsideDiameter>
+      <Length Unit="in">4.0</Length>
+    </TubeCoupler>
+    
+    <!-- LT-200 couplers: NONE -->
+    
+    <!-- ST-20 couplers -->
+    
+    <!-- wall thickness taken to be .036 ***verify*** -->
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>HTC-20</PartNumber>
+      <Description>Tube coupler, paper, ST-20, 2.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.926</InsideDiameter>
+      <OutsideDiameter Unit="in">1.998</OutsideDiameter>
+      <Length Unit="in">2.0</Length>
+    </TubeCoupler>
+    <!-- SOURCE ERROR: eRockets/Semroc 2017 listing gives internallly inconsistent values
+         of ID 1.952, OD 1.981, .036 wall.  I took the wall thickness as likely to be
+         correct and used an OD with offset of .005 from the ID of an ST-20.
+    -->
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CPL-ST20-4"</PartNumber>
+      <Description>Tube coupler, paper, ST-20, 4.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">1.923</InsideDiameter>
+      <OutsideDiameter Unit="in">1.995</OutsideDiameter>
+      <Length Unit="in">4.0</Length>
+    </TubeCoupler>
+
+    <!-- BT-70 couplers -->
+    
+    <!-- ID adopted as Estes spec of 2.115 (yielding .029 wall) -->
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>JT-70E</PartNumber>
+      <Description>Tube coupler, paper, BT-70, 4.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.115</InsideDiameter>
+      <OutsideDiameter Unit="in">2.173</OutsideDiameter>
+      <Length Unit="in">4.0</Length>
+    </TubeCoupler>
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>JT-70A</PartNumber>
+      <Description>Tube coupler, paper, BT-70, 1.25"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.115</InsideDiameter>
+      <OutsideDiameter Unit="in">2.173</OutsideDiameter>
+      <Length Unit="in">1.25</Length>
+    </TubeCoupler>
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>JT-70D</PartNumber>
+      <Description>Tube coupler, paper, BT-70, 0.625"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.115</InsideDiameter>
+      <OutsideDiameter Unit="in">2.173</OutsideDiameter>
+      <Length Unit="in">0.625</Length>
+    </TubeCoupler>
+
+    <!-- LT-225 couplers: NONE -->
+
+    <!-- LT-275 couplers: NONE -->
+
+    <!-- BT-80 couplers -->
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CPL-80-4"</PartNumber>
+      <Description>Tube coupler, paper, BT-80, 4.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.486</InsideDiameter>
+      <OutsideDiameter Unit="in">2.554</OutsideDiameter>
+      <Length Unit="in">1.25</Length>
+    </TubeCoupler>
+    <!-- JT-80C complications!  See http://www.rocketryforum.com/archive/index.php/t-128230.html
+         There are two different versions:
+
+         "Old" JT-80C was a .021" wall glassine finish tube, not fish paper.
+         Thus it has OD 2.554, ID 2.512
+
+         "New" JT-80 is fish paper and has a .040 wall, and thus OD 2.554, ID 2.474  (per BMS specs)
+
+         *** Determine which versions Semroc sold/sells ***
+         meanwhile I have listed both variants
+    -->
+    <!-- The legacy Semroc site only lists JT-80E, and has no JT-80C -->
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>JT-80E</PartNumber>
+      <Description>Tube coupler, paper, BT-80, 4.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.474</InsideDiameter>
+      <OutsideDiameter Unit="in">2.554</OutsideDiameter>
+      <Length Unit="in">1.25</Length>
+    </TubeCoupler>
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>JT-80C legacy</PartNumber>
+      <Description>Tube coupler, paper, BT-80, glassine, 1.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.512</InsideDiameter>
+      <OutsideDiameter Unit="in">2.554</OutsideDiameter>
+      <Length Unit="in">1.0</Length>
+    </TubeCoupler>
+    <!-- *** oddly, the new eRockets/Semroc site describes their JT-80C as "rice paper", a
+    unique designation among all their couplers. *** -->
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>JT-80C new</PartNumber>
+      <Description>Tube coupler, paper, BT-80, 1.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.474</InsideDiameter>
+      <OutsideDiameter Unit="in">2.554</OutsideDiameter>
+      <Length Unit="in">1.0</Length>
+    </TubeCoupler>
+    <!-- Aerotech coupler for AT 2.6" tube having same ID as BT-80.  Adopted the .083 wall
+         quoted by eRockets for the 1.9" tube -->
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>AER-12606</PartNumber>
+      <Description>Tube coupler, paper, BT-80, 4.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.390</InsideDiameter>
+      <OutsideDiameter Unit="in">2.556</OutsideDiameter>
+      <Length Unit="in">4.00</Length>
+    </TubeCoupler>
+
+    <!-- T-3.0" tube couplers -->
+    
+    <!-- POSSIBLE SOURCE ERROR: The OD quoted of 2.92" is a very sloppy fit if the
+         intended mating tube is LOC 3.0" tube with its 3.00" ID. LOC couplers are OD
+         2.99, ID 2.88, wall 0.055; I adopted that for now ***Investigate*** -->
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CPL-3.0"-34"</PartNumber>
+      <Description>Tube coupler, paper, T-3.0, 34.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.88</InsideDiameter>
+      <OutsideDiameter Unit="in">2.99</OutsideDiameter>
+      <Length Unit="in">34.0</Length>
+    </TubeCoupler>
+    <!-- SOURCE ERROR: inconsistent length.  PN given as CPL-3.0"-6", but in description
+    it is CPL-3.0"-4" and describes 4" length.  I adopted 6" ***investigate*** -->
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CPL-3.0"-6"</PartNumber>
+      <Description>Tube coupler, paper, T-3.0, 6.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">2.88</InsideDiameter>
+      <OutsideDiameter Unit="in">2.99</OutsideDiameter>
+      <Length Unit="in">6.0</Length>
+    </TubeCoupler>
+    
+    <!-- BT-100 couplers -->
+
+    <!-- SOURCE ERROR: Dimensions on eRocokets/Semroc 2017 site are completely wrong, with
+         OD 2.920", ID 2.900", wall .034".  The OD would be appropriate for the
+         CPL-3.0". I adopted a correct OD to mate with BT-100, and took the wall thickness
+         as correct -->
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CPL-100-6"</PartNumber>
+      <Description>Tube coupler, paper, BT-100, 6.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">3.629</InsideDiameter>
+      <OutsideDiameter Unit="in">3.697</OutsideDiameter>
+      <Length Unit="in">6.00</Length>
+    </TubeCoupler>
+
+    <!-- BT-101 couplers -->
+
+    <!-- SOURCE ERROR: Data missing for BT-101 couplers.  I adopted proper mating OD for
+         BT-101 and took wall .034 as used in other Semroc couplers ***investigate*** -->
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CPL-101-6"</PartNumber>
+      <Description>Tube coupler, paper, BT-101, 6.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">3.826</InsideDiameter>
+      <OutsideDiameter Unit="in">3.894</OutsideDiameter>
+      <Length Unit="in">6.00</Length>
+    </TubeCoupler>
+    
+    <!-- Aerotech 4.0" tube couplers (mating tube ID same as BT-101).  Dimensions not
+         given; using 3.89 OD and .083 wall as used for other AT tubes -->
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>AER-14008</PartNumber>
+      <Description>Tube coupler, paper, T-4.0, 6.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">3.724</InsideDiameter>
+      <OutsideDiameter Unit="in">3.89</OutsideDiameter>
+      <Length Unit="in">6.00</Length>
+    </TubeCoupler>
+
+    <!-- T-4.5" couplers -->
+    <!-- This is an odd product as Semroc offers no 4.5" tube -->
+    <TubeCoupler>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CPL-4.5"-6"</PartNumber>
+      <Description>Tube coupler, paper, T-4.5, 6.0"</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">4.31</InsideDiameter>
+      <OutsideDiameter Unit="in">4.47</OutsideDiameter>
+      <Length Unit="in">6.00</Length>
+    </TubeCoupler>
     
     
     <!-- centering rings -->
+    <!-- =============== -->
     
-    <!-- Semroc has some unique centering rings with punch-outs that allow one ring to
-         fit multiple tube sizes.  To handle this, I have made a separate listing for each
+    <!-- Semroc has some unique centering rings with punch-outs that allow one ring to fit
+         multiple tube sizes.  To handle this, I have made a separate listing for each
          size supported by the PN, and appended a suffix to the PN to indicate which size
          has been selected.  However I have only expanded these out for some dual-size
-         rings.  I did not expand out the RAU series "universal" rings. -->
+         rings.  I did not expand out the RAU series "universal" rings, which have ~15
+         combinations. -->
 
     <!-- AR series thick centering rings for Estes compatible tube sizes -->
     <CenteringRing>
@@ -6927,15 +7368,16 @@ Using this file:
       <Length Unit="in">0.125</Length>
     </EngineBlock>
 
-    <!-- *** On eRockets site, SEMROC EB-30 is balsa and 0.75" long! *** -->
+    <!-- On legacy and eRockets site, SEMROC EB-30 is balsa and 0.75" long
+         *** there is no information about center hole size; I took it as 0.50" *** -->
     <EngineBlock>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>EB-30</PartNumber>
-      <Description>Engine block, fiber, BT-30, 0.25" len</Description>
-      <Material Type="BULK">Fiber, bulk</Material>
-      <InsideDiameter Unit="in">0.65</InsideDiameter>
+      <Description>Engine block, balsa, BT-30, 0.75" len</Description>
+      <Material Type="BULK">Balsa, bulk, 6lb/ft3</Material>
+      <InsideDiameter Unit="in">0.50</InsideDiameter>
       <OutsideDiameter Unit="in">0.724</OutsideDiameter>
-      <Length Unit="in">0.25</Length>
+      <Length Unit="in">0.75</Length>
     </EngineBlock>
 
     <EngineBlock>
@@ -6990,7 +7432,9 @@ Using this file:
          FB:  fiber nose block, .060
          NB:  balsa nose block (and one erroneous fiber block listing), Estes sizes
          BNB: balsa nose block, Centuri tube sizes
-         BTC: alternate PN form for Centuri tube sizes, e.g. BTC-6 ***hunt these down***
+         BTC: Direct fit into Centuri tube sizes, e.g. BTC-6
+              Exception: HTC-7B is an external coupler as used in the Black Widow
+              BTC is also used for balsa tail cones, adding to the confusion
     -->
 
     <BulkHead>
@@ -7129,14 +7573,20 @@ Using this file:
 
     <!-- Bulkheads: balsa cylinders
 
-         The Semroc site only gives the length of the NB-52, so I use the Estes lengths
-         where available and an interpolated best estimate otherwise.
+         Dimensions from legacy Semroc site: www.semroc.com/Store/Products/BalsaConnectors.asp
+
+         6 pound per ft3 balsa gives a reasonable fit to quoted masses from legacy Semroc
+         site.  Balsa density from vendors is highly variable so it's not worthwhile to try for a
+         perfect match to the quoted masses.
     -->
+
+    <!-- Balsa nose blocks for Estes tube sizes -->
+    
     <BulkHead>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>NB-3</PartNumber>
       <Description>Nose block, balsa, BT-3</Description>
-      <Material Type="BULK">Balsa, bulk</Material>
+      <Material Type="BULK">Balsa, bulk, 6lb/ft3</Material>
       <Filled>true</Filled>
       <OutsideDiameter Unit="in">0.347</OutsideDiameter>
       <Length Unit="in">0.50</Length>
@@ -7145,35 +7595,25 @@ Using this file:
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>NB-5</PartNumber>
       <Description>Nose block, balsa, BT-5</Description>
-      <Material Type="BULK">Balsa, bulk</Material>
+      <Material Type="BULK">Balsa, bulk, 6lb/ft3</Material>
       <Filled>true</Filled>
       <OutsideDiameter Unit="in">0.513</OutsideDiameter>
-      <Length Unit="in">0.50</Length>
+      <Length Unit="in">0.75</Length>
     </BulkHead>
-    <!-- NB-20 length from Estes catalogs -->
     <BulkHead>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>NB-20</PartNumber>
       <Description>Nose block, balsa, BT-20</Description>
-      <Material Type="BULK">Balsa, bulk</Material>
+      <Material Type="BULK">Balsa, bulk, 6lb/ft3</Material>
       <Filled>true</Filled>
       <OutsideDiameter Unit="in">0.708</OutsideDiameter>
       <Length Unit="in">0.75</Length>
     </BulkHead>
     <BulkHead>
       <Manufacturer>SEMROC</Manufacturer>
-      <PartNumber>BNB-7</PartNumber>
-      <Description>Nose block, balsa, #7</Description>
-      <Material Type="BULK">Balsa, bulk</Material>
-      <Filled>true</Filled>
-      <OutsideDiameter Unit="in">0.713</OutsideDiameter>
-      <Length Unit="in">0.75</Length>
-    </BulkHead>
-    <BulkHead>
-      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>NB-30</PartNumber>
       <Description>Nose block, balsa, BT-30</Description>
-      <Material Type="BULK">Balsa, bulk</Material>
+      <Material Type="BULK">Balsa, bulk, 6lb/ft3</Material>
       <Filled>true</Filled>
       <OutsideDiameter Unit="in">0.723</OutsideDiameter>
       <Length Unit="in">0.75</Length>
@@ -7182,47 +7622,53 @@ Using this file:
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>NB-40</PartNumber>
       <Description>Nose block, balsa, BT-40</Description>
-      <Material Type="BULK">Balsa, bulk</Material>
+      <Material Type="BULK">Balsa, bulk, 6lb/ft3</Material>
       <Filled>true</Filled>
       <OutsideDiameter Unit="in">0.763</OutsideDiameter>
-      <Length Unit="in">0.75</Length>
+      <Length Unit="in">1.0</Length>
     </BulkHead>
-    <!-- NB-50 (not L suffix though) length from Estes catalogs -->
     <BulkHead>
       <Manufacturer>SEMROC</Manufacturer>
-      <PartNumber>NB-50L</PartNumber>
+      <PartNumber>NB-50</PartNumber>
       <Description>Nose block, balsa, BT-50</Description>
-      <Material Type="BULK">Balsa, bulk</Material>
+      <Material Type="BULK">Balsa, bulk, 6lb/ft3</Material>
       <Filled>true</Filled>
       <OutsideDiameter Unit="in">0.948</OutsideDiameter>
       <Length Unit="in">1.0</Length>
     </BulkHead>
-    <!-- NB-52 Length is given as 1.18" -->
+    <BulkHead>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>NB-50L</PartNumber>
+      <Description>Nose block, balsa, BT-50, long</Description>
+      <Material Type="BULK">Balsa, bulk, 6lb/ft3</Material>
+      <Filled>true</Filled>
+      <OutsideDiameter Unit="in">0.948</OutsideDiameter>
+      <Length Unit="in">1.19</Length>
+    </BulkHead>
+    <!-- NB-52 Length is given as 1.18" on new eRockets/Semroc site -->
     <BulkHead>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>NB-52</PartNumber>
       <Description>Nose block, balsa, BT-52</Description>
-      <Material Type="BULK">Balsa, bulk</Material>
+      <Material Type="BULK">Balsa, bulk, 6lb/ft3</Material>
       <Filled>true</Filled>
       <OutsideDiameter Unit="in">0.986</OutsideDiameter>
       <Length Unit="in">1.18</Length>
     </BulkHead>
-    <!-- NB-55 length from Estes catalogs -->
     <BulkHead>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>NB-55</PartNumber>
       <Description>Nose block, balsa, BT-55</Description>
-      <Material Type="BULK">Balsa, bulk</Material>
+      <Material Type="BULK">Balsa, bulk, 6lb/ft3</Material>
       <Filled>true</Filled>
       <OutsideDiameter Unit="in">1.281</OutsideDiameter>
       <Length Unit="in">1.25</Length>
     </BulkHead>
-    <!-- NB-60 length from Estes catalogs -->
     <BulkHead>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>NB-60</PartNumber>
       <Description>Nose block, balsa, BT-60</Description>
-      <Material Type="BULK">Balsa, bulk</Material>
+      <Material Type="BULK">Balsa, bulk, 6lb/ft3</Material>
       <Filled>true</Filled>
       <OutsideDiameter Unit="in">1.593</OutsideDiameter>
       <Length Unit="in">1.5</Length>
@@ -7231,7 +7677,7 @@ Using this file:
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>NB-65</PartNumber>
       <Description>Nose block, balsa, PST-65</Description>
-      <Material Type="BULK">Balsa, bulk</Material>
+      <Material Type="BULK">Balsa, bulk, 6lb/ft3</Material>
       <Filled>true</Filled>
       <OutsideDiameter Unit="in">1.748</OutsideDiameter>
       <Length Unit="in">1.75</Length>
@@ -7240,21 +7686,224 @@ Using this file:
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>NB-70</PartNumber>
       <Description>Nose block, balsa, BT-70</Description>
-      <Material Type="BULK">Balsa, bulk</Material>
+      <Material Type="BULK">Balsa, bulk, 6lb/ft3</Material>
       <Filled>true</Filled>
       <OutsideDiameter Unit="in">2.173</OutsideDiameter>
-      <Length Unit="in">2.25</Length>
+      <Length Unit="in">2.0</Length>
     </BulkHead>
     <BulkHead>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>NB-80</PartNumber>
       <Description>Nose block, balsa, BT-80</Description>
-      <Material Type="BULK">Balsa, bulk</Material>
+      <Material Type="BULK">Balsa, bulk, 6lb/ft3</Material>
       <Filled>true</Filled>
       <OutsideDiameter Unit="in">2.556</OutsideDiameter>
-      <Length Unit="in">2.50</Length>
+      <Length Unit="in">3.0</Length>
+    </BulkHead>
+
+    <!-- Nose blocks for Centuri tube sizes -->
+
+    <!-- BNB-7 is on new eRockets/Semroc site but not on legacy Semroc site -->
+    <BulkHead>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BNB-7</PartNumber>
+      <Description>Nose block, balsa, #7</Description>
+      <Material Type="BULK">Balsa, bulk, 6lb/ft3</Material>
+      <Filled>true</Filled>
+      <OutsideDiameter Unit="in">0.713</OutsideDiameter>
+      <Length Unit="in">0.75</Length>
     </BulkHead>
     
+    <BulkHead>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BTC-5</PartNumber>
+      <Description>Nose block, balsa, #5</Description>
+      <Material Type="BULK">Balsa, bulk, 6lb/ft3</Material>
+      <Filled>true</Filled>
+      <OutsideDiameter Unit="in">0.513</OutsideDiameter>
+      <Length Unit="in">0.75</Length>
+    </BulkHead>
+    <!-- SOURCE ERROR: Semroc legacy site gives 0.615 for OD of BTC-6.  It can't be that
+         big; they list ID of ST-6 tube as 0.610  -->
+    <BulkHead>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BTC-6</PartNumber>
+      <Description>Nose block, balsa, #6</Description>
+      <Material Type="BULK">Balsa, bulk, 6lb/ft3</Material>
+      <Filled>true</Filled>
+      <OutsideDiameter Unit="in">0.608</OutsideDiameter>
+      <Length Unit="in">1.00</Length>
+    </BulkHead>
+    <BulkHead>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BTC-7</PartNumber>
+      <Description>Nose block, balsa, #7</Description>
+      <Material Type="BULK">Balsa, bulk, 6lb/ft3</Material>
+      <Filled>true</Filled>
+      <OutsideDiameter Unit="in">0.713</OutsideDiameter>
+      <Length Unit="in">1.00</Length>
+    </BulkHead>
+    <!-- BTC-7S only appears in the new eRockets/Semroc 2017 site -->
+    <BulkHead>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BTC-7S</PartNumber>
+      <Description>Nose block, balsa, #7, short</Description>
+      <Material Type="BULK">Balsa, bulk, 6lb/ft3</Material>
+      <Filled>true</Filled>
+      <OutsideDiameter Unit="in">0.713</OutsideDiameter>
+      <Length Unit="in">0.75</Length>
+    </BulkHead>
+    <BulkHead>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BTC-8</PartNumber>
+      <Description>Nose block, balsa, #7</Description>
+      <Material Type="BULK">Balsa, bulk, 6lb/ft3</Material>
+      <Filled>true</Filled>
+      <OutsideDiameter Unit="in">0.863</OutsideDiameter>
+      <Length Unit="in">1.00</Length>
+    </BulkHead>
+    <BulkHead>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BTC-8F</PartNumber>
+      <Description>Nose block, balsa, #8F</Description>
+      <Material Type="BULK">Balsa, bulk, 6lb/ft3</Material>
+      <Filled>true</Filled>
+      <OutsideDiameter Unit="in">0.883</OutsideDiameter>
+      <Length Unit="in">1.00</Length>
+    </BulkHead>
+    <BulkHead>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BTC-9</PartNumber>
+      <Description>Nose block, balsa, #9</Description>
+      <Material Type="BULK">Balsa, bulk, 6lb/ft3</Material>
+      <Filled>true</Filled>
+      <OutsideDiameter Unit="in">0.948</OutsideDiameter>
+      <Length Unit="in">1.5</Length>
+    </BulkHead>
+    <BulkHead>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BTC-10</PartNumber>
+      <Description>Nose block, balsa, #10</Description>
+      <Material Type="BULK">Balsa, bulk, 6lb/ft3</Material>
+      <Filled>true</Filled>
+      <OutsideDiameter Unit="in">0.998</OutsideDiameter>
+      <Length Unit="in">1.5</Length>
+    </BulkHead>
+    <BulkHead>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BTC-11</PartNumber>
+      <Description>Nose block, balsa, #11</Description>
+      <Material Type="BULK">Balsa, bulk, 6lb/ft3</Material>
+      <Filled>true</Filled>
+      <OutsideDiameter Unit="in">1.128</OutsideDiameter>
+      <Length Unit="in">1.5</Length>
+    </BulkHead>
+    <BulkHead>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BTC-13</PartNumber>
+      <Description>Nose block, balsa, #13</Description>
+      <Material Type="BULK">Balsa, bulk, 6lb/ft3</Material>
+      <Filled>true</Filled>
+      <OutsideDiameter Unit="in">1.298</OutsideDiameter>
+      <Length Unit="in">1.75</Length>
+    </BulkHead>
+    <!-- BTC-13S ribbed only appears in the new eRockets/Semroc 2017 site.  It looks to be
+    a part for a specific kit and is about 2 body diameters long in the illustration.
+    *** Get specific dimensions and kit compatibility *** -->
+    <BulkHead>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BTC-13S</PartNumber>
+      <Description>Nose block, balsa, #13, ribbed</Description>
+      <Material Type="BULK">Balsa, bulk, 6lb/ft3</Material>
+      <Filled>true</Filled>
+      <OutsideDiameter Unit="in">1.298</OutsideDiameter>
+      <Length Unit="in">2.75</Length>
+    </BulkHead>
+    <BulkHead>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BTC-16</PartNumber>
+      <Description>Nose block, balsa, #16</Description>
+      <Material Type="BULK">Balsa, bulk, 6lb/ft3</Material>
+      <Filled>true</Filled>
+      <OutsideDiameter Unit="in">1.598</OutsideDiameter>
+      <Length Unit="in">1.75</Length>
+    </BulkHead>
+    <BulkHead>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BTC-20</PartNumber>
+      <Description>Nose block, balsa, #20</Description>
+      <Material Type="BULK">Balsa, bulk, 6lb/ft3</Material>
+      <Filled>true</Filled>
+      <OutsideDiameter Unit="in">1.998</OutsideDiameter>
+      <Length Unit="in">2.1</Length>
+    </BulkHead>
+
+    <!-- Nose blocks for Centuri large tube series (LT-xxx) -->
+    <BulkHead>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BTC-085</PartNumber>
+      <Description>Nose block, balsa, #085</Description>
+      <Material Type="BULK">Balsa, bulk, 6lb/ft3</Material>
+      <Filled>true</Filled>
+      <OutsideDiameter Unit="in">0.863</OutsideDiameter>
+      <Length Unit="in">1.5</Length>
+    </BulkHead>
+    <!-- SOURCE ERROR: Semroc legacy site gives OD of BTC-115 as 1.15".  ID of Series 115
+    tube is given as 1.14" by multiple sources -->
+    <BulkHead>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BTC-115</PartNumber>
+      <Description>Nose block, balsa, #115</Description>
+      <Material Type="BULK">Balsa, bulk, 6lb/ft3</Material>
+      <Filled>true</Filled>
+      <OutsideDiameter Unit="in">1.138</OutsideDiameter>
+      <Length Unit="in">1.75</Length>
+    </BulkHead>
+    <BulkHead>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BTC-125</PartNumber>
+      <Description>Nose block, balsa, #125</Description>
+      <Material Type="BULK">Balsa, bulk, 6lb/ft3</Material>
+      <Filled>true</Filled>
+      <OutsideDiameter Unit="in">1.248</OutsideDiameter>
+      <Length Unit="in">2.0</Length>
+    </BulkHead>
+    <BulkHead>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BTC-150</PartNumber>
+      <Description>Nose block, balsa, #150</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <OutsideDiameter Unit="in">1.498</OutsideDiameter>
+      <Length Unit="in">2.0</Length>
+    </BulkHead>
+    <BulkHead>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BTC-175</PartNumber>
+      <Description>Nose block, balsa, #175</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <OutsideDiameter Unit="in">1.748</OutsideDiameter>
+      <Length Unit="in">2.25</Length>
+    </BulkHead>
+    <BulkHead>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BTC-225</PartNumber>
+      <Description>Nose block, balsa, #225</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <OutsideDiameter Unit="in">2.248</OutsideDiameter>
+      <Length Unit="in">2.5</Length>
+    </BulkHead>
+    <BulkHead>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BTC-275</PartNumber>
+      <Description>Nose block, balsa, #275</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <OutsideDiameter Unit="in">2.748</OutsideDiameter>
+      <Length Unit="in">3.0</Length>
+    </BulkHead>
     
   </Components>
 </OpenRocketComponent>
