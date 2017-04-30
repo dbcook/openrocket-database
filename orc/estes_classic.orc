@@ -2709,13 +2709,30 @@ Known issues:
         <OutsideDiameter Unit="in">2.175</OutsideDiameter>
         <Length Unit="in">1.25</Length>
       </TubeCoupler>
+      <!-- JT-80C complications!  See http://www.rocketryforum.com/archive/index.php/t-128230.html
+           There are two different versions:
+
+           "Old" JT-80C was a .021" wall glassine finish tube, not fish paper.
+           Thus it has OD 2.554, ID 2.512
+
+           "New" JT-80 is fish paper and has a .040 wall, and thus OD 2.554, ID 2.474  (per BMS specs)
+      -->
       <TubeCoupler>
         <Manufacturer>Estes</Manufacturer>
-        <PartNumber>JT-80C</PartNumber>
-        <Description>Tube coupler, paper, JT-80C</Description>
+        <PartNumber>JT-80C legacy</PartNumber>
+        <Description>Tube coupler, paper, BT-80, glassine, 1.0"</Description>
         <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
-        <InsideDiameter Unit="in">2.470</InsideDiameter>
-        <OutsideDiameter Unit="in">2.55</OutsideDiameter>
+        <InsideDiameter Unit="in">2.512</InsideDiameter>
+        <OutsideDiameter Unit="in">2.554</OutsideDiameter>
+        <Length Unit="in">1.0</Length>
+      </TubeCoupler>
+      <TubeCoupler>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>JT-80C new</PartNumber>
+        <Description>Tube coupler, paper, BT-80, 3.0"</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">2.474</InsideDiameter>
+        <OutsideDiameter Unit="in">2.554</OutsideDiameter>
         <Length Unit="in">3.0</Length>
       </TubeCoupler>
 
