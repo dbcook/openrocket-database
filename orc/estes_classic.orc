@@ -3186,16 +3186,33 @@ Known issues:
              dimensions or mass info.  It fails to list nose cones that were sold in the catalog but never used in a kit,
              such as BNC-55AA, BNC-10B, and multiple BNC-30XX.  There are numerous errors but it's a great start.
 
+             Here are some missing items without known data:
+
              BNC-5AW PN 070206 (Star Dart only), no dimensions available
-             BNC-5AX PN 070208 (Screamer/Javelin), no dimensions
+             BNC-5AX PN 070208 (Screamer/Javelin), no official dimensions.
              BNC-5BA PN 070210 (Mini-BOMARC and #1220 Mars Snooper), no dimensions available
              xxxxxxx PN 070217 (Red Alert #0893 only), balsa NC, no dimensions available, no traditional PN
-             BNC-50xx
              BNC-50AR (old Starship Vega #0653 only), no official dimensions available, spacemodeling.com
              only has plans of newer version #1320 with PNC-
              BNC-50BA (old Bomarc #0657 only), no dimensions available
         -->
 
+        <!-- BNC-5AX, PN 070208 (Screamer, Javelin) no official dimensions or weight spec.
+             Semroc BC-22597 is BNC-5AX upscale to LT-225, ogive with exposed len 9.7", giving len for BT-5 of 2.25"
+             So this one is rescued from obscurity.  Shoulder length is taken as 0.25, same as other BT-5 cones.
+        -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>BNC-5AX, 70208</PartNumber>
+            <Description>Nose cone, balsa, BNC-5AX, PN 70208</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Filled>true</Filled>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">0.541</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.515</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.25</ShoulderLength>
+            <Length Unit="in">2.25</Length>
+        </NoseCone>
         <!-- BNC-5E, 0.020 oz -->
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
