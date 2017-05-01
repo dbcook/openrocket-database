@@ -21,12 +21,17 @@ I invite contributors to create a packaged installer, especially for Windows.
 
 ## Version and compatibility
 
-Current version:  0.9.0.5
+Current version:  0.9.0.7
 
 OpenRocket compatibility:  tested with OpenRocket 15.03
 
 ## Release Notes
-0.9.0.6 - 30 APR 2017
+0.9.0.7 - 1 May 2017
+* Add README discussion about specialty nose cones and printing XML tags
+* Document inability to set nose/transition shape parameter in .orc files
+* Added first increment of Semroc nose cones (LT-225, LT-275)
+
+0.9.0.6 - 30 Apr 2017
 * Semroc balsa couplers added, fixed various errors in Semroc file
 * Added legacy glassine thin-wall version of JT-80C in Semroc and Estes files
 
@@ -168,7 +173,8 @@ somewhat Mac centric because that's what I use most.
 
 
 Most items still need validation checks put into the `ork` directory to make sure they
-generate reasonable masses.
+generate reasonable masses.  There are limits on the usefulness of this technique due to
+how OpenRocket copies components into the .ork file, so I'm not sure how far I will take this.
 
 There are several built-in database files that have not been touched yet (see above for list).
 
@@ -236,7 +242,7 @@ you should know about if you want maximum accuracy.
 
 * Due to limitations in what OpenRocket allows you to specify for nose cones, partial manual
   entry is required to get the most accurate mass and CG locations for heavier hollow plastic or
-  fiberglass nose cones (e.g. LOC):
+  fiberglass nose cones (currently LOC):
   
   * When putting in a plastic nose cone, go select the nose cone
     from the presets database.  At this point the displayed mass will be too small, because
@@ -252,8 +258,24 @@ they are pretty heavy and the CG actually moves a fair amount.
 * The "match fore diameter" option in the parts selection dialog is very useful for
   narrowing the giant list to potentially compatible parts.  However, it is buggy and when
   choosing couplers or inner tubes it sometimes shows parts that are slightly too large to
-  fit inside the outer tube.  Verify dimensions!
+  fit inside the outer tube.  Verify your dimensions!
 
+* Many specialty nose cones do not match one of the simple CP-computable shapes modeled by
+  OpenRocket.  In these cases an approximate shape is used and noted in comments in the
+  .orc file.  If the mass is too far off as a result, one of two things may be done:
+  * For plastic nose cones, the wall thickness will be adjust to correct the mass.
+  * For solid nose cones, a mass override may be used.
+
+* If you are trying to make a visually accurate OR file, some nose cone shapes (Honest
+  John etc.)  can be modeled using a shoulderless forward cone, a short (even zero) length
+  tube, and a shoulderless rear transition.  However, there is no way to do this as a
+  single component preset in a .orc file, so if you want that level of fidelity you will
+  have to do it manually.  Jim Parsons (TRF user K'tesh) has posted many examples of this
+  technique in various TRF threads.  In some cases like the Honest John, you will get
+  reasonable drag and CP computations this way.  However for parts with draggy appliques
+  like the Odyssey nose cone, there is no real way in OpenRocket to get the drag correct.
+
+  
 ## Conventions
 
 Various conventions have been adopted to make the database files more organized, readable,
@@ -261,7 +283,12 @@ and usable from the OpenRocket user interface.
 
 * Mass overrides have been eliminated to the maximum extent possible.  This has primarily
   been done by using good density values for the materials, and adjusting non-significant
-  dimensions such as wall thickness of hollow parts.
+  dimensions such as wall thickness of hollow parts.  The only case where mass overrides
+  become necessary is for oddly shaped, solid wood nose cones where OpenRocket cannot
+  model the shape properly and the standard material density produces a notably incorrect
+  mass when applied to the approximate shape chosen.
+
+* CG overrides are never used.
 
 * Units of measure for dimensions have been set to the units used in the manufacturer's
   specifications.  For example, dimensional specs of Estes body tubes have all been
@@ -412,6 +439,19 @@ some material, in order to get your design to update you must manually open the 
 components, and re-select the component preset from the database.
 
 
+### Listing available XML tags
+
+You can find out the XML tags that can be used in .orc files via doing the following in an
+OpenRocket source tree:
+
+```
+find . -name "*.java" | xargs grep XmlElement
+```
+
+Note that you will not find specific entries for <EngineBlock>, <CenteringRing>,
+<Bulkhead>, and <LaunchLug>.  These exist but all are special cases of <BodyTube> and have the same
+allowed fields of <InsideDiameter>, <OutsideDiameter>, and <Length>.
+
 ### Units of Measure in Component Database Files
 
 IMPORTANT: __Materials__ definitions in .orc files all *must* have density specified in
@@ -463,6 +503,7 @@ structural.
    * Cannot specify wall thickness for nose cone or transition shoulders
    * Cannot specify whether nose cone or transition shoulders are capped
    * OR does not model moments of inertia for hollow NC/transition shoulders
+   * Cannot specify shape parameter for OGIVE, POWER, PARABOLIC and HAACK shapes
 * Parachutes:
    * Cannot set drag coefficient for parachutes though UI has this
    * Cannot set a packing volume (nor packed len/diam) for parachutes
