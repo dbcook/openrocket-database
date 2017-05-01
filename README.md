@@ -30,6 +30,7 @@ OpenRocket compatibility:  tested with OpenRocket 15.03
 * Add README discussion about specialty nose cones and printing XML tags
 * Document inability to set nose/transition shape parameter in .orc files
 * Added first increment of Semroc nose cones (LT-225, LT-275)
+* Added Estes BNC-5AX after recovering shape and length from Semroc upscale BC-22597
 
 0.9.0.6 - 30 Apr 2017
 * Semroc balsa couplers added, fixed various errors in Semroc file
@@ -159,7 +160,7 @@ somewhat Mac centric because that's what I use most.
 | ----- | ----- | ----- |
 | `Estes.orc`              | Yes  | Split - see new files below
 | `loc_precision.orc`      | Yes  | 100% 
-| `semroc.orc`             | Yes  | 50%  (tubes, couplers, CRs in, nosecones not started)
+| `semroc.orc`             | Yes  | 55%  (tubes, couplers, CRs in, nosecones just started)
 | `Quest.orc`              | Yes  | --
 | `bluetube.orc`           | Yes  | --
 | `bms.orc`                | Yes  | --
@@ -452,6 +453,21 @@ Note that you will not find specific entries for <EngineBlock>, <CenteringRing>,
 <Bulkhead>, and <LaunchLug>.  These exist but all are special cases of <BodyTube> and have the same
 allowed fields of <InsideDiameter>, <OutsideDiameter>, and <Length>.
 
+#### Enum Values for Nose Cone and Transition Shapes
+
+The allowed values for the "<Shape>" element in NoseCone and Transition elements are:
+
+* CONICAL
+* ELLIPSOID
+* HAACK
+* OGIVE
+* PARABOLIC
+* POWER
+
+The HAACK, OGIVE, PARABOLIC and POWER types all take a shape parameter that can be set in
+the UI, but that cannot be specified in a .orc file and get set to a default value when
+such a part is selected.
+
 ### Units of Measure in Component Database Files
 
 IMPORTANT: __Materials__ definitions in .orc files all *must* have density specified in
@@ -497,20 +513,21 @@ structural.
    * Can only reference materials from within the same file
    * Cannot define any graphic appearance attributes
    * No support for multiple part numbers or SKUs
-   * No way to specify a remark or comment to be displayed in the UI
+   * No way to specify the comment to be displayed in the UI comment tab
    * No support for versioning
+   * Diameter matching is buggy
 * Nose cones/transitions:
+   * Cannot specify shape parameter for OGIVE, POWER, PARABOLIC and HAACK shapes
    * Cannot specify wall thickness for nose cone or transition shoulders
    * Cannot specify whether nose cone or transition shoulders are capped
    * OR does not model moments of inertia for hollow NC/transition shoulders
-   * Cannot specify shape parameter for OGIVE, POWER, PARABOLIC and HAACK shapes
 * Parachutes:
-   * Cannot set drag coefficient for parachutes though UI has this
+   * Cannot set drag coefficient for parachutes, though UI has this
    * Cannot set a packing volume (nor packed len/diam) for parachutes
    * Cannot set a spill hole for parachutes
    * Cannot set different parachute designs (flat, spherical, toroid, x-form, etc.)
 * Streamers:
-   * Cannot set drag coefficient or Cd automatic mode
+   * Cannot set drag coefficient or Cd automatic mode, though UI has them
    * You can set thickness but it does not appear in the UI and may have no effect
    * Cannot specify attachment line parameters (don't exist in UI either)
    * Cannot specify a minimum packing length (usually the stream width + margin)
