@@ -3200,7 +3200,7 @@ Known issues:
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
             <PartNumber>BNC-5E, 70212</PartNumber>
-            <Description>Nose cone, balse, BNC-5E, PN 70212</Description>
+            <Description>Nose cone, balsa, BNC-5E, PN 70212</Description>
             <Material Type="BULK">Balsa, bulk, Estes typical</Material>
             <Filled>true</Filled>
             <Shape>PARABOLIC</Shape>
@@ -3596,6 +3596,9 @@ Known issues:
         </NoseCone>
 
         <!-- BNC-55xx  -->
+
+        <!-- *** BNC-55AM missing ***, exists on Semroc site upscale as BC-27589-->
+        <!-- *** BTC-55Z tailcone for V-2 missing *** -->
         
         <!-- BNC-55AA ref 1975 catalog.  rocketshoppe.com index shows no uses in kits -->
         <NoseCone>
@@ -3612,7 +3615,6 @@ Known issues:
             <Length Unit="in">3.125</Length>
         </NoseCone>
         <!-- BNC-55F (K-22/1222 V-2 only), never got a new PN (discontinued long ago) -->
-        <!-- *** BTC-55Z tailcone for V-2 missing *** -->
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
             <PartNumber>BNC-55F</PartNumber>
