@@ -21,11 +21,21 @@ I invite contributors to create a packaged installer, especially for Windows.
 
 ## Version and compatibility
 
-Current version:  0.9.0.7
+Current version:  0.9.0.8
 
 OpenRocket compatibility:  tested with OpenRocket 15.03
 
 ## Release Notes
+0.9.0.8 - 3 May 2017
+* Added a number of Estes balsa nose cones with dimensions recovered from 1974 custom parts
+  catalog and Semroc legacy site.  Partial list: BNC-5AW, BNC-5BA, BNC-50AR, BNC-52G, BNC-52AG,
+  BNC-55AW, BNC-60AL, BNC-65AF
+* Added research notes on Estes BNC-60T vs BNC-60AK balsa Mercury capsules.
+* Moved BNC-5AL from Estes to Semroc file after finding no proof Estes ever listed it.
+* Rectified a lot of Estes nose cone shapes where PARABOLIC should have been ELLIPSOID
+* Removed unneeded mass overrides for Estes balsa nose cones and added some needed ones
+* Reduced completion status of estes_classic file after finding various problems
+
 0.9.0.7 - 1 May 2017
 * Add README discussion about specialty nose cones and printing XML tags
 * Document inability to set nose/transition shape parameter in .orc files
@@ -167,7 +177,7 @@ somewhat Mac centric because that's what I use most.
 | `Fliskits.orc`           | Yes  | --
 | `giantleaprocketry.orc`  | Yes  | --
 | `publicmissiles.orc`     | Yes  | --
-| `estes_classic.orc`      | No   | 95%
+| `estes_classic.orc`      | No   | 90%
 | `estes_ps2.orc`          | No   | 98%
 | `top_flight.orc`         | No   | 100%
 | `competition_chutes.orc` | No   | 100%
@@ -261,20 +271,27 @@ they are pretty heavy and the CG actually moves a fair amount.
   choosing couplers or inner tubes it sometimes shows parts that are slightly too large to
   fit inside the outer tube.  Verify your dimensions!
 
-* Many specialty nose cones do not match one of the simple CP-computable shapes modeled by
-  OpenRocket.  In these cases an approximate shape is used and noted in comments in the
-  .orc file.  If the mass is too far off as a result, one of two things may be done:
+
+### Advanced Tactics
+
+Many specialty nose cones do not match one of the simple CP-computable shapes modeled by
+OpenRocket.  In these cases an approximate shape is used and noted in comments in the
+.orc file.  If the mass is too far off as a result, one of two things may be done:
+
   * For plastic nose cones, the wall thickness will be adjust to correct the mass.
   * For solid nose cones, a mass override may be used.
 
-* If you are trying to make a visually accurate OR file, some nose cone shapes (Honest
-  John etc.)  can be modeled using a shoulderless forward cone, a short (even zero) length
-  tube, and a shoulderless rear transition.  However, there is no way to do this as a
-  single component preset in a .orc file, so if you want that level of fidelity you will
-  have to do it manually.  Jim Parsons (TRF user K'tesh) has posted many examples of this
-  technique in various TRF threads.  In some cases like the Honest John, you will get
-  reasonable drag and CP computations this way.  However for parts with draggy appliques
-  like the Odyssey nose cone, there is no real way in OpenRocket to get the drag correct.
+If you are trying to make a visually accurate OR file, some nose cone shapes that are
+composites of other simple shapes (BNC-55AM, Honest John etc.) can be modeled using a
+shoulderless forward cone, one or more transitions, and tube extensions for cylindrical
+nose cone sections.  Short (even zero) length "phantom" tubes may need to be added to join
+those items.  However, there is no way to do this kind of thing as a single component
+preset in a .orc file, so if you want that level of fidelity you will have to do it
+manually.  Jim Parsons (TRF user K'tesh) has posted many examples of these techniques in
+various TRF threads.  In cases like the Honest John and Demon nose cones, you will very
+good appearance with reasonable drag and CP computations.  However for parts with draggy
+appliques like the Odyssey nose cone, there is no real way in OpenRocket to get the drag
+correct.
 
   
 ## Conventions
@@ -521,6 +538,9 @@ structural.
    * Cannot specify wall thickness for nose cone or transition shoulders
    * Cannot specify whether nose cone or transition shoulders are capped
    * OR does not model moments of inertia for hollow NC/transition shoulders
+   * No support for drilled-for-a-tube solid (balsa) tail cones.  You can only
+     define a fully filled part, or hollow with constant wall thickness.
+     Therefore, there is no good way to model an Estes BTC-55Z or similar part.
 * Parachutes:
    * Cannot set drag coefficient for parachutes, though UI has this
    * Cannot set a packing volume (nor packed len/diam) for parachutes
@@ -528,8 +548,9 @@ structural.
    * Cannot set different parachute designs (flat, spherical, toroid, x-form, etc.)
 * Streamers:
    * Cannot set drag coefficient or Cd automatic mode, though UI has them
-   * You can set thickness but it does not appear in the UI and may have no effect
-   * Cannot specify attachment line parameters (don't exist in UI either)
+   * You can set thickness in .orc streamer components but it does not appear in the UI
+     and may have no effect
+   * Cannot specify attachment line parameters (they don't exist in the UI either)
    * Cannot specify a minimum packing length (usually the stream width + margin)
 * Fins:
    * Cannot define finset or tubefin components at all
