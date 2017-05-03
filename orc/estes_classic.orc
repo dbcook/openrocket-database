@@ -3188,49 +3188,84 @@ Known issues:
 
              Here are some missing items without known data:
 
-             BNC-5AW PN 070206 (Star Dart only), no dimensions available
-             BNC-5AX PN 070208 (Screamer/Javelin), no official dimensions.
-             BNC-5BA PN 070210 (Mini-BOMARC and #1220 Mars Snooper), no dimensions available
              xxxxxxx PN 070217 (Red Alert #0893 only), balsa NC, no dimensions available, no traditional PN
-             BNC-50AR (old Starship Vega #0653 only), no official dimensions available, spacemodeling.com
-             only has plans of newer version #1320 with PNC-
-             BNC-50BA (old Bomarc #0657 only), no dimensions available
         -->
-
-        <!-- BNC-5AX, PN 070208 (Screamer, Javelin) no official dimensions or weight spec.
-             Semroc BC-22597 is BNC-5AX upscale to LT-225, ogive with exposed len 9.7", giving len for BT-5 of 2.25"
-             So this one is rescued from obscurity.  Shoulder length is taken as 0.25, same as other BT-5 cones.
-        -->
+        
+        <!-- BNC-5AL from Semroc legacy site, weight 0.02 oz.  Estes kit/catalog usage and numeric PN unknown.  Not
+             mentioned in the Brohm Nose Cone Reference. -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>BNC-5AL</PartNumber>
+            <Description>Nose cone, balsa, BNC-5AL, 0.4", rounded cone</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Filled>true</Filled>
+            <Shape>ELLIPSOID</Shape>
+            <OutsideDiameter Unit="in">0.541</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.515</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.25</ShoulderLength>
+            <Length Unit="in">0.4</Length>
+        </NoseCone>
+        
+        <!-- BNC-5AW (Star Dart) ref 1974 custom parts catalog.  Semroc weight 0.02 oz -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>BNC-5AW, 70206</PartNumber>
+            <Description>Nose cone, balsa, BNC-5AW, 2.25", elliptical, PN 70206</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Filled>true</Filled>
+            <Shape>ELLIPSOID</Shape>
+            <OutsideDiameter Unit="in">0.541</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.515</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.25</ShoulderLength>
+            <Length Unit="in">2.25</Length>
+        </NoseCone>
+        <!-- BNC-5AX, PN 070208 (Screamer, Javelin) ref 1974 custom parts catalog. -->
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
             <PartNumber>BNC-5AX, 70208</PartNumber>
-            <Description>Nose cone, balsa, BNC-5AX, PN 70208</Description>
+            <Description>Nose cone, balsa, BNC-5AX, 2.25", ogive, PN 70208</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Filled>true</Filled>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">0.541</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.515</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.50</ShoulderLength>
+            <Length Unit="in">2.25</Length>
+        </NoseCone>
+        <!-- BNC-5BA (Mini-BOMARC and #1220 Mars Snooper) ref 1974 custom parts catalog.
+             Semroc weight 0.01 oz, Estes .013 oz
+             Shape is shown as a "ram jet" style nacelle.  Approximated as an ogive. -->
+        -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>BNC-5BA, 70210</PartNumber>
+            <Description>Nose cone, balsa, BNC-5BA, 0.625", ramjet nacelle, PN 70210</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Filled>true</Filled>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">0.541</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.515</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.18</ShoulderLength>
+            <Length Unit="in">0.625</Length>
+        </NoseCone>
+        <!-- BNC-5E, ref 1974 parts catalog, 0.020 oz -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>BNC-5E, 70212</PartNumber>
+            <Description>Nose cone, balsa, BNC-5E, 1.375", fat ogive, PN 70212</Description>
             <Material Type="BULK">Balsa, bulk, Estes typical</Material>
             <Filled>true</Filled>
             <Shape>OGIVE</Shape>
             <OutsideDiameter Unit="in">0.541</OutsideDiameter>
             <ShoulderDiameter Unit="in">0.515</ShoulderDiameter>
             <ShoulderLength Unit="in">0.25</ShoulderLength>
-            <Length Unit="in">2.25</Length>
-        </NoseCone>
-        <!-- BNC-5E, 0.020 oz -->
-        <NoseCone>
-            <Manufacturer>Estes</Manufacturer>
-            <PartNumber>BNC-5E, 70212</PartNumber>
-            <Description>Nose cone, balsa, BNC-5E, PN 70212</Description>
-            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
-            <Filled>true</Filled>
-            <Shape>PARABOLIC</Shape>
-            <OutsideDiameter Unit="in">0.541</OutsideDiameter>
-            <ShoulderDiameter Unit="in">0.515</ShoulderDiameter>
-            <ShoulderLength Unit="in">0.25</ShoulderLength>
             <Length Unit="in">1.375</Length>
         </NoseCone>
-        <!-- BNC-5S, 0.016 oz -->
+        <!-- BNC-5S, ref 1974 custom parts catalog, 0.016 oz -->
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
             <PartNumber>BNC-5S, 70214</PartNumber>
-            <Description>Nose cone, balsa, BNC-5S, PN 70214</Description>
+            <Description>Nose cone, balsa, BNC-5S, 1.5", conical, PN 70214</Description>
             <Material Type="BULK">Balsa, bulk, Estes typical</Material>
             <Filled>true</Filled>
             <Shape>CONICAL</Shape>
@@ -3239,24 +3274,24 @@ Known issues:
             <ShoulderLength Unit="in">0.25</ShoulderLength>
             <Length Unit="in">1.5</Length>
         </NoseCone>
-        <!-- BNC-5V, 0.013 oz -->
+        <!-- BNC-5V ref 1974 parts catalog,  0.013 oz -->
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
             <PartNumber>BNC-5V, 70216</PartNumber>
-            <Description>Nose cone, balsa, BNC-5V, PN 70216</Description>
+            <Description>Nose cone, balsa, BNC-5V, 0.75", elliptical, PN 70216</Description>
             <Material Type="BULK">Balsa, bulk, Estes typical</Material>
             <Filled>true</Filled>
-            <Shape>PARABOLIC</Shape>
+            <Shape>ELLIPSOID</Shape>
             <OutsideDiameter Unit="in">0.541</OutsideDiameter>
             <ShoulderDiameter Unit="in">0.515</ShoulderDiameter>
             <ShoulderLength Unit="in">0.25</ShoulderLength>
             <Length Unit="in">0.75</Length>
         </NoseCone>
-        <!-- BNC-5W, 0.039 oz -->
+        <!-- BNC-5W ref 1974 parts catalog, 0.039 oz -->
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
             <PartNumber>BNC-5W, 70218</PartNumber>
-            <Description>Nose cone, balsa, BNC-5W, PN 70218</Description>
+            <Description>Nose cone, balsa, BNC-5W, 2.875", ogive, PN 70218</Description>
             <Material Type="BULK">Balsa, bulk, Estes typical</Material>
             <Filled>true</Filled>
             <Shape>OGIVE</Shape>
@@ -3267,18 +3302,19 @@ Known issues:
         </NoseCone>
 
         <!-- BNC-10xx -->
-        <!-- Note that the stated OD of the BNC-10xx (see 1975 cat) of .728 is different than the
+        
+        <!-- The stated OD of the BNC-10xx (see 1975 cat) of .728 is different than the
              given OD of 0.720 for the BT-10 mylar tubes.  This is real; the nose cones were
              slightly oversized for the tubes -->
 
-        <!-- BNC-10A, 0.03 oz -->
+        <!-- BNC-10A, 0.03 oz.  Used in K-4/#1204 Streak -->
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
             <PartNumber>BNC-10A, 70220</PartNumber>
-            <Description>Nose cone, balsa, BNC-10A, PN 70220</Description>
+            <Description>Nose cone, balsa, BNC-10A, 0.8", elliptical, PN 70220</Description>
             <Material Type="BULK">Balsa, bulk, Estes typical</Material>
             <Filled>true</Filled>
-            <Shape>PARABOLIC</Shape>
+            <Shape>ELLIPSOID</Shape>
             <OutsideDiameter Unit="in">0.728</OutsideDiameter>
             <ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
             <ShoulderLength Unit="in">0.25</ShoulderLength>
@@ -3288,10 +3324,10 @@ Known issues:
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
             <PartNumber>BNC-10B, 70222</PartNumber>
-            <Description>Nose cone, balsa, BNC-10B, PN 70222</Description>
+            <Description>Nose cone, balsa, BNC-10B, 1.69", elliptical, PN 70222</Description>
             <Material Type="BULK">Balsa, bulk, Estes typical</Material>
             <Filled>true</Filled>
-            <Shape>PARABOLIC</Shape>
+            <Shape>ELLIPSOID</Shape>
             <OutsideDiameter Unit="in">0.728</OutsideDiameter>
             <ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
             <ShoulderLength Unit="in">0.312</ShoulderLength>
@@ -3299,17 +3335,15 @@ Known issues:
         </NoseCone>
 
         <!-- BNC-20xx -->
-        <!-- BNC-20CB 70231 (#1279 Nike-Ajax), no dimensions available -->
 
         <!-- BNC-20A (K-7 Phantom, K-13 Falcon) ref 1975 catalog, 0.03 oz -->
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
             <PartNumber>BNC-20A, 70224</PartNumber>
-            <Description>Nose cone, balsa, BNC-20A, PN 70224</Description>
+            <Description>Nose cone, balsa, BNC-20A, 0.8", rounded ogive, PN 70224</Description>
             <Material Type="BULK">Balsa, bulk, Estes typical</Material>
-            <Mass Unit="oz">0.03</Mass>
             <Filled>true</Filled>
-            <Shape>PARABOLIC</Shape>
+            <Shape>ELLIPSOID</Shape>
             <OutsideDiameter Unit="in">0.736</OutsideDiameter>
             <ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
             <ShoulderLength Unit="in">0.25</ShoulderLength>
@@ -3319,81 +3353,98 @@ Known issues:
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
             <PartNumber>BNC-20AM, 70226</PartNumber>
-            <Description>Nose cone, balsa, BNC-20AM, PN 70226</Description>
+            <Description>Nose cone, balsa, BNC-20AM, 2.0", rounded cone, PN 70226</Description>
             <Material Type="BULK">Balsa, bulk, Estes typical</Material>
-            <Mass Unit="oz">0.06</Mass>
             <Filled>true</Filled>
-            <Shape>PARABOLIC</Shape>
+            <Shape>ELLIPSOID</Shape>
             <OutsideDiameter Unit="in">0.736</OutsideDiameter>
             <ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
             <ShoulderLength Unit="in">0.50</ShoulderLength>
             <Length Unit="in">2.00</Length>
         </NoseCone>
-        <!-- BNC-20AZ (#2033 Trident II etc.), ref balsamachining.com classic part -->
-        <!-- Note BMS drawing shows 2.4 in length but gives length incorrectly in a note as 1.25 -->
+        <!-- BNC-20AZ (#2033 Trident II etc.), ref 1974 parts catalog.
+             BMS drawing shows slightly off 2.4 in length but gives length really incorrectly in a note as 1.25 -->
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
             <PartNumber>BNC-20AZ, 70288</PartNumber>
-            <Description>Nose cone, balsa, BNC-20AZ, PN 70288</Description>
+            <Description>Nose cone, balsa, BNC-20AZ, 2.5", ogive, PN 70288</Description>
             <Material Type="BULK">Balsa, bulk, Estes typical</Material>
-            <Mass Unit="oz">0.06</Mass>
             <Filled>true</Filled>
             <Shape>PARABOLIC</Shape>
             <OutsideDiameter Unit="in">0.736</OutsideDiameter>
             <ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
             <ShoulderLength Unit="in">0.50</ShoulderLength>
-            <Length Unit="in">2.4</Length>
+            <Length Unit="in">2.5</Length>
         </NoseCone>
         <!-- BNC-20B (K-5 Apogee II etc.) ref 1988 catalog, 0.05 oz -->
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
             <PartNumber>BNC-20B, 70230</PartNumber>
-            <Description>Nose cone, balsa, BNC-20B, PN 70230</Description>
+            <Description>Nose cone, balsa, BNC-20B, 1.7", elliptical, PN 70230</Description>
             <Material Type="BULK">Balsa, bulk, Estes typical</Material>
-            <Mass Unit="oz">0.05</Mass>
             <Filled>true</Filled>
-            <Shape>PARABOLIC</Shape>
+            <Shape>ELLIPSOID</Shape>
             <OutsideDiameter Unit="in">0.736</OutsideDiameter>
             <ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
             <ShoulderLength Unit="in">0.312</ShoulderLength>
             <Length Unit="in">1.687</Length>
         </NoseCone>
-        <!-- BNC-20L 70234 (Mini-Bertha #0803c only), dimensions from balsamachining.com, no mass given -->
+        <!-- BNC-20CB 70231 (#1279 Nike-Ajax), dimensions from Semroc legacy site, weight 0.04 oz
+             Not in the 1974 custom parts catalog.
+        -->
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
-            <PartNumber>BNC-20L, 70234</PartNumber>
-            <Description>Nose cone, balsa, BNC-20L, PN 70234, Mini-Bertha</Description>
+            <PartNumber>BNC-20CB, 70231</PartNumber>
+            <Description>Nose cone, balsa, BNC-20CB, 1.75", ogive, PN 70231</Description>
             <Material Type="BULK">Balsa, bulk, Estes typical</Material>
             <Filled>true</Filled>
-            <Shape>PARABOLIC</Shape>
+            <Shape>OGIVE</Shape>
             <OutsideDiameter Unit="in">0.736</OutsideDiameter>
             <ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
             <ShoulderLength Unit="in">0.50</ShoulderLength>
-            <Length Unit="in">1.40</Length>
+            <Length Unit="in">1.75</Length>
+        </NoseCone>
+        <!-- BNC-20L 70234 (Mini-Bertha #0803 only) ref 1974 parts catalog
+             SOURCE ERROR: Semroc legacy gives incorrect length 2.0", weight .04 oz
+                           Estes official length is 1 3/8" but:
+                           Semroc new gives length 1.4"
+                           balsamachining.com also gives length 1.4"
+        -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>BNC-20L, 70234</PartNumber>
+            <Description>Nose cone, balsa, BNC-20L, 1.375", parabolic, PN 70234</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Filled>true</Filled>
+            <Shape>ELLIPSOID</Shape>
+            <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.50</ShoulderLength>
+            <Length Unit="in">1.375</Length>
         </NoseCone>
         <!-- BNC-20N 70236 ref 1975 catalog, 0.08 oz -->
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
             <PartNumber>BNC-20N, 70236</PartNumber>
-            <Description>Nose cone, balsa, BNC-20N, PN 70236</Description>
+            <Description>Nose cone, balsa, BNC-20N, 2.75", ogive, PN 70236</Description>
             <Material Type="BULK">Balsa, bulk, Estes typical</Material>
             <Mass Unit="oz">0.08</Mass>
             <Filled>true</Filled>
-            <Shape>PARABOLIC</Shape>
+            <Shape>OGIVE</Shape>
             <OutsideDiameter Unit="in">0.736</OutsideDiameter>
             <ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
             <ShoulderLength Unit="in">0.50</ShoulderLength>
             <Length Unit="in">2.75</Length>
         </NoseCone>
-        <!-- BNC-20P 70238 (Spaceman only), shape PARABOLIC is approximation, 0.07 oz -->
+        <!-- BNC-20P 70238 (Spaceman only), shape is approximation, 0.07 oz -->
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
             <PartNumber>BNC-20P, 70238</PartNumber>
-            <Description>Nose cone, balsa, BNC-20P, PN 70238, Spaceman type</Description>
+            <Description>Nose cone, balsa, BNC-20P, 1.3", spaceman, PN 70238</Description>
             <Material Type="BULK">Balsa, bulk, Estes typical</Material>
             <Mass Unit="oz">0.07</Mass>
             <Filled>true</Filled>
-            <Shape>PARABOLIC</Shape>
+            <Shape>ELLIPSOID</Shape>
             <OutsideDiameter Unit="in">0.90</OutsideDiameter>
             <ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
             <ShoulderLength Unit="in">0.437</ShoulderLength>
@@ -3403,7 +3454,7 @@ Known issues:
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
             <PartNumber>BNC-20R, 70240</PartNumber>
-            <Description>Nose cone, balsa, BNC-20R, PN 70240</Description>
+            <Description>Nose cone, balsa, BNC-20R, 2.75", conical, PN 70240</Description>
             <Material Type="BULK">Balsa, bulk, Estes typical</Material>
             <Mass Unit="oz">0.07</Mass>
             <Filled>true</Filled>
@@ -3417,7 +3468,7 @@ Known issues:
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
             <PartNumber>BNC-20Y, 70241</PartNumber>
-            <Description>Nose cone, balsa, BNC-20Y, PN 70241</Description>
+            <Description>Nose cone, balsa, BNC-20Y, 1.0", conical, PN 70241</Description>
             <Material Type="BULK">Balsa, bulk, Estes typical</Material>
             <Mass Unit="oz">0.02</Mass>
             <Filled>true</Filled>
@@ -3429,16 +3480,16 @@ Known issues:
         </NoseCone>
 
         <!-- BNC-30XX -->
-        <!-- Some of the BNC-30xx were never used in kits according to the rocketshoppe index -->
+        <!-- Some of the BNC-30xx were never used in kits according to the Brohm index -->
+        
         <!-- BNC-30C 70242 ref 1975 catalog -->
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
             <PartNumber>BNC-30C, 70242</PartNumber>
-            <Description>Nose cone, balsa, BNC-30C, PN 70242</Description>
+            <Description>Nose cone, balsa, BNC-30C, 0.75", spherical, PN 70242</Description>
             <Material Type="BULK">Balsa, bulk, Estes typical</Material>
-            <Mass Unit="oz">0.04</Mass>
             <Filled>true</Filled>
-            <Shape>PARABOLIC</Shape>
+            <Shape>ELLIPSOID</Shape>
             <OutsideDiameter Unit="in">0.767</OutsideDiameter>
             <ShoulderDiameter Unit="in">0.725</ShoulderDiameter>
             <ShoulderLength Unit="in">0.375</ShoulderLength>
@@ -3448,11 +3499,10 @@ Known issues:
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
             <PartNumber>BNC-30D, 70244</PartNumber>
-            <Description>Nose cone, balsa, BNC-30D, PN 70244</Description>
+            <Description>Nose cone, balsa, BNC-30D, 1.5", fat ogive, PN 70244</Description>
             <Material Type="BULK">Balsa, bulk, Estes typical</Material>
-            <Mass Unit="oz">0.06</Mass>
             <Filled>true</Filled>
-            <Shape>PARABOLIC</Shape>
+            <Shape>ELLIPSOID</Shape>
             <OutsideDiameter Unit="in">0.767</OutsideDiameter>
             <ShoulderDiameter Unit="in">0.725</ShoulderDiameter>
             <ShoulderLength Unit="in">0.375</ShoulderLength>
@@ -3462,9 +3512,8 @@ Known issues:
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
             <PartNumber>BNC-30E, 70246</PartNumber>
-            <Description>Nose cone, balsa, BNC-30E, PN 70246</Description>
+            <Description>Nose cone, balsa, BNC-30E, 2.2", ogive, PN 70246</Description>
             <Material Type="BULK">Balsa, bulk, Estes typical</Material>
-            <Mass Unit="oz">0.07</Mass>
             <Filled>true</Filled>
             <Shape>OGIVE</Shape>
             <OutsideDiameter Unit="in">0.767</OutsideDiameter>
@@ -3476,9 +3525,8 @@ Known issues:
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
             <PartNumber>BNC-30M, 70248</PartNumber>
-            <Description>Nose cone, balsa, BNC-30M, PN 70248</Description>
+            <Description>Nose cone, balsa, BNC-30M, 1.5", ogive, PN 70248</Description>
             <Material Type="BULK">Balsa, bulk, Estes typical</Material>
-            <Mass Unit="oz">0.06</Mass>
             <Filled>true</Filled>
             <Shape>OGIVE</Shape>
             <OutsideDiameter Unit="in">0.767</OutsideDiameter>
@@ -3490,9 +3538,8 @@ Known issues:
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
             <PartNumber>BNC-30N, 70250</PartNumber>
-            <Description>Nose cone, balsa, BNC-30N, PN 70250</Description>
+            <Description>Nose cone, balsa, BNC-30N, 2.75", ogive, PN 70250</Description>
             <Material Type="BULK">Balsa, bulk, Estes typical</Material>
-            <Mass Unit="oz">0.08</Mass>
             <Filled>true</Filled>
             <Shape>OGIVE</Shape>
             <OutsideDiameter Unit="in">0.767</OutsideDiameter>
@@ -3501,11 +3548,15 @@ Known issues:
             <Length Unit="in">2.75</Length>
         </NoseCone>
 
-        <!-- BNC-50AD 70252 ref 1975 catalog, shape PARABOLIC is approximation -->
+
+        <!-- BNC-50xx BT-50 nose cones -->
+
+        <!-- BNC-50AD 70252 Honest John ref 1975 catalog, shape PARABOLIC is approximation -->
+        <!-- mass override needed since it's significantly heavier than the shape implies -->
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
             <PartNumber>BNC-50AD, 70252</PartNumber>
-            <Description>Nose cone, balsa, BNC-50AD, PN 70252, Honest John type</Description>
+            <Description>Nose cone, balsa, BNC-50AD, 4.1", Honest John, PN 70252</Description>
             <Material Type="BULK">Balsa, bulk, Estes typical</Material>
             <Mass Unit="oz">0.25</Mass>
             <Filled>true</Filled>
@@ -3515,39 +3566,68 @@ Known issues:
             <ShoulderLength Unit="in">0.5</ShoulderLength>
             <Length Unit="in">4.062</Length>
         </NoseCone>
-        <!-- BNC-50BC (Wolverine #0816 etc.), no official dimensions available. Ramjet style cone a la BOMARC pods
-             Scaling from scans on spacemodeling.com, total length is 2.7 in, and length of the ramjet
-             cone is 0.5".  Shoulder length and mass cannot be determined; adopted mass of BNC-50K.  -->
+        <!--
+             BNC-50AR (old Starship Vega #0653 only) ref 1974 custom parts catalog, weight .375 oz
+             Semroc legacy site has shape/length, weight 0.15 oz
+        -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>BNC-50AR, 70254</PartNumber>
+            <Description>Nose cone, balsa, BNC-50AR, 5.5", rounded cone, PN 70254</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Filled>true</Filled>
+            <Shape>CONICAL</Shape>
+            <OutsideDiameter Unit="in">1.30</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.5</ShoulderLength>
+            <Length Unit="in">5.5</Length>
+        </NoseCone>
+        
+        <!-- BNC-50BA (old BOMARC #0657) ref Semroc legacy website.  Numeric PN (if any) not known.
+             conical shape looks like best match.  Semroc weight given as 0.05 oz -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>BNC-50BA</PartNumber>
+            <Description>Nose cone, balsa, BNC-50BA, 1.3", ramjet nacelle</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Filled>true</Filled>
+            <Shape>CONICAL</Shape>
+            <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.50</ShoulderLength>
+            <Length Unit="in">1.3</Length>
+        </NoseCone>
+        <!-- BNC-50BC (Wolverine #0816 etc.), ref 1974 parts catalog. Ramjet style cone a la BOMARC pods.
+             Estes gives len 2 3/4" and weight .156 oz but Semroc gives length 2.6" and weight 0.11 oz.
+             Scaling from scans on spacemodeling.com, length of the ramjet cone is 0.5".
+        -->
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
             <PartNumber>BNC-50BC, 70258</PartNumber>
-            <Description>Nose cone, balsa, BNC-50BC, PN 70258, Wolverine ramjet type</Description>
+            <Description>Nose cone, balsa, BNC-50BC, 2.6", ramjet nacelle, PN 70258</Description>
             <Material Type="BULK">Balsa, bulk, Estes typical</Material>
-            <Mass Unit="oz">0.13</Mass>
             <Filled>true</Filled>
             <Shape>OGIVE</Shape>
             <OutsideDiameter Unit="in">0.976</OutsideDiameter>
             <ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
             <ShoulderLength Unit="in">0.5</ShoulderLength>
-            <Length Unit="in">2.7</Length>
+            <Length Unit="in">2.6</Length>
         </NoseCone>
-        <!-- BNC-50BD (old Firecat #0821 only), flared ogive so shape is an approximation, mass assumed same
-             as Honest John BNC-50AD
-             erockets.biz shows semroc legacy part as a 4.5 in flared ogive, this is generally confirmed by
-             kit instructions on www.spacemoodeling.org/jimz.
-             Overall len of firecat is 14.35, body tube is 9.5 and engine hook overhang is 0.25, so NC length
-             must be 4.6 inches.  NC diameter is not given, we are assuming similar to the Honest John BNC-50AD
-             If you want to model this cone more accurately for aerodynamics you should mate a 1.3" ogive nose
-             of about 3" long to a 1.3 to .976 transition of about 1.6" long.
+        <!-- BNC-50BD (old Firecat #0821 only), ref 1974 custom parts catalog.
+             Flared ogive so shape is an approximation.  Mass override needed due to heavier flared shape.
+             Estes 1974 parts catalog gives len 5", Semroc legacy has 4.5".
+             NC max diameter is 1.174" on Semroc legacy.
+             If you want to model this cone more accurately for aerodynamics you should mate a 1.174" ogive nose
+             of about 3" long to a 1.174 to .976 transition of about 1.5" long.
              For this and similar cases we really need OR to support predefined parts that are compositions
              of other parts.
         -->
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
-            <PartNumber>BNC-50BD, 70252</PartNumber>
-            <Description>Nose cone, balsa, BNC-50BD, PN 70260, Firecat type</Description>
+            <PartNumber>BNC-50BD, 70260</PartNumber>
+            <Description>Nose cone, balsa, BNC-50BD, 4.5", flared ogive, PN 70260</Description>
             <Material Type="BULK">Balsa, bulk, Estes typical</Material>
-            <Mass Unit="oz">0.25</Mass>
+            <Mass Unit="oz">0.523</Mass>
             <Filled>true</Filled>
             <Shape>OGIVE</Shape>
             <OutsideDiameter Unit="in">1.30</OutsideDiameter>
@@ -3559,11 +3639,10 @@ Known issues:
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
             <PartNumber>BNC-50J, 70256</PartNumber>
-            <Description>Nose cone, balsa, BNC-50J, PN 70256</Description>
+            <Description>Nose cone, balsa, BNC-50J, 1.375", elliptical, PN 70256</Description>
             <Material Type="BULK">Balsa, bulk, Estes typical</Material>
-            <Mass Unit="oz">0.08</Mass>
             <Filled>true</Filled>
-            <Shape>PARABOLIC</Shape>
+            <Shape>ELLIPSOID</Shape>
             <OutsideDiameter Unit="in">0.976</OutsideDiameter>
             <ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
             <ShoulderLength Unit="in">0.50</ShoulderLength>
@@ -3573,9 +3652,8 @@ Known issues:
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
             <PartNumber>BNC-50K, 70262</PartNumber>
-            <Description>Nose cone, balsa, BNC-50K, PN 70262</Description>
+            <Description>Nose cone, balsa, BNC-50K, 2.75", ogive, PN 70262</Description>
             <Material Type="BULK">Balsa, bulk, Estes typical</Material>
-            <Mass Unit="oz">0.13</Mass>
             <Filled>true</Filled>
             <Shape>OGIVE</Shape>
             <OutsideDiameter Unit="in">0.976</OutsideDiameter>
@@ -3587,11 +3665,10 @@ Known issues:
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
             <PartNumber>BNC-50X, 70264</PartNumber>
-            <Description>Nose cone, balsa, BNC-50X, PN 70264</Description>
+            <Description>Nose cone, balsa, BNC-50X, 3.25", PN 70264</Description>
             <Material Type="BULK">Balsa, bulk, Estes typical</Material>
-            <Mass Unit="oz">0.15</Mass>
             <Filled>true</Filled>
-            <Shape>PARABOLIC</Shape>
+            <Shape>ELLIPSOID</Shape>
             <OutsideDiameter Unit="in">0.976</OutsideDiameter>
             <ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
             <ShoulderLength Unit="in">0.50</ShoulderLength>
@@ -3601,7 +3678,7 @@ Known issues:
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
             <PartNumber>BNC-50Y, 70266</PartNumber>
-            <Description>Nose cone, balsa, BNC-50Y, PN 70266</Description>
+            <Description>Nose cone, balsa, BNC-50Y, 4.375", ogive, PN 70266</Description>
             <Material Type="BULK">Balsa, bulk, Estes typical</Material>
             <Mass Unit="oz">0.16</Mass>
             <Filled>true</Filled>
@@ -3612,18 +3689,68 @@ Known issues:
             <Length Unit="in">4.375</Length>
         </NoseCone>
 
+        <!-- ***Investigate PN 70401 "Sergeant (7047)" and 70402 "Sandpiper (7048)" BT-50 size NCs from 1974 parts catalog.
+             They are unique in lacking BNC series names, and have a specified 1.000" OD instead of BT-50 0.976"
+             These do not appear in the Brohm NC list, where the #1389 Sandpiper has a PNC-50S, and there is no
+             listing for a Sergeant.  Possibly cross-listed from Centuri series 10 size?
+        -->
+
+        <!-- BNC-52xx -->
+
+        <!-- BNC-52G PN 70270 (K-28 Thor Agena B capsule, later in K-59 SPEV) is found in the Brohm nose cone reference.
+             PN is from the 1974 custom parts catalog.  Neither the the K-28 nor K-59 instructions have numeric PNs.
+             Dimensions and mass override from 1974 custom parts catalog.
+             Conical is just as wrong as any other choice for an OpenRocket shape.
+             
+             SOURCE ERROR:  eRockets/Semroc 2017 site erroneously notates a BNC-50G long ogive as "Thor Agena nose cone"
+             but it is the wrong shape, and the K-28 Thor Agena used BT-52, not BT-50.
+             -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>BNC-52G, 70270</PartNumber>
+            <Description>Nose cone, balsa, BNC-52G, 1.25", capsule, PN 70270</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Mass Unit="oz">0.056</Mass>
+            <Filled>true</Filled>
+            <Shape>CONICAL</Shape>
+            <OutsideDiameter Unit="in">1.014</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.986</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.50</ShoulderLength>
+            <Length Unit="in">1.25</Length>
+        </NoseCone>
+
+        <!-- BNC-52AG PN 70268 (K-39/#1239 Semi Scale Saturn V) is a 1/242 scale Apollo capsule.  PN and dimensions
+             and unrealistically precise weight are from 1974 custom parts catalog.
+             The CONICAL shape is of course a complete lie but will give a closer drag coefficient.
+        -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>BNC-52AG, 70268</PartNumber>
+            <Description>Nose cone, balsa, BNC-52AG, 3.25", capsule, PN 70268</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Mass Unit="oz">0.106</Mass>
+            <Filled>true</Filled>
+            <Shape>CONICAL</Shape>
+            <OutsideDiameter Unit="in">1.014</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.986</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.50</ShoulderLength>
+            <Length Unit="in">3.25</Length>
+        </NoseCone>
+
         <!-- BNC-55xx  -->
 
-        <!-- *** BNC-55AM missing ***, exists on Semroc site upscale as BC-27589-->
-        <!-- *** BTC-55Z tailcone for V-2 missing *** -->
         
-        <!-- BNC-55AA ref 1975 catalog.  rocketshoppe.com index shows no uses in kits -->
+        <!-- *** BTC-55Z tailcone for V-2 missing *** OR cannot really model drilled transitions accurately.
+             Data from 1974 custom parts catalog:  Length 3", shoulder 0.5", drilled for BT-20.
+             Model as reducing ogive transition.
+        -->
+        
+        <!-- BNC-55AA ref 1975 catalog.  Brohm index shows no uses in kits -->
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
             <PartNumber>BNC-55AA, 70272</PartNumber>
-            <Description>Nose cone, balsa, BNC-55AA, PN 70272</Description>
+            <Description>Nose cone, balsa, BNC-55AA, 3.125", ogive, PN 70272</Description>
             <Material Type="BULK">Balsa, bulk, Estes typical</Material>
-            <Mass Unit="oz">0.15</Mass>
             <Filled>true</Filled>
             <Shape>OGIVE</Shape>
             <OutsideDiameter Unit="in">1.325</OutsideDiameter>
@@ -3631,13 +3758,30 @@ Known issues:
             <ShoulderLength Unit="in">0.5</ShoulderLength>
             <Length Unit="in">3.125</Length>
         </NoseCone>
-        <!-- BNC-55F (K-22/1222 V-2 only), never got a new PN (discontinued long ago) -->
+        <!-- BNC-55AM PN 70280 (#1258 Demon) from Brohm list and Semroc legacy site.  Semroc also carries an upscale as
+             BC-27589.
+             The actual shape is a rounded-tip cone with a ~0.5" cylindrical section at the aft end.  It's far enough
+             away from any OpenRocket shape that we use a mass override.  Shoulder len estimated from Semroc drawing.
+        -->
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
-            <PartNumber>BNC-55F</PartNumber>
-            <Description>Nose cone, balsa, BNC-55F</Description>
+            <PartNumber>BNC-55AM, 70280</PartNumber>
+            <Description>Nose cone, balsa, BNC-55AM, 4.2", rounded cone, PN 70280</Description>
             <Material Type="BULK">Balsa, bulk, Estes typical</Material>
-            <Mass Unit="oz">0.19</Mass>
+            <Mass Unit="oz">0.27</Mass>
+            <Filled>true</Filled>
+            <Shape>ELLIPSOID</Shape>
+            <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+            <ShoulderDiameter Unit="in">1.283</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.75</ShoulderLength>
+            <Length Unit="in">4.2</Length>
+        </NoseCone>
+        <!-- BNC-55F (K-22/1222 V-2 only), ref 1975 catalog, Brohm fails to list the PN -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>BNC-55F, 70278</PartNumber>
+            <Description>Nose cone, balsa, BNC-55F, 3.875", ogive, PN 70278</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
             <Filled>true</Filled>
             <Shape>OGIVE</Shape>
             <OutsideDiameter Unit="in">1.325</OutsideDiameter>
@@ -3645,15 +3789,14 @@ Known issues:
             <ShoulderLength Unit="in">0.5</ShoulderLength>
             <Length Unit="in">3.875</Length>
         </NoseCone>
-        <!-- BNC-55AC (K-26 ARCAS etc.) -->
+        <!-- BNC-55AC PN 70274 (K-26/#1226 ARCAS, K-47 Cherokee-D).  Replaced with PNC-55AC by 1975. -->
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
             <PartNumber>BNC-55AC, 70274</PartNumber>
-            <Description>Nose cone, balsa, BNC-55AC, PN 70274</Description>
+            <Description>Nose cone, balsa, BNC-55AC, 5.375", ogive, PN 70274</Description>
             <Material Type="BULK">Balsa, bulk, Estes typical</Material>
-            <Mass Unit="oz">0.32</Mass>
             <Filled>true</Filled>
-            <Shape>CONICAL</Shape>
+            <Shape>OGIVE</Shape>
             <OutsideDiameter Unit="in">1.325</OutsideDiameter>
             <ShoulderDiameter Unit="in">1.283</ShoulderDiameter>
             <ShoulderLength Unit="in">0.375</ShoulderLength>
@@ -3663,11 +3806,10 @@ Known issues:
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
             <PartNumber>BNC-55AO, 70276</PartNumber>
-            <Description>Nose cone, balsa, BNC-55AO, PN 70276</Description>
+            <Description>Nose cone, balsa, BNC-55AO, 5.0", elliptical, PN 70276</Description>
             <Material Type="BULK">Balsa, bulk, Estes typical</Material>
-            <Mass Unit="oz">0.43</Mass>
             <Filled>true</Filled>
-            <Shape>PARABOLIC</Shape>
+            <Shape>ELLIPSOID</Shape>
             <OutsideDiameter Unit="in">1.325</OutsideDiameter>
             <ShoulderDiameter Unit="in">1.283</ShoulderDiameter>
             <ShoulderLength Unit="in">0.75</ShoulderLength>
@@ -3675,11 +3817,13 @@ Known issues:
         </NoseCone>
 
         <!-- BNC-60xx (see 1971 catalog) -->
-        <!-- BNC-60AB is Gemini capsule, conical shape is approximate -->
+
+        <!-- BNC-60AB PN 70284 ref 1971 catalog is a Gemini capsule, conical shape is approximate -->
+        <!-- SOURCE ERROR: Brohm says BNC-60AB goes with K-21 Gemini Titan, but that was a BT-70 model! -->
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
-            <PartNumber>BNC-60AB</PartNumber>
-            <Description>Nose cone, balsa, BNC-60AB, Gemini Capsule</Description>
+            <PartNumber>BNC-60AB, 70284</PartNumber>
+            <Description>Nose cone, balsa, BNC-60AB, 2.625", Gemini Capsule, PN 70284</Description>
             <Material Type="BULK">Balsa, bulk, Estes typical</Material>
             <Mass Unit="oz">0.23</Mass>
             <Filled>true</Filled>
@@ -3689,12 +3833,74 @@ Known issues:
             <ShoulderLength Unit="in">0.375</ShoulderLength>
             <Length Unit="in">2.625</Length>
         </NoseCone>
-        <!-- BNC-60T is Gemini Capsule, conical shape is approximate, 0.17 oz -->
+        <!-- BNC-60AH, ref 1971 catalog, weight 1.0 oz.  PN from 1974 custom parts catalog -->
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
-            <PartNumber>BNC-60T</PartNumber>
-            <Description>Nose cone, balsa, BNC-60T, Gemini Capsule</Description>
-            <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+            <PartNumber>BNC-60AH, 70286</PartNumber>
+            <Description>Nose cone, balsa, BNC-60AH, 7.25", elliptical, PN 70286</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Filled>true</Filled>
+            <Shape>ELLIPSOID</Shape>
+            <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+            <ShoulderDiameter Unit="in">1.595</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.875</ShoulderLength>
+            <Length Unit="in">7.25</Length>
+        </NoseCone>
+        <!-- BNC-60AL PN 70288 (K-43/#1243 Mars Lander).  Dimensions, PN and weight from 1974 parts catalog -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>BNC-60AL, 70288</PartNumber>
+            <Description>Nose cone, balsa, BNC-60AL, 1.25", Mars Lander, PN 70288</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Mass Unit="oz">0.268</Mass>
+            <Filled>true</Filled>
+            <Shape>ELLIPSOID</Shape>
+            <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+            <ShoulderDiameter Unit="in">1.595</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.5</ShoulderLength>
+            <Length Unit="in">1.25</Length>
+        </NoseCone>
+        <!-- BNC-60AK PN 70290 (K-41/#1241 Mercury Redstone) is Mercury capsule, conical shape is approximate
+             Ref 1974 custom parts catalog and K-41 instructions found on JimZ site
+             BNC-60AK also appears in Brohm and on the Semroc parts list page for K-41/#1241.
+        -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>BNC-60AK, 70290</PartNumber>
+            <Description>Nose cone, balsa, BNC-60AK, 3.0", Gemini Capsule, PN 70290</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Mass Unit="oz">0.308</Mass>
+            <Filled>true</Filled>
+            <Shape>CONICAL</Shape>
+            <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+            <ShoulderDiameter Unit="in">1.595</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.375</ShoulderLength>
+            <Length Unit="in">3.0</Length>
+        </NoseCone>
+        <!-- BNC-60L PN 70292 (K-6 Ranger, K-23 Big Bertha). Ref 1971 catalog and 1974 custom parts catalog. -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>BNC-60L, 70292</PartNumber>
+            <Description>Nose cone, balsa, BNC-60L, 3.125", rounded ogive, PN 70292</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Filled>true</Filled>
+            <Shape>ELLIPSOID</Shape>
+            <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+            <ShoulderDiameter Unit="in">1.595</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.625</ShoulderLength>
+            <Length Unit="in">3.125</Length>
+        </NoseCone>
+        <!-- BNC-60T ref 1974 custom parts catalog is a Mercury capsule, conical shape is approximate, 0.17 oz; not in Brohm
+             though Brohm does list a PNC-60T blow molded cone for #1918 Titan II (which would be a Gemini).
+             Not clear how this relates to BNC-60AK which is also a BT-60 Mercury capsule of almost identical size.
+             Freedom 7 vs Liberty Bell 7?  BNC-60AK has more detail.  Both are shown in the 1974 parts catalog.
+        -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>BNC-60T, 70294</PartNumber>
+            <Description>Nose cone, balsa, BNC-60T, 2.875", Mercury capsule, PN 70294</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Mass Unit="oz">0.17</Mass>
             <Filled>true</Filled>
             <Shape>CONICAL</Shape>
             <OutsideDiameter Unit="in">1.637</OutsideDiameter>
@@ -3703,30 +3909,30 @@ Known issues:
             <Length Unit="in">2.875</Length>
         </NoseCone>
 
-        <!-- BNC-60AH, 1.0 oz -->
+
+        <!-- BNC-65xx (see 1971, 1975 catalogs and 1974 custom parts catalog) -->
+
+        <!-- BNC-65AF ref 1974 parts catalog, elliptical, 0.50 oz -->
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
-            <PartNumber>BNC-60AH</PartNumber>
-            <Description>Nose cone, balsa, BNC-60AH</Description>
-            <Material Type="BULK">Balsa, bulk, 10lb/ft3</Material>
+            <PartNumber>BNC-65AF, 70296</PartNumber>
+            <Description>Nose cone, balsa, BNC-65AF, 4.0", elliptical, PN 70296</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
             <Filled>true</Filled>
-            <Shape>PARABOLIC</Shape>
-            <OutsideDiameter Unit="in">1.637</OutsideDiameter>
-            <ShoulderDiameter Unit="in">1.595</ShoulderDiameter>
-            <ShoulderLength Unit="in">0.875</ShoulderLength>
-            <Length Unit="in">6.625</Length>
+            <Shape>ELLIPSOID</Shape>
+            <OutsideDiameter Unit="in">1.796</OutsideDiameter>
+            <ShoulderDiameter Unit="in">1.750</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.75</ShoulderLength>
+            <Length Unit="in">4.0</Length>
         </NoseCone>
-
-        <!-- BNC-65xx (see 1971, 1975 catalogs) -->
-
         <!-- BNC-65L, rounded tip ogive, 0.41 oz -->
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
             <PartNumber>BNC-65L, 70298</PartNumber>
-            <Description>Nose cone, balsa, BNC-65L, PN 70298</Description>
-            <Material Type="BULK">Balsa, bulk, 8lb/ft3</Material>
+            <Description>Nose cone, balsa, BNC-65L, 3.25", rounded tip ogive, PN 70298</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
             <Filled>true</Filled>
-            <Shape>OGIVE</Shape>
+            <Shape>ELLIPSOID</Shape>
             <OutsideDiameter Unit="in">1.796</OutsideDiameter>
             <ShoulderDiameter Unit="in">1.750</ShoulderDiameter>
             <ShoulderLength Unit="in">0.5</ShoulderLength>
@@ -3736,8 +3942,9 @@ Known issues:
         <!-- BNC-70xx (see 1971 catalog) -->
 
         <!--
-            BNC-70AJ, ref 1977 cataloog, rounded tip ogive, 0.85 oz
-            This was PN 8019 in catalogs thru 1984, changed to PN 70300 in 1985 catalog
+            BNC-70AJ, ref 1977 catalog and 1974 custom parts catalog, rounded tip ogive, 0.85 oz
+            PN 70300 in 1974 custom parts catalog, then was PN 8019 in catalogs thru 1984, changed
+            back to PN 70300 in 1985 catalog.
         -->
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
