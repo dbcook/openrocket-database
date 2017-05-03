@@ -3191,21 +3191,6 @@ Known issues:
              xxxxxxx PN 070217 (Red Alert #0893 only), balsa NC, no dimensions available, no traditional PN
         -->
         
-        <!-- BNC-5AL from Semroc legacy site, weight 0.02 oz.  Estes kit/catalog usage and numeric PN unknown.  Not
-             mentioned in the Brohm Nose Cone Reference. -->
-        <NoseCone>
-            <Manufacturer>Estes</Manufacturer>
-            <PartNumber>BNC-5AL</PartNumber>
-            <Description>Nose cone, balsa, BNC-5AL, 0.4", rounded cone</Description>
-            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
-            <Filled>true</Filled>
-            <Shape>ELLIPSOID</Shape>
-            <OutsideDiameter Unit="in">0.541</OutsideDiameter>
-            <ShoulderDiameter Unit="in">0.515</ShoulderDiameter>
-            <ShoulderLength Unit="in">0.25</ShoulderLength>
-            <Length Unit="in">0.4</Length>
-        </NoseCone>
-        
         <!-- BNC-5AW (Star Dart) ref 1974 custom parts catalog.  Semroc weight 0.02 oz -->
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>

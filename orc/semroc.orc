@@ -7953,6 +7953,26 @@ Using this file:
          match the specified mass/weight.
     -->
 
+
+    <!-- BNC-5AL from Semroc legacy site, weight 0.02 oz.  Estes kit/catalog usage and numeric PN unknown.  Not
+         mentioned in the Brohm Nose Cone Reference.  Semroc site does not mention any kit compatibility.
+         This looks like a Semroc-only cone until proven otherwise.
+    -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BNC-5AL</PartNumber>
+      <Description>Nose cone, balsa, BNC-5AL, 0.4", rounded cone</Description>
+      <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">0.541</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.515</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.25</ShoulderLength>
+      <Length Unit="in">0.4</Length>
+    </NoseCone>
+        
+
+
     <!-- Series 225 (LT-225) nose cones.  All are upscales of smaller Estes/Centuri parts -->
 
     <!-- BC-22530 shape called "bezier", weight spec 0.74 oz -->
