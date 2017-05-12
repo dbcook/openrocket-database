@@ -26,12 +26,24 @@ Current version:  0.9.0.8
 OpenRocket compatibility:  tested with OpenRocket 15.03
 
 ## Release Notes
+0.9.0.9 - 11 May 2017
+* Estes additions:  BNC-3A, BNC-5RA, BWP-EJ, BNC-2 (Apollo capsule cone for BT-50), BNC-55AZ,
+  BNC-55BE, oddball BNP-41 and PSM-1.  I am fairly confident that I now have all Estes balsa
+  nose cones that existed prior to 2010.
+* Added MPC file `mpc.orc` which is essentially complete.
+* Fixed material field on Estes BNC-70AJ
+* Semroc additions: all BNC-5xx, BNC-10xx, BNC-19xx nose cones
+* Added references section to README and moved in material from the estes and semroc files.
+* Updated info about materials UnitsOfMeasure with improvements that appeared in 15.03
+* Added discussion of MPC parts and catalogs.
+
 0.9.0.8 - 3 May 2017
 * Added a number of Estes balsa nose cones with dimensions recovered from 1974 custom parts
   catalog and Semroc legacy site.  Partial list: BNC-5AW, BNC-5BA, BNC-50AR, BNC-52G, BNC-52AG,
   BNC-55AW, BNC-60AL, BNC-65AF
 * Added research notes on Estes BNC-60T vs BNC-60AK balsa Mercury capsules.
-* Moved BNC-5AL from Estes to Semroc file after finding no proof Estes ever listed it.
+* Moved BNC-5AL from Estes to Semroc file after finding no proof Estes ever listed it and noting
+  its absence from the Semroc cross reference list.
 * Rectified a lot of Estes nose cone shapes where PARABOLIC should have been ELLIPSOID
 * Removed unneeded mass overrides for Estes balsa nose cones and added some needed ones
 * Reduced completion status of estes_classic file after finding various problems
@@ -177,7 +189,8 @@ somewhat Mac centric because that's what I use most.
 | `Fliskits.orc`           | Yes  | --
 | `giantleaprocketry.orc`  | Yes  | --
 | `publicmissiles.orc`     | Yes  | --
-| `estes_classic.orc`      | No   | 90%
+| `mpc.orc`                | No   | 98%
+| `estes_classic.orc`      | No   | 95%
 | `estes_ps2.orc`          | No   | 98%
 | `top_flight.orc`         | No   | 100%
 | `competition_chutes.orc` | No   | 100%
@@ -210,7 +223,8 @@ assortments are usually not identified by PN, and sometimes change over time.
 
 With the 2017 decision by Estes to cease producing a product catalog in either print or
 electronic form, the difficulty of maintaining a parts database will further increase.  In
-short, part numbers are often no longer needed given the way Estes operates.
+short, part numbers are often no longer created.  As of now, the only way to index modern
+Estes parts is by inspection and measurement of actual products.
 
 #### LOC Precision
 
@@ -229,13 +243,73 @@ them on the erocket.biz website.
 The body tubes listing on the old SEMROC website was a unique resource, and I have digested it
 into a table of dimensions text file in this repository.
 
+Semroc is known for its vast array of Estes and Centuri compatible nose cones, but they
+also make some nose cones for their own kits.  This leads to some complications.  There
+are nose cones produced by SEMROC with Estes style designations that are not
+identified as such in any existing Estes literature.  These fall into a few different
+situations:
+
+1. Specialty parts that Estes actually made for use in certain kits.  In the era after
+  Estes stopped assigning "BNC-xxx" codes, they would have a numeric PN only, and might
+  never appear in a catalog.  Semroc appears to have created BNC-xxx designators for these.  Examples:
+  
+  * BNC-5RA PN 70217 for #0893 Red Alert (PN given in instructions, no known Estes use of "BNC-5RA")
+
+2. Semroc-specific parts that Semroc made for their own unique kits.  If they were made to
+   mate with an Estes tube size, Semroc would assign a made-up Estes style BNC-xxx
+   designation. Examples:
+   
+   * BNC-20MG (1.9 in odd shape for Semroc Moon Glo)
+
+3. Semroc unique parts that are upscales/downscales of other well known Estes nose cones.
+   Examples:
+   
+   * BNC-20LS (2.0 in elliptical, downscale of BNC-60L)
+
+4. Semroc parts that are balsa versions of Estes plastic PNC-xxx parts that had no Estes balsa equivalent.
+   See http://www.semroc.com/store/scripts/xref.asp?company=classic for some info.  Examples:
+
+   * BNC-20ED (4.2 in "capsule", version of PNC-20ED from Saros, Nomad)
+   * BNC-50KP (balsa version of PNC-50K, which was not the same shape as Estes BNC-50K)
+   * BNC-50S (balsa version of PNC-50S; Estes never made a balsa version)
+
+#### MPC
+
+MPC produced rocket parts and kits from ca. 1969 to 1973, when the company was sold to
+AVI.  AVI continued to manufacture and sell kits under the MPC name until 1978.  The kit
+line is historically significant as many of them were designed by G. Harry Stine,
+considered one of the principal founders of model rocketry.
+
+Very short MPC catalogs were produced in 1969 and 1970, followed by a Minirocs brochure
+when 13mm motors and rockets were introduced.  The 1970 "catalog 2" lists the parts, with
+part numbers and partial dimensions.  Tubes were made in metric 5, 15, 20, 25, and 30mm
+sizes.  Only the OD of the tubes is given, and the nose cones are only identified by what
+tube size they fit and a general profile drawing.
+
+Tubes and nose cones that may have been added when the Miniroc line was introduced are not
+separately cataloged anywhere.  Some have been identified (3 cal ellipsoid and 5 cal ogive
+T-15 nose cones) by pulling information from kit descriptions and instructions.
+
+The MPC tube sizing system has persisted to the present (2017) due to its adoption by
+Quest, which not coincidentally was founded by Bill Stine.  I have not confirmed it, but I
+strongly suspect that the modern day Quest tubes have identical dimensions to the original
+MPC tubes, implying a .5mm (.020") wall thickness.  The Quest data should also let us
+definitively recover the nose cone shoulder diameters appropriate for the metric tubes.
+
+The only online presence of the MPC catalogs is on
+http://vintagevendingwarehouse.weebly.com/history-of-mpc.html .
+
+Despite the thin information, I have been able to build a relatively complete parts file
+which has been added to the project as of version 0.9.0.9
+
+
 ### Missing Manufacturers
 
 There are product lines from legacy and major manufacturers, especially high power vendors, that are
 not included in OpenRocket at all:
 
 * Centuri (many cloneable kits with parts different than Estes)
-* MPC (? maybe not too much unique here)
+* MPC (see catalog images on http://vintagevendingwarehouse.weebly.com/history-of-mpc.html)
 * Apogee (they mostly OEM other vendors parts, but have some unique ones)
 * CMR (defunct but had unusual tube sizes)
 * FSI (defunct but also had unusual tube sizes)
@@ -487,12 +561,17 @@ such a part is selected.
 
 ### Units of Measure in Component Database Files
 
-IMPORTANT: __Materials__ definitions in .orc files all *must* have density specified in
-kg/m3, areal density in kg/m2, and linear density in kg/m.  The parser for materials
-definitions *totally ignores* the UnitsOfMeasure attribute; you MUST express them in
-kg/m3, kg/m2 and kg/m.
+Materials definitions in .orc files all must have density specified in one of the following
+units of measure using the "UnitsOfMeasure" attribute:
 
-However, for __components__ you can use the "Unit" attribute in the component definitions to
+```
+Bulk density:  g/cm3, kg/m3, lb/ft3
+Areal density: g/cm2, oz/in2
+Line density:  g/cm, oz/in
+```
+In the stock built-in OpenRocket databases, all materials are specified in g/cm3, g/cm2 or g/m.
+
+For __components__ you use the "Unit" attribute in the component definitions to
 specify other units as desired.  In the standard OpenRocket presets files they are all
 metric, even for American parts, which makes checking the dimensions against the USA
 manufacturers' Imperial units specs very laborious.  In my custom .orc files I have
@@ -538,6 +617,7 @@ structural.
    * Cannot specify wall thickness for nose cone or transition shoulders
    * Cannot specify whether nose cone or transition shoulders are capped
    * OR does not model moments of inertia for hollow NC/transition shoulders
+   * Cannot specify a rear-facing nose cone or nozzle cone
    * No support for drilled-for-a-tube solid (balsa) tail cones.  You can only
      define a fully filled part, or hollow with constant wall thickness.
      Therefore, there is no good way to model an Estes BTC-55Z or similar part.
@@ -599,4 +679,53 @@ material defined in the manufacturer .orc file.
 
 *Windows* We need solid information about how this works in Windows from a contributor!
 
+## References
 
+[John Brohm, Estes Nose Cone Reference, version 10.1](http://www.rocketshoppe.com/info/Estes_Nose_Cone_Reference_10.1.pdf)
+
+Cross reference that lists Estes nose cones __used in kits__ by numeric part number,
+traditional part number, and kit usage. Does not list dimensions or mass/weight data.
+Last updated circa 2008 so does not include recent kits and many plastic cones.  Fails to
+list nose cones that apepared in a catalog but were never used in a kit, such as BNC-55AA,
+BNC-10B, and multiple BNC-30xx.  Contains some scattered errors.
+
+[John Brohm, Estes Body Tube Reference](http://www.psc473.org/howto/EstesTubes.pdf)
+
+Cross reference listing Estes body tubes and the kits in which they appear.  Shows lengths, BT-xxx
+designators, numeric part numbers, and PNs of the kits.
+
+[Semroc legacy site nose cone listing](http://www.semroc.com/Store/Products/NoseCones.asp)
+
+Shows all the nose cones Semroc and its owner Carl McLawhorn knew of, with dimensions.
+Annoyingly fails to list shoulder lengths, but provides correct dimensions for many parts for
+which Estes data is erroneous or not otherwise available.  You must use this in conjunction with
+the Semroc nose cone compatibility list since the overall nose cone listing shows many items
+representing parts that were never issued by Estes as balsa nose cones.
+
+[Semroc legacy site nose cone compatibility list page](http://www.semroc.com/store/Scripts/xref.asp?company=Classic)
+
+Shows which Estes BNC and PNC series nose cones were made by Semroc, and shows the Semroc BNC
+equivalents for the Estes plastic PNC nose cones.  Very helpful for determining which parts were
+ever actually made by Estes.
+
+[Catalog archive on the Estes site](http://http://www.estesrockets.com/customer-service/full-catalog/)
+
+Downloadable PDFs of nearly all Estes and many Centuri catalogs.
+
+[Estes official instructions archive](https://www.estesrockets.com/customer-service/instructions)
+
+This resource from Estes contains good quality downloadable PDF scans of the instructions for many kits.
+However it is very incomplete in kit coverage, and does not include scans of fins, templates, cardstock parts,
+or decals.
+
+[Catalogs on Ninfinger.org](http://www.ninfinger.org/rockets/rockets.html)
+
+This site contains scans of historic model rocket catalogs from Estes, Centuri, FSI, LOC, and others.
+Some of the Estes and Centuri catalog scans here are poor quality - check the Estes catalog archive listed
+above for generally better versions.
+
+There formerly was a spreadsheet in the OpenRocket source code tree giving a source of
+"13.09.1" for much of the PNC info. But there were obvious mistakes, blanks, and many
+omissions in that document, and it is no longer in the 15.03 source tree, though I believe
+it was the basis for many of the built-in components.  It could probably be pulled out of
+the GitHub repo, but I doubt it is now very useful.
