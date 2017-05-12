@@ -7913,6 +7913,27 @@ Using this file:
          All Semroc nose cones are balsa.  Carl McLawhorn built his own nose cone making
          machines and produced them in-house.
 
+         BNC-xxx designations and Semroc-specific nose cones for Estes tube sizes:
+
+            There are some nose cones produced by SEMROC with Estes style designations that were not identified as
+            such in any existing Estes literature.  These fall into a few different situations:
+
+            1) Specialty parts that Estes actually made for use in certain kits.  In the era after Estes stopped
+            assigning "BNC-xxx" codes, they would have a numeric PN only, and might never appear in a catalog.
+            Examples:
+                BNC-5RA PN 70217 for #0893 Red Alert (PN given in instructions, no known Estes use of "BNC-5RA")
+
+            2) Semroc-specific parts that Semroc made for their own unique kits.  It appears that if they were made to
+            mate with an Estes tube size, Semroc would assign a made-up Estes style BNC-xxx designation. Examples:
+                BNC-20MG (1.9" odd shape for Semroc Moon Glo)
+
+            3) Semroc unique parts that are upscales/downscales of other well known Estes nose cones.  Examples:
+                BNC-20LS (2.0" elliptical, downscale of BNC-60L)
+
+            4) Semroc parts that are balsa versions of Estes plastic nose cones.  Examples:
+                BNC-20ED (4.2" "capsule", version of PNC-20ED from Saros, Nomad)
+            
+                
          Semroc published data:
          
          On the legacy Semroc site, shoulder diameter, maximum diameter, exposed length,
@@ -7953,6 +7974,8 @@ Using this file:
          match the specified mass/weight.
     -->
 
+    <!-- BNC-5xx Balsa Nose Cones -->
+
 
     <!-- BNC-5AL from Semroc legacy site, weight 0.02 oz.  Estes kit/catalog usage and numeric PN unknown.  Not
          mentioned in the Brohm Nose Cone Reference.  Semroc site does not mention any kit compatibility.
@@ -7962,7 +7985,7 @@ Using this file:
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-5AL</PartNumber>
       <Description>Nose cone, balsa, BNC-5AL, 0.4", rounded cone</Description>
-      <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
       <OutsideDiameter Unit="in">0.541</OutsideDiameter>
@@ -7970,7 +7993,197 @@ Using this file:
       <ShoulderLength Unit="in">0.25</ShoulderLength>
       <Length Unit="in">0.4</Length>
     </NoseCone>
-        
+    <!-- BNC-5AW (Star Dart) ref 1974 custom parts catalog.  Semroc weight 0.02 oz -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BNC-5AW</PartNumber>
+      <Description>Nose cone, balsa, BNC-5AW, 2.25", elliptical</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">0.541</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.515</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.25</ShoulderLength>
+      <Length Unit="in">2.25</Length>
+    </NoseCone>
+    <!-- BNC-5AX, PN 070208 (Screamer, Javelin) Estes ref 1974 custom parts catalog.
+         Semroc weight .02 oz -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BNC-5AX</PartNumber>
+      <Description>Nose cone, balsa, BNC-5AX, 2.25", ogive</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">0.541</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.515</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <Length Unit="in">2.25</Length>
+    </NoseCone>
+    <!-- BNC-5BA (Mini-BOMARC and #1220 Mars Snooper) Estes ref 1974 custom parts catalog.
+         Semroc weight 0.01 oz, Estes .013 oz
+         Shape is shown as a "ram jet" style nacelle.  Approximated as an ogive. -->
+    -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BNC-5BA</PartNumber>
+      <Description>Nose cone, balsa, BNC-5BA, 0.625", ramjet nacelle</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">0.541</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.515</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.18</ShoulderLength>
+      <Length Unit="in">0.625</Length>
+    </NoseCone>
+    <!-- BNC-5E, Estes ref 1974 parts catalog, Semroc weight 0.020 oz -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BNC-5E</PartNumber>
+      <Description>Nose cone, balsa, BNC-5E, 1.375", fat ogive</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">0.541</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.515</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.25</ShoulderLength>
+      <Length Unit="in">1.375</Length>
+    </NoseCone>
+    <!-- BNC-5NAS, Nike Ajax, Estes use unknown. K-79/#1279 Nike-Ajax used BNC-20CB
+         This is probably a Semroc-only part.  ***Actual shoulder length unconfirmed.***
+    -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BNC-5NAS</PartNumber>
+      <Description>Nose cone, balsa, BNC-5NAS, 2.5", long cone/ogive</Description>
+      <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">0.541</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.515</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.25</ShoulderLength>
+      <Length Unit="in">2.5</Length>
+    </NoseCone>
+    <!-- BNC-5RA from Estes #0893 Red Alert (1991-1992). Max diamter of flared part is
+         0.81" and weight is 0.10 oz per Semroc legacy NC table ***shoulder length
+         unconfirmed*** -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BNC-5RA</PartNumber>
+      <Description>Nose cone, balsa, BNC-5RA, 2.0", flared ogive, Red Alert</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Mass Unit="oz">0.10</Mass>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">0.541</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.515</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.25</ShoulderLength>
+      <Length Unit="in">2.0</Length>
+    </NoseCone>
+    <!-- BNC-5S, ref 1974 custom parts catalog, Semroc weight 0.02 oz -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BNC-5S</PartNumber>
+      <Description>Nose cone, balsa, BNC-5S, 1.5", conical</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>CONICAL</Shape>
+      <OutsideDiameter Unit="in">0.541</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.515</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.25</ShoulderLength>
+      <Length Unit="in">1.5</Length>
+    </NoseCone>
+    <!-- BNC-5V ref 1974 parts catalog,  Semroc weight 0.01 oz -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BNC-5V</PartNumber>
+      <Description>Nose cone, balsa, BNC-5V, 0.75", elliptical</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">0.541</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.515</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.25</ShoulderLength>
+      <Length Unit="in">0.75</Length>
+    </NoseCone>
+    <!-- BNC-5TT, no Estes usage known.  Semroc weight 0.39 oz.  This is a very large
+    flare, though the legacy Semroc table doesn't show the correct OD. -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BNC-5TT</PartNumber>
+      <Description>Nose cone, balsa, BNC-5TT, 2.0", large flared ogive</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Mass Unit="oz">0.39</Mass>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">0.541</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.515</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.25</ShoulderLength>
+      <Length Unit="in">2.0</Length>
+    </NoseCone>
+    <!-- BNC-5W ref 1974 parts catalog, Semroc weight 0.04 oz -->
+    <NoseCone>
+      <Manufacturer>Estes</Manufacturer>
+      <PartNumber>BNC-5W</PartNumber>
+      <Description>Nose cone, balsa, BNC-5W, 2.875", ogive</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">0.541</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.515</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.25</ShoulderLength>
+      <Length Unit="in">2.875</Length>
+    </NoseCone>
+
+    <!-- BNC-10xx Nose Cones.
+         Unlike Estes, Semroc shows the OD of BNC-10 nose cones to be 0.720, which matches the OD of a BT-10.  -->
+
+    <!-- BNC-10A, Semroc weight 0.02 oz.  Used in K-4/#1204 Streak -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BNC-10A</PartNumber>
+      <Description>Nose cone, balsa, BNC-10A, 0.8", elliptical</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">0.720</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.25</ShoulderLength>
+      <Length Unit="in">0.812</Length>
+    </NoseCone>
+    <!-- BNC-10B not known to have ever been used in any Estes kit, Semroc weight 0.04 oz -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BNC-10B</PartNumber>
+      <Description>Nose cone, balsa, BNC-10B, 1.69", elliptical</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">0.720</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.312</ShoulderLength>
+      <Length Unit="in">1.687</Length>
+    </NoseCone>
+
+    <!-- BNC-19xx nose cones
+         An odd one - Semroc lists only a Mercury capsule for BT-19, weight 0.02 oz
+         ***shoulder length undocumented***
+         -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BNC-19MC</PartNumber>
+      <Description>Nose cone, balsa, BT-19, 2.6", Mercury capsule</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Mass Unit="oz">0.02</Mass>
+      <Filled>true</Filled>
+      <Shape>CONICAL</Shape>
+      <OutsideDiameter Unit="in">0.700</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.672</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.375</ShoulderLength>
+      <Length Unit="in">2.6</Length>
+    </NoseCone>
+
+    <!-- BNC-20xx nose cones -->
 
 
     <!-- Series 225 (LT-225) nose cones.  All are upscales of smaller Estes/Centuri parts -->
