@@ -15,7 +15,8 @@ I recovered data about centering rings, stage couplers, and a couple of nose con
 and kit descriptions from the catalogs, even though the parts were never listed, and the kit instructions
 don't give stock numbers (and usually not sizes) for any of the parts in the kit.
 
-There are a few things known to exist that are missing because we have little information about them:
+There are two plastic nose cone assemblies known to exist that are not listed because we have neither the
+lengths nor the weights:
 
 1) The plastic space capsule used in the Moon Go.  This is a 3-piece unit; see Moon Go instructions on
    plans.rocketshoppe.org 
