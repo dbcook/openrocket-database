@@ -3383,16 +3383,6 @@ Known issues:
         </NoseCone>
 
         <!-- BNC-20xx -->
-        <!--
-            Uncertain if Estes produced:
-                BNC-20SP (very short .25" rounded pod cap)
-                BNC-20SU (2.3" straight cone)
-                BNC-20G3 (3:1 ogive)
-                BNC-20G4 (4:1 ogive)
-                BNC-20G5 (5:1 ogive)
-                BNC-20FB (2.29" elliptical)
-                BNC-20WC (3.0" straight cone)
-             -->
 
         <!-- BNC-20A (K-7 Phantom, K-13 Falcon) ref 1975 catalog, 0.03 oz -->
         <NoseCone>
@@ -3486,7 +3476,6 @@ Known issues:
             <PartNumber>BNC-20N, 70236</PartNumber>
             <Description>Nose cone, balsa, BNC-20N, 2.75", ogive, PN 70236</Description>
             <Material Type="BULK">Balsa, bulk, Estes typical</Material>
-            <Mass Unit="oz">0.08</Mass>
             <Filled>true</Filled>
             <Shape>OGIVE</Shape>
             <OutsideDiameter Unit="in">0.736</OutsideDiameter>
@@ -3514,7 +3503,6 @@ Known issues:
             <PartNumber>BNC-20R, 70240</PartNumber>
             <Description>Nose cone, balsa, BNC-20R, 2.75", conical, PN 70240</Description>
             <Material Type="BULK">Balsa, bulk, Estes typical</Material>
-            <Mass Unit="oz">0.07</Mass>
             <Filled>true</Filled>
             <Shape>CONICAL</Shape>
             <OutsideDiameter Unit="in">0.736</OutsideDiameter>
@@ -3528,7 +3516,6 @@ Known issues:
             <PartNumber>BNC-20Y, 70241</PartNumber>
             <Description>Nose cone, balsa, BNC-20Y, 1.0", conical, PN 70241</Description>
             <Material Type="BULK">Balsa, bulk, Estes typical</Material>
-            <Mass Unit="oz">0.02</Mass>
             <Filled>true</Filled>
             <Shape>CONICAL</Shape>
             <OutsideDiameter Unit="in">0.736</OutsideDiameter>
@@ -4081,7 +4068,7 @@ Known issues:
             <ShoulderLength Unit="in">0.0</ShoulderLength>
             <Length Unit="in">1.280</Length>
         </NoseCone>
-        <!-- PN 71030 PSM-1 is the nose of the main capsule that contained the parachutes.  This part actually resembles
+        <!-- PN 71030 PSM-1 is the nose of the Mercury capsule that contained the parachutes.  This part actually resembles
              a nose cone, though it was shoulderless. -->
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
@@ -4095,7 +4082,7 @@ Known issues:
             <ShoulderLength Unit="in">0.0</ShoulderLength>
             <Length Unit="in">1.228</Length>
         </NoseCone>
-        <!-- PN 71032 (also referred to as PSM-1) is the aft heat shield end of the main capsule.  To actually use
+        <!-- PN 71032 (also referred to as PSM-1) is the aft heat shield end of the Mercury capsule.  To actually use
              this as a tail cone, you'd need to create a transition definition for it.  -->
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
