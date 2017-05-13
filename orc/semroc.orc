@@ -8184,6 +8184,353 @@ Using this file:
     </NoseCone>
 
     <!-- BNC-20xx nose cones -->
+    <!--
+        Semroc BNC-20xx nose cones never made by Estes:
+        *** shoulder lengths unknown for all of these ***
+
+        BNC-20AH (3.0" conical, downscale of BHC-60AH)
+        BNC-20ED (4.2" long capsule shape)
+        BNC-20FB (2.29" elliptical)
+        BNC-20G3 (3:1 ogive)
+        BNC-20G4 (4:1 ogive)
+        BNC-20G5 (5:1 ogive)
+        BNC-20LS (2.0" elliptical, downscale of BNC-60L)
+        BNC-20MG (1.9" capsule) MPC Moon Go shape - Semroc 2017 site has typo Moon Glo
+        BNC-20SP (very short .25" rounded pod cap)
+        BNC-20SU (2.3" straight cone)
+        BNC-20WC (3.0" straight cone)
+        BNC-20X  (2.5" elliptical)
+
+        Semroc BNC-20xx with designators that do not match Estes:
+        
+        BNC-20MH (mercury capsule base, this is Estes PSM-1 71032)
+        BNC-20MC (mercury capsule nose, this is Estes PSM-1 71030)
+    -->
+    <!-- BNC-20A (K-7 Phantom, K-13 Falcon) ref 1975 Estes catalog -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BNC-20A</PartNumber>
+      <Description>Nose cone, balsa, BNC-20A, 0.8", rounded ogive</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.25</ShoulderLength>
+      <Length Unit="in">0.812</Length>
+    </NoseCone>
+    <!-- BNC-20AH (non Estes, downscale of BNC-60AH) ref 2017 eRockets/Semroc website -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BNC-20AH</PartNumber>
+      <Description>Nose cone, balsa, BNC-20AH, 3.0", elliptical</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <Length Unit="in">3.0</Length>
+    </NoseCone>
+    <!-- BNC-20AM (K-53 Stinger etc) ref 1988 Estes catalog -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BNC-20AM</PartNumber>
+      <Description>Nose cone, balsa, BNC-20AM, 2.0", rounded cone</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <Length Unit="in">2.00</Length>
+    </NoseCone>
+    <!-- BNC-20AZ (#2033 Trident II etc.), ref 1974 Estes custom parts catalog. -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BNC-20AZ</PartNumber>
+      <Description>Nose cone, balsa, BNC-20AZ, 2.5", ogive</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>PARABOLIC</Shape>
+      <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <Length Unit="in">2.5</Length>
+    </NoseCone>
+    <!-- BNC-20B (K-5 Apogee II etc.) ref 1988 Estes catalog -->
+    <NoseCone>
+      <Manufacturer>Estes</Manufacturer>
+      <PartNumber>BNC-20B</PartNumber>
+      <Description>Nose cone, balsa, BNC-20B, 1.7", elliptical</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.312</ShoulderLength>
+      <Length Unit="in">1.687</Length>
+    </NoseCone>
+    <!-- BNC-20CB 70231 (#1279 Nike-Ajax), dimensions from Semroc legacy site, weight 0.04 oz
+         Not in the 1974 custom parts catalog; not on 2017 eRocket/Semroc website
+    -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BNC-20CB</PartNumber>
+      <Description>Nose cone, balsa, BNC-20CB, 1.75", ogive</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <Length Unit="in">1.75</Length>
+    </NoseCone>
+    <!-- BNC-20ED (non Estes) ref 2017 eRockets/Semroc website, shape approximate -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BNC-20ED</PartNumber>
+      <Description>Nose cone, balsa, BNC-20ED, 4.2", long capsule shape</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <Length Unit="in">4.2</Length>
+    </NoseCone>
+    <!-- BNC-20FB (non Estes) ref 2017 eRockets/Semroc website -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BNC-20FB</PartNumber>
+      <Description>Nose cone, balsa, BNC-20FB, 2.29", ellipsoid</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <Length Unit="in">2.29</Length>
+    </NoseCone>
+    <!-- BNC-20G3 (non Estes) 3:1 ogive ref 2017 eRockets/Semroc website -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BNC-20G3</PartNumber>
+      <Description>Nose cone, balsa, BNC-20G3, 2.21", ogive</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <Length Unit="in">2.21</Length>
+    </NoseCone>
+    <!-- BNC-20G4 (non Estes) 4:1 ogive ref 2017 eRockets/Semroc website -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BNC-20G4</PartNumber>
+      <Description>Nose cone, balsa, BNC-20G4, 2.95", ogive</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <Length Unit="in">2.95</Length>
+    </NoseCone>
+    <!-- BNC-20G5 (non Estes) 5:1 ogive ref 2017 eRockets/Semroc website -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BNC-20G5</PartNumber>
+      <Description>Nose cone, balsa, BNC-20G5, 3.68", ogive</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <Length Unit="in">3.68</Length>
+    </NoseCone>
+    <!-- BNC-20L (Mini-Bertha #0803 only) ref 1974 Estes custom parts catalog
+         SOURCE ERROR: Semroc legacy gives incorrect length 2.0", weight .04 oz
+         Estes official length is 1 3/8" but:
+         Semroc new gives length 1.4"
+         balsamachining.com also gives length 1.4"
+    -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BNC-20L</PartNumber>
+      <Description>Nose cone, balsa, BNC-20L, 1.375", parabolic</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <Length Unit="in">1.375</Length>
+    </NoseCone>
+    <!-- BNC-20LS (non Estes, downscale of BNC-60L) ref 2017 eRockets/Semroc website -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BNC-20LS</PartNumber>
+      <Description>Nose cone, balsa, BNC-20LS, 2.0", elliptical</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <Length Unit="in">2.0</Length>
+    </NoseCone>
+    <!-- BNC-20MC matches Estes PN 71030 PSM-1 and is the nose of the Mercury capsule
+         that contained the parachutes.  This part actually resembles a nose cone, though it was shoulderless. -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BNC-20MC</PartNumber>
+      <Description>Nose cone, balsa, BNC-20MC, Estes PSM-1 MR capsule nose</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">0.787</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.780</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.0</ShoulderLength>
+      <Length Unit="in">1.228</Length>
+    </NoseCone>
+    <!-- BNC-20MH matches Estes PN 71032 (also referred to as PSM-1) and is the aft heat
+         shield end of the Mercury capsule.  To actually use this as a tail cone, you'd
+         need to create a transition definition for it.  -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BNC-20MH</PartNumber>
+      <Description>Nose cone, balsa, BNC-20MH, Estes PSM-1 MR capsule base</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>CONICAL</Shape>
+      <OutsideDiameter Unit="in">1.820</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.800</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.0</ShoulderLength>
+      <Length Unit="in">0.712</Length>
+    </NoseCone>
+    <!-- BNC-20MG (non Estes, MPC Moon Go capsule shape) ref eRockets/Semroc 2017 site.
+         shape is approximation.  Longer shoulder estimated per outline drawing.
+    -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BNC-20MG</PartNumber>
+      <Description>Nose cone, balsa, BNC-20MG, 1.9", MPC Moon Go capsule</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>CONICAL</Shape>
+      <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.625</ShoulderLength>
+      <Length Unit="in">2.75</Length>
+    </NoseCone>
+    <!-- BNC-20N ref 1975 catalog, 0.08 oz -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BNC-20N</PartNumber>
+      <Description>Nose cone, balsa, BNC-20N, 2.75", ogive</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <Length Unit="in">2.75</Length>
+    </NoseCone>
+    <!-- BNC-20P (Spaceman only), shape is approximation, 0.07 oz -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BNC-20P</PartNumber>
+      <Description>Nose cone, balsa, BNC-20P, 1.3", spaceman</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Mass Unit="oz">0.07</Mass>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">0.90</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.437</ShoulderLength>
+      <Length Unit="in">1.312</Length>
+    </NoseCone>
+    <!-- BNC-20R ref 1975 Estes catalog -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BNC-20R</PartNumber>
+      <Description>Nose cone, balsa, BNC-20R, 2.75", conical</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>CONICAL</Shape>
+      <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.711</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.375</ShoulderLength>
+      <Length Unit="in">2.75</Length>
+    </NoseCone>
+    <!-- BNC-20SP (non Estes), ref. 2017 eRockets/Semroc website -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BNC-20SP</PartNumber>
+      <Description>Nose cone, balsa, BNC-20SP, 0.25", elliptical pod cap</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.25</ShoulderLength>
+      <Length Unit="in">0.25</Length>
+    </NoseCone>
+    <!-- BNC-20SU (non Estes) ref 2017 eRoockets/Semroc web site -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BNC-20SU</PartNumber>
+      <Description>Nose cone, balsa, BNC-20SU, 2.3", conical</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>CONICAL</Shape>
+      <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.375</ShoulderLength>
+      <Length Unit="in">2.3</Length>
+    </NoseCone>
+    <!-- BNC-20WC (non Estes) ref 2017 eRockets/Semroc website -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BNC-20WC</PartNumber>
+      <Description>Nose cone, balsa, BNC-20WC, 3.0", conical</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>CONICAL</Shape>
+      <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <Length Unit="in">3.0</Length>
+    </NoseCone>
+    <!-- BNC-20X (non Estes) ref 2017 eRockets/Semroc website -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BNC-20X</PartNumber>
+      <Description>Nose cone, balsa, BNC-20X, 2.5", elliptical</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.375</ShoulderLength>
+      <Length Unit="in">2.5</Length>
+    </NoseCone>
+    <!-- BNC-20Y (Yankee #1381 only) ref 1988 Estes catalog -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BNC-20Y</PartNumber>
+      <Description>Nose cone, balsa, BNC-20Y, 1.0", conical</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>CONICAL</Shape>
+      <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.375</ShoulderLength>
+      <Length Unit="in">1.0</Length>
+    </NoseCone>
 
 
     <!-- Series 225 (LT-225) nose cones.  All are upscales of smaller Estes/Centuri parts -->
