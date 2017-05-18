@@ -7,7 +7,7 @@ This provides a massive number of additional components (nose cones, body tubes,
 transitions, etc.) and corrections to the built-in parts database contained in the
 OpenRocket jar file.
 
-This package does not change how OpenRocket __works__ in any way.  It only changes what
+Installing this package does not change how OpenRocket __works__ in any way.  It only changes what
 components are available for selection in the menus.
 
 I apologize in advance for the geeky way you need to install this.  It's not very
@@ -21,20 +21,23 @@ I invite contributors to create a packaged installer, especially for Windows.
 
 ## Version and compatibility
 
-Current version:  0.9.0.8
+Current version:  0.9.0.10
 
 OpenRocket compatibility:  tested with OpenRocket 15.03
 
 ## Release Notes
+0.9.0.10 - 18 May 2017
+* Semroc additions: BC-2xx, BC-6xx, BC-7xx, BC-8xx, BC-8Fxx, BNC-20xx completed
+
 0.9.0.9 - 11 May 2017
 * Estes additions:  BNC-3A, BNC-5RA, BWP-EJ, BNC-2 (Apollo capsule cone for BT-50), BNC-55AZ,
   BNC-55BE, oddball BNP-41 and PSM-1.  I am fairly confident that I now have all Estes balsa
   nose cones that existed prior to 2010.
-* Added MPC file `mpc.orc` which is essentially complete.
+* Added MPC file `mpc.orc`, which is essentially complete.
 * Fixed material field on Estes BNC-70AJ
 * Semroc additions: all BNC-5xx, BNC-10xx, BNC-19xx nose cones
 * Added references section to README and moved in material from the estes and semroc files.
-* Updated info about materials UnitsOfMeasure with improvements that appeared in 15.03
+* Updated info about materials UnitsOfMeasure with improvements that appeared in OR 15.03
 * Added discussion of MPC parts and catalogs.
 
 0.9.0.8 - 3 May 2017
@@ -259,17 +262,17 @@ situations:
    mate with an Estes tube size, Semroc would assign a made-up Estes style BNC-xxx
    designation. Examples:
    
-   * BNC-20MG (1.9 in odd shape for Semroc Moon Glo)
+   * BNC-20MG (1.9 inch odd shape for Semroc Moon Go)
 
 3. Semroc unique parts that are upscales/downscales of other well known Estes nose cones.
    Examples:
    
-   * BNC-20LS (2.0 in elliptical, downscale of BNC-60L)
+   * BNC-20LS (2.0 inch elliptical, downscale of BNC-60L)
 
 4. Semroc parts that are balsa versions of Estes plastic PNC-xxx parts that had no Estes balsa equivalent.
    See http://www.semroc.com/store/scripts/xref.asp?company=classic for some info.  Examples:
 
-   * BNC-20ED (4.2 in "capsule", version of PNC-20ED from Saros, Nomad)
+   * BNC-20ED (4.2 inch "capsule", version of PNC-20ED from Saros, Nomad)
    * BNC-50KP (balsa version of PNC-50K, which was not the same shape as Estes BNC-50K)
    * BNC-50S (balsa version of PNC-50S; Estes never made a balsa version)
 
@@ -286,8 +289,11 @@ part numbers and partial dimensions.  Tubes were made in metric 5, 15, 20, 25, a
 sizes.  Only the OD of the tubes is given, and the nose cones are only identified by what
 tube size they fit and a general profile drawing.
 
+The only online presence of the MPC catalogs is on
+http://vintagevendingwarehouse.weebly.com/history-of-mpc.html .
+
 Tubes and nose cones that may have been added when the Miniroc line was introduced are not
-separately cataloged anywhere.  Some have been identified (3 cal ellipsoid and 5 cal ogive
+separately cataloged anywhere.  A couple have been identified (3 cal ellipsoid and 5 cal ogive
 T-15 nose cones) by pulling information from kit descriptions and instructions.
 
 The MPC tube sizing system has persisted to the present (2017) due to its adoption by
@@ -296,21 +302,21 @@ strongly suspect that the modern day Quest tubes have identical dimensions to th
 MPC tubes, implying a .5mm (.020") wall thickness.  The Quest data should also let us
 definitively recover the nose cone shoulder diameters appropriate for the metric tubes.
 
-The only online presence of the MPC catalogs is on
-http://vintagevendingwarehouse.weebly.com/history-of-mpc.html .
-
 Despite the thin information, I have been able to build a relatively complete parts file
 which has been added to the project as of version 0.9.0.9
 
 
 ### Missing Manufacturers
 
-There are product lines from legacy and major manufacturers, especially high power vendors, that are
-not included in OpenRocket at all:
+There are several product lines from legacy and major manufacturers - especially high
+power vendors - that are not included in OpenRocket at all.  Some of these are now covered in
+this components database.
 
 * Centuri (many cloneable kits with parts different than Estes)
 * MPC (see catalog images on http://vintagevendingwarehouse.weebly.com/history-of-mpc.html)
-* Apogee (they mostly OEM other vendors parts, but have some unique ones)
+* Apogee (they mostly OEM other vendors' parts, but have some unique ones)
+* Apogee Components (predecessor to Apogee owned by Ed LaCroix; made competition parts that
+  Apogee under Tim van Milligan did not carry forward)
 * CMR (defunct but had unusual tube sizes)
 * FSI (defunct but also had unusual tube sizes)
 * High power kit vendors
@@ -385,7 +391,7 @@ and usable from the OpenRocket user interface.
 * Units of measure for dimensions have been set to the units used in the manufacturer's
   specifications.  For example, dimensional specs of Estes body tubes have all been
   changed to inches, allowing direct comparison to Estes catalogs.  The OpenRocket
-  original files have almost everything in meters, which obstructs comparison to catalog
+  original files have almost all lengths in meters, which obstructs comparison to catalog
   values for the USA rocket industry.
 
 * Descriptions have been regularized to the engineering standard of a comma-separated list
@@ -468,7 +474,7 @@ The general search order for database files is:
 
 #### Windows External File Locations
 
-* If %APPDATA% is set:  `%APPDATA%/OpenRocket/Components/*.orc`
+* If %APPDATA% is set:     `%APPDATA%/OpenRocket/Components/*.orc`
 * If %APPDATA% is not set: `%HOMEPATH%/OpenRocket/Components/*.orc`
 
 *TBD* need description of how Windows stores locally added prefs in the registry from a contributor!
@@ -729,3 +735,8 @@ There formerly was a spreadsheet in the OpenRocket source code tree giving a sou
 omissions in that document, and it is no longer in the 15.03 source tree, though I believe
 it was the basis for many of the built-in components.  It could probably be pulled out of
 the GitHub repo, but I doubt it is now very useful.
+
+[MPC History and Catalogs](http://vintagevendingwarehouse.weebly.com/history-of-mpc.html)
+
+This is the only site where I could find any scans of MPC catalogs.  There are also 3
+MPC kit documentation sets on JimZ and more on plans.rocketshoppe.com
