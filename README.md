@@ -21,11 +21,19 @@ I invite contributors to create a packaged installer, especially for Windows.
 
 ## Version and compatibility
 
-Current version:  0.9.0.10
+Current version:  0.9.0.11
 
 OpenRocket compatibility:  tested with OpenRocket 15.03
 
 ## Release Notes
+0.9.0.12 - Jun 2017
+* Added FSI and CMR tube sizes to tube data spreadsheet
+* Added Madcow tube couplers
+* Fix Estes PSII nylon chutes to have mass (paste in correct materials)
+
+0.9.0.11 - 18 May 2017
+* Inserted correct dimensions for CPT-10 clear tube in tube_data.txt
+
 0.9.0.10 - 18 May 2017
 * Semroc additions: BC-2xx, BC-6xx, BC-7xx, BC-8xx, BC-8Fxx, BNC-20xx completed
 
@@ -159,14 +167,13 @@ Please don't report problems on TRF, via email, etc. - use GitHub issues; others
 * Mass overrides mostly removed - material densities set correctly
 * Mass data for tubing analyzed to remove outliers and derive correct average densities
 * A master materials reference file is provided with heavily researched data
-* Major expansion and cleanup of the Estes parts file
-  * Added most missing body tubes from the comprehensive Brohm tube index, including BT-51, BT-52, BT-56, BT-58, etc.
-  * Many nose cones added from the Brohm nose cone reference
+* Estes
+  * Added missing body tubes from the comprehensive Brohm tube index, including BT-51, BT-52, BT-56, BT-58, etc.
+  * Many missing nose cones added from the Brohm nose cone reference
   * Numeric PNs and old style part numbers both listed where known
-  * Centering rings added (missing from stock OpenRocket)
-  * Tons of research information in the file
+  * Centering rings added (all missing from stock OpenRocket)
   * Pro Series II parts file added
-* Greatly improved LOC Precision parts file
+* LOC Precision
   * Best available size and mass data; many conflicts and errors resolved
   * Parachutes added
 * Top Flight parachutes and streamers file added
@@ -192,9 +199,12 @@ somewhat Mac centric because that's what I use most.
 | `Fliskits.orc`           | Yes  | --
 | `giantleaprocketry.orc`  | Yes  | --
 | `publicmissiles.orc`     | Yes  | --
+| `fsi.orc`                | No   | --
+| `cmr.orc`                | No   | --
 | `mpc.orc`                | No   | 98%
 | `estes_classic.orc`      | No   | 95%
 | `estes_ps2.orc`          | No   | 98%
+| `madcow.orc`             | No   | 35%
 | `top_flight.orc`         | No   | 100%
 | `competition_chutes.orc` | No   | 100%
 
@@ -243,8 +253,8 @@ uncertainties about some obscure Estes parts.  eRockets acquired SEMROC after Ca
 and has done a fantastic job of getting nearly all the SEMROC parts back into production and indexing
 them on the erocket.biz website.
 
-The body tubes listing on the old SEMROC website was a unique resource, and I have digested it
-into a table of dimensions text file in this repository.
+The body tube and nose cone listings on the old SEMROC website are a unique resource, and I have digested it
+into a table of dimensions text file and spreadsheet in this repository.
 
 Semroc is known for its vast array of Estes and Centuri compatible nose cones, but they
 also make some nose cones for their own kits.  This leads to some complications.  There
@@ -264,8 +274,8 @@ situations:
    
    * BNC-20MG (1.9 inch odd shape for Semroc Moon Go)
 
-3. Semroc unique parts that are upscales/downscales of other well known Estes nose cones.
-   Examples:
+3. Semroc unique parts that are upscales/downscales of other well known Estes nose cones as indicated
+   by Semroc on their website. Example:
    
    * BNC-20LS (2.0 inch elliptical, downscale of BNC-60L)
 
@@ -317,8 +327,8 @@ this components database.
 * Apogee (they mostly OEM other vendors' parts, but have some unique ones)
 * Apogee Components (predecessor to Apogee owned by Ed LaCroix; made competition parts that
   Apogee under Tim van Milligan did not carry forward)
-* CMR (defunct but had unusual tube sizes)
-* FSI (defunct but also had unusual tube sizes)
+* CMR (defunct but had unique tube sizes)
+* FSI (defunct but also had unique tube sizes)
 * High power kit vendors
   * Madcow
   * Rocketry Warehouse (now part of Madcow)

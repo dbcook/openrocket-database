@@ -30,7 +30,7 @@ BT-51     0.985     1.011      1.013     0.983
 BT-52     0.988     1.014      1.016     0.986
 BTH-52    1.140     1.220      1.222     1.138    * exactly same as LT-115
 BT-55     1.283     1.325      1.327     1.281
-BT-56est  1.304     1.346      1.348     1.302    not carried by Semroc
+BT-56est  1.304     1.346      1.348     1.302    not carried by Semroc; equivalent to Centuri ST-13
 BT-56sem  1.346     1.367      1.369     1.344    * believed to be erroneously derived from Estes sizing
 BT-58     1.498     1.540      1.542     1.496
 BT-60     1.595     1.637      1.639     1.593
@@ -55,7 +55,7 @@ SERIES    ID        OD         RingID    RingOD
 #7        0.715     0.759      0.761     0.713
 #8        0.865     0.908      0.910     0.863
 #8F       0.885     0.921      0.923     0.883
-#9        0.950     0.998      1.000     0.948     24mm MMT, same ID as BT-50 but .020 wall
+#9        0.950     0.998      1.000     0.948     24mm MMT, same ID as BT-50 but .024 wall
 #10       1.000     1.040      1.042     0.998
 #11       1.130     1.170      1.172     1.128
 #13       1.300     1.340      1.342     1.298
@@ -69,7 +69,7 @@ SERIES    ID        OD         RingID    RingOD
 Large Tube Series (compatible with old Centuri heavy wall tubes)
 ----------------------------------------------------------------
 These are now listed on the eRocket/SEMROC site as LT-xxx
-These are not the same as the newer PSII 2.0, 2.5, 3.0, 4.0 tubes which are .034 wall
+These are not the same as the newer Estes PSII 2.0, 2.5, 3.0, 4.0 tubes which are .034 wall
 
 SERIES    ID        OD         RingID    RingOD
                                OD+.02    ID-.02
@@ -88,7 +88,10 @@ Clear Tube Series - CPT are Centuri sizes, PST are Estes sizes
 
 CPT #7    0.715     0.759      0.761     0.713
 CPT #8    0.865     0.908      0.910     0.863
-CPT #10   wrong data on SEMROC legacy page
+CPT #10   1.039     1.060      1.062     1.037   note .020 larger vs ST-10 paper tube
+SOURCE ERROR: conclusively wrong data on SEMROC legacy page (repeats CPT-8 dimensions)
+SOURCE ERROR: inconsistent data on new 2017 eRockets/Semroc page: ID 1.039, OD 1.060, wall .021
+CPT #13   1.300     1.340      1.342     1.298   eRockets/Semroc gives slightly incorrect wall .022
 
 PST-50    0.950     0.976      0.978     0.948
 PST-55    1.283     1.325      1.327     1.281

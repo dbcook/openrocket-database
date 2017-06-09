@@ -550,12 +550,12 @@
             <Type>BULK</Type>
         </Material>
         <Material UnitsOfMeasure="g/cm3">
-            <Name>Fiberglass, G10, filament wound generic, bulk</Name>
+            <Name>Fiberglass, G12, filament wound generic, bulk</Name>
             <Density>1934.0</Density>
             <Type>BULK</Type>
         </Material>
         <Material UnitsOfMeasure="g/cm3">
-z            <Name>Fiberglass, G10, filament wound tube, bulk</Name>
+            <Name>Fiberglass, G12, filament wound tube, bulk</Name>
             <Density>1820.0</Density>
             <Type>BULK</Type>
         </Material>

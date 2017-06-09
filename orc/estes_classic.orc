@@ -1735,8 +1735,8 @@ Known issues:
         <Length Unit="in">12.0</Length>
       </BodyTube>
 
-      <!-- BT-56 -->
-      <!-- NOTE: BT-56 is identical to old Centuri ST-13; only slightly larger than BT-55
+      <!-- BT-56, ID/OD ref 1995 Estes catalog -->
+      <!-- NOTE: BT-56 is (nearly?) identical to old Centuri ST-13; only slightly larger than BT-55
       -->
 
       <!-- Standard 18" BT-56 is white like Centuri tubes were -->
