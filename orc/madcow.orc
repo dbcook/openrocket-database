@@ -11,6 +11,30 @@ electronic catalog.
 I have not made individual components for all the tube colors as it would make the tube
 listings 7x larger, to the point of being unwieldy.  Only the natural tube SKU is listed.
 
+COMPLETED:
+
+Cardboard body tubes
+Cardboard couplers
+Thin wall fiberglass tubes
+Std wall fiberglass tubes
+Std wall fiberglass couplers
+Fiberglass composite tip nose cones - thin wall
+Fiberglass composite tip nose cones - std wall
+Fiberglass metal tip nose cones - std wall (starting at 4")
+Plastic nose cones
+
+TODO:
+
+Balsa ramjet cones (no published data, have to ask Madcow)
+Balsa tail cones for 2.6" to 38mm and 29mm mounts
+Fiberglass 2.6 and 4.0 tail cones
+Transition (glass) 4" to 54mm
+Centering rings - G10
+Centering rings - wood
+Body tubes - CF
+Couplers - CF
+Parachutes - Fruity, generic nylon, Sky Angle
+
 RESEARCH NOTES:
 
 Madcow sells G12 airframe tubes by the foot, with "full" 60 inch and "half" 30 inch lengths selectable,
@@ -99,14 +123,10 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
             <Density>657.0</Density>
             <Type>BULK</Type>
         </Material>
+        <!-- G10 is quoted on MatWeb.com as 1.80 g/cc -->
         <Material UnitsOfMeasure="g/cm3">
             <Name>Fiberglass, G10, bulk</Name>
-            <Density>2175.0</Density>
-            <Type>BULK</Type>
-        </Material>
-        <Material UnitsOfMeasure="g/cm3">
-            <Name>Fiberglass, G10, bulk</Name>
-            <Density>2175.0</Density>
+            <Density>1800.0</Density>
             <Type>BULK</Type>
         </Material>
         <Material UnitsOfMeasure="g/cm3">
@@ -114,6 +134,12 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
             <Density>1820.0</Density>
             <Type>BULK</Type>
         </Material>
+        <Material UnitsOfMeasure="kg/m3">
+            <Name>Polypropylene, bulk</Name>
+            <Density>946.0</Density>
+            <Type>BULK</Type>
+        </Material>
+
         
     </Materials>
 
@@ -394,7 +420,7 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FT16-THIN-600-NAT</PartNumber>
         <Description>Body tube, 38mm, G12 FWFG, thin wall, natural, 60.0 in.</Description>
-        <Material Type="BULK">Fiberglass, filament wound tube, bulk</Material>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">1.520</InsideDiameter>
         <OutsideDiameter Unit="in">1.600</OutsideDiameter>
         <Length Unit="in">60.0</Length>
@@ -403,7 +429,7 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FT16-THIN-300-NAT</PartNumber>
         <Description>Body tube, 38mm, G12 FWFG, thin wall, natural, 30.0 in.</Description>
-        <Material Type="BULK">Fiberglass, filament wound tube, bulk</Material>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">1.520</InsideDiameter>
         <OutsideDiameter Unit="in">1.600</OutsideDiameter>
         <Length Unit="in">30.0</Length>
@@ -414,7 +440,7 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FT22-THIN-600-NAT</PartNumber>
         <Description>Body tube, 54mm, G12 FWFG, thin wall, natural, 60.0 in.</Description>
-        <Material Type="BULK">Fiberglass, filament wound tube, bulk</Material>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">2.152</InsideDiameter>
         <OutsideDiameter Unit="in">2.230</OutsideDiameter>
         <Length Unit="in">60.0</Length>
@@ -423,7 +449,7 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FT22-THIN-300-NAT</PartNumber>
         <Description>Body tube, 54mm, G12 FWFG, thin wall, natural, 30.0 in.</Description>
-        <Material Type="BULK">Fiberglass, filament wound tube, bulk</Material>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">2.152</InsideDiameter>
         <OutsideDiameter Unit="in">2.230</OutsideDiameter>
         <Length Unit="in">30.0</Length>
@@ -436,7 +462,7 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FT26-THIN-600-NAT</PartNumber>
         <Description>Body tube, 2.6in, G12 FWFG, thin wall, natural, 60.0 in.</Description>
-        <Material Type="BULK">Fiberglass, filament wound tube, bulk</Material>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">2.560</InsideDiameter>
         <OutsideDiameter Unit="in">2.640</OutsideDiameter>
         <Length Unit="in">60.0</Length>
@@ -445,7 +471,7 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FT26-THIN-300-NAT</PartNumber>
         <Description>Body tube, 2.6in, G12 FWFG, thin wall, natural, 30.0 in.</Description>
-        <Material Type="BULK">Fiberglass, filament wound tube, bulk</Material>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">2.560</InsideDiameter>
         <OutsideDiameter Unit="in">2.640</OutsideDiameter>
         <Length Unit="in">30.0</Length>
@@ -458,7 +484,7 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FT30-THIN-600-NAT</PartNumber>
         <Description>Body tube, 3.0in, G12 FWFG, thin wall, natural, 60.0 in.</Description>
-        <Material Type="BULK">Fiberglass, filament wound tube, bulk</Material>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">3.000</InsideDiameter>
         <OutsideDiameter Unit="in">3.098</OutsideDiameter>
         <Length Unit="in">60.0</Length>
@@ -467,7 +493,7 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FT30-THIN-300-NAT</PartNumber>
         <Description>Body tube, 3.0in, G12 FWFG, thin wall, natural, 30.0 in.</Description>
-        <Material Type="BULK">Fiberglass, filament wound tube, bulk</Material>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">3.000</InsideDiameter>
         <OutsideDiameter Unit="in">3.098</OutsideDiameter>
         <Length Unit="in">30.0</Length>
@@ -477,14 +503,14 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
 
       <!-- Heavy wall (0.055 to 0.067) G12 fiberglass tubes -->
 
-      <!-- 29mm FT11: mass of F11 tube quoted as 2.428 oz per ft, so 5 ft tube should be 11.240 oz
+      <!-- 29mm FT11: mass of FT11 tube quoted as 2.428 oz per ft, so 5 ft tube should be 11.240 oz
            SOURCE ERROR: Madcow website does not generate fully qualified SKU for FT11 color/length
       -->
       <BodyTube>
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FT11-STD-600-NAT</PartNumber>
         <Description>Body tube, 29mm, G12 FWFG, heavy wall, natural, 60.0 in.</Description>
-        <Material Type="BULK">Fiberglass, filament wound tube, bulk</Material>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">1.145</InsideDiameter>
         <OutsideDiameter Unit="in">1.255</OutsideDiameter>
         <Length Unit="in">60.0</Length>
@@ -494,7 +520,7 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FT11-STD-300-NAT</PartNumber>
         <Description>Body tube, 29mm, G12 FWFG, heavy wall, natural, 30.0 in.</Description>
-        <Material Type="BULK">Fiberglass, filament wound tube, bulk</Material>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">1.145</InsideDiameter>
         <OutsideDiameter Unit="in">1.255</OutsideDiameter>
         <Length Unit="in">30.0</Length>
@@ -505,7 +531,7 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FT16-STD-600-NAT</PartNumber>
         <Description>Body tube, 38mm, G12 FWFG, heavy wall, natural, 60.0 in.</Description>
-        <Material Type="BULK">Fiberglass, filament wound tube, bulk</Material>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">1.520</InsideDiameter>
         <OutsideDiameter Unit="in">1.645</OutsideDiameter>
         <Length Unit="in">60.0</Length>
@@ -514,7 +540,7 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FT16-STD-300-NAT</PartNumber>
         <Description>Body tube, 38mm, G12 FWFG, heavy wall, natural, 30.0 in.</Description>
-        <Material Type="BULK">Fiberglass, filament wound tube, bulk</Material>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">1.520</InsideDiameter>
         <OutsideDiameter Unit="in">1.645</OutsideDiameter>
         <Length Unit="in">30.0</Length>
@@ -525,7 +551,7 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FT22-STD-600-NAT</PartNumber>
         <Description>Body tube, 54mm, G12 FWFG, heavy wall, natural, 60.0 in.</Description>
-        <Material Type="BULK">Fiberglass, filament wound tube, bulk</Material>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">2.152</InsideDiameter>
         <OutsideDiameter Unit="in">2.277</OutsideDiameter>
         <Length Unit="in">60.0</Length>
@@ -534,7 +560,7 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FT22-STD-300-NAT</PartNumber>
         <Description>Body tube, 54mm, G12 FWFG, heavy wall, natural, 30.0 in.</Description>
-        <Material Type="BULK">Fiberglass, filament wound tube, bulk</Material>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">2.152</InsideDiameter>
         <OutsideDiameter Unit="in">2.277</OutsideDiameter>
         <Length Unit="in">30.0</Length>
@@ -546,7 +572,7 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FT30-STD-600-NAT</PartNumber>
         <Description>Body tube, 3.0in, G12 FWFG, heavy wall, natural, 60.0 in.</Description>
-        <Material Type="BULK">Fiberglass, filament wound tube, bulk</Material>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">3.000</InsideDiameter>
         <OutsideDiameter Unit="in">3.125</OutsideDiameter>
         <Length Unit="in">60.0</Length>
@@ -555,7 +581,7 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FT30-STD-300-NAT</PartNumber>
         <Description>Body tube, 3.0in, G12 FWFG, heavy wall, natural, 30.0 in.</Description>
-        <Material Type="BULK">Fiberglass, filament wound tube, bulk</Material>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">3.000</InsideDiameter>
         <OutsideDiameter Unit="in">3.125</OutsideDiameter>
         <Length Unit="in">30.0</Length>
@@ -566,7 +592,7 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FT40-STD-600-NAT</PartNumber>
         <Description>Body tube, 4.0in, G12 FWFG, heavy wall, natural, 60.0 in.</Description>
-        <Material Type="BULK">Fiberglass, filament wound tube, bulk</Material>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">3.900</InsideDiameter>
         <OutsideDiameter Unit="in">4.024</OutsideDiameter>
         <Length Unit="in">60.0</Length>
@@ -575,18 +601,18 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FT40-STD-300-NAT</PartNumber>
         <Description>Body tube, 4.0in, G12 FWFG, heavy wall, natural, 30.0 in.</Description>
-        <Material Type="BULK">Fiberglass, filament wound tube, bulk</Material>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">3.900</InsideDiameter>
         <OutsideDiameter Unit="in">4.024</OutsideDiameter>
         <Length Unit="in">30.0</Length>
       </BodyTube>
 
-      <!-- FT45 heavy wall weight per foot 16.80 oz -->
+      <!-- FT45 heavy wall weight per foot 16.80 oz ***value 50% too high *** -->
       <BodyTube>
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FT45-STD-600-NAT</PartNumber>
         <Description>Body tube, 4.5in, G12 FWFG, heavy wall, natural, 60.0 in.</Description>
-        <Material Type="BULK">Fiberglass, filament wound tube, bulk</Material>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">4.375</InsideDiameter>
         <OutsideDiameter Unit="in">4.500</OutsideDiameter>
         <Length Unit="in">60.0</Length>
@@ -595,7 +621,7 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FT45-STD-300-NAT</PartNumber>
         <Description>Body tube, 4.5in, G12 FWFG, heavy wall, natural, 30.0 in.</Description>
-        <Material Type="BULK">Fiberglass, filament wound tube, bulk</Material>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">4.375</InsideDiameter>
         <OutsideDiameter Unit="in">4.500</OutsideDiameter>
         <Length Unit="in">30.0</Length>
@@ -606,7 +632,7 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FT50-STD-600-NAT</PartNumber>
         <Description>Body tube, 5.0in, G12 FWFG, heavy wall, natural, 60.0 in.</Description>
-        <Material Type="BULK">Fiberglass, filament wound tube, bulk</Material>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">5.000</InsideDiameter>
         <OutsideDiameter Unit="in">5.150</OutsideDiameter>
         <Length Unit="in">60.0</Length>
@@ -615,20 +641,20 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FT50-STD-300-NAT</PartNumber>
         <Description>Body tube, 5.0in, G12 FWFG, heavy wall, natural, 30.0 in.</Description>
-        <Material Type="BULK">Fiberglass, filament wound tube, bulk</Material>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">5.000</InsideDiameter>
         <OutsideDiameter Unit="in">5.150</OutsideDiameter>
         <Length Unit="in">30.0</Length>
       </BodyTube>
 
-      <!-- FT55 heavy wall weight per foot given (apparently incorrectly) as 16.80 oz
-           SOURCE ERROR: FT55 weight per foot cannot be the same as for FT45
+      <!-- FT55 heavy wall weight per foot given (reasonably) as 16.80 oz
+           SOURCE ERROR: FT55 weight per foot cannot be the same as for FT45; looks like FT45 is wrong
       -->
       <BodyTube>
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FT55-STD-600-NAT</PartNumber>
         <Description>Body tube, 5.5in, G12 FWFG, heavy wall, natural, 60.0 in.</Description>
-        <Material Type="BULK">Fiberglass, filament wound tube, bulk</Material>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">5.375</InsideDiameter>
         <OutsideDiameter Unit="in">5.525</OutsideDiameter>
         <Length Unit="in">60.0</Length>
@@ -637,7 +663,7 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FT55-STD-300-NAT</PartNumber>
         <Description>Body tube, 5.5in, G12 FWFG, heavy wall, natural, 30.0 in.</Description>
-        <Material Type="BULK">Fiberglass, filament wound tube, bulk</Material>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">5.375</InsideDiameter>
         <OutsideDiameter Unit="in">5.525</OutsideDiameter>
         <Length Unit="in">30.0</Length>
@@ -648,7 +674,7 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FT60-STD-600-NAT</PartNumber>
         <Description>Body tube, 6.0in, G12 FWFG, heavy wall, natural, 60.0 in.</Description>
-        <Material Type="BULK">Fiberglass, filament wound tube, bulk</Material>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">6.000</InsideDiameter>
         <OutsideDiameter Unit="in">6.170</OutsideDiameter>
         <Length Unit="in">60.0</Length>
@@ -657,7 +683,7 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FT60-STD-300-NAT</PartNumber>
         <Description>Body tube, 6.0in, G12 FWFG, heavy wall, 30.0 in.</Description>
-        <Material Type="BULK">Fiberglass, filament wound tube, bulk</Material>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">6.000</InsideDiameter>
         <OutsideDiameter Unit="in">6.170</OutsideDiameter>
         <Length Unit="in">30.0</Length>
@@ -671,7 +697,7 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FT75</PartNumber>
         <Description>Body tube, 7.5in, G12 FWFG, heavy wall, natural, 60.0 in.</Description>
-        <Material Type="BULK">Fiberglass, filament wound tube, bulk</Material>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">7.518</InsideDiameter>
         <OutsideDiameter Unit="in">7.708</OutsideDiameter>
         <Length Unit="in">60.0</Length>
@@ -685,7 +711,7 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FT80</PartNumber>
         <Description>Body tube, 8.0in, G12 FWFG, heavy wall, natural, 60.0 in.</Description>
-        <Material Type="BULK">Fiberglass, filament wound tube, bulk</Material>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">7.815</InsideDiameter>
         <OutsideDiameter Unit="in">8.005</OutsideDiameter>
         <Length Unit="in">60.0</Length>
@@ -701,20 +727,20 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FT115</PartNumber>
         <Description>Body tube, 11.5in, G12 FWFG, heavy wall, natural, 60.0 in.</Description>
-        <Material Type="BULK">Fiberglass, filament wound tube, bulk</Material>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">11.310</InsideDiameter>
         <OutsideDiameter Unit="in">11.500</OutsideDiameter>
         <Length Unit="in">60.0</Length>
       </BodyTube>
       
-      <!-- G12 filament wound fiberglass coupler tubes, wall 0.072 typical -->
+      <!-- G12, filament wound fiberglass coupler tubes, wall 0.072 typical -->
       
-      <!-- FC29, weight per foot quoted as 2.428 oz -->
+      <!-- FC29, weight per foot quoted as 2.428 oz = 0.202 oz/in -->
       <TubeCoupler>
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FC29_4in</PartNumber>
         <Description>Tube coupler, 29mm, G12 FWFG, 4.0 in., PN FC29</Description>
-        <Material Type="BULK">Fiberglass, filament wound tube, bulk</Material>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">1.000</InsideDiameter>
         <OutsideDiameter Unit="in">1.143</OutsideDiameter>
         <Length Unit="in">4.0</Length>
@@ -723,18 +749,18 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FC29_6in</PartNumber>
         <Description>Tube coupler, 29mm, G12 FWFG, 6.0 in., PN FC29</Description>
-        <Material Type="BULK">Fiberglass, filament wound tube, bulk</Material>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">1.000</InsideDiameter>
         <OutsideDiameter Unit="in">1.143</OutsideDiameter>
         <Length Unit="in">6.0</Length>
       </TubeCoupler>
 
-      <!-- FC38, weight per foot quoted as 4.028 oz -->
+      <!-- FC38, weight per foot quoted as 4.028 oz = 0.335 oz/in -->
       <TubeCoupler>
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FC38_4in</PartNumber>
         <Description>Tube coupler, 38mm, G12 FWFG, 4.0 in., PN FC38</Description>
-        <Material Type="BULK">Fiberglass, filament wound tube, bulk</Material>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">1.370</InsideDiameter>
         <OutsideDiameter Unit="in">1.518</OutsideDiameter>
         <Length Unit="in">4.0</Length>
@@ -743,7 +769,7 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FC38_6in</PartNumber>
         <Description>Tube coupler, 38mm, G12 FWFG, 6.0 in., PN FC38</Description>
-        <Material Type="BULK">Fiberglass, filament wound tube, bulk</Material>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">1.370</InsideDiameter>
         <OutsideDiameter Unit="in">1.518</OutsideDiameter>
         <Length Unit="in">6.0</Length>
@@ -752,18 +778,18 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FC38_8in</PartNumber>
         <Description>Tube coupler, 38mm, G12 FWFG, 8.0 in., PN FC38</Description>
-        <Material Type="BULK">Fiberglass, filament wound tube, bulk</Material>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">1.370</InsideDiameter>
         <OutsideDiameter Unit="in">1.518</OutsideDiameter>
         <Length Unit="in">8.0</Length>
       </TubeCoupler>
 
-      <!-- FC54, weight per foot quoted as 6.028 oz -->
+      <!-- FC54, weight per foot quoted as 6.028 oz = 0.502 oz/in -->
       <TubeCoupler>
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FC54_6in</PartNumber>
         <Description>Tube coupler, 54mm, G12 FWFG, 6.0 in., PN FC54</Description>
-        <Material Type="BULK">Fiberglass, filament wound tube, bulk</Material>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">2.000</InsideDiameter>
         <OutsideDiameter Unit="in">2.150</OutsideDiameter>
         <Length Unit="in">6.0</Length>
@@ -772,18 +798,20 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FC54_8in</PartNumber>
         <Description>Tube coupler, 54mm, G12 FWFG, 8.0 in., PN FC54</Description>
-        <Material Type="BULK">Fiberglass, filament wound tube, bulk</Material>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">2.000</InsideDiameter>
         <OutsideDiameter Unit="in">2.150</OutsideDiameter>
         <Length Unit="in">8.0</Length>
       </TubeCoupler>
 
-      <!-- FC26 (2.6" tube), weight per foot quoted as 5.2 oz -->
+      <!-- FC26 (2.6" tube), weight per foot quoted as 5.2 oz = 0.433 oz/in
+           SOURCE ERROR?: unclear why weight/ft of FC26 is less than for FC54
+      -->
       <TubeCoupler>
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FC26_6in</PartNumber>
         <Description>Tube coupler, 2.6in, G12 FWFG, 6.0 in., PN FC26</Description>
-        <Material Type="BULK">Fiberglass, filament wound tube, bulk</Material>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">2.375</InsideDiameter>
         <OutsideDiameter Unit="in">2.558</OutsideDiameter>
         <Length Unit="in">6.0</Length>
@@ -792,18 +820,18 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FC26_8in</PartNumber>
         <Description>Tube coupler, 2.6in, G12 FWFG, 8.0 in., PN FC26</Description>
-        <Material Type="BULK">Fiberglass, filament wound tube, bulk</Material>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">2.375</InsideDiameter>
         <OutsideDiameter Unit="in">2.558</OutsideDiameter>
         <Length Unit="in">8.0</Length>
       </TubeCoupler>
 
-      <!-- FC30 (3.0" tube), weight per foot not quoted! -->
+      <!-- FC30 (3.0" tube), weight per foot not quoted.  Using G12 density gives 7.16 oz/ft -->
       <TubeCoupler>
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FC30_6in</PartNumber>
         <Description>Tube coupler, 3.0in, G12 FWFG, 6.0 in., PN FC30</Description>
-        <Material Type="BULK">Fiberglass, filament wound tube, bulk</Material>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">2.875</InsideDiameter>
         <OutsideDiameter Unit="in">2.998</OutsideDiameter>
         <Length Unit="in">6.0</Length>
@@ -812,18 +840,18 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FC30_9in</PartNumber>
         <Description>Tube coupler, 3.0in, G12 FWFG, 9.0 in., PN FC30</Description>
-        <Material Type="BULK">Fiberglass, filament wound tube, bulk</Material>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">2.875</InsideDiameter>
         <OutsideDiameter Unit="in">2.998</OutsideDiameter>
         <Length Unit="in">9.0</Length>
       </TubeCoupler>
 
-      <!-- FC39 (4.0" tube), weight per foot not quoted! -->
+      <!-- FC39 (4.0" tube), weight per foot not quoted.  Using G12 density gives 10.9 oz/ft -->
       <TubeCoupler>
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FC39_8in</PartNumber>
         <Description>Tube coupler, 4.0in, G12 FWFG, 8.0 in., PN FC39</Description>
-        <Material Type="BULK">Fiberglass, filament wound tube, bulk</Material>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">3.755</InsideDiameter>
         <OutsideDiameter Unit="in">3.899</OutsideDiameter>
         <Length Unit="in">8.0</Length>
@@ -832,7 +860,7 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FC39_9in</PartNumber>
         <Description>Tube coupler, 4.0in, G12 FWFG, 9.0 in., PN FC39</Description>
-        <Material Type="BULK">Fiberglass, filament wound tube, bulk</Material>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">3.755</InsideDiameter>
         <OutsideDiameter Unit="in">3.899</OutsideDiameter>
         <Length Unit="in">9.0</Length>
@@ -841,20 +869,21 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FC39_12in</PartNumber>
         <Description>Tube coupler, 4.0in, G12 FWFG, 12.0 in., PN FC39</Description>
-        <Material Type="BULK">Fiberglass, filament wound tube, bulk</Material>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">3.755</InsideDiameter>
         <OutsideDiameter Unit="in">3.899</OutsideDiameter>
         <Length Unit="in">12.0</Length>
       </TubeCoupler>
 
       <!-- FC45: dimensions not specified - reconstructed to use same offsets as others
+           Using G12 density gives 12.3 oz/ft
            SOURCE ERROR: FC45 dimensions not given on Madcow website.
       -->
       <TubeCoupler>
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FC45_9in</PartNumber>
         <Description>Tube coupler, 4.5in, G12 FWFG, 9.0 in., PN FC45</Description>
-        <Material Type="BULK">Fiberglass, filament wound tube, bulk</Material>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">4.229</InsideDiameter>
         <OutsideDiameter Unit="in">4.373</OutsideDiameter>
         <Length Unit="in">9.0</Length>
@@ -863,18 +892,18 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FC45_12in</PartNumber>
         <Description>Tube coupler, 4.5in, G12 FWFG, 12.0 in., PN FC45</Description>
-        <Material Type="BULK">Fiberglass, filament wound tube, bulk</Material>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">4.229</InsideDiameter>
         <OutsideDiameter Unit="in">4.373</OutsideDiameter>
         <Length Unit="in">12.0</Length>
       </TubeCoupler>
 
-      <!-- FC50 (5.0" tube), weight per foot not specified! -->
+      <!-- FC50 (5.0" tube), weight per foot not specified.  Using G12 density gives 17.8 oz/ft -->
       <TubeCoupler>
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FC50_10in</PartNumber>
         <Description>Tube coupler, 5.0in, G12 FWFG, 10.0 in., PN FC50</Description>
-        <Material Type="BULK">Fiberglass, filament wound tube, bulk</Material>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">4.815</InsideDiameter>
         <OutsideDiameter Unit="in">4.998</OutsideDiameter>
         <Length Unit="in">10.0</Length>
@@ -883,20 +912,21 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FC50_12in</PartNumber>
         <Description>Tube coupler, 5.0in, G12 FWFG, 12.0 in., PN FC50</Description>
-        <Material Type="BULK">Fiberglass, filament wound tube, bulk</Material>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">4.815</InsideDiameter>
         <OutsideDiameter Unit="in">4.998</OutsideDiameter>
         <Length Unit="in">12.0</Length>
       </TubeCoupler>
 
       <!-- FC55 (5.5" tube), dimensions not specified - reconstructed based on .091 wall
+           weight per foot using G12 density gives 19.1 oz/ft
            SOURCE ERROR: FC55 dimensions not given on Madcow website.
       -->
       <TubeCoupler>
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FC55_12in</PartNumber>
         <Description>Tube coupler, 5.5in, G12 FWFG, 12.0 in., PN FC55</Description>
-        <Material Type="BULK">Fiberglass, filament wound tube, bulk</Material>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">5.191</InsideDiameter>
         <OutsideDiameter Unit="in">5.373</OutsideDiameter>
         <Length Unit="in">12.0</Length>
@@ -905,18 +935,18 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FC55_14in</PartNumber>
         <Description>Tube coupler, 5.5in, G12 FWFG, 14.0 in., PN FC55</Description>
-        <Material Type="BULK">Fiberglass, filament wound tube, bulk</Material>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">5.191</InsideDiameter>
         <OutsideDiameter Unit="in">5.373</OutsideDiameter>
         <Length Unit="in">14.0</Length>
       </TubeCoupler>
 
-      <!-- FC60 (6.0" tube), weight per foot not specified -->
+      <!-- FC60 (6.0" tube), weight per foot not specified.  Using G12 density gives 26.0 oz/ft -->
       <TubeCoupler>
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FC60_12in</PartNumber>
         <Description>Tube coupler, 6.0in, G12 FWFG, 12.0 in., PN FC60</Description>
-        <Material Type="BULK">Fiberglass, filament wound tube, bulk</Material>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">5.775</InsideDiameter>
         <OutsideDiameter Unit="in">5.998</OutsideDiameter>
         <Length Unit="in">12.0</Length>
@@ -925,7 +955,7 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FC60_14in</PartNumber>
         <Description>Tube coupler, 6.0in, G12 FWFG, 14.0 in., PN FC60</Description>
-        <Material Type="BULK">Fiberglass, filament wound tube, bulk</Material>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">5.775</InsideDiameter>
         <OutsideDiameter Unit="in">5.998</OutsideDiameter>
         <Length Unit="in">14.0</Length>
@@ -933,15 +963,17 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
 
       <!-- Coupler for 7.5" tube (which would be FC75) doesn't exist on website -->
 
-      <!-- FC80 (8.0" tube), dimensions not specified - reconstructed based on .112 wall
+      <!-- FC80 (8.0" tube), dimensions not specified - reconstructed based on .089 wall
+           Mfr data: in the FWNC80 nose cone section, Madcow says 11 in of FC80 weighs 25 oz
+           or 27.3 oz/ft.  This implies a .089 wall based on G12 density of ~1800 kg/m3.
            SOURCE ERROR: FC80 dimensions not given on Madcow website.
       -->
       <TubeCoupler>
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FC80_16in</PartNumber>
         <Description>Tube coupler, 8.0in, G12 FWFG, 16.0 in., PN FC80</Description>
-        <Material Type="BULK">Fiberglass, filament wound tube, bulk</Material>
-        <InsideDiameter Unit="in">7.589</InsideDiameter>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
+        <InsideDiameter Unit="in">7.635</InsideDiameter>
         <OutsideDiameter Unit="in">7.813</OutsideDiameter>
         <Length Unit="in">16.0</Length>
       </TubeCoupler>
@@ -949,8 +981,8 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FC80_18in</PartNumber>
         <Description>Tube coupler, 8.0in, G12 FWFG, 18.0 in., PN FC80</Description>
-        <Material Type="BULK">Fiberglass, filament wound tube, bulk</Material>
-        <InsideDiameter Unit="in">7.589</InsideDiameter>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
+        <InsideDiameter Unit="in">7.635</InsideDiameter>
         <OutsideDiameter Unit="in">7.813</OutsideDiameter>
         <Length Unit="in">18.0</Length>
       </TubeCoupler>
@@ -963,7 +995,15 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
 
       <!-- For all these parts the shoulder length is set zero here; you must put in the
            nose cone coupler as a separate part since the position of the coupler in the
-           nose cone is not fixed by the manufacturer -->
+           nose cone is not fixed by the manufacturer.
+
+           About mass of metal tip nose cones: The density of aluminum at 2.7 g/cm3 is a little more
+           than that of fiberglass (1.8-2.2 g/cm3). Metal tip nose cones will weight slighly more
+           than composite tip versions and have their CG slightly further forward, but the delta is
+           not that large and OpenRocket has no good way to model this in a single component.  For
+           highest accuracy in mass, CG and moments of inertia, you can add a small mass object at
+           the nose cone tip to make up the difference.
+      -->
 
       <!-- No nose cones listed for 1.1" / 29mm tube -->
 
@@ -972,13 +1012,15 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
       <!-- =============================== -->
 
       <!-- 1.6" thin wall composite tip shapes
-           Mfr data (***not clear whether weight includes the NC coupler; assumed not***:
+           Mfr data (***not clear whether weight includes the NC coupler but looks like it does ***)
+              4" FC38 coupler weight = 1.34 oz
               3:1 ogive: 5" exposed length, 1.61" diameter, 2.1 oz
               4:1 ogive: 6 1/2" exposed length, 1.61" diameter, 2.6 oz
               5:1 ogive: 8" exposed length, 1.61" diameter, 2.9 oz
               5:1 conical: 9 1/8" exposed length, 1.61" diameter, 3.6 oz
               5.5:1 von Karman: 9 3/8" exposed length, 1.61" diameter, 3.5 oz
       -->
+        <!-- FWNC38T-K net wt 0.76 oz -->
         <NoseCone>
             <Manufacturer>Madcow</Manufacturer>
             <PartNumber>FWNC38T-K</PartNumber>
@@ -989,8 +1031,9 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
             <ShoulderDiameter Unit="in">1.518</ShoulderDiameter>
             <ShoulderLength Unit="in">0.0</ShoulderLength>
             <Length Unit="in">5.0</Length>
-            <Thickness Unit="in">0.110</Thickness>
+            <Thickness Unit="in">0.045</Thickness>
         </NoseCone>
+        <!-- FWNC38T-Y net wt 1.26 oz -->
         <NoseCone>
             <Manufacturer>Madcow</Manufacturer>
             <PartNumber>FWNC38T-Y</PartNumber>
@@ -1001,8 +1044,9 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
             <ShoulderDiameter Unit="in">1.518</ShoulderDiameter>
             <ShoulderLength Unit="in">0.0</ShoulderLength>
             <Length Unit="in">6.5</Length>
-            <Thickness Unit="in">0.104</Thickness>
+            <Thickness Unit="in">0.0585</Thickness>
         </NoseCone>
+        <!-- FWNC38T-YY net wt 1.56 oz -->
         <NoseCone>
             <Manufacturer>Madcow</Manufacturer>
             <PartNumber>FWNC38T-YY</PartNumber>
@@ -1013,8 +1057,12 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
             <ShoulderDiameter Unit="in">1.518</ShoulderDiameter>
             <ShoulderLength Unit="in">0.0</ShoulderLength>
             <Length Unit="in">8.0</Length>
-            <Thickness Unit="in">0.0935</Thickness>
+            <Thickness Unit="in">0.0590</Thickness>
         </NoseCone>
+        <!-- FWNC38T-C net wt 2.26 oz
+             SOURCE ERROR?: Have to use anomalous .1085 thickness to reach specified weight.
+                            Quoted weight not for thinwall?
+        -->
         <NoseCone>
             <Manufacturer>Madcow</Manufacturer>
             <PartNumber>FWNC38T-C</PartNumber>
@@ -1025,19 +1073,23 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
             <ShoulderDiameter Unit="in">1.518</ShoulderDiameter>
             <ShoulderLength Unit="in">0.0</ShoulderLength>
             <Length Unit="in">9.125</Length>
-            <Thickness Unit="in">0.1515</Thickness>
+            <Thickness Unit="in">0.1085</Thickness>
         </NoseCone>
+        <!-- FWNC38T-VK net wt 2.16 oz
+             SOURCE ERROR?: Have to use anomalous .072 thickness to reach specified weight for FWNC38T-VK.
+                            Quoted weight not for thinwall?
+        -->
         <NoseCone>
             <Manufacturer>Madcow</Manufacturer>
             <PartNumber>FWNC38T-VK</PartNumber>
             <Description>Nose cone, fiberglass, thin wall, 5.5:1 von Karman, composite tip</Description>
             <Material Type="BULK">Fiberglass, G10, bulk</Material>
-            <Shape>OGIVE</Shape>
+            <Shape>HAACK</Shape>
             <OutsideDiameter Unit="in">1.600</OutsideDiameter>
             <ShoulderDiameter Unit="in">1.518</ShoulderDiameter>
             <ShoulderLength Unit="in">0.0</ShoulderLength>
             <Length Unit="in">9.375</Length>
-            <Thickness Unit="in">0.097</Thickness>
+            <Thickness Unit="in">0.0725</Thickness>
         </NoseCone>
 
         <!-- There are no 1.6" fiberglass standard wall composite tip shapes -->
@@ -1049,7 +1101,8 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
 
         <!-- 2.2" 54mm fiberglass thin wall composite tip shapes
              *** No mfr data given except fineness ratio ***
-             *** Get actual weights and set thickness to put weight to actual ***             
+             *** Get actual weights and set thickness to put weight to actual ***
+             For now have set thickness equal to .040 wall, mass should be reasonably close
         -->
         <NoseCone>
             <Manufacturer>Madcow</Manufacturer>
@@ -1061,7 +1114,7 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
             <ShoulderDiameter Unit="in">2.150</ShoulderDiameter>
             <ShoulderLength Unit="in">0.0</ShoulderLength>
             <Length Unit="in">11.0</Length>
-            <Thickness Unit="in">0.100</Thickness>
+            <Thickness Unit="in">0.040</Thickness>
         </NoseCone>
         <NoseCone>
             <Manufacturer>Madcow</Manufacturer>
@@ -1073,7 +1126,7 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
             <ShoulderDiameter Unit="in">2.150</ShoulderDiameter>
             <ShoulderLength Unit="in">0.0</ShoulderLength>
             <Length Unit="in">11.0</Length>
-            <Thickness Unit="in">0.100</Thickness>
+            <Thickness Unit="in">0.040</Thickness>
         </NoseCone>
         <NoseCone>
             <Manufacturer>Madcow</Manufacturer>
@@ -1085,13 +1138,14 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
             <ShoulderDiameter Unit="in">2.150</ShoulderDiameter>
             <ShoulderLength Unit="in">0.0</ShoulderLength>
             <Length Unit="in">12.1</Length>
-            <Thickness Unit="in">0.100</Thickness>
+            <Thickness Unit="in">0.040</Thickness>
         </NoseCone>
 
 
         <!-- 2.2" 54mm fiberglass standard wall composite tip shapes
              *** No mfr data given except fineness ratio ***
-             *** Get actual weights and set thickness to put weight to actual ***             
+             *** Get actual weights and set thickness to put weight to actual ***
+             For now have set thickness to tube wall thickness, should be reasonable
         -->
         <NoseCone>
             <Manufacturer>Madcow</Manufacturer>
@@ -1103,7 +1157,7 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
             <ShoulderDiameter Unit="in">2.150</ShoulderDiameter>
             <ShoulderLength Unit="in">0.0</ShoulderLength>
             <Length Unit="in">11.0</Length>
-            <Thickness Unit="in">0.100</Thickness>
+            <Thickness Unit="in">0.063</Thickness>
         </NoseCone>
         <NoseCone>
             <Manufacturer>Madcow</Manufacturer>
@@ -1115,7 +1169,7 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
             <ShoulderDiameter Unit="in">2.150</ShoulderDiameter>
             <ShoulderLength Unit="in">0.0</ShoulderLength>
             <Length Unit="in">11.0</Length>
-            <Thickness Unit="in">0.100</Thickness>
+            <Thickness Unit="in">0.063</Thickness>
         </NoseCone>
         <NoseCone>
             <Manufacturer>Madcow</Manufacturer>
@@ -1127,7 +1181,7 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
             <ShoulderDiameter Unit="in">2.150</ShoulderDiameter>
             <ShoulderLength Unit="in">0.0</ShoulderLength>
             <Length Unit="in">12.1</Length>
-            <Thickness Unit="in">0.100</Thickness>
+            <Thickness Unit="in">0.063</Thickness>
         </NoseCone>
       
         <!-- There are no 2.2" 54mm fiberglass standard wall aluminum tip shapes -->
@@ -1138,7 +1192,8 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
 
         <!-- 2.6" fiberglass thin wall nose cone shapes
              Mfr Data:
-                5:1 ogive:  13 1/2" exposed length, 7 oz with coupler
+                6" FC26 coupler weighs 2.60 oz
+                5:1 ogive:  13 1/2" exposed length, 7 oz with coupler => 4.40 oz
                 *** no data for FWNC26 3:1 ogive or 5:1 conical ***
         -->
         <!-- SOURCE ERROR:  Madcow website page says "Fiberglass 2.6" (38mm) Filament...".
@@ -1153,9 +1208,9 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
             <ShoulderDiameter Unit="in">2.558</ShoulderDiameter>
             <ShoulderLength Unit="in">0.0</ShoulderLength>
             <Length Unit="in">7.92</Length>
-            <Thickness Unit="in">0.100</Thickness>
+            <Thickness Unit="in">0.041</Thickness>
         </NoseCone>
-        <!-- FWNC26T-YY quoted as 7 oz with coupler.  Removing weight of a 6 in FC26 coupler,
+        <!-- FWNC26T-YY quoted as 7 oz with coupler.  Removing 2.60 oz weight of a 6 in FC26 coupler,
              the nose cone should weigh 4.4 oz by itself -->
         <NoseCone>
             <Manufacturer>Madcow</Manufacturer>
@@ -1167,7 +1222,7 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
             <ShoulderDiameter Unit="in">2.558</ShoulderDiameter>
             <ShoulderLength Unit="in">0.0</ShoulderLength>
             <Length Unit="in">13.50</Length>
-            <Thickness Unit="in">0.100</Thickness>
+            <Thickness Unit="in">0.0583</Thickness>
         </NoseCone>
         <NoseCone>
             <Manufacturer>Madcow</Manufacturer>
@@ -1179,7 +1234,7 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
             <ShoulderDiameter Unit="in">2.558</ShoulderDiameter>
             <ShoulderLength Unit="in">0.0</ShoulderLength>
             <Length Unit="in">13.20</Length>
-            <Thickness Unit="in">0.100</Thickness>
+            <Thickness Unit="in">0.041</Thickness>
         </NoseCone>
 
         <!-- There are no 2.6" fiberglass standard wall composite tip nose cone shapes -->
@@ -1191,22 +1246,558 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
         <!-- =============================== -->
 
         <!-- SOURCE ERROR: Madcow website gives same weight for FWNC30-VK and FWNC30T-VK, and
-             for FWNC30-Y and FWNC30T-Y.  This is almost certainly incorrect. -->
+             for FWNC30-Y and FWNC30T-Y.  This is definitely incorrect. -->
 
         <!-- 3" 75mm fiberglass thin wall composite tip nose cone shapes
              Mfr Data:
-                 4:1 ogive: 13 3/8" exposed length, 13.4 oz (see note above about erroneous weights)
-                 5.5:1 VK:  17 1/4" exposed length, 17.5 oz (see note above about erroneous weights)
+                 FC30 6" coupler is 3.51 oz
+                 4:1 ogive: 13 3/8" exposed length, 13.4 oz (***weight wrong for thin wall***)
+                 5.5:1 VK:  17 1/4" exposed length, 17.5 oz (***weight wrong for thin wall***)
+             For now I have set NC thickness to tube wall thickness to get close
         -->
+        <NoseCone>
+            <Manufacturer>Madcow</Manufacturer>
+            <PartNumber>FWNC30T-Y</PartNumber>
+            <Description>Nose cone, fiberglass, thin wall, 4:1 ogive, composite tip</Description>
+            <Material Type="BULK">Fiberglass, G10, bulk</Material>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">3.098</OutsideDiameter>
+            <ShoulderDiameter Unit="in">2.997</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.0</ShoulderLength>
+            <Length Unit="in">13.375</Length>
+            <Thickness Unit="in">0.050</Thickness>
+        </NoseCone>
+        <NoseCone>
+            <Manufacturer>Madcow</Manufacturer>
+            <PartNumber>FWNC30T-YY</PartNumber>
+            <Description>Nose cone, fiberglass, thin wall, 5:1 ogive, composite tip</Description>
+            <Material Type="BULK">Fiberglass, G10, bulk</Material>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">3.098</OutsideDiameter>
+            <ShoulderDiameter Unit="in">2.997</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.0</ShoulderLength>
+            <Length Unit="in">15.49</Length>
+            <Thickness Unit="in">0.050</Thickness>
+        </NoseCone>
+        <NoseCone>
+            <Manufacturer>Madcow</Manufacturer>
+            <PartNumber>FWNC30T-C</PartNumber>
+            <Description>Nose cone, fiberglass, thin wall, 5:1 conical, composite tip</Description>
+            <Material Type="BULK">Fiberglass, G10, bulk</Material>
+            <Shape>CONICAL</Shape>
+            <OutsideDiameter Unit="in">3.098</OutsideDiameter>
+            <ShoulderDiameter Unit="in">2.997</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.0</ShoulderLength>
+            <Length Unit="in">13.375</Length>
+            <Thickness Unit="in">0.050</Thickness>
+        </NoseCone>
+        <NoseCone>
+            <Manufacturer>Madcow</Manufacturer>
+            <PartNumber>FWNC30T-VK</PartNumber>
+            <Description>Nose cone, fiberglass, thin wall, 5.5:1 von Karman, composite tip</Description>
+            <Material Type="BULK">Fiberglass, G10, bulk</Material>
+            <Shape>HAACK</Shape>
+            <OutsideDiameter Unit="in">3.098</OutsideDiameter>
+            <ShoulderDiameter Unit="in">2.997</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.0</ShoulderLength>
+            <Length Unit="in">17.25</Length>
+            <Thickness Unit="in">0.050</Thickness>
+        </NoseCone>
         
         <!-- 3" 75mm fiberglass standard wall composite tip nose cone shapes
              Mfr Data:
                  4:1 ogive: 13 3/8" exposed length, 13.4 oz (see note above about erroneous weights)
                  5.5:1 VK:  17 1/4" exposed length, 17.5 oz (see note above about erroneous weights)
+                 *** I am suspicious of these weights due to the thickness required to reach them ***
         -->
+        <!-- FWNC30-Y net wt 9.89 oz -->
+        <NoseCone>
+            <Manufacturer>Madcow</Manufacturer>
+            <PartNumber>FWNC30-Y</PartNumber>
+            <Description>Nose cone, fiberglass, heavy wall, 4:1 ogive, composite tip</Description>
+            <Material Type="BULK">Fiberglass, G10, bulk</Material>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">3.125</OutsideDiameter>
+            <ShoulderDiameter Unit="in">2.997</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.0</ShoulderLength>
+            <Length Unit="in">13.375</Length>
+            <Thickness Unit="in">0.114</Thickness>
+        </NoseCone>
+        <NoseCone>
+            <Manufacturer>Madcow</Manufacturer>
+            <PartNumber>FWNC30-YY</PartNumber>
+            <Description>Nose cone, fiberglass, heavy wall, 5:1 ogive, composite tip</Description>
+            <Material Type="BULK">Fiberglass, G10, bulk</Material>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">3.125</OutsideDiameter>
+            <ShoulderDiameter Unit="in">2.997</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.0</ShoulderLength>
+            <Length Unit="in">15.49</Length>
+            <Thickness Unit="in">0.114</Thickness>
+        </NoseCone>
+        <NoseCone>
+            <Manufacturer>Madcow</Manufacturer>
+            <PartNumber>FWNC30-C</PartNumber>
+            <Description>Nose cone, fiberglass, heavy wall, 5:1 conical, composite tip</Description>
+            <Material Type="BULK">Fiberglass, G10, bulk</Material>
+            <Shape>CONICAL</Shape>
+            <OutsideDiameter Unit="in">3.125</OutsideDiameter>
+            <ShoulderDiameter Unit="in">2.997</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.0</ShoulderLength>
+            <Length Unit="in">13.375</Length>
+            <Thickness Unit="in">0.114</Thickness>
+        </NoseCone>
+        <!-- FWNC30-VK net wt 13.99 oz -->
+        <NoseCone>
+            <Manufacturer>Madcow</Manufacturer>
+            <PartNumber>FWNC30-VK</PartNumber>
+            <Description>Nose cone, fiberglass, heavy wall, 5.5:1 von Karman, composite tip</Description>
+            <Material Type="BULK">Fiberglass, G10, bulk</Material>
+            <Shape>HAACK</Shape>
+            <OutsideDiameter Unit="in">3.125</OutsideDiameter>
+            <ShoulderDiameter Unit="in">2.997</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.0</ShoulderLength>
+            <Length Unit="in">17.25</Length>
+            <Thickness Unit="in">0.130</Thickness>
+        </NoseCone>
 
         <!-- There are no 3" 75mm fiberglass standard wall aluminum tip nose cone shapes -->
 
+        <!-- =============================== -->
+        <!-- 4" fiberglass nose cones        -->
+        <!-- =============================== -->
+
+        <!-- 4" fiberglass standard wall composite tip nose cone shapes
+             *** no mfr data except fineness ratios ***
+        -->
+        <NoseCone>
+            <Manufacturer>Madcow</Manufacturer>
+            <PartNumber>FWNC39-K</PartNumber>
+            <Description>Nose cone, fiberglass, heavy wall, 3:1 ogive, composite tip</Description>
+            <Material Type="BULK">Fiberglass, G10, bulk</Material>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">4.024</OutsideDiameter>
+            <ShoulderDiameter Unit="in">3.897</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.0</ShoulderLength>
+            <Length Unit="in">12.072</Length>
+            <Thickness Unit="in">0.061</Thickness>
+        </NoseCone>
+        <!-- SOURCE ERROR: Madcow 2017 website lists this as "FWNC38-Y" when you click on the
+             4:1 Ogive button.  It should be FWNC39-Y. -->
+        <NoseCone>
+            <Manufacturer>Madcow</Manufacturer>
+            <PartNumber>FWNC39-Y</PartNumber>
+            <Description>Nose cone, fiberglass, heavy wall, 4:1 ogive, composite tip</Description>
+            <Material Type="BULK">Fiberglass, G10, bulk</Material>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">4.024</OutsideDiameter>
+            <ShoulderDiameter Unit="in">3.897</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.0</ShoulderLength>
+            <Length Unit="in">16.096</Length>
+            <Thickness Unit="in">0.061</Thickness>
+        </NoseCone>
+
+        <!-- 4" fiberglass standard wall metal tip nose cone shapes
+             *** no mfr data except fineness ratios ***
+        -->
+        <NoseCone>
+            <Manufacturer>Madcow</Manufacturer>
+            <PartNumber>FWNC39M-Y</PartNumber>
+            <Description>Nose cone, fiberglass, heavy wall, 4:1 ogive, metal tip</Description>
+            <Material Type="BULK">Fiberglass, G10, bulk</Material>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">4.024</OutsideDiameter>
+            <ShoulderDiameter Unit="in">3.897</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.0</ShoulderLength>
+            <Length Unit="in">16.096</Length>
+            <Thickness Unit="in">0.061</Thickness>
+        </NoseCone>
+        <NoseCone>
+            <Manufacturer>Madcow</Manufacturer>
+            <PartNumber>FWNC39M-YY</PartNumber>
+            <Description>Nose cone, fiberglass, heavy wall, 5:1 ogive, metal tip</Description>
+            <Material Type="BULK">Fiberglass, G10, bulk</Material>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">4.024</OutsideDiameter>
+            <ShoulderDiameter Unit="in">3.897</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.0</ShoulderLength>
+            <Length Unit="in">20.12</Length>
+            <Thickness Unit="in">0.061</Thickness>
+        </NoseCone>
+        <NoseCone>
+            <Manufacturer>Madcow</Manufacturer>
+            <PartNumber>FWNC39M-C</PartNumber>
+            <Description>Nose cone, fiberglass, heavy wall, 5:1 conical, metal tip</Description>
+            <Material Type="BULK">Fiberglass, G10, bulk</Material>
+            <Shape>CONICAL</Shape>
+            <OutsideDiameter Unit="in">4.024</OutsideDiameter>
+            <ShoulderDiameter Unit="in">3.897</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.0</ShoulderLength>
+            <Length Unit="in">20.12</Length>
+            <Thickness Unit="in">0.061</Thickness>
+        </NoseCone>
+        <NoseCone>
+            <Manufacturer>Madcow</Manufacturer>
+            <PartNumber>FWNC39M-VK</PartNumber>
+            <Description>Nose cone, fiberglass, heavy wall, 5.5:1 von Karman, metal tip</Description>
+            <Material Type="BULK">Fiberglass, G10, bulk</Material>
+            <Shape>CONICAL</Shape>
+            <OutsideDiameter Unit="in">4.024</OutsideDiameter>
+            <ShoulderDiameter Unit="in">3.897</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.0</ShoulderLength>
+            <Length Unit="in">22.17</Length>
+            <Thickness Unit="in">0.061</Thickness>
+        </NoseCone>
+
+        <!-- 4.5" fiberglass standard wall metal tip nose cone shapes
+             *** no mfr data for 4:1 ogive except fineness ratio ***
+             *** no mfr data at all for Arcas FWNC45M-ARCAS ***
+        -->
+        <NoseCone>
+            <Manufacturer>Madcow</Manufacturer>
+            <PartNumber>FWNC45M-Y</PartNumber>
+            <Description>Nose cone, fiberglass, heavy wall, 4:1 ogive, metal tip</Description>
+            <Material Type="BULK">Fiberglass, G10, bulk</Material>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">4.500</OutsideDiameter>
+            <ShoulderDiameter Unit="in">4.371</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.0</ShoulderLength>
+            <Length Unit="in">18.0</Length>
+            <Thickness Unit="in">0.065</Thickness>
+        </NoseCone>
+        <!-- FWNC45M-ARCAS.  According to the 1960 ONR development report on the Arcas,
+             the nose cone was a 4 caliber secant ogive. This would be identical to the
+             FWNC45M-Y 4:1 ogive.  A NASA drawing of the Mod 0 Arcas shows the NC being 18.122
+             inches long, with internal diameter given at three stations, but no shape
+             type is mentioned.  See
+             https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19700020646.pdf
+             Station   Diam (Internal!)
+             6.750     2.116"
+             10.750    3.075"
+             18.122    4.133"
+             The Arcas nose cone is plastic and of non-uniform thickness.
+             The Mod 1 Arcas had a 21.2" long nose cone.  See
+             http://www.dtic.mil/dtic/tr/fulltext/u2/437681.pdf
+
+             Some scale models of the Arcas have used a von Karman shape, but thus far it's not
+             clear that this would be correct.  Nonetheless since this is clearly a different
+             PN for Madcow I've used the VK shape with the correct 1:1 scale length.
+        -->
+        <NoseCone>
+            <Manufacturer>Madcow</Manufacturer>
+            <PartNumber>FWNC45M-ARCAS</PartNumber>
+            <Description>Nose cone, fiberglass, heavy wall, ARCAS, metal tip</Description>
+            <Material Type="BULK">Fiberglass, G10, bulk</Material>
+            <Shape>HAACK</Shape>
+            <OutsideDiameter Unit="in">4.500</OutsideDiameter>
+            <ShoulderDiameter Unit="in">4.371</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.0</ShoulderLength>
+            <Length Unit="in">18.122</Length>
+            <Thickness Unit="in">0.065</Thickness>
+        </NoseCone>
+
+        <!-- 5" fiberglass standard wall metal tip nose cone shapes
+             *** no mfr data except fineness ratios ***
+        -->
+        <NoseCone>
+            <Manufacturer>Madcow</Manufacturer>
+            <PartNumber>FWNC50M-Y</PartNumber>
+            <Description>Nose cone, fiberglass, heavy wall, 4:1 ogive, metal tip</Description>
+            <Material Type="BULK">Fiberglass, G10, bulk</Material>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">5.150</OutsideDiameter>
+            <ShoulderDiameter Unit="in">4.997</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.0</ShoulderLength>
+            <Length Unit="in">20.0</Length>
+            <Thickness Unit="in">0.076</Thickness>
+        </NoseCone>
+        <NoseCone>
+            <Manufacturer>Madcow</Manufacturer>
+            <PartNumber>FWNC50M-YY</PartNumber>
+            <Description>Nose cone, fiberglass, heavy wall, 5:1 ogive, metal tip</Description>
+            <Material Type="BULK">Fiberglass, G10, bulk</Material>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">5.150</OutsideDiameter>
+            <ShoulderDiameter Unit="in">4.997</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.0</ShoulderLength>
+            <Length Unit="in">25.0</Length>
+            <Thickness Unit="in">0.076</Thickness>
+        </NoseCone>
+        <NoseCone>
+            <Manufacturer>Madcow</Manufacturer>
+            <PartNumber>FWNC50M-VK</PartNumber>
+            <Description>Nose cone, fiberglass, heavy wall, 5.5:1 von Karman, metal tip</Description>
+            <Material Type="BULK">Fiberglass, G10, bulk</Material>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">5.150</OutsideDiameter>
+            <ShoulderDiameter Unit="in">4.997</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.0</ShoulderLength>
+            <Length Unit="in">27.5</Length>
+            <Thickness Unit="in">0.076</Thickness>
+        </NoseCone>
+
+        <!-- 5.5" fiberglass standard wall metal tip nose cone shapes
+             *** no mfr data excepet fineness ratios ***
+        -->
+        <NoseCone>
+            <Manufacturer>Madcow</Manufacturer>
+            <PartNumber>FWNC55M-K</PartNumber>
+            <Description>Nose cone, fiberglass, heavy wall, 3:1 ogive, metal tip</Description>
+            <Material Type="BULK">Fiberglass, G10, bulk</Material>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">5.525</OutsideDiameter>
+            <ShoulderDiameter Unit="in">5.372</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.0</ShoulderLength>
+            <Length Unit="in">16.5</Length>
+            <Thickness Unit="in">0.076</Thickness>
+        </NoseCone>
+        <NoseCone>
+            <Manufacturer>Madcow</Manufacturer>
+            <PartNumber>FWNC55M-Y</PartNumber>
+            <Description>Nose cone, fiberglass, heavy wall, 4:1 ogive, metal tip</Description>
+            <Material Type="BULK">Fiberglass, G10, bulk</Material>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">5.525</OutsideDiameter>
+            <ShoulderDiameter Unit="in">5.372</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.0</ShoulderLength>
+            <Length Unit="in">22.0</Length>
+            <Thickness Unit="in">0.076</Thickness>
+        </NoseCone>
+        <NoseCone>
+            <Manufacturer>Madcow</Manufacturer>
+            <PartNumber>FWNC55M-C</PartNumber>
+            <Description>Nose cone, fiberglass, heavy wall, 5:1 conical, metal tip</Description>
+            <Material Type="BULK">Fiberglass, G10, bulk</Material>
+            <Shape>CONICAL</Shape>
+            <OutsideDiameter Unit="in">5.525</OutsideDiameter>
+            <ShoulderDiameter Unit="in">5.372</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.0</ShoulderLength>
+            <Length Unit="in">27.5</Length>
+            <Thickness Unit="in">0.076</Thickness>
+        </NoseCone>
+        <NoseCone>
+            <Manufacturer>Madcow</Manufacturer>
+            <PartNumber>FWNC55M-VK</PartNumber>
+            <Description>Nose cone, fiberglass, heavy wall, 5.5:1 von Karman, metal tip</Description>
+            <Material Type="BULK">Fiberglass, G10, bulk</Material>
+            <Shape>HAACK</Shape>
+            <OutsideDiameter Unit="in">5.525</OutsideDiameter>
+            <ShoulderDiameter Unit="in">5.372</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.0</ShoulderLength>
+            <Length Unit="in">30.25</Length>
+            <Thickness Unit="in">0.076</Thickness>
+        </NoseCone>
+
+        <!-- 6" fiberglass standard wall metal tip nose cone shapes
+             *** no mfr data except fineness ratios ***
+        -->
+        <NoseCone>
+            <Manufacturer>Madcow</Manufacturer>
+            <PartNumber>FWNC60M-Y</PartNumber>
+            <Description>Nose cone, fiberglass, heavy wall, 4:1 ogive, metal tip</Description>
+            <Material Type="BULK">Fiberglass, G10, bulk</Material>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">6.170</OutsideDiameter>
+            <ShoulderDiameter Unit="in">5.997</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.0</ShoulderLength>
+            <Length Unit="in">24.0</Length>
+            <Thickness Unit="in">0.086</Thickness>
+        </NoseCone>
+        <NoseCone>
+            <Manufacturer>Madcow</Manufacturer>
+            <PartNumber>FWNC60M-YY</PartNumber>
+            <Description>Nose cone, fiberglass, heavy wall, 5:1 ogive, metal tip</Description>
+            <Material Type="BULK">Fiberglass, G10, bulk</Material>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">6.170</OutsideDiameter>
+            <ShoulderDiameter Unit="in">5.997</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.0</ShoulderLength>
+            <Length Unit="in">30.0</Length>
+            <Thickness Unit="in">0.086</Thickness>
+        </NoseCone>
+        <NoseCone>
+            <Manufacturer>Madcow</Manufacturer>
+            <PartNumber>FWNC60M-C</PartNumber>
+            <Description>Nose cone, fiberglass, heavy wall, 5:1 conical, metal tip</Description>
+            <Material Type="BULK">Fiberglass, G10, bulk</Material>
+            <Shape>CONICAL</Shape>
+            <OutsideDiameter Unit="in">6.170</OutsideDiameter>
+            <ShoulderDiameter Unit="in">5.997</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.0</ShoulderLength>
+            <Length Unit="in">30.0</Length>
+            <Thickness Unit="in">0.086</Thickness>
+        </NoseCone>
+        <NoseCone>
+            <Manufacturer>Madcow</Manufacturer>
+            <PartNumber>FWNC60M-C</PartNumber>
+            <Description>Nose cone, fiberglass, heavy wall, 5.5:1 von Karman, metal tip</Description>
+            <Material Type="BULK">Fiberglass, G10, bulk</Material>
+            <Shape>HAACK</Shape>
+            <OutsideDiameter Unit="in">6.170</OutsideDiameter>
+            <ShoulderDiameter Unit="in">5.997</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.0</ShoulderLength>
+            <Length Unit="in">33.0</Length>
+            <Thickness Unit="in">0.086</Thickness>
+        </NoseCone>
+
+        <!-- 7.5" fiberglass standard wall metal tip nose cone shapes
+             *** no mfr data except fineness ratios ***
+        -->
+        <NoseCone>
+            <Manufacturer>Madcow</Manufacturer>
+            <PartNumber>FWNC75M-YY</PartNumber>
+            <Description>Nose cone, fiberglass, heavy wall, 5:1 ogive, metal tip</Description>
+            <Material Type="BULK">Fiberglass, G10, bulk</Material>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">7.708</OutsideDiameter>
+            <ShoulderDiameter Unit="in">7.515</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.0</ShoulderLength>
+            <Length Unit="in">37.5</Length>
+            <Thickness Unit="in">0.092</Thickness>
+        </NoseCone>
+
+        <!-- 8" fiberglass standard wall metal tip nose cone shapes
+             Mfr data:
+               3:1 ogive: weight 4 lb 6 oz (72 oz), plus 25 oz for 11" coupler section
+        -->
+        <NoseCone>
+            <Manufacturer>Madcow</Manufacturer>
+            <PartNumber>FWNC80M-K</PartNumber>
+            <Description>Nose cone, fiberglass, heavy wall, 3:1 ogive, metal tip</Description>
+            <Material Type="BULK">Fiberglass, G10, bulk</Material>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">8.005</OutsideDiameter>
+            <ShoulderDiameter Unit="in">7.812</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.0</ShoulderLength>
+            <Length Unit="in">24.0</Length>
+            <Thickness Unit="in">0.175</Thickness>
+        </NoseCone>
+        <NoseCone>
+            <Manufacturer>Madcow</Manufacturer>
+            <PartNumber>FWNC80M-YY</PartNumber>
+            <Description>Nose cone, fiberglass, heavy wall, 5:1 ogive, metal tip</Description>
+            <Material Type="BULK">Fiberglass, G10, bulk</Material>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">8.005</OutsideDiameter>
+            <ShoulderDiameter Unit="in">7.812</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.0</ShoulderLength>
+            <Length Unit="in">40.0</Length>
+            <Thickness Unit="in">0.175</Thickness>
+        </NoseCone>
+
+        <!-- Plastic nose cones -->
+
+        <!-- Plastic Nose Cones for 1.6" cardboard and thin wall fiberglass airframes
+             *** mass and shoulder dimensions not given, need actual weights ***
+        -->
+        <NoseCone>
+            <Manufacturer>Madcow</Manufacturer>
+            <PartNumber>PNC16K</PartNumber>
+            <Description>Nose cone, plastic, blow molded, black, 3:1 ogive</Description>
+            <Material Type="BULK">Polypropylene, bulk</Material>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">1.600</OutsideDiameter>
+            <ShoulderDiameter Unit="in">1.517</ShoulderDiameter>
+            <ShoulderLength Unit="in">2.0</ShoulderLength>
+            <Length Unit="in">4.8</Length>
+            <Thickness Unit="in">0.040</Thickness>
+        </NoseCone>
+        <NoseCone>
+            <Manufacturer>Madcow</Manufacturer>
+            <PartNumber>PNC16Y</PartNumber>
+            <Description>Nose cone, plastic, blow molded, black, 4:1 ogive</Description>
+            <Material Type="BULK">Polypropylene, bulk</Material>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">1.600</OutsideDiameter>
+            <ShoulderDiameter Unit="in">1.517</ShoulderDiameter>
+            <ShoulderLength Unit="in">2.0</ShoulderLength>
+            <Length Unit="in">6.4</Length>
+            <Thickness Unit="in">0.040</Thickness>
+        </NoseCone>
+        
+        <!-- Plastic Nose Cones for 2.6" cardboard and thin wall fiberglass airframes
+             *** shoulder dimensions not given ***
+        -->
+        <!-- PNC26K-B mass given as 4.4 oz, len as 8.25" -->
+        <NoseCone>
+            <Manufacturer>Madcow</Manufacturer>
+            <PartNumber>PNC26K-B</PartNumber>
+            <Description>Nose cone, plastic, blow molded, black, 3:1 ogive</Description>
+            <Material Type="BULK">Polypropylene, bulk</Material>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">1.600</OutsideDiameter>
+            <ShoulderDiameter Unit="in">1.517</ShoulderDiameter>
+            <ShoulderLength Unit="in">2.0</ShoulderLength>
+            <Length Unit="in">8.25</Length>
+            <Thickness Unit="in">0.040</Thickness>
+        </NoseCone>
+        <!-- PNC26K-W mass given as 4.4 oz, len as 8.25" -->
+        <NoseCone>
+            <Manufacturer>Madcow</Manufacturer>
+            <PartNumber>PNC26K-W</PartNumber>
+            <Description>Nose cone, plastic, blow molded, white, 3:1 ogive</Description>
+            <Material Type="BULK">Polypropylene, bulk</Material>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">2.638</OutsideDiameter>
+            <ShoulderDiameter Unit="in">2.557</ShoulderDiameter>
+            <ShoulderLength Unit="in">2.0</ShoulderLength>
+            <Length Unit="in">8.25</Length>
+            <Thickness Unit="in">0.040</Thickness>
+        </NoseCone>
+
+        <!-- Plastic Nose Cones for 3" cardboard and thin wall fiberglass airframes
+             *** shoulder dimensions not given ***
+        -->
+        <!-- PNC30Y length given as 12.5", weight 5 oz -->
+        <NoseCone>
+            <Manufacturer>Madcow</Manufacturer>
+            <PartNumber>PNC30Y</PartNumber>
+            <Description>Nose cone, plastic, blow molded, white, 4:1 ogive</Description>
+            <Material Type="BULK">Polypropylene, bulk</Material>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">3.098</OutsideDiameter>
+            <ShoulderDiameter Unit="in">2.997</ShoulderDiameter>
+            <ShoulderLength Unit="in">2.5</ShoulderLength>
+            <Length Unit="in">12.5</Length>
+            <Thickness Unit="in">0.040</Thickness>
+        </NoseCone>
+        
+        <!-- Plastic Nose Cones for 4" cardboard airframes -->
+        
+        <!-- PNC39AJ is 2.5:1 ogive, length given as 9.5", weight 7 oz -->
+        <NoseCone>
+            <Manufacturer>Madcow</Manufacturer>
+            <PartNumber>PNC39AJ</PartNumber>
+            <Description>Nose cone, plastic, blow molded, white, 2.5:1 ogive</Description>
+            <Material Type="BULK">Polypropylene, bulk</Material>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">4.000</OutsideDiameter>
+            <ShoulderDiameter Unit="in">3.897</ShoulderDiameter>
+            <ShoulderLength Unit="in">3.0</ShoulderLength>
+            <Length Unit="in">9.5</Length>
+            <Thickness Unit="in">0.040</Thickness>
+        </NoseCone>
+        <!-- PNC39Y is 4:1 ogive
+             *** weight and shoulder dimensions not given ***
+        -->
+        <NoseCone>
+            <Manufacturer>Madcow</Manufacturer>
+            <PartNumber>PNC39Y</PartNumber>
+            <Description>Nose cone, plastic, blow molded, white, 4:1 ogive</Description>
+            <Material Type="BULK">Polypropylene, bulk</Material>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">4.000</OutsideDiameter>
+            <ShoulderDiameter Unit="in">3.897</ShoulderDiameter>
+            <ShoulderLength Unit="in">3.0</ShoulderLength>
+            <Length Unit="in">16.0</Length>
+            <Thickness Unit="in">0.040</Thickness>
+        </NoseCone>
+
+        <!-- Balsa ramjet nose cones
+             SOURCE ERROR: no data of any kind for BNC55RJ and BNC70RJH
+        -->
+
+        
 
     </Components>
 
