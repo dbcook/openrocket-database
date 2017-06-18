@@ -18,6 +18,8 @@ Cardboard couplers
 Thin wall fiberglass tubes
 Std wall fiberglass tubes
 Std wall fiberglass couplers
+Carbon fiber composite body tubes
+Carbon fiber couplers
 Fiberglass composite tip nose cones - thin wall
 Fiberglass composite tip nose cones - std wall
 Fiberglass metal tip nose cones - std wall (starting at 4")
@@ -25,15 +27,13 @@ Plastic nose cones
 
 TODO:
 
-Balsa ramjet cones (no published data, have to ask Madcow)
+Centering rings - G10
+Centering rings - wood
 Balsa tail cones for 2.6" to 38mm and 29mm mounts
 Fiberglass 2.6 and 4.0 tail cones
 Transition (glass) 4" to 54mm
-Centering rings - G10
-Centering rings - wood
-Body tubes - CF
-Couplers - CF
 Parachutes - Fruity, generic nylon, Sky Angle
+Balsa ramjet cones (no published data, have to ask Madcow)
 
 RESEARCH NOTES:
 
@@ -132,6 +132,15 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
         <Material UnitsOfMeasure="g/cm3">
             <Name>Fiberglass, G12, filament wound tube, bulk</Name>
             <Density>1820.0</Density>
+            <Type>BULK</Type>
+        </Material>
+        <!-- Derived density of Madcow filament wound carbon fiber tubes
+             The quoted weight of FWCF-29 is much less than it should be and probably
+             implies there is considerable excess resin.
+        -->
+        <Material UnitsOfMeasure="g/cm3">
+            <Name>Carbon fiber epoxy composite, Madcow FWCF, bulk</Name>
+            <Density>1250.0</Density>
             <Type>BULK</Type>
         </Material>
         <Material UnitsOfMeasure="kg/m3">
@@ -989,6 +998,420 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
       
       <!-- Coupler for 11.5" tube (which would be FC115) doesn't exist on website -->
 
+      <!-- ========================== -->
+      <!-- Carbon Fiber Airframe Tube -->
+      <!-- ========================== -->
+      <!-- Madcow resells CF tube from another vendor (lead times quoted at 1 week.
+           Tubes are available in 12, 24, 36, 48, and 60 inch lengths in black only.
+      -->
+      <!-- FWCF-29 CF tubing quoted weight is 1.8 oz/ft, ID 1.145", OD 1.255", .055 wall
+           *** Standard 1.6 density of CF composite makes the weight come out at 2.3 oz/ft,
+           significantly too high.  Suspect the tube may have a high resin proportion ***
+      -->
+      <BodyTube>
+        <Manufacturer>Madcow</Manufacturer>
+        <PartNumber>FWCF-29-120</PartNumber>
+        <Description>Body tube, 29mm, carbon fiber, black, 12.0 in.</Description>
+        <Material Type="BULK">Carbon fiber epoxy composite, Madcow FWCF, bulk</Material>
+        <InsideDiameter Unit="in">1.145</InsideDiameter>
+        <OutsideDiameter Unit="in">1.255</OutsideDiameter>
+        <Length Unit="in">12.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Madcow</Manufacturer>
+        <PartNumber>FWCF-29-240</PartNumber>
+        <Description>Body tube, 29mm, carbon fiber, black, 24.0 in.</Description>
+        <Material Type="BULK">Carbon fiber epoxy composite, Madcow FWCF, bulk</Material>
+        <InsideDiameter Unit="in">1.145</InsideDiameter>
+        <OutsideDiameter Unit="in">1.255</OutsideDiameter>
+        <Length Unit="in">24.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Madcow</Manufacturer>
+        <PartNumber>FWCF-29-360</PartNumber>
+        <Description>Body tube, 29mm, carbon fiber, black, 36.0 in.</Description>
+        <Material Type="BULK">Carbon fiber epoxy composite, Madcow FWCF, bulk</Material>
+        <InsideDiameter Unit="in">1.145</InsideDiameter>
+        <OutsideDiameter Unit="in">1.255</OutsideDiameter>
+        <Length Unit="in">36.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Madcow</Manufacturer>
+        <PartNumber>FWCF-29-480</PartNumber>
+        <Description>Body tube, 29mm, carbon fiber, black, 48.0 in.</Description>
+        <Material Type="BULK">Carbon fiber epoxy composite, Madcow FWCF, bulk</Material>
+        <InsideDiameter Unit="in">1.145</InsideDiameter>
+        <OutsideDiameter Unit="in">1.255</OutsideDiameter>
+        <Length Unit="in">48.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Madcow</Manufacturer>
+        <PartNumber>FWCF-29-600</PartNumber>
+        <Description>Body tube, 29mm, carbon fiber, black, 60.0 in.</Description>
+        <Material Type="BULK">Carbon fiber epoxy composite, Madcow FWCF, bulk</Material>
+        <InsideDiameter Unit="in">1.145</InsideDiameter>
+        <OutsideDiameter Unit="in">1.255</OutsideDiameter>
+        <Length Unit="in">60.0</Length>
+      </BodyTube>
+      <!-- FWCF-38 CF tubing size and weight not given, dimensions here assumed same as FT38
+           standard wall
+      -->
+      <BodyTube>
+        <Manufacturer>Madcow</Manufacturer>
+        <PartNumber>FWCF-38-120</PartNumber>
+        <Description>Body tube, 38mm, carbon fiber, black, 12.0 in.</Description>
+        <Material Type="BULK">Carbon fiber epoxy composite, Madcow FWCF, bulk</Material>
+        <InsideDiameter Unit="in">1.520</InsideDiameter>
+        <OutsideDiameter Unit="in">1.645</OutsideDiameter>
+        <Length Unit="in">12.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Madcow</Manufacturer>
+        <PartNumber>FWCF-38-240</PartNumber>
+        <Description>Body tube, 38mm, carbon fiber, black, 24.0 in.</Description>
+        <Material Type="BULK">Carbon fiber epoxy composite, Madcow FWCF, bulk</Material>
+        <InsideDiameter Unit="in">1.520</InsideDiameter>
+        <OutsideDiameter Unit="in">1.645</OutsideDiameter>
+        <Length Unit="in">24.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Madcow</Manufacturer>
+        <PartNumber>FWCF-38-360</PartNumber>
+        <Description>Body tube, 38mm, carbon fiber, black, 36.0 in.</Description>
+        <Material Type="BULK">Carbon fiber epoxy composite, Madcow FWCF, bulk</Material>
+        <InsideDiameter Unit="in">1.520</InsideDiameter>
+        <OutsideDiameter Unit="in">1.645</OutsideDiameter>
+        <Length Unit="in">36.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Madcow</Manufacturer>
+        <PartNumber>FWCF-38-480</PartNumber>
+        <Description>Body tube, 38mm, carbon fiber, black, 48.0 in.</Description>
+        <Material Type="BULK">Carbon fiber epoxy composite, Madcow FWCF, bulk</Material>
+        <InsideDiameter Unit="in">1.520</InsideDiameter>
+        <OutsideDiameter Unit="in">1.645</OutsideDiameter>
+        <Length Unit="in">48.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Madcow</Manufacturer>
+        <PartNumber>FWCF-38-600</PartNumber>
+        <Description>Body tube, 38mm, carbon fiber, black, 60.0 in.</Description>
+        <Material Type="BULK">Carbon fiber epoxy composite, Madcow FWCF, bulk</Material>
+        <InsideDiameter Unit="in">1.520</InsideDiameter>
+        <OutsideDiameter Unit="in">1.645</OutsideDiameter>
+        <Length Unit="in">60.0</Length>
+      </BodyTube>
+      <!-- FWCF-54 CF tubing size and weight not given, dimensions here assumed same as FT54
+           standard wall
+      -->
+      <BodyTube>
+        <Manufacturer>Madcow</Manufacturer>
+        <PartNumber>FWCF-54-120</PartNumber>
+        <Description>Body tube, 54mm, carbon fiber, black, 12.0 in.</Description>
+        <Material Type="BULK">Carbon fiber epoxy composite, Madcow FWCF, bulk</Material>
+        <InsideDiameter Unit="in">2.152</InsideDiameter>
+        <OutsideDiameter Unit="in">2.277</OutsideDiameter>
+        <Length Unit="in">12.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Madcow</Manufacturer>
+        <PartNumber>FWCF-54-240</PartNumber>
+        <Description>Body tube, 54mm, carbon fiber, black, 24.0 in.</Description>
+        <Material Type="BULK">Carbon fiber epoxy composite, Madcow FWCF, bulk</Material>
+        <InsideDiameter Unit="in">2.152</InsideDiameter>
+        <OutsideDiameter Unit="in">2.277</OutsideDiameter>
+        <Length Unit="in">24.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Madcow</Manufacturer>
+        <PartNumber>FWCF-54-360</PartNumber>
+        <Description>Body tube, 54mm, carbon fiber, black, 36.0 in.</Description>
+        <Material Type="BULK">Carbon fiber epoxy composite, Madcow FWCF, bulk</Material>
+        <InsideDiameter Unit="in">2.152</InsideDiameter>
+        <OutsideDiameter Unit="in">2.277</OutsideDiameter>
+        <Length Unit="in">36.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Madcow</Manufacturer>
+        <PartNumber>FWCF-54-480</PartNumber>
+        <Description>Body tube, 54mm, carbon fiber, black, 48.0 in.</Description>
+        <Material Type="BULK">Carbon fiber epoxy composite, Madcow FWCF, bulk</Material>
+        <InsideDiameter Unit="in">2.152</InsideDiameter>
+        <OutsideDiameter Unit="in">2.277</OutsideDiameter>
+        <Length Unit="in">48.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Madcow</Manufacturer>
+        <PartNumber>FWCF-54-600</PartNumber>
+        <Description>Body tube, 54mm, carbon fiber, black, 60.0 in.</Description>
+        <Material Type="BULK">Carbon fiber epoxy composite, Madcow FWCF, bulk</Material>
+        <InsideDiameter Unit="in">2.152</InsideDiameter>
+        <OutsideDiameter Unit="in">2.277</OutsideDiameter>
+        <Length Unit="in">60.0</Length>
+      </BodyTube>
+      <!-- FWCF-3 CF tubing size and weight not given, dimensions here assumed same as FT30
+           standard wall
+      -->
+      <BodyTube>
+        <Manufacturer>Madcow</Manufacturer>
+        <PartNumber>FWCF-3-120</PartNumber>
+        <Description>Body tube, 3.0in, carbon fiber, black, 12.0 in.</Description>
+        <Material Type="BULK">Carbon fiber epoxy composite, Madcow FWCF, bulk</Material>
+        <InsideDiameter Unit="in">3.000</InsideDiameter>
+        <OutsideDiameter Unit="in">3.125</OutsideDiameter>
+        <Length Unit="in">12.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Madcow</Manufacturer>
+        <PartNumber>FWCF-3-240</PartNumber>
+        <Description>Body tube, 3.0in, carbon fiber, black, 24.0 in.</Description>
+        <Material Type="BULK">Carbon fiber epoxy composite, Madcow FWCF, bulk</Material>
+        <InsideDiameter Unit="in">3.000</InsideDiameter>
+        <OutsideDiameter Unit="in">3.125</OutsideDiameter>
+        <Length Unit="in">24.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Madcow</Manufacturer>
+        <PartNumber>FWCF-3-360</PartNumber>
+        <Description>Body tube, 3.0in, carbon fiber, black, 36.0 in.</Description>
+        <Material Type="BULK">Carbon fiber epoxy composite, Madcow FWCF, bulk</Material>
+        <InsideDiameter Unit="in">3.000</InsideDiameter>
+        <OutsideDiameter Unit="in">3.125</OutsideDiameter>
+        <Length Unit="in">36.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Madcow</Manufacturer>
+        <PartNumber>FWCF-3-480</PartNumber>
+        <Description>Body tube, 3.0in, carbon fiber, black, 48.0 in.</Description>
+        <Material Type="BULK">Carbon fiber epoxy composite, Madcow FWCF, bulk</Material>
+        <InsideDiameter Unit="in">3.000</InsideDiameter>
+        <OutsideDiameter Unit="in">3.125</OutsideDiameter>
+        <Length Unit="in">48.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Madcow</Manufacturer>
+        <PartNumber>FWCF-3-600</PartNumber>
+        <Description>Body tube, 3.0in, carbon fiber, black, 60.0 in.</Description>
+        <Material Type="BULK">Carbon fiber epoxy composite, Madcow FWCF, bulk</Material>
+        <InsideDiameter Unit="in">3.000</InsideDiameter>
+        <OutsideDiameter Unit="in">3.125</OutsideDiameter>
+        <Length Unit="in">60.0</Length>
+      </BodyTube>
+      <!-- FWCF-4 CF tubing size and weight not given, dimensions here assumed same as FT40
+           standard wall
+      -->
+      <BodyTube>
+        <Manufacturer>Madcow</Manufacturer>
+        <PartNumber>FWCF-4-120</PartNumber>
+        <Description>Body tube, 4.0in, carbon fiber, black, 12.0 in.</Description>
+        <Material Type="BULK">Carbon fiber epoxy composite, Madcow FWCF, bulk</Material>
+        <InsideDiameter Unit="in">3.900</InsideDiameter>
+        <OutsideDiameter Unit="in">4.024</OutsideDiameter>
+        <Length Unit="in">12.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Madcow</Manufacturer>
+        <PartNumber>FWCF-4-240</PartNumber>
+        <Description>Body tube, 4.0in, carbon fiber, black, 24.0 in.</Description>
+        <Material Type="BULK">Carbon fiber epoxy composite, Madcow FWCF, bulk</Material>
+        <InsideDiameter Unit="in">3.900</InsideDiameter>
+        <OutsideDiameter Unit="in">4.024</OutsideDiameter>
+        <Length Unit="in">24.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Madcow</Manufacturer>
+        <PartNumber>FWCF-4-360</PartNumber>
+        <Description>Body tube, 4.0in, carbon fiber, black, 36.0 in.</Description>
+        <Material Type="BULK">Carbon fiber epoxy composite, Madcow FWCF, bulk</Material>
+        <InsideDiameter Unit="in">3.900</InsideDiameter>
+        <OutsideDiameter Unit="in">4.024</OutsideDiameter>
+        <Length Unit="in">36.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Madcow</Manufacturer>
+        <PartNumber>FWCF-4-480</PartNumber>
+        <Description>Body tube, 4.0in, carbon fiber, black, 48.0 in.</Description>
+        <Material Type="BULK">Carbon fiber epoxy composite, Madcow FWCF, bulk</Material>
+        <InsideDiameter Unit="in">3.900</InsideDiameter>
+        <OutsideDiameter Unit="in">4.024</OutsideDiameter>
+        <Length Unit="in">48.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Madcow</Manufacturer>
+        <PartNumber>FWCF-4-600</PartNumber>
+        <Description>Body tube, 4.0in, carbon fiber, black, 60.0 in.</Description>
+        <Material Type="BULK">Carbon fiber epoxy composite, Madcow FWCF, bulk</Material>
+        <InsideDiameter Unit="in">3.900</InsideDiameter>
+        <OutsideDiameter Unit="in">4.024</OutsideDiameter>
+        <Length Unit="in">60.0</Length>
+      </BodyTube>
+     <!-- FWCF-6 CF tubing size and weight not given, dimensions here assumed same as FT60
+           standard wall
+      -->
+      <BodyTube>
+        <Manufacturer>Madcow</Manufacturer>
+        <PartNumber>FWCF-6-120</PartNumber>
+        <Description>Body tube, 6.0in, carbon fiber, black, 12.0 in.</Description>
+        <Material Type="BULK">Carbon fiber epoxy composite, Madcow FWCF, bulk</Material>
+        <InsideDiameter Unit="in">6.000</InsideDiameter>
+        <OutsideDiameter Unit="in">6.170</OutsideDiameter>
+        <Length Unit="in">12.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Madcow</Manufacturer>
+        <PartNumber>FWCF-6-240</PartNumber>
+        <Description>Body tube, 6.0in, carbon fiber, black, 24.0 in.</Description>
+        <Material Type="BULK">Carbon fiber epoxy composite, Madcow FWCF, bulk</Material>
+        <InsideDiameter Unit="in">6.000</InsideDiameter>
+        <OutsideDiameter Unit="in">6.170</OutsideDiameter>
+        <Length Unit="in">24.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Madcow</Manufacturer>
+        <PartNumber>FWCF-6-360</PartNumber>
+        <Description>Body tube, 6.0in, carbon fiber, black, 36.0 in.</Description>
+        <Material Type="BULK">Carbon fiber epoxy composite, Madcow FWCF, bulk</Material>
+        <InsideDiameter Unit="in">6.000</InsideDiameter>
+        <OutsideDiameter Unit="in">6.170</OutsideDiameter>
+        <Length Unit="in">36.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Madcow</Manufacturer>
+        <PartNumber>FWCF-6-480</PartNumber>
+        <Description>Body tube, 6.0in, carbon fiber, black, 48.0 in.</Description>
+        <Material Type="BULK">Carbon fiber epoxy composite, Madcow FWCF, bulk</Material>
+        <InsideDiameter Unit="in">6.000</InsideDiameter>
+        <OutsideDiameter Unit="in">6.170</OutsideDiameter>
+        <Length Unit="in">48.0</Length>
+      </BodyTube>
+      <BodyTube>
+        <Manufacturer>Madcow</Manufacturer>
+        <PartNumber>FWCF-6-600</PartNumber>
+        <Description>Body tube, 6.0in, carbon fiber, black, 60.0 in.</Description>
+        <Material Type="BULK">Carbon fiber epoxy composite, Madcow FWCF, bulk</Material>
+        <InsideDiameter Unit="in">6.000</InsideDiameter>
+        <OutsideDiameter Unit="in">6.170</OutsideDiameter>
+        <Length Unit="in">60.0</Length>
+      </BodyTube>
+      <!-- ========================== -->
+      <!-- Carbon Fiber Tube Couplers -->
+      <!-- ========================== -->
+      <!-- FWCF-29C coupler size and weight not given, dimensions here assumed same as FC29 -->
+      <TubeCoupler>
+        <Manufacturer>Madcow</Manufacturer>
+        <PartNumber>FWCF-29C-040</PartNumber>
+        <Description>Tube coupler, 29mm, carbon fiber, black, 4.0 in.</Description>
+        <Material Type="BULK">Carbon fiber epoxy composite, Madcow FWCF, bulk</Material>
+        <InsideDiameter Unit="in">1.000</InsideDiameter>
+        <OutsideDiameter Unit="in">1.143</OutsideDiameter>
+        <Length Unit="in">4.0</Length>
+      </TubeCoupler>
+      <TubeCoupler>
+        <Manufacturer>Madcow</Manufacturer>
+        <PartNumber>FWCF-29C-060</PartNumber>
+        <Description>Tube coupler, 29mm, carbon fiber, black, 6.0 in.</Description>
+        <Material Type="BULK">Carbon fiber epoxy composite, Madcow FWCF, bulk</Material>
+        <InsideDiameter Unit="in">1.000</InsideDiameter>
+        <OutsideDiameter Unit="in">1.143</OutsideDiameter>
+        <Length Unit="in">6.0</Length>
+      </TubeCoupler>
+      <!-- FWCF-38C coupler size and weight not given, dimensions here assumed same as FC38 -->
+      <TubeCoupler>
+        <Manufacturer>Madcow</Manufacturer>
+        <PartNumber>FWCF-38C-040</PartNumber>
+        <Description>Tube coupler, 38mm, carbon fiber, black, 4.0 in.</Description>
+        <Material Type="BULK">Carbon fiber epoxy composite, Madcow FWCF, bulk</Material>
+        <InsideDiameter Unit="in">1.370</InsideDiameter>
+        <OutsideDiameter Unit="in">1.518</OutsideDiameter>
+        <Length Unit="in">4.0</Length>
+      </TubeCoupler>
+      <TubeCoupler>
+        <Manufacturer>Madcow</Manufacturer>
+        <PartNumber>FWCF-38C-060</PartNumber>
+        <Description>Tube coupler, 38mm, carbon fiber, black, 6.0 in.</Description>
+        <Material Type="BULK">Carbon fiber epoxy composite, Madcow FWCF, bulk</Material>
+        <InsideDiameter Unit="in">1.370</InsideDiameter>
+        <OutsideDiameter Unit="in">1.518</OutsideDiameter>
+        <Length Unit="in">6.0</Length>
+      </TubeCoupler>
+      <!-- FWCF-54C coupler size and weight not given, dimensions here assumed same as FC54 -->
+      <TubeCoupler>
+        <Manufacturer>Madcow</Manufacturer>
+        <PartNumber>FWCF-54C-060</PartNumber>
+        <Description>Tube coupler, 54mm, carbon fiber, black, 6.0 in.</Description>
+        <Material Type="BULK">Carbon fiber epoxy composite, Madcow FWCF, bulk</Material>
+        <InsideDiameter Unit="in">1.370</InsideDiameter>
+        <OutsideDiameter Unit="in">1.518</OutsideDiameter>
+        <Length Unit="in">6.0</Length>
+      </TubeCoupler>
+      <TubeCoupler>
+        <Manufacturer>Madcow</Manufacturer>
+        <PartNumber>FWCF-54C-080</PartNumber>
+        <Description>Tube coupler, 54mm, carbon fiber, black, 8.0 in.</Description>
+        <Material Type="BULK">Carbon fiber epoxy composite, Madcow FWCF, bulk</Material>
+        <InsideDiameter Unit="in">1.370</InsideDiameter>
+        <OutsideDiameter Unit="in">1.518</OutsideDiameter>
+        <Length Unit="in">8.0</Length>
+      </TubeCoupler>
+      <!-- FWCF-3C coupler size and weight not given, dimensions here assumed same as FC30 -->
+      <TubeCoupler>
+        <Manufacturer>Madcow</Manufacturer>
+        <PartNumber>FWCF-3C-060</PartNumber>
+        <Description>Tube coupler, 3in, carbon fiber, black, 6.0 in.</Description>
+        <Material Type="BULK">Carbon fiber epoxy composite, Madcow FWCF, bulk</Material>
+        <InsideDiameter Unit="in">2.875</InsideDiameter>
+        <OutsideDiameter Unit="in">2.998</OutsideDiameter>
+        <Length Unit="in">6.0</Length>
+      </TubeCoupler>
+      <TubeCoupler>
+        <Manufacturer>Madcow</Manufacturer>
+        <PartNumber>FWCF-3C-090</PartNumber>
+        <Description>Tube coupler, 3in, carbon fiber, black, 9.0 in.</Description>
+        <Material Type="BULK">Carbon fiber epoxy composite, Madcow FWCF, bulk</Material>
+        <InsideDiameter Unit="in">2.875</InsideDiameter>
+        <OutsideDiameter Unit="in">2.998</OutsideDiameter>
+        <Length Unit="in">9.0</Length>
+      </TubeCoupler>
+      <!-- FWCF-4C coupler size and weight not given, dimensions here assumed same as FC39 -->
+      <TubeCoupler>
+        <Manufacturer>Madcow</Manufacturer>
+        <PartNumber>FWCF-4C-090</PartNumber>
+        <Description>Tube coupler, 4in, carbon fiber, black, 9.0 in.</Description>
+        <Material Type="BULK">Carbon fiber epoxy composite, Madcow FWCF, bulk</Material>
+        <InsideDiameter Unit="in">3.755</InsideDiameter>
+        <OutsideDiameter Unit="in">3.899</OutsideDiameter>
+        <Length Unit="in">9.0</Length>
+      </TubeCoupler>
+      <TubeCoupler>
+        <Manufacturer>Madcow</Manufacturer>
+        <PartNumber>FWCF-4C-120</PartNumber>
+        <Description>Tube coupler, 4in, carbon fiber, black, 12.0 in.</Description>
+        <Material Type="BULK">Carbon fiber epoxy composite, Madcow FWCF, bulk</Material>
+        <InsideDiameter Unit="in">3.755</InsideDiameter>
+        <OutsideDiameter Unit="in">3.899</OutsideDiameter>
+        <Length Unit="in">12.0</Length>
+      </TubeCoupler>
+      <!-- FWCF-6C coupler size and weight not given, dimensions here assumed same as FC60 -->
+      <TubeCoupler>
+        <Manufacturer>Madcow</Manufacturer>
+        <PartNumber>FWCF-6C-120</PartNumber>
+        <Description>Tube coupler, 6in, carbon fiber, black, 12.0 in.</Description>
+        <Material Type="BULK">Carbon fiber epoxy composite, Madcow FWCF, bulk</Material>
+        <InsideDiameter Unit="in">5.775</InsideDiameter>
+        <OutsideDiameter Unit="in">5.998</OutsideDiameter>
+        <Length Unit="in">12.0</Length>
+      </TubeCoupler>
+      <TubeCoupler>
+        <Manufacturer>Madcow</Manufacturer>
+        <PartNumber>FWCF-6C-180</PartNumber>
+        <Description>Tube coupler, 6in, carbon fiber, black, 18.0 in.</Description>
+        <Material Type="BULK">Carbon fiber epoxy composite, Madcow FWCF, bulk</Material>
+        <InsideDiameter Unit="in">5.775</InsideDiameter>
+        <OutsideDiameter Unit="in">5.998</OutsideDiameter>
+        <Length Unit="in">18.0</Length>
+      </TubeCoupler>
+ 
+
       <!-- ===================== -->
       <!-- Fiberglass Nose Cones -->
       <!-- ===================== -->
@@ -1796,6 +2219,9 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
         <!-- Balsa ramjet nose cones
              SOURCE ERROR: no data of any kind for BNC55RJ and BNC70RJH
         -->
+
+        <!-- Centering Rings - Plywood -->
+        
 
         
 
