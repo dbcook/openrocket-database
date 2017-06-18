@@ -19,14 +19,18 @@ instructions are given below.
 
 I invite contributors to create a packaged installer, especially for Windows.
 
-## Version and compatibility
-
-Current version:  0.9.0.11
+## Compatibility
 
 OpenRocket compatibility:  tested with OpenRocket 15.03
+System compatibility:  works anywhere OpenRocket can run
 
 ## Release Notes
-0.9.0.12 - Jun 2017
+0.9.0.13 - 18 Jun 2017
+* Fix up masses of Madcow fiberglass nose cones and added several more
+* Add note to README about handling metal tip fiberglass nose cones
+* Add research data for modelrockets.us tubes to tube data spreadsheet
+
+0.9.0.12 - 8 Jun 2017
 * Added FSI and CMR tube sizes to tube data spreadsheet
 * Added Madcow tube couplers
 * Fix Estes PSII nylon chutes to have mass (paste in correct materials)
@@ -199,12 +203,12 @@ somewhat Mac centric because that's what I use most.
 | `Fliskits.orc`           | Yes  | --
 | `giantleaprocketry.orc`  | Yes  | --
 | `publicmissiles.orc`     | Yes  | --
-| `fsi.orc`                | No   | --
-| `cmr.orc`                | No   | --
+| `fsi.orc`                | No   | -- Not started
+| `cmr.orc`                | No   | -- Not started
 | `mpc.orc`                | No   | 98%
 | `estes_classic.orc`      | No   | 95%
 | `estes_ps2.orc`          | No   | 98%
-| `madcow.orc`             | No   | 35%
+| `madcow.orc`             | No   | 50%
 | `top_flight.orc`         | No   | 100%
 | `competition_chutes.orc` | No   | 100%
 
@@ -312,9 +316,19 @@ strongly suspect that the modern day Quest tubes have identical dimensions to th
 MPC tubes, implying a .5mm (.020") wall thickness.  The Quest data should also let us
 definitively recover the nose cone shoulder diameters appropriate for the metric tubes.
 
-Despite the thin information, I have been able to build a relatively complete parts file
-which has been added to the project as of version 0.9.0.9
+Despite the thin information, I have been able to build a relatively complete MPC parts file
+which is now included with this package.
 
+#### Madcow Rocketry
+
+To the best of my knowledge, Madcow Rocketry has never published a print catalog.
+
+Madcow has spotty dimensional and mass data on its website; perhaps 2/3 of the parts have
+some useful data.  Mass information is missing for many nose cones, especially the larger ones.
+
+Madcow absorbed the former Rocketry Warehouse line (which had been operated by the owner of
+Performance Rocketry) in 2016.  Even before this, the fiberglass tubes and nose cones sold
+by Madcow were made by Performance Rocketry.
 
 ### Missing Manufacturers
 
@@ -323,27 +337,27 @@ power vendors - that are not included in OpenRocket at all.  Some of these are n
 this components database.
 
 * Centuri (many cloneable kits with parts different than Estes)
-* MPC (see catalog images on http://vintagevendingwarehouse.weebly.com/history-of-mpc.html)
-* Apogee (they mostly OEM other vendors' parts, but have some unique ones)
+* Apogee (they mostly OEM other vendors' parts)
 * Apogee Components (predecessor to Apogee owned by Ed LaCroix; made competition parts that
   Apogee under Tim van Milligan did not carry forward)
 * CMR (defunct but had unique tube sizes)
-* FSI (defunct but also had unique tube sizes)
-* High power kit vendors
-  * Madcow
+* FSI (defunct but had unique tube sizes)
+* High power kit and parts vendors
   * Rocketry Warehouse (now part of Madcow)
   * Polecat Aerospace
   * Wildman
-* Fruity, Rocketman, Sky Angle, B2 Chutes
+* Fruity, Rocketman, Sky Angle, B2 nylon parachutes
 
 ## Usage and Quirks
 
 For most things, you can use OpenRocket as you normally would.  However, there are a few things
 you should know about if you want maximum accuracy.
 
-* Due to limitations in what OpenRocket allows you to specify for nose cones, partial manual
-  entry is required to get the most accurate mass and CG locations for heavier hollow plastic or
-  fiberglass nose cones (currently LOC):
+### Hollow One-Piece Plastic and Fiberglass Nose Cones
+
+Due to limitations in what OpenRocket allows you to specify for nose cones, partial manual
+entry is required to get the most accurate mass and CG locations for heavier one-piece
+hollow plastic or fiberglass nose cones (currently this affects LOC only):
   
   * When putting in a plastic nose cone, go select the nose cone
     from the presets database.  At this point the displayed mass will be too small, because
@@ -356,29 +370,45 @@ you should know about if you want maximum accuracy.
 At present, only the LOC nose cones and transitions have been adjusted so this procedure works, because
 they are pretty heavy and the CG actually moves a fair amount.
 
-* The "match fore diameter" option in the parts selection dialog is very useful for
-  narrowing the giant list to potentially compatible parts.  However, it is buggy and when
-  choosing couplers or inner tubes it sometimes shows parts that are slightly too large to
-  fit inside the outer tube.  Verify your dimensions!
+### Size Matching in the OpenRocket Parts Selection Dialogs
 
+The 'match fore diameter' (the field name varies slightly) option in the parts selection
+dialogs is very useful for narrowing the giant list to potentially compatible parts.
+However, it is buggy and when choosing couplers or inner tubes it sometimes shows parts
+that are slightly too large to fit inside the outer tube.  Verify your dimensions!
 
-### Advanced Tactics
+### Metal Tip Fiberglass Nose Cones
+
+The density of aluminum at 2.7 g/cm3 is a little more than that of fiberglass (1.8 to 2.2
+g/cm3). Metal tip nose cones will weigh slighly more than composite tip versions and have
+their CG slightly further forward, but the delta is not that large and OpenRocket has no
+good way to model this in a single component.  For highest accuracy in mass, CG and
+moments of inertia, you can add a small mass object at the nose cone tip to make up the
+difference.
+
+Should you care about this level of accuracy, I also suggest you weigh your individual
+nose cone parts and adjust accordingly.  Manufacturer data is scarce and there are
+individual part variations.
+
+### Advanced Tactics for Complex Nose Cone Shapes
 
 Many specialty nose cones do not match one of the simple CP-computable shapes modeled by
-OpenRocket.  In these cases an approximate shape is used and noted in comments in the
-.orc file.  If the mass is too far off as a result, one of two things may be done:
+OpenRocket.  In these cases an approximate shape is used and noted in comments in the .orc
+file.  If the mass is too far off as a result, one of two things may have been done in the
+.orc files in this project:
 
-  * For plastic nose cones, the wall thickness will be adjust to correct the mass.
+  * For hollow nose cones, the wall thickness will be adjusted to correct the mass.  This preserves
+    the accuracy of the moments of inertia.
   * For solid nose cones, a mass override may be used.
 
 If you are trying to make a visually accurate OR file, some nose cone shapes that are
 composites of other simple shapes (BNC-55AM, Honest John etc.) can be modeled using a
 shoulderless forward cone, one or more transitions, and tube extensions for cylindrical
-nose cone sections.  Short (even zero) length "phantom" tubes may need to be added to join
+nose cone sections.  Short (even zero) length 'phantom' tubes may need to be added to join
 those items.  However, there is no way to do this kind of thing as a single component
 preset in a .orc file, so if you want that level of fidelity you will have to do it
 manually.  Jim Parsons (TRF user K'tesh) has posted many examples of these techniques in
-various TRF threads.  In cases like the Honest John and Demon nose cones, you will very
+various TRF threads.  In cases like the Honest John and Demon nose cones, you will get very
 good appearance with reasonable drag and CP computations.  However for parts with draggy
 appliques like the Odyssey nose cone, there is no real way in OpenRocket to get the drag
 correct.
@@ -392,7 +422,7 @@ and usable from the OpenRocket user interface.
 * Mass overrides have been eliminated to the maximum extent possible.  This has primarily
   been done by using good density values for the materials, and adjusting non-significant
   dimensions such as wall thickness of hollow parts.  The only case where mass overrides
-  become necessary is for oddly shaped, solid wood nose cones where OpenRocket cannot
+  become necessary is for oddly shaped, solid nose cones where OpenRocket cannot
   model the shape properly and the standard material density produces a notably incorrect
   mass when applied to the approximate shape chosen.
 
@@ -417,7 +447,7 @@ and usable from the OpenRocket user interface.
 * Materials entries not actually used in each components file have been removed.
 
 * Synthetic part numbers have been generated for components for which dimensions are known
-  but there is no documented part number from the vendor.  For example, the 12.25 in BT-5
+  but there is no documented part number from the vendor.  For example, the 12.25 inch BT-5
   used in the Estes #2009 Rain Maker is assigned a PN of "BT-5_12.25in".
 
 * When multiple part numbers are known for a given item, they are given as a list in the
@@ -426,11 +456,11 @@ and usable from the OpenRocket user interface.
 * Items not uniquely tied to any given manufacturer have been assigned a manufacturer name
   of "Generic xxxx", where xxxx (if present) may be a category like "competition".
 
-* Body tubes are listed in descending order of length so if you sort on Description, they
-  will appear in that order.
+* Body tubes are listed in descending order of length so that if you sort on Description, they
+  will appear in that order as long as other attributes of the tube series are identical.
 
-* Leading zeroes have been removed from part numbers, except for Estes kits where they are
-  significant.
+* Leading zeroes have been removed from part numbers, except in certain cases where they are
+  consisdered significant.
 
 
 ## Technical Info - how OpenRocket Parts Databases Work
@@ -526,8 +556,8 @@ component.
 
 ### Organization of .orc Database Files
 
-Each .orc file has a set of material definitions at the top.
-These material definitions only have scope within the current datafile.
+Each .orc file has a set of material definitions at the top.  These material definitions
+only have scope within the current datafile.
 
 Conversely any given .orc presets database file can *only* use materials defined in the
 same file.  This is why in OpenRocket there are duplicate material definitions (with
@@ -540,11 +570,13 @@ There is no provision for generic, non manufacturer specific materials except vi
 compiled-in default materials.
 
 IMPORTANT: The material definition referenced by a component is only consulted *when the
-component is first created in your .ork file* ! If you subsequently save the .ork, then
+component is first created in your .ork file! If you subsequently save the .ork, then
 update the material definition in the .orc, and reload your .ork design, the material
-definitions for existing components __WILL NOT BE UPDATED__.  If you change the density for
-some material, in order to get your design to update you must manually open the affected
-components, and re-select the component preset from the database.
+definitions for existing components __WILL NOT BE UPDATED__.  If you change the density
+for some material, in order to get your design to update you must manually open the
+affected components, and re-select the component preset from the database.  This behavior
+may seem like a bug, but is actually needed to allow .ork files to be opened by any copy
+of OpenRocket, even if it doesn't have the same database files or stored presets as yours.
 
 
 ### Listing available XML tags
@@ -560,7 +592,7 @@ Note that you will not find specific entries for <EngineBlock>, <CenteringRing>,
 <Bulkhead>, and <LaunchLug>.  These exist but all are special cases of <BodyTube> and have the same
 allowed fields of <InsideDiameter>, <OutsideDiameter>, and <Length>.
 
-#### Enum Values for Nose Cone and Transition Shapes
+### Enum Values for Nose Cone and Transition Shapes
 
 The allowed values for the "<Shape>" element in NoseCone and Transition elements are:
 
@@ -624,29 +656,30 @@ structural.
    * Cannot make components that are groupings of other components
    * Can only reference materials from within the same file
    * Cannot define any graphic appearance attributes
+   * Cannot define component finish
    * No support for multiple part numbers or SKUs
    * No way to specify the comment to be displayed in the UI comment tab
-   * No support for versioning
-   * Diameter matching is buggy
+   * No support for component versioning
+* Body tubes:
+   * Cannot designate a body tube as a motor tube
+   * Cannot specify motor overhang or default ignition parameters as seen in UI
 * Nose cones/transitions:
    * Cannot specify shape parameter for OGIVE, POWER, PARABOLIC and HAACK shapes
    * Cannot specify wall thickness for nose cone or transition shoulders
    * Cannot specify whether nose cone or transition shoulders are capped
-   * OR does not model moments of inertia for hollow NC/transition shoulders
-   * Cannot specify a rear-facing nose cone or nozzle cone
+   * Cannot directly specify a rear-facing nose cone for pods or nozzle cones.
+     However, you can fake this out by creating a reducing transition with a zero
+     aft shoulder diameter.
    * No support for drilled-for-a-tube solid (balsa) tail cones.  You can only
      define a fully filled part, or hollow with constant wall thickness.
      Therefore, there is no good way to model an Estes BTC-55Z or similar part.
 * Parachutes:
    * Cannot set drag coefficient for parachutes, though UI has this
-   * Cannot set a packing volume (nor packed len/diam) for parachutes
-   * Cannot set a spill hole for parachutes
-   * Cannot set different parachute designs (flat, spherical, toroid, x-form, etc.)
+   * Cannot set a packing volume or packed length/diameter for parachutes
 * Streamers:
    * Cannot set drag coefficient or Cd automatic mode, though UI has them
    * You can set thickness in .orc streamer components but it does not appear in the UI
      and may have no effect
-   * Cannot specify attachment line parameters (they don't exist in the UI either)
    * Cannot specify a minimum packing length (usually the stream width + margin)
 * Fins:
    * Cannot define finset or tubefin components at all
@@ -654,9 +687,37 @@ structural.
    * Cannot define mass component components at all
 * Shock cords:
    * Cannot define shock cord components at all
-* Launch lugs:
-   * OpenRocket only supports tubular lugs; no support for rail buttons or guides
-   * No support for standoffs
+* Additional problems not specific to .orc files:
+   * OR does not model moments of inertia for hollow NC/transition shoulders
+   * OpenRocket only supports tubular launch lugs - no support for rail buttons or guides
+   * No support for lug standoffs
+   * Cannot attach a mass object to a parachute (e.g. Chute Release device)
+   * Cannot attach a mass object to a streamer
+   * Cannot attach finsets to nose cones and transitions (thus cannot model Estes Sprint XL),
+     couplers, inner tubes
+   * Cannot define bulkheads with holes in them
+   * Cannot define centering rings with multiple holes for cluster motor mounts
+   * No support for streamer attachment lines
+   * No support for parachutes with spill holes
+   * No support for different parachute designs (flat, spherical, toroid, x-form, etc.)
+* UI issues related to component databases and part selection
+   * Diameter matching in the UI is buggy
+   * If you are defining a nose cone and load one from the database with a different shape, the
+     shape dropdown doesn't update and the displayed mass doesn't recompute.  I haven't verified it,
+     but this may also be a bug with transitions.
+   * UI part selection dialog expands poorly, only 1/3 of the area gets used for the main table
+   * UI doesn't visually distinguish between component intrinsic attributes and parameters
+     related to their placement or use in the design like relative position, radial position, etc.
+   * No manufacturer part filtering in the UI (e.g. only show Madcow parts)
+   * UI doesn't remember last size of the parts selection dialogs, you have to resize every time
+   * Duplicating a part, whether by copy/paste or by creating a 2nd one attached to the same
+     parent component, always puts them right on top of each other.  That is useful for
+     items that are going to be distributed radially about the centerline like cluster motor
+     tubes, but not helpful for centering rings, launch lugs, and bulkheads.
+   * Packing diameter of parachutes, streamers and shock cords should default to the ID of
+     the parent body tube, and packing length of streamers should default to the width of the
+     streamer.
+   * Relative (axial) position and radial position of components really should be on the same tab.
 
 ### Hardcoded Default Materials and Preference/Registry Augmentation of the Materials Dropdown List
 
@@ -740,13 +801,15 @@ This site contains scans of historic model rocket catalogs from Estes, Centuri, 
 Some of the Estes and Centuri catalog scans here are poor quality - check the Estes catalog archive listed
 above for generally better versions.
 
-There formerly was a spreadsheet in the OpenRocket source code tree giving a source of
-"13.09.1" for much of the PNC info. But there were obvious mistakes, blanks, and many
-omissions in that document, and it is no longer in the 15.03 source tree, though I believe
-it was the basis for many of the built-in components.  It could probably be pulled out of
-the GitHub repo, but I doubt it is now very useful.
+There formerly was a spreadsheet in the OpenRocket source code tree giving a source
+(possibly a Euro style creation date) of "13.09.1" for much of the PNC info. But there
+were obvious mistakes, blanks, and many omissions in that document, and it is no longer in
+the 15.03 source tree, though I believe it was the basis for many of the built-in
+components.  It could be pulled out of the GitHub repo by checking out old revisions, but
+I doubt it is now very useful.
 
 [MPC History and Catalogs](http://vintagevendingwarehouse.weebly.com/history-of-mpc.html)
 
 This is the only site where I could find any scans of MPC catalogs.  There are also 3
-MPC kit documentation sets on JimZ and more on plans.rocketshoppe.com
+MPC kit documentation sets on JimZ and more on plans.rocketshoppe.com.  I was able to use this
+information to build a reasonable MPC parts file.
