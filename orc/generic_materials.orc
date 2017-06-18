@@ -532,14 +532,38 @@
 
       <!-- BULK composites -->
 
+        <!-- This is density of carbon fiber itself, without resin -->
         <Material UnitsOfMeasure="g/cm3">
-            <Name>Carbon Fiber, bulk</Name>
+            <Name>Carbon fiber, bulk</Name>
+            <Density>1740.0</Density>
+            <Type>BULK</Type>
+        </Material>
+        <!-- Standard density of properly made carbon fiber composite -->
+        <Material UnitsOfMeasure="g/cm3">
+            <Name>Carbon fiber epoxy composite, bulk</Name>
+            <Density>1600.0</Density>
+            <Type>BULK</Type>
+        </Material>
+        <!-- Derived density of Madcow filament wound carbon fiber tubes
+             The quoted weight of FWCF-29 is much less than it should be and probably
+             implies there is considerable excess resin.
+        -->
+        <Material UnitsOfMeasure="g/cm3">
+            <Name>Carbon fiber epoxy composite, Madcow FWCF, bulk</Name>
+            <Density>1250.0</Density>
+            <Type>BULK</Type>
+        </Material>
+        
+        <Material UnitsOfMeasure="g/cm3">
+            <Name>Kevlar epoxy composite, bulk</Name>
             <Density>1400.0</Density>
             <Type>BULK</Type>
         </Material>
+
+        <!-- E-glass composite usually quoted at 1.90 -->
         <Material UnitsOfMeasure="g/cm3">
             <Name>Fiberglass, generic, bulk</Name>
-            <Density>1905.0</Density>
+            <Density>1900.0</Density>
             <Type>BULK</Type>
         </Material>
         <!-- G10 is glass cloth + epoxy, usually in convolute wound tubes -->
