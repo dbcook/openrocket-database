@@ -6157,7 +6157,7 @@ Using this file:
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>CR-20-1.9P</PartNumber>
       <Description>Centering ring, plywood, BT-20 to 1.9, .125"</Description>
-      <Material Type="BULK">Fiber, bulk</Material>
+      <Material Type="BULK">Plywood, light, bulk</Material>
       <InsideDiameter Unit="in">0.738</InsideDiameter>
       <OutsideDiameter Unit="in">1.798</OutsideDiameter>
       <Length Unit="in">0.125</Length>
@@ -6273,7 +6273,7 @@ Using this file:
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>RA-50-60P</PartNumber>
       <Description>Centering ring, plywood, BT-50 to BT-60, .125"</Description>
-      <Material Type="BULK">Fiber, bulk</Material>
+      <Material Type="BULK">Plywood, light, bulk</Material>
       <InsideDiameter Unit="in">0.978</InsideDiameter>
       <OutsideDiameter Unit="in">1.593</OutsideDiameter>
       <Length Unit="in">0.125</Length>
@@ -7027,7 +7027,7 @@ Using this file:
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>RA-50/52H-101P(BT-52H)</PartNumber>
       <Description>Centering ring, plywood, BT-52H to BT-101, .375"</Description>
-      <Material Type="BULK">Fiber, bulk</Material>
+      <Material Type="BULK">Plywood, light, bulk</Material>
       <InsideDiameter Unit="in">1.138</InsideDiameter>
       <OutsideDiameter Unit="in">3.894</OutsideDiameter>
       <Length Unit="in">0.375</Length>
@@ -7038,7 +7038,7 @@ Using this file:
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>CR-52H/38mm-101P(BT-52H)</PartNumber>
       <Description>Centering ring, plywood, BT-52H to BT-101, .250"</Description>
-      <Material Type="BULK">Fiber, bulk</Material>
+      <Material Type="BULK">Plywood, light, bulk</Material>
       <InsideDiameter Unit="in">1.138</InsideDiameter>
       <OutsideDiameter Unit="in">3.894</OutsideDiameter>
       <Length Unit="in">0.250</Length>
@@ -7271,7 +7271,7 @@ Using this file:
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>CR-52H/38mm-101P(38mm)</PartNumber>
       <Description>Centering ring, plywood, 38mm to BT-101, .250"</Description>
-      <Material Type="BULK">Fiber, bulk</Material>
+      <Material Type="BULK">Plywood, light, bulk</Material>
       <InsideDiameter Unit="in">1.138</InsideDiameter>
       <OutsideDiameter Unit="in">3.894</OutsideDiameter>
       <Length Unit="in">0.250</Length>
