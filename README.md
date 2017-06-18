@@ -30,6 +30,7 @@ System compatibility:  works anywhere OpenRocket can run
 * Fix up masses of Madcow fiberglass nose cones and added several more
 * Add note to README about handling metal tip fiberglass nose cones
 * Add research data for modelrockets.us tubes to tube data spreadsheet
+* Fix material type on a few Semroc plywood centering rings
 
 0.9.0.12 - 8 Jun 2017
 * Added FSI and CMR tube sizes to tube data spreadsheet
