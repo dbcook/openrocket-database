@@ -22,6 +22,7 @@ I invite contributors to create a packaged installer, especially for Windows.
 ## Compatibility
 
 OpenRocket compatibility:  tested with OpenRocket 15.03
+
 System compatibility:  works anywhere OpenRocket can run
 
 ## Release Notes
@@ -325,6 +326,7 @@ To the best of my knowledge, Madcow Rocketry has never published a print catalog
 
 Madcow has spotty dimensional and mass data on its website; perhaps 2/3 of the parts have
 some useful data.  Mass information is missing for many nose cones, especially the larger ones.
+For some parts including FT115, FC45, FC55 and FC80 there is no data at all.
 
 Madcow absorbed the former Rocketry Warehouse line (which had been operated by the owner of
 Performance Rocketry) in 2016.  Even before this, the fiberglass tubes and nose cones sold
