@@ -24,11 +24,11 @@ Fiberglass composite tip nose cones - thin wall
 Fiberglass composite tip nose cones - std wall
 Fiberglass metal tip nose cones - std wall (starting at 4")
 Plastic nose cones
+Centering rings - plywood
 
 TODO:
 
 Centering rings - G10
-Centering rings - wood
 Balsa tail cones for 2.6" to 38mm and 29mm mounts
 Fiberglass 2.6 and 4.0 tail cones
 Transition (glass) 4" to 54mm
@@ -40,7 +40,7 @@ RESEARCH NOTES:
 Madcow sells G12 airframe tubes by the foot, with "full" 60 inch and "half" 30 inch lengths selectable,
 as well as custom lengths for sizes 6.0" and below.
 
-Airframes FT60 and smaller are offered in colors (dyed in the resin) with the following
+G12 airframes FT60 and smaller are offered in colors (dyed in the resin) with the following
 suffixes on the SKU:
   NAT  : Natural green (not dyed)
   BLU  : Blue
@@ -62,6 +62,9 @@ and G12 FT40 with identical ID of 3.900 and ODs of 4.000 and 4.024 respectively.
 
 Fiberglass coupler and tube SKUs do not match.  We have FT22 tube that has mating FC54 coupler.
 We also have FC39 which is the mating coupler for FT40.
+
+Madcow lists a number of fiberglass and carbon fiber parts that may not actually be available
+from their upstream supplier.
 
 SOURCE ERROR:  The website (as of 2 Jun 2017) does not generate fully qualified SKUs for FT11 and
 FT26. I.e., it does not show something like "FT11-STD-300-RED" if you select a 30" red FT11 tube.
@@ -2220,10 +2223,107 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
              SOURCE ERROR: no data of any kind for BNC55RJ and BNC70RJH
         -->
 
+        <!-- ========================= -->
         <!-- Centering Rings - Plywood -->
-        
+        <!-- ========================= -->
 
-        
+        <!-- 29mm inner diam -->
+
+        <!-- 29mm MMT to 54mm cardboard airframe -->
+        <CenteringRing>
+          <Manufacturer>Madcow</Manufacturer>
+          <PartNumber>CR2229A-CK4</PartNumber>
+          <Description>Centering ring, 1/8 ply, aft (no slot), 29mm MMT to 54mm cardboard</Description>
+          <Material Type="BULK">Plywood, light, bulk</Material>
+          <InsideDiameter Unit="in">1.218</InsideDiameter>
+          <OutsideDiameter Unit="in">2.137</OutsideDiameter>
+          <Length Unit="in">0.125</Length>
+        </CenteringRing>
+        <CenteringRing>
+          <Manufacturer>Madcow</Manufacturer>
+          <PartNumber>CR2229F-CK3</PartNumber>
+          <Description>Centering ring, 1/8 ply, fwd (slotted), 29mm MMT to 54mm cardboard</Description>
+          <Material Type="BULK">Plywood, light, bulk</Material>
+          <InsideDiameter Unit="in">1.218</InsideDiameter>
+          <OutsideDiameter Unit="in">2.137</OutsideDiameter>
+          <Length Unit="in">0.125</Length>
+        </CenteringRing>
+        <!-- 29mm MMT to 2.6in cardboard airframe -->
+        <CenteringRing>
+          <Manufacturer>Madcow</Manufacturer>
+          <PartNumber>CR2629A-CJ3</PartNumber>
+          <Description>Centering ring, 1/8 ply, aft (no slot), 29mm MMT to 2.6in cardboard</Description>
+          <Material Type="BULK">Plywood, light, bulk</Material>
+          <InsideDiameter Unit="in">1.218</InsideDiameter>
+          <OutsideDiameter Unit="in">2.555</OutsideDiameter>
+          <Length Unit="in">0.125</Length>
+        </CenteringRing>
+        <CenteringRing>
+          <Manufacturer>Madcow</Manufacturer>
+          <PartNumber>CR2629F-CJ4</PartNumber>
+          <Description>Centering ring, 1/8 ply, fwd (slotted), 29mm MMT to 2.6in cardboard</Description>
+          <Material Type="BULK">Plywood, light, bulk</Material>
+          <InsideDiameter Unit="in">1.218</InsideDiameter>
+          <OutsideDiameter Unit="in">2.555</OutsideDiameter>
+          <Length Unit="in">0.125</Length>
+        </CenteringRing>
+        <!-- 38mm cardboard MMT to 3in cardboard airframe -->
+        <CenteringRing>
+          <Manufacturer>Madcow</Manufacturer>
+          <PartNumber>CR3038A-CG4</PartNumber>
+          <Description>Centering ring, 1/4 ply, aft (no hole), 38mm MMT to 3in cardboard</Description>
+          <Material Type="BULK">Plywood, light, bulk</Material>
+          <InsideDiameter Unit="in">1.638</InsideDiameter>
+          <OutsideDiameter Unit="in">2.997</OutsideDiameter>
+          <Length Unit="in">0.250</Length>
+        </CenteringRing>
+        <CenteringRing>
+          <Manufacturer>Madcow</Manufacturer>
+          <PartNumber>CR3038F-CG5</PartNumber>
+          <Description>Centering ring, 1/4 ply, fwd (drilled), 38mm MMT to 3in cardboard</Description>
+          <Material Type="BULK">Plywood, light, bulk</Material>
+          <InsideDiameter Unit="in">1.638</InsideDiameter>
+          <OutsideDiameter Unit="in">2.997</OutsideDiameter>
+          <Length Unit="in">0.250</Length>
+        </CenteringRing>
+        <!-- 38mm cardboard MMT to 4 in cardboard airframe -->
+        <CenteringRing>
+          <Manufacturer>Madcow</Manufacturer>
+          <PartNumber>CR3938A-AH1</PartNumber>
+          <Description>Centering ring, 1/4 ply, aft (no hole), 38mm MMT to 4in cardboard</Description>
+          <Material Type="BULK">Plywood, light, bulk</Material>
+          <InsideDiameter Unit="in">1.638</InsideDiameter>
+          <OutsideDiameter Unit="in">3.897</OutsideDiameter>
+          <Length Unit="in">0.250</Length>
+        </CenteringRing>
+        <CenteringRing>
+          <Manufacturer>Madcow</Manufacturer>
+          <PartNumber>CR3938F-AH2</PartNumber>
+          <Description>Centering ring, 1/4 ply, fwd (drilled), 38mm MMT to 4in cardboard</Description>
+          <Material Type="BULK">Plywood, light, bulk</Material>
+          <InsideDiameter Unit="in">1.638</InsideDiameter>
+          <OutsideDiameter Unit="in">3.897</OutsideDiameter>
+          <Length Unit="in">0.250</Length>
+        </CenteringRing>
+        <!-- 54mm cardboard MMT to 4 in cardboard airframe -->
+        <CenteringRing>
+          <Manufacturer>Madcow</Manufacturer>
+          <PartNumber>CR3954A-DM3</PartNumber>
+          <Description>Centering ring, 1/4 ply, aft (no hole), 54mm MMT to 4in cardboard</Description>
+          <Material Type="BULK">Plywood, light, bulk</Material>
+          <InsideDiameter Unit="in">2.248</InsideDiameter>
+          <OutsideDiameter Unit="in">3.897</OutsideDiameter>
+          <Length Unit="in">0.250</Length>
+        </CenteringRing>
+        <CenteringRing>
+          <Manufacturer>Madcow</Manufacturer>
+          <PartNumber>CR3954F-DM4</PartNumber>
+          <Description>Centering ring, 1/4 ply, fwd (drilled), 54mm MMT to 4in cardboard</Description>
+          <Material Type="BULK">Plywood, light, bulk</Material>
+          <InsideDiameter Unit="in">2.248</InsideDiameter>
+          <OutsideDiameter Unit="in">3.897</OutsideDiameter>
+          <Length Unit="in">0.250</Length>
+        </CenteringRing>
 
     </Components>
 
