@@ -544,9 +544,10 @@
         </Material>
         <!-- G10 is glass cloth + epoxy, usually in convolute wound tubes -->
         <!-- G12 is filament wound -->
+        <!-- G10 is quoted on MatWeb.com as 1.80 g/cc -->
         <Material UnitsOfMeasure="g/cm3">
             <Name>Fiberglass, G10, bulk</Name>
-            <Density>2175.0</Density>
+            <Density>1800.0</Density>
             <Type>BULK</Type>
         </Material>
         <Material UnitsOfMeasure="g/cm3">
