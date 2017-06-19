@@ -2787,21 +2787,7 @@ Known issues:
       <!-- Two versions are given for each part -->
       <!-- Normal version has fore diameter smaller than aft diameter -->
       <!-- [R] means a reducer, fore diameter is larger than aft diameter -->
-        <Transition>
-            <Manufacturer>Estes</Manufacturer>
-            <PartNumber>BNC-80K [R]</PartNumber>
-            <Description>Tail cone, balsa, reducing</Description>
-            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
-            <Shape>OGIVE</Shape>
-            <ForeOutsideDiameter Unit="m">0.067056</ForeOutsideDiameter>
-            <ForeShoulderDiameter Unit="m">0.064973</ForeShoulderDiameter>
-            <ForeShoulderLength Unit="m">0.0254</ForeShoulderLength>
-            <AftOutsideDiameter Unit="m">0.03175</AftOutsideDiameter>
-            <AftShoulderDiameter Unit="m">0.0</AftShoulderDiameter>
-            <AftShoulderLength Unit="m">0.0</AftShoulderLength>
-            <Length Unit="m">0.1524</Length>
-            <Thickness Unit="m">0.003175</Thickness>
-        </Transition>
+
         <Transition>
             <Manufacturer>Estes</Manufacturer>
             <PartNumber>TA-520, 70002</PartNumber>
