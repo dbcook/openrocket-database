@@ -26,6 +26,13 @@ OpenRocket compatibility:  tested with OpenRocket 15.03
 System compatibility:  works anywhere OpenRocket can run
 
 ## Release Notes
+0.9.0.14 - Jun 2017
+* Fixes
+  * Reorganized research notes and errata in madcow.orc
+  * Removed bogus "BNC-80K" tailcone transition from estes_classic.orc (should be Semroc)
+* Additions
+  * Madcow G10 fiberglass centering rings, G12 4" to 54mm transition,  and launch lug
+
 0.9.0.13 - 18 Jun 2017
 * Fixes
   * Fix masses of Madcow fiberglass nose cones
@@ -214,7 +221,7 @@ somewhat Mac centric because that's what I use most.
 | `mpc.orc`                | No   | 98%
 | `estes_classic.orc`      | No   | 95%
 | `estes_ps2.orc`          | No   | 98%
-| `madcow.orc`             | No   | 50%
+| `madcow.orc`             | No   | 90%
 | `top_flight.orc`         | No   | 100%
 | `competition_chutes.orc` | No   | 100%
 
