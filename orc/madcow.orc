@@ -8,7 +8,7 @@ Data in this file is primarily from the Madcow website madcowrocketry.com
 As far as I know, Madcow Rocketry has never offered a print catalog or a comprehensive
 electronic catalog.
 
-I have not made individual components for all the tube colors as it would make the tube
+I have not made individual components for all the fiberglass tube colors as it would make the tube
 listings 7x larger, to the point of being unwieldy.  Only the natural tube SKU is listed.
 
 COMPLETED:
@@ -24,18 +24,27 @@ Fiberglass composite tip nose cones - thin wall
 Fiberglass composite tip nose cones - std wall
 Fiberglass metal tip nose cones - std wall (starting at 4")
 Plastic nose cones
-Centering rings - plywood
-
-TODO:
-
 Centering rings - G10
-Balsa tail cones for 2.6" to 38mm and 29mm mounts
-Fiberglass 2.6 and 4.0 tail cones
-Transition (glass) 4" to 54mm
-Parachutes - Fruity, generic nylon, Sky Angle
-Balsa ramjet cones (no published data, have to ask Madcow)
+Centering rings - plywood
+Launch lugs 1/4 x 1"
+Fiberglass transition 4" to 54mm (DoubleShot)
 
-RESEARCH NOTES:
+TODO
+====
+
+Switch band tube segments from "Misc Parts"
+Balsa tail cones for 2.6" to 38mm and 29mm mounts - have dimensions
+Parachutes - generic nylon
+
+DEFERRED
+========
+Fiberglass 2.6 and 4.0 tail cones - can't do, no published data, photogrammetry hard
+Balsa ramjet cones - no published data
+
+RESEARCH NOTES
+==============
+
+Product Line and Nomenclature:
 
 Madcow sells G12 airframe tubes by the foot, with "full" 60 inch and "half" 30 inch lengths selectable,
 as well as custom lengths for sizes 6.0" and below.
@@ -66,6 +75,17 @@ We also have FC39 which is the mating coupler for FT40.
 Madcow lists a number of fiberglass and carbon fiber parts that may not actually be available
 from their upstream supplier.
 
+There is no 29mm coupler, no 7.5" coupler, and no 11.5" coupler to go with those tube sizes.
+
+There is no 29mm thin wall tube.
+
+There is no 2.6" heavy wall tube; FT26 is offered in thin wall only.
+
+There are no thin wall tubes larger than FT30.
+
+ERRATA IN UPSTREAM DATA
+=======================
+
 SOURCE ERROR:  The website (as of 2 Jun 2017) does not generate fully qualified SKUs for FT11 and
 FT26. I.e., it does not show something like "FT11-STD-300-RED" if you select a 30" red FT11 tube.
 
@@ -76,6 +96,9 @@ field is missing.  This looks like a website programming bug.
 SOURCE ERROR: The SKUs generated for all sizes of G12 fiberglass couplers are wacky.  Looks to
 be website programming problems.
 
+MISSING UPSTREAM DATA
+=====================
+
 SOURCE ERROR: Dimensions and weights are missing entirely for tube FT115 and couplers FC45, FC55,
 and FC80.
 
@@ -83,23 +106,15 @@ SOURCE ERROR: ID/OD dimensions are missing for all cardboard tube couplers; only
 given.  The C39-800HD coupler for T39 tube has a noticeably thicker wall in the photo, and it is
 designated as "heavy duty".
 
-SOURCE ERROR: Thickness of plywood bulkheads not specified.
+SOURCE ERROR: Thickness of plywood bulkheads and all G10 centering rings not specified.
 
 SOURCE ERROR: Thickness of all avbay lid G10 bulkheads not specified.
 
-Fiberglass nose cone dimensions and weights are very spotty.  Most are identified as "5:1 conical"
+SOURCE ERROR: Fiberglass nose cone dimensions and weights are very spotty.  Most are identified as "5:1 conical"
 at least; though in some cases where both the fineness and exposed length are given they do not
 agree very well.
 
-There is no 29mm coupler, no 7.5" coupler, and no 11.5" coupler to go with those tube sizes.
-
-There is no 29mm thin wall tube.
-
-There is no 2.6" heavy wall tube; FT26 is offered in thin wall only.
-
-There are no thin wall tubes larger than FT30.
-
-Weights per foot of coupler tubes larger than FC30 are not given, except for FT80.
+SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, except for FT80.
 
 -->
       
@@ -2227,8 +2242,6 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
         <!-- Centering Rings - Plywood -->
         <!-- ========================= -->
 
-        <!-- 29mm inner diam -->
-
         <!-- 29mm MMT to 54mm cardboard airframe -->
         <CenteringRing>
           <Manufacturer>Madcow</Manufacturer>
@@ -2324,6 +2337,397 @@ Weights per foot of coupler tubes larger than FC30 are not given, except for FT8
           <OutsideDiameter Unit="in">3.897</OutsideDiameter>
           <Length Unit="in">0.250</Length>
         </CenteringRing>
+
+        <!-- ================================ -->
+        <!-- Centering Rings - G10 Fiberglass -->
+        <!-- ================================ -->
+        <!-- *** thicknesses not documented (assumed .092 - 0.125), check some of my kits *** -->
+
+        <!-- 29mm FG MMT to 54mm FG airframe -->
+        <CenteringRing>
+          <Manufacturer>Madcow</Manufacturer>
+          <PartNumber>FCR5429-GDL5</PartNumber>
+          <Description>Centering ring, G10 FG, 29mm FG MMT to 54mm FG</Description>
+          <Material Type="BULK">Fiberglass, G10, bulk</Material>
+          <InsideDiameter Unit="in">1.258</InsideDiameter>
+          <OutsideDiameter Unit="in">2.149</OutsideDiameter>
+          <Length Unit="in">0.092</Length>
+        </CenteringRing>
+
+        <!-- 38mm FG MMT to 54mm FG airframe -->
+        <CenteringRing>
+          <Manufacturer>Madcow</Manufacturer>
+          <PartNumber>FCR5438-GCF5</PartNumber>
+          <Description>Centering ring, G10 FG, 38mm FG MMT to 54mm FG</Description>
+          <Material Type="BULK">Fiberglass, G10, bulk</Material>
+          <InsideDiameter Unit="in">1.648</InsideDiameter>
+          <OutsideDiameter Unit="in">2.149</OutsideDiameter>
+          <Length Unit="in">0.092</Length>
+        </CenteringRing>
+
+
+        <!-- 29mm FG MMT to 2.6" FG airframe -->
+        <CenteringRing>
+          <Manufacturer>Madcow</Manufacturer>
+          <PartNumber>FCR2629A-GDL3</PartNumber>
+          <Description>Centering ring, G10 FG, aft (no hole), 29mm FG MMT to 2.6in FG</Description>
+          <Material Type="BULK">Fiberglass, G10, bulk</Material>
+          <InsideDiameter Unit="in">.1.258</InsideDiameter>
+          <OutsideDiameter Unit="in">2.557</OutsideDiameter>
+          <Length Unit="in">0.092</Length>
+        </CenteringRing>
+        <CenteringRing>
+          <Manufacturer>Madcow</Manufacturer>
+          <PartNumber>FCR2629F-GDL4</PartNumber>
+          <Description>Centering ring, G10 FG, fwd (drilled), 29mm FG MMT to 2.6in FG</Description>
+          <Material Type="BULK">Fiberglass, G10, bulk</Material>
+          <InsideDiameter Unit="in">.1.258</InsideDiameter>
+          <OutsideDiameter Unit="in">2.557</OutsideDiameter>
+          <Length Unit="in">0.092</Length>
+        </CenteringRing>
+
+        <!-- 38mm FG MMT to 2.6" FG airframe -->
+        <CenteringRing>
+          <Manufacturer>Madcow</Manufacturer>
+          <PartNumber>FCR2638A-GDL1</PartNumber>
+          <Description>Centering ring, G10 FG, aft (no hole), 38mm FG MMT to 2.6in FG</Description>
+          <Material Type="BULK">Fiberglass, G10, bulk</Material>
+          <InsideDiameter Unit="in">.1.648</InsideDiameter>
+          <OutsideDiameter Unit="in">2.557</OutsideDiameter>
+          <Length Unit="in">0.092</Length>
+        </CenteringRing>
+        <CenteringRing>
+          <Manufacturer>Madcow</Manufacturer>
+          <PartNumber>FCR2638F-DL2</PartNumber>
+          <Description>Centering ring, G10 FG, fwd (drilled), 38mm FG MMT to 2.6in FG</Description>
+          <Material Type="BULK">Fiberglass, G10, bulk</Material>
+          <InsideDiameter Unit="in">.1.648</InsideDiameter>
+          <OutsideDiameter Unit="in">2.557</OutsideDiameter>
+          <Length Unit="in">0.092</Length>
+        </CenteringRing>
+
+        <!-- 54mm FG MMT to 2.6" FG airframe -->
+        <CenteringRing>
+          <Manufacturer>Madcow</Manufacturer>
+          <PartNumber>FCR2654-GCL5</PartNumber>
+          <Description>Centering ring, G10 FG, 54mm FG MMT to 2.6in FG</Description>
+          <Material Type="BULK">Fiberglass, G10, bulk</Material>
+          <InsideDiameter Unit="in">.2.280</InsideDiameter>
+          <OutsideDiameter Unit="in">2.557</OutsideDiameter>
+          <Length Unit="in">0.092</Length>
+        </CenteringRing>
+
+        <!-- 38mm FG MMT to 3" FG airframe -->
+        <CenteringRing>
+          <Manufacturer>Madcow</Manufacturer>
+          <PartNumber>FCR3038-GDH3</PartNumber>
+          <Description>Centering ring, G10 FG, 38mm FG MMT to 3in FG</Description>
+          <Material Type="BULK">Fiberglass, G10, bulk</Material>
+          <InsideDiameter Unit="in">.1.648</InsideDiameter>
+          <OutsideDiameter Unit="in">2.997</OutsideDiameter>
+          <Length Unit="in">0.092</Length>
+        </CenteringRing>
+
+        <!-- 54mm FG MMT to 3" FG airframe -->
+        <CenteringRing>
+          <Manufacturer>Madcow</Manufacturer>
+          <PartNumber>FCR3054-GDH4</PartNumber>
+          <Description>Centering ring, G10 FG, 54mm FG MMT to 3in FG</Description>
+          <Material Type="BULK">Fiberglass, G10, bulk</Material>
+          <InsideDiameter Unit="in">.2.280</InsideDiameter>
+          <OutsideDiameter Unit="in">2.997</OutsideDiameter>
+          <Length Unit="in">0.092</Length>
+        </CenteringRing>
+
+        <!-- 54mm FG MMT to 4" FG coupler tube -->
+        <CenteringRing>
+          <Manufacturer>Madcow</Manufacturer>
+          <PartNumber>FCR39C54-RBD3</PartNumber>
+          <Description>Centering ring, G10 FG, 54mm FG MMT to 4in FG coupler</Description>
+          <Material Type="BULK">Fiberglass, G10, bulk</Material>
+          <InsideDiameter Unit="in">.2.280</InsideDiameter>
+          <OutsideDiameter Unit="in">3.752</OutsideDiameter>
+          <Length Unit="in">0.092</Length>
+        </CenteringRing>
+
+        <!-- 54mm FG MMT to 4" FG airframe -->
+        <CenteringRing>
+          <Manufacturer>Madcow</Manufacturer>
+          <PartNumber>FCR3954-GAJ1</PartNumber>
+          <Description>Centering ring, G10 FG, 54mm FG MMT to 4in FG</Description>
+          <Material Type="BULK">Fiberglass, G10, bulk</Material>
+          <InsideDiameter Unit="in">.2.280</InsideDiameter>
+          <OutsideDiameter Unit="in">3.897</OutsideDiameter>
+          <Length Unit="in">0.092</Length>
+        </CenteringRing>
+
+        <!-- 75mm FG MMT to 4" FG airframe -->
+        <CenteringRing>
+          <Manufacturer>Madcow</Manufacturer>
+          <PartNumber>FCR3975-GAJ2</PartNumber>
+          <Description>Centering ring, G10 FG, 75mm FG MMT to 4in FG</Description>
+          <Material Type="BULK">Fiberglass, G10, bulk</Material>
+          <InsideDiameter Unit="in">.3.128</InsideDiameter>
+          <OutsideDiameter Unit="in">3.897</OutsideDiameter>
+          <Length Unit="in">0.092</Length>
+        </CenteringRing>
+
+        <!-- 54mm FG MMT to 4.5" FG airframe -->
+        <CenteringRing>
+          <Manufacturer>Madcow</Manufacturer>
+          <PartNumber>FCR4554</PartNumber>
+          <Description>Centering ring, G10 FG, 54mm FG MMT to 4.5in FG</Description>
+          <Material Type="BULK">Fiberglass, G10, bulk</Material>
+          <InsideDiameter Unit="in">2.280</InsideDiameter>
+          <OutsideDiameter Unit="in">4.371</OutsideDiameter>
+          <Length Unit="in">0.092</Length>
+        </CenteringRing>
+        
+        <!-- 75mm FG MMT to 4.5" FG airframe -->
+        <CenteringRing>
+          <Manufacturer>Madcow</Manufacturer>
+          <PartNumber>FCR4575</PartNumber>
+          <Description>Centering ring, G10 FG, 75mm FG MMT to 4.5in FG</Description>
+          <Material Type="BULK">Fiberglass, G10, bulk</Material>
+          <InsideDiameter Unit="in">.3.128</InsideDiameter>
+          <OutsideDiameter Unit="in">4.371</OutsideDiameter>
+          <Length Unit="in">0.092</Length>
+        </CenteringRing>
+
+        <!-- 75mm FG MMT to 5" FG airframe -->
+        <CenteringRing>
+          <Manufacturer>Madcow</Manufacturer>
+          <PartNumber>FCR5075-DJ1</PartNumber>
+          <Description>Centering ring, G10 FG, 75mm FG MMT to 5in FG</Description>
+          <Material Type="BULK">Fiberglass, G10, bulk</Material>
+          <InsideDiameter Unit="in">.3.128</InsideDiameter>
+          <OutsideDiameter Unit="in">4.997</OutsideDiameter>
+          <Length Unit="in">0.125</Length>
+        </CenteringRing>
+
+        <!-- 98mm FG MMT to 5" FG airframe -->
+        <CenteringRing>
+          <Manufacturer>Madcow</Manufacturer>
+          <PartNumber>FCR5098-RDJ3</PartNumber>
+          <Description>Centering ring, G10 FG, 98mm FG MMT to 5in FG</Description>
+          <Material Type="BULK">Fiberglass, G10, bulk</Material>
+          <InsideDiameter Unit="in">4.027</InsideDiameter>
+          <OutsideDiameter Unit="in">4.997</OutsideDiameter>
+          <Length Unit="in">0.125</Length>
+        </CenteringRing>
+        <!-- 98mm FG MMT to 5" FG airframe, black -->
+        <CenteringRing>
+          <Manufacturer>Madcow</Manufacturer>
+          <PartNumber>FCR5098-BLK-RDJ3</PartNumber>
+          <Description>Centering ring, G10 FG, 98mm FG MMT to 5in FG, black</Description>
+          <Material Type="BULK">Fiberglass, G10, bulk</Material>
+          <InsideDiameter Unit="in">4.027</InsideDiameter>
+          <OutsideDiameter Unit="in">4.997</OutsideDiameter>
+          <Length Unit="in">0.125</Length>
+        </CenteringRing>
+
+        <!-- 38mm FG MMT to 5.5" FG airframe -->
+        <CenteringRing>
+          <Manufacturer>Madcow</Manufacturer>
+          <PartNumber>FCR5538-RDE5</PartNumber>
+          <Description>Centering ring, G10 FG, 38mm FG MMT to 5.5in FG</Description>
+          <Material Type="BULK">Fiberglass, G10, bulk</Material>
+          <InsideDiameter Unit="in">1.648</InsideDiameter>
+          <OutsideDiameter Unit="in">5.372</OutsideDiameter>
+          <Length Unit="in">0.125</Length>
+        </CenteringRing>
+
+        <!-- 54mm FG MMT to 5.5" FG airframe -->
+        <CenteringRing>
+          <Manufacturer>Madcow</Manufacturer>
+          <PartNumber>FCR5554-GBL1</PartNumber>
+          <Description>Centering ring, G10 FG, 54mm FG MMT to 5.5in FG</Description>
+          <Material Type="BULK">Fiberglass, G10, bulk</Material>
+          <InsideDiameter Unit="in">2.280</InsideDiameter>
+          <OutsideDiameter Unit="in">5.372</OutsideDiameter>
+          <Length Unit="in">0.125</Length>
+        </CenteringRing>
+
+        <!-- 75mm FG MMT to 5.5" FG airframe -->
+        <CenteringRing>
+          <Manufacturer>Madcow</Manufacturer>
+          <PartNumber>FCR5575</PartNumber>
+          <Description>Centering ring, G10 FG, 75mm FG MMT to 5.5in FG</Description>
+          <Material Type="BULK">Fiberglass, G10, bulk</Material>
+          <InsideDiameter Unit="in">3.128</InsideDiameter>
+          <OutsideDiameter Unit="in">5.372</OutsideDiameter>
+          <Length Unit="in">0.125</Length>
+        </CenteringRing>
+
+        <!-- 98mm FG MMT to 5.5" FG airframe -->
+        <CenteringRing>
+          <Manufacturer>Madcow</Manufacturer>
+          <PartNumber>FCR5598-GBL3</PartNumber>
+          <Description>Centering ring, G10 FG, 98mm FG MMT to 5.5in FG</Description>
+          <Material Type="BULK">Fiberglass, G10, bulk</Material>
+          <InsideDiameter Unit="in">4.027</InsideDiameter>
+          <OutsideDiameter Unit="in">5.372</OutsideDiameter>
+          <Length Unit="in">0.125</Length>
+        </CenteringRing>
+
+        <!-- 54mm FG MMT to 6" FG airframe
+             OD is specified as 5.998
+        -->
+        <CenteringRing>
+          <Manufacturer>Madcow</Manufacturer>
+          <PartNumber>FCR6054</PartNumber>
+          <Description>Centering ring, G10 FG, 54mm FG MMT to 6in FG</Description>
+          <Material Type="BULK">Fiberglass, G10, bulk</Material>
+          <InsideDiameter Unit="in">2.280</InsideDiameter>
+          <OutsideDiameter Unit="in">5.998</OutsideDiameter>
+          <Length Unit="in">0.125</Length>
+        </CenteringRing>
+
+        <!-- 75mm FG MMT to 6" FG airframe
+             OD is specified as 5.998
+        -->
+        <CenteringRing>
+          <Manufacturer>Madcow</Manufacturer>
+          <PartNumber>FCR6075-RCK2</PartNumber>
+          <Description>Centering ring, G10 FG, 75mm FG MMT to 6in FG</Description>
+          <Material Type="BULK">Fiberglass, G10, bulk</Material>
+          <InsideDiameter Unit="in">3.128</InsideDiameter>
+          <OutsideDiameter Unit="in">5.998</OutsideDiameter>
+          <Length Unit="in">0.125</Length>
+        </CenteringRing>
+
+        <!-- 98mm FG MMT to 6" FG airframe
+             OD is specified as 5.998
+        -->
+        <CenteringRing>
+          <Manufacturer>Madcow</Manufacturer>
+          <PartNumber>FCR6098-CK1</PartNumber>
+          <Description>Centering ring, G10 FG, 98mm FG MMT to 6in FG</Description>
+          <Material Type="BULK">Fiberglass, G10, bulk</Material>
+          <InsideDiameter Unit="in">4.027</InsideDiameter>
+          <OutsideDiameter Unit="in">5.998</OutsideDiameter>
+          <Length Unit="in">0.125</Length>
+        </CenteringRing>
+
+        <!-- 98mm FG MMT to 7.5" FG airframe -->
+        <CenteringRing>
+          <Manufacturer>Madcow</Manufacturer>
+          <PartNumber>FCR7598</PartNumber>
+          <Description>Centering ring, G10 FG, 98mm FG MMT to 7.5in FG</Description>
+          <Material Type="BULK">Fiberglass, G10, bulk</Material>
+          <InsideDiameter Unit="in">4.026</InsideDiameter>
+          <OutsideDiameter Unit="in">7.516</OutsideDiameter>
+          <Length Unit="in">0.125</Length>
+        </CenteringRing>
+
+        <!-- 75mm FG MMT to 8" FG airframe, natural -->
+        <CenteringRing>
+          <Manufacturer>Madcow</Manufacturer>
+          <PartNumber>FCR8075-BK1</PartNumber>
+          <Description>Centering ring, G10 FG, 98mm FG MMT to 8in FG</Description>
+          <Material Type="BULK">Fiberglass, G10, bulk</Material>
+          <InsideDiameter Unit="in">4.026</InsideDiameter>
+          <OutsideDiameter Unit="in">7.813</OutsideDiameter>
+          <Length Unit="in">0.125</Length>
+        </CenteringRing>
+        <!-- 75mm FG MMT to 8" FG airframe, black -->
+        <CenteringRing>
+          <Manufacturer>Madcow</Manufacturer>
+          <PartNumber>FCR8075-BLK-BK1</PartNumber>
+          <Description>Centering ring, G10 FG, 98mm FG MMT to 8in FG, black</Description>
+          <Material Type="BULK">Fiberglass, G10, bulk</Material>
+          <InsideDiameter Unit="in">4.026</InsideDiameter>
+          <OutsideDiameter Unit="in">7.813</OutsideDiameter>
+          <Length Unit="in">0.125</Length>
+        </CenteringRing>
+
+        <!-- 98mm FG MMT to 8" FG airframe, natural -->
+        <CenteringRing>
+          <Manufacturer>Madcow</Manufacturer>
+          <PartNumber>FCR8098-GBK2</PartNumber>
+          <Description>Centering ring, G10 FG, 98mm FG MMT to 8in FG</Description>
+          <Material Type="BULK">Fiberglass, G10, bulk</Material>
+          <InsideDiameter Unit="in">4.026</InsideDiameter>
+          <OutsideDiameter Unit="in">7.813</OutsideDiameter>
+          <Length Unit="in">0.125</Length>
+        </CenteringRing>
+
+        <!-- 98mm FG MMT to 8" FG airframe, black -->
+        <CenteringRing>
+          <Manufacturer>Madcow</Manufacturer>
+          <PartNumber>FCR8098-BLK-BK2</PartNumber>
+          <Description>Centering ring, G10 FG, 98mm FG MMT to 8in FG, black</Description>
+          <Material Type="BULK">Fiberglass, G10, bulk</Material>
+          <InsideDiameter Unit="in">4.026</InsideDiameter>
+          <OutsideDiameter Unit="in">7.813</OutsideDiameter>
+          <Length Unit="in">0.125</Length>
+        </CenteringRing>
+
+        <!-- ====================== -->
+        <!-- Fiberglass Transitions -->
+        <!-- ====================== -->
+
+        <!-- 54mm to 4" G12 transition
+             SOURCE ERROR: photogrammetry shows the TRANS-4-54 pic is not 4" to 54mm, it's a much better
+             fit to 4" to 3".
+
+             But the RW DoubleShot uses this, so I scaled the exposed length
+             from the picture (which may just be CGI) and estimated the other dimensions.
+             Thickness is an educated guess, and the weight is unknown.
+
+             exposed len: 7.9" (measurement of DoubleShot photo)
+             fwd diam: 2.277  (known from tube size)
+             fwd shoulder diam: 2.145 (7 mil clearance on 54mm ID)
+             Aft diam: 4.024 (known from tube size)
+             Aft shoulder diam: 3.893 (7 mil clearance on 4in tube ID)
+             fwd shoulder len: 2.25" (assumed equal to fwd diameter)
+             aft shoulder len: 4.0" (assumed equal to aft diameter)
+        -->
+        <Transition>
+            <Manufacturer>Madcow</Manufacturer>
+            <PartNumber>TRANS-4-54</PartNumber>
+            <Description>Transition, G12 FG, 54mm to 4in, increasing</Description>
+            <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
+            <Shape>CONICAL</Shape>
+            <ForeOutsideDiameter Unit="in">2.277</ForeOutsideDiameter>
+            <ForeShoulderDiameter Unit="in">2.145</ForeShoulderDiameter>
+            <ForeShoulderLength Unit="in">2.25</ForeShoulderLength>
+            <AftOutsideDiameter Unit="in">4.024</AftOutsideDiameter>
+            <AftShoulderDiameter Unit="in">3.893</AftShoulderDiameter>
+            <AftShoulderLength Unit="in">4.0</AftShoulderLength>
+            <Length Unit="in">7.9</Length>
+            <Thickness Unit="in">0.100</Thickness>
+        </Transition>
+        <Transition>
+            <Manufacturer>Madcow</Manufacturer>
+            <PartNumber>TRANS-4-54 [R]</PartNumber>
+            <Description>Transition, G12 FG, 54mm to 4in, decreasing</Description>
+            <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
+            <Shape>CONICAL</Shape>
+            <ForeOutsideDiameter Unit="in">4.024</ForeOutsideDiameter>
+            <ForeShoulderDiameter Unit="in">3.893</ForeShoulderDiameter>
+            <ForeShoulderLength Unit="in">4.0</ForeShoulderLength>
+            <AftOutsideDiameter Unit="in">2.277</AftOutsideDiameter>
+            <AftShoulderDiameter Unit="in">2.145</AftShoulderDiameter>
+            <AftShoulderLength Unit="in">2.25</AftShoulderLength>
+            <Length Unit="in">7.9</Length>
+            <Thickness Unit="in">0.100</Thickness>
+        </Transition>
+
+        
+        <!-- =========== -->
+        <!-- Launch Lugs -->
+        <!-- =========== -->
+        <!-- 1/4" lug ***ID/OD estimated using 9/32 ID and giving it .021 wall -->
+        <LaunchLug>
+          <Manufacturer>Maadcow</Manufacturer>
+          <PartNumber>P-182</PartNumber>
+          <Description>Launch lug, paper, 1/4 x 1"</Description>
+          <Material Type="BULK">Paper, spiral kraft glassine, bulk</Material>
+          <InsideDiameter Unit="in">0.281</InsideDiameter>
+          <OutsideDiameter Unit="in">0.323</OutsideDiameter>
+          <Length Unit="in">1.0</Length>
+        </LaunchLug>
 
     </Components>
 
