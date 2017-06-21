@@ -148,29 +148,32 @@
           <Density>680.8</Density>
           <Type>BULK</Type>
         </Material>
-        
+
+        <!-- Balsa seen from rocketry vendors can range from 5-10 lb/ft3.
+             The average inferred from various manufacturer's weight data is around
+             7-8 lb/ft3 -->
         <Material UnitsOfMeasure="g/cm3">
-          <Name>Balsa, bulk, 5lb/ft3</Name>
+          <Name>Balsa, bulk, 5 lb/ft3</Name>
           <Density>80.0</Density>
           <Type>BULK</Type>
         </Material>
         <Material UnitsOfMeasure="g/cm3">
-          <Name>Balsa, bulk, 6lb/ft3</Name>
+          <Name>Balsa, bulk, 6 lb/ft3</Name>
           <Density>96.0</Density>
           <Type>BULK</Type>
         </Material>
         <Material UnitsOfMeasure="g/cm3">
-          <Name>Balsa, bulk, 7lb/ft3</Name>
+          <Name>Balsa, bulk, 7 lb/ft3</Name>
           <Density>112.0</Density>
           <Type>BULK</Type>
         </Material>
         <Material UnitsOfMeasure="g/cm3">
-          <Name>Balsa, bulk, 8lb/ft3</Name>
+          <Name>Balsa, bulk, 8 lb/ft3</Name>
           <Density>128.1</Density>
           <Type>BULK</Type>
         </Material>
         <Material UnitsOfMeasure="g/cm3">
-          <Name>Balsa, bulk, 10lb/ft3</Name>
+          <Name>Balsa, bulk, 10 lb/ft3</Name>
           <Density>160.0</Density>
           <Type>BULK</Type>
         </Material>
