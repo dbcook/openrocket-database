@@ -30,8 +30,12 @@ System compatibility:  works anywhere OpenRocket can run
 * Fixes
   * Reorganized research notes and errata in madcow.orc
   * Removed bogus "BNC-80K" tailcone transition from estes_classic.orc (should be Semroc)
+  * Fixed Top Flight parachute material specs to match generic_materials.orc
+  * Adjusted Madcow coupler FC55 dimensions based on the official DX3 Massive RockSim file
 * Additions
   * Madcow G10 fiberglass centering rings, G12 4" to 54mm transition,  and launch lug
+  * Madcow switch bands, balsa and G10 tail cones, and generic nylon parachutes
+  * __Madcow is done__ until we get data on the two balsa ramjet nacelles
 
 0.9.0.13 - 18 Jun 2017
 * Fixes
@@ -221,7 +225,7 @@ somewhat Mac centric because that's what I use most.
 | `mpc.orc`                | No   | 98%
 | `estes_classic.orc`      | No   | 95%
 | `estes_ps2.orc`          | No   | 98%
-| `madcow.orc`             | No   | 90%
+| `madcow.orc`             | No   | 99%
 | `top_flight.orc`         | No   | 100%
 | `competition_chutes.orc` | No   | 100%
 
@@ -337,11 +341,20 @@ which is now included with this package.
 To the best of my knowledge, Madcow Rocketry has never published a print catalog.
 
 Madcow has spotty dimensional and mass data on its website; perhaps 2/3 of the parts have
-some useful data.  Mass information is missing for many nose cones, especially the larger ones.
-For some parts including FT115, FC45, FC55 and FC80 there is no data at all.
+some useful data.  Mass information is missing for many nose cones, especially the larger
+ones.  For numerous parts including FT115, FC45, FC55 and FC80 there is no data at all.
+The published data for some items is suspect; in some cases there is very little clearance
+between the OD of couplers and the ID of the mating body tube.
 
 Madcow absorbed the former Rocketry Warehouse line in 2016.  Even before this, the fiberglass
 tubes and nose cones sold by Madcow were made by the former owners of Rocketry Warehouse.
+
+Madcow tube-size-related SKU nomenclature is extremely inconsistent in multiple aspects:
+* Inches (FT40) vs millimeters (T38)
+* Insisde diameter (FT30) vs outside diameter (FT40)
+* Different designators used for the same sizes (cardboard T39 vs fiberglass FT40)
+* Mating coupler/tube SKUs with designators that don't match, going in both directions
+  (fiberglass FT22 tube uses FC54 coupler, but cardboard T54 uses C22 coupler)
 
 ### Missing Manufacturers
 
