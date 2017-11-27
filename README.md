@@ -273,6 +273,28 @@ electronic form, the difficulty of maintaining a parts database will further inc
 short, part numbers are often no longer created.  As of now, the only way to index modern
 Estes parts is by inspection and measurement of actual products.
 
+#### Centuri Engineering
+
+Centuri parts indexing is difficult.  No Centuri parts file is provided with the stock OpenRocket.
+Up until about 1971-1972, Centuri catalogs had parts listings nearly on par with Estes.
+But the Centuri catalog parts listings after the Damon acquisition in the early 1970s are rather sparse and leave many
+dimensions unspecified.  The overall completeness is much less than for Estes in the same
+era, even though the same parent company owned both.
+
+Almost no Centuri kit instructions list any part numbers.
+Centuri kit instructions are not archived on the official Estes instructions pages, even
+though Estes owns the rights to all things Centuri.  Various plans do exist on the
+[JimZ plans site](http://www.spacemodeling.org/jimz/) and [RocketShoppe](http://www.oldrocketplans.com/centuri.htm),
+but coverage is poor - neither site has even 50% of known Centuri kits.
+
+Fortunately, the SEMROC online listings provide data for many Centuri-compatible tubes and nose cones.
+Given SEMROC's attention to detail, the SEMROC dimensions for Centuri parts can be
+considered definitive (when they exist) unless analysis clearly reveals errors.  However, the SEMROC listings
+are incomplete; there are many blank entries for manufacturer PN in the SEMROC Centuri kit cross-reference pages.
+
+Overall, we can probably construct a reasonable Centuri parts file, but it may be impossible
+to have comprenehsive data in the period between ~1972 and Centuri's end of production around 1980.
+
 #### LOC Precision
 
 Dimensional data from LOC Precision is notoriously incomplete and error-filled, but I've
@@ -347,7 +369,8 @@ MPC tubes, implying a .5mm (.020") wall thickness.  The Quest data should also l
 definitively recover the nose cone shoulder diameters appropriate for the metric tubes.
 
 Despite the thin information, I have been able to build a relatively complete MPC parts file
-which is now included with this package.
+which is now included with this package.  Any parts that may have been created during
+the AVI ownership era have not been included yet.
 
 #### Madcow Rocketry
 
