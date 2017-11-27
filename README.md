@@ -21,21 +21,33 @@ I invite contributors to create a packaged installer, especially for Windows.
 
 ## Compatibility
 
-OpenRocket compatibility:  tested with OpenRocket 15.03
+OpenRocket compatibility:  tested with OpenRocket 15.03 __only__
 
 System compatibility:  works anywhere OpenRocket can run
 
 ## Release Notes
-0.9.0.14 - Jun 2017
+0.9.0.15 - Nov 2017
+* Fixes
+  * Merged PR1 - ID/OD of BT-101 were swapped - thanks thzero
+* Additions
+  * Estes PRP-1H, PNC-50K, PNC-50X
+  * ./gen/ directory with very beginnings of json -> XML part generator
+
+0.9.0.14 - Jul 2017
 * Fixes
   * Reorganized research notes and errata in madcow.orc
-  * Removed bogus "BNC-80K" tailcone transition from estes_classic.orc (should be Semroc)
+  * Removed bogus "BNC-80K" tailcone transition from estes_classic.orc (Semroc only)
   * Fixed Top Flight parachute material specs to match generic_materials.orc
   * Adjusted Madcow coupler FC55 dimensions based on the official DX3 Massive RockSim file
+  * Found numeric PN for Estes BNC-50BA on Semroc legacy site
+  * Set length of Estes BNC-50BC and BNC-50BD to Estes specified values
+  * Fixed ID/OD of Semroc BT-2+ (Semroc site was recently updated)
 * Additions
   * Madcow G10 fiberglass centering rings, G12 4" to 54mm transition,  and launch lug
   * Madcow switch bands, balsa and G10 tail cones, and generic nylon parachutes
   * __Madcow is done__ until we get data on the two balsa ramjet nacelles
+  * Semroc BNC-2xx, BNC-40xx, BNC-50xx, BC-8xx and BC-9xx nose cones
+  * Wrote up initial design for JSON based XML generator
 
 0.9.0.13 - 18 Jun 2017
 * Fixes
@@ -368,6 +380,7 @@ this components database.
   Apogee under Tim van Milligan did not carry forward)
 * CMR (defunct but had unique tube sizes)
 * FSI (defunct but had unique tube sizes)
+* Canaroc
 * High power kit and parts vendors
   * Rocketry Warehouse (now part of Madcow)
   * Polecat Aerospace
