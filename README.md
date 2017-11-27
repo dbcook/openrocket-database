@@ -285,7 +285,7 @@ classic Estes and Centuri parts.  The late Carl McLawhorn was a fanatic about ge
 right, and data from the SEMROC legacy website - especially for tubes - has helped resolve some
 uncertainties about some obscure Estes parts.  eRockets acquired SEMROC after Carl's passing
 and has done a fantastic job of getting nearly all the SEMROC parts back into production and indexing
-them on the erocket.biz website.
+them on the [erockets.biz](http://erockets.biz) website.
 
 The body tube and nose cone listings on the old SEMROC website are a unique resource, and I have digested it
 into a table of dimensions text file and spreadsheet in this repository.
@@ -334,7 +334,7 @@ sizes.  Only the OD of the tubes is given, and the nose cones are only identifie
 tube size they fit and a general profile drawing.
 
 The only online presence of the MPC catalogs is on
-http://vintagevendingwarehouse.weebly.com/history-of-mpc.html .
+http://vintagevendingwarehouse.weebly.com/history-of-mpc.html
 
 Tubes and nose cones that may have been added when the Miniroc line was introduced are not
 separately cataloged anywhere.  A couple have been identified (3 cal ellipsoid and 5 cal ogive
@@ -628,13 +628,13 @@ OpenRocket source tree:
 find . -name "*.java" | xargs grep XmlElement
 ```
 
-Note that you will not find specific entries for <EngineBlock>, <CenteringRing>,
-<Bulkhead>, and <LaunchLug>.  These exist but all are special cases of <BodyTube> and have the same
-allowed fields of <InsideDiameter>, <OutsideDiameter>, and <Length>.
+Note that you will not find specific entries for `EngineBlock`, `CenteringRing`,
+`Bulkhead`, and `LaunchLug`.  These exist but all are special cases of `BodyTube` and have the same
+allowed fields of `InsideDiameter`, `OutsideDiameter`, and `Length`.
 
 ### Enum Values for Nose Cone and Transition Shapes
 
-The allowed values for the "<Shape>" element in NoseCone and Transition elements are:
+The allowed values for the `Shape` element in `NoseCone` and `Transition` elements are:
 
 * CONICAL
 * ELLIPSOID
@@ -643,7 +643,7 @@ The allowed values for the "<Shape>" element in NoseCone and Transition elements
 * PARABOLIC
 * POWER
 
-The HAACK, OGIVE, PARABOLIC and POWER types all take a shape parameter that can be set in
+The HAACK, OGIVE, PARABOLIC and POWER types all take a numeric shape parameter that can be set in
 the UI, but that cannot be specified in a .orc file and get set to a default value when
 such a part is selected.
 
@@ -724,7 +724,7 @@ structural.
 * Fins:
    * Cannot define finset or tubefin components at all
 * Mass components:
-   * Cannot define mass component components at all
+   * Cannot define mass components at all
 * Shock cords:
    * Cannot define shock cord components at all
 * Additional problems not specific to .orc files:
