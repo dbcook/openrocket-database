@@ -1,4 +1,5 @@
-# Emacs temp files
+# Emacs desktop and temp files
+.emacs.desktop
 ~*
 
 # Much of below from github.com/gitignore/Python.gitignore
