@@ -3633,12 +3633,12 @@ Known issues:
             <Length Unit="in">5.5</Length>
         </NoseCone>
         
-        <!-- BNC-50BA (old BOMARC #0657) ref Semroc legacy website.  Numeric PN (if any) not known.
+        <!-- BNC-50BA (old BOMARC #0657) ref Semroc legacy website.
              conical shape looks like best match.  Semroc weight given as 0.05 oz -->
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
-            <PartNumber>BNC-50BA</PartNumber>
-            <Description>Nose cone, balsa, BNC-50BA, 1.3", ramjet nacelle</Description>
+            <PartNumber>BNC-50BA, 70257</PartNumber>
+            <Description>Nose cone, balsa, BNC-50BA, 1.3", ramjet nacelle, PN 70257</Description>
             <Material Type="BULK">Balsa, bulk, Estes typical</Material>
             <Filled>true</Filled>
             <Shape>CONICAL</Shape>
@@ -3661,7 +3661,7 @@ Known issues:
             <OutsideDiameter Unit="in">0.976</OutsideDiameter>
             <ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
             <ShoulderLength Unit="in">0.5</ShoulderLength>
-            <Length Unit="in">2.6</Length>
+            <Length Unit="in">2.75</Length>
         </NoseCone>
         <!-- BNC-50BD (old Firecat #0821 only), ref 1974 custom parts catalog.
              Flared ogive so shape is an approximation.  Mass override needed due to heavier flared shape.
@@ -3683,7 +3683,7 @@ Known issues:
             <OutsideDiameter Unit="in">1.30</OutsideDiameter>
             <ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
             <ShoulderLength Unit="in">0.5</ShoulderLength>
-            <Length Unit="in">4.6</Length>
+            <Length Unit="in">5.0</Length>
         </NoseCone>
         <!-- BNC-50J ref 1975 catalog -->
         <NoseCone>
@@ -4089,7 +4089,7 @@ Known issues:
           for most modern plastic nose cones it's a research project requiring an actual example.
           
           In 1975 there were only a couple of plastic nose cones in the catalog.  By 1995 Estes no longer used balsa
-          nose cones at all and no longer sold discrete nose cones, nearly everything changed to variety packs.  Newer plastic
+          nose cones at all and no longer sold discrete nose cones; nearly everything changed to variety packs.  Newer plastic
           nose cones also do not have traditional designators with suffix like "PNC-20Y".  In some cases they don't even have
           publicly known numeric PNs (when the NC is only sold in assortments and the relevant kit instructions do not list
           PNs). If you have a defective NC in your kit, Estes sends you a whole new kit because they don't even stock
@@ -4100,6 +4100,9 @@ Known issues:
           
           Brohm's encyclopedic nose cone reference list has numerous errors in the plastic nose cone listings, which I'm
           documenting as they are discovered.
+
+          The Semroc classic cross-reference page contains clues to various Estes PNCs, most including a PNC-xx
+          designator as well as numeric PN, about which little else is known.
           
           To handle cases where there is no traditional suffix designator, I am generating obviously synthetic part IDs of the form
               PNC-50_kitname    where 'kitname' is the name of a representative kit using the nose cone,
@@ -4221,7 +4224,56 @@ Known issues:
             <Length Unit="in">1.0</Length>
             <Thickness Unit="in">0.062</Thickness>
         </NoseCone>
-        
+
+        <!-- *** PNC-50xx known from Brohm but missing dimensions because they never appeared in a catalog ***
+             Most have no direct balsa equivalent.
+
+               PNC-50V PN 71025 / PNC-50BB PN 71027 from #1296 Satellite Interceptor etc.  Brohm notes that PNC-50V and PNC-50BB nose
+               cones are identical, but the PNC-50BB mold also includes a tail cone.
+
+               PNC-50F PN 071030 (#1371 Starship Nova)
+
+               PN 72023 blow molded (#1942 SR-71)
+
+               PNC-50A PN 072044 (#1929 Stealth)
+
+               PNC-50U PN 027046 (#1915 Harpoon) derived from Centuri PNC-102 from #KB-4 SkyLab
+
+               PNC-50CA PN 071005 (#1281 Alien Invader, #1383 Hyperion)
+
+               PN 071005 (#2010 Star Rider, #2175 Nemesis) - NOT the same as PNC-50CA; the PN got re-used
+
+               PN 033229 (#1337 NASA Space Shuttle Orbiter) injection molded
+
+               PNC-50M1 PN 071004 (#KC-1 Quasar) crhome plated
+
+               PNC-50SV PN 071002 (#1310 Colonial Viper)
+
+               PNC-50(?) PN 071000 (#1374 Orion, #1928 Manta Bomber)
+
+               PNC-50E PN 061299 (#2117 Screaming Eagle) Brohm says 4 7/8" long with canopy
+
+        -->
+
+
+        <!--
+            PRP-1H PN 032487/032492 (#1328 Kadet, #1416 Challenger I).  Brohm says 4 1/4" long and very similar to
+            PNC-50Y. The alternate PN 032492 is used by #1375 SAM-4.
+        -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>PRP-1H, 032487, 032492</PartNumber>
+            <Description>Nose cone, plastic, PRP-1H, PN 32487, PN 32492</Description>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
+            <Mass Unit="oz">0.228</Mass>
+            <Shape>PARABOLIC</Shape>
+            <OutsideDiameter Unit="in">0.974</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.50</ShoulderLength>
+            <Length Unit="in">2.625</Length>
+            <Thickness Unit="in">4.25</Thickness>
+        </NoseCone>
+
         <!-- PNC-50K ref 1974 Custom Parts catalog.  Red, slightly shorter than PNC-50KA
              Clear version is CPNC-50K 45015, chrome is PNC-M1 71004.  They have slightly different masses listed.
         -->
@@ -4229,6 +4281,19 @@ Known issues:
             <Manufacturer>Estes</Manufacturer>
             <PartNumber>PNC-50K, 71008</PartNumber>
             <Description>Nose cone, plastic, red, PNC-50K, PN 71008</Description>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
+            <Mass Unit="oz">0.228</Mass>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">0.974</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.50</ShoulderLength>
+            <Length Unit="in">2.625</Length>
+            <Thickness Unit="in">0.062</Thickness>
+        </NoseCone>
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>cPNC-50K, 45015</PartNumber>
+            <Description>Nose cone, plastic, clear, CPNC-50K, PN 45015, Phantom</Description>
             <Material Type="BULK">Polystyrene, cast, bulk</Material>
             <Mass Unit="oz">0.228</Mass>
             <Shape>OGIVE</Shape>
@@ -4268,11 +4333,26 @@ Known issues:
             <Thickness Unit="in">0.0457</Thickness>
         </NoseCone>
         
+        <!-- PNC-50X PN 071010 (#1282 Photon Disruptor), dimensions taken from Semroc BNC-50XP -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>PNC-50X, 71010</PartNumber>
+            <Description>Nose cone, plastic, PNC-50X, PN 71010</Description>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
+            <Mass Unit="oz">0.228</Mass>
+            <Shape>ELLIPSOID</Shape>
+            <OutsideDiameter Unit="in">0.974</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.50</ShoulderLength>
+            <Length Unit="in">3.25</Length>
+            <Thickness Unit="in">0.062</Thickness>
+        </NoseCone>
+
         <!-- PNC-50Y ref 1988 catalog, mass 0.16 oz = 4.5 g -->
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
-            <PartNumber>PNC-50Y</PartNumber>
-            <Description>Nose cone, plastic, PNC-50Y</Description>
+            <PartNumber>PNC-50Y, 71009</PartNumber>
+            <Description>Nose cone, plastic, PNC-50Y, PN 71009</Description>
             <Material Type="BULK">Polystyrene, cast, bulk</Material>
             <Mass Unit="oz">0.16</Mass>
             <Shape>PARABOLIC</Shape>
