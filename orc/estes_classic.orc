@@ -2584,8 +2584,8 @@ Known issues:
         <PartNumber>BT-101SV, 30449</PartNumber>
         <Description>Body tube, BT-101, 24.625 in., PN 30449</Description>
         <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
-        <InsideDiameter Unit="in">3.938</InsideDiameter>
-        <OutsideDiameter Unit="in">3.896</OutsideDiameter>
+        <InsideDiameter Unit="in">3.896</InsideDiameter>
+        <OutsideDiameter Unit="in">3.938</OutsideDiameter>
         <Length Unit="in">24.625</Length>
       </BodyTube>
 
@@ -2595,8 +2595,8 @@ Known issues:
         <PartNumber>BT-101LA, 30445</PartNumber>
         <Description>Body tube, BT-101, 21.4 in., PN 30445</Description>
         <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
-        <InsideDiameter Unit="in">3.938</InsideDiameter>
-        <OutsideDiameter Unit="in">3.896</OutsideDiameter>
+        <InsideDiameter Unit="in">3.896</InsideDiameter>
+        <OutsideDiameter Unit="in">3.938</OutsideDiameter>
         <Length Unit="in">21.4</Length>
       </BodyTube>
 
@@ -2606,8 +2606,8 @@ Known issues:
         <PartNumber>BT-101, 30438</PartNumber>
         <Description>Body tube, BT-101, 16.5 in., PN 30438</Description>
         <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
-        <InsideDiameter Unit="in">3.938</InsideDiameter>
-        <OutsideDiameter Unit="in">3.896</OutsideDiameter>
+        <InsideDiameter Unit="in">3.896</InsideDiameter>
+        <OutsideDiameter Unit="in">3.938</OutsideDiameter>
         <Length Unit="in">16.5</Length>
       </BodyTube>
 
@@ -2617,8 +2617,8 @@ Known issues:
         <PartNumber>BT-101KJ, 30441</PartNumber>
         <Description>Body tube, BT-101, 10.5 in., PN 30441</Description>
         <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
-        <InsideDiameter Unit="in">3.938</InsideDiameter>
-        <OutsideDiameter Unit="in">3.896</OutsideDiameter>
+        <InsideDiameter Unit="in">3.896</InsideDiameter>
+        <OutsideDiameter Unit="in">3.938</OutsideDiameter>
         <Length Unit="in">10.5</Length>
       </BodyTube>
 
@@ -2628,8 +2628,8 @@ Known issues:
         <PartNumber>BT-101K, 30440</PartNumber>
         <Description>Body tube, BT-101, 7.59 in., PN 30440</Description>
         <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
-        <InsideDiameter Unit="in">3.938</InsideDiameter>
-        <OutsideDiameter Unit="in">3.896</OutsideDiameter>
+        <InsideDiameter Unit="in">3.896</InsideDiameter>
+        <OutsideDiameter Unit="in">3.938</OutsideDiameter>
         <Length Unit="in">7.59</Length>
       </BodyTube>
 
@@ -2639,8 +2639,8 @@ Known issues:
         <PartNumber>BT-101T, 30442</PartNumber>
         <Description>Body tube, BT-101, 2.78 in., PN 30442</Description>
         <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
-        <InsideDiameter Unit="in">3.938</InsideDiameter>
-        <OutsideDiameter Unit="in">3.896</OutsideDiameter>
+        <InsideDiameter Unit="in">3.896</InsideDiameter>
+        <OutsideDiameter Unit="in">3.938</OutsideDiameter>
         <Length Unit="in">2.78</Length>
       </BodyTube>
 
