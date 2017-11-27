@@ -32,6 +32,7 @@ System compatibility:  works anywhere OpenRocket can run
 * Additions
   * Estes PRP-1H, PNC-50K, PNC-50X
   * ./gen/ directory with very beginnings of json -> XML part generator
+  * ./docs/ directory with more focused explanation of Estes sizes and PNs
 
 0.9.0.14 - Jul 2017
 * Fixes
