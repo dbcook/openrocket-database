@@ -14,13 +14,35 @@ semroc.orc distributed with OpenRocket 15.03 with various improvements:
     * Numerous dimension/mass/material/part number errors fixed (sorry, WAY too many to list)
     * Mass overrides have been eliminated wherever feasible
 
+Semroc carries a vast line of model rocketry parts including a comprehensive set of equivalent
+parts for the Estes and Centuri line, as well as some MPC/Quest metric tube sizes, and even some
+Aerotech tubes.  Thus, there is a lot of overlap between this file and the separate Estes and
+Centuri files.  There are a few - only a few - differences.  Semroc only makes balsa nose cones,
+so they have made shape-identical balsa nose cones for many Estes and Centuri plastic nose cones.
+
 Using this file:
     Drop this file in the OS-dependent location where OpenRocket looks for component databases:
         Windows:  $APPDATA/OpenRocket/Components/ (you need to set $APPDATA)
         OSX:      $HOME/Library/Application Support/OpenRocket/Components/
         Linux:    $HOME/.openrocket/Components/
 
-    You need to restart OpenRocket after adding these files before the parts will be available.
+    You need to restart OpenRocket after adding these files before the parts will be
+    available.
+
+DONE
+====
+Body tubes
+Tube couplers
+Centering rings
+Engine blocks
+Bulkheads (fiber)
+Bulkheads / nose blocks (balsa)
+Balsa nose cones (BC-2 thru BC-8F and series 225)
+
+TODO
+====
+Rest of nose cones
+Ejection baffle rings
 
 -->
 <OpenRocketComponent>
@@ -136,8 +158,8 @@ Using this file:
       <PartNumber>T-2+-34</PartNumber>
       <Description>Body tube, BT-2+, 34"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
-      <InsideDiameter Unit="in">0.297</InsideDiameter>
-      <OutsideDiameter Unit="in">0.310</OutsideDiameter>
+      <InsideDiameter Unit="in">0.292</InsideDiameter>
+      <OutsideDiameter Unit="in">0.318</OutsideDiameter>
       <Length Unit="in">34.0</Length>
     </BodyTube>
     <BodyTube>
@@ -145,8 +167,8 @@ Using this file:
       <PartNumber>BT-2+-8</PartNumber>
       <Description>Body tube, BT-2+, 8"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
-      <InsideDiameter Unit="in">0.297</InsideDiameter>
-      <OutsideDiameter Unit="in">0.310</OutsideDiameter>
+      <InsideDiameter Unit="in">0.292</InsideDiameter>
+      <OutsideDiameter Unit="in">0.318</OutsideDiameter>
       <Length Unit="in">8.0</Length>
     </BodyTube>
     <!-- BT-3 -->
@@ -858,6 +880,7 @@ Using this file:
       <OutsideDiameter Unit="in">0.759</OutsideDiameter>
       <Length Unit="in">8.625</Length>
     </BodyTube>
+    <!-- ***MISSING ITEM*** Centuri original 1960s Black Widow had 8" upper tube, Semroc has no equivalent -->
     <BodyTube>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>ST-770</PartNumber>
@@ -949,7 +972,7 @@ Using this file:
       <OutsideDiameter Unit="in">0.759</OutsideDiameter>
       <Length Unit="in">4.5</Length>
     </BodyTube>
-    <!-- has aberrant PN ST-7400 -->
+    <!-- SOURCE ERROR: Semroc has aberrant PN ST-7400 -->
     <BodyTube>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>ST-7400</PartNumber>
@@ -4653,10 +4676,8 @@ Using this file:
     <!-- *** SOURCE ERROR: inconsistent sizes ***  said to be "same as the Aerotech and LOC 3" tubes"
          but lists ID=2.950, OD=3.000, wall 0.050, which is internally inconsistent
          LOC tubes are in fact ID 3.000, OD 3.100, wall=0.050, so I use that.
-         *** SOURCE ERROR: incorrect mfr attribution *** The 2009-2010 Aerotech catalog (latest
-         available) lists no 3" diam kits nor 3" body tubes; there are only 1.9, 2.6 and
-         4.0 tube kits and parts listed.  Also in the 2014 TRF post about tube sizes,
-         Aerotech only gave dimensions for those sizes and did not mention a 3" tube.
+         *** SOURCE ERROR: incorrect mfr attribution *** Aerotech has never offered a 3" tube
+         or kit; in early 2017 I personally confirmed this with Charlie Savoie, GM of Aerotech.
     -->
     <BodyTube>
       <Manufacturer>SEMROC</Manufacturer>
@@ -4948,6 +4969,7 @@ Using this file:
     </TubeCoupler>
 
     <!-- #7 / ST-7 couplers -->
+    <!-- ***MISSING PART*** - ST-7 coupler 1.5" long as used in 1970+ Black Widow, not on Semroc site -->
     
     <TubeCoupler>
       <Manufacturer>SEMROC</Manufacturer>
@@ -4958,7 +4980,7 @@ Using this file:
       <OutsideDiameter Unit="in">0.713</OutsideDiameter>
       <Length Unit="in">1.0</Length>
     </TubeCoupler>
-    <!-- HTC-7B is Black Widow external coupler, goes over outside of #7 tube
+    <!-- HTC-7B is Black Widow external coupler (Centuri HTC-70), goes over outside of #7 tube
          SOURCE ERROR: Semroc legacy site gives OD of HTC-7B as 0.761"; this is actually the ID
          -->
     <TubeCoupler>
@@ -7433,7 +7455,7 @@ Using this file:
          NB:  balsa nose block (and one erroneous fiber block listing), Estes sizes
          BNB: balsa nose block, Centuri tube sizes
          BTC: Direct fit into Centuri tube sizes, e.g. BTC-6
-              Exception: HTC-7B is an external coupler as used in the Black Widow
+              Exception: HTC-7B is an external coupler as used in the Black Widow (Centuri HTC-70)
               BTC is also used for balsa tail cones, adding to the confusion
     -->
 
@@ -7992,6 +8014,22 @@ Using this file:
       <ShoulderLength Unit="in">0.25</ShoulderLength>
       <Length Unit="in">1.35</Length>
     </NoseCone>
+
+    <!-- BNC-2 Balsa Nose Cones -->
+    <!-- BNC-2PY is 1.3" ogive (described as 'elliptical') for Estes BT-2 -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BNC-2PY</PartNumber>
+      <Description>Nose cone, balsa, BNC-2PY, 1.3", ogive</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">0.281</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.253</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.25</ShoulderLength>
+      <Length Unit="in">1.33</Length>
+    </NoseCone>
+
 
     <!-- BNC-5xx Balsa Nose Cones -->
 
@@ -8705,7 +8743,10 @@ Using this file:
       <Length Unit="in">1.0</Length>
     </NoseCone>
 
-    <!-- BC-7xx Balsa Nose Cones for ST-7 tube
+    <!-- =================================== -->
+    <!-- BC-7xx Balsa Nose Cones for ST-7 tube -->
+    <!-- =================================== -->
+    <!--
          *** shoulder lengths unknown ***
          *** BC-715CN nacelle cone/nozzle set not included, need rear taper diameter ***
          *** BC-721CN nacelle cone/nozzle set not included, need rear taper diameter ***
@@ -9131,9 +9172,153 @@ Using this file:
       <Length Unit="in">6.0</Length>
     </NoseCone>
 
-    <!-- BC-8xx Balsa Nose Cones for ST-8 tube
-         ***shoulder lengths unknown***
-    -->
+    <!-- =================================== -->
+    <!-- BNC-30 nose cones for BT-30 tube    -->
+    <!-- =================================== -->
+
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BNC-30C</PartNumber>
+      <Description>Nose cone, balsa, BNC-30C, 0.75", spherical</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">0.0.767</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.723</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.375</ShoulderLength>
+      <Length Unit="in">0.75</Length>
+    </NoseCone>
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BNC-30D</PartNumber>
+      <Description>Nose cone, balsa, BNC-30D, 1.5", elliptical</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>PARABOLIC</Shape>
+      <OutsideDiameter Unit="in">0.0.767</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.723</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.375</ShoulderLength>
+      <Length Unit="in">1.5</Length>
+    </NoseCone>
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BNC-30DE</PartNumber>
+      <Description>Nose cone, balsa, BNC-30DE, 1.375", ogive</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">0.0.767</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.723</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.375</ShoulderLength>
+      <Length Unit="in">1.375</Length>
+    </NoseCone>
+    <!-- BNC-30DOB has no shoulder; for Orange Bullet -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BNC-30DOB</PartNumber>
+      <Description>Nose cone, balsa, BNC-30DOB, 1.375", ogive, no shoulder</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">0.0.767</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.723</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.0</ShoulderLength>
+      <Length Unit="in">1.375</Length>
+    </NoseCone>
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BNC-30M</PartNumber>
+      <Description>Nose cone, balsa, BNC-30M, 1.5", ogive</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">0.0.767</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.723</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.375</ShoulderLength>
+      <Length Unit="in">1.5</Length>
+    </NoseCone>
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BNC-30E</PartNumber>
+      <Description>Nose cone, balsa, BNC-30E, 2.3", elliptical</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>PARABOLIC</Shape>
+      <OutsideDiameter Unit="in">0.0.767</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.723</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.375</ShoulderLength>
+      <Length Unit="in">2.3</Length>
+    </NoseCone>
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BNC-30N</PartNumber>
+      <Description>Nose cone, balsa, BNC-30N, 2.75", ogive</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">0.0.767</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.723</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.375</ShoulderLength>
+      <Length Unit="in">2.75</Length>
+    </NoseCone>
+
+    <!-- =================================== -->
+    <!-- BNC-40 nose cones for BT-40 tube    -->
+    <!-- =================================== -->
+
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BNC-40D</PartNumber>
+      <Description>Nose cone, balsa, BNC-40D, 1.5", ogive</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">0.825</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.763</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <Length Unit="in">1.5</Length>
+    </NoseCone>
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BNC-40F</PartNumber>
+      <Description>Nose cone, balsa, BNC-40F, 1.9", conical</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>CONICAL</Shape>
+      <OutsideDiameter Unit="in">0.825</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.763</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <Length Unit="in">1.9</Length>
+    </NoseCone>
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BNC-40SP</PartNumber>
+      <Description>Nose cone, balsa, BNC-40SP, 2.4", conical</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>CONICAL</Shape>
+      <OutsideDiameter Unit="in">0.825</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.763</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <Length Unit="in">2.4</Length>
+    </NoseCone>
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BNC-40G</PartNumber>
+      <Description>Nose cone, balsa, BNC-40G, 4.5", ogive</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">0.825</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.763</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <Length Unit="in">4.5</Length>
+    </NoseCone>
+
+    <!-- ===================================== -->
+    <!-- BC-8xx Balsa Nose Cones for ST-8 tube -->
+    <!-- ===================================== -->
+    <!--  ***shoulder lengths unknown***       -->
 
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
@@ -9600,7 +9785,9 @@ Using this file:
       <Length Unit="in">1.0</Length>
     </Transition>
     
-    <!-- BC-8Fxx Balsa Nose Cones -->
+    <!-- =================================== -->
+    <!-- BC-8Fxx Balsa Nose Cones            -->
+    <!-- =================================== -->
     
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
@@ -9627,6 +9814,654 @@ Using this file:
       <ShoulderLength Unit="in">0.50</ShoulderLength>
       <Length Unit="in">2.75</Length>
     </NoseCone>
+
+    <!-- =================================== -->
+    <!-- BC-9xx Balsa Nose Cones for #9 tube -->
+    <!-- =================================== -->
+
+    <!-- BC-912 is a "Ram Jet" nacelle 1.2" long, weight given as .05 oz on legacy site -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-912</PartNumber>
+      <Description>Nose cone, balsa, BC-912, 1.2", ramjet nacelle</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>CONICAL</Shape>
+      <OutsideDiameter Unit="in">0.998</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <Length Unit="in">1.2</Length>
+    </NoseCone>
+    <!-- BC-913 is 1.3" long conical with rounded tip
+         SOURCE ERROR: BC-913 described as "ogive" but drawing shows conical
+         page description says "upscale of Centuri PNC-71" which is also shown as conical
+    -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-913</PartNumber>
+      <Description>Nose cone, balsa, BC-912, 1.3", conical</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>CONICAL</Shape>
+      <OutsideDiameter Unit="in">0.998</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <Length Unit="in">1.3</Length>
+    </NoseCone>
+    <!-- BC-913 is 1.4" long blunt ogive
+         page description says "BNC-50J for ST-9
+    -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-914</PartNumber>
+      <Description>Nose cone, balsa, BC-914, 1.4", blunt ogive, BNC-50J shape</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">0.998</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <Length Unit="in">1.4</Length>
+    </NoseCone>
+    <!-- Bc-918 is Spaceman type, upscale of BNC-20P.  Uses mass override due to bulbous shape -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-918</PartNumber>
+      <Description>Nose cone, balsa, BC-918, 1.8", Spaceman type</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Mass Unit="oz">0.13</Mass>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">0.998</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <Length Unit="in">1.8</Length>
+    </NoseCone>
+    <!-- BC-922 is a capsule shape.  Using mass override from legacy site list -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-922</PartNumber>
+      <Description>Nose cone, balsa, BC-922, 2.2", capsule</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Mass Unit="oz">0.11</Mass>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">0.998</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <Length Unit="in">2.2</Length>
+    </NoseCone>
+    <!-- BC-926 described as Estes BNC-50KP shape for ST-9 -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-926</PartNumber>
+      <Description>Nose cone, balsa, BC-926, 2.6", rounded ogive</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">0.998</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <Length Unit="in">2.6</Length>
+    </NoseCone>
+    <!-- BC-926BC described as BNC-50BC (Ram Jet) shape for ST-9 -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-926BC</PartNumber>
+      <Description>Nose cone, balsa, BC-926BC, 2.6", ramjet nacelle</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">0.998</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <Length Unit="in">2.6</Length>
+    </NoseCone>
+    <!-- BC-928 described as Estes BNC-50K shape for ST-9 -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-926</PartNumber>
+      <Description>Nose cone, balsa, BC-926, 2.8", ogive, BNC-50K shape</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">0.998</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <Length Unit="in">2.8</Length>
+    </NoseCone>
+    <!-- BC-930 is 3:1 ogive -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-930</PartNumber>
+      <Description>Nose cone, balsa, BC-930, 3.0", 3:1 ogive</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">0.998</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <Length Unit="in">3.0</Length>
+    </NoseCone>
+    <!-- BC-932 is Estes BNC-50X shape for ST-9 -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-932</PartNumber>
+      <Description>Nose cone, balsa, BC-932, 3.25", elliptical, BNC-50X shape</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">0.998</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <Length Unit="in">3.25</Length>
+    </NoseCone>
+    <!-- SOURCE ERROR? BC-933 description is identical to BC-932, they both say BNC-50X for ST-9 -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-933</PartNumber>
+      <Description>Nose cone, balsa, BC-933, 3.25", elliptical, BNC-50X shape</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">0.998</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <Length Unit="in">3.25</Length>
+    </NoseCone>
+    <!-- BC-937 is downscale of Estes BNC-55AO -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-937</PartNumber>
+      <Description>Nose cone, balsa, BC-937, 3.7", elliptical, BNC-55AO shape</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">0.998</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <Length Unit="in">3.7</Length>
+    </NoseCone>
+    <!-- BC-940 is upscale of Centuri PNC-76 -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-940</PartNumber>
+      <Description>Nose cone, balsa, BC-940, 4.0", rounded ogive, Centuri PNC-76 shape</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">0.998</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <Length Unit="in">4.0</Length>
+    </NoseCone>
+    <!-- BC-940G is 4:1 ogive -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-940G</PartNumber>
+      <Description>Nose cone, balsa, BC-940G, 4.0", ogive</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">0.998</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <Length Unit="in">4.0</Length>
+    </NoseCone>
+    <!-- BNC-941 is Estes BNC-50AD Honest John shape; flared so we use mass override -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-941</PartNumber>
+      <Description>Nose cone, balsa, BC-941, 4.1", flared ogive, BNC-50AD Honest John shape</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Mass Unit="oz">0.25</Mass>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">0.998</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <Length Unit="in">4.1</Length>
+    </NoseCone>
+    <!-- SOURCE ERROR: Semroc legacy and new sites both show length of 4.3" for BC-943 and
+         4.4" for BC-944.  They are supposed to be modeled after the Estes PNC-50Y and
+         BNC-50Y, respectively.  However the official Estes specs for those items have
+         identical lengths of 4.375".
+    -->
+    <!-- BC-943 is Estes PNC-50Y shape for ST-9 -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-943</PartNumber>
+      <Description>Nose cone, balsa, BC-943, 4.3", ogive, Estes PNC-50Y shape</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">0.998</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <Length Unit="in">4.3</Length>
+    </NoseCone>
+    <!-- BC-944 is Estes BNC-50Y shape for ST-9 -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-944</PartNumber>
+      <Description>Nose cone, balsa, BC-943, 4.4", ogive, Estes BNC-50Y shape</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">0.998</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <Length Unit="in">4.4</Length>
+    </NoseCone>
+    <!-- BC-945 is Estes Firecat flared ogive shape BNC-50BD.  Mass override needed here. -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-945</PartNumber>
+      <Description>Nose cone, balsa, BC-945, 4.5", flared ogive, Estes BNC-50BD Firecat shape</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Mass Unit="oz">0.22</Mass>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">0.998</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <Length Unit="in">4.5</Length>
+    </NoseCone>
+    <!-- BC-950 is 5:1 ogive -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-950</PartNumber>
+      <Description>Nose cone, balsa, BC-950, 5.0", 5:1 ogive</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">0.998</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <Length Unit="in">5.0</Length>
+    </NoseCone>
+    <!--
+        BC-958 hits a comlication in Estes part nomenclature.
+        BC-958 is "BNC-50V" shape, which is a Semroc equivalent to the Estes
+        PNC-50V/PNC-50BB (where the 50BB includes a tail cone).  Estes never made this in balsa.
+
+        There is a photo on siriusrocketry.biz showing the nose cone in plastic with a
+        conjoined tailcone.  It's described as "Estes PNC-50V/50BB Nose Cone".
+
+        Conical but with cylindrical section at rear, about 1.5" long
+    -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-958</PartNumber>
+      <Description>Nose cone, balsa, BC-958, 5.8", conical, Estes PNC-50V/PNC-50BB shape</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>CONICAL</Shape>
+      <OutsideDiameter Unit="in">0.998</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <Length Unit="in">5.8</Length>
+    </NoseCone>
+
+    <!-- BC-960 is 6.0" flared ogive, site says "BNC-50HJ for ST-9", which is obviously an
+         Honest John shape.  Uses 0.33 oz mass override -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-960</PartNumber>
+      <Description>Nose cone, balsa, BC-960, 6.0", flared ogive, Honest John shape</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Mass Unit="oz">0.33</Mass>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">0.998</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <Length Unit="in">6.0</Length>
+    </NoseCone>
+
+    <!-- BC-961 is "BNC-50NA" shape (Nike Ajax), 6.1" conical ogive -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-961</PartNumber>
+      <Description>Nose cone, balsa, BC-961, 6.1", conical ogive, Nike Ajax shape</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">0.998</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <Length Unit="in">6.1</Length>
+    </NoseCone>
+
+    <!-- =================================== -->
+    <!-- BNC-50 nose cones for BT-50 tube    -->
+    <!-- =================================== -->
+
+    <!-- BNC-2 was the Apollo capsule nose cone for the NCK-29 Apollo Capsule
+         Bizarrely, BNC-2 was a fit for a BT-50 tube and should have been called BNC-50xxx.
+         Estes dimensions and PN from 1974 Custom Parts Catalog
+         Mass override used because it is significantly flared, OD = 1.360 (Estes) 1.356 (Semroc)
+         The Semroc mass spec is different than the Estes one, and Semroc has it as 1.5" long
+    -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-2</PartNumber>
+      <Description>Nose cone, balsa, BNC-2, 1.5", Apollo capsule</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Mass Unit="oz">0.09</Mass>
+      <Filled>true</Filled>
+      <Shape>CONICAL</Shape>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.5</ShoulderLength>
+      <Length Unit="in">1.5</Length>
+    </NoseCone>
+    <!-- Semroc BNC-50AO is repro of Estes BNC-50AO, Honest John upper part, requiring a
+         shroud for the lower section -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-50AD</PartNumber>
+      <Description>Nose cone, balsa, BNC-50AD, 4.1", Honest John top shape</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Mass Unit="oz">0.25</Mass>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.5</ShoulderLength>
+      <Length Unit="in">4.1</Length>
+    </NoseCone>
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-50AH</PartNumber>
+      <Description>Nose cone, balsa, BNC-50AH, 4", elliptical</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.5</ShoulderLength>
+      <Length Unit="in">4.0</Length>
+    </NoseCone>
+    <!-- BNC-50AO is downscale of Estes BNC-55AO -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-50AO</PartNumber>
+      <Description>Nose cone, balsa, BNC-50AO, 3.7", elliptical, BNC-55AO downscale</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.5</ShoulderLength>
+      <Length Unit="in">3.7</Length>
+    </NoseCone>
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-50AR</PartNumber>
+      <Description>Nose cone, balsa, BNC-50AR, 5.5", rounded conical</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>CONICAL</Shape>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.5</ShoulderLength>
+      <Length Unit="in">5.5</Length>
+    </NoseCone>
+    <!-- BNC-50BA (old BOMARC #0657) ref Semroc legacy website.
+         conical shape looks like best match.  Semroc weight given as 0.05 oz -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-50BA</PartNumber>
+      <Description>Nose cone, balsa, BNC-50BA, 1.3", ramjet nacelle, BOMARC</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Mass Unit="oz">0.05</Mass>
+      <Filled>true</Filled>
+      <Shape>CONICAL</Shape>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <Length Unit="in">1.3</Length>
+    </NoseCone>
+    <!-- BNC-50BC (Wolverine #0816 etc.), ref 1974 parts catalog. Ramjet style cone a la BOMARC pods.
+         Estes gives len 2 3/4" and weight .156 oz but Semroc gives length 2.6" and weight 0.11 oz.
+         Scaling from scans on spacemodeling.com, length of the ramjet cone is 0.5".
+    -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-50BC</PartNumber>
+      <Description>Nose cone, balsa, BNC-50BC, 2.6", ramjet nacelle</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Mass Unit="oz">0.11</Mass>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.5</ShoulderLength>
+      <Length Unit="in">2.6</Length>
+    </NoseCone>
+    <!-- BNC-50BD (old Firecat #0821 only), ref 1974 custom parts catalog.
+         Flared ogive so shape is an approximation.  Mass override needed due to heavier flared shape.
+         Estes 1974 parts catalog gives len 5", Semroc legacy has 4.5".
+         NC max diameter is 1.174" on Semroc legacy.
+         If you want to model this cone more accurately for aerodynamics you should mate a 1.174" ogive nose
+         of about 3" long to a 1.174 to .976 transition of about 1.5" long.
+         For this and similar cases we really need OR to support predefined parts that are compositions
+         of other parts.
+    -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-50BD</PartNumber>
+      <Description>Nose cone, balsa, BNC-50BD, 4.5", flared ogive, Firecat</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Mass Unit="oz">0.22</Mass>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">1.30</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.5</ShoulderLength>
+      <Length Unit="in">4.5</Length>
+    </NoseCone>
+    <!-- Semroc BNC-50C is upscale of Centuri PNC-71 -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-50C</PartNumber>
+      <Description>Nose cone, balsa, BNC-50C, 1.3", conical</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>CONICAL</Shape>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.5</ShoulderLength>
+      <Length Unit="in">1.3</Length>
+    </NoseCone>
+    <!-- Semroc BNC-50CBB is rescale of Canaroc BN-200B.  Long conical shape makes it look
+         like the "BB" suffix may mean Black Brant -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-50CBB</PartNumber>
+      <Description>Nose cone, balsa, BNC-50CBB, 4.7", conical</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>CONICAL</Shape>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.5</ShoulderLength>
+      <Length Unit="in">4.7</Length>
+    </NoseCone>
+    <!-- Semroc BNC-50CPB is rescale of Canaroc PN-200B.  -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-50CPB</PartNumber>
+      <Description>Nose cone, balsa, BNC-50CPB, 2.1", bezier</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.5</ShoulderLength>
+      <Length Unit="in">2.1</Length>
+    </NoseCone>
+    <!-- Semroc BNC-50G is a 5.85:1 ogive  -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-50G</PartNumber>
+      <Description>Nose cone, balsa, BNC-50G, 5.7", ogive</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.5</ShoulderLength>
+      <Length Unit="in">5.7</Length>
+    </NoseCone>
+    <!-- Semroc BNC-50G3 is a 3:1 ogive
+         SOURCE ERROR: Semroc legacy and new sites both describe this as a #9 cone -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-50G3</PartNumber>
+      <Description>Nose cone, balsa, BNC-50G3, 2.93", 3:1 ogive</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.5</ShoulderLength>
+      <Length Unit="in">2.93</Length>
+    </NoseCone>
+    <!-- Semroc BNC-50G4 is a 4:1 ogive
+         SOURCE ERROR: Semroc legacy and new sites both describe this as a #9 cone -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-50G4</PartNumber>
+      <Description>Nose cone, balsa, BNC-50G4, 3.9", 4:1 ogive</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.5</ShoulderLength>
+      <Length Unit="in">3.9</Length>
+    </NoseCone>
+    <!-- Semroc BNC-50G5 is a 5:1 ogive
+         SOURCE ERROR: Semroc legacy and new sites both describe this as a #9 cone -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-50G5</PartNumber>
+      <Description>Nose cone, balsa, BNC-50G5, 4.9", 5:1 ogive</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.5</ShoulderLength>
+      <Length Unit="in">4.9</Length>
+    </NoseCone>
+    <!-- Semroc BNC-50HJ is Honest John flared ogive, no Estes counterpart
+         Unlike BNC-50AO, this part has the full shape and does not need a shroud -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-50HJ</PartNumber>
+      <Description>Nose cone, balsa, BNC-50HJ, 6.0", flared ogive, Honest John</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Mass Unit="oz">0.32</Mass>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.5</ShoulderLength>
+      <Length Unit="in">6.0</Length>
+    </NoseCone>
+    <!-- BNC-50JE is a slightly flared "capsule" shape (not Mercury/Gemini).  Not a repro -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-50JE</PartNumber>
+      <Description>Nose cone, balsa, BNC-50JE, 4.1", capsule shape</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Mass Unit="oz">0.07</Mass>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.5</ShoulderLength>
+      <Length Unit="in">4.1</Length>
+    </NoseCone>
+    <!-- BNC-50J is an Estes repro -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-50J</PartNumber>
+      <Description>Nose cone, balsa, BNC-50J, 1.37", elliptical</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.5</ShoulderLength>
+      <Length Unit="in">1.37</Length>
+    </NoseCone>
+    <!-- Semroc BNC-50K is an Estes repro -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-50K</PartNumber>
+      <Description>Nose cone, balsa, BNC-50K, 2.75", ogive</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.5</ShoulderLength>
+      <Length Unit="in">2.75</Length>
+    </NoseCone>
+    <!-- Semroc BNC-50KS is a BNC-50K but with "short shoulder".  Not a repro.
+         *** actual shoulder length unknown but less than 0.5" *** -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-50KS</PartNumber>
+      <Description>Nose cone, balsa, BNC-50KS, 2.75", ogive, short shoulder</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.375</ShoulderLength>
+      <Length Unit="in">2.75</Length>
+    </NoseCone>
+    <!-- Semroc BNC-50KP is a balsa version of Estes PNC-50K, which has a very slight
+         shape difference from the BNC-50. -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-50KP</PartNumber>
+      <Description>Nose cone, balsa, BNC-50KP, 2.75", ogive, PNC-50K shape</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.5</ShoulderLength>
+      <Length Unit="in">2.75</Length>
+    </NoseCone>
+    <!-- Semroc BNC-50MA is a Mercury/Atlas capsule.  Not a repro.  Mass from Semroc
+         legacy site -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-50KP</PartNumber>
+      <Description>Nose cone, balsa, BNC-50MA, 2.2", Mercury Atlas capsule</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Mass Unit="oz">0.10</Mass>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.5</ShoulderLength>
+      <Length Unit="in">2.2</Length>
+    </NoseCone>
+
+
+
+
+    <!-- *** ADDING ITEMS HERE *** -->
+
+
 
     
 
