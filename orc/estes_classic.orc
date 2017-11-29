@@ -3923,7 +3923,7 @@ Known issues:
             <ShoulderLength Unit="in">0.875</ShoulderLength>
             <Length Unit="in">7.25</Length>
         </NoseCone>
-        <!-- BNC-60AK PN 70290 (K-41/#1241 Mercury Redstone) is Mercury capsule, conical shape is approximate
+        <!-- BNC-60AK PN 70290 (K-41/#1241 Mercury Redstone) is Gemini capsule, conical shape is approximate
              Ref 1974 custom parts catalog and K-41 instructions found on JimZ site
              BNC-60AK also appears in Brohm and on the Semroc parts list page for K-41/#1241.
         -->
@@ -4230,6 +4230,11 @@ Known issues:
 
                PNC-50V PN 71025 / PNC-50BB PN 71027 from #1296 Satellite Interceptor etc.  Brohm notes that PNC-50V and PNC-50BB nose
                cones are identical, but the PNC-50BB mold also includes a tail cone.
+               Semroc offers a BNC-50V with length 5.75" and unspecified shoulder length.  The Semroc drawing shows the
+               shape to be a hybrid cone/cylinder where the cone is about 4.75" and the cylinder about 1".
+               Comparing to PNC-55AO and PNC-55AC (similar length) we can estimate the mass at around 0.35 oz.
+
+               PNC-50BB tailcone section (#1296 Satellite Interceptor)  ***get dimensions from built model***
 
                PNC-50F PN 071030 (#1371 Starship Nova)
 
@@ -4362,6 +4367,71 @@ Known issues:
             <Length Unit="in">4.375</Length>
             <Thickness Unit="in">0.062</Thickness>
         </NoseCone>
+
+        <!-- PNC-50V (#1296 Satellite Interceptor) - dimensions recovered
+             from an actual sample from my own (built) vintage Satellite Interceptor.
+             Brohm notes that PNC-50V and PNC-50BB nose cones are identical, but the PNC-50BB mold also includes a tail cone.
+             From my sample:  Mass is 0.305 oz.
+             The shape is a hybrid cone/cylinder where the cone is 4.75" and the cylinder section is 1.0".
+             Shoulder:  cylinder part is 0.5" long.  There follows a reverse cone 0.375" long, with a molded-in
+             eyelet and a .2375" hole.  Base diam of the reverse cone is 0.320".  For interference purposes
+             the shoulder length is 0.875".
+        -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>PNC-50V, PNC-50BB, PN 71027</PartNumber>
+            <Description>Nose cone, plastic, PNC-50V/PNC-50BB, PN 71027</Description>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
+            <Mass Unit="oz">0.305</Mass>
+            <Shape>CONICAL</Shape>
+            <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.875</ShoulderLength>
+            <Length Unit="in">5.75</Length>
+            <Thickness Unit="in">0.062</Thickness>
+        </NoseCone>
+
+        <!-- PNC-50BB tail cone section (#1296 Satellite Interceptor etc).  This is molded in one unit with the PNC-50BB
+             and has no separate PN.  I have an actual example in a built model; the plastic is white.
+             Overall exposed length: 0.375".  There is a cylindrical flange that seats against the tube with OD 0.975"
+             and length 0.67" (1/16").  After the flange the shape is a straight diverging cone, whose diameter
+             at the junction with the flange is 0.850", and 0.976" at the rear.  The inside diameter of the cone at
+             the rear is about 0.922".  Inside throat diameter of the cone is 0.756".  I measured the thickness of
+             the rim at 0.046" but there is a bit of a ring/flashing right at the rim so the actual wall thickness
+             is probably a bit less.
+
+             Finally there is a square recess for the engine hook that extends the length
+             of the cone part and is 0.172" wide externally, and about 0.1265" internally, an exact match for the
+             width of my engine hook.  The height of this recess tunnel exactly matches the OD of the flange.
+
+             Shoulder length of the tailcone is not determined since it's glued into the model, but I'd estimate
+             it at 0.25".  Likewise I cannot measure the mass but would estimate it around 1/8 of the mass of the
+             nose cone part, or about 0.04 oz.
+
+             There is no reasonable way to visually model this in OpenRocket with a single component.  You will need to
+             use a bulkhead for the flange, with a phantom tube used to mount an increasing conical hollow transition
+             (zero length shoulders) to represent the cone.
+
+             To provide a mass-realistic dummy part, I here give a cylindrical hollow transitiion with no rear shoulder,
+             and a mass override so CG and inertia calculations will be realistic.
+          -->
+        <Transition>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>PNC-50BB-tailcone</PartNumber>
+            <Description>Tailcone, plastic, white, PNC-50BB-tailcone, PN 71027</Description>
+            <Material Type="BULK">Polyethylene, HDPE, bulk</Material>
+            <Shape>CONICAL</Shape>
+            <Mass Unit="oz">0.04</Mass>
+            <ForeOutsideDiameter Unit="in">0.976</ForeOutsideDiameter>
+            <ForeShoulderDiameter Unit="in">0.950</ForeShoulderDiameter>
+            <ForeShoulderLength Unit="in">0.25</ForeShoulderLength>
+            <AftOutsideDiameter Unit="in">0.976</AftOutsideDiameter>
+            <AftShoulderDiameter Unit="in">0.950</AftShoulderDiameter>
+            <AftShoulderLength Unit="in">0.0</AftShoulderLength>
+            <Length Unit="in">0.375</Length>
+            <Thickness Unit="in">0.046</Thickness>
+        </Transition>
+
 
         <!--
             NC-55 with molded-in canopy for #1903 Xarconian Cruiser and #2000 Voyager II
