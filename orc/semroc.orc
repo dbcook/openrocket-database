@@ -10444,7 +10444,7 @@ Ejection baffle rings
          legacy site -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
-      <PartNumber>BNC-50KP</PartNumber>
+      <PartNumber>BNC-50MA</PartNumber>
       <Description>Nose cone, balsa, BNC-50MA, 2.2", Mercury Atlas capsule</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Mass Unit="oz">0.10</Mass>
@@ -10455,11 +10455,181 @@ Ejection baffle rings
       <ShoulderLength Unit="in">0.5</ShoulderLength>
       <Length Unit="in">2.2</Length>
     </NoseCone>
+    <!-- Semroc BNC-50NA is for Nike Ajax -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-50NA</PartNumber>
+      <Description>Nose cone, balsa, BNC-50NA, 6.0", conical, Nike Ajax</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>CONICAL</Shape>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.5</ShoulderLength>
+      <Length Unit="in">6.0</Length>
+    </NoseCone>
+    <!-- Semroc BNC-50P is an upscale of the Estes Spaceman nose cone.  Mass from Semroc legacy site -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-50P</PartNumber>
+      <Description>Nose cone, balsa, BNC-50P, 1.8", bulbous, Spaceman upscale</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Mass Unit="oz">0.13</Mass>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.5</ShoulderLength>
+      <Length Unit="in">1.8</Length>
+    </NoseCone>
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-50SF1</PartNumber>
+      <Description>Nose cone, balsa, BNC-50SF1, 3.0", conical</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>CONICAL</Shape>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.5</ShoulderLength>
+      <Length Unit="in">3.0</Length>
+    </NoseCone>
+    <!-- SEMROC BNC-50SF2 is a hybrid shape, approx 1" cone with 2" cylinder behind it.  Mass from Semroc legacy site -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-50SF1</PartNumber>
+      <Description>Nose cone, balsa, BNC-50SF1, 3.0", cylinder-conical combo</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Mass Unit="oz">0.13</Mass>
+      <Filled>true</Filled>
+      <Shape>CONICAL</Shape>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.5</ShoulderLength>
+      <Length Unit="in">3.0</Length>
+    </NoseCone>
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-50SF3</PartNumber>
+      <Description>Nose cone, balsa, BNC-50SF3, 3.0", ogive</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.5</ShoulderLength>
+      <Length Unit="in">3.0</Length>
+    </NoseCone>
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-50SF4</PartNumber>
+      <Description>Nose cone, balsa, BNC-50SF4, 3.0", elliptical</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.5</ShoulderLength>
+      <Length Unit="in">3.0</Length>
+    </NoseCone>
+    <!-- SEMROC BNC-50SF5 is a "straight" nose cone with a 90 degree flat face.  Mass from Semroc legacy site.
+         To model drag better, you should create a very short cone with a 2.9" cylinder behind it. -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-50SF5</PartNumber>
+      <Description>Nose cone, balsa, BNC-50SF5, 3.0", cylinder with flat face</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Mass Unit="oz">0.18</Mass>
+      <Filled>true</Filled>
+      <Shape>CONICAL</Shape>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.5</ShoulderLength>
+      <Length Unit="in">3.0</Length>
+    </NoseCone>
+    <!-- Semroc BNC-50V: legacy site says "same as BNC-50BB without the tail cone". (confirmed by Brohm for Estes PNC-50V/BB)
+         The actual shape (based on an actual Estes PNC-50V) is a 4.75" cone with a 1.0" cylinder section behind it.
+         Mass for the balsa version from Semroc legacy site. -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-50V</PartNumber>
+      <Description>Nose cone, balsa, BNC-50V, 5.75", conical-cylinder hybrid</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Mass Unit="oz">0.16</Mass>
+      <Filled>true</Filled>
+      <Shape>CONICAL</Shape>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.5</ShoulderLength>
+      <Length Unit="in">5.75</Length>
+    </NoseCone>
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-50X</PartNumber>
+      <Description>Nose cone, balsa, BNC-50X, 3.25", elliptical</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.5</ShoulderLength>
+      <Length Unit="in">3.25</Length>
+    </NoseCone>
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-50Y</PartNumber>
+      <Description>Nose cone, balsa, BNC-50Y, 4.4", ogive</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.5</ShoulderLength>
+      <Length Unit="in">4.4</Length>
+    </NoseCone>
+    <!-- SEMROC BNC-50YP is an exact match for the Estes PNC-50Y, which is 0.1" shorter than BNC-50Y.  -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-50YP</PartNumber>
+      <Description>Nose cone, balsa, BNC-50YP, 4.3", ogive, PNC-50Y shape</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.5</ShoulderLength>
+      <Length Unit="in">4.3</Length>
+    </NoseCone>
+
+
+    <!-- =================================== -->
+    <!-- BNC-51 nose cones for BT-51 tube    -->
+    <!-- =================================== -->
+
+    <!-- BNC-51MR is a 1/70 scale Mercury-Redstone capsule for BT-51.
+         Conical shape is approximate.  Mass is from Semroc legacy site. -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-51MR</PartNumber>
+      <Description>Nose cone, balsa, BNC-50MR, 1.79", Mercury capsule</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Mass Unit="oz">0.07</Mass>
+      <Filled>true</Filled>
+      <Shape>CONICAL</Shape>
+      <OutsideDiameter Unit="in">1.119</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.983</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.5</ShoulderLength>
+      <Length Unit="in">1.79</Length>
+    </NoseCone>
 
 
 
 
     <!-- *** ADDING ITEMS HERE *** -->
+
+    <!-- =================================== -->
+    <!-- BNC-52 nose cones for BT-52 tube    -->
+    <!-- =================================== -->
 
 
 
