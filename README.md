@@ -29,8 +29,11 @@ System compatibility:  works anywhere OpenRocket can run
 0.9.0.15 - Nov 2017
 * Fixes
   * Merged PR1 - ID/OD of BT-101 were swapped - thanks thzero
+  * Fixed part number on Semroc BNC-50MA
 * Additions
-  * Estes PRP-1H, PNC-50K, PNC-50X
+  * Estes PRP-1H, PNC-50K, PNC-50X, PNC-50V/PNC-50BB with tailcone
+  * Semroc BNC-50 series finished off
+  * Semroc BNC-51 series
   * ./gen/ directory with very beginnings of json -> XML part generator
   * ./docs/ directory with more focused explanation of Estes sizes and PNs
 
