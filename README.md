@@ -30,10 +30,11 @@ System compatibility:  works anywhere OpenRocket can run
 * Fixes
   * Merged PR1 - ID/OD of BT-101 were swapped - thanks thzero
   * Fixed part number on Semroc BNC-50MA
+  * Fix blue tube sizes/mass in tube_data.txt and body_tube_data.xlsx to current values from vendor
 * Additions
   * Estes PRP-1H, PNC-50K, PNC-50X, PNC-50V/PNC-50BB with tailcone
   * Semroc BNC-50 series finished off
-  * Semroc BNC-51 series
+  * Semroc BNC-51, BNC-52 series
   * ./gen/ directory with very beginnings of json -> XML part generator
   * ./docs/ directory with more focused explanation of Estes sizes and PNs
 
@@ -204,17 +205,16 @@ Please don't report problems on TRF, via email, etc. - use GitHub issues; others
 * Mass overrides mostly removed - material densities set correctly
 * Mass data for tubing analyzed to remove outliers and derive correct average densities
 * A master materials reference file is provided with heavily researched data
-* Estes
-  * Added missing body tubes from the comprehensive Brohm tube index, including BT-51, BT-52, BT-56, BT-58, etc.
-  * Many missing nose cones added from the Brohm nose cone reference
+* Estes file vastly enhanced
+  * Added many missing parts from Brohm tube index and nose cone reference docs
   * Numeric PNs and old style part numbers both listed where known
   * Centering rings added (all missing from stock OpenRocket)
-  * Pro Series II parts file added
-* LOC Precision
-  * Best available size and mass data; many conflicts and errors resolved
-  * Parachutes added
-* Top Flight parachutes and streamers file added
-* Competition parachutes and streamers file added
+  * Pro Series II parts file added (missing from stock OpenRocket)
+* LOC Precision file improvements:  many conflicts and errors resolved, parachutes added
+* Top Flight: parachutes and streamers file added
+* Competition generic parachutes and streamers file added
+* Madcow: new file added, complete coverage
+* MPC: new file added, complete coverage
 
 ## State of the Project
 
@@ -229,7 +229,7 @@ somewhat Mac centric because that's what I use most.
 | ----- | ----- | ----- |
 | `Estes.orc`              | Yes  | Split - see new files below
 | `loc_precision.orc`      | Yes  | 100% 
-| `semroc.orc`             | Yes  | 55%  (tubes, couplers, CRs in, nosecones just started)
+| `semroc.orc`             | Yes  | 65%  (tubes, couplers, CRs in, nosecones about half done)
 | `Quest.orc`              | Yes  | --
 | `bluetube.orc`           | Yes  | --
 | `bms.orc`                | Yes  | --
@@ -239,7 +239,7 @@ somewhat Mac centric because that's what I use most.
 | `fsi.orc`                | No   | -- Not started
 | `cmr.orc`                | No   | -- Not started
 | `mpc.orc`                | No   | 98%
-| `estes_classic.orc`      | No   | 95%
+| `estes_classic.orc`      | No   | 98% - classic era parts are complete
 | `estes_ps2.orc`          | No   | 98%
 | `madcow.orc`             | No   | 99%
 | `top_flight.orc`         | No   | 100%
@@ -262,27 +262,32 @@ while getting data about Estes parts has gotten much harder in the last 20 years
 #### Estes
 
 Paradoxically, we have better parts data on legacy (1960s through the late 1980s) Estes
-parts than for newer ones.  They have shifted much manufacturing to China, and most
+parts than for newer ones.  Estes has shifted much manufacturing to China, and most
 individual parts such as nose cones are no longer available separately, since the kits are
-completely packaged offshore.  In many cases, parts don't even seem to have individual
-part numbers assigned, and a significant portion of kits have no PNs for the parts listed
+completely packaged offshore.  A significant portion of kits have no PNs for the parts listed
 in the instructions.
 
-The parts that are now available are often sold as assortments, and the contents of those
-assortments are usually not identified by PN, and sometimes change over time.
+Although internal part numbers still exist (ref. John Boren,
+private conversation, 2017), part numbers are no longer usually visible to end users for items
+that are not sold at retail.
+
+The subset of parts that are now sold are often packaged as assortments with a PN that applies to the
+assortment; the individual contents of those assortments are usually not identified by PN.
+It's been reported too that the makeup of the assortment packages sometimes changes over time.
 
 With the 2017 decision by Estes to cease producing a product catalog in either print or
-electronic form, the difficulty of maintaining a parts database will further increase.  In
-short, part numbers are often no longer created.  As of now, the only way to index modern
-Estes parts is by inspection and measurement of actual products.
+electronic form, the difficulty of maintaining a parts database has further increased.
+As of now, the only way to index modern Estes parts is by inspection and measurement of actual products.
 
 #### Centuri Engineering
 
-Centuri parts indexing is difficult.  No Centuri parts file is provided with the stock OpenRocket.
+Centuri parts indexing is difficult across the latter part of the life of the product line.
 Up until about 1971-1972, Centuri catalogs had parts listings nearly on par with Estes.
 But the Centuri catalog parts listings after the Damon acquisition in the early 1970s are rather sparse and leave many
 dimensions unspecified.  The overall completeness is much less than for Estes in the same
-era, even though the same parent company owned both.
+era, even though the same parent company owned both brands.
+
+No Centuri parts file is provided with the stock OpenRocket.
 
 Almost no Centuri kit instructions list any part numbers.
 Centuri kit instructions are not archived on the official Estes instructions pages, even
@@ -296,12 +301,14 @@ considered definitive (when they exist) unless analysis clearly reveals errors. 
 are incomplete; there are many blank entries for manufacturer PN in the SEMROC Centuri kit cross-reference pages.
 
 Overall, we can probably construct a reasonable Centuri parts file, but it may be impossible
-to have comprenehsive data in the period between ~1972 and Centuri's end of production around 1980.
+to have comprenehsive data in the period between 1972 and Centuri's end of production around 1980.
 
 #### LOC Precision
 
 Dimensional data from LOC Precision is notoriously incomplete and error-filled, but I've
 been able to resolve most of it using Apogee's tabulated data and some measurements of actual parts.
+LOC changed hands for the second time around the beginning of 2017, but thus far (late 2017) the
+website parts listings have not had any significant upgrades as far as dimensions.
 
 #### SEMROC
 
@@ -323,13 +330,13 @@ situations:
 
 1. Specialty parts that Estes actually made for use in certain kits.  In the era after
   Estes stopped assigning "BNC-xxx" codes, they would have a numeric PN only, and might
-  never appear in a catalog.  Semroc appears to have created BNC-xxx designators for these.  Examples:
+  never appear in a catalog.  Semroc appears to have created BNC-xxx designators for these.  Example:
   
   * BNC-5RA PN 70217 for #0893 Red Alert (PN given in instructions, no known Estes use of "BNC-5RA")
 
 2. Semroc-specific parts that Semroc made for their own unique kits.  If they were made to
    mate with an Estes tube size, Semroc would assign a made-up Estes style BNC-xxx
-   designation. Examples:
+   designation. Example:
    
    * BNC-20MG (1.9 inch odd shape for Semroc Moon Go)
 
@@ -350,7 +357,7 @@ situations:
 MPC produced rocket parts and kits from ca. 1969 to 1973, when the company was sold to
 AVI.  AVI continued to manufacture and sell kits under the MPC name until 1978.  The kit
 line is historically significant as many of them were designed by G. Harry Stine,
-considered one of the principal founders of model rocketry.
+one of the principal founders of model rocketry.
 
 Very short MPC catalogs were produced in 1969 and 1970, followed by a Minirocs brochure
 when 13mm motors and rockets were introduced.  The 1970 "catalog 2" lists the parts, with
