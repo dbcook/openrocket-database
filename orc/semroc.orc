@@ -10617,19 +10617,50 @@ Ejection baffle rings
       <Filled>true</Filled>
       <Shape>CONICAL</Shape>
       <OutsideDiameter Unit="in">1.119</OutsideDiameter>
-      <ShoulderDiameter Unit="in">0.983</ShoulderDiameter>
+      <ShoulderDiameter Unit="in">0.985</ShoulderDiameter>
       <ShoulderLength Unit="in">0.5</ShoulderLength>
       <Length Unit="in">1.79</Length>
     </NoseCone>
 
 
-
-
-    <!-- *** ADDING ITEMS HERE *** -->
-
     <!-- =================================== -->
     <!-- BNC-52 nose cones for BT-52 tube    -->
     <!-- =================================== -->
+
+    <!-- SEMROC BNC-52AG is a 1/242 scale Apollo CM/SM/LM section.  Shape is complex so I approximate
+         as conical and apply the mass from theSemroc legacy site.  Shoulder len from Estes BNC-52AG. -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-52AG</PartNumber>
+      <Description>Nose cone, balsa, BNC-52AG, 3.25", 1/242 Apollo CM/SM/LM section</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Mass Unit="oz">0.1</Mass>
+      <Filled>true</Filled>
+      <Shape>CONICAL</Shape>
+      <OutsideDiameter Unit="in">1.014</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.988</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.5</ShoulderLength>
+      <Length Unit="in">3.25</Length>
+    </NoseCone>
+
+    <!-- SEMROC BNC-52G matches the Estes Thor Agena B capsule.  Mass from Semroc legacy site. -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-52G</PartNumber>
+      <Description>Nose cone, balsa, BNC-52G, 1.25", Thor Agena B capsule</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Mass Unit="oz">0.07</Mass>
+      <Filled>true</Filled>
+      <Shape>CONICAL</Shape>
+      <OutsideDiameter Unit="in">1.014</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.986</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <Length Unit="in">1.25</Length>
+    </NoseCone>
+
+
+
+    <!-- *** ADDING ITEMS HERE *** -->
 
 
 
