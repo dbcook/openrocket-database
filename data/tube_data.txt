@@ -107,18 +107,24 @@ AER-4.0   3.90      3.987                         from TRF post 16 Nov 2014, AT 
 
 Blue Tube
 ---------
+New size values from alwaysreadyrocketry.com in the store on the 'size' dropdown items
+Masses are computed from my derived-from-measurements avg density of 1153.5 kg/m3 +/- 17.3
+Many mass values from Apogee are inaccurate unless there is wild variation, but my densisty stddev
+definitely does not support the notion of highly variable mass.
+It has been reported that blue tube sizes have not been consistent across the years and batches though.
 
 SERIES    ID        OD         MaxLen    Mass      RingID    RingOD
-                                                   OD+.003   ID-.003
+                                         48 in     OD+.003   ID-.003
 ------    -----     -----      ------    ------    --------  -------
-Blu-29mm   1.136     1.276      48.0     235 g                         mass reported by Apogee
-Blu-38mm   1.504     1.616      48.0     295 g                         measured mass: 284 g
-Blu-54mm   2.135     2.260      48.0     410 g                         measured masses: 389.0, 388.0 (2 samples)
-Blu-2.6    2.551     2.671      48.0     490 g                         measured mass: 454, 468 g (2 samples)
-Blu-75mm   3.000     3.100      48.0     570 g                         measured mass: 553 g
-Blu-98mm   3.900     4.014      48.0     725 g                         mass reported by Coker: 696 g
-Blu-5.5    5.36      5.518      48.0     1078 g                        mass reported by Apogee, suspect!
-Blu-6.0    5.973     6.079      48.0     1189 g                        mass reported by Apogee, suspect!
+Blu-29mm   1.150     1.274      48.0     214.2 g
+Blu-38mm   1.520     1.644      48.0     279.6 g                         measured mass: 284 g
+Blu-54mm   2.150     2.274      48.0     392.4 g                         measured masses: 389.0, 388.0 (2 samples)
+Blu-2.6    2.560     2.684      48.0     463.4 g                         measured mass: 454, 468 g (2 samples)
+Blu-75mm   3.000     3.124      48.0     542.6 g                         measured mass: 553 g
+Blu-98mm   3.900     4.024      48.0     700.2 g                         mass reported by Coker: 696 g
+Blu-5.5    5.500     5.654      48/72    1224  g
+Blu-6.0    6.000     6.148      48/72    1281  g
+Blu-7.5    7.500     7.660      48/72    1728  g
 
 Estes PSII Tubes - .034 wall (my measurement)
 ---------------------------------------------
