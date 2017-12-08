@@ -4527,7 +4527,7 @@ Known issues:
             <OutsideDiameter Unit="in">1.325</OutsideDiameter>
             <ShoulderDiameter Unit="in">1.283</ShoulderDiameter>
             <ShoulderLength Unit="in">0.750</ShoulderLength>
-            <Length Unit="in">5.750</Length>
+            <Length Unit="in">3.750</Length>
             <Thickness Unit="in">0.0385</Thickness>
         </NoseCone>
 
