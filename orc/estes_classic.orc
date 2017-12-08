@@ -4531,6 +4531,23 @@ Known issues:
             <Thickness Unit="in">0.0385</Thickness>
         </NoseCone>
 
+        <!-- PNC-55EX (#1925 Exocet, #1935 Neptune, #1955 Ranger).  Never appeared in a catalog,
+             but I have a Ranger, and Semroc cloned it in balsa as well.  Blow molded in white plastic.
+             Measured:  mass 0.400 oz (painted), shoulder len 1.0 functional, 1.375 total, len 3.375.
+             I removed .02 oz to correct for paint and tuned the thickness to give mass of 0.38 oz -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>PNC-55EX, PN 71031</PartNumber>
+            <Description>Nose cone, plastic, PNC-55EX, PN 71031</Description>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+            <ShoulderDiameter Unit="in">1.283</ShoulderDiameter>
+            <ShoulderLength Unit="in">1.375</ShoulderLength>
+            <Length Unit="in">3.375</Length>
+            <Thickness Unit="in">0.071</Thickness>
+        </NoseCone>
+
         <!--
             PNC-56 ref John Brohm Estes Nose Cone Reference List v10.1
             Brohm calls this "PNC-56A" but I cannot find any upstream source for the "A" sufffix.
