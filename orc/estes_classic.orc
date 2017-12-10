@@ -4571,6 +4571,9 @@ Known issues:
 
             PN 72701 (#2013 Recruiter, #2054 Beta Launch Vehicle) - no PNC-55xxx description
 
+            PNC-1287 PN 71067 (#1287 LTV Scout) plastic payload fairing nose+transition parts set.  I have a
+            built model.  This would need to be broken into 3 components (NC and two transitions) plus an SBT-139BJ tube.
+
         -->
 
 
