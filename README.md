@@ -145,6 +145,14 @@ Run the following:
 
 ```bash
 git clone https://github.com/dbcook/openrocket-database.git
+mklink /D %HOMEPATH%\AppData\Roaming\OpenRocket\Components C:\openrocket-database\orc
+```
+
+### Windows 10
+
+The %HOMEPATH% does not appear to work, try using the following instead.
+
+```bash
 mklink /D %HOMEPATH%\OpenRocket\Components C:\openrocket-database\orc
 ```
 
