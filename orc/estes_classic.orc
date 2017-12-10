@@ -3903,10 +3903,26 @@ Known issues:
         <!-- BNC-55xx  -->
 
         
-        <!-- *** BTC-55Z tailcone for V-2 missing *** OR cannot model drilled transition mass/inertia correctly.
-             Data from 1974 custom parts catalog:  Length 3", shoulder 0.5", drilled for BT-20.
+        <!-- BTC-55Z tailcone for V-2.  OR cannot model drilled transition mass/inertia correctly.
+             Data from 1974 custom parts catalog:  Length 3", shoulder 0.5", weight 0.25 oz, drilled for BT-20.
              Model as reducing ogive transition.
         -->
+        <Transition>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>BTC-55Z [R]</PartNumber>
+            <Description>Transition, balsa, BTC-55Z, reducing</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Mass Unit="oz">0.25</Mass>
+            <Shape>OGIVE</Shape>
+            <Filled>true</Filled>
+            <ForeOutsideDiameter Unit="in">1.325</ForeOutsideDiameter>
+            <ForeShoulderDiameter Unit="in">1.283</ForeShoulderDiameter>
+            <ForeShoulderLength Unit="in">0.5</ForeShoulderLength>
+            <AftOutsideDiameter Unit="in">0.736</AftOutsideDiameter>
+            <AftShoulderDiameter Unit="in">0.710</AftShoulderDiameter>
+            <AftShoulderLength Unit="in">0.0</AftShoulderLength>
+            <Length Unit="in">3.0</Length>
+        </Transition>
         
         <!-- BNC-55AA ref 1975 catalog.  Brohm index shows no uses in kits -->
         <NoseCone>
@@ -4549,7 +4565,7 @@ Known issues:
         <!-- *** Estes PNC-55xxx that appear in Brohm but for which we have no good data.  Some of these do not
             have any known PN.  I have actual examples of a few of these in unopened kits.
 
-            PNC-55EK PN ???? (K-51 Sandhawk, #1251 Sandhawk)
+            PNC-55EK PN ???? (K-51 Sandhawk, #1251 Sandhawk).  ***See Semroc BNC-55SH for possible equivalent.***
 
             PNC-55HJ PN 72058 (#1919 Honest John).  Dimensions of balsa version are on Semroc website.
             We could have a good go at this using shoulder dimensions of PNC-55EX, but at this point
