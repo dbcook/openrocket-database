@@ -4432,6 +4432,33 @@ Known issues:
             <Thickness Unit="in">0.046</Thickness>
         </Transition>
 
+        <!-- *** Estes PNC-55xxx that appear in Brohm but for which we have no good data.  Some of these do not
+            have any known PN.  I have actual examples of a few of these in unopened kits.
+
+            PNC-55EK PN ???? (K-51 Sandhawk, #1251 Sandhawk)
+
+            PNC-55HJ PN 72058 (#1919 Honest John).  Dimensions of balsa version are on Semroc website.
+            We could have a good go at this using shoulder dimensions of PNC-55EX, but at this point
+            I have no good idea of the mass.
+
+            PNC-55EJ PN ???? (K-50 Interceptor, #1250 Interceptor)
+
+            PN ???? (#2003 SDI Satellite, #1977 GeoSat LV)
+
+            PN ???? (#2016 Explorer Aquarius)
+
+            PNC-55CB PN 71036 (#1289 Odyssey)
+
+            PNC-55IR (#1973 Interceptor II).  Also prepainted version PN 72055 used in #2183 Shuttle Xpress.
+
+            PNC-55B PN 72056 (#1367 Vindicator, #1910 USS Pleiaades) - blow molded version of PNC-55EJ
+
+            PN 72683 (#2125 AIM-9 Sidewinder) - no PNC-55xxx designation
+
+            PN 72701 (#2013 Recruiter, #2054 Beta Launch Vehicle) - no PNC-55xxx description
+
+        -->
+
 
         <!--
             NC-55 with molded-in canopy for #1903 Xarconian Cruiser and #2000 Voyager II
@@ -4476,10 +4503,11 @@ Known issues:
         <!--
             PNC-55AO ref 1982 Estes Catalog, #1335 Blue Bird Zero and others, quoted mass 0.43 oz = 12.2 gm
             However I have an actual PNC-55AO from a 1980s Blue Bird Zero that only weighs 9.0 gm.
+            PNC-55AD PN 71076 as used in #2155 Super Nova Payloader is identical.
         -->
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
-            <PartNumber>PNC-55AO, 71075</PartNumber>
+            <PartNumber>PNC-55AO, 71075, PNC-55AD, 71076</PartNumber>
             <Description>Nose cone, plastic, PNC-55AO, PN 71075</Description>
             <Material Type="BULK">Polystyrene, cast, bulk</Material>
             <Shape>ELLIPSOID</Shape>
@@ -4620,7 +4648,10 @@ Known issues:
             be cut apart in the middle.  A 2" piece of ST-20 tube is inserted between the two parts.  For simulation
             purposes it has to be modeled as a separate NC and transition, so artificial part numbers are needed.
 
-            Part numbers:  Unknown.  Neither the #2072 Scrambler nor #1996 Eggspress kit instructions give part numbers.
+            Part numbers:  Unknown.  Neither the #2072 Scrambler nor #1996 Eggspress kit instructions give part numbers,
+            and Brohm lists the PNs as unknown.  Oddly, Brohm has separate listings for the Scrambler and Eggspress
+            capsules, where the Eggspress is shown (erroneously I believe) as BT-55.
+
             Colors: Enerjet versions of the capsule are molded in black (ref: I had one)
             Eggspress capsules were molded in yellow (ref: actual instance and kit card illustration)
             
