@@ -208,10 +208,113 @@ Known issues:
            #2123 RediRoc Raider - both of these are saucers.  MMT was said to be plugged
            by John Lee on RocketReviews.  #2123 conflicts with Eggscaliber, a rare kit PN
            clash.  See 1996 Estes catalog.
-           ***
+           
+           OTHER UNUSUAL TUBE DESIGNATORS
+
+           There is an "SBT" designator seen in certain kits.  Brohm describes these as
+           meaning "special" body tube, and it appears that the number gives the OD of the tube.
+           See Brohm body tube reference Appendix II.
+
+              Used in #1287 LTV Scout:
+                SBT-139BJ  PN 30488  2.0" long
+                SBT-123BE  PN 30446  2.5" long
+                SBT-127GC  PN 30447  7.26" long
+
+              Used in #1288 Starlab and #1369 S.S. Cassiopeeia, #1383 Hyperion:
+                SBT-394AJ  PN 30449  1.0" long  Brohm notes same OD as BT-101 but with 0.042" wall
+                Listed here alongside the BT-101 since it's a variant of that size.
+
+              Used in #2048 Saturn 1B  (SBT designators created by Brohm in keeping with earlier SBTs)
+                Brohm notes that in the kit instructions they are identified only by part numbers
+                SBT-267  PN 30438   1.375" long
+                SBT-705  PN 30329   7.813" long  (stage 1 tanks)
+                SBT-262  PN 30436   7.625" long
+                SBT-116  PN 30379  11.00" long
       -->
 
+      <!-- Special Body Tube sizes.  Larger sizes presumed to be 0.021 wall, smaller ones .013 wall -->
+
+      <!-- PN 030329 SBT-705 from #2048 Saturn 1B, using 0.013 wall -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>SBT-705, 030329</PartNumber>
+        <Description>Body tube, SBT-705, 7.813 in., PN 030329</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.679</InsideDiameter>
+        <OutsideDiameter Unit="in">0.705</OutsideDiameter>
+        <Length Unit="in">7.813</Length>
+      </BodyTube>
+
+      <!-- SBT-116 used in #2048 Saturn 1B, using 0.013 wall -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>SBT-116, 030379</PartNumber>
+        <Description>Body tube, SBT-116, 11.0 in., PN 030379</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.134</InsideDiameter>
+        <OutsideDiameter Unit="in">1.160</OutsideDiameter>
+        <Length Unit="in">11.0</Length>
+      </BodyTube>
+
+      <!-- SBT-261 used in #2048 Saturn 1B, using 0.021 wall -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>SBT-261, 030436</PartNumber>
+        <Description>Body tube, SBT-261, 7.625 in., PN 030436</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">2.568</InsideDiameter>
+        <OutsideDiameter Unit="in">2.610</OutsideDiameter>
+        <Length Unit="in">7.625</Length>
+      </BodyTube>
+
+      <!-- SBT-267 used in #2048 Saturn 1B, using 0.021 wall -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>SBT-267, 030438</PartNumber>
+        <Description>Body tube, SBT-267, 1.375 in., PN 030438</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">2.628</InsideDiameter>
+        <OutsideDiameter Unit="in">2.670</OutsideDiameter>
+        <Length Unit="in">1.375</Length>
+      </BodyTube>
+
+
+      <!-- SBT-123BE from #1287 LTV Scout, using 0.021 wall -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>SBT-123BE, 030446</PartNumber>
+        <Description>Body tube, SBT-123BE, 2.5 in., PN 030446</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.188</InsideDiameter>
+        <OutsideDiameter Unit="in">1.230</OutsideDiameter>
+        <Length Unit="in">2.5</Length>
+      </BodyTube>
+
+      <!-- SBT-127GC from #1287 LTV Scout, using 0.021 wall -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>SBT-127GC, 030447</PartNumber>
+        <Description>Body tube, SBT-127GC, 7.26 in., PN 030447</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.228</InsideDiameter>
+        <OutsideDiameter Unit="in">1.270</OutsideDiameter>
+        <Length Unit="in">7.26</Length>
+      </BodyTube>
+
+      <!-- SBT-139BJ from #1287 LTV Scout, using 0.021 wall -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>SBT-139BJ, 030488</PartNumber>
+        <Description>Body tube, SBT-139BJ, 2.0 in., PN 030488</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.346</InsideDiameter>
+        <OutsideDiameter Unit="in">1.390</OutsideDiameter>
+        <Length Unit="in">2.0</Length>
+      </BodyTube>
+
+
       <!-- BT-5 -->
+
       <BodyTube>
         <Manufacturer>Estes</Manufacturer>
         <PartNumber>BT-5, 030302</PartNumber>
@@ -2576,7 +2679,7 @@ Known issues:
         <Length Unit="in">3.22</Length>
       </BodyTube>
 
-      <!-- BT-101 -->
+      <!-- BT-101 and SBT-394AJ -->
 
       <!-- BT-101SV used in #2001 Saturn V -->
       <BodyTube>
@@ -2640,6 +2743,17 @@ Known issues:
         <Description>Body tube, BT-101, 2.78 in., PN 30442</Description>
         <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
         <InsideDiameter Unit="in">3.896</InsideDiameter>
+        <OutsideDiameter Unit="in">3.938</OutsideDiameter>
+        <Length Unit="in">2.78</Length>
+      </BodyTube>
+
+      <!-- SBT-394AJ used in #1288 Starlab etc. BT-101 OD with 0.042 wall -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>SBT-394AJ, 30449</PartNumber>
+        <Description>Body tube, BT-101, 2.78 in., PN 30442</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">3.854</InsideDiameter>
         <OutsideDiameter Unit="in">3.938</OutsideDiameter>
         <Length Unit="in">2.78</Length>
       </BodyTube>
