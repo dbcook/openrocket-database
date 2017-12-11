@@ -28,12 +28,13 @@ System compatibility:  works anywhere OpenRocket can run
 ## Release Notes
 0.9.0.16 - Dec 2017
 * Fixes
+  * Merged PR2 - removed quote marks from Semroc PNs b/c OpenRocket mishandles in .ork's (thanks thzero)
   * Fix blue tube sizes/mass in tube_data.txt and body_tube_data.xlsx to current values from vendor
   * Fixed incorrect length of Estes PNC-55D
   * Improve discussion of Estes part indexing situation
 * Additions
   * Estes SBT-xxx tube series added, complete per Brohm Appendix II
-  * Semroc BNC-52 and BNC-55 series, complete
+  * Semroc BC-10, BNC-52 and BNC-55 series, complete
   * Estes PNC-55EX, data recovered from actual sample and Semroc BNC-55EX
   * Estes BTC-55Z V-2 tail cone
   * Notes on PNC-55xx where no published data is available
