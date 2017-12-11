@@ -34,7 +34,7 @@ System compatibility:  works anywhere OpenRocket can run
   * Improve discussion of Estes part indexing situation
 * Additions
   * Estes SBT-xxx tube series added, complete per Brohm Appendix II
-  * Semroc BC-10, BNC-52 and BNC-55 series, complete
+  * Semroc BC-10, BC-11, BNC-52 and BNC-55 series, complete
   * Estes PNC-55EX, data recovered from actual sample and Semroc BNC-55EX
   * Estes BTC-55Z V-2 tail cone
   * Notes on PNC-55xx where no published data is available
