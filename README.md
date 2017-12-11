@@ -21,21 +21,49 @@ I invite contributors to create a packaged installer, especially for Windows.
 
 ## Compatibility
 
-OpenRocket compatibility:  tested with OpenRocket 15.03
+OpenRocket compatibility:  tested with OpenRocket 15.03 __only__
 
 System compatibility:  works anywhere OpenRocket can run
 
 ## Release Notes
-0.9.0.14 - Jun 2017
+0.9.0.16 - Dec 2017
+* Fixes
+  * Fix blue tube sizes/mass in tube_data.txt and body_tube_data.xlsx to current values from vendor
+  * Fixed incorrect length of Estes PNC-55D
+  * Improve discussion of Estes part indexing situation
+* Additions
+  * Estes SBT-xxx tube series added, complete per Brohm Appendix II
+  * Semroc BNC-52 and BNC-55 series, complete
+  * Estes PNC-55EX, data recovered from actual sample and Semroc BNC-55EX
+  * Estes BTC-55Z V-2 tail cone
+  * Notes on PNC-55xx where no published data is available
+
+0.9.0.15 - Nov 2017
+* Fixes
+  * Merged PR1 - ID/OD of BT-101 were swapped - thanks thzero
+  * Fixed part number on Semroc BNC-50MA
+* Additions
+  * Estes PRP-1H, PNC-50K, PNC-50X, PNC-50V/PNC-50BB with tailcone
+  * Semroc BNC-50 series finished off
+  * Semroc BNC-51 series
+  * ./gen/ directory with very beginnings of json -> XML part generator
+  * ./docs/ directory with more focused explanation of Estes sizes and PNs
+
+0.9.0.14 - Jul 2017
 * Fixes
   * Reorganized research notes and errata in madcow.orc
-  * Removed bogus "BNC-80K" tailcone transition from estes_classic.orc (should be Semroc)
+  * Removed bogus "BNC-80K" tailcone transition from estes_classic.orc (Semroc only)
   * Fixed Top Flight parachute material specs to match generic_materials.orc
   * Adjusted Madcow coupler FC55 dimensions based on the official DX3 Massive RockSim file
+  * Found numeric PN for Estes BNC-50BA on Semroc legacy site
+  * Set length of Estes BNC-50BC and BNC-50BD to Estes specified values
+  * Fixed ID/OD of Semroc BT-2+ (Semroc site was recently updated)
 * Additions
   * Madcow G10 fiberglass centering rings, G12 4" to 54mm transition,  and launch lug
   * Madcow switch bands, balsa and G10 tail cones, and generic nylon parachutes
   * __Madcow is done__ until we get data on the two balsa ramjet nacelles
+  * Semroc BNC-2xx, BNC-40xx, BNC-50xx, BC-8xx and BC-9xx nose cones
+  * Wrote up initial design for JSON based XML generator
 
 0.9.0.13 - 18 Jun 2017
 * Fixes
@@ -136,8 +164,8 @@ ln -s ~/openrocket-database/orc Components
 
 ### Windows
 
-Caveat - I do not have a Windows machine to test this on so the details may not be 100% good.  Basically
-you need to clone the git repo and create a soft directory symlink to where you cloned it.
+Here you need to clone the git repo and create a soft directory symlink to where you cloned it.
+The following has been reported to work on Windows 10.
 
 * Install git for Windows (https://git-for-windows.github.io/)
 * Get a command prompt.  You either have to use "Run as administrator" or have Developer Mode enabled.
@@ -145,15 +173,7 @@ Run the following:
 
 ```bash
 git clone https://github.com/dbcook/openrocket-database.git
-mklink /D %HOMEPATH%\AppData\Roaming\OpenRocket\Components C:\openrocket-database\orc
-```
-
-### Windows 10
-
-The %HOMEPATH% does not appear to work, try using the following instead.
-
-```bash
-mklink /D %HOMEPATH%\OpenRocket\Components C:\openrocket-database\orc
+mklink /D %APPDATA%\OpenRocket\Components C:\openrocket-database\orc
 ```
 
 ## Removing the Built-in .orc Files from OpenRocket
@@ -196,17 +216,16 @@ Please don't report problems on TRF, via email, etc. - use GitHub issues; others
 * Mass overrides mostly removed - material densities set correctly
 * Mass data for tubing analyzed to remove outliers and derive correct average densities
 * A master materials reference file is provided with heavily researched data
-* Estes
-  * Added missing body tubes from the comprehensive Brohm tube index, including BT-51, BT-52, BT-56, BT-58, etc.
-  * Many missing nose cones added from the Brohm nose cone reference
+* Estes file vastly enhanced
+  * Added many missing parts from Brohm tube index and nose cone reference docs
   * Numeric PNs and old style part numbers both listed where known
   * Centering rings added (all missing from stock OpenRocket)
-  * Pro Series II parts file added
-* LOC Precision
-  * Best available size and mass data; many conflicts and errors resolved
-  * Parachutes added
-* Top Flight parachutes and streamers file added
-* Competition parachutes and streamers file added
+  * Pro Series II parts file added (missing from stock OpenRocket)
+* LOC Precision file improvements:  many conflicts and errors resolved, parachutes added
+* Top Flight: parachutes and streamers file added
+* Competition generic parachutes and streamers file added
+* Madcow: new file added, complete coverage
+* MPC: new file added, complete coverage
 
 ## State of the Project
 
@@ -221,7 +240,7 @@ somewhat Mac centric because that's what I use most.
 | ----- | ----- | ----- |
 | `Estes.orc`              | Yes  | Split - see new files below
 | `loc_precision.orc`      | Yes  | 100% 
-| `semroc.orc`             | Yes  | 55%  (tubes, couplers, CRs in, nosecones just started)
+| `semroc.orc`             | Yes  | 65%  (tubes, couplers, CRs in, nosecones about half done)
 | `Quest.orc`              | Yes  | --
 | `bluetube.orc`           | Yes  | --
 | `bms.orc`                | Yes  | --
@@ -231,7 +250,7 @@ somewhat Mac centric because that's what I use most.
 | `fsi.orc`                | No   | -- Not started
 | `cmr.orc`                | No   | -- Not started
 | `mpc.orc`                | No   | 98%
-| `estes_classic.orc`      | No   | 95%
+| `estes_classic.orc`      | No   | 98% - classic era parts are complete
 | `estes_ps2.orc`          | No   | 98%
 | `madcow.orc`             | No   | 99%
 | `top_flight.orc`         | No   | 100%
@@ -254,24 +273,53 @@ while getting data about Estes parts has gotten much harder in the last 20 years
 #### Estes
 
 Paradoxically, we have better parts data on legacy (1960s through the late 1980s) Estes
-parts than for newer ones.  They have shifted much manufacturing to China, and most
+parts than for newer ones.  Estes has shifted much manufacturing to China, and most
 individual parts such as nose cones are no longer available separately, since the kits are
-completely packaged offshore.  In many cases, parts don't even seem to have individual
-part numbers assigned, and a significant portion of kits have no PNs for the parts listed
+completely packaged offshore.  A significant portion of kits have no PNs for the parts listed
 in the instructions.
 
-The parts that are now available are often sold as assortments, and the contents of those
-assortments are usually not identified by PN, and sometimes change over time.
+Although internal part numbers still exist (ref. John Boren,
+private conversation, 2017), part numbers are no longer usually visible to end users for items
+that are not sold at retail.
+
+The subset of parts that are now sold are often packaged as assortments with a PN that applies to the
+assortment; the individual contents of those assortments are usually not identified by PN.
+It's been reported too that the makeup of the assortment packages sometimes changes over time.
 
 With the 2017 decision by Estes to cease producing a product catalog in either print or
-electronic form, the difficulty of maintaining a parts database will further increase.  In
-short, part numbers are often no longer created.  As of now, the only way to index modern
-Estes parts is by inspection and measurement of actual products.
+electronic form, the difficulty of maintaining a parts database has further increased.
+As of now, the only way to index modern Estes parts is by inspection and measurement of actual products.
+
+#### Centuri Engineering
+
+Centuri parts indexing is difficult across the latter part of the life of the product line.
+Up until about 1971-1972, Centuri catalogs had parts listings nearly on par with Estes.
+But the Centuri catalog parts listings after the Damon acquisition in the early 1970s are rather sparse and leave many
+dimensions unspecified.  The overall completeness is much less than for Estes in the same
+era, even though the same parent company owned both brands.
+
+No Centuri parts file is provided with the stock OpenRocket.
+
+Almost no Centuri kit instructions list any part numbers.
+Centuri kit instructions are not archived on the official Estes instructions pages, even
+though Estes owns the rights to all things Centuri.  Various plans do exist on the
+[JimZ plans site](http://www.spacemodeling.org/jimz/) and [RocketShoppe](http://www.oldrocketplans.com/centuri.htm),
+but coverage is poor - neither site has even 50% of known Centuri kits.
+
+Fortunately, the SEMROC online listings provide data for many Centuri-compatible tubes and nose cones.
+Given SEMROC's attention to detail, the SEMROC dimensions for Centuri parts can be
+considered definitive (when they exist) unless analysis clearly reveals errors.  However, the SEMROC listings
+are incomplete; there are many blank entries for manufacturer PN in the SEMROC Centuri kit cross-reference pages.
+
+Overall, we can probably construct a reasonable Centuri parts file, but it may be impossible
+to have comprenehsive data in the period between 1972 and Centuri's end of production around 1980.
 
 #### LOC Precision
 
 Dimensional data from LOC Precision is notoriously incomplete and error-filled, but I've
 been able to resolve most of it using Apogee's tabulated data and some measurements of actual parts.
+LOC changed hands for the second time around the beginning of 2017, but thus far (late 2017) the
+website parts listings have not had any significant upgrades as far as dimensions.
 
 #### SEMROC
 
@@ -280,7 +328,7 @@ classic Estes and Centuri parts.  The late Carl McLawhorn was a fanatic about ge
 right, and data from the SEMROC legacy website - especially for tubes - has helped resolve some
 uncertainties about some obscure Estes parts.  eRockets acquired SEMROC after Carl's passing
 and has done a fantastic job of getting nearly all the SEMROC parts back into production and indexing
-them on the erocket.biz website.
+them on the [erockets.biz](http://erockets.biz) website.
 
 The body tube and nose cone listings on the old SEMROC website are a unique resource, and I have digested it
 into a table of dimensions text file and spreadsheet in this repository.
@@ -293,13 +341,13 @@ situations:
 
 1. Specialty parts that Estes actually made for use in certain kits.  In the era after
   Estes stopped assigning "BNC-xxx" codes, they would have a numeric PN only, and might
-  never appear in a catalog.  Semroc appears to have created BNC-xxx designators for these.  Examples:
+  never appear in a catalog.  Semroc appears to have created BNC-xxx designators for these.  Example:
   
   * BNC-5RA PN 70217 for #0893 Red Alert (PN given in instructions, no known Estes use of "BNC-5RA")
 
 2. Semroc-specific parts that Semroc made for their own unique kits.  If they were made to
    mate with an Estes tube size, Semroc would assign a made-up Estes style BNC-xxx
-   designation. Examples:
+   designation. Example:
    
    * BNC-20MG (1.9 inch odd shape for Semroc Moon Go)
 
@@ -320,7 +368,7 @@ situations:
 MPC produced rocket parts and kits from ca. 1969 to 1973, when the company was sold to
 AVI.  AVI continued to manufacture and sell kits under the MPC name until 1978.  The kit
 line is historically significant as many of them were designed by G. Harry Stine,
-considered one of the principal founders of model rocketry.
+one of the principal founders of model rocketry.
 
 Very short MPC catalogs were produced in 1969 and 1970, followed by a Minirocs brochure
 when 13mm motors and rockets were introduced.  The 1970 "catalog 2" lists the parts, with
@@ -329,7 +377,7 @@ sizes.  Only the OD of the tubes is given, and the nose cones are only identifie
 tube size they fit and a general profile drawing.
 
 The only online presence of the MPC catalogs is on
-http://vintagevendingwarehouse.weebly.com/history-of-mpc.html .
+http://vintagevendingwarehouse.weebly.com/history-of-mpc.html
 
 Tubes and nose cones that may have been added when the Miniroc line was introduced are not
 separately cataloged anywhere.  A couple have been identified (3 cal ellipsoid and 5 cal ogive
@@ -342,7 +390,8 @@ MPC tubes, implying a .5mm (.020") wall thickness.  The Quest data should also l
 definitively recover the nose cone shoulder diameters appropriate for the metric tubes.
 
 Despite the thin information, I have been able to build a relatively complete MPC parts file
-which is now included with this package.
+which is now included with this package.  Any parts that may have been created during
+the AVI ownership era have not been included yet.
 
 #### Madcow Rocketry
 
@@ -376,6 +425,7 @@ this components database.
   Apogee under Tim van Milligan did not carry forward)
 * CMR (defunct but had unique tube sizes)
 * FSI (defunct but had unique tube sizes)
+* Canaroc
 * High power kit and parts vendors
   * Rocketry Warehouse (now part of Madcow)
   * Polecat Aerospace
@@ -622,13 +672,13 @@ OpenRocket source tree:
 find . -name "*.java" | xargs grep XmlElement
 ```
 
-Note that you will not find specific entries for <EngineBlock>, <CenteringRing>,
-<Bulkhead>, and <LaunchLug>.  These exist but all are special cases of <BodyTube> and have the same
-allowed fields of <InsideDiameter>, <OutsideDiameter>, and <Length>.
+Note that you will not find specific entries for `EngineBlock`, `CenteringRing`,
+`Bulkhead`, and `LaunchLug`.  These exist but all are special cases of `BodyTube` and have the same
+allowed fields of `InsideDiameter`, `OutsideDiameter`, and `Length`.
 
 ### Enum Values for Nose Cone and Transition Shapes
 
-The allowed values for the "<Shape>" element in NoseCone and Transition elements are:
+The allowed values for the `Shape` element in `NoseCone` and `Transition` elements are:
 
 * CONICAL
 * ELLIPSOID
@@ -637,7 +687,7 @@ The allowed values for the "<Shape>" element in NoseCone and Transition elements
 * PARABOLIC
 * POWER
 
-The HAACK, OGIVE, PARABOLIC and POWER types all take a shape parameter that can be set in
+The HAACK, OGIVE, PARABOLIC and POWER types all take a numeric shape parameter that can be set in
 the UI, but that cannot be specified in a .orc file and get set to a default value when
 such a part is selected.
 
@@ -718,7 +768,7 @@ structural.
 * Fins:
    * Cannot define finset or tubefin components at all
 * Mass components:
-   * Cannot define mass component components at all
+   * Cannot define mass components at all
 * Shock cords:
    * Cannot define shock cord components at all
 * Additional problems not specific to .orc files:

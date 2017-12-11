@@ -208,10 +208,113 @@ Known issues:
            #2123 RediRoc Raider - both of these are saucers.  MMT was said to be plugged
            by John Lee on RocketReviews.  #2123 conflicts with Eggscaliber, a rare kit PN
            clash.  See 1996 Estes catalog.
-           ***
+           
+           OTHER UNUSUAL TUBE DESIGNATORS
+
+           There is an "SBT" designator seen in certain kits.  Brohm describes these as
+           meaning "special" body tube, and it appears that the number gives the OD of the tube.
+           See Brohm body tube reference Appendix II.
+
+              Used in #1287 LTV Scout:
+                SBT-139BJ  PN 30488  2.0" long
+                SBT-123BE  PN 30446  2.5" long
+                SBT-127GC  PN 30447  7.26" long
+
+              Used in #1288 Starlab and #1369 S.S. Cassiopeeia, #1383 Hyperion:
+                SBT-394AJ  PN 30449  1.0" long  Brohm notes same OD as BT-101 but with 0.042" wall
+                Listed here alongside the BT-101 since it's a variant of that size.
+
+              Used in #2048 Saturn 1B  (SBT designators created by Brohm in keeping with earlier SBTs)
+                Brohm notes that in the kit instructions they are identified only by part numbers
+                SBT-267  PN 30438   1.375" long
+                SBT-705  PN 30329   7.813" long  (stage 1 tanks)
+                SBT-262  PN 30436   7.625" long
+                SBT-116  PN 30379  11.00" long
       -->
 
+      <!-- Special Body Tube sizes.  Larger sizes presumed to be 0.021 wall, smaller ones .013 wall -->
+
+      <!-- PN 030329 SBT-705 from #2048 Saturn 1B, using 0.013 wall -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>SBT-705, 030329</PartNumber>
+        <Description>Body tube, SBT-705, 7.813 in., PN 030329</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.679</InsideDiameter>
+        <OutsideDiameter Unit="in">0.705</OutsideDiameter>
+        <Length Unit="in">7.813</Length>
+      </BodyTube>
+
+      <!-- SBT-116 used in #2048 Saturn 1B, using 0.013 wall -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>SBT-116, 030379</PartNumber>
+        <Description>Body tube, SBT-116, 11.0 in., PN 030379</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.134</InsideDiameter>
+        <OutsideDiameter Unit="in">1.160</OutsideDiameter>
+        <Length Unit="in">11.0</Length>
+      </BodyTube>
+
+      <!-- SBT-261 used in #2048 Saturn 1B, using 0.021 wall -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>SBT-261, 030436</PartNumber>
+        <Description>Body tube, SBT-261, 7.625 in., PN 030436</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">2.568</InsideDiameter>
+        <OutsideDiameter Unit="in">2.610</OutsideDiameter>
+        <Length Unit="in">7.625</Length>
+      </BodyTube>
+
+      <!-- SBT-267 used in #2048 Saturn 1B, using 0.021 wall -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>SBT-267, 030438</PartNumber>
+        <Description>Body tube, SBT-267, 1.375 in., PN 030438</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">2.628</InsideDiameter>
+        <OutsideDiameter Unit="in">2.670</OutsideDiameter>
+        <Length Unit="in">1.375</Length>
+      </BodyTube>
+
+
+      <!-- SBT-123BE from #1287 LTV Scout, using 0.021 wall -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>SBT-123BE, 030446</PartNumber>
+        <Description>Body tube, SBT-123BE, 2.5 in., PN 030446</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.188</InsideDiameter>
+        <OutsideDiameter Unit="in">1.230</OutsideDiameter>
+        <Length Unit="in">2.5</Length>
+      </BodyTube>
+
+      <!-- SBT-127GC from #1287 LTV Scout, using 0.021 wall -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>SBT-127GC, 030447</PartNumber>
+        <Description>Body tube, SBT-127GC, 7.26 in., PN 030447</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.228</InsideDiameter>
+        <OutsideDiameter Unit="in">1.270</OutsideDiameter>
+        <Length Unit="in">7.26</Length>
+      </BodyTube>
+
+      <!-- SBT-139BJ from #1287 LTV Scout, using 0.021 wall -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>SBT-139BJ, 030488</PartNumber>
+        <Description>Body tube, SBT-139BJ, 2.0 in., PN 030488</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.346</InsideDiameter>
+        <OutsideDiameter Unit="in">1.390</OutsideDiameter>
+        <Length Unit="in">2.0</Length>
+      </BodyTube>
+
+
       <!-- BT-5 -->
+
       <BodyTube>
         <Manufacturer>Estes</Manufacturer>
         <PartNumber>BT-5, 030302</PartNumber>
@@ -2576,7 +2679,7 @@ Known issues:
         <Length Unit="in">3.22</Length>
       </BodyTube>
 
-      <!-- BT-101 -->
+      <!-- BT-101 and SBT-394AJ -->
 
       <!-- BT-101SV used in #2001 Saturn V -->
       <BodyTube>
@@ -2640,6 +2743,17 @@ Known issues:
         <Description>Body tube, BT-101, 2.78 in., PN 30442</Description>
         <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
         <InsideDiameter Unit="in">3.896</InsideDiameter>
+        <OutsideDiameter Unit="in">3.938</OutsideDiameter>
+        <Length Unit="in">2.78</Length>
+      </BodyTube>
+
+      <!-- SBT-394AJ used in #1288 Starlab etc. BT-101 OD with 0.042 wall -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>SBT-394AJ, 30449</PartNumber>
+        <Description>Body tube, BT-101, 2.78 in., PN 30442</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">3.854</InsideDiameter>
         <OutsideDiameter Unit="in">3.938</OutsideDiameter>
         <Length Unit="in">2.78</Length>
       </BodyTube>
@@ -3633,12 +3747,12 @@ Known issues:
             <Length Unit="in">5.5</Length>
         </NoseCone>
         
-        <!-- BNC-50BA (old BOMARC #0657) ref Semroc legacy website.  Numeric PN (if any) not known.
+        <!-- BNC-50BA (old BOMARC #0657) ref Semroc legacy website.
              conical shape looks like best match.  Semroc weight given as 0.05 oz -->
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
-            <PartNumber>BNC-50BA</PartNumber>
-            <Description>Nose cone, balsa, BNC-50BA, 1.3", ramjet nacelle</Description>
+            <PartNumber>BNC-50BA, 70257</PartNumber>
+            <Description>Nose cone, balsa, BNC-50BA, 1.3", ramjet nacelle, PN 70257</Description>
             <Material Type="BULK">Balsa, bulk, Estes typical</Material>
             <Filled>true</Filled>
             <Shape>CONICAL</Shape>
@@ -3661,7 +3775,7 @@ Known issues:
             <OutsideDiameter Unit="in">0.976</OutsideDiameter>
             <ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
             <ShoulderLength Unit="in">0.5</ShoulderLength>
-            <Length Unit="in">2.6</Length>
+            <Length Unit="in">2.75</Length>
         </NoseCone>
         <!-- BNC-50BD (old Firecat #0821 only), ref 1974 custom parts catalog.
              Flared ogive so shape is an approximation.  Mass override needed due to heavier flared shape.
@@ -3683,7 +3797,7 @@ Known issues:
             <OutsideDiameter Unit="in">1.30</OutsideDiameter>
             <ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
             <ShoulderLength Unit="in">0.5</ShoulderLength>
-            <Length Unit="in">4.6</Length>
+            <Length Unit="in">5.0</Length>
         </NoseCone>
         <!-- BNC-50J ref 1975 catalog -->
         <NoseCone>
@@ -3789,10 +3903,26 @@ Known issues:
         <!-- BNC-55xx  -->
 
         
-        <!-- *** BTC-55Z tailcone for V-2 missing *** OR cannot model drilled transition mass/inertia correctly.
-             Data from 1974 custom parts catalog:  Length 3", shoulder 0.5", drilled for BT-20.
+        <!-- BTC-55Z tailcone for V-2.  OR cannot model drilled transition mass/inertia correctly.
+             Data from 1974 custom parts catalog:  Length 3", shoulder 0.5", weight 0.25 oz, drilled for BT-20.
              Model as reducing ogive transition.
         -->
+        <Transition>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>BTC-55Z [R]</PartNumber>
+            <Description>Transition, balsa, BTC-55Z, reducing</Description>
+            <Material Type="BULK">Balsa, bulk, Estes typical</Material>
+            <Mass Unit="oz">0.25</Mass>
+            <Shape>OGIVE</Shape>
+            <Filled>true</Filled>
+            <ForeOutsideDiameter Unit="in">1.325</ForeOutsideDiameter>
+            <ForeShoulderDiameter Unit="in">1.283</ForeShoulderDiameter>
+            <ForeShoulderLength Unit="in">0.5</ForeShoulderLength>
+            <AftOutsideDiameter Unit="in">0.736</AftOutsideDiameter>
+            <AftShoulderDiameter Unit="in">0.710</AftShoulderDiameter>
+            <AftShoulderLength Unit="in">0.0</AftShoulderLength>
+            <Length Unit="in">3.0</Length>
+        </Transition>
         
         <!-- BNC-55AA ref 1975 catalog.  Brohm index shows no uses in kits -->
         <NoseCone>
@@ -3923,7 +4053,7 @@ Known issues:
             <ShoulderLength Unit="in">0.875</ShoulderLength>
             <Length Unit="in">7.25</Length>
         </NoseCone>
-        <!-- BNC-60AK PN 70290 (K-41/#1241 Mercury Redstone) is Mercury capsule, conical shape is approximate
+        <!-- BNC-60AK PN 70290 (K-41/#1241 Mercury Redstone) is Gemini capsule, conical shape is approximate
              Ref 1974 custom parts catalog and K-41 instructions found on JimZ site
              BNC-60AK also appears in Brohm and on the Semroc parts list page for K-41/#1241.
         -->
@@ -4089,7 +4219,7 @@ Known issues:
           for most modern plastic nose cones it's a research project requiring an actual example.
           
           In 1975 there were only a couple of plastic nose cones in the catalog.  By 1995 Estes no longer used balsa
-          nose cones at all and no longer sold discrete nose cones, nearly everything changed to variety packs.  Newer plastic
+          nose cones at all and no longer sold discrete nose cones; nearly everything changed to variety packs.  Newer plastic
           nose cones also do not have traditional designators with suffix like "PNC-20Y".  In some cases they don't even have
           publicly known numeric PNs (when the NC is only sold in assortments and the relevant kit instructions do not list
           PNs). If you have a defective NC in your kit, Estes sends you a whole new kit because they don't even stock
@@ -4100,6 +4230,9 @@ Known issues:
           
           Brohm's encyclopedic nose cone reference list has numerous errors in the plastic nose cone listings, which I'm
           documenting as they are discovered.
+
+          The Semroc classic cross-reference page contains clues to various Estes PNCs, most including a PNC-xx
+          designator as well as numeric PN, about which little else is known.
           
           To handle cases where there is no traditional suffix designator, I am generating obviously synthetic part IDs of the form
               PNC-50_kitname    where 'kitname' is the name of a representative kit using the nose cone,
@@ -4221,7 +4354,61 @@ Known issues:
             <Length Unit="in">1.0</Length>
             <Thickness Unit="in">0.062</Thickness>
         </NoseCone>
-        
+
+        <!-- *** PNC-50xx known from Brohm but missing dimensions because they never appeared in a catalog ***
+             Most have no direct balsa equivalent.
+
+               PNC-50V PN 71025 / PNC-50BB PN 71027 from #1296 Satellite Interceptor etc.  Brohm notes that PNC-50V and PNC-50BB nose
+               cones are identical, but the PNC-50BB mold also includes a tail cone.
+               Semroc offers a BNC-50V with length 5.75" and unspecified shoulder length.  The Semroc drawing shows the
+               shape to be a hybrid cone/cylinder where the cone is about 4.75" and the cylinder about 1".
+               Comparing to PNC-55AO and PNC-55AC (similar length) we can estimate the mass at around 0.35 oz.
+
+               PNC-50BB tailcone section (#1296 Satellite Interceptor)  ***get dimensions from built model***
+
+               PNC-50F PN 071030 (#1371 Starship Nova)
+
+               PN 72023 blow molded (#1942 SR-71)
+
+               PNC-50A PN 072044 (#1929 Stealth)
+
+               PNC-50U PN 027046 (#1915 Harpoon) derived from Centuri PNC-102 from #KB-4 SkyLab
+
+               PNC-50CA PN 071005 (#1281 Alien Invader, #1383 Hyperion)
+
+               PN 071005 (#2010 Star Rider, #2175 Nemesis) - NOT the same as PNC-50CA; the PN got re-used
+
+               PN 033229 (#1337 NASA Space Shuttle Orbiter) injection molded
+
+               PNC-50M1 PN 071004 (#KC-1 Quasar) crhome plated
+
+               PNC-50SV PN 071002 (#1310 Colonial Viper)
+
+               PNC-50(?) PN 071000 (#1374 Orion, #1928 Manta Bomber)
+
+               PNC-50E PN 061299 (#2117 Screaming Eagle) Brohm says 4 7/8" long with canopy
+
+        -->
+
+
+        <!--
+            PRP-1H PN 032487/032492 (#1328 Kadet, #1416 Challenger I).  Brohm says 4 1/4" long and very similar to
+            PNC-50Y. The alternate PN 032492 is used by #1375 SAM-4.
+        -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>PRP-1H, 032487, 032492</PartNumber>
+            <Description>Nose cone, plastic, PRP-1H, PN 32487, PN 32492</Description>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
+            <Mass Unit="oz">0.228</Mass>
+            <Shape>PARABOLIC</Shape>
+            <OutsideDiameter Unit="in">0.974</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.50</ShoulderLength>
+            <Length Unit="in">2.625</Length>
+            <Thickness Unit="in">4.25</Thickness>
+        </NoseCone>
+
         <!-- PNC-50K ref 1974 Custom Parts catalog.  Red, slightly shorter than PNC-50KA
              Clear version is CPNC-50K 45015, chrome is PNC-M1 71004.  They have slightly different masses listed.
         -->
@@ -4229,6 +4416,19 @@ Known issues:
             <Manufacturer>Estes</Manufacturer>
             <PartNumber>PNC-50K, 71008</PartNumber>
             <Description>Nose cone, plastic, red, PNC-50K, PN 71008</Description>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
+            <Mass Unit="oz">0.228</Mass>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">0.974</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.50</ShoulderLength>
+            <Length Unit="in">2.625</Length>
+            <Thickness Unit="in">0.062</Thickness>
+        </NoseCone>
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>cPNC-50K, 45015</PartNumber>
+            <Description>Nose cone, plastic, clear, CPNC-50K, PN 45015, Phantom</Description>
             <Material Type="BULK">Polystyrene, cast, bulk</Material>
             <Mass Unit="oz">0.228</Mass>
             <Shape>OGIVE</Shape>
@@ -4268,11 +4468,26 @@ Known issues:
             <Thickness Unit="in">0.0457</Thickness>
         </NoseCone>
         
+        <!-- PNC-50X PN 071010 (#1282 Photon Disruptor), dimensions taken from Semroc BNC-50XP -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>PNC-50X, 71010</PartNumber>
+            <Description>Nose cone, plastic, PNC-50X, PN 71010</Description>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
+            <Mass Unit="oz">0.228</Mass>
+            <Shape>ELLIPSOID</Shape>
+            <OutsideDiameter Unit="in">0.974</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.50</ShoulderLength>
+            <Length Unit="in">3.25</Length>
+            <Thickness Unit="in">0.062</Thickness>
+        </NoseCone>
+
         <!-- PNC-50Y ref 1988 catalog, mass 0.16 oz = 4.5 g -->
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
-            <PartNumber>PNC-50Y</PartNumber>
-            <Description>Nose cone, plastic, PNC-50Y</Description>
+            <PartNumber>PNC-50Y, 71009</PartNumber>
+            <Description>Nose cone, plastic, PNC-50Y, PN 71009</Description>
             <Material Type="BULK">Polystyrene, cast, bulk</Material>
             <Mass Unit="oz">0.16</Mass>
             <Shape>PARABOLIC</Shape>
@@ -4282,6 +4497,101 @@ Known issues:
             <Length Unit="in">4.375</Length>
             <Thickness Unit="in">0.062</Thickness>
         </NoseCone>
+
+        <!-- PNC-50V (#1296 Satellite Interceptor) - dimensions recovered
+             from an actual sample from my own (built) vintage Satellite Interceptor.
+             Brohm notes that PNC-50V and PNC-50BB nose cones are identical, but the PNC-50BB mold also includes a tail cone.
+             From my sample:  Mass is 0.305 oz.
+             The shape is a hybrid cone/cylinder where the cone is 4.75" and the cylinder section is 1.0".
+             Shoulder:  cylinder part is 0.5" long.  There follows a reverse cone 0.375" long, with a molded-in
+             eyelet and a .2375" hole.  Base diam of the reverse cone is 0.320".  For interference purposes
+             the shoulder length is 0.875".
+        -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>PNC-50V, PNC-50BB, PN 71027</PartNumber>
+            <Description>Nose cone, plastic, PNC-50V/PNC-50BB, PN 71027</Description>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
+            <Mass Unit="oz">0.305</Mass>
+            <Shape>CONICAL</Shape>
+            <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.875</ShoulderLength>
+            <Length Unit="in">5.75</Length>
+            <Thickness Unit="in">0.062</Thickness>
+        </NoseCone>
+
+        <!-- PNC-50BB tail cone section (#1296 Satellite Interceptor etc).  This is molded in one unit with the PNC-50BB
+             and has no separate PN.  I have an actual example in a built model; the plastic is white.
+             Overall exposed length: 0.375".  There is a cylindrical flange that seats against the tube with OD 0.975"
+             and length 0.67" (1/16").  After the flange the shape is a straight diverging cone, whose diameter
+             at the junction with the flange is 0.850", and 0.976" at the rear.  The inside diameter of the cone at
+             the rear is about 0.922".  Inside throat diameter of the cone is 0.756".  I measured the thickness of
+             the rim at 0.046" but there is a bit of a ring/flashing right at the rim so the actual wall thickness
+             is probably a bit less.
+
+             Finally there is a square recess for the engine hook that extends the length
+             of the cone part and is 0.172" wide externally, and about 0.1265" internally, an exact match for the
+             width of my engine hook.  The height of this recess tunnel exactly matches the OD of the flange.
+
+             Shoulder length of the tailcone is not determined since it's glued into the model, but I'd estimate
+             it at 0.25".  Likewise I cannot measure the mass but would estimate it around 1/8 of the mass of the
+             nose cone part, or about 0.04 oz.
+
+             There is no reasonable way to visually model this in OpenRocket with a single component.  You will need to
+             use a bulkhead for the flange, with a phantom tube used to mount an increasing conical hollow transition
+             (zero length shoulders) to represent the cone.
+
+             To provide a mass-realistic dummy part, I here give a cylindrical hollow transitiion with no rear shoulder,
+             and a mass override so CG and inertia calculations will be realistic.
+          -->
+        <Transition>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>PNC-50BB-tailcone</PartNumber>
+            <Description>Tailcone, plastic, white, PNC-50BB-tailcone, PN 71027</Description>
+            <Material Type="BULK">Polyethylene, HDPE, bulk</Material>
+            <Shape>CONICAL</Shape>
+            <Mass Unit="oz">0.04</Mass>
+            <ForeOutsideDiameter Unit="in">0.976</ForeOutsideDiameter>
+            <ForeShoulderDiameter Unit="in">0.950</ForeShoulderDiameter>
+            <ForeShoulderLength Unit="in">0.25</ForeShoulderLength>
+            <AftOutsideDiameter Unit="in">0.976</AftOutsideDiameter>
+            <AftShoulderDiameter Unit="in">0.950</AftShoulderDiameter>
+            <AftShoulderLength Unit="in">0.0</AftShoulderLength>
+            <Length Unit="in">0.375</Length>
+            <Thickness Unit="in">0.046</Thickness>
+        </Transition>
+
+        <!-- *** Estes PNC-55xxx that appear in Brohm but for which we have no good data.  Some of these do not
+            have any known PN.  I have actual examples of a few of these in unopened kits.
+
+            PNC-55EK PN ???? (K-51 Sandhawk, #1251 Sandhawk).  ***See Semroc BNC-55SH for possible equivalent.***
+
+            PNC-55HJ PN 72058 (#1919 Honest John).  Dimensions of balsa version are on Semroc website.
+            We could have a good go at this using shoulder dimensions of PNC-55EX, but at this point
+            I have no good idea of the mass.
+
+            PNC-55EJ PN ???? (K-50 Interceptor, #1250 Interceptor)
+
+            PN ???? (#2003 SDI Satellite, #1977 GeoSat LV)
+
+            PN ???? (#2016 Explorer Aquarius)
+
+            PNC-55CB PN 71036 (#1289 Odyssey)
+
+            PNC-55IR (#1973 Interceptor II).  Also prepainted version PN 72055 used in #2183 Shuttle Xpress.
+
+            PNC-55B PN 72056 (#1367 Vindicator, #1910 USS Pleiaades) - blow molded version of PNC-55EJ
+
+            PN 72683 (#2125 AIM-9 Sidewinder) - no PNC-55xxx designation
+
+            PN 72701 (#2013 Recruiter, #2054 Beta Launch Vehicle) - no PNC-55xxx description
+
+            PNC-1287 PN 71067 (#1287 LTV Scout) plastic payload fairing nose+transition parts set.  I have a
+            built model.  This would need to be broken into 3 components (NC and two transitions) plus an SBT-139BJ tube.
+
+        -->
+
 
         <!--
             NC-55 with molded-in canopy for #1903 Xarconian Cruiser and #2000 Voyager II
@@ -4326,10 +4636,11 @@ Known issues:
         <!--
             PNC-55AO ref 1982 Estes Catalog, #1335 Blue Bird Zero and others, quoted mass 0.43 oz = 12.2 gm
             However I have an actual PNC-55AO from a 1980s Blue Bird Zero that only weighs 9.0 gm.
+            PNC-55AD PN 71076 as used in #2155 Super Nova Payloader is identical.
         -->
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
-            <PartNumber>PNC-55AO, 71075</PartNumber>
+            <PartNumber>PNC-55AO, 71075, PNC-55AD, 71076</PartNumber>
             <Description>Nose cone, plastic, PNC-55AO, PN 71075</Description>
             <Material Type="BULK">Polystyrene, cast, bulk</Material>
             <Shape>ELLIPSOID</Shape>
@@ -4377,8 +4688,25 @@ Known issues:
             <OutsideDiameter Unit="in">1.325</OutsideDiameter>
             <ShoulderDiameter Unit="in">1.283</ShoulderDiameter>
             <ShoulderLength Unit="in">0.750</ShoulderLength>
-            <Length Unit="in">5.750</Length>
+            <Length Unit="in">3.750</Length>
             <Thickness Unit="in">0.0385</Thickness>
+        </NoseCone>
+
+        <!-- PNC-55EX (#1925 Exocet, #1935 Neptune, #1955 Ranger).  Never appeared in a catalog,
+             but I have a Ranger, and Semroc cloned it in balsa as well.  Blow molded in white plastic.
+             Measured:  mass 0.400 oz (painted), shoulder len 1.0 functional, 1.375 total, len 3.375.
+             I removed .02 oz to correct for paint and tuned the thickness to give mass of 0.38 oz -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>PNC-55EX, PN 71031</PartNumber>
+            <Description>Nose cone, plastic, PNC-55EX, PN 71031</Description>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+            <ShoulderDiameter Unit="in">1.283</ShoulderDiameter>
+            <ShoulderLength Unit="in">1.375</ShoulderLength>
+            <Length Unit="in">3.375</Length>
+            <Thickness Unit="in">0.071</Thickness>
         </NoseCone>
 
         <!--
@@ -4453,7 +4781,10 @@ Known issues:
             be cut apart in the middle.  A 2" piece of ST-20 tube is inserted between the two parts.  For simulation
             purposes it has to be modeled as a separate NC and transition, so artificial part numbers are needed.
 
-            Part numbers:  Unknown.  Neither the #2072 Scrambler nor #1996 Eggspress kit instructions give part numbers.
+            Part numbers:  Unknown.  Neither the #2072 Scrambler nor #1996 Eggspress kit instructions give part numbers,
+            and Brohm lists the PNs as unknown.  Oddly, Brohm has separate listings for the Scrambler and Eggspress
+            capsules, where the Eggspress is shown (erroneously I believe) as BT-55.
+
             Colors: Enerjet versions of the capsule are molded in black (ref: I had one)
             Eggspress capsules were molded in yellow (ref: actual instance and kit card illustration)
             
