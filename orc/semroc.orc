@@ -11180,6 +11180,152 @@ Ejection baffle rings
     </NoseCone>
 
     <!-- =================================== -->
+    <!-- Series 11 nose cones for ST-11 tube -->
+    <!-- =================================== -->
+
+    <!-- BC-1121 is rounded tip cone, Cineroc shape downscale -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BC-1121</PartNumber>
+      <Description>Nose cone, balsa, BC-1121, 2.1", rounded tip cone, Cineroc shape downscale</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>CONICAL</Shape>
+      <OutsideDiameter Unit="in">1.170</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.130</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.75</ShoulderLength>
+      <Length Unit="in">2.1</Length>
+    </NoseCone>
+
+    <!-- BC-1122 is downscale of old Semroc NB-808 -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BC-1122</PartNumber>
+      <Description>Nose cone, balsa, BC-1122, 2.2", ogive, downscale of old Semroc NB-808</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">1.170</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.130</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.75</ShoulderLength>
+      <Length Unit="in">2.2</Length>
+    </NoseCone>
+
+    <!-- BC-1135 is 3.5" ellipsoid, FSI HNC-101 shape -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BC-1135</PartNumber>
+      <Description>Nose cone, balsa, BC-1135, 3.5", ellipsoid, FSI HNC-101 shape</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">1.170</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.130</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.75</ShoulderLength>
+      <Length Unit="in">3.5</Length>
+    </NoseCone>
+
+    <!-- BC-1135G is generic 3:1 ogive -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BC-1135G</PartNumber>
+      <Description>Nose cone, balsa, BC-1135G, 3.5", 3:1 ogive</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">1.170</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.130</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.75</ShoulderLength>
+      <Length Unit="in">3.5</Length>
+    </NoseCone>
+
+    <!-- BC-1147 is generic 4:1 ogive -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BC-1147</PartNumber>
+      <Description>Nose cone, balsa, BC-1147, 4.7", 4:1 ogive</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">1.170</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.130</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.75</ShoulderLength>
+      <Length Unit="in">4.7</Length>
+    </NoseCone>
+
+    <!-- BC-1149 is downscale of Estes PNC-55AC -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BC-1149</PartNumber>
+      <Description>Nose cone, balsa, BC-1149, 4.9", secant ogive, downscale of Estes PNC-55AC</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">1.170</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.130</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.75</ShoulderLength>
+      <Length Unit="in">4.9</Length>
+    </NoseCone>
+
+    <!-- BC-1150 is a 5.0" curved capsule.  Conical is decent approximation for mass. -->
+    <!-- BC-1135G is generic 3:1 ogive -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BC-1150</PartNumber>
+      <Description>Nose cone, balsa, BC-1150, 5.0", capsule shape</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>CONICAL</Shape>
+      <OutsideDiameter Unit="in">1.170</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.130</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.75</ShoulderLength>
+      <Length Unit="in">5.0</Length>
+    </NoseCone>
+
+    <!-- BC-1155 is a conic with short cylindrical section aft, 1/10 WAC Corporal -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BC-1155</PartNumber>
+      <Description>Nose cone, balsa, BC-1155, 5.5", 1/10 scale WAC Corporal</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>CONICAL</Shape>
+      <OutsideDiameter Unit="in">1.170</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.130</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.75</ShoulderLength>
+      <Length Unit="in">5.5</Length>
+    </NoseCone>
+
+    <!-- BC-1159 is generic 5:1 ogive -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BC-1159</PartNumber>
+      <Description>Nose cone, balsa, BC-1159, 5.9", 5:1 ogive</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">1.170</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.130</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.75</ShoulderLength>
+      <Length Unit="in">5.9</Length>
+    </NoseCone>
+
+    <!-- BC-1180 is generic 8.0" ogive -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BC-1180</PartNumber>
+      <Description>Nose cone, balsa, BC-1180, 8.0", ogive</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">1.170</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.130</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.75</ShoulderLength>
+      <Length Unit="in">8.0</Length>
+    </NoseCone>
+
+
+    <!-- =================================== -->
     <!-- BNC-55 nose cones for BT-55 tube    -->
     <!-- =================================== -->
 
@@ -11680,150 +11826,6 @@ Ejection baffle rings
     </Transition>
 
 
-    <!-- =================================== -->
-    <!-- Series 11 nose cones for ST-11 tube -->
-    <!-- =================================== -->
-
-    <!-- BC-1121 is rounded tip cone, Cineroc shape downscale -->
-    <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
-      <PartNumber>BC-1121</PartNumber>
-      <Description>Nose cone, balsa, BC-1121, 2.1", rounded tip cone, Cineroc shape downscale</Description>
-      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
-      <Filled>true</Filled>
-      <Shape>CONICAL</Shape>
-      <OutsideDiameter Unit="in">1.170</OutsideDiameter>
-      <ShoulderDiameter Unit="in">1.130</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.75</ShoulderLength>
-      <Length Unit="in">2.1</Length>
-    </NoseCone>
-
-    <!-- BC-1122 is downscale of old Semroc NB-808 -->
-    <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
-      <PartNumber>BC-1122</PartNumber>
-      <Description>Nose cone, balsa, BC-1122, 2.2", ogive, downscale of old Semroc NB-808</Description>
-      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
-      <Filled>true</Filled>
-      <Shape>OGIVE</Shape>
-      <OutsideDiameter Unit="in">1.170</OutsideDiameter>
-      <ShoulderDiameter Unit="in">1.130</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.75</ShoulderLength>
-      <Length Unit="in">2.2</Length>
-    </NoseCone>
-
-    <!-- BC-1135 is 3.5" ellipsoid, FSI HNC-101 shape -->
-    <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
-      <PartNumber>BC-1135</PartNumber>
-      <Description>Nose cone, balsa, BC-1135, 3.5", ellipsoid, FSI HNC-101 shape</Description>
-      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
-      <Filled>true</Filled>
-      <Shape>ELLIPSOID</Shape>
-      <OutsideDiameter Unit="in">1.170</OutsideDiameter>
-      <ShoulderDiameter Unit="in">1.130</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.75</ShoulderLength>
-      <Length Unit="in">3.5</Length>
-    </NoseCone>
-
-    <!-- BC-1135G is generic 3:1 ogive -->
-    <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
-      <PartNumber>BC-1135G</PartNumber>
-      <Description>Nose cone, balsa, BC-1135G, 3.5", 3:1 ogive</Description>
-      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
-      <Filled>true</Filled>
-      <Shape>OGIVE</Shape>
-      <OutsideDiameter Unit="in">1.170</OutsideDiameter>
-      <ShoulderDiameter Unit="in">1.130</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.75</ShoulderLength>
-      <Length Unit="in">3.5</Length>
-    </NoseCone>
-
-    <!-- BC-1147 is generic 4:1 ogive -->
-    <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
-      <PartNumber>BC-1147</PartNumber>
-      <Description>Nose cone, balsa, BC-1147, 4.7", 4:1 ogive</Description>
-      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
-      <Filled>true</Filled>
-      <Shape>OGIVE</Shape>
-      <OutsideDiameter Unit="in">1.170</OutsideDiameter>
-      <ShoulderDiameter Unit="in">1.130</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.75</ShoulderLength>
-      <Length Unit="in">4.7</Length>
-    </NoseCone>
-
-    <!-- BC-1149 is downscale of Estes PNC-55AC -->
-    <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
-      <PartNumber>BC-1149</PartNumber>
-      <Description>Nose cone, balsa, BC-1149, 4.9", secant ogive, downscale of Estes PNC-55AC</Description>
-      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
-      <Filled>true</Filled>
-      <Shape>OGIVE</Shape>
-      <OutsideDiameter Unit="in">1.170</OutsideDiameter>
-      <ShoulderDiameter Unit="in">1.130</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.75</ShoulderLength>
-      <Length Unit="in">4.9</Length>
-    </NoseCone>
-
-    <!-- BC-1150 is a 5.0" curved capsule.  Conical is decent approximation for mass. -->
-    <!-- BC-1135G is generic 3:1 ogive -->
-    <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
-      <PartNumber>BC-1150</PartNumber>
-      <Description>Nose cone, balsa, BC-1150, 5.0", capsule shape</Description>
-      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
-      <Filled>true</Filled>
-      <Shape>CONICAL</Shape>
-      <OutsideDiameter Unit="in">1.170</OutsideDiameter>
-      <ShoulderDiameter Unit="in">1.130</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.75</ShoulderLength>
-      <Length Unit="in">5.0</Length>
-    </NoseCone>
-
-    <!-- BC-1155 is a conic with short cylindrical section aft, 1/10 WAC Corporal -->
-    <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
-      <PartNumber>BC-1155</PartNumber>
-      <Description>Nose cone, balsa, BC-1155, 5.5", 1/10 scale WAC Corporal</Description>
-      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
-      <Filled>true</Filled>
-      <Shape>CONICAL</Shape>
-      <OutsideDiameter Unit="in">1.170</OutsideDiameter>
-      <ShoulderDiameter Unit="in">1.130</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.75</ShoulderLength>
-      <Length Unit="in">5.5</Length>
-    </NoseCone>
-
-    <!-- BC-1159 is generic 5:1 ogive -->
-    <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
-      <PartNumber>BC-1159</PartNumber>
-      <Description>Nose cone, balsa, BC-1159, 5.9", 5:1 ogive</Description>
-      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
-      <Filled>true</Filled>
-      <Shape>OGIVE</Shape>
-      <OutsideDiameter Unit="in">1.170</OutsideDiameter>
-      <ShoulderDiameter Unit="in">1.130</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.75</ShoulderLength>
-      <Length Unit="in">5.9</Length>
-    </NoseCone>
-
-    <!-- BC-1180 is generic 8.0" ogive -->
-    <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
-      <PartNumber>BC-1180</PartNumber>
-      <Description>Nose cone, balsa, BC-1180, 8.0", ogive</Description>
-      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
-      <Filled>true</Filled>
-      <Shape>OGIVE</Shape>
-      <OutsideDiameter Unit="in">1.170</OutsideDiameter>
-      <ShoulderDiameter Unit="in">1.130</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.75</ShoulderLength>
-      <Length Unit="in">8.0</Length>
-    </NoseCone>
 
 
     <!-- =================================== -->
@@ -12224,6 +12226,10 @@ Ejection baffle rings
       <Length Unit="in">7.1</Length>
     </NoseCone>
 
+
+    <!-- =================================== -->
+    <!-- BNC-58 nose cones for BT-58 tube    -->
+    <!-- =================================== -->
 
 
 
