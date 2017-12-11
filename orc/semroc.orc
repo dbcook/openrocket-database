@@ -4851,7 +4851,7 @@ Ejection baffle rings
 
     <TubeCoupler>
       <Manufacturer>SEMROC</Manufacturer>
-      <PartNumber>CPL-3-5-34"</PartNumber>
+      <PartNumber>CPL-3-5-34</PartNumber>
       <Description>Tube coupler, paper, BT-3, 34.0"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">0.250</InsideDiameter>
@@ -4860,7 +4860,7 @@ Ejection baffle rings
     </TubeCoupler>
     <TubeCoupler>
       <Manufacturer>SEMROC</Manufacturer>
-      <PartNumber>CPL-3-1"</PartNumber>
+      <PartNumber>CPL-3-1</PartNumber>
       <Description>Tube coupler, paper, BT-3, 1.0"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">0.250</InsideDiameter>
@@ -4872,7 +4872,7 @@ Ejection baffle rings
     
     <TubeCoupler>
       <Manufacturer>SEMROC</Manufacturer>
-      <PartNumber>CPL-4-34"</PartNumber>
+      <PartNumber>CPL-4-34</PartNumber>
       <Description>Tube coupler, paper, BT-4, 34.0"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">0.376</InsideDiameter>
@@ -4881,7 +4881,7 @@ Ejection baffle rings
     </TubeCoupler>
     <TubeCoupler>
       <Manufacturer>SEMROC</Manufacturer>
-      <PartNumber>CPL-4-2"</PartNumber>
+      <PartNumber>CPL-4-2</PartNumber>
       <Description>Tube coupler, paper, BT-4, 2.0"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">0.376</InsideDiameter>
@@ -4890,7 +4890,7 @@ Ejection baffle rings
     </TubeCoupler>
     <TubeCoupler>
       <Manufacturer>SEMROC</Manufacturer>
-      <PartNumber>CPL-4-1.25"</PartNumber>
+      <PartNumber>CPL-4-1.25</PartNumber>
       <Description>Tube coupler, paper, BT-4, 1.25"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">0.376</InsideDiameter>
@@ -4899,7 +4899,7 @@ Ejection baffle rings
     </TubeCoupler>
     <TubeCoupler>
       <Manufacturer>SEMROC</Manufacturer>
-      <PartNumber>CPL-4-1"</PartNumber>
+      <PartNumber>CPL-4-1</PartNumber>
       <Description>Tube coupler, paper, BT-4, 1.0"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">0.376</InsideDiameter>
@@ -4912,7 +4912,7 @@ Ejection baffle rings
     <!-- SOURCE ERROR: Semroc quotes OD as 0.516 which is greater than BT-5 ID of .515" -->
     <TubeCoupler>
       <Manufacturer>SEMROC</Manufacturer>
-      <PartNumber>CPL-5-34"</PartNumber>
+      <PartNumber>CPL-5-34</PartNumber>
       <Description>Tube coupler, paper, BT-5, 34.0"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">0.474</InsideDiameter>
@@ -4921,7 +4921,7 @@ Ejection baffle rings
     </TubeCoupler>
     <TubeCoupler>
       <Manufacturer>SEMROC</Manufacturer>
-      <PartNumber>CPL-5-2"</PartNumber>
+      <PartNumber>CPL-5-2</PartNumber>
       <Description>Tube coupler, paper, BT-5, 2.0"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">0.474</InsideDiameter>
@@ -4932,7 +4932,7 @@ Ejection baffle rings
          description says 1.75" so I went with 1.75" -->
     <TubeCoupler>
       <Manufacturer>SEMROC</Manufacturer>
-      <PartNumber>CPL-5-1.75"</PartNumber>
+      <PartNumber>CPL-5-1.75</PartNumber>
       <Description>Tube coupler, paper, BT-5, 1.75"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">0.474</InsideDiameter>
@@ -5006,7 +5006,7 @@ Ejection baffle rings
     
     <TubeCoupler>
       <Manufacturer>SEMROC</Manufacturer>
-      <PartNumber>CPL-20-34"</PartNumber>
+      <PartNumber>CPL-20-34</PartNumber>
       <Description>Tube coupler, paper, BT-20, 34.0"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">0.667</InsideDiameter>
@@ -5015,7 +5015,7 @@ Ejection baffle rings
     </TubeCoupler>
     <TubeCoupler>
       <Manufacturer>SEMROC</Manufacturer>
-      <PartNumber>CPL-20-3"</PartNumber>
+      <PartNumber>CPL-20-3</PartNumber>
       <Description>Tube coupler, paper, BT-20, 3.0"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">0.667</InsideDiameter>
@@ -5117,7 +5117,7 @@ Ejection baffle rings
     <!-- CPL-20-50-34" is AR-2050 centering ring stock in bulk -->
     <TubeCoupler>
       <Manufacturer>SEMROC</Manufacturer>
-      <PartNumber>CPL-20-50-34"</PartNumber>
+      <PartNumber>CPL-20-50-34</PartNumber>
       <Description>Tube coupler, paper, BT-50, 34.0", AR-2050 stock</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">0.738</InsideDiameter>
@@ -5126,7 +5126,7 @@ Ejection baffle rings
     </TubeCoupler>
     <TubeCoupler>
       <Manufacturer>SEMROC</Manufacturer>
-      <PartNumber>CPL-50-34"</PartNumber>
+      <PartNumber>CPL-50-34</PartNumber>
       <Description>Tube coupler, paper, BT-50, 34.0"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">0.880</InsideDiameter>
@@ -5135,7 +5135,7 @@ Ejection baffle rings
     </TubeCoupler>
     <TubeCoupler>
       <Manufacturer>SEMROC</Manufacturer>
-      <PartNumber>CPL-50-4"</PartNumber>
+      <PartNumber>CPL-50-4</PartNumber>
       <Description>Tube coupler, paper, BT-50, 4.0"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">0.880</InsideDiameter>
@@ -5144,7 +5144,7 @@ Ejection baffle rings
     </TubeCoupler>
     <TubeCoupler>
       <Manufacturer>SEMROC</Manufacturer>
-      <PartNumber>CPL-50-1"</PartNumber>
+      <PartNumber>CPL-50-1</PartNumber>
       <Description>Tube coupler, paper, BT-50, 1.0"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">0.880</InsideDiameter>
@@ -5172,7 +5172,7 @@ Ejection baffle rings
     -->
     <TubeCoupler>
       <Manufacturer>SEMROC</Manufacturer>
-      <PartNumber>CPL-52H-34"</PartNumber>
+      <PartNumber>CPL-52H-34</PartNumber>
       <Description>Tube coupler, paper, BTH-52/LT-115, 34.0"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">0.978</InsideDiameter>
@@ -5181,7 +5181,7 @@ Ejection baffle rings
     </TubeCoupler>
     <TubeCoupler>
       <Manufacturer>SEMROC</Manufacturer>
-      <PartNumber>CPL-52H-4"</PartNumber>
+      <PartNumber>CPL-52H-4</PartNumber>
       <Description>Tube coupler, paper, BTH-52/LT-115, 4.0"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">0.978</InsideDiameter>
@@ -5195,7 +5195,7 @@ Ejection baffle rings
     tube. -->
     <TubeCoupler>
       <Manufacturer>SEMROC</Manufacturer>
-      <PartNumber>CPL-55-34"</PartNumber>
+      <PartNumber>CPL-55-34</PartNumber>
       <Description>Tube coupler, paper, BTH-55, 34.0"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">1.213</InsideDiameter>
@@ -5205,7 +5205,7 @@ Ejection baffle rings
     <!-- CPL-50-55 is thick centering ring AR-5055 stock -->
     <TubeCoupler>
       <Manufacturer>SEMROC</Manufacturer>
-      <PartNumber>CPL-50-55-34"</PartNumber>
+      <PartNumber>CPL-50-55-34</PartNumber>
       <Description>Tube coupler, paper, BT-55, AR-5055 type, 34.0"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">0.978</InsideDiameter>
@@ -5271,7 +5271,7 @@ Ejection baffle rings
     <!-- Semroc coupler has specified wall .034" -->
     <TubeCoupler>
       <Manufacturer>SEMROC</Manufacturer>
-      <PartNumber>CPL-60-4"</PartNumber>
+      <PartNumber>CPL-60-4</PartNumber>
       <Description>Tube coupler, paper, BT-60, 4.0"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">1.525</InsideDiameter>
@@ -5386,7 +5386,7 @@ Ejection baffle rings
     -->
     <TubeCoupler>
       <Manufacturer>SEMROC</Manufacturer>
-      <PartNumber>CPL-ST20-4"</PartNumber>
+      <PartNumber>CPL-ST20-4</PartNumber>
       <Description>Tube coupler, paper, ST-20, 4.0"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">1.923</InsideDiameter>
@@ -5432,7 +5432,7 @@ Ejection baffle rings
     <!-- BT-80 couplers -->
     <TubeCoupler>
       <Manufacturer>SEMROC</Manufacturer>
-      <PartNumber>CPL-80-4"</PartNumber>
+      <PartNumber>CPL-80-4</PartNumber>
       <Description>Tube coupler, paper, BT-80, 4.0"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">2.486</InsideDiameter>
@@ -5499,7 +5499,7 @@ Ejection baffle rings
          2.99, ID 2.88, wall 0.055; I adopted that for now ***Investigate*** -->
     <TubeCoupler>
       <Manufacturer>SEMROC</Manufacturer>
-      <PartNumber>CPL-3.0"-34"</PartNumber>
+      <PartNumber>CPL-3.0"-34</PartNumber>
       <Description>Tube coupler, paper, T-3.0, 34.0"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">2.88</InsideDiameter>
@@ -5510,7 +5510,7 @@ Ejection baffle rings
     it is CPL-3.0"-4" and describes 4" length.  I adopted 6" ***investigate*** -->
     <TubeCoupler>
       <Manufacturer>SEMROC</Manufacturer>
-      <PartNumber>CPL-3.0"-6"</PartNumber>
+      <PartNumber>CPL-3.0"-6</PartNumber>
       <Description>Tube coupler, paper, T-3.0, 6.0"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">2.88</InsideDiameter>
@@ -5526,7 +5526,7 @@ Ejection baffle rings
          as correct -->
     <TubeCoupler>
       <Manufacturer>SEMROC</Manufacturer>
-      <PartNumber>CPL-100-6"</PartNumber>
+      <PartNumber>CPL-100-6</PartNumber>
       <Description>Tube coupler, paper, BT-100, 6.0"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">3.629</InsideDiameter>
@@ -5540,7 +5540,7 @@ Ejection baffle rings
          BT-101 and took wall .034 as used in other Semroc couplers ***investigate*** -->
     <TubeCoupler>
       <Manufacturer>SEMROC</Manufacturer>
-      <PartNumber>CPL-101-6"</PartNumber>
+      <PartNumber>CPL-101-6</PartNumber>
       <Description>Tube coupler, paper, BT-101, 6.0"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">3.826</InsideDiameter>
@@ -5564,7 +5564,7 @@ Ejection baffle rings
     <!-- This is an odd product as Semroc offers no 4.5" tube -->
     <TubeCoupler>
       <Manufacturer>SEMROC</Manufacturer>
-      <PartNumber>CPL-4.5"-6"</PartNumber>
+      <PartNumber>CPL-4.5"-6</PartNumber>
       <Description>Tube coupler, paper, T-4.5, 6.0"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">4.31</InsideDiameter>
