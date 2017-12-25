@@ -242,7 +242,7 @@ somewhat Mac centric because that's what I use most.
 | ----- | ----- | ----- |
 | `Estes.orc`              | Yes  | Split - see new files below
 | `loc_precision.orc`      | Yes  | 100% 
-| `semroc.orc`             | Yes  | 65%  (tubes, couplers, CRs in, nosecones about half done)
+| `semroc.orc`             | Yes  | 68%  (tubes, couplers, CRs in, nosecones about half done)
 | `Quest.orc`              | Yes  | --
 | `bluetube.orc`           | Yes  | 100% (tubes and couplers like stock file, still needs CRs and NCs)
 | `bms.orc`                | Yes  | --
