@@ -35,7 +35,7 @@ System compatibility:  works anywhere OpenRocket can run
 * Additions
   * bluetube.orc, with all body tubes and couplers, current published dimensions and empirical density
   * Estes SBT-xxx tube series added, complete per Brohm Appendix II
-  * Semroc BC-10, BC-11, BC-13, BNC-52, BNC-55, BNC-80 series, complete
+  * Semroc BC-10, BC-11, BC-13, BNC-52, BNC-55, BC-200, BNC-70, BNC-70H, BNC-80, BNC-80H series, complete
   * Estes PNC-55EX, data recovered from actual sample and Semroc BNC-55EX
   * Estes BTC-55Z V-2 tail cone
   * Notes on PNC-55xx where no published data is available
@@ -427,6 +427,8 @@ this components database.
   Apogee under Tim van Milligan did not carry forward)
 * CMR (defunct but had unique tube sizes)
 * FSI (defunct but had unique tube sizes)
+* ModelRockets.us (Discount Rocketry), smaller tubes with heavier wall than Estes
+* Very small (often one person) manufacturers including Kopter, Pine Cap Assoc., US Rockets, ASP, etc.
 * Canaroc
 * High power kit and parts vendors
   * Rocketry Warehouse (now part of Madcow)
