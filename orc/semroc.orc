@@ -12237,9 +12237,194 @@ Ejection baffle rings
 
     <!-- *** ADDING ITEMS HERE *** -->
 
+    <!-- ==================================================== -->
+    <!-- BNC-80H nose cones for BTH-80 heavy wall BT-80 tubes -->
+    <!-- ==================================================== -->
+    <!-- shoulder lengths all estimated -->
 
+    <!-- BNC-80HAC is 10.6" secant ogive, upscale of Estes BNC-55AC. See alaso BNC-80HACS -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-80HACS</PartNumber>
+      <Description>Nose cone, balsa, BNC-80HACS, 10.6", secant ogive, upscale of Estes BNC-55AC</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">2.640</OutsideDiameter>
+      <ShoulderDiameter Unit="in">2.555</ShoulderDiameter>
+      <ShoulderLength Unit="in">1.0</ShoulderLength>
+      <Length Unit="in">10.6</Length>
+    </NoseCone>
 
+    <!-- BNC-80HACS is 10.6" secant ogive, upscale of Estes BNC-55AC.  Semroc notes "uses JT-80E coupler",
+         may actually have had different shoulder size than BNC-80HAC, though listed sizes are the same.
+         Appears only on Semroc legacy site, no longer listed on website in Dec 2017. -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-80HACS</PartNumber>
+      <Description>Nose cone, balsa, BNC-80HACS, 10.6", secant ogive, upscale of Estes BNC-55AC</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">2.640</OutsideDiameter>
+      <ShoulderDiameter Unit="in">2.555</ShoulderDiameter>
+      <ShoulderLength Unit="in">1.0</ShoulderLength>
+      <Length Unit="in">10.6</Length>
+    </NoseCone>
+
+    <!-- BNC-80HAH is 10.5" ellipsoid (called ogive by Semroc) -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-80HBB</PartNumber>
+      <Description>Nose cone, balsa, BNC-80HAH, 10.5", ellipsoid</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">2.640</OutsideDiameter>
+      <ShoulderDiameter Unit="in">2.555</ShoulderDiameter>
+      <ShoulderLength Unit="in">1.0</ShoulderLength>
+      <Length Unit="in">10.5</Length>
+    </NoseCone>
+
+    <!-- BNC-80HAO is 9.8" ellipsoid, upscale of Estes BNC-50AO -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-80HAO</PartNumber>
+      <Description>Nose cone, balsa, BNC-80HAO, 9.8", ellipsoid</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">2.640</OutsideDiameter>
+      <ShoulderDiameter Unit="in">2.555</ShoulderDiameter>
+      <ShoulderLength Unit="in">1.0</ShoulderLength>
+      <Length Unit="in">9.8</Length>
+    </NoseCone>
+
+    <!-- BNC-80HBB is Estes PNC-80BB Super Big Bertha shape -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-80HBB</PartNumber>
+      <Description>Nose cone, balsa, BNC-80HBB, 4.0", ellipsoid, Estes PNC-80BB shape</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">2.640</OutsideDiameter>
+      <ShoulderDiameter Unit="in">2.555</ShoulderDiameter>
+      <ShoulderLength Unit="in">1.0</ShoulderLength>
+      <Length Unit="in">4.0</Length>
+    </NoseCone>
+
+    <!-- BNC-80HCO is 4.2" round tip cone -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-80HCO</PartNumber>
+      <Description>Nose cone, balsa, BNC-80HCO, 4.2", round tipe cone</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">2.640</OutsideDiameter>
+      <ShoulderDiameter Unit="in">2.555</ShoulderDiameter>
+      <ShoulderLength Unit="in">1.0</ShoulderLength>
+      <Length Unit="in">4.2</Length>
+    </NoseCone>
+
+    <!-- BNC-80HD is 5.0" ogive -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-80HD</PartNumber>
+      <Description>Nose cone, balsa, BNC-80HD, 5.0", fat ogive</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">2.640</OutsideDiameter>
+      <ShoulderDiameter Unit="in">2.555</ShoulderDiameter>
+      <ShoulderLength Unit="in">1.0</ShoulderLength>
+      <Length Unit="in">5.0</Length>
+    </NoseCone>
+
+    <!-- BNC-80HK is 8.2" ogive -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-80HK</PartNumber>
+      <Description>Nose cone, balsa, BNC-80HK, 8.2", ogive</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">2.640</OutsideDiameter>
+      <ShoulderDiameter Unit="in">2.555</ShoulderDiameter>
+      <ShoulderLength Unit="in">1.0</ShoulderLength>
+      <Length Unit="in">8.2</Length>
+    </NoseCone>
+
+    <!-- BNC-80HKA is 7.33" ogive -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-80HKA</PartNumber>
+      <Description>Nose cone, balsa, BNC-80HKA, 7.3", ogive</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">2.640</OutsideDiameter>
+      <ShoulderDiameter Unit="in">2.555</ShoulderDiameter>
+      <ShoulderLength Unit="in">1.0</ShoulderLength>
+      <Length Unit="in">7.3</Length>
+    </NoseCone>
     
+    <!-- BNC-80HKP is 6.9" rounded ogive -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-80HKP</PartNumber>
+      <Description>Nose cone, balsa, BNC-80HKP, 6.9", rounded ogive</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">2.640</OutsideDiameter>
+      <ShoulderDiameter Unit="in">2.555</ShoulderDiameter>
+      <ShoulderLength Unit="in">1.0</ShoulderLength>
+      <Length Unit="in">6.9</Length>
+    </NoseCone>
+
+    <!-- BNC-80HL is 5.1" ellipsoid (called bezier) -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-80HL</PartNumber>
+      <Description>Nose cone, balsa, BNC-80HL, 5.1", ellipsoid</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">2.640</OutsideDiameter>
+      <ShoulderDiameter Unit="in">2.555</ShoulderDiameter>
+      <ShoulderLength Unit="in">1.0</ShoulderLength>
+      <Length Unit="in">5.1</Length>
+    </NoseCone>
+
+    <!-- BNC-80HVE is 4.9" ogive -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-80HVE</PartNumber>
+      <Description>Nose cone, balsa, BNC-80HVE, 4.9", ogive</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">2.640</OutsideDiameter>
+      <ShoulderDiameter Unit="in">2.555</ShoulderDiameter>
+      <ShoulderLength Unit="in">1.0</ShoulderLength>
+      <Length Unit="in">4.9</Length>
+    </NoseCone>
+
+    <!-- BNC-80HX is 9.8" ellipsoid, upscale of Estes BNC-50X -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-80HX</PartNumber>
+      <Description>Nose cone, balsa, BNC-80HX, 9.8", ellipsoid, upscale of Estes BNC-50X</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">2.640</OutsideDiameter>
+      <ShoulderDiameter Unit="in">2.555</ShoulderDiameter>
+      <ShoulderLength Unit="in">1.0</ShoulderLength>
+      <Length Unit="in">9.8</Length>
+    </NoseCone>
 
 
     <!-- Series 225 (LT-225) nose cones.  All are upscales of smaller Estes/Centuri parts -->

@@ -33,8 +33,9 @@ System compatibility:  works anywhere OpenRocket can run
   * Fixed incorrect length of Estes PNC-55D
   * Improve discussion of Estes part indexing situation
 * Additions
+  * bluetube.orc, with all body tubes and couplers, current published dimensions and empirical density
   * Estes SBT-xxx tube series added, complete per Brohm Appendix II
-  * Semroc BC-10, BC-11, BC-13, BNC-52 and BNC-55 series, complete
+  * Semroc BC-10, BC-11, BC-13, BNC-52, BNC-55, BNC-80 series, complete
   * Estes PNC-55EX, data recovered from actual sample and Semroc BNC-55EX
   * Estes BTC-55Z V-2 tail cone
   * Notes on PNC-55xx where no published data is available
@@ -243,7 +244,7 @@ somewhat Mac centric because that's what I use most.
 | `loc_precision.orc`      | Yes  | 100% 
 | `semroc.orc`             | Yes  | 65%  (tubes, couplers, CRs in, nosecones about half done)
 | `Quest.orc`              | Yes  | --
-| `bluetube.orc`           | Yes  | --
+| `bluetube.orc`           | Yes  | 100% (tubes and couplers like stock file, still needs CRs and NCs)
 | `bms.orc`                | Yes  | --
 | `Fliskits.orc`           | Yes  | --
 | `giantleaprocketry.orc`  | Yes  | --
