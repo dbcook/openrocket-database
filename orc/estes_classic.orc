@@ -4836,6 +4836,13 @@ Known issues:
             <Thickness Unit="in">0.079</Thickness>
         </Transition>
 
+        <!-- PNC-60xx known to exist but with missing or incomplete data:
+            
+            PNC-60RL  PN 72305 (#1987 Sentinel, #1998 Mega Sizz' etc.).  Listed in Brohm.  Semroc has balsa clone so we have
+               len = 8.4", shape slightly round tip ogive, shoulder length 1.0" in Semroc balsa version.  Weight should be
+               nearly identical to PNC-80K at 1.6 oz.
+        -->
+
         <!--
             "PNC-60A" - another complicated case.  There is no such NC in the Brohm index.  rocketreviews.com lists it
             as an ogive: http://www.rocketreviews.com/estes-ogive-nose-cone-4320.html
@@ -4938,6 +4945,24 @@ Known issues:
             <Thickness Unit="in">0.125</Thickness>
         </NoseCone>
         
+        <!--  PNC-60RL  PN 72305 (#1987 Sentinel, #1998 Mega Sizz' etc.).  Listed in Brohm.  Semroc has balsa clone so we have
+              len = 8.4", shape slightly round tip ogive, shoulder length 1.0" in Semroc balsa version.  Weight estimated at
+              65% more than PNC-60NA so around 1.0 oz -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>PNC-80RL, 72305</PartNumber>
+            <Description>Nose cone, plastic, BT-60, 8.4", ogive, PNC-60RL, PN 72305</Description>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+            <ShoulderDiameter Unit="in">1.595</ShoulderDiameter>
+            <ShoulderLength Unit="in">1.00</ShoulderLength>
+            <Length Unit="in">8.4</Length>
+            <Thickness Unit="in">0.125</Thickness>
+            <Mass Unit="oz">1.0</Mass>
+        </NoseCone>
+
+
         <!--
             PNC-80BB (#2018 Super Big Bertha, #1273 Fat Boy) 4 inch ellipsoid, blow molded
             Dimensions partially derived, looking for more definitive
@@ -4974,6 +4999,8 @@ Known issues:
             <Length Unit="in">8.125</Length>
             <Thickness Unit="in">0.125</Thickness>
         </NoseCone>
+
+
         
         <!-- PNC-80SC, PN 072664 used only in #2141 Silver Comet, have no dimensions -->
 
