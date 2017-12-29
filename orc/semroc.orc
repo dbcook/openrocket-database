@@ -12231,9 +12231,285 @@ Ejection baffle rings
     <!-- BNC-58 nose cones for BT-58 tube    -->
     <!-- =================================== -->
 
+    <!-- BNC-58A8 8.0" ogive described as "Arcas 1/3 scale #8".  See also BNC-58AC for another Arcas variant. -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-58A8</PartNumber>
+      <Description>Nose cone, balsa, BT-58, 8.0", ogive, PN BNC-58A8, Arcas 1/3 scale</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">1.540</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.495</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.75</ShoulderLength>
+      <Length Unit="in">8.0</Length>
+    </NoseCone>
 
+    <!-- BNC-58AR 8.8" ogive described as "1/4 scale Arcon" -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-58AR</PartNumber>
+      <Description>Nose cone, balsa, BT-58, 8.8", ogive, PN BNC-58AR, Arcon 1/4 scale</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">1.540</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.495</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.75</ShoulderLength>
+      <Length Unit="in">8.8</Length>
+    </NoseCone>
 
+    <!-- BNC-58AB 8.8" ogive described as "Deci-Scale Aerobee Standard" -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-58AB</PartNumber>
+      <Description>Nose cone, balsa, BT-58, 8.8", ogive, PN BNC-58AB, Aerobee standard deci-scale</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">1.540</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.495</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.75</ShoulderLength>
+      <Length Unit="in">8.8</Length>
+    </NoseCone>
 
+    <!-- BNC-58AC 6.1" secant ogive described as "secant conical...For 1/3 Scale Arcas" -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-58AC</PartNumber>
+      <Description>Nose cone, balsa, BT-58, 6.1", secant ogive, PN BNC-58AC, Arcas 1/3 scale</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">1.540</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.495</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.75</ShoulderLength>
+      <Length Unit="in">6.1</Length>
+    </NoseCone>
+
+    <!-- BNC-58AF 4.5" conical described as "For 1/10 Scale Astrobee F" -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-58AF</PartNumber>
+      <Description>Nose cone, balsa, BT-58, 4.5", conical, PN BNC-58AF, Astrobee F 1/10 scale</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>CONICAL</Shape>
+      <OutsideDiameter Unit="in">1.540</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.495</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.75</ShoulderLength>
+      <Length Unit="in">4.5</Length>
+    </NoseCone>
+
+    <!-- BNC-58AP 1.2" conical capsule described as "1.2 inch capsule", PN implies Apollo capsule -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-58AP</PartNumber>
+      <Description>Nose cone, balsa, BT-58, 1.2", conical, PN BNC-58AP, Apollo capsule shape</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>CONICAL</Shape>
+      <OutsideDiameter Unit="in">1.540</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.495</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.75</ShoulderLength>
+      <Length Unit="in">1.2</Length>
+    </NoseCone>
+
+    <!-- BNC-58B 3.5" ellipsoid -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-58B</PartNumber>
+      <Description>Nose cone, balsa, BT-58, 3.5", ellipsoid, PN BNC-58B</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">1.540</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.495</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.75</ShoulderLength>
+      <Length Unit="in">3.5</Length>
+    </NoseCone>
+
+    <!-- BNC-58G 2.2" rounded conical capsule described as "upscale of BNC-52G" -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-58G</PartNumber>
+      <Description>Nose cone, balsa, BT-58, 2.2", capsule, PN BNC-58G, upscale of BNC-52G</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">1.540</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.495</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.75</ShoulderLength>
+      <Length Unit="in">2.2</Length>
+    </NoseCone>
+
+    <!-- BNC-58G3 is 3:1 5.3" ogive -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-58G3</PartNumber>
+      <Description>Nose cone, balsa, BT-58, 5.3", ogive, PN BNC-58G3, 3:1 ogive</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">1.540</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.495</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.75</ShoulderLength>
+      <Length Unit="in">5.3</Length>
+    </NoseCone>
+
+    <!-- BNC-58G4 is 4:1 6.9" ogive -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-58G4</PartNumber>
+      <Description>Nose cone, balsa, BT-58, 6.9", ogive, PN BNC-58G4, 4:1 ogive</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">1.540</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.495</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.75</ShoulderLength>
+      <Length Unit="in">6.9</Length>
+    </NoseCone>
+
+    <!-- BNC-58G5 is 5:1 8.4" ogive -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-58G4</PartNumber>
+      <Description>Nose cone, balsa, BT-58, 8.4", ogive, PN BNC-58G5, 5:1 ogive</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">1.540</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.495</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.75</ShoulderLength>
+      <Length Unit="in">8.4</Length>
+    </NoseCone>
+
+    <!-- BNC-58HD is 4.6" ogive -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-58HD</PartNumber>
+      <Description>Nose cone, balsa, BT-58, 4.6", ogive, PN BNC-58HD</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">1.540</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.495</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.75</ShoulderLength>
+      <Length Unit="in">4.6</Length>
+    </NoseCone>
+
+    <!-- BNC-58MA is 4.0" Mercury Atlas capsule -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-58MA</PartNumber>
+      <Description>Nose cone, balsa, BT-58, 4.0", Mercury Atlas Capsule, PN BNC-58MA</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">1.540</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.495</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.75</ShoulderLength>
+      <Length Unit="in">4.0</Length>
+      <Mass Unit="oz">0.33</Mass>
+    </NoseCone>
+
+    <!-- BNC-58MX is 6.4" ogive -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-58MX</PartNumber>
+      <Description>Nose cone, balsa, BT-58, 6.4", ogive, PN BNC-58MX</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">1.540</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.495</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.75</ShoulderLength>
+      <Length Unit="in">6.4</Length>
+    </NoseCone>
+
+    <!-- BNC-58P is 3.0" secant ogive -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-58P</PartNumber>
+      <Description>Nose cone, balsa, BT-58, 3.0", secant ogive, PN BNC-58P</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">1.540</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.495</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.75</ShoulderLength>
+      <Length Unit="in">3.0</Length>
+    </NoseCone>
+
+    <!-- BNC-58PD is 3.0" secant ogive, drilled 0.75" x approx 2.0" -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-58PD</PartNumber>
+      <Description>Nose cone, balsa, BT-58, 3.0", secant ogive, drilled, PN BNC-58P</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">1.540</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.495</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.75</ShoulderLength>
+      <Length Unit="in">3.0</Length>
+      <Mass Unit="oz">0.24</Mass>
+    </NoseCone>
+
+    <!-- BNC-58SS is 3.1" modified ellipsoid, called "Bezier" -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BNC-58SS</PartNumber>
+      <Description>Nose cone, balsa, BT-58, 3.1", modified ellipsoid, PN BNC-58SS</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">1.540</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.495</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.75</ShoulderLength>
+      <Length Unit="in">3.1</Length>
+    </NoseCone>
+
+    <!-- BTC-58AY is a 3.9" ogive section 24mm drilled tailcone described as "1/4 scale Arcon"
+         Aft OD and shoulder lengths estimated
+    -->
+    <Transition>
+        <Manufacturer>Semroc</Manufacturer>
+        <PartNumber>BTC-58AY [R]</PartNumber>
+        <Description>Transition, balsa, BT-58, 3.9", ogive, reducing, PN BTC-58AY, Arcon 1/4 scale</Description>
+        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Shape>OGIVE</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.540</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.495</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.5</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.400</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">0.950</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.0</AftShoulderLength>
+        <Length Unit="in">3.9</Length>
+        <Mass Unit="oz">0.33</Mass>
+    </Transition>
+
+    <!-- BTC-58MX is a 3.9" ogive section tailcone, drilled for 18mm MMT.  Aft OD and shoulder length estimated from drawing. -->
+    <Transition>
+        <Manufacturer>Semroc</Manufacturer>
+        <PartNumber>BTC-58MX [R]</PartNumber>
+        <Description>Transition, balsa, BT-58, 3.9", ogive, reducing, PN BTC-58MX</Description>
+        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Shape>OGIVE</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.540</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.495</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.5</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.300</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">0.736</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.0</AftShoulderLength>
+        <Length Unit="in">3.9</Length>
+        <Mass Unit="oz">0.33</Mass>
+    </Transition>
+
+    
 
     <!-- *** ADDING ITEMS HERE *** -->
 
