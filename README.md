@@ -35,7 +35,8 @@ System compatibility:  works anywhere OpenRocket can run
 * Additions
   * bluetube.orc, with all body tubes and couplers, current published dimensions and empirical density
   * Estes SBT-xxx tube series added, complete per Brohm Appendix II
-  * Semroc BC-10, BC-11, BC-13, BNC-52, BNC-55, BC-125, BNC-58, BC-200, BNC-70, BNC-70H, BNC-80, BNC-80H series, complete
+  * Semroc BC-10, BC-11, BC-13, BNC-52, BNC-55, BC-125, BNC-58, BC-150, BC-200 series, complete
+  * Semroc BNC-70, BNC-70H, BNC-80, BNC-80H series, complete
   * Estes PNC-55EX, data recovered from actual sample and Semroc BNC-55EX
   * Estes BTC-55Z V-2 tail cone
   * Notes on PNC-55xx where no published data is available

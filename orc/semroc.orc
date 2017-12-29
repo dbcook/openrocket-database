@@ -12649,6 +12649,82 @@ Ejection baffle rings
         <Mass Unit="oz">0.33</Mass>
     </Transition>
 
+    <!-- =============================================== -->
+    <!-- Series 150 nose cones for Centuri LT-150 tubes  -->
+    <!-- =============================================== -->
+    <!-- shoulder lengths estimated -->
+
+    <!-- BC-15044 is 4.4" conical, upscale of Estes BNC-5S -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BC-15044</PartNumber>
+      <Description>Nose cone, balsa, LT-150, 4.4", conical, Estes BNC-5S upscale, PN BC-15044</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>CONICAL</Shape>
+      <OutsideDiameter Unit="in">1.590</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.497</ShoulderDiameter>
+      <ShoulderLength Unit="in">1.00</ShoulderLength>
+      <Length Unit="in">4.4</Length>
+    </NoseCone>
+
+    <!-- BC-15066 is 6.6" ogive, upscale of Estes BNC-5AX -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BC-15066</PartNumber>
+      <Description>Nose cone, balsa, LT-150, 6.6", ogive, Estes BNC-5AX upscale, PN BC-15066</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">1.590</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.497</ShoulderDiameter>
+      <ShoulderLength Unit="in">1.00</ShoulderLength>
+      <Length Unit="in">6.6</Length>
+    </NoseCone>
+
+    <!-- BC-15070 is 7.0" ogive, upscale of Estes BNC-50Y -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BC-15070</PartNumber>
+      <Description>Nose cone, balsa, LT-150, 7.0", ogive, Estes BNC-50Y upscale, PN BC-15070</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">1.590</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.497</ShoulderDiameter>
+      <ShoulderLength Unit="in">1.00</ShoulderLength>
+      <Length Unit="in">7.0</Length>
+    </NoseCone>
+
+    <!-- BC-15080 is 8.0" ogive, upscale of Centuri BC-845 -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BC-15080</PartNumber>
+      <Description>Nose cone, balsa, LT-150, 8.0", round tip ogive, Centuri BC-845 upscale, PN BC-15080</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">1.590</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.497</ShoulderDiameter>
+      <ShoulderLength Unit="in">1.00</ShoulderLength>
+      <Length Unit="in">8.0</Length>
+    </NoseCone>
+
+    <!-- BC-15081 is 8.1" ogive, upscale of Centuri PNC-89 -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BC-15081</PartNumber>
+      <Description>Nose cone, balsa, LT-150, 8.1", round tip ogive, Centuri PNC-89 upscale, PN BC-15081</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">1.590</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.497</ShoulderDiameter>
+      <ShoulderLength Unit="in">1.00</ShoulderLength>
+      <Length Unit="in">8.1</Length>
+    </NoseCone>
+
+
     <!-- =============================== -->
     <!-- BNC-60xx nose cones for BT-60   -->
     <!-- =============================== -->
