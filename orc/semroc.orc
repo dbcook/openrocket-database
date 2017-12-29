@@ -11324,6 +11324,14 @@ Ejection baffle rings
       <Length Unit="in">8.0</Length>
     </NoseCone>
 
+    <!-- ============================================ -->
+    <!-- Series 115 nose cones for Series 115 tube    -->
+    <!-- ============================================ -->
+    <!-- shoulder lengths estimated from drawings on Semroc legacy site -->
+
+    <!-- *** TBD *** -->
+
+
 
     <!-- =================================== -->
     <!-- BNC-55 nose cones for BT-55 tube    -->
@@ -12226,6 +12234,138 @@ Ejection baffle rings
       <Length Unit="in">7.1</Length>
     </NoseCone>
 
+    <!-- ================================================ -->
+    <!-- Series 125 nose cones for Centuri LT-125 tube    -->
+    <!-- ================================================ -->
+    <!-- shoulder lengths estimated from drawings on legacy site -->
+
+    <!-- BC-12525 is 2.5" ogive -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BC-12525</PartNumber>
+      <Description>Nose cone, balsa, LT-125, 2.5", ogive, PN BC-12525</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">1.340</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.250</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.75</ShoulderLength>
+      <Length Unit="in">2.5</Length>
+    </NoseCone>
+
+    <!-- BC-12536 is 3.6" slightly rounded tip ogive, clone of Centuri BC-125A -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BC-12536</PartNumber>
+      <Description>Nose cone, balsa, LT-125, 3.6", ogive, PN BC-12536, Centuri BC-125A clone</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">1.340</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.250</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.75</ShoulderLength>
+      <Length Unit="in">3.6</Length>
+    </NoseCone>
+
+    <!-- BC-12545 is 4.5" ellipsoid, upscale of Estes BNC-50X -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BC-12545</PartNumber>
+      <Description>Nose cone, balsa, LT-125, 4.5", ellipsoid, PN BC-12545, upscale of Estes BNC-50X</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">1.340</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.250</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.75</ShoulderLength>
+      <Length Unit="in">4.5</Length>
+    </NoseCone>
+
+    <!-- BC-12548 is 4.8" ogive, upscale of Centuri BC-727 -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BC-12548</PartNumber>
+      <Description>Nose cone, balsa, LT-125, 4.8", ogive, PN BC-12548, upscale of Centuri BC-727</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">1.340</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.250</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.75</ShoulderLength>
+      <Length Unit="in">4.8</Length>
+    </NoseCone>
+
+    <!-- BC-12553 is 5.3" rounded ogive (closer to ellipsoid) -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BC-12553</PartNumber>
+      <Description>Nose cone, balsa, LT-125, 5.3", ellipsoid, PN BC-12553</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">1.340</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.250</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.75</ShoulderLength>
+      <Length Unit="in">5.3</Length>
+    </NoseCone>
+
+    <!-- BC-12555 is 5.5" ogive, clone of Centuri BC-125B -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BC-12555</PartNumber>
+      <Description>Nose cone, balsa, LT-125, 5.5", ogive, PN BC-12555, Centuri BC-125B clone</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">1.340</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.250</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.75</ShoulderLength>
+      <Length Unit="in">5.5</Length>
+    </NoseCone>
+
+    <!-- BC-12558 is 5.8" ogive, upscale of Centuri BC-733 -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BC-12558</PartNumber>
+      <Description>Nose cone, balsa, LT-125, 5.8", ogive, PN BC-12558, Centuri BC-733 upscale</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">1.340</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.250</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.75</ShoulderLength>
+      <Length Unit="in">5.8</Length>
+    </NoseCone>
+
+    <!-- BC-12561 is 6.1" ogive, upscale of Centuri BC-735 -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BC-12561</PartNumber>
+      <Description>Nose cone, balsa, LT-125, 6.1", ogive, PN BC-12561, Centuri BC-735 upscale</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">1.340</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.250</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.75</ShoulderLength>
+      <Length Unit="in">6.1</Length>
+    </NoseCone>
+
+    <!-- BC-125105 is 10.5" flared ogive, upscale of Centuri BC-760 -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BC-125105</PartNumber>
+      <Description>Nose cone, balsa, LT-125, 10.5", flared ogive, PN BC-125105, Centur BC-760 upscale</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">1.340</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.250</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.75</ShoulderLength>
+      <Length Unit="in">10.5</Length>
+      <Mass Unit="oz">1.08</Mass>
+    </NoseCone>
+
 
     <!-- =================================== -->
     <!-- BNC-58 nose cones for BT-58 tube    -->
@@ -12509,7 +12649,30 @@ Ejection baffle rings
         <Mass Unit="oz">0.33</Mass>
     </Transition>
 
-    
+    <!-- =============================== -->
+    <!-- BNC-60xx nose cones for BT-60   -->
+    <!-- =============================== -->
+    <!-- shoulder lengths estimated -->
+
+
+    <!-- ================================ -->
+    <!-- Series 16 nose cones for ST-16   -->
+    <!-- ================================ -->
+    <!-- shoulder lengths estimated -->
+
+
+    <!-- ================================ -->
+    <!-- BNC-65xx nose cones for PST-65   -->
+    <!-- ================================ -->
+    <!-- shoulder lengths estimated -->
+
+
+    <!-- ================================ -->
+    <!-- Series 16 nose cones for ST-18   -->
+    <!-- ================================ -->
+    <!-- shoulder lengths estimated -->
+
+
 
     <!-- *** ADDING ITEMS HERE *** -->
 
@@ -12525,9 +12688,9 @@ Ejection baffle rings
 
 
 
-    <!-- ============================== -->
-    <!-- Series 200 (LT-200) nose cones -->
-    <!-- ============================== -->
+    <!-- ============================================= -->
+    <!-- Series 200 nose cones for Centuri LT-200 tube -->
+    <!-- ============================================= -->
     <!-- shoulder lengths estimated -->
 
     <!-- BC-20040 is a 4.0" ellipsoid -->
@@ -12980,9 +13143,9 @@ Ejection baffle rings
     </Transition>
 
 
-    <!-- ================================================================================ -->
-    <!-- Series 225 (LT-225) nose cones.  All are upscales of smaller Estes/Centuri parts -->
-    <!-- ================================================================================ -->
+    <!-- ================================================ -->
+    <!-- Series 225 nose cones for Centuri LT-225 tubes   -->
+    <!-- ================================================ -->
 
     <!-- BC-22530 shape called "bezier", weight spec 0.74 oz -->
     <NoseCone>
