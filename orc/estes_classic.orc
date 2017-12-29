@@ -4053,14 +4053,14 @@ Known issues:
             <ShoulderLength Unit="in">0.875</ShoulderLength>
             <Length Unit="in">7.25</Length>
         </NoseCone>
-        <!-- BNC-60AK PN 70290 (K-41/#1241 Mercury Redstone) is Gemini capsule, conical shape is approximate
+        <!-- BNC-60AK PN 70290 (K-41/#1241 Mercury Redstone) is Mercury capsule, conical shape is approximate
              Ref 1974 custom parts catalog and K-41 instructions found on JimZ site
              BNC-60AK also appears in Brohm and on the Semroc parts list page for K-41/#1241.
         -->
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
             <PartNumber>BNC-60AK, 70290</PartNumber>
-            <Description>Nose cone, balsa, BNC-60AK, 3.0", Gemini Capsule, PN 70290</Description>
+            <Description>Nose cone, balsa, BNC-60AK, 3.0", Mercury Capsule, PN 70290</Description>
             <Material Type="BULK">Balsa, bulk, Estes typical</Material>
             <Mass Unit="oz">0.308</Mass>
             <Filled>true</Filled>
