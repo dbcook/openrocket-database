@@ -86,6 +86,13 @@ Ejection baffle rings
       <Type>BULK</Type>
     </Material>
  
+    <!-- Mylar (polyester) density quoted by DuPont as 1.39 g/cc -->
+    <Material UnitsOfMeasure="g/cm3">
+      <Name>Mylar, bulk</Name>
+      <Density>1390.0</Density>
+      <Type>BULK</Type>
+    </Material>
+
   </Materials>
 
   <Components>
@@ -4832,6 +4839,222 @@ Ejection baffle rings
       <OutsideDiameter Unit="in">3.938</OutsideDiameter>
       <Length Unit="in">1.0</Length>
     </BodyTube>
+
+
+    <!-- =================== -->
+    <!-- Clear Plastic Tubes -->
+    <!-- =================== -->
+
+    <!-- *** SOURCE ERROR: PST-65 dimension discrepancies ***
+         Semroc clear tube PST-65 (also called "BT-65 Clear" on the legacy site) and the corresponding BNC-65xx nose
+         cone dimensions show significant discrepancies.  Here is a table (all dimensions in inches)
+
+         SOURCE                        OD           ID         WALL    REMARKS
+
+         Estes 1974 CPC                1.641        1.595      (.023)  This is known to be an error in the CPC
+         Estes 1974 cat, PST-65R       1.796        1.750      (.023)  Same values appeared in all 1970s print catalogs
+         Semroc 2017 site, PST-65      (1.799)      1.737      .031    Specifies "diameter" (presumed ID) and wall only
+         Semroc 2017 site, BNC-65xx    NA           NA         NA      Modern site does not give nose cone diameters
+         Semroc legacy site, PST-65    1.774        1.750      (.012)  Likely to be an error
+         Semroc legacy site, BNC-65xx  1.796        1.750      (.023)
+
+         DISCUSSION
+
+         The Estes 1974 Custom Parts Catalog values are completely wrong and can be ignored.
+         
+         The Semroc legacy site values for the BNC-65xx nose cones BNC-65L and BNC-65AF agree exactly with the
+         Estes values.
+         
+         The modern Semroc site has PST-65 values that work out to a compatible OD but a discrepant ID.
+         
+         The legacy Semroc site gives an OD in the tube listings that is likely to be discrepant as it implies a very
+         thin wall.  it is worth noting that the digits "96" are exactly offset 2 keyboard positions from the
+         "74" seen in the questionable 1.774 value. 
+
+         At NARAM-58 I had a conversation with Randy Boadway (proprietor of eRockets and modern Semroc) about the
+         plastic tube sizes.  He mentioned that the sizing of the clear tubes was inconsistent from one lot to the next.
+         This could possibly account for the smaller ID value given on the 2017 site.
+
+         For now I am adopting the Estes print catalog values as the most likely to be correct, and so that the PST-65
+         related parts definitions in this database will all interchange correctly.
+    -->
+
+    <!-- Series 7 (Centuri compatible) clear tubes -->
+
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CPT-719</PartNumber>
+      <Description>Body tube, CPT-7, 1.87", PN CPT-719</Description>
+      <Material Type="BULK">Mylar, bulk</Material>
+      <InsideDiameter Unit="in">0.715</InsideDiameter>
+      <OutsideDiameter Unit="in">0.759</OutsideDiameter>
+      <Length Unit="in">1.87</Length>
+    </BodyTube>
+    <!-- *** SOURCE ERROR: legacy semroc site lists 1.87" length for CPT-720.  Should be 2.0"; has been corrected on 2017 site  -->
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CPT-720</PartNumber>
+      <Description>Body tube, CPT-7, 2.0", PN CPT-720</Description>
+      <Material Type="BULK">Mylar, bulk</Material>
+      <InsideDiameter Unit="in">0.715</InsideDiameter>
+      <OutsideDiameter Unit="in">0.759</OutsideDiameter>
+      <Length Unit="in">2.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CPT-722</PartNumber>
+      <Description>Body tube, CPT-7, 2.25", PN CPT-722</Description>
+      <Material Type="BULK">Mylar, bulk</Material>
+      <InsideDiameter Unit="in">0.715</InsideDiameter>
+      <OutsideDiameter Unit="in">0.759</OutsideDiameter>
+      <Length Unit="in">2.25</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CPT-7180</PartNumber>
+      <Description>Body tube, CPT-7, 18.0", PN CPT-7180</Description>
+      <Material Type="BULK">Mylar, bulk</Material>
+      <InsideDiameter Unit="in">0.715</InsideDiameter>
+      <OutsideDiameter Unit="in">0.759</OutsideDiameter>
+      <Length Unit="in">18.0</Length>
+    </BodyTube>
+
+    <!-- Series 8 (Centuri compatible) clear tubes -->
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CPT-825</PartNumber>
+      <Description>Body tube, CPT-8, 2.5", PN CPT-825</Description>
+      <Material Type="BULK">Mylar, bulk</Material>
+      <InsideDiameter Unit="in">0.865</InsideDiameter>
+      <OutsideDiameter Unit="in">0.908</OutsideDiameter>
+      <Length Unit="in">2.5</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CPT-835</PartNumber>
+      <Description>Body tube, CPT-8, 3.5", PN CPT-835</Description>
+      <Material Type="BULK">Mylar, bulk</Material>
+      <InsideDiameter Unit="in">0.865</InsideDiameter>
+      <OutsideDiameter Unit="in">0.908</OutsideDiameter>
+      <Length Unit="in">3.5</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CPT-8180</PartNumber>
+      <Description>Body tube, CPT-8, 18.0", PN CPT-8180</Description>
+      <Material Type="BULK">Mylar, bulk</Material>
+      <InsideDiameter Unit="in">0.865</InsideDiameter>
+      <OutsideDiameter Unit="in">0.908</OutsideDiameter>
+      <Length Unit="in">18.0</Length>
+    </BodyTube>
+
+    <!-- Series 10 (Centuri compatible) clear tubes -->
+    <!-- *** SOURCE ERROR:  Semroc legacy site erroneously replicates the CPT-8 dimensions for the CPT-10.
+         Semroc/eRockets dimensions from the 2017 site are inconsistent with ID 1.039", OD 1.060", wall .021" ***
+         Here I have set the dimensions to match up with actual ST-10 (ID of 1.00) and use the likely correct
+         .021 wall to give an OD of 1.042  -->
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CPT-10180</PartNumber>
+      <Description>Body tube, CPT-10, 18.0", PN CPT-10180</Description>
+      <Material Type="BULK">Mylar, bulk</Material>
+      <InsideDiameter Unit="in">1.00</InsideDiameter>
+      <OutsideDiameter Unit="in">1.042</OutsideDiameter>
+      <Length Unit="in">18.0</Length>
+    </BodyTube>
+
+    <!-- Series 13 (Centuri compatible) clear tubes.  These are newer and only appear on the modern Semroc/eRockets site.
+         The quoted dimensions are identical to paper #13 tubes, and CPT-13 is only available in a 3.5" length. -->
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CPT-1335</PartNumber>
+      <Description>Body tube, CPT-13, 3.5", PN CPT-1335</Description>
+      <Material Type="BULK">Mylar, bulk</Material>
+      <InsideDiameter Unit="in">1.300</InsideDiameter>
+      <OutsideDiameter Unit="in">1.340</OutsideDiameter>
+      <Length Unit="in">3.5</Length>
+    </BodyTube>
+
+    <!-- PST-50 (Estes compatible) clear tubes -->
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>PST-50S</PartNumber>
+      <Description>Body tube, PST-50, 4.0", PN PST-50S</Description>
+      <Material Type="BULK">Mylar, bulk</Material>
+      <InsideDiameter Unit="in">0.950</InsideDiameter>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+      <Length Unit="in">4.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>PST-50FJ</PartNumber>
+      <Description>Body tube, PST-50, 6.0", PN PST-50FJ</Description>
+      <Material Type="BULK">Mylar, bulk</Material>
+      <InsideDiameter Unit="in">0.950</InsideDiameter>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+      <Length Unit="in">6.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>PST-50</PartNumber>
+      <Description>Body tube, PST-50, 18.0", PN PST-50</Description>
+      <Material Type="BULK">Mylar, bulk</Material>
+      <InsideDiameter Unit="in">0.950</InsideDiameter>
+      <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+      <Length Unit="in">18.0</Length>
+    </BodyTube>
+
+    <!-- PST-55 (Estes compatible) clear tubes.  Only the PST-55-6 is listed on the modern 2017 site. -->
+    <!-- *** SOURCE ERROR:  on the legacy Semroc site, PST-55 and PST-55-6 are both listed with 12" length and identical weight *** -->
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>PST-55-6</PartNumber>
+      <Description>Body tube, PST-55, 6.0", PN PST-55-6</Description>
+      <Material Type="BULK">Mylar, bulk</Material>
+      <InsideDiameter Unit="in">1.283</InsideDiameter>
+      <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+      <Length Unit="in">6.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>PST-55</PartNumber>
+      <Description>Body tube, PST-55, 12.0", PN PST-55</Description>
+      <Material Type="BULK">Mylar, bulk</Material>
+      <InsideDiameter Unit="in">1.283</InsideDiameter>
+      <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+      <Length Unit="in">12.0</Length>
+    </BodyTube>
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>PST-55-180</PartNumber>
+      <Description>Body tube, PST-55, 18.0", PN PST-55-180</Description>
+      <Material Type="BULK">Mylar, bulk</Material>
+      <InsideDiameter Unit="in">1.283</InsideDiameter>
+      <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+      <Length Unit="in">18.0</Length>
+    </BodyTube>
+
+    <!-- PST-65 (Estes compatible) clear tubes -->
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>PST-65R</PartNumber>
+      <Description>Body tube, PST-65, 5.0", PN PST-65R</Description>
+      <Material Type="BULK">Mylar, bulk</Material>
+      <InsideDiameter Unit="in">1.750</InsideDiameter>
+      <OutsideDiameter Unit="in">1.796</OutsideDiameter>
+      <Length Unit="in">5.0</Length>
+    </BodyTube>
+    <!-- *** SOURCE ERROR: Semroc legacy site gives length of PST-65L as 5.0", same as PST-65R.  Should be 12". *** -->
+    <BodyTube>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>PST-65L</PartNumber>
+      <Description>Body tube, PST-65, 12.0", PN PST-65L</Description>
+      <Material Type="BULK">Mylar, bulk</Material>
+      <InsideDiameter Unit="in">1.750</InsideDiameter>
+      <OutsideDiameter Unit="in">1.796</OutsideDiameter>
+      <Length Unit="in">12.0</Length>
+    </BodyTube>
+
 
     <!-- Tube couplers -->
     <!-- ============= -->
@@ -13514,7 +13737,6 @@ Ejection baffle rings
     </Transition>
 
 
-    <!-- *** ADDING ITEMS HERE *** -->
 
     <!-- ================================ -->
     <!-- Series 16 nose cones for ST-16   -->
@@ -13522,17 +13744,15 @@ Ejection baffle rings
     <!-- shoulder lengths scaled from Semroc legacy site drawings -->
 
 
+
+
+    <!-- *** ADDING ITEMS HERE *** -->
+
+
     <!-- ====================================== -->
     <!-- BNC-65xx nose cones for Estes PST-65   -->
     <!-- ====================================== -->
     <!-- shoulder lengths scaled from Semroc legacy site drawings -->
-    <!-- *** SOURCE ERROR: dimension discrepancy - Semroc lists BNC-65xx OD as 1.796", while Estes PST-65 is 1.774".
-         This may be due to the known inconsistencies between different production runs of the clear plastic tubes
-         that Randy Boadway of eRockets / Semroc described to me.  Here I am using the Semroc published dimension.
-         Semroc PST-65x is listed on 2017 site as Diameter 1.737" / Thickness: 0.031" which would imply OD of 1.799".
-         But that is substantially incompatible wtih original Estes specs for PST-65 where the ID was 1.750" and also
-         with the BNC-65 where the shoulder diameter is quoted as 1.750", matching the Estes ID.
-    -->
 
     <!-- BNC-65AF is 4.0" ellipsoid -->
     <NoseCone>
@@ -13542,7 +13762,7 @@ Ejection baffle rings
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
-      <OutsideDiameter Unit="in">1.798</OutsideDiameter>
+      <OutsideDiameter Unit="in">1.796</OutsideDiameter>
       <ShoulderDiameter Unit="in">1.747</ShoulderDiameter>
       <ShoulderLength Unit="in">0.69</ShoulderLength>
       <Length Unit="in">4.0</Length>
@@ -13556,7 +13776,7 @@ Ejection baffle rings
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
-      <OutsideDiameter Unit="in">1.798</OutsideDiameter>
+      <OutsideDiameter Unit="in">1.796</OutsideDiameter>
       <ShoulderDiameter Unit="in">1.747</ShoulderDiameter>
       <ShoulderLength Unit="in">0.60</ShoulderLength>
       <Length Unit="in">3.4</Length>

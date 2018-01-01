@@ -31,6 +31,7 @@ System compatibility:  works anywhere OpenRocket can run
   * Merged PR2 - removed quote marks from Semroc PNs b/c OpenRocket mishandles in .ork's (thanks thzero)
   * Fix blue tube sizes/mass in tube_data.txt and body_tube_data.xlsx to current values from vendor
   * Fixed incorrect length of Estes PNC-55D
+  * Fix ID/OD of Estes PST-65 to print catalog values (was erroneous 1974 custom parts catalog values)
   * Improve discussion of Estes part indexing situation
 * Additions
   * bluetube.orc, with all body tubes and couplers, current published dimensions and empirical density
@@ -38,6 +39,7 @@ System compatibility:  works anywhere OpenRocket can run
   * Estes PNC-60RL recovered from Semroc balsa clone dimensions and Brohm PN listing
   * Semroc BC-10, BC-11, BC-13, BNC-52, BNC-55, BC-125, BNC-58, BC-150, BC-175, BC-200 series, complete
   * Semroc BC-085, BNC-60, BNC-65, BNC-70, BNC-70H, BNC-80, BNC-80H series, complete
+  * Semroc - all clear payload tubes
   * Estes PNC-55EX, data recovered from actual sample and Semroc BNC-55EX
   * Estes BTC-55Z V-2 tail cone
   * Notes on PNC-55xx where no published data is available
