@@ -26,7 +26,7 @@ OpenRocket compatibility:  tested with OpenRocket 15.03 __only__
 System compatibility:  works anywhere OpenRocket can run
 
 ## Release Notes
-0.9.0.16 - Dec 2017
+0.9.0.16 - Jan 2018
 * Fixes
   * Merged PR2 - removed quote marks from Semroc PNs b/c OpenRocket mishandles in .ork's (thanks thzero)
   * Fix blue tube sizes/mass in tube_data.txt and body_tube_data.xlsx to current values from vendor
@@ -37,7 +37,7 @@ System compatibility:  works anywhere OpenRocket can run
   * bluetube.orc, with all body tubes and couplers, current published dimensions and empirical density
   * Estes SBT-xxx tube series added, complete per Brohm Appendix II
   * Estes PNC-60RL recovered from Semroc balsa clone dimensions and Brohm PN listing
-  * Semroc BC-10, BC-11, BC-13, BNC-52, BNC-55, BC-125, BNC-58, BC-150, BC-175, BC-200 series, complete
+  * Semroc BC-10, BC-11, BC-13, BNC-52, BNC-55, BC-125, BNC-58, BC-150, BC-16, BC-175, BC-200 series, complete
   * Semroc BC-085, BNC-60, BNC-65, BNC-70, BNC-70H, BNC-80, BNC-80H series, complete
   * Semroc - all clear payload tubes
   * Semroc #11 tailcone BTC-11SC
