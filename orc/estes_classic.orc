@@ -2485,14 +2485,18 @@ Known issues:
         <Length Unit="in">5.0</Length>
       </BodyTube>
 
-      <!-- PST-65 clear payload tube -->
+      <!-- PST-65 clear payload tube 
+           *** SOURCE ERROR: There are conflicts on PST-65 / BNC-65 dimensions. ***
+           The 1974 CPC gives grossly incorrect OD 1.641  ID 1.595 (nearly the same as BT-60)
+           The 1974 Estes print catalog gives   OD 1.796  ID 1.750
+      -->
       <BodyTube>
         <Manufacturer>Estes</Manufacturer>
         <PartNumber>PST-65R, 30616</PartNumber>
         <Description>Body tube, clear, PST-65R, 5 in., PN 30616</Description>
         <Material Type="BULK">Mylar, bulk</Material>
-        <InsideDiameter Unit="in">1.595</InsideDiameter>
-        <OutsideDiameter Unit="in">1.637</OutsideDiameter>
+        <InsideDiameter Unit="in">1.750</InsideDiameter>
+        <OutsideDiameter Unit="in">1.796</OutsideDiameter>
         <Length Unit="in">5.0</Length>
       </BodyTube>
       
