@@ -37,7 +37,7 @@ System compatibility:  works anywhere OpenRocket can run
   * Estes SBT-xxx tube series added, complete per Brohm Appendix II
   * Estes PNC-60RL recovered from Semroc balsa clone dimensions and Brohm PN listing
   * Semroc BC-10, BC-11, BC-13, BNC-52, BNC-55, BC-125, BNC-58, BC-150, BC-175, BC-200 series, complete
-  * Semroc BC-085, BNC-70, BNC-70H, BNC-80, BNC-80H series, complete
+  * Semroc BC-085, BNC-60, BNC-65, BNC-70, BNC-70H, BNC-80, BNC-80H series, complete
   * Estes PNC-55EX, data recovered from actual sample and Semroc BNC-55EX
   * Estes BTC-55Z V-2 tail cone
   * Notes on PNC-55xx where no published data is available
@@ -244,7 +244,7 @@ somewhat Mac centric because that's what I use most.
 | ----- | ----- | ----- |
 | `Estes.orc`              | Yes  | Split - see new files below
 | `loc_precision.orc`      | Yes  | 100% 
-| `semroc.orc`             | Yes  | 68%  (tubes, couplers, CRs in, nosecones about half done)
+| `semroc.orc`             | Yes  | 75%  (tubes, couplers, CRs in, nosecones about 3/4 done)
 | `Quest.orc`              | Yes  | --
 | `bluetube.orc`           | Yes  | 100% (tubes and couplers like stock file, still needs CRs and NCs)
 | `bms.orc`                | Yes  | --
