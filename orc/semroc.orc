@@ -11568,6 +11568,29 @@ Ejection baffle rings
       <Length Unit="in">8.0</Length>
     </NoseCone>
 
+    <!-- BTC-11SC is a bulbous flared tailcone drilled for 18mm motor tube
+         *** SOURCE ERROR: Semroc legacy site gives length and weight as zero ***
+         Mass is estimated based on specified weights of other #11 nose cones
+         Length adnd shoulder length scaled from drawing on legacy site.
+    -->
+    <Transition>
+        <Manufacturer>Semroc</Manufacturer>
+        <PartNumber>BTC-11SC [R]</PartNumber>
+        <Description>Transition, balsa, BTC-11SC, tailcone, drilled 18mm, PN BTC-11SC</Description>
+        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Mass Unit="oz">0.32</Mass>
+        <Shape>OGIVE</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.170</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.130</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.5</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.170</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.130</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.0</AftShoulderLength>
+        <Length Unit="in">2.875</Length>
+    </Transition>
+
+
     <!-- ============================================ -->
     <!-- Series 115 nose cones for Series 115 tube    -->
     <!-- ============================================ -->

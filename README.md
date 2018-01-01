@@ -40,6 +40,7 @@ System compatibility:  works anywhere OpenRocket can run
   * Semroc BC-10, BC-11, BC-13, BNC-52, BNC-55, BC-125, BNC-58, BC-150, BC-175, BC-200 series, complete
   * Semroc BC-085, BNC-60, BNC-65, BNC-70, BNC-70H, BNC-80, BNC-80H series, complete
   * Semroc - all clear payload tubes
+  * Semroc #11 tailcone BTC-11SC
   * Estes PNC-55EX, data recovered from actual sample and Semroc BNC-55EX
   * Estes BTC-55Z V-2 tail cone
   * Notes on PNC-55xx where no published data is available
