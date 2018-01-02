@@ -14153,7 +14153,292 @@ Ejection baffle rings
     <!-- ================================ -->
     <!-- shoulder lengths scaled from Semroc legacy site drawings -->
 
+    <!-- BC-1828 is 2.8" ellipsoid -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BC-1828</PartNumber>
+      <Description>Nose cone, balsa, ST-18, 2.8", ellipsoid, PN BC-1828</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">1.840</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.798</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <Length Unit="in">2.8</Length>
+    </NoseCone>
 
+    <!-- BC-1828D is 2.8" ellipsoid, drilled 0.75" x 2.0" -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BC-1828D</PartNumber>
+      <Description>Nose cone, balsa, ST-18, 2.8", ellipsoid, drilled 0.75" x 2.0", PN BC-1828D</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">1.840</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.798</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <Length Unit="in">2.8</Length>
+      <Mass Unit="oz">0.37</Mass>
+    </NoseCone>
+
+    <!-- BC-1829D is an unusual 2.9" bi-ellipsoid, drilled 0.75" x 2.5" -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BC-1829D</PartNumber>
+      <Description>Nose cone, balsa, ST-18, 2.9", bi-ellipsoid, drilled 0.75" x 2.5", PN BC-1829D</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">1.840</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.798</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <Length Unit="in">2.9</Length>
+    </NoseCone>
+
+    <!-- BC-1834 is a 3.4" rounded conical, Estes Cineroc nose shape -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BC-1834</PartNumber>
+      <Description>Nose cone, balsa, ST-18, 3.4", round tip cone, Estes Cineroc shape, PN BC-1834</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>CONICAL</Shape>
+      <OutsideDiameter Unit="in">1.840</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.798</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <Length Unit="in">3.4</Length>
+      <Mass Unit="oz">0.41</Mass>
+    </NoseCone>
+
+    <!-- BC-1835 is generic 3.5" ellipsoid -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BC-1835</PartNumber>
+      <Description>Nose cone, balsa, ST-18, 3.5", ellipsoid, PN BC-1835</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">1.840</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.798</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <Length Unit="in">3.5</Length>
+    </NoseCone>
+
+    <!-- BC-1837 is a 3.7" irregular ellipsoid, upscale of Centuri PNC-132 -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BC-1837</PartNumber>
+      <Description>Nose cone, balsa, ST-18, 3.7", ellipsoid, Centuri PNC-132 upscale, PN BC-1837</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">1.840</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.798</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <Length Unit="in">3.7</Length>
+    </NoseCone>
+
+    <!-- BC-1840 is a 4.0" round tip ogive -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BC-1840</PartNumber>
+      <Description>Nose cone, balsa, ST-18, 4.0", round tip ogive, PN BC-1840</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">1.840</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.798</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.75</ShoulderLength>
+      <Length Unit="in">4.0</Length>
+    </NoseCone>
+
+    <!-- BC-1842 is a 4.2" ellipsoid (called ogive), upscale of Estes BNC-20B -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BC-1842</PartNumber>
+      <Description>Nose cone, balsa, ST-18, 4.2", ellipsoid, Estes BNC-20B upscale, PN BC-1842</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">1.840</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.798</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <Length Unit="in">4.2</Length>
+    </NoseCone>
+
+    <!-- BC-1845 is 4.5" fat ogive -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BC-1845</PartNumber>
+      <Description>Nose cone, balsa, ST-18, 4.5", fat ogive, PN BC-1845</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">1.840</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.798</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.75</ShoulderLength>
+      <Length Unit="in">4.5</Length>
+    </NoseCone>
+
+    <!-- BC-1848 is a 4.8" round tip fat ogive -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BC-1848</PartNumber>
+      <Description>Nose cone, balsa, ST-18, 4.8", round tip ogive, PN BC-1848</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">1.840</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.798</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.75</ShoulderLength>
+      <Length Unit="in">4.8</Length>
+    </NoseCone>
+
+    <!-- BC-1853 is a 5.3" secant ogive, upscale of Estes BNC-55F -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BC-1853</PartNumber>
+      <Description>Nose cone, balsa, ST-18, 5.3", secant ogive, Estes BNC-55F upscale, PN BC-1853</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">1.840</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.798</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <Length Unit="in">5.3</Length>
+    </NoseCone>
+
+    <!-- BC-1856 is a generic 5.6" 3:1 ogive -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BC-1856</PartNumber>
+      <Description>Nose cone, balsa, ST-18, 5.6", 3:1 ogive, PN BC-1856</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">1.840</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.798</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <Length Unit="in">5.6</Length>
+    </NoseCone>
+
+    <!-- BC-1859 is a 5.9" ogive, V-2 1/35 scale -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BC-1859</PartNumber>
+      <Description>Nose cone, balsa, ST-18, 5.9", ogive, V-2 1/35 scale, PN BC-1859</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">1.840</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.798</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <Length Unit="in">5.9</Length>
+    </NoseCone>
+
+    <!-- BC-1859D is 5.9" ogive, V-2 1/35 scale, drilled 0.75" x 4.0" -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BC-1859D</PartNumber>
+      <Description>Nose cone, balsa, ST-18, 5.9", ogive, V-2 1/35 scale, drilled 0.75" x 4.0", PN BC-1859D</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">1.840</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.798</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <Length Unit="in">5.9</Length>
+      <Mass Unit="oz">0.61</Mass>
+    </NoseCone>
+
+    <!-- BC-1861 is 6.1" ellipsoid, upscale of Estes BNC-56X -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BC-1861</PartNumber>
+      <Description>Nose cone, balsa, ST-18, 6.1", ellipsoid, Estes BNC-50X upscale, PN BC-1861</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">1.840</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.798</ShoulderDiameter>
+      <ShoulderLength Unit="in">1.0</ShoulderLength>
+      <Length Unit="in">6.1</Length>
+    </NoseCone>
+
+    <!-- BC-1869 is a 6.9" ogive, upscale of Estes BNC-20N -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BC-1869</PartNumber>
+      <Description>Nose cone, balsa, ST-18, 6.9", ogive, Estes BNC-20N upscale, PN BC-1869</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">1.840</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.798</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <Length Unit="in">6.9</Length>
+    </NoseCone>
+
+    <!-- BC-1869C is a 6.9" conical, upscale of Estes BNC-20R -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BC-1869C</PartNumber>
+      <Description>Nose cone, balsa, ST-18, 6.9", conical, Estes BNC-20R upscale, PN BC-1869C</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>CONICAL</Shape>
+      <OutsideDiameter Unit="in">1.840</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.798</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <Length Unit="in">6.9</Length>
+    </NoseCone>
+
+    <!-- BC-1874 is generic 7.4" 4:1 ogive -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BC-1874</PartNumber>
+      <Description>Nose cone, balsa, ST-18, 7.4", 4:1 ogive, PN BC-1874</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">1.840</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.798</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <Length Unit="in">7.4</Length>
+    </NoseCone>
+
+    <!-- BC-1892 is generic 9.2" 5:1 ogive -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BC-1892</PartNumber>
+      <Description>Nose cone, balsa, ST-18, 9.2", 5:1 ogive, PN BC-1892</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">1.840</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.798</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <Length Unit="in">9.2</Length>
+    </NoseCone>
+
+    <!-- BTC-18VY is 4.1" ogive tailcone, V-2 1/35 scale, drilled 24mm -->
+    <Transition>
+        <Manufacturer>Semroc</Manufacturer>
+        <PartNumber>BTC-18VY [R]</PartNumber>
+        <Description>Transition, balsa, ST-18, 4.1", ogive, reducing, drilled 24mm, V-2 1/35 scale, PN BTC-18VY</Description>
+        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Mass Unit="oz">0.21</Mass>
+        <Shape>OGIVE</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.840</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.798</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.57</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.11</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">0.976</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.0</AftShoulderLength>
+        <Length Unit="in">4.1</Length>
+    </Transition>
 
 
 
