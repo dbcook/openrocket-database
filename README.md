@@ -26,6 +26,17 @@ OpenRocket compatibility:  tested with OpenRocket 15.03 __only__
 System compatibility:  works anywhere OpenRocket can run
 
 ## Release Notes
+
+0.9.0.17 - Jan 2018
+* Fixes
+  * Started matching Semroc NC shoulder lengths to drawings from legacy site (some were already done that way)
+    * Series 200
+    * Series 225
+    * Series 275
+* Additions
+  * Semroc BC-20099
+  * Note about the apparent high accuracy of nose cone drawings on the Semroc legacy site.
+
 0.9.0.16 - Jan 2018
 * Fixes
   * Merged PR2 - removed quote marks from Semroc PNs b/c OpenRocket mishandles in .ork's (thanks thzero)
@@ -35,9 +46,9 @@ System compatibility:  works anywhere OpenRocket can run
   * Improve discussion of Estes part indexing situation
 * Additions
   * Semroc nose cones completed!  Added:
-  *   BC-10, BC-11, BC-13, BNC-52, BNC-55, BC-125, BNC-58, BC-150, BC-16, BC-175, BC-18, BC-20, BC-200 series
-  *   BC-085, BNC-60, BNC-65, BNC-70, BNC-70H, BNC-80, BNC-80H series
-  *   BTC-11SC tailcone
+    * BC-10, BC-11, BC-13, BNC-52, BNC-55, BC-125, BNC-58, BC-150, BC-16, BC-175, BC-18, BC-20, BC-200 series
+    * BC-085, BNC-60, BNC-65, BNC-70, BNC-70H, BNC-80, BNC-80H series
+    * BTC-11SC tailcone
   * Semroc - all clear payload tubes
   * bluetube.orc, with all body tubes and couplers, current published dimensions and empirical density
   * Estes SBT-xxx tube series added, complete per Brohm Appendix II
@@ -242,13 +253,22 @@ characterize it as very incomplete.  The information about how OpenRocket databa
 has been through several iterations including code dives and is pretty accurate, but it's
 somewhat Mac centric because that's what I use most.
 
+### Near Term Plan
+
+* Review Semroc nose cones for completeness
+* Adjust Semroc nose cone shoulder lengths to match drawings on legacy site
+* Add Semroc transitions, lugs and chutes
+* Add Bluetube / Always Ready Rocketry centering rings
+* Add Always Ready Rocketry nose cones (if data exists or can determine sourcing)
+* Review FlisKits, GLR, BMS, PML stock files
+
 ### Database Files Status
 
 | File                    | In Stock OR      |  Upgrade State                 |
 | ----- | ----- | ----- |
 | `Estes.orc`              | Yes  | Split - see new files below
 | `loc_precision.orc`      | Yes  | 100% 
-| `semroc.orc`             | Yes  | 75%  (tubes, couplers, CRs in, nosecones about 3/4 done)
+| `semroc.orc`             | Yes  | 80%  (tubes, couplers, CRs, nosecones done.  Need balsa transitions, lugs, chutes)
 | `Quest.orc`              | Yes  | --
 | `bluetube.orc`           | Yes  | 100% (tubes and couplers like stock file, still needs CRs and NCs)
 | `bms.orc`                | Yes  | --
@@ -370,6 +390,14 @@ situations:
    * BNC-20ED (4.2 inch "capsule", version of PNC-20ED from Saros, Nomad)
    * BNC-50KP (balsa version of PNC-50K, which was not the same shape as Estes BNC-50K)
    * BNC-50S (balsa version of PNC-50S; Estes never made a balsa version)
+
+It turns out that the shape drawings on the nose cone individual pages on the Semroc legacy site are
+accurately done to scale, and to make things even better, they are all at the *same* scale.  After realizing this, I've been
+doing pixel measurements in Gimp and getting reasonably accurate shoulder lengths for all the Semroc
+nose cones.  This also enabled good determination of the hole dimensions in drilled nose cones.
+
+The nose cone drawings have also proven that when Semroc made an upscale/downscale of a nose cone,
+they did *not* scale the shoulder length exactly, just the shape of the exposed portion.
 
 #### MPC
 

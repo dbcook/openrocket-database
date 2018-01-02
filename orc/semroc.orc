@@ -14898,7 +14898,7 @@ Ejection baffle rings
     <!-- ============================================= -->
     <!-- Series 200 nose cones for Centuri LT-200 tube -->
     <!-- ============================================= -->
-    <!-- shoulder lengths estimated -->
+    <!-- shoulder lengths scaled from drawings on Semroc legacy site -->
 
     <!-- BC-20040 is a 4.0" ellipsoid -->
     <NoseCone>
@@ -14910,7 +14910,7 @@ Ejection baffle rings
       <Shape>ELLIPSOID</Shape>
       <OutsideDiameter Unit="in">2.080</OutsideDiameter>
       <ShoulderDiameter Unit="in">1.998</ShoulderDiameter>
-      <ShoulderLength Unit="in">1.0</ShoulderLength>
+      <ShoulderLength Unit="in">0.75</ShoulderLength>
       <Length Unit="in">4.0</Length>
     </NoseCone>
 
@@ -14924,7 +14924,7 @@ Ejection baffle rings
       <Shape>ELLIPSOID</Shape>
       <OutsideDiameter Unit="in">2.080</OutsideDiameter>
       <ShoulderDiameter Unit="in">1.998</ShoulderDiameter>
-      <ShoulderLength Unit="in">1.0</ShoulderLength>
+      <ShoulderLength Unit="in">1.07</ShoulderLength>
       <Length Unit="in">4.0</Length>
     </NoseCone>
 
@@ -14932,15 +14932,30 @@ Ejection baffle rings
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-20090</PartNumber>
-      <Description>Nose cone, balsa, LT-200, 9.0", ogive, PN BC-20090</Description>
+      <Description>Nose cone, balsa, LT-200, 9.0", ogive, Centuri PNC-106 upscale, PN BC-20090</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">2.080</OutsideDiameter>
       <ShoulderDiameter Unit="in">1.998</ShoulderDiameter>
-      <ShoulderLength Unit="in">1.0</ShoulderLength>
+      <ShoulderLength Unit="in">1.07</ShoulderLength>
       <Length Unit="in">9.0</Length>
     </NoseCone>
+
+    <!-- BC-20099 is 9.9" rounded tip ogive (called bezier) -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-20099</PartNumber>
+      <Description>Nose cone, balsa, LT-200, 9.9", round tip ogive, PN BC-20099</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">2.080</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.998</ShoulderDiameter>
+      <ShoulderLength Unit="in">1.07</ShoulderLength>
+      <Length Unit="in">9.9</Length>
+    </NoseCone>
+
 
     <!-- ============================== -->
     <!-- BNC-70xx (BT-70) nose cones    -->
@@ -15337,6 +15352,7 @@ Ejection baffle rings
     <!-- ================================================ -->
     <!-- Series 225 nose cones for Centuri LT-225 tubes   -->
     <!-- ================================================ -->
+    <!-- Shoulder lengths scaled from drawings on Semroc legacy site -->
 
     <!-- BC-22530 shape called "bezier", weight spec 0.74 oz -->
     <NoseCone>
@@ -15348,7 +15364,7 @@ Ejection baffle rings
       <Shape>ELLIPSOID</Shape>
       <OutsideDiameter Unit="in">2.340</OutsideDiameter>
       <ShoulderDiameter Unit="in">2.248</ShoulderDiameter>
-      <ShoulderLength Unit="in">1.25</ShoulderLength>
+      <ShoulderLength Unit="in">1.07</ShoulderLength>
       <Length Unit="in">3.0</Length>
     </NoseCone>
     <!-- BC-22545 weight spec 1.2 oz -->
@@ -15361,7 +15377,7 @@ Ejection baffle rings
       <Shape>ELLIPSOID</Shape>
       <OutsideDiameter Unit="in">2.340</OutsideDiameter>
       <ShoulderDiameter Unit="in">2.248</ShoulderDiameter>
-      <ShoulderLength Unit="in">1.25</ShoulderLength>
+      <ShoulderLength Unit="in">1.07</ShoulderLength>
       <Length Unit="in">4.5</Length>
     </NoseCone>
     <!-- BC-22548 shape called "bezier", weight spec 1.13 oz -->
@@ -15374,7 +15390,7 @@ Ejection baffle rings
       <Shape>ELLIPSOID</Shape>
       <OutsideDiameter Unit="in">2.340</OutsideDiameter>
       <ShoulderDiameter Unit="in">2.248</ShoulderDiameter>
-      <ShoulderLength Unit="in">1.25</ShoulderLength>
+      <ShoulderLength Unit="in">1.07</ShoulderLength>
       <Length Unit="in">4.8</Length>
     </NoseCone>
     <!-- BC-22551 weight spec 1.16 oz -->
@@ -15387,7 +15403,7 @@ Ejection baffle rings
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">2.340</OutsideDiameter>
       <ShoulderDiameter Unit="in">2.248</ShoulderDiameter>
-      <ShoulderLength Unit="in">1.25</ShoulderLength>
+      <ShoulderLength Unit="in">1.07</ShoulderLength>
       <Length Unit="in">5.1</Length>
     </NoseCone>
     <!-- BC-22563 shape called "bezier", rounded point ogive, weight spec 1.34 oz -->
@@ -15400,7 +15416,7 @@ Ejection baffle rings
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">2.340</OutsideDiameter>
       <ShoulderDiameter Unit="in">2.248</ShoulderDiameter>
-      <ShoulderLength Unit="in">1.25</ShoulderLength>
+      <ShoulderLength Unit="in">1.07</ShoulderLength>
       <Length Unit="in">6.25</Length>
     </NoseCone>
     <!-- BC-22567 weight spec 1.41 oz -->
@@ -15413,7 +15429,7 @@ Ejection baffle rings
       <Shape>ELLIPSOID</Shape>
       <OutsideDiameter Unit="in">2.340</OutsideDiameter>
       <ShoulderDiameter Unit="in">2.248</ShoulderDiameter>
-      <ShoulderLength Unit="in">1.25</ShoulderLength>
+      <ShoulderLength Unit="in">1.07</ShoulderLength>
       <Length Unit="in">6.7</Length>
     </NoseCone>
     <!-- BC-22567E weight spec 1.41 oz -->
@@ -15426,7 +15442,7 @@ Ejection baffle rings
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">2.340</OutsideDiameter>
       <ShoulderDiameter Unit="in">2.248</ShoulderDiameter>
-      <ShoulderLength Unit="in">1.25</ShoulderLength>
+      <ShoulderLength Unit="in">1.07</ShoulderLength>
       <Length Unit="in">6.7</Length>
     </NoseCone>
     <!-- BC-22569 weight spec 1.53 oz -->
@@ -15439,74 +15455,72 @@ Ejection baffle rings
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">2.340</OutsideDiameter>
       <ShoulderDiameter Unit="in">2.248</ShoulderDiameter>
-      <ShoulderLength Unit="in">1.25</ShoulderLength>
+      <ShoulderLength Unit="in">1.07</ShoulderLength>
       <Length Unit="in">6.9</Length>
     </NoseCone>
-    <!-- BC-22578 weight spec 1.66 oz.  BNC-50X had 0.5" shoulder so using 1.125" here -->
+    <!-- BC-22578 weight spec 1.66 oz. -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-22578</PartNumber>
-      <Description>Nose cone, balsa, LT-225, 7.8", ogive, BNC-50X upscale, PN BC-22578</Description>
+      <Description>Nose cone, balsa, LT-225, 7.8", ogive, Estes BNC-50X upscale, PN BC-22578</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">2.340</OutsideDiameter>
       <ShoulderDiameter Unit="in">2.248</ShoulderDiameter>
-      <ShoulderLength Unit="in">1.125</ShoulderLength>
+      <ShoulderLength Unit="in">1.07</ShoulderLength>
       <Length Unit="in">7.8</Length>
     </NoseCone>
     <!-- BC-22579 weight spec 1.64 oz -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-22579</PartNumber>
-      <Description>Nose cone, balsa, LT-225, 7.9", ogive, PNC-165 upscale, PN BC-22579</Description>
+      <Description>Nose cone, balsa, LT-225, 7.9", ogive, Centuri PNC-165 upscale, PN BC-22579</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">2.340</OutsideDiameter>
       <ShoulderDiameter Unit="in">2.248</ShoulderDiameter>
-      <ShoulderLength Unit="in">1.25</ShoulderLength>
+      <ShoulderLength Unit="in">1.07</ShoulderLength>
       <Length Unit="in">7.9</Length>
     </NoseCone>
-    <!-- BC-22588 shape (BNC-55AO) is closer to ogive, weight spec 1.82 oz.  Original
-         shoulder length 0.75" so using 1.375" here -->
+    <!-- BC-22588 shape (BNC-55AO) is closer to ogive, weight spec 1.82 oz.  Original shoulder length was 0.75" -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-22588</PartNumber>
-      <Description>Nose cone, balsa, LT-225, 8.8", ellipsoid, BNC-55AO upscale, PN BC-22588</Description>
+      <Description>Nose cone, balsa, LT-225, 8.8", ellipsoid, Estes BNC-55AO upscale, PN BC-22588</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
       <OutsideDiameter Unit="in">2.340</OutsideDiameter>
       <ShoulderDiameter Unit="in">2.248</ShoulderDiameter>
-      <ShoulderLength Unit="in">1.375</ShoulderLength>
+      <ShoulderLength Unit="in">1.07</ShoulderLength>
       <Length Unit="in">8.8</Length>
     </NoseCone>
-    <!-- BC-22595 weight spec 1.52 oz.  Original shoulder length was only 0.375; Semroc
-         diagram looks longer than scale 0.66"; using 1.25" -->
+    <!-- BC-22595 weight spec 1.52 oz.  Original shoulder length was only 0.375". -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-22595</PartNumber>
-      <Description>Nose cone, balsa, LT-225, 9.5", ogive, BNC-55AC upscale, PN BC-22595</Description>
+      <Description>Nose cone, balsa, LT-225, 9.5", ogive, Estes BNC-55AC upscale, PN BC-22595</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">2.340</OutsideDiameter>
       <ShoulderDiameter Unit="in">2.248</ShoulderDiameter>
-      <ShoulderLength Unit="in">1.25</ShoulderLength>
+      <ShoulderLength Unit="in">1.07</ShoulderLength>
       <Length Unit="in">9.5</Length>
     </NoseCone>
     <!-- BC-22597 weight spec 1.73 oz -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-22597</PartNumber>
-      <Description>Nose cone, balsa, LT-225, 9.7", ogive, BNC-5AX upscale, PN BC-22597</Description>
+      <Description>Nose cone, balsa, LT-225, 9.7", ogive, Estes BNC-5AX upscale, PN BC-22597</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">2.340</OutsideDiameter>
       <ShoulderDiameter Unit="in">2.248</ShoulderDiameter>
-      <ShoulderLength Unit="in">1.25</ShoulderLength>
+      <ShoulderLength Unit="in">1.07</ShoulderLength>
       <Length Unit="in">9.7</Length>
     </NoseCone>
     <!-- BC-225103 weight spec 2.16 oz -->
@@ -15519,7 +15533,7 @@ Ejection baffle rings
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">2.340</OutsideDiameter>
       <ShoulderDiameter Unit="in">2.248</ShoulderDiameter>
-      <ShoulderLength Unit="in">1.25</ShoulderLength>
+      <ShoulderLength Unit="in">1.07</ShoulderLength>
       <Length Unit="in">10.3</Length>
     </NoseCone>
     
@@ -16033,7 +16047,7 @@ Ejection baffle rings
       <Shape>ELLIPSOID</Shape>
       <OutsideDiameter Unit="in">2.840</OutsideDiameter>
       <ShoulderDiameter Unit="in">2.748</ShoulderDiameter>
-      <ShoulderLength Unit="in">1.5</ShoulderLength>
+      <ShoulderLength Unit="in">1.28</ShoulderLength>
       <Length Unit="in">4.0</Length>
     </NoseCone>
     <!-- BC-27554 weight spec 1.7 oz -->
@@ -16046,7 +16060,7 @@ Ejection baffle rings
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">2.840</OutsideDiameter>
       <ShoulderDiameter Unit="in">2.748</ShoulderDiameter>
-      <ShoulderLength Unit="in">1.5</ShoulderLength>
+      <ShoulderLength Unit="in">1.28</ShoulderLength>
       <Length Unit="in">5.4</Length>
     </NoseCone>
     <!-- BC-27555 weight spec 1.99 oz -->
@@ -16059,7 +16073,7 @@ Ejection baffle rings
       <Shape>ELLIPSOID</Shape>
       <OutsideDiameter Unit="in">2.840</OutsideDiameter>
       <ShoulderDiameter Unit="in">2.748</ShoulderDiameter>
-      <ShoulderLength Unit="in">1.5</ShoulderLength>
+      <ShoulderLength Unit="in">1.28</ShoulderLength>
       <Length Unit="in">5.5</Length>
     </NoseCone>
     <!-- BC-27589 - upscale of BNC-55AM (***missing from Estes file***), no perfect shape
@@ -16075,7 +16089,7 @@ Ejection baffle rings
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">2.840</OutsideDiameter>
       <ShoulderDiameter Unit="in">2.748</ShoulderDiameter>
-      <ShoulderLength Unit="in">1.5</ShoulderLength>
+      <ShoulderLength Unit="in">1.28</ShoulderLength>
       <Length Unit="in">8.9</Length>
     </NoseCone>
     
