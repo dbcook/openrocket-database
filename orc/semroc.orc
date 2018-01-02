@@ -14441,10 +14441,6 @@ Ejection baffle rings
     </Transition>
 
 
-
-    <!-- *** ADDING ITEMS HERE *** -->
-
-
     <!-- =============================================== -->
     <!-- Series 175 nose cones for Centuri LT-175 tubes  -->
     <!-- =============================================== -->
@@ -14591,17 +14587,312 @@ Ejection baffle rings
     </NoseCone>
 
 
-
     <!-- ============================================== -->
     <!-- Series 20 nose cones for Centuri ST-20 tubes   -->
     <!-- ============================================== -->
-    <!-- shoulder lengths estimated -->
+    <!-- shoulder lengths scaled from drawaings on Semroc legacy site -->
 
+    <!-- BC-2019 is a 1.9" capsule, Orion 1/100 scale -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-2019</PartNumber>
+      <Description>Nose cone, balsa, ST-20, 1.9", capsule, Orion 1/100 scale, PN BC-2019</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>CONICAL</Shape>
+      <OutsideDiameter Unit="in">2.040</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.998</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <Length Unit="in">1.9</Length>
+      <Mass Unit="oz">0.30</Mass>
+    </NoseCone>
 
-    <!-- *** TBD *** -->
+    <!-- BC-2025 is a 2.5" ellipsoid, Centuri BC-200 clone -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-2025</PartNumber>
+      <Description>Nose cone, balsa, ST-20, 2.5", ellipsoid, Centuri BC-200 clone, PN BC-2025</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">2.040</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.998</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <Length Unit="in">2.5</Length>
+    </NoseCone>
 
+    <!-- BC-2026 is a 2.6" modified ellipsoid -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-2026</PartNumber>
+      <Description>Nose cone, balsa, ST-20, 2.6", modified ellipsoid, PN BC-2026</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">2.040</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.998</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <Length Unit="in">2.6</Length>
+    </NoseCone>
 
+    <!-- BC-2031 is a 3.2" round tip cone, Centuri Orion clone.  The PN makes it look like a source error, except
+         that BC-2032 is another different round tip cone style.
+    -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-2031</PartNumber>
+      <Description>Nose cone, balsa, ST-20, 3.2", round tip cone, Centuri Orion clone, PN BC-2031</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>CONICAL</Shape>
+      <OutsideDiameter Unit="in">2.040</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.998</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.75</ShoulderLength>
+      <Length Unit="in">3.2</Length>
+    </NoseCone>
 
+    <!-- BC-2032 is a 3.2" (very) round tip cone, clone of Centuri PNC-231 -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-2032</PartNumber>
+      <Description>Nose cone, balsa, ST-20, 3.2", round tip cone, Centuri PNC-231 clone, PN BC-2032</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>CONICAL</Shape>
+      <OutsideDiameter Unit="in">2.040</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.998</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <Length Unit="in">3.2</Length>
+    </NoseCone>
+
+    <!-- BC-2033 is a 3.3" ellipsoid, upscale of Semroc (NOT Estes) BNC-60MS -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-2033</PartNumber>
+      <Description>Nose cone, balsa, ST-20, 3.3", ellipsoid, Semroc BNC-60MS upscale, PN BC-2033</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">2.040</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.998</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <Length Unit="in">3.3</Length>
+    </NoseCone>
+
+    <!-- BC-2034CR is a 3.4" Crayon nose (truncated cone with cylinder aft).  The cylindrical part is about 0.78" long.
+         Modeled as ellipsoid to get the mass right.  Actual drag will be quite a bit higher. -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-2034CR</PartNumber>
+      <Description>Nose cone, balsa, ST-20, 3.4", Crayon nose, PN BC-2034CR</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">2.040</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.998</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.87</ShoulderLength>
+      <Length Unit="in">3.4</Length>
+    </NoseCone>
+
+    <!-- BC-2039 si a 3.9" round tip ogive (called Bezier), FSI NC-192 clone -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-2039</PartNumber>
+      <Description>Nose cone, balsa, ST-20, 3.9", round tip ogive, FSI NC-192 clone, PN BC-2039</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">2.040</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.998</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <Length Unit="in">3.9</Length>
+    </NoseCone>
+
+    <!-- BC-2045 is a 4.5" ogive, clone of Centuri BC-204 -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-2045</PartNumber>
+      <Description>Nose cone, balsa, ST-20, 4.5", ogive, Centuri BC-204 clone, PN BC-2045</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">2.040</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.998</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <Length Unit="in">4.5</Length>
+    </NoseCone>
+
+    <!-- BC-2047 is a 4.7" ellipsoid, upscale of Estes BNC-20B -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-2047</PartNumber>
+      <Description>Nose cone, balsa, ST-20, 4.7", ellipsoid, Estes BNC-20B upscale, PN BC-2047</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">2.040</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.998</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.75</ShoulderLength>
+      <Length Unit="in">4.7</Length>
+    </NoseCone>
+
+    <!-- BC-2050 is a 5.0" conical, clone of FSI NC-193 -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-2050</PartNumber>
+      <Description>Nose cone, balsa, ST-20, 5.0", conical, FSI NC-193 clone, PN BC-2050</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>CONICAL</Shape>
+      <OutsideDiameter Unit="in">2.040</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.998</ShoulderDiameter>
+      <ShoulderLength Unit="in">1.07</ShoulderLength>
+      <Length Unit="in">5.0</Length>
+    </NoseCone>
+
+    <!-- BC-2057 is a generic 5.7" ogive -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-2057</PartNumber>
+      <Description>Nose cone, balsa, ST-20, 5.7", ogive, PN BC-2057</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">2.040</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.998</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <Length Unit="in">5.7</Length>
+    </NoseCone>
+
+    <!-- BC-2061 is a generic 6.1" 3:1 ogive -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-2061</PartNumber>
+      <Description>Nose cone, balsa, ST-20, 6.1", 3:1 ogive, PN BC-2061</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">2.040</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.998</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <Length Unit="in">6.1</Length>
+    </NoseCone>
+
+    <!-- BC-2065 is a generic 6.5" ogive -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-2065</PartNumber>
+      <Description>Nose cone, balsa, ST-20, 6.5", ogive, PN BC-2065</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">2.040</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.998</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <Length Unit="in">6.5</Length>
+    </NoseCone>
+
+    <!-- BC-2080 is a generic 8.0" ellipsoid -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-2080</PartNumber>
+      <Description>Nose cone, balsa, ST-20, 8.0", ellipsoid, PN BC-2080</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">2.040</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.998</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <Length Unit="in">8.0</Length>
+    </NoseCone>
+
+    <!-- BC-2082 is a generic 8.2" 4:1 ogive -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-2082</PartNumber>
+      <Description>Nose cone, balsa, ST-20, 8.2", 4:1 ogive, PN BC-2082</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">2.040</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.998</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <Length Unit="in">8.2</Length>
+    </NoseCone>
+
+    <!-- BC-2090 is a 9.0" fat ogive (called Bezier), Estes BNC-50Y upscale -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-2090</PartNumber>
+      <Description>Nose cone, balsa, ST-20, 9.0", ogive, Estes BNC-50Y upscale, PN BC-2090</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">2.040</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.998</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.82</ShoulderLength>
+      <Length Unit="in">9.0</Length>
+    </NoseCone>
+
+    <!-- BC-20102 is a generic 10.2" 5:1 ogive -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-20102</PartNumber>
+      <Description>Nose cone, balsa, ST-20, 10.2", 5:1 ogive, PN BC-20102</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">2.040</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.998</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <Length Unit="in">10.2</Length>
+    </NoseCone>
+
+    <!-- BC-20104 is a 10.4" ogive, Arcon 1/3 scale -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-20104</PartNumber>
+      <Description>Nose cone, balsa, ST-20, 10.4", ogive, Arcon 1/3 scale, PN BC-20104</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">2.040</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.998</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.875</ShoulderLength>
+      <Length Unit="in">10.4</Length>
+    </NoseCone>
+
+    <!-- BC-20107 is a 10.7" conical, FSI NC-191 clone -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-20107</PartNumber>
+      <Description>Nose cone, balsa, ST-20, 10.7", conical, FSI NC-191 clone, PN BC-20107</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>CONICAL</Shape>
+      <OutsideDiameter Unit="in">2.040</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.998</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.875</ShoulderLength>
+      <Length Unit="in">10.7</Length>
+    </NoseCone>
+
+    <!-- BTC-20BB is a 3.0" complex nozzle section drilled for 29mm motor tube -->
+    <Transition>
+        <Manufacturer>Semroc</Manufacturer>
+        <PartNumber>BTC-20BB [R]</PartNumber>
+        <Description>Transition, balsa, ST-20, 3.0", complex nozzle, reducing, drilled 29mm, PN BTC-20BB</Description>
+        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Mass Unit="oz">0.21</Mass>
+        <Shape>OGIVE</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">2.040</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.998</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">1.06</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.48</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.14</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.0</AftShoulderLength>
+        <Length Unit="in">3.0</Length>
+    </Transition>
 
 
     <!-- ============================================= -->
