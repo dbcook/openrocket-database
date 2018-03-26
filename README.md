@@ -29,8 +29,9 @@ System compatibility:  works anywhere OpenRocket can run
 
 0.9.0.18 - Mar 2018
 * Fixes
+  * Corrected note about parts filtering - functionality exists but is effectively hidden by near zero-width field in UI.
 * Additions
-  * Semroc balsa transitions BR-5xx, BR-6xx, BR-7xx
+  * Semroc balsa transitions BR-5xx, BR-6xx, BR-7xx, BR-8xx, BR-8Fxx, BR-9xx, BR-10xx
   * Research notes on Quest
 
 0.9.0.17 - Jan 2018

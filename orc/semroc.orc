@@ -8143,20 +8143,483 @@ Ejection baffle rings
     </Transition>
 
 
-
     <!-- ============================= -->
     <!-- BR-8xx - ST-8 to larger sizes -->
     <!-- ============================= -->
+
+    <!-- BR-810 has 0.69" shoulders and 0.5" length -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BR-810</PartNumber>
+        <Description>Transition, balsa, #8 to #10, increasing, 0.5 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">0.908</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">0.865</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.69</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.040</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.000</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.69</AftShoulderLength>
+        <Length Unit="in">0.5</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BR-810 [R]</PartNumber>
+        <Description>Transition, balsa, #10 to #8, reducing, 0.5 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.040</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.000</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.69</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">0.908</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">0.865</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.69</AftShoulderLength>
+        <Length Unit="in">0.5</Length>
+    </Transition>
+
+    <!-- BR-813 has a 3/8" cylindrical section and total exposed length of 1.87" (see below) -->
+    <!-- *** SOURCE ERROR: Correct overall exposed length is unclear.
+            Semroc legacy site:         1.70"  Disagrees significantly with drawing
+            Scaled drawing (legacy):    1.99"  (cyl section 0.34" plus 1.65" conical taper - pixel scale 224/in)
+            Semroc/e-rockets new site:  1.75"  (1 3/8" plus 3/8" straight section)
+            Scaled drawing (new):       1.87"  (cyl section 0.32" plus 1.56" conical taper - different pixel scale 324/in)
+         The stated length disagrees with the drawing on both the legacy and new sites.  There was obviously an attempt
+         to improve the description on the new site, and the drawing was changed, but they still don't agree.
+         I'm breaking the tie by using the new drawing value of 1.87 -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BR-813</PartNumber>
+        <Description>Transition, balsa, #8 to #13, increasing, 1.87 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">0.908</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">0.865</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.69</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.340</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.300</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.69</AftShoulderLength>
+        <Length Unit="in">1.87</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BR-813 [R]</PartNumber>
+        <Description>Transition, balsa, #13 to #8, reducing, 1.87 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.340</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.300</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.69</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">0.908</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">0.865</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.69</AftShoulderLength>
+        <Length Unit="in">1.87</Length>
+    </Transition>
+
+    <!-- BR-813P is a true cylindrical taper transition, shoulders 0.69" and length supposed to be 1.5" -->
+    <!--- *** SOURCE ERROR: inconsistency strikes again.  Legacy site gives length as 1.5", but drawing
+          scales to about 1.85" and still shows the cylindrical section.  New site shows a photo of a
+          transition that clearly does not have the cylinder, but gives no length and no drawing.
+          Here I'm going to go with the legacy table.  -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BR-813P</PartNumber>
+        <Description>Transition, balsa, #8 to #13, increasing, 1.5 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">0.908</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">0.865</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.69</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.340</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.300</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.69</AftShoulderLength>
+        <Length Unit="in">1.50</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BR-813P [R]</PartNumber>
+        <Description>Transition, balsa, #13 to #8, reducing, 1.50 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.340</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.300</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.69</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">0.908</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">0.865</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.69</AftShoulderLength>
+        <Length Unit="in">1.50</Length>
+    </Transition>
+
+    <!-- BR-816 has 0.69" shoulders and length 1.50" -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BR-816</PartNumber>
+        <Description>Transition, balsa, #8 to #16, increasing, 1.5 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">0.908</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">0.865</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.69</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.640</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.600</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.69</AftShoulderLength>
+        <Length Unit="in">1.50</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BR-816 [R]</PartNumber>
+        <Description>Transition, balsa, #16 to #8, reducing, 1.50 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.640</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.600</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.69</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">0.908</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">0.865</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.69</AftShoulderLength>
+        <Length Unit="in">1.50</Length>
+    </Transition>
+
+    <!-- BR-816NT is a flared bi-conical transition for 1/10 Nike-Tomahawk
+         Fore shoulder is 0.5", aft is 0.62", length is 1.7" -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BR-816NT</PartNumber>
+        <Description>Transition, balsa, #8 to #16, increasing, 1.7 in len, Nike-Tomahawk 1/10</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">0.908</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">0.865</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.69</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.640</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.600</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.69</AftShoulderLength>
+        <Length Unit="in">1.70</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BR-816 [R]</PartNumber>
+        <Description>Transition, balsa, #16 to #8, reducing, 1.7 in len, Nike-Tomahawk 1/10</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.640</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.600</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.69</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">0.908</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">0.865</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.69</AftShoulderLength>
+        <Length Unit="in">1.70</Length>
+    </Transition>
+
     
     <!-- =============================== -->
     <!-- BR-8Fxx - ST-8F to larger sizes -->
     <!-- =============================== -->
 
+    <!-- BR-8F11 has 0.69" shoulders, 1.0" length -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BR-8F11</PartNumber>
+        <Description>Transition, balsa, #8F to #11, increasing, 1.0 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">0.921</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">0.885</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.69</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.170</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.130</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.69</AftShoulderLength>
+        <Length Unit="in">1.0</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BR-8F11 [R]</PartNumber>
+        <Description>Transition, balsa, #11 to #8F, reducing, 1.0 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.170</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.130</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.69</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">0.921</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">0.885</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.69</AftShoulderLength>
+        <Length Unit="in">1.0</Length>
+    </Transition>
+
+    <!-- BR-8F11L has 0.69" shoulders, 1.5" length -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BR-8F11L</PartNumber>
+        <Description>Transition, balsa, #8F to #11, increasing, 1.5 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">0.921</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">0.885</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.69</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.170</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.130</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.69</AftShoulderLength>
+        <Length Unit="in">1.5</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BR-8F11L [R]</PartNumber>
+        <Description>Transition, balsa, #11 to #8F, reducing, 1.5 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.170</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.130</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.69</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">0.921</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">0.885</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.69</AftShoulderLength>
+        <Length Unit="in">1.5</Length>
+    </Transition>
+
     <!-- ============================= -->
     <!-- BR-9xx - ST-9 to larger sizes -->
     <!-- ============================= -->
 
-    <!-- ST-10 to larger sizes -->
+    <!-- BR-916 has 0.69" shoulders and 2.0" length -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BR-916</PartNumber>
+        <Description>Transition, balsa, #9 to #16, increasing, 2.0 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">0.998</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">0.950</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.69</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.640</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.600</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.69</AftShoulderLength>
+        <Length Unit="in">2.0</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BR-916 [R]</PartNumber>
+        <Description>Transition, balsa, #16 to #9, reducing, 2.0 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.640</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.600</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.69</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">0.998</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">0.950</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.69</AftShoulderLength>
+        <Length Unit="in">2.0</Length>
+    </Transition>
+
+    <!-- BR-918 has 0.69" shoulders and 2.0" length -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BR-918</PartNumber>
+        <Description>Transition, balsa, #9 to #18, increasing, 2.0 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">0.998</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">0.950</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.69</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.840</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.800</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.69</AftShoulderLength>
+        <Length Unit="in">2.0</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BR-918 [R]</PartNumber>
+        <Description>Transition, balsa, #18 to #9, reducing, 2.0 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.840</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.800</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.69</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">0.998</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">0.950</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.69</AftShoulderLength>
+        <Length Unit="in">2.0</Length>
+    </Transition>
+
+    <!-- BR-920 has 0.875 shoulders and 2.0" length -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BR-920</PartNumber>
+        <Description>Transition, balsa, #9 to #20, increasing, 2.0 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">0.998</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">0.950</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.875</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">2.040</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">2.000</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.875</AftShoulderLength>
+        <Length Unit="in">2.0</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BR-920 [R]</PartNumber>
+        <Description>Transition, balsa, #20 to #9, reducing, 2.0 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">2.040</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">2.000</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.875</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">0.998</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">0.950</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.875</AftShoulderLength>
+        <Length Unit="in">2.0</Length>
+    </Transition>
+
+    <!-- =============================== -->
+    <!-- BR-10xx - ST-10 to larger sizes -->
+    <!-- =============================== -->
+
+    <!-- BR-1013 has 0.69" shoulders and 0.75" length -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BR-1013</PartNumber>
+        <Description>Transition, balsa, #10 to #13, increasing, 0.75 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.040</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.000</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.69</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.340</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.300</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.69</AftShoulderLength>
+        <Length Unit="in">0.75</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BR-1013 [R]</PartNumber>
+        <Description>Transition, balsa, #13 to #10, reducing, 0.75 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.340</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.300</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.69</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.040</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.000</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.69</AftShoulderLength>
+        <Length Unit="in">0.75</Length>
+    </Transition>
+
+    <!-- BR-1013B has 0.69" shoulders and 1.20" length -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BR-1013B</PartNumber>
+        <Description>Transition, balsa, #10 to #13, increasing, 1.20 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.040</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.000</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.69</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.340</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.300</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.69</AftShoulderLength>
+        <Length Unit="in">1.20</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BR-1013B [R]</PartNumber>
+        <Description>Transition, balsa, #13 to #10, reducing, 1.20 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.340</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.300</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.69</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.040</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.000</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.69</AftShoulderLength>
+        <Length Unit="in">1.20</Length>
+    </Transition>
+
+    <!-- BR-1016 has 0.69" shoulders and 1.5" length -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BR-1016</PartNumber>
+        <Description>Transition, balsa, #10 to #16, increasing, 1.5 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.040</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.000</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.69</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.640</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.600</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.69</AftShoulderLength>
+        <Length Unit="in">1.50</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BR-1016 [R]</PartNumber>
+        <Description>Transition, balsa, #16 to #10, reducing, 1.50 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.640</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.600</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.69</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.040</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.000</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.69</AftShoulderLength>
+        <Length Unit="in">1.50</Length>
+    </Transition>
+
+    <!-- BR-1016S has 0.69" shoulders and 1.2" length -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BR-1016S</PartNumber>
+        <Description>Transition, balsa, #10 to #16, increasing, 1.2 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.040</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.000</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.69</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.640</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.600</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.69</AftShoulderLength>
+        <Length Unit="in">1.20</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BR-1016S [R]</PartNumber>
+        <Description>Transition, balsa, #16 to #10, reducing, 1.20 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.640</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.600</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.69</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.040</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.000</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.69</AftShoulderLength>
+        <Length Unit="in">1.20</Length>
+    </Transition>
 
     <!-- ST-11 to larger sizes -->
 
