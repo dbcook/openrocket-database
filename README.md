@@ -2,8 +2,8 @@
 
 This project is aimed at sport rocketry people who use OpenRocket for design and flight simulation.
 
-This is an enhanced parts database for [OpenRocket](http://openrocket.sourceforge.net/).
-This provides a massive number of additional components (nose cones, body tubes,
+This is an enhanced parts database for [OpenRocket](http://openrocket.sourceforge.net/),
+providing a massive number of additional rocket parts (nose cones, body tubes,
 transitions, etc.) and corrections to the built-in parts database contained in the
 OpenRocket jar file.
 
@@ -26,6 +26,12 @@ OpenRocket compatibility:  tested with OpenRocket 15.03 __only__
 System compatibility:  works anywhere OpenRocket can run
 
 ## Release Notes
+
+0.9.0.18 - Mar 2018
+* Fixes
+* Additions
+  * Semroc balsa transitions BR-5xx, BR-6xx, BR-7xx
+  * Research notes on Quest
 
 0.9.0.17 - Jan 2018
 * Fixes
@@ -240,6 +246,7 @@ Please don't report problems on TRF, via email, etc. - use GitHub issues; others
   * Numeric PNs and old style part numbers both listed where known
   * Centering rings added (all missing from stock OpenRocket)
   * Pro Series II parts file added (missing from stock OpenRocket)
+* Semroc: many errors and conflicts resolved
 * LOC Precision file improvements:  many conflicts and errors resolved, parachutes added
 * Top Flight: parachutes and streamers file added
 * Competition generic parachutes and streamers file added
@@ -248,19 +255,20 @@ Please don't report problems on TRF, via email, etc. - use GitHub issues; others
 
 ## State of the Project
 
-Although a lot of work has gone into this project over the last 3+ years, I would still
+Although a lot of work has gone into this project over the last 4+ years, I would still
 characterize it as very incomplete.  The information about how OpenRocket databases work
 has been through several iterations including code dives and is pretty accurate, but it's
 somewhat Mac centric because that's what I use most.
 
 ### Near Term Plan
 
+* Finish up new Semroc file
 * Review Semroc nose cones for completeness
 * Adjust Semroc nose cone shoulder lengths to match drawings on legacy site
 * Add Semroc transitions, lugs and chutes
 * Add Bluetube / Always Ready Rocketry centering rings
 * Add Always Ready Rocketry nose cones (if data exists or can determine sourcing)
-* Review FlisKits, GLR, BMS, PML stock files
+* Review Quest, FlisKits, GLR, BMS, PML stock files
 
 ### Database Files Status
 
@@ -277,7 +285,7 @@ somewhat Mac centric because that's what I use most.
 | `publicmissiles.orc`     | Yes  | --
 | `fsi.orc`                | No   | -- Not started
 | `cmr.orc`                | No   | -- Not started
-| `mpc.orc`                | No   | 98%
+| `mpc.orc`                | No   | 98% - all known data included
 | `estes_classic.orc`      | No   | 98% - classic era parts are complete
 | `estes_ps2.orc`          | No   | 98%
 | `madcow.orc`             | No   | 99%
@@ -285,9 +293,21 @@ somewhat Mac centric because that's what I use most.
 | `competition_chutes.orc` | No   | 100%
 
 
-Most items still need validation checks put into the `ork` directory to make sure they
-generate reasonable masses.  There are limits on the usefulness of this technique due to
-how OpenRocket copies components into the .ork file, so I'm not sure how far I will take this.
+Validation tests are needed to make sure that part generate reasonable masses and have
+internally consistent dimensions.  I experimented with creating some `.ork` design files,
+but there are limitations to the usefulness of that due to
+how OpenRocket copies components into the .ork file, so something better is needed.
+
+At one point I started working on ideas for a Python based system to generate the XML
+files from a set of more fundamental json parameter files.  This would have many benefits:
+
+* Centralization of materials spec file
+* Guarantees all parts in a given series (e.g. BT-50 tubes) have the same ID/OD
+* Automatic generation of hierarchical engineering description field
+* Description guaranteed to match dimensions
+* Automatic notation of duplicate part numbers
+* Compute whether mass override is needed based on mass ratio error threshold
+* Instant regeneration of files with different balsa densities etc.
 
 There are several built-in database files that have not been touched yet (see above for list).
 
@@ -303,12 +323,12 @@ while getting data about Estes parts has gotten much harder in the last 20 years
 Paradoxically, we have better parts data on legacy (1960s through the late 1980s) Estes
 parts than for newer ones.  Estes has shifted much manufacturing to China, and most
 individual parts such as nose cones are no longer available separately, since the kits are
-completely packaged offshore.  A significant portion of kits have no PNs for the parts listed
-in the instructions.
+completely packaged offshore.  
 
 Although internal part numbers still exist (ref. John Boren,
 private conversation, 2017), part numbers are no longer usually visible to end users for items
-that are not sold at retail.
+that are not sold at retail.  Modern Estes kits have no PNs for the parts listed
+in the instructions.
 
 The subset of parts that are now sold are often packaged as assortments with a PN that applies to the
 assortment; the individual contents of those assortments are usually not identified by PN.
@@ -336,7 +356,7 @@ but coverage is poor - neither site has even 50% of known Centuri kits.
 
 Fortunately, the SEMROC online listings provide data for many Centuri-compatible tubes and nose cones.
 Given SEMROC's attention to detail, the SEMROC dimensions for Centuri parts can be
-considered definitive (when they exist) unless analysis clearly reveals errors.  However, the SEMROC listings
+considered definitive (when they exist) unless analysis clearly reveals errors.  However, even the SEMROC listings
 are incomplete; there are many blank entries for manufacturer PN in the SEMROC Centuri kit cross-reference pages.
 
 Overall, we can probably construct a reasonable Centuri parts file, but it may be impossible
@@ -394,7 +414,8 @@ situations:
 It turns out that the shape drawings on the nose cone individual pages on the Semroc legacy site are
 accurately done to scale, and to make things even better, they are all at the *same* scale.  After realizing this, I've been
 doing pixel measurements in Gimp and getting reasonably accurate shoulder lengths for all the Semroc
-nose cones.  This also enabled good determination of the hole dimensions in drilled nose cones.
+nose cones.  This allowed correction of some errors in tabulation, and also enabled good determination of
+the hole dimensions in drilled nose cones.
 
 The nose cone drawings have also proven that when Semroc made an upscale/downscale of a nose cone,
 they did *not* scale the shoulder length exactly, just the shape of the exposed portion.
@@ -449,6 +470,44 @@ Madcow tube-size-related SKU nomenclature is extremely inconsistent in multiple 
 * Mating coupler/tube SKUs with designators that don't match, going in both directions
   (fiberglass FT22 tube uses FC54 coupler, but cardboard T54 uses C22 coupler)
 
+#### Quest Aerospace
+
+Quest as a company has moved more than once.  It was originally called Quest Aerospace Education, Inc.
+and was based in Phoenix.  Later it was reported operating from Colorado.  Most recently it became
+a division of RCS RMS, Inc. (parent company of Aerotech) in about 2016, and operates from Cedar City, UT.
+
+The [Quest website](https://www.questaerospace.com/) has good dimensions for most body tubes, but
+incomplete or no dimensions for nose cones and other part types.  There is basically no mass data anywhere.
+There is a `quest.orc` included with stock OpenRocket but I haven't checked on it yet.  Getting a high
+accuracy database is going to be hard.
+
+Quest makes several Micromaxx (1/4" diameter motor) kits that can only be had as part of starter sets:
+
+* Space Fighter
+* Flying Saucer
+* No Mercy
+* Critical Mass
+* Saturn V
+* Space Shuttle
+
+Side note: The Saturn V and Space Shuttle are offered in a "Space Pioneers" starter set, which is a reference
+to the New Canaan YMCA Space Pioneers founded by G. Harry Stine (father of Quest founder Bill Stine),
+one of the first NAR sections from the 1960s.
+
+A fair fraction of Quest kit instructions are available, and all of the instructions examined have
+part lists with numeric PNs and brief descriptions.
+
+Quest currently has at least 38 kits
+in production (counting from the website as of March 2018), while the quest website has around 30 plans on its
+[Downloadable Instructions page](https://www.questaerospace.com/page/download_instructions).
+[Ye Old Rocket Shoppe](http://plans.rocketshoppe.com/quest.htm) has 14 plan sets that are mostly
+not listed on the Quest site, while the JimZ plans site has no Quest data.  None of the posted plans appear
+to be for Micromaxx sized models.  
+
+Comparing the instructions reveals that Quest used product number 1005 for two completely different models,
+the Tracer and the Starhawk.
+
+
 ### Missing Manufacturers
 
 There are several product lines from legacy and major manufacturers - especially high
@@ -456,18 +515,18 @@ power vendors - that are not included in OpenRocket at all.  Some of these are n
 this components database.
 
 * Centuri (many cloneable kits with parts different than Estes)
-* Apogee (they mostly OEM other vendors' parts)
+* Apogee (they mostly OEM other vendors' parts but do have some unique ones, e.g. foam egg protectors for TARC)
 * Apogee Components (predecessor to Apogee owned by Ed LaCroix; made competition parts that
   Apogee under Tim van Milligan did not carry forward)
 * CMR (defunct but had unique tube sizes)
 * FSI (defunct but had unique tube sizes)
-* ModelRockets.us (Discount Rocketry), smaller tubes with heavier wall than Estes
-* Very small (often one person) manufacturers including Kopter, Pine Cap Assoc., US Rockets, ASP, etc.
+* ModelRockets.us (Discount Rocketry), offers tubes with heavier wall than Estes
+* Very small manufacturers including Kopter, Pine Cap Assoc., US Rockets, ASP, etc.
 * Canaroc
 * High power kit and parts vendors
-  * Rocketry Warehouse (now part of Madcow)
-  * Polecat Aerospace
   * Wildman
+  * Rocketry Warehouse (pre Madcow acquisition)
+  * Polecat Aerospace
 * Fruity, Rocketman, Sky Angle, B2 nylon parachutes
 
 ## Usage and Quirks
@@ -478,7 +537,7 @@ you should know about if you want maximum accuracy.
 ### Hollow One-Piece Plastic and Fiberglass Nose Cones
 
 Due to limitations in what OpenRocket allows you to specify for nose cones, partial manual
-entry is required to get the most accurate mass and CG locations for heavier one-piece
+entry is required to get the most accurate mass and CG locations for heavier _one-piece_
 hollow plastic or fiberglass nose cones (currently this affects LOC only):
   
   * When putting in a plastic nose cone, go select the nose cone
@@ -534,6 +593,15 @@ various TRF threads.  In cases like the Honest John and Demon nose cones, you wi
 good appearance with reasonable drag and CP computations.  However for parts with draggy
 appliques like the Odyssey nose cone, there is no real way in OpenRocket to get the drag
 correct.
+
+### Parachute / Streamer Descent Performance Simulation
+
+OpenRocket has very basic parachute / streamer perforamnce modeling that is not suitable
+for anything more than a first order estimate of descent rate.  A better
+parachute descent rate calculator can be found on the Fruity Chutes website here:
+[Fruity Chutes Descent Rate Calculator](https://fruitychutes.com/help_for_parachutes/parachute-descent-rate-calculator.htm).
+This model has some built-in parameters for chutes from other manufacturers, and an
+explanation of how the equivalent Cd and area are determined.
 
   
 ## Conventions
@@ -692,7 +760,7 @@ There is no provision for generic, non manufacturer specific materials except vi
 compiled-in default materials.
 
 IMPORTANT: The material definition referenced by a component is only consulted *when the
-component is first created in your .ork file! If you subsequently save the .ork, then
+component is first created in your .ork file!* If you subsequently save the .ork, then
 update the material definition in the .orc, and reload your .ork design, the material
 definitions for existing components __WILL NOT BE UPDATED__.  If you change the density
 for some material, in order to get your design to update you must manually open the
@@ -797,7 +865,6 @@ structural.
      Therefore, there is no good way to model an Estes BTC-55Z or similar part.
 * Parachutes:
    * Cannot set drag coefficient for parachutes, though UI has this
-   * Cannot set a packing volume or packed length/diameter for parachutes
 * Streamers:
    * Cannot set drag coefficient or Cd automatic mode, though UI has them
    * You can set thickness in .orc streamer components but it does not appear in the UI
@@ -822,6 +889,7 @@ structural.
    * No support for streamer attachment lines
    * No support for parachutes with spill holes
    * No support for different parachute designs (flat, spherical, toroid, x-form, etc.)
+   * Cannot specify packing volume or packed length/diameter for parachutes
 * UI issues related to component databases and part selection
    * Diameter matching in the UI is buggy
    * If you are defining a nose cone and load one from the database with a different shape, the
@@ -830,7 +898,7 @@ structural.
    * UI part selection dialog expands poorly, only 1/3 of the area gets used for the main table
    * UI doesn't visually distinguish between component intrinsic attributes and parameters
      related to their placement or use in the design like relative position, radial position, etc.
-   * No manufacturer part filtering in the UI (e.g. only show Madcow parts)
+   * Keyword filter field in the parts selection UI defaults to near zero width (on Mac at least)
    * UI doesn't remember last size of the parts selection dialogs, you have to resize every time
    * Duplicating a part, whether by copy/paste or by creating a 2nd one attached to the same
      parent component, always puts them right on top of each other.  That is useful for
@@ -935,3 +1003,9 @@ I doubt it is now very useful.
 This is the only site where I could find any scans of MPC catalogs.  There are also 3
 MPC kit documentation sets on JimZ and more on plans.rocketshoppe.com.  I was able to use this
 information to build a reasonable MPC parts file.
+
+[Quest Downloadable Instructions](https://www.questaerospace.com/page/download_instructions)
+
+This page has about 30 instruction sets for Quest kits.  It is not complete and actually does not
+include most of the 14 plans on the Ye Olde Rocket Shoppe plans site.  It also does not include
+any Micromaxx kits.  Quality of the PDF files is very good.
