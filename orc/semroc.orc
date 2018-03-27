@@ -9060,10 +9060,10 @@ Ejection baffle rings
         <Length Unit="in">1.2</Length>
     </Transition>
 
-    <!-- BR-16225 has fore shoulder 0.90", aft shoulder 1.08", length 1.5" -->
+    <!-- BR-16225F has fore shoulder 0.90", aft shoulder 1.08", length 1.5" -->
     <Transition>
         <Manufacturer>SEMROC</Manufacturer>
-        <PartNumber>BR-16225</PartNumber>
+        <PartNumber>BR-16225F</PartNumber>
         <Description>Transition, balsa, #16 to #225, increasing, 1.5 in len</Description>
         <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
         <Shape>CONICAL</Shape>
@@ -9078,7 +9078,7 @@ Ejection baffle rings
     </Transition>
     <Transition>
         <Manufacturer>SEMROC</Manufacturer>
-        <PartNumber>BR-16225 [R]</PartNumber>
+        <PartNumber>BR-16225F [R]</PartNumber>
         <Description>Transition, balsa, #225 to #16, reducing, 1.5 in len</Description>
         <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
         <Shape>CONICAL</Shape>
