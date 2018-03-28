@@ -9215,17 +9215,110 @@ Ejection baffle rings
     </Transition>
 
 
-    <!-- LT-085 to larger sizes -->
+    <!-- =================================== -->
+    <!-- BR-085-xxx - LT-085 to larger sizes -->
+    <!-- =================================== -->
 
-    <!-- LT-115 to larger sizes -->
+    <!-- BR-085-175 (new site only) scaled dwg fore shoulder 0.88, aft shoulder 1.06, length 1.42" -->
+    <!-- *** SOURCE ERROR: BR-085-175 length not specified on new Semroc/e-rockets site -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BR-085-175</PartNumber>
+        <Description>Transition, balsa, #085 to #175, increasing, 1.42 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">0.945</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">0.865</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.88</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.840</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.750</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">1.06</AftShoulderLength>
+        <Length Unit="in">1.42</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BR-085-175 [R]</PartNumber>
+        <Description>Transition, balsa, #175 to #085, reducing, 1.42 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.840</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.750</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">1.06</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">0.945</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">0.865</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.88</AftShoulderLength>
+        <Length Unit="in">1.42</Length>
+    </Transition>
 
-    <!-- LT-125 to larger sizes -->
+    <!-- BR-085-225 (new site only except for length) spec length 2.5", scaled photo len 2.66", fore shoulder 0.56",
+         aft shoulder 0.75".  There is no drawing so the scaled dimensions are not precise. Using spec length from
+         old site with scaled photo dimensions from new site.  -->
+    <!-- *** SOURCE ERROR: BR-085-225 length not specified on new Semroc/e-rockets site -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BR-085-225</PartNumber>
+        <Description>Transition, balsa, #085 to #225, increasing, 2.5 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">0.945</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">0.865</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.56</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">2.340</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">2.250</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.75</AftShoulderLength>
+        <Length Unit="in">2.50</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BR-085-225 [R]</PartNumber>
+        <Description>Transition, balsa, #225 to #085, reducing, 2.5 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">2.340</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">2.250</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.75</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">0.945</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">0.865</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.56</AftShoulderLength>
+        <Length Unit="in">2.50</Length>
+    </Transition>
 
-    <!-- LT-150 to larger sizes -->
+    <!-- ================================= -->
+    <!-- BR-115xx - LT-115 to larger sizes -->
+    <!-- ================================= -->
+    <!-- e-rockets has introduced some new BRx-115xx reducers that do not appear on the legacy Semroc site -->
 
-    <!-- LT-175 to larger sizes -->
+    <!-- BR-11516  -->
 
-    <!-- LT-225 to BT-80H -->
+    <!-- BRS-115-16 "special" has no forward shoulder. All dims from scaled dwg on new Semroc/e-rockets site -->
+
+    <!-- BR-115-168 "special" has no dimensions. Description on new site says only
+         "Semroc Balsa Reducer #115 to #168   SEM-BR-115-168  Special".  All dims scaled from drawing. -->
+    <!-- *** SOURCE ERROR: BR-115-168 description gives no length and doesn't say what a #168 tube is.  I have
+         no record of a "#168" tube anywhere and a Google search turns up nothing useful. -->
+
+    <!-- BR-11518  -->
+
+    <!-- ================================== -->
+    <!-- BR-125-xx - LT-125 to larger sizes -->
+    <!-- ================================== -->
+
+    <!-- ================================== -->
+    <!-- BR-150-xx - LT-150 to larger sizes -->
+    <!-- ================================== -->
+
+    <!-- ================================== -->
+    <!-- BR-175-xx - LT-175 to larger sizes -->
+    <!-- ================================== -->
+
+    <!-- ================================== -->
+    <!-- BR-225-xx - LT-225 to larger sizes -->
+    <!-- ================================== -->
+
 
     <!-- BT-5 to larger sizes -->
 
