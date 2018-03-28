@@ -7576,6 +7576,8 @@ Ejection baffle rings
     <!-- Two versions are given for each part.  The first is an increasing transition with fore diameter
          is smaller than the aft.  The reducing version is tagged with [R] in the PN, and has the fore
          diameter as the larger. -->
+    <!-- SOURCE ERROR: The 2018 Semroc/e-rockets site does not list masses for any BR-xxx balsa reducers.
+         Many have masses given on the Semroc legacy site, but the new ones do not.  -->
 
 
 
@@ -9294,17 +9296,214 @@ Ejection baffle rings
     <!-- ================================= -->
     <!-- e-rockets has introduced some new BRx-115xx reducers that do not appear on the legacy Semroc site -->
 
-    <!-- BR-11516  -->
+    <!-- BRS-84-115 is an oddball.  The fore diameter is 0.84" but it has no shoulder, so I've listed it under
+         the LT-115 series since there's nothing else it can mate to. Photogrammetry is hard since there is only
+         an oblique photo; I get an exposed length of 3.5" and a 115 shoulder length of 0.62" -->
+    <!-- SOURCE ERROR: BRS-84-115 (only found on 2018 Semroc/e-rockets site) has no length given. -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BR-84-115</PartNumber>
+        <Description>Transition, balsa, 0.84" to #115, increasing, 3.5 in len, no fore shoulder</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">0.84</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">0.84</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.0</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.220</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.140</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.62</AftShoulderLength>
+        <Length Unit="in">3.50</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BR-84-115 [R]</PartNumber>
+        <Description>Transition, balsa, #115 to 0.84", reducing, 3.5 in len, no aft shoulder</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.220</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.140</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.62</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">0.84</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">0.84</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.0</AftShoulderLength>
+        <Length Unit="in">3.50</Length>
+    </Transition>
 
-    <!-- BRS-115-16 "special" has no forward shoulder. All dims from scaled dwg on new Semroc/e-rockets site -->
 
+    <!-- BR-11516 has spec 3.375" length, scaled dwg shoulders 0.67" -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BR-11516</PartNumber>
+        <Description>Transition, balsa, #115 to #16, increasing, 3.375 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.220</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.140</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.67</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.640</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.600</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.67</AftShoulderLength>
+        <Length Unit="in">3.375</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BR-11516 [R]</PartNumber>
+        <Description>Transition, balsa, #16 to #115, reducing, 3.375 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.640</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.600</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.67</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.220</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.140</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.67</AftShoulderLength>
+        <Length Unit="in">3.375</Length>
+    </Transition>
+
+
+    <!-- BRS-115-16 "special" (on new site only) has no forward shoulder. All dims from scaled dwg on
+         new Semroc/e-rockets site:
+         length 4.25", #16 shoulder len 0.87" -->
+    <!-- SOURCE ERROR: BRS-115-16 drawing is captioned "BRS-116-16" on new site -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BRS-115-16</PartNumber>
+        <Description>Transition, balsa, #115 to #16, increasing, 4.25 in len, no fwd shoulder</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.220</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.220</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.0</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.640</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.600</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.87</AftShoulderLength>
+        <Length Unit="in">4.25</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BRS-115-16 [R]</PartNumber>
+        <Description>Transition, balsa, #16 to #115, reducing, 4.25 in len, no aft shoulder</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.640</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.600</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.87</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.220</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.220</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.0</AftShoulderLength>
+        <Length Unit="in">4.25</Length>
+    </Transition>
+
+
+    <!-- BR-115-168 "special" is an oddball for a mysterious "#168" tube size.  Dimensions scaled from
+         drawing on new site:  shoulders 1.0", exposed len 1.19", ID of rear tube 1.68", OD of rear tube 1.75" -->
     <!-- SOURCE ERROR: BR-115-168 "special" has no given dimensions. Description on 2018 site says only
          "Semroc Balsa Reducer #115 to #168   SEM-BR-115-168  Special".  All dims scaled from drawing:
          both shoulders 1.0", len 1.19", ID of rear tube 1.68", OD of rear tube 1.75"
          BR-115-168 description doesn't say what a #168 tube is.  I have
          no record or memory of a "#168" tube anywhere and a Google search turns up nothing useful. -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BR-115-168</PartNumber>
+        <Description>Transition, balsa, #115 to #168, increasing, 1.19 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.220</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.140</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">1.0</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.750</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.680</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">1.00</AftShoulderLength>
+        <Length Unit="in">1.19</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BR-115-168 [R]</PartNumber>
+        <Description>Transition, balsa, #168 to #115, reducing, 1.19 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.75</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.680</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">1.0</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.220</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.140</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">1.0</AftShoulderLength>
+        <Length Unit="in">1.19</Length>
+    </Transition>
 
-    <!-- BR-11518  -->
+    <!-- BR-11518 spec len on legacy site 3.375", shoulders (scaled dwg) 0.67" -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BR-11518</PartNumber>
+        <Description>Transition, balsa, #115 to #18, increasing, 3.375 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.220</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.140</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.67</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.840</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.800</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.67</AftShoulderLength>
+        <Length Unit="in">3.375</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BR-11518 [R]</PartNumber>
+        <Description>Transition, balsa, #18 to #115, reducing, 3.375 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.840</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.800</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.67</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.220</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.140</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.67</AftShoulderLength>
+        <Length Unit="in">3.375</Length>
+    </Transition>
+
+
+    <!-- BR-115-225 (exists on new site only) no data given.  Scaled dwg length 1.75", both shoulders 0.92" -->
+    <!-- SOURCE ERROR: BR-115-225 no exposed length given on 2018 Semroc/e-rockets site. -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BR-115-225</PartNumber>
+        <Description>Transition, balsa, #115 to #225, increasing, 1.75 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.220</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.140</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.92</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">2.340</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">2.250</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.92</AftShoulderLength>
+        <Length Unit="in">1.75</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BR-115-225 [R]</PartNumber>
+        <Description>Transition, balsa, #225 to #115, reducing, 1.75 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">2.340</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">2.250</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.92</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.220</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.140</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.92</AftShoulderLength>
+        <Length Unit="in">1.75</Length>
+    </Transition>
 
     <!-- ================================== -->
     <!-- BR-125-xx - LT-125 to larger sizes -->
