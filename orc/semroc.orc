@@ -2,7 +2,7 @@
 <!--
 SEMROC parts file for OpenRocket
 
-by Dave Cook NAR 21953  caveduck17@gmail.com 2017
+by Dave Cook NAR 21953  caveduck17@gmail.com 2017-2018
 
 This file provides parts definitions for SEMROC products.  It has been adapted from the original
 semroc.orc distributed with OpenRocket 15.03 with various improvements:
@@ -11,12 +11,13 @@ semroc.orc distributed with OpenRocket 15.03 with various improvements:
     * Material types all matched to generic_materials.orc
     * Dimension units changed to those specified in reference materials such as catalogs
     * Excess significant digits removed from dimensions; generally kept 3-4 significant figures
+    * Unspecified or missing dimensions estimated by photogrammetry of drawings and photos
     * Numerous dimension/mass/material/part number errors fixed (sorry, WAY too many to list)
     * Mass overrides have been eliminated wherever feasible
 
 Semroc carries a vast line of model rocketry parts including a comprehensive set of equivalent
-parts for the Estes and Centuri line, as well as some MPC/Quest metric tube sizes, and even some
-Aerotech tubes.  Thus, there is a lot of overlap between this file and the separate Estes and
+parts for the Estes and Centuri lines, as well as some MPC/Quest metric tube sizes, and even some
+Aerotech tubes.  Thus, there is a lot of overlap between this file and the separate Estes and (future)
 Centuri files.  There are a few - only a few - differences.  Semroc only makes balsa nose cones,
 so they have made shape-identical balsa nose cones for many Estes and Centuri plastic nose cones.
 
@@ -37,11 +38,12 @@ Centering rings
 Engine blocks
 Bulkheads (fiber)
 Bulkheads / nose blocks (balsa)
-Balsa nose cones (BC-2 thru BC-8F and series 225)
+Balsa nose cones
+Centuri compatible balsa reducers
 
 TODO
 ====
-Rest of nose cones
+Estes compatible balsa reducers
 Ejection baffle rings
 
 -->
@@ -979,7 +981,7 @@ Ejection baffle rings
       <OutsideDiameter Unit="in">0.759</OutsideDiameter>
       <Length Unit="in">4.5</Length>
     </BodyTube>
-    <!-- SOURCE ERROR: Semroc has aberrant PN ST-7400 -->
+    <!-- SOURCE ERROR: ST-7400 Semroc has aberrant PN ST-7400 for ST-7 4" length, should be ST-740 -->
     <BodyTube>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>ST-7400</PartNumber>
@@ -3289,7 +3291,7 @@ Ejection baffle rings
     </BodyTube>
     
     <!-- BT-60 -->
-    <!-- *** SOURCE ERROR: INVESTIGATE Modern eRockets/SEMROC site has separate BT-60 and ST-16 listings
+    <!-- SOURCE ERROR: INVESTIGATE Modern eRockets/SEMROC site has separate BT-60 and ST-16 listings
          but gives ST-16 dimensions for everything.  Legacy Semroc site has Centuri ST-16 dimensions of
          ID = 1.600, OD = 1.640 and Estes compatible BT-60 dimensions of ID = 1.595, OD = 1.637  ***
          Using Estes compatible dimensions for BT-60, i.e. assuming legacy site is correct. -->
@@ -4681,10 +4683,10 @@ Ejection baffle rings
     </BodyTube>
 
     <!-- T-3.0 (supposedly) Aerotech compatible tube by Totally Tubular -->
-    <!-- *** SOURCE ERROR: inconsistent sizes ***  said to be "same as the Aerotech and LOC 3" tubes"
-         but lists ID=2.950, OD=3.000, wall 0.050, which is internally inconsistent
+    <!-- SOURCE ERROR: T-3.0 inconsistent sizes for T-3.0 said to be "same as the Aerotech and LOC 3" tubes"
+         but lists ID=2.950, OD=3.000, wall 0.050, which are internally inconsistent
          LOC tubes are in fact ID 3.000, OD 3.100, wall=0.050, so I use that.
-         *** SOURCE ERROR: incorrect mfr attribution *** Aerotech has never offered a 3" tube
+         SOURCE ERROR: T-3.0  incorrect mfr attribution for T-3.0: Aerotech has never offered a 3" tube
          or kit; in early 2017 I personally confirmed this with Charlie Savoie, GM of Aerotech.
     -->
     <BodyTube>
@@ -4846,7 +4848,7 @@ Ejection baffle rings
     <!-- Clear Plastic Tubes -->
     <!-- =================== -->
 
-    <!-- *** SOURCE ERROR: PST-65 dimension discrepancies ***
+    <!-- SOURCE ERROR: PST-65 dimension discrepancies ***
          Semroc clear tube PST-65 (also called "BT-65 Clear" on the legacy site) and the corresponding BNC-65xx nose
          cone dimensions show significant discrepancies.  Here is a table (all dimensions in inches)
 
@@ -4891,7 +4893,7 @@ Ejection baffle rings
       <OutsideDiameter Unit="in">0.759</OutsideDiameter>
       <Length Unit="in">1.87</Length>
     </BodyTube>
-    <!-- *** SOURCE ERROR: legacy semroc site lists 1.87" length for CPT-720.  Should be 2.0"; has been corrected on 2017 site  -->
+    <!-- SOURCE ERROR: CPT-720 legacy semroc site lists 1.87" length.  Should be 2.0"; has been corrected on 2017 site  -->
     <BodyTube>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>CPT-720</PartNumber>
@@ -4950,7 +4952,7 @@ Ejection baffle rings
     </BodyTube>
 
     <!-- Series 10 (Centuri compatible) clear tubes -->
-    <!-- *** SOURCE ERROR:  Semroc legacy site erroneously replicates the CPT-8 dimensions for the CPT-10.
+    <!-- SOURCE ERROR:  CPT-10 ALL Semroc legacy site erroneously replicates the CPT-8 dimensions for the CPT-10.
          Semroc/eRockets dimensions from the 2017 site are inconsistent with ID 1.039", OD 1.060", wall .021" ***
          Here I have set the dimensions to match up with actual ST-10 (ID of 1.00) and use the likely correct
          .021 wall to give an OD of 1.042  -->
@@ -5006,7 +5008,7 @@ Ejection baffle rings
     </BodyTube>
 
     <!-- PST-55 (Estes compatible) clear tubes.  Only the PST-55-6 is listed on the modern 2017 site. -->
-    <!-- *** SOURCE ERROR:  on the legacy Semroc site, PST-55 and PST-55-6 are both listed with 12" length and identical weight *** -->
+    <!-- SOURCE ERROR:  on the legacy Semroc site, PST-55 and PST-55-6 are both listed with 12" length and identical weight *** -->
     <BodyTube>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>PST-55-6</PartNumber>
@@ -5045,7 +5047,7 @@ Ejection baffle rings
       <OutsideDiameter Unit="in">1.796</OutsideDiameter>
       <Length Unit="in">5.0</Length>
     </BodyTube>
-    <!-- *** SOURCE ERROR: Semroc legacy site gives length of PST-65L as 5.0", same as PST-65R.  Should be 12". *** -->
+    <!-- SOURCE ERROR: Semroc legacy site gives length of PST-65L as 5.0", same as PST-65R.  Should be 12". *** -->
     <BodyTube>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>PST-65L</PartNumber>
@@ -5133,7 +5135,7 @@ Ejection baffle rings
 
     <!-- BT-5 / #5 couplers -->
     
-    <!-- SOURCE ERROR: Semroc quotes OD as 0.516 which is greater than BT-5 ID of .515" -->
+    <!-- SOURCE ERROR: Semroc quotes CPL-5-34 OD as 0.516 which is greater than BT-5 ID of .515" -->
     <TubeCoupler>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>CPL-5-34</PartNumber>
@@ -5390,7 +5392,7 @@ Ejection baffle rings
 
     <!-- LT-115 / BTH-52 / BT-52H couplers -->
     
-    <!-- SOURCE ERROR: eRockets Semroc 2017 listings give OD=1.140, ID=0.980.  The OD is
+    <!-- SOURCE ERROR: eRockets Semroc 2017 listings for CPL-52H-34 give OD=1.140, ID=0.980.  The OD is
          exactly the same as the ID of the BTH-52 tube, which is virtually impossible. I
          offset the ID and OD down by .002 to be more realistic.
     -->
@@ -5415,8 +5417,7 @@ Ejection baffle rings
 
     <!-- BT-55 couplers -->
     
-    <!-- SOURCE ERROR: here again the quoted OD of the coupler is exactly the ID of the
-    tube. -->
+    <!-- SOURCE ERROR: CPL-55-34 here again the quoted OD of the coupler is exactly the ID of the tube. -->
     <TubeCoupler>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>CPL-55-34</PartNumber>
@@ -5437,7 +5438,7 @@ Ejection baffle rings
       <Length Unit="in">34.0</Length>
     </TubeCoupler>
     <!-- JT-55C wall thickness taken to be .030 ***verify***
-         SOURCE ERROR: Estes 1980 catalog gives length 1.3", Legacy semroc site has length = 1.50", new
+         SOURCE ERROR: JT-55C Estes 1980 catalog gives JT-55C length 1.3", Legacy semroc site has length = 1.50", new
          eRockets/Semroc site gives 1.25". -->
     <TubeCoupler>
       <Manufacturer>SEMROC</Manufacturer>
@@ -5463,7 +5464,7 @@ Ejection baffle rings
 
     <!-- ST-13 couplers -->
     <!-- wall thickness taken to be .030 ***verify*** -->
-    <!-- SOURCE ERROR: 1975 Centuri catalog has  HTC-13 length = 1.5", legacy Semroc
+    <!-- SOURCE ERROR: HTC-13 1975 Centuri catalog has  HTC-13 length = 1.5", legacy Semroc
          site erroneously gives 1.75".  It's correct again in eRockets/Semroc 2017 site -->
     <TubeCoupler>
       <Manufacturer>SEMROC</Manufacturer>
@@ -5564,7 +5565,7 @@ Ejection baffle rings
     <!-- Aerotech 1.9" tube couplers -->
 
     <!-- Direct Aerotech coupler (eRockets might be reselling the actual Aerotech part here) -->
-    <!-- SOURCE ERROR: eRockets/Semroc 2017 web listing gives internally inconsistent
+    <!-- SOURCE ERROR: AER-11804 eRockets/Semroc 2017 web listing for AER-11804 gives internally inconsistent
          values of OD 1.804", ID 1.610", wall 0.083".  The OD is too big as the primary
          tube ID is only 1.80", and the ID doesn't agree with the given wall thickness.  I
          set the OD to a plausible 1.795", took the wall thickness at face value, and set
@@ -5604,7 +5605,7 @@ Ejection baffle rings
       <OutsideDiameter Unit="in">1.998</OutsideDiameter>
       <Length Unit="in">2.0</Length>
     </TubeCoupler>
-    <!-- SOURCE ERROR: eRockets/Semroc 2017 listing gives internallly inconsistent values
+    <!-- SOURCE ERROR: CPL-ST20-4 eRockets/Semroc 2017 listing for CPL-ST20-4 gives internallly inconsistent values
          of ID 1.952, OD 1.981, .036 wall.  I took the wall thickness as likely to be
          correct and used an OD with offset of .005 from the ID of an ST-20.
     -->
@@ -5718,23 +5719,23 @@ Ejection baffle rings
 
     <!-- T-3.0" tube couplers -->
     
-    <!-- POSSIBLE SOURCE ERROR: The OD quoted of 2.92" is a very sloppy fit if the
+    <!-- SOURCE ERROR: (?) CPL-3.0=34 OD quoted of 2.92" is a very sloppy fit if the
          intended mating tube is LOC 3.0" tube with its 3.00" ID. LOC couplers are OD
-         2.99, ID 2.88, wall 0.055; I adopted that for now ***Investigate*** -->
+         2.99, ID 2.88, wall 0.055; I adopted that for now *** Investigate *** -->
     <TubeCoupler>
       <Manufacturer>SEMROC</Manufacturer>
-      <PartNumber>CPL-3.0"-34</PartNumber>
+      <PartNumber>CPL-3.0-34</PartNumber>
       <Description>Tube coupler, paper, T-3.0, 34.0"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">2.88</InsideDiameter>
       <OutsideDiameter Unit="in">2.99</OutsideDiameter>
       <Length Unit="in">34.0</Length>
     </TubeCoupler>
-    <!-- SOURCE ERROR: inconsistent length.  PN given as CPL-3.0"-6", but in description
-    it is CPL-3.0"-4" and describes 4" length.  I adopted 6" ***investigate*** -->
+    <!-- SOURCE ERROR: CPL-3.0"-6" inconsistent length.  PN given as CPL-3.0"-6", but in description
+    it is CPL-3.0"-4" and describes 4" length.  I adopted 6" *** investigate *** -->
     <TubeCoupler>
       <Manufacturer>SEMROC</Manufacturer>
-      <PartNumber>CPL-3.0"-6</PartNumber>
+      <PartNumber>CPL-3.0-6</PartNumber>
       <Description>Tube coupler, paper, T-3.0, 6.0"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">2.88</InsideDiameter>
@@ -5744,7 +5745,7 @@ Ejection baffle rings
     
     <!-- BT-100 couplers -->
 
-    <!-- SOURCE ERROR: Dimensions on eRocokets/Semroc 2017 site are completely wrong, with
+    <!-- SOURCE ERROR: CPL-100-6 dimensions on eRocokets/Semroc 2017 site are completely wrong, with
          OD 2.920", ID 2.900", wall .034".  The OD would be appropriate for the
          CPL-3.0". I adopted a correct OD to mate with BT-100, and took the wall thickness
          as correct -->
@@ -5760,8 +5761,8 @@ Ejection baffle rings
 
     <!-- BT-101 couplers -->
 
-    <!-- SOURCE ERROR: Data missing for BT-101 couplers.  I adopted proper mating OD for
-         BT-101 and took wall .034 as used in other Semroc couplers ***investigate*** -->
+    <!-- SOURCE ERROR: CPL-101-6 Data missing for BT-101 couplers.  I adopted proper mating OD for
+         BT-101 and took wall .034 as used in other Semroc couplers *** investigate *** -->
     <TubeCoupler>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>CPL-101-6</PartNumber>
@@ -5788,7 +5789,7 @@ Ejection baffle rings
     <!-- This is an odd product as Semroc offers no 4.5" tube -->
     <TubeCoupler>
       <Manufacturer>SEMROC</Manufacturer>
-      <PartNumber>CPL-4.5"-6</PartNumber>
+      <PartNumber>CPL-4.5-6</PartNumber>
       <Description>Tube coupler, paper, T-4.5, 6.0"</Description>
       <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
       <InsideDiameter Unit="in">4.31</InsideDiameter>
@@ -7680,9 +7681,9 @@ Ejection baffle rings
         <Length Unit="in">0.60</Length>
     </Transition>
 
-    <!-- BR-59 has both shoulders 0.69 in per drawings on legacy site
-         *** SOURCE ERROR:  Semroc BR-59 on legacy site table has exposed length of 1.0 in, but drawing scales to 0.82 in
-         (13/16 inch).  ***
+    <!-- BR-59 has both shoulders 0.69" per drawings on legacy site
+         SOURCE ERROR:  BR-59 on legacy site table has exposed length of 1.0 in, but drawing scales to 0.82 in
+         (13/16 inch).
     -->
     <Transition>
         <Manufacturer>SEMROC</Manufacturer>
@@ -7815,11 +7816,11 @@ Ejection baffle rings
     <!-- BR-6xx - ST-6 to larger sizes -->
     <!-- ============================= -->
 
-    <!-- BR-616NC is flared Nike Cajun 1/10 scale; front shoulder is 0.625 in, aft shoulder 0.69 in, exposed length 1.7 in
-         *** SOURCE ERROR:  Semroc BR-616NC has PN suggesting smaller diam is ST-6 (.650 OD/ .610ID), however description
+    <!-- BR-616NC is flared Nike Cajun 1/10 scale; front shoulder is 0.625 in, aft shoulder 0.69 in, exposed length 1.7 in.
+         Mass discrepancy due to flare not considered significant enough for mass override.
+         SOURCE ERROR:  Semroc BR-616NC has PN suggesting smaller diam is ST-6 (.650 OD/ .610ID), however description
          on legacy site says "will connect a #8 body tube to a #16 body tube".  The drawing scales to a forward shoulder
          diameter of .605 which confirms it's really for #6 tube and the description is wrong.
-         Mass discrepancy due to flare not considered significant enough for mass override.
     -->
     <Transition>
         <Manufacturer>SEMROC</Manufacturer>
@@ -8180,7 +8181,7 @@ Ejection baffle rings
     </Transition>
 
     <!-- BR-813 has a 3/8" cylindrical section and total exposed length of 1.87" (see below) -->
-    <!-- *** SOURCE ERROR: Correct overall exposed length is unclear.
+    <!-- SOURCE ERROR: BR-813 correct overall exposed length is unclear.
             Semroc legacy site:         1.70"  Disagrees significantly with drawing
             Scaled drawing (legacy):    1.99"  (cyl section 0.34" plus 1.65" conical taper - pixel scale 224/in)
             Semroc/e-rockets new site:  1.75"  (1 3/8" plus 3/8" straight section)
@@ -8220,7 +8221,7 @@ Ejection baffle rings
     </Transition>
 
     <!-- BR-813P is a true cylindrical taper transition, shoulders 0.69" and length supposed to be 1.5" -->
-    <!--- *** SOURCE ERROR: inconsistency strikes again.  Legacy site gives length as 1.5", but drawing
+    <!--- SOURCE ERROR: BR-813P inconsistency strikes again.  Legacy site gives length as 1.5", but drawing
           scales to about 1.85" and still shows the cylindrical section.  New site shows a photo of a
           transition that clearly does not have the cylinder, but gives no length and no drawing.
           Here I'm going to go with the legacy table.  -->
@@ -8658,7 +8659,7 @@ Ejection baffle rings
     </Transition>
 
     <!-- BR-1118 has 0.69" shoulders and 2.0" length -->
-    <!-- *** SOURCE ERROR:  Legacy Semroc table gives 1.50" length, but drawing scales to 2.0"
+    <!-- SOURCE ERROR:  BR-1118 Legacy Semroc table gives 1.50" length, but drawing scales to 2.0"
          New site does not list length, and has same drawing.  Adopting the drawing value. -->
     <Transition>
         <Manufacturer>SEMROC</Manufacturer>
@@ -8856,7 +8857,7 @@ Ejection baffle rings
     </Transition>
 
     <!-- BR-1320 has both shoulders 0.85" (possibly wrong drawing), length 0.75" per spec -->
-    <!-- *** SOURCE ERROR: Legacy Semroc site gives length of BR-1320 as 0.75".  Drawing scales to 2.0".
+    <!-- SOURCE ERROR: BR-1320 Legacy Semroc site gives length as 0.75".  Drawing scales to 2.0".
          Mass listed is 0.28 oz which seems low for a 2" long adapter; it's the same as for the
          1.0" long BR-1316M.  The drawing also shows a cylinder section.  Overall I think the drawing is
          more likely to be wrong, so using the spec value of length 0.75", and the usual #13 shoulder of 0.69"  -->
@@ -8994,7 +8995,7 @@ Ejection baffle rings
     </Transition>
 
     <!-- BR-1620 has 0.85" shoulders and a 1.5" exposed length (see below) -->
-    <!-- *** SOURCE ERROR:  Semroc legacy site gives 1.5" exposed length, but the drawing scales to 1.75".
+    <!-- SOURCE ERROR:  BR-1620 Semroc legacy site gives 1.5" exposed length, but the drawing scales to 1.75".
          Adopted the spec length because this drawing again looks like a special one with cylindrical section
          at the larger end -->
     <Transition>
@@ -9096,7 +9097,7 @@ Ejection baffle rings
     <!-- BR-18xx - ST-18 to larger sizes -->
     <!-- =============================== -->
 
-    <!-- *** SOURCE ERROR: BR-1820 and BR-1820L are seriously confused on the new Semroc/e-rockets site.
+    <!-- SOURCE ERROR: BR-1820 and BR-1820L are seemingly conflated on the new Semroc/e-rockets site.
          For the unit on this page: http://www.erockets.biz/semroc-balsa-reducer-18-to-20-1-7-8-long-sem-br-1820/
             Title:              SEMROC BALSA REDUCER #18 TO #20, 1 7/8" LONG SEM-BR-1820
             Description text:   BR-1820L
@@ -9104,7 +9105,7 @@ Ejection baffle rings
             Length, specified:  1 7/8"
             Length, scaled dwg: 1.78"
          The L suffix usually means "long", and this is confirmed by the URL.
-         The drawing says "BR-1820", but the photo of the product shows a reducer that generally
+         The drawing says "BR-1820", but the photo of the product shows a long reducer that generally
          matches the drawing.
          For the unit on this page: http://www.erockets.biz/semroc-balsa-reducer-18-to-20-sem-br-1820l/
             Title:              SEMROC BALSA REDUCER #18 TO #20 SEM-BR-1820L
@@ -9112,7 +9113,8 @@ Ejection baffle rings
             Drawing caption:    BR-1820L
             Length, specified:  - not given -
             Length, scaled dwg: 0.42"
-         Here the nomenclature is consistent, but the drawing shows a very short exposed length.
+         Here the nomenclature is consistent, but the drawing shows a very short exposed length inconsistent
+         with the L designation.
     -->
     <!-- To resolve the BR-1820 / BR-1820L issue, I'm taking the long one to be BR-1820L. -->
 
@@ -9220,7 +9222,7 @@ Ejection baffle rings
     <!-- =================================== -->
 
     <!-- BR-085-175 (new site only) scaled dwg fore shoulder 0.88, aft shoulder 1.06, length 1.42" -->
-    <!-- *** SOURCE ERROR: BR-085-175 length not specified on new Semroc/e-rockets site -->
+    <!-- SOURCE ERROR: BR-085-175 length not specified on new Semroc/e-rockets site -->
     <Transition>
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-085-175</PartNumber>
@@ -9252,10 +9254,10 @@ Ejection baffle rings
         <Length Unit="in">1.42</Length>
     </Transition>
 
-    <!-- BR-085-225 (new site only except for length) spec length 2.5", scaled photo len 2.66", fore shoulder 0.56",
-         aft shoulder 0.75".  There is no drawing so the scaled dimensions are not precise. Using spec length from
+    <!-- BR-085-225 (new site only except for length) spec length 2.5", scaled photo len 2.37", fore shoulder 0.96",
+         aft shoulder 1.18".  There is no drawing so the scaled dimensions are not precise. Using spec length from
          old site with scaled photo dimensions from new site.  -->
-    <!-- *** SOURCE ERROR: BR-085-225 length not specified on new Semroc/e-rockets site -->
+    <!-- SOURCE ERROR: BR-085-225 length not specified on new Semroc/e-rockets site -->
     <Transition>
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-085-225</PartNumber>
@@ -9265,10 +9267,10 @@ Ejection baffle rings
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.945</ForeOutsideDiameter>
         <ForeShoulderDiameter Unit="in">0.865</ForeShoulderDiameter>
-        <ForeShoulderLength Unit="in">0.56</ForeShoulderLength>
+        <ForeShoulderLength Unit="in">0.96</ForeShoulderLength>
         <AftOutsideDiameter Unit="in">2.340</AftOutsideDiameter>
         <AftShoulderDiameter Unit="in">2.250</AftShoulderDiameter>
-        <AftShoulderLength Unit="in">0.75</AftShoulderLength>
+        <AftShoulderLength Unit="in">1.18</AftShoulderLength>
         <Length Unit="in">2.50</Length>
     </Transition>
     <Transition>
@@ -9280,10 +9282,10 @@ Ejection baffle rings
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">2.340</ForeOutsideDiameter>
         <ForeShoulderDiameter Unit="in">2.250</ForeShoulderDiameter>
-        <ForeShoulderLength Unit="in">0.75</ForeShoulderLength>
+        <ForeShoulderLength Unit="in">1.18</ForeShoulderLength>
         <AftOutsideDiameter Unit="in">0.945</AftOutsideDiameter>
         <AftShoulderDiameter Unit="in">0.865</AftShoulderDiameter>
-        <AftShoulderLength Unit="in">0.56</AftShoulderLength>
+        <AftShoulderLength Unit="in">0.96</AftShoulderLength>
         <Length Unit="in">2.50</Length>
     </Transition>
 
@@ -9296,10 +9298,11 @@ Ejection baffle rings
 
     <!-- BRS-115-16 "special" has no forward shoulder. All dims from scaled dwg on new Semroc/e-rockets site -->
 
-    <!-- BR-115-168 "special" has no dimensions. Description on new site says only
-         "Semroc Balsa Reducer #115 to #168   SEM-BR-115-168  Special".  All dims scaled from drawing. -->
-    <!-- *** SOURCE ERROR: BR-115-168 description gives no length and doesn't say what a #168 tube is.  I have
-         no record of a "#168" tube anywhere and a Google search turns up nothing useful. -->
+    <!-- SOURCE ERROR: BR-115-168 "special" has no given dimensions. Description on 2018 site says only
+         "Semroc Balsa Reducer #115 to #168   SEM-BR-115-168  Special".  All dims scaled from drawing:
+         both shoulders 1.0", len 1.19", ID of rear tube 1.68", OD of rear tube 1.75"
+         BR-115-168 description doesn't say what a #168 tube is.  I have
+         no record or memory of a "#168" tube anywhere and a Google search turns up nothing useful. -->
 
     <!-- BR-11518  -->
 
@@ -9738,7 +9741,7 @@ Ejection baffle rings
       <OutsideDiameter Unit="in">0.513</OutsideDiameter>
       <Length Unit="in">0.75</Length>
     </BulkHead>
-    <!-- SOURCE ERROR: Semroc legacy site gives 0.615 for OD of BTC-6.  It can't be that
+    <!-- SOURCE ERROR: BTC-6 Semroc legacy site gives 0.615 for OD of BTC-6.  It can't be that
          big; they list ID of ST-6 tube as 0.610  -->
     <BulkHead>
       <Manufacturer>SEMROC</Manufacturer>
@@ -9863,7 +9866,7 @@ Ejection baffle rings
       <OutsideDiameter Unit="in">0.863</OutsideDiameter>
       <Length Unit="in">1.5</Length>
     </BulkHead>
-    <!-- SOURCE ERROR: Semroc legacy site gives OD of BTC-115 as 1.15".  ID of Series 115
+    <!-- SOURCE ERROR: BTC-115 Semroc legacy site gives OD of BTC-115 as 1.15".  ID of Series 115
     tube is given as 1.14" by multiple sources -->
     <BulkHead>
       <Manufacturer>SEMROC</Manufacturer>
@@ -10556,7 +10559,7 @@ Ejection baffle rings
       <Length Unit="in">0.82</Length>
     </NoseCone>
     <!-- BNC-20L (Mini-Bertha #0803 only) ref 1974 Estes custom parts catalog
-         SOURCE ERROR: Semroc legacy gives incorrect length 2.0", weight .04 oz
+         SOURCE ERROR: BNC-20L Semroc legacy gives incorrect length 2.0", weight .04 oz
          Estes official length is 1 3/8" but:
          Semroc new gives length 1.4"
          balsamachining.com also gives length 1.4"
@@ -11449,7 +11452,7 @@ Ejection baffle rings
     </NoseCone>
     <!-- BC-RW825 is described on new 2017 eRockets/Semroc site as upscale of BNC-5E
          Does not appear on Semroc legacy site
-         SOURCE ERROR: 2017 eRockets/Semroc website has outline drawing showing pure cone, should be
+         SOURCE ERROR: BC-RW825 eRockets/Semroc website has outline drawing showing pure cone, should be
          fat ogive.  Also dimensions do not agree with BC-823E.
     -->
     <NoseCone>
@@ -11970,7 +11973,7 @@ Ejection baffle rings
       <ShoulderLength Unit="in">0.50</ShoulderLength>
       <Length Unit="in">3.25</Length>
     </NoseCone>
-    <!-- SOURCE ERROR? BC-933 description is identical to BC-932, they both say BNC-50X for ST-9 -->
+    <!-- SOURCE ERROR: (?) BC-933 description is identical to BC-932, they both say BNC-50X for ST-9 -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-933</PartNumber>
@@ -12036,7 +12039,7 @@ Ejection baffle rings
       <ShoulderLength Unit="in">0.50</ShoulderLength>
       <Length Unit="in">4.1</Length>
     </NoseCone>
-    <!-- SOURCE ERROR: Semroc legacy and new sites both show length of 4.3" for BC-943 and
+    <!-- SOURCE ERROR: BC-943 and BC-944  Semroc legacy and new sites both show length of 4.3" for BC-943 and
          4.4" for BC-944.  They are supposed to be modeled after the Estes PNC-50Y and
          BNC-50Y, respectively.  However the official Estes specs for those items have
          identical lengths of 4.375".
@@ -12329,8 +12332,8 @@ Ejection baffle rings
       <ShoulderLength Unit="in">0.5</ShoulderLength>
       <Length Unit="in">5.7</Length>
     </NoseCone>
-    <!-- Semroc BNC-50G3 is a 3:1 ogive
-         SOURCE ERROR: Semroc legacy and new sites both describe this as a #9 cone -->
+    <!-- Semroc BNC-50G3 is a 3:1 ogive -->
+    <!-- SOURCE ERROR: BNC-50G3 Semroc legacy and new sites both describe BNC-50G3 as a #9 cone -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BNC-50G3</PartNumber>
@@ -12343,8 +12346,8 @@ Ejection baffle rings
       <ShoulderLength Unit="in">0.5</ShoulderLength>
       <Length Unit="in">2.93</Length>
     </NoseCone>
-    <!-- Semroc BNC-50G4 is a 4:1 ogive
-         SOURCE ERROR: Semroc legacy and new sites both describe this as a #9 cone -->
+    <!-- Semroc BNC-50G4 is a 4:1 ogive -->
+    <!-- SOURCE ERROR: BNC-50G4 Semroc legacy and new sites both describe BNC-50G4 as a #9 cone -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BNC-50G4</PartNumber>
@@ -12358,7 +12361,7 @@ Ejection baffle rings
       <Length Unit="in">3.9</Length>
     </NoseCone>
     <!-- Semroc BNC-50G5 is a 5:1 ogive
-         SOURCE ERROR: Semroc legacy and new sites both describe this as a #9 cone -->
+         SOURCE ERROR: BNC-50G5 Semroc legacy and new sites both describe this as a #9 cone -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BNC-50G5</PartNumber>
@@ -13339,9 +13342,9 @@ Ejection baffle rings
     </NoseCone>
 
     <!-- BTC-11SC is a bulbous flared tailcone drilled for 18mm motor tube
-         *** SOURCE ERROR: Semroc legacy site gives length and weight as zero ***
+         SOURCE ERROR: BTC-115C Semroc legacy site gives length and weight as zero.
          Mass is estimated based on specified weights of other #11 nose cones
-         Length adnd shoulder length scaled from drawing on legacy site.
+         Length and shoulder length scaled from drawing on legacy site.
     -->
     <Transition>
         <Manufacturer>Semroc</Manufacturer>
@@ -15368,7 +15371,7 @@ Ejection baffle rings
     </NoseCone>
 
     <!-- BNC-60SU is a complex capsule shape, incorrectly called "Ogive".  Nothing like this in Brohm. 
-         *** SOURCE ERROR: BNC-60SU is called an ogive on Semroc legacy and 2017 sites ***
+         SOURCE ERROR: BNC-60SU is called an ogive on Semroc legacy and 2017 sites ***
     -->
     <NoseCone>
         <Manufacturer>Semroc</Manufacturer>
@@ -15804,8 +15807,8 @@ Ejection baffle rings
     </NoseCone>
 
     <!-- BC-1665 was described on legacy site as 6.5" ogive, also designated "Nike Herc 18mm" (with a "New!" tag).
-         *** SOURCE ERROR:  Drawing on legacy Semroc site for BC-1665 is titled "BC-1672".  Semroc legacy site NC
-         table also gives its length as 7.2" ***
+         SOURCE ERROR:  BC-1665 Drawing on legacy Semroc site for BC-1665 is titled "BC-1672".  Semroc legacy site NC
+         table also gives its length as 7.2".
          This entry has disappeared from the 2017 Semroc site; I think it was very likely bogus, so omitting it.
     -->
 
@@ -16902,7 +16905,7 @@ Ejection baffle rings
 
     <!-- BNC-70PE is 11.6 tri-conic Pershing missile shape (erroneously called ogive)
          Only on Semroc legacy site.
-         *** SOURCE ERROR: incorrectly called "ogive" on both old and new sites, not identified as Pershing shape ***
+         SOURCE ERROR: BNC-70PE incorrectly called "ogive" on both old and new sites, not identified as Pershing shape ***
     -->
     <NoseCone>
         <Manufacturer>Semroc</Manufacturer>
@@ -16977,7 +16980,7 @@ Ejection baffle rings
     </NoseCone>
 
     <!-- BNC-70X is 7.3" elliptical, probable upscale of BNC-50X, length checks out 
-         *** SOURCE ERROR: neither new nor old Semroc sites mention it's a BNC-50X upscale ***
+         SOURCE ERROR: BNC-70X neither new nor old Semroc sites mention it's a BNC-50X upscale ***
     -->
     <NoseCone>
         <Manufacturer>Semroc</Manufacturer>
@@ -16997,7 +17000,7 @@ Ejection baffle rings
     <!-- BNC-70Hxx (BT-70H) nose cones for heavy wall BTH-70 tubes   -->
     <!-- =========================================================== -->
     <!-- shoulder lengths estimated -->
-    <!-- *** SOURCE ERROR: BNC-70 and BHC-70Hxx are not separated on new Semroc site, but BNC-80 and BNC-80Hxx are -->
+    <!-- SOURCE ERROR: BNC-70 and BHC-70Hxx are not separated on new Semroc site, but BNC-80 and BNC-80Hxx are -->
 
     <!-- BNC-70HAC is 9.2" secant ogive, upscale of Estes BNC-55AC -->
     <NoseCone>

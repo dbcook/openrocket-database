@@ -30,10 +30,15 @@ System compatibility:  works anywhere OpenRocket can run
 0.9.0.18 - Mar 2018
 * Fixes
   * Corrected note about parts filtering - functionality exists but is effectively hidden by near zero-width field in UI.
+  * Exterminated quote marks from 3 more Semroc part numbers due to bug identified by PR2, and verified that none
+    exist in any other .orc files.
+  * Reformatted many SOURCE ERROR documentation tags in semroc.orc to aid in parsing them for the upcoming
+    errata report to e-rockets.
 * Additions
   * Semroc balsa transitions BR-5xx, BR-6xx, BR-7xx, BR-8xx, BR-8Fxx, BR-9xx, BR-10xx, BR-11xx, BR-13xx
   * Semroc balsa transitions BR-16xx, BR-18xx, BR-085-xx
   * Research notes on Quest
+  * Added short python script to print out SOURCE ERROR tags
 
 0.9.0.17 - Jan 2018
 * Fixes
