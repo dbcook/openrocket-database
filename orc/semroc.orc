@@ -9092,8 +9092,128 @@ Ejection baffle rings
         <Length Unit="in">1.5</Length>
     </Transition>
 
+    <!-- =============================== -->
+    <!-- BR-18xx - ST-18 to larger sizes -->
+    <!-- =============================== -->
 
-    <!-- ST-18 to larger sizes -->
+    <!-- *** SOURCE ERROR: BR-1820 and BR-1820L are seriously confused on the new Semroc/e-rockets site.
+         For the unit on this page: http://www.erockets.biz/semroc-balsa-reducer-18-to-20-1-7-8-long-sem-br-1820/
+            Title:              SEMROC BALSA REDUCER #18 TO #20, 1 7/8" LONG SEM-BR-1820
+            Description text:   BR-1820L
+            Drawing caption:    BR-1820
+            Length, specified:  1 7/8"
+            Length, scaled dwg: 1.78"
+         The L suffix usually means "long", and this is confirmed by the URL.
+         The drawing says "BR-1820", but the photo of the product shows a reducer that generally
+         matches the drawing.
+         For the unit on this page: http://www.erockets.biz/semroc-balsa-reducer-18-to-20-sem-br-1820l/
+            Title:              SEMROC BALSA REDUCER #18 TO #20 SEM-BR-1820L
+            Description text:   Semroc Balsa Reducer #18 to #20   SEM-BR-1820L
+            Drawing caption:    BR-1820L
+            Length, specified:  - not given -
+            Length, scaled dwg: 0.42"
+         Here the nomenclature is consistent, but the drawing shows a very short exposed length.
+    -->
+    <!-- To resolve the BR-1820 / BR-1820L issue, I'm taking the long one to be BR-1820L. -->
+
+    <!-- BR-1820 scaled drawing dims are shoulder 0.67", length 0.375".  See discussion above. -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BR-1820</PartNumber>
+        <Description>Transition, balsa, #18 to #20, increasing, 0.375 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.840</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.800</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.67</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">2.040</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">2.000</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.67</AftShoulderLength>
+        <Length Unit="in">0.375</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BR-1820 [R]</PartNumber>
+        <Description>Transition, balsa, #20 to #18, reducing, 0.375 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">2.040</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">2.000</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.67</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.840</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.800</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.67</AftShoulderLength>
+        <Length Unit="in">0.375</Length>
+    </Transition>
+
+
+    <!-- BR-1820L has 0.87" shoulders, length 1.875".  See discussion above.  -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BR-1820L</PartNumber>
+        <Description>Transition, balsa, #18 to #20, increasing, 1.875 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.840</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.800</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.87</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">2.040</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">2.000</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.87</AftShoulderLength>
+        <Length Unit="in">1.875</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BR-1820L [R]</PartNumber>
+        <Description>Transition, balsa, #20 to #18, reducing, 1.875 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">2.040</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">2.000</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.87</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.840</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.800</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.87</AftShoulderLength>
+        <Length Unit="in">1.875</Length>
+    </Transition>
+
+
+    <!-- BR-18225 from new site has 0.81" fore shoulder, 1.0" aft shoulder, and 2.0" length -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BR-18225</PartNumber>
+        <Description>Transition, balsa, #18 to #225, increasing, 2.0 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.840</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.800</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.81</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">2.340</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">2.250</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">1.0</AftShoulderLength>
+        <Length Unit="in">2.00</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BR-18225 [R]</PartNumber>
+        <Description>Transition, balsa, #225 to #18, reducing, 2.0 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">2.340</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">2.250</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">1.00</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.840</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.800</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.81</AftShoulderLength>
+        <Length Unit="in">2.00</Length>
+    </Transition>
+
 
     <!-- LT-085 to larger sizes -->
 
