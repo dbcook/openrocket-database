@@ -36,7 +36,7 @@ System compatibility:  works anywhere OpenRocket can run
     errata report to e-rockets.
 * Additions
   * Semroc balsa transitions BR-5xx, BR-6xx, BR-7xx, BR-8xx, BR-8Fxx, BR-9xx, BR-10xx, BR-11xx, BR-13xx
-  * Semroc balsa transitions BR-16xx, BR-18xx, BR-085-xx, BR-115xx, BR-125xx
+  * Semroc balsa transitions BR-16xx, BR-18xx, BR-085-xx, BR-115xx, BR-125xx, BR-150xx, BR-175xx, BR-225xx
   * Research notes on Quest
   * Added short python script to print out SOURCE ERROR tags
 
