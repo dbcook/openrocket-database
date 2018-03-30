@@ -8,7 +8,7 @@ Ones that don't have known Estes counterparts are marked with * in the comments.
 SEMROC never listed a BT-56 - it was essentially identical to Centuri #13 though.
 
 SERIES    ID        OD         RingID    RingOD
-                               OD+.02    ID-.02
+                               OD+.002   ID-.002
 ------    -----     -----      ------    ------
 BT-1+     0.220     0.246      0.248     0.218    * Quest MMX motor mount tube
 BT-2      0.255     0.281      0.283     0.253    * slips over MMX motor mount T-1+
@@ -47,7 +47,7 @@ Centuri-Compatible Series
 -------------------------
 
 SERIES    ID        OD         RingID    RingOD
-                               OD+.02    ID-.02
+                               OD+.002   ID-.002
 ------    -----     -----      ------    ------
 #2        0.234     0.260      0.262     0.232
 #5        0.515     0.543      0.545     0.513     Identical to Estes BT-5
@@ -72,7 +72,7 @@ These are now listed on the eRocket/SEMROC site as LT-xxx
 These are not the same as the newer Estes PSII 2.0, 2.5, 3.0, 4.0 tubes which are .034 wall
 
 SERIES    ID        OD         RingID    RingOD
-                               OD+.02    ID-.02
+                               OD+.002   ID-.002
 ------    -----     -----      ------    ------
 #085      0.865     0.945      0.947     0.863
 #115      1.140     1.220      1.222     1.138
@@ -96,6 +96,22 @@ CPT #13   1.300     1.340      1.342     1.298   eRockets/Semroc gives slightly 
 PST-50    0.950     0.976      0.978     0.948
 PST-55    1.283     1.325      1.327     1.281
 PST-65    1.750     1.774      1.776     1.748
+
+Metric tubes (MPC/Quest) - dimensions in mm
+-------------------------------------------
+T5        4.00      5.00       5.05      3.95    MPC only
+T14      13.00     14.00      14.05     12.95    MPC only, MMT for 13mm motors
+T15      14.00     15.00      15.05     13.95    Standard 15mm body tube, Quest specs as ID 0.550", OD 0.590" which is 14.0/15.0
+T19      18.08     18.74      18.79     18.03    Quest calls this "18mm motor mount tube", gives ID 0.712", OD 0.738"
+T20      19.00     20.00      20.05     18.95    Standard 20mm body tube
+T21      20.19     21.21      21.26     20.14    Quest calls this "21 mm motor mount tube" for their former 20mm D motors,
+                                                   gives ID 0.795", OD 0.835"
+T25      24.00     25.00      25.05     23.95    Standard 25mm body tube
+T30      29.00     30.00      30.05     28.95    Standard 30mm body tube
+T31      28.96     30.86      30.91     28.91    Quest calls this "29mm motor mount tube", gives ID 1.14", OD 1.215"
+T35      34.00     35.00      35.05     33.95    Standard 35mm body tube, Quest specs ID 1.340", OD 1.380" == 34.0/35.0 mm
+T40      39.00     40.00      40.05     38.95    Standard 40mm body tube (also for FAI events)
+T50      48.80     50.00      50.05     48.75    Standard 50mm body tube, Quest specs ID 1.92", OD 1.97" == 48.8 / 50.0 mm
 
 Aerotech tubes
 --------------
