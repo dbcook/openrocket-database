@@ -7591,7 +7591,7 @@ Ejection baffle rings
     <Transition>
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-57</PartNumber>
-        <Description>Transition, balsa, #5 to #7, increasing</Description>
+        <Description>Transition, balsa, #5 to #7, increasing, 0.5 in len</Description>
         <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
@@ -7606,7 +7606,7 @@ Ejection baffle rings
     <Transition>
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-57 [R]</PartNumber>
-        <Description>Transition, balsa, #7 to #5, reducing</Description>
+        <Description>Transition, balsa, #7 to #5, reducing, 0.5 in len</Description>
         <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
@@ -7623,7 +7623,7 @@ Ejection baffle rings
     <Transition>
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-58</PartNumber>
-        <Description>Transition, balsa, #5 to #8, increasing</Description>
+        <Description>Transition, balsa, #5 to #8, increasing, 0.6 in len</Description>
         <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
@@ -7638,7 +7638,7 @@ Ejection baffle rings
     <Transition>
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-58 [R]</PartNumber>
-        <Description>Transition, balsa, #8 to #5, reducing</Description>
+        <Description>Transition, balsa, #8 to #5, reducing, 0.6 in len</Description>
         <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
@@ -7655,7 +7655,7 @@ Ejection baffle rings
     <Transition>
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-58F</PartNumber>
-        <Description>Transition, balsa, #5 to #8F, increasing</Description>
+        <Description>Transition, balsa, #5 to #8F, increasing, 0.6 in len</Description>
         <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
@@ -7670,7 +7670,7 @@ Ejection baffle rings
     <Transition>
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-58F [R]</PartNumber>
-        <Description>Transition, balsa, #8F to #5, reducing</Description>
+        <Description>Transition, balsa, #8F to #5, reducing, 0.6 in len</Description>
         <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
@@ -7685,12 +7685,12 @@ Ejection baffle rings
 
     <!-- BR-59 has both shoulders 0.69" per drawings on legacy site
          SOURCE ERROR:  BR-59 on legacy site table has exposed length of 1.0 in, but drawing scales to 0.82 in
-         (13/16 inch).
+         (13/16 inch).  Which is right?
     -->
     <Transition>
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-59</PartNumber>
-        <Description>Transition, balsa, #5 to #9, increasing</Description>
+        <Description>Transition, balsa, #5 to #9, increasing, 0.82 in len</Description>
         <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
@@ -7705,7 +7705,7 @@ Ejection baffle rings
     <Transition>
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-59 [R]</PartNumber>
-        <Description>Transition, balsa, #9 to #5, reducing</Description>
+        <Description>Transition, balsa, #9 to #5, reducing, 0.82 in len</Description>
         <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
@@ -7722,7 +7722,7 @@ Ejection baffle rings
     <Transition>
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-510</PartNumber>
-        <Description>Transition, balsa, #5 to #10, increasing</Description>
+        <Description>Transition, balsa, #5 to #10, increasing, 0.75 in len</Description>
         <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
@@ -7737,7 +7737,7 @@ Ejection baffle rings
     <Transition>
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-510 [R]</PartNumber>
-        <Description>Transition, balsa, #10 to #5, reducing</Description>
+        <Description>Transition, balsa, #10 to #5, reducing, 0.75 in len</Description>
         <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
@@ -7754,7 +7754,7 @@ Ejection baffle rings
     <Transition>
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-511</PartNumber>
-        <Description>Transition, balsa, #5 to #11, increasing</Description>
+        <Description>Transition, balsa, #5 to #11, increasing, 0.75 in len</Description>
         <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
@@ -7769,7 +7769,7 @@ Ejection baffle rings
     <Transition>
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-511 [R]</PartNumber>
-        <Description>Transition, balsa, #11 to #5, reducing</Description>
+        <Description>Transition, balsa, #11 to #5, reducing, 0.75 in len</Description>
         <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
@@ -7786,7 +7786,7 @@ Ejection baffle rings
     <Transition>
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-513</PartNumber>
-        <Description>Transition, balsa, #5 to #13, increasing</Description>
+        <Description>Transition, balsa, #5 to #13, increasing, 1.5 in len</Description>
         <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
@@ -7801,7 +7801,7 @@ Ejection baffle rings
     <Transition>
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-513 [R]</PartNumber>
-        <Description>Transition, balsa, #13 to #5, reducing</Description>
+        <Description>Transition, balsa, #13 to #5, reducing, 1.5 in len</Description>
         <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
@@ -7812,6 +7812,74 @@ Ejection baffle rings
         <AftShoulderDiameter Unit="in">0.515</AftShoulderDiameter>
         <AftShoulderLength Unit="in">0.69</AftShoulderLength>
         <Length Unit="in">1.50</Length>
+    </Transition>
+
+    <!-- BR-5-T20 (metric 20mm) has length 0.75" (e-rockets site), shoulders 0.5" (estimated from oblique photo) -->
+    <!-- SOURCE ERROR: BR-5-T20 price listed at $9.99 on new site though all others of similar size are $3 to $3.50.
+         No drawing shown. -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BR-5-T20</PartNumber>
+        <Description>Transition, balsa, #5 to metric T20, increasing, 0.75 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">0.543</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">0.515</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.50</ForeShoulderLength>
+        <AftOutsideDiameter Unit="mm">20.0</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="mm">19.0</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.50</AftShoulderLength>
+        <Length Unit="in">0.75</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BR-5-T20 [R]</PartNumber>
+        <Description>Transition, balsa, metric T20 to #5, reducing, 0.75 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="mm">20.0</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="mm">19.0</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.50</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">0.543</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">0.515</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.50</AftShoulderLength>
+        <Length Unit="in">0.75</Length>
+    </Transition>
+
+    <!-- BR-5-T20A (metric 20mm) has length 1.0" (e-rockets site), shoulders 0.5" (estimated from photo) -->
+    <!-- SOURCE ERROR: BR-5-T20A price listed at $9.99 on new site though all others of similar size are $3 to $3.50.
+         No drawing shown. -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BR-5-T20A</PartNumber>
+        <Description>Transition, balsa, #5 to metric T20, increasing, 1.0 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">0.543</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">0.515</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.50</ForeShoulderLength>
+        <AftOutsideDiameter Unit="mm">20.0</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="mm">19.0</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.50</AftShoulderLength>
+        <Length Unit="in">1.0</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BR-5-T20 [R]</PartNumber>
+        <Description>Transition, balsa, metric T20 to #5, reducing, 1.0 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="mm">20.0</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="mm">19.0</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.50</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">0.543</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">0.515</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.50</AftShoulderLength>
+        <Length Unit="in">1.0</Length>
     </Transition>
 
     <!-- ============================= -->
@@ -9813,22 +9881,220 @@ Ejection baffle rings
         <Length Unit="in">2.1</Length>
     </Transition>
 
+    <!-- ============================= -->
+    <!-- TA-3xx - BT-3 to larger sizes --> 
+    <!-- ============================= -->
+    <!-- TA-3xx do not appear on Semroc legacy site -->
 
-    <!-- BT-5 to larger sizes -->
+    <!-- TA-35 has len 0.5" (new e-rockets site), shoulders 0.42" (scaled dwg) -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-35</PartNumber>
+        <Description>Transition, balsa, #3 to BT-5, increasing, 0.5 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">0.375</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">0.349</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.42</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">0.543</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">0.515</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.42</AftShoulderLength>
+        <Length Unit="in">0.5</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-35 [R]</PartNumber>
+        <Description>Transition, balsa, #3 to BT-5, reducing, 0.5 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">0.543</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">0.515</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.42</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">0.375</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">0.349</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.42</AftShoulderLength>
+        <Length Unit="in">0.5</Length>
+    </Transition>
 
-    <!-- BT-20 to larger sizes -->
+    <!-- TA-35A has len 1.0" (new e-rockets site), shoulders 0.45" (scaled dwg) -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-35A</PartNumber>
+        <Description>Transition, balsa, #3 to BT-5, increasing, 1.0 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">0.375</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">0.349</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.42</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">0.543</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">0.515</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.42</AftShoulderLength>
+        <Length Unit="in">1.0</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-35A [R]</PartNumber>
+        <Description>Transition, balsa, #3 to BT-5, reducing, 1.0 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">0.543</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">0.515</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.42</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">0.375</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">0.349</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.42</AftShoulderLength>
+        <Length Unit="in">1.0</Length>
+    </Transition>
 
-    <!-- BT-50 to larger sizes -->
+    <!-- ============================= -->
+    <!-- TA-5xx - BT-5 to larger sizes -->
+    <!-- ============================= -->
 
-    <!-- BT-52 to larger sizes -->
+    <!-- TA-520 has length 0.75" (Estes spec and legacy site), shoulders 0.57" (scaled dwg from new site) -->
+    <!-- SOURCE ERROR: TA-520 drawing on legacy site has incorrect length, scales to 0.6" (should be 0.75").
+         Drawing on new e-rockets site is correct. -->
 
-    <!-- BT-55 to larger sizes -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-520</PartNumber>
+        <Description>Transition, balsa, BT-5 to BT-20, increasing, 0.75 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">0.543</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">0.515</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.57</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">0.736</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">0.710</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.57</AftShoulderLength>
+        <Length Unit="in">0.75</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-520 [R]</PartNumber>
+        <Description>Transition, balsa, BT-20 to BT-5, reducing, 0.75 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">0.736</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">0.710</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.57</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">0.543</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">0.515</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.57</AftShoulderLength>
+        <Length Unit="in">0.75</Length>
+    </Transition>
 
-    <!-- BT-60 to larger sizes -->
+    <!-- TA-550 has length 1.0" (legacy site), shoulders 0.5" (scaled dwg) -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-550</PartNumber>
+        <Description>Transition, balsa, BT-5 to BT-50, increasing, 1.0 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">0.543</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">0.515</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.50</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">0.976</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">0.950</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.50</AftShoulderLength>
+        <Length Unit="in">1.00</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-550 [R]</PartNumber>
+        <Description>Transition, balsa, BT-50 to BT-5, reducing, 1.0 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">0.976</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">0.950</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.50</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">0.543</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">0.515</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.50</AftShoulderLength>
+        <Length Unit="in">1.0</Length>
+    </Transition>
 
-    <!-- BT-70 to larger sizes -->
+    <!-- TA-580 (not in Estes catalog) has length 2.1" (legacy site) and shoulders 0.69" (scaled dwg) -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-580</PartNumber>
+        <Description>Transition, balsa, BT-5 to BT-80, increasing, 2.1 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">0.543</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">0.515</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.69</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">2.600</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">2.558</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.69</AftShoulderLength>
+        <Length Unit="in">2.1</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-580 [R]</PartNumber>
+        <Description>Transition, balsa, BT-80 to BT-5, reducing, 2.1 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">2.600</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">2.558</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.69</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">0.543</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">0.515</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.69</AftShoulderLength>
+        <Length Unit="in">2.1</Length>
+    </Transition>
 
-    <!-- BT-70H to larger sizes -->
+
+    <!-- =============================== -->
+    <!-- TA-20xx - BT-20 to larger sizes -->
+    <!-- =============================== -->
+
+    <!-- TA-2050 has length 2.0" (e-rockets site), shoulders -->
+
+    <!-- TA-2050A has length 1.0" (e-rockets site), shoulders -->
+
+    <!-- TA-2050B has length 2.5" (e-rockets site), shoulders -->
+
+    <!-- TA-2055 has length 1.5" (legacy site), shoulders -->
+
+    <!-- TA-2058 has length 2.0" (legacy site), shoulders -->
+
+    <!-- TA-2060 has length 2.0" (legacy site), shoulders -->
+
+    <!-- TA-2070 has length 2.5" (scaled dwg), fore shoulder 0.57", aft shoulder 0.67 (scaled dwg)-->
+
+    <!-- =============================== -->
+    <!-- TA-50xx - BT-50 to larger sizes -->
+    <!-- =============================== -->
+
+    <!-- =============================== -->
+    <!-- TA-52xx - BT-52 to larger sizes -->
+    <!-- =============================== -->
+
+    <!-- =============================== -->
+    <!-- TA-55xx - BT-55 to larger sizes -->
+    <!-- =============================== -->
+
+    <!-- =============================== -->
+    <!-- TA-60xx - BT-60 to larger sizes -->
+    <!-- =============================== -->
+
+    <!-- =============================== -->
+    <!-- TA-70xx - BT-70 to larger sizes -->
+    <!-- =============================== -->
+
+    <!-- ================================= -->
+    <!-- TA-70Hxx - BT-70H to larger sizes -->
+    <!-- ================================= -->
 
     
     <!-- ================= -->
@@ -9836,7 +10102,8 @@ Ejection baffle rings
     <!-- ================= -->
 
     
-    <!-- SEMROC EB-5 is also CR-3-5.  OD on 2017 eRocket site of .516 is wrong -->
+    <!-- SEMROC EB-5 is also CR-3-5.  OD corrected as e-rocket site value is too big -->
+    <!-- SOURCE ERROR: EB-5 OD on 2017 eRocket site of .516 is wrong, must be less than 0.515 -->
     <EngineBlock>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>EB-5</PartNumber>

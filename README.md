@@ -37,8 +37,10 @@ System compatibility:  works anywhere OpenRocket can run
 * Additions
   * Semroc balsa transitions BR-5xx, BR-6xx, BR-7xx, BR-8xx, BR-8Fxx, BR-9xx, BR-10xx, BR-11xx, BR-13xx
   * Semroc balsa transitions BR-16xx, BR-18xx, BR-085-xx, BR-115xx, BR-125xx, BR-150xx, BR-175xx, BR-225xx
+  * Semroc balsa transitions TA-3xx, TA-5xx
   * Research notes on Quest
   * Added short python script to print out SOURCE ERROR tags
+  * Added info on Quest/MPC metric tube sizes to tube_data.txt
 
 0.9.0.17 - Jan 2018
 * Fixes
