@@ -69,7 +69,7 @@ Estes tube reference has a lot of information about these errors.
 
 Numeric non-significant 4-6 digit part numbers were introduced in the 1970s.  These numbers carry no systematic
 clues about the sizes of the parts.  For many years the old and new part number systems were used in parallel, but
-graadually between 2000-2010, the old designators stopped appearing in kit instructions, and many parts are no longer
+graadually between 2000-2010, the old designators stopped appearing in kit instructions, many parts are no longer
 sold separately, and many were never listed in catalogs.  
 
 ### Indexing of New Parts Onward from 2017

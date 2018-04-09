@@ -5216,6 +5216,18 @@ Known issues:
           <Length Unit="in">8.0</Length>
         </LaunchLug>
 
+        <!-- LL-2E 9.5" long was used in the K-43 Mars Lander.  Plans on JimZ do not give numeric PN,
+             instructions not on Estes site as of 2018. -->
+        <LaunchLug>
+          <Manufacturer>Estes</Manufacturer>
+          <PartNumber>LL-2E</PartNumber>
+          <Description>Launch lug, paper, 1/8 x 9.5"</Description>
+          <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+          <InsideDiameter Unit="in">0.156</InsideDiameter>
+          <OutsideDiameter Unit="in">0.173</OutsideDiameter>
+          <Length Unit="in">9.5</Length>
+        </LaunchLug>
+
         <!-- PN 2328 3/16 x 2 possibly has LL designation; no Estes ref but Semroc calls
              it LL-3B.  Carl McLawhorn was pretty careful about his PNs for exact Estes parts -->
         <!-- 3/16 lug measured OD = 0.227, set ID to give same wall thickness as 1/8 lugs -->
