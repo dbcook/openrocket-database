@@ -1295,24 +1295,25 @@
         <!-- 1.1 oz is Top Flight thin mill material -->
         <Material UnitsOfMeasure="g/m2">
             <Name>Nylon fabric, ripstop, 1.1 oz actual</Name>
-            <Density>0.03735</Density>
+            <Density>0.0341</Density>
             <Type>SURFACE</Type>
         </Material>
         <Material UnitsOfMeasure="g/m2">
             <Name>Nylon fabric, ripstop, 1.3 oz actual</Name>
-            <Density>0.04407</Density>
+            <Density>0.0403</Density>
             <Type>SURFACE</Type>
         </Material>
         <!-- 1.7oz ripstop nylon is Top Flight and LOC standard parachute material -->
         <Material UnitsOfMeasure="g/m2">
             <Name>Nylon fabric, ripstop, 1.7 oz actual</Name>
-            <Density>0.05764</Density>
+            <Density>0.0527</Density>
             <Type>SURFACE</Type>
         </Material>
-        <!-- 1.9oz ripstop nylon is Sky Angle standard parachute material -->
+        <!-- 1.9oz ripstop nylon is LOC (2018) and Sky Angle standard parachute material.
+             LOC material is stated to be urethane coated. -->
         <Material UnitsOfMeasure="g/m2">
             <Name>Nylon fabric, ripstop, 1.9 oz actual</Name>
-            <Density>0.06442</Density>
+            <Density>0.0589</Density>
             <Type>SURFACE</Type>
         </Material>
         <!-- This "1.9 oz" nylon is heavier, maybe silicone-coated non-porous like B2 chutes -->

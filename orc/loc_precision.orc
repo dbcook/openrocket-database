@@ -14,6 +14,10 @@ mostly preserving the old errors and incompleteness.
 The best *official* LOC resource is the "2010-2012 Accessories Catalog".  However it is still
 pretty bad.
 
+Recent updates to the LOC website in early 2018 have added some dimensional data, but
+the accuracy and precision are mostly poor.  Some of the new products like LBT-50 airframe
+have good data though.
+
 The Apogee site has a very comprehensive listing of parts with measured
 dimensions and masses for LOC and other lines of parts. In all cases except where I measured
 different values from an actual part, I've adopted the Apogee values as more likely to be correct.
@@ -36,7 +40,8 @@ literature.
 boattails. I kept this as potentially useful, but their authenticity as LOC parts is dubious.
 I am not sure if they ever did officially exist; they do not appear in old catalogs up through 1989,
 aren't listed on the 2017 website, and I cannot locate any reference to them in historical
-materials.  They may have been incorporated in some older kits such as Marvin's Wild Ride.
+materials.  They may have been incorporated in some older kits such as Marvin's Wild Ride as
+on-the-fly modifications when kitting up those rockets.
 
 * Shroud line specs for LOC parachutes were only described as "200# nylon cord".  This would be
 about a 2.0 mm size, but (oddly) nobody seems to make that.  Closest fit would be a 233 lb 3/32"
@@ -58,30 +63,33 @@ follows.  Thicknesses are not given except for a general statement that they are
 3/16" and 1/4" specialty plywood".  The FCR-1.52-1.14 is the fiber centering ring.  We can infer the
 thickness of the smallest and largest rings but the range of the 3/16" thick ones is unknown.
 
+UPDATE Apr 2018: On the 2018 website, thicknesses are given for some more rings, enough to let us infer thicknesses
+for all the ones not explicitly given somewhere.
+
 FCR-1.52-1.14
-CR-2.14-0.95        0.125
-CR-2.14-1.14        0.125
-CR-2.14-1.52        0.125
-CR-2.56-0.95
-CR-2.56-1.14
-CR-2.56-1.52
-CR-3.00-0.71
-CR-3.00-0.95
-CR-3.00-1.14
-CR-3.00-1.52
-CR-3.00-2.14
-CR-3.90-1.14
+CR-2.14-0.95        0.125 (inferred)
+CR-2.14-1.14        0.125 (inferred)
+CR-2.14-1.52        0.125 (inferred)
+CR-2.56-0.95        0.125 (2018 site)
+CR-2.56-1.14        0.125 (inferred)
+CR-2.56-1.52        0.125 (inferred)
+CR-3.00-0.71        0.250 (inferred)
+CR-3.00-0.95        0.250 (2018 site)
+CR-3.00-1.14        0.250 (inferred)
+CR-3.00-1.52        0.250 (inferred)
+CR-3.00-2.14        0.250 (inferred)
+CR-3.90-1.14        0.250 (inferred)
 CR-3.90-1.52        0.250 (2017 site)
-CR-3.90-2.14
-CR-3.90-3.00
+CR-3.90-2.14        0.250 (inferred)
+CR-3.90-3.00        0.250 (2018 site)
 CR-5.38-1.52        0.250 (2017 site)
 CR-5.38-2.14        0.250 (2017 site)
 CR-5.38-3.00        0.250 (2017 site)
-CR-5.38-3.90        0.250 (2017 site)
-CR-7.51-1.52        0.250
-CR-7.51-2.14        0.250
-CR-7.51-3.00        0.250
-CR-7.51-3.90        0.250
+CR-5.38-3.90        0.250 (2017 site, 2018 site)
+CR-7.51-1.52        0.250 (2018 site)
+CR-7.51-2.14        0.250 (inferred)
+CR-7.51-3.00        0.250 (inferred)
+CR-7.51-3.90        0.250 (inferred)
 
 * Launch lugs from 2010 Accessories Catalog:
 LL-25   for 1/4" rod  6.0" long
@@ -89,7 +97,7 @@ LL-50   for 1/2" rod  6.0" long
 LL-937  for 15/16" rod  5.0" long
 
 REFERENCES:
-    locprecision.com  - current parts listings as of March 2017
+    locprecision.com  - current parts listings as of March 2017, updated April 2018
     LOC 2009 to 2012 Accessories Catalog - retrieved from yumpu.com in 2017
     apogeerockets.com - carries LOC parts with many additional measurements and masses tabulated
     1986, 1987 and 1989 LOC catalogs - on ninfinger.org
@@ -99,6 +107,10 @@ REFERENCES:
 1) Improve masses for most of the plastic parts.
 
 -->
+<!-- *** SOURCE ERROR: LOC 2018 website gives identical weight of .03125 lb for CR-2.14-1.52 and CR-2.14-1.14,
+the former should be lighter because of larger hole. -->
+<!-- *** SOURCE ERROR: The dimensions under "additional information" for nearly all LOC centering rings are wrong. -->
+
 <OpenRocketComponent>
     <Version>1.0</Version>
     <Materials>
@@ -148,10 +160,10 @@ REFERENCES:
             <Type>LINE</Type>
         </Material>
 
-        <!-- 1.7oz ripstop nylon is Top Flight and LOC standard parachute material -->
+        <!-- 1.9 oz urethane coated ripstop nylon is LOC material per 2018 website -->
         <Material UnitsOfMeasure="g/m2">
-            <Name>Nylon fabric, ripstop, 1.7 oz actual</Name>
-            <Density>0.05764</Density>
+            <Name>Nylon fabric, ripstop, 1.9 oz actual</Name>
+            <Density>0.0589</Density>
             <Type>SURFACE</Type>
         </Material>
 
@@ -167,10 +179,15 @@ REFERENCES:
             Discount Rocketry formerly had info on LOC tubes but they now source their own tubes
             with generally compatible dimensions.
             Apogee does not list the LOC MMT-0.71 and MMT-0.95 tubes
+            2018 website has changed some product lengths, and there are many errors in the dimensions/weights
         -->
         
         <!-- MMT-0.71 - dimensions from 2010 accessories catalog, no mass info available
-             Working from density analysis, mass given avg density of 855.2 kg/m3 is estimated at 27.7 gm -->
+             Working from density analysis, mass given avg density of 855.2 kg/m3 is estimated at 27.7 gm 
+             On 2018 website the SKU has changed to MMT-0.75 and is only shown as available in 2.75" length
+             *** SOURCE ERROR: on 2018 website, 18mm motor mount tube is given as 2.75" in the menu dropdown, but the
+             SKU is "MMT-0.75x6", and the listed dimension is "6 x .75 x .75 in".  The weight is also given as 0.0156 oz,
+             suspiciously identical to the weight given for the MMT-0.95x6 tube. -->
         <BodyTube>
             <Manufacturer>LOC Precision</Manufacturer>
             <PartNumber>MMT-0.71</PartNumber>
@@ -181,11 +198,17 @@ REFERENCES:
             <Length Unit="in">34.0</Length>
         </BodyTube>
         
-        <!-- MMT-0.95 - ID, OD and .025 wall per LOC 1980s catalogs, discount rocketry comparable 1.30 oz -->
+        <!-- MMT-0.95 - ID, OD and .025 wall per LOC 1980s catalogs and 2018 website, discount rocketry comparable weight 1.30 oz.
+             In April 2018 website, there is now an airframe LBT-50, only sold in 12" lengths,
+             and MMT-0.95x6 and MMT-0.95x12 -->
+             <!-- *** SOURCE ERROR: April 2018 website lists MMT-0.95x6 with weight .0156 lb, and MMT-0.95x12 with weight 0.06875.
+             The 12" tube should be twice the weight of the 6" tube.  Also the LBT-50 airframe tube, SKU BT-1.0 gives weight
+             of 0.05 lb and size of 12 x 1 x 1 in, leaving no way to tell wall thickness.
+             -->
         <BodyTube>
             <Manufacturer>LOC Precision</Manufacturer>
-            <PartNumber>MMT-0.95</PartNumber>
-            <Description>Body tube, paper, MMT-0.95 24mm, 34.0"</Description>
+            <PartNumber>MMT-0.95, LBT-50</PartNumber>
+            <Description>Body tube, paper, LBT-50 / MMT-0.95 24mm, 34.0"</Description>
             <Material Type="BULK">Paper, kraft glassine, LOC tube avg</Material>
             <InsideDiameter Unit="in">0.95</InsideDiameter>
             <OutsideDiameter Unit="in">1.0</OutsideDiameter>
@@ -199,7 +222,7 @@ REFERENCES:
         -->
         <BodyTube>
             <Manufacturer>LOC Precision</Manufacturer>
-            <PartNumber>BT-1.14 MMT-1.14</PartNumber>
+            <PartNumber>BT-1.14, MMT-1.14</PartNumber>
             <Description>Body tube, paper, BT-1.14/MMT-1.14 29mm, 34.0"</Description>
             <Material Type="BULK">Paper, kraft glassine, LOC tube avg</Material>
             <InsideDiameter Unit="in">1.14</InsideDiameter>
@@ -212,24 +235,25 @@ REFERENCES:
              Apogee lists as "BT-1.52 / MMT-1.52"
              The Apogee mass value gives a somewhat low density (776) vs ~860 for others, but it
              looks real. I measured a vintage 1990 full length MMT-1.52 at 114.5 gm and a 15" length
-             (2016 LOC Aura kit) at 51.5 gm implying 116gm for 34" length
-        -->
+             (2016 LOC Aura kit) at 51.5 gm implying 116gm for 34" length -->
+        <!-- *** SOURCE ERROR: 2018 website gives wrong dimensions (and probably weight) for MMT-1.58x11.
+             Dimensions are given as "11 x 2.14 x 2.14 in" - that's 54mm tube.  -->
         <BodyTube>
             <Manufacturer>LOC Precision</Manufacturer>
-            <PartNumber>BT-1.52 MMT-1.52</PartNumber>
+            <PartNumber>BT-1.52, MMT-1.52</PartNumber>
             <Description>Body tube, paper, BT-1.52/MMT-1.52 38mm, 34.0"</Description>
             <Material Type="BULK">Paper, kraft glassine, LOC tube avg</Material>
             <InsideDiameter Unit="in">1.525</InsideDiameter>
             <OutsideDiameter Unit="in">1.635</OutsideDiameter>
             <Length Unit="in">34.0</Length>
         </BodyTube>
-        <!-- MMT-2.14 mass 192 g / 6.72 oz per Apogee, 7.50 oz per LOC 2010 accessories catalog
-             .060 wall
-             Apogee lists as "BT-2.14 / MMT-2.14"
-        -->
+        <!-- MMT-2.14 mass 192 g / 6.72 oz per Apogee, 0.24 lb (3.84 oz) per LOC 2018 website, 7.50 oz per LOC 2010 accessories
+             catalog.  Apparently has .060 wall.  Apogee lists as "BT-2.14 / MMT-2.14".  On 2018 website, SKU has changed to
+             MMT-54 -->
+        <!-- *** SOURCE ERROR: 2018 website has wrong dimensions for MMT-54-17 "10 x 1.58 x 1.58 in" -->
         <BodyTube>
             <Manufacturer>LOC Precision</Manufacturer>
-            <PartNumber>BT-2.14 MMT-2.14</PartNumber>
+            <PartNumber>BT-2.14, MMT-2.14, MMT-54</PartNumber>
             <Description>Body tube, paper, BT-2.14/MMT-2.14 54mm, 34.0"</Description>
             <Material Type="BULK">Paper, kraft glassine, LOC tube avg</Material>
             <InsideDiameter Unit="in">2.14</InsideDiameter>
@@ -308,7 +332,8 @@ REFERENCES:
             <Length Unit="in">42.0</Length>
         </BodyTube>
         <!-- BT-7.51 60" long mass is 1726.7 g / 60.44 oz per Apogee, .080 wall
-             LOC 2010 accessories catalog lists a 30" long BT-7.51 at 24.0 oz, no separate PN
+             LOC 2010 accessories catalog lists a 30" long BT-7.51 at 24.0 oz, no separate PN.
+             LOC 2018 website shows BT-7.51 as 2x30" in the menu dropdown.
         -->
         <BodyTube>
             <Manufacturer>LOC Precision</Manufacturer>
@@ -326,14 +351,14 @@ REFERENCES:
             These are the infamous hard-to-paint blow-molded polypropylene nose cones.  The built-in
             OpenRocket file erroneously had them all as polystyrene.
             Dimensionss and masses are mostly from the Apogee site, supplemented with a few
-            actual measurements of parts I have.
+            actual measurements of parts I have and some values from the 2018 LOC site.
             
             Thicknesses are set to make mass come out right PROVIDED you go in and manually set the
             shoulder thicknesses to be the same as what you see here, and turn on "end capped".
             This provides the most accurate CG location for the nose cone.
         -->
 
-        <!-- LOC PNC-1.52, 8.0 in ogive, measured mass 92g / 3.22 oz -->
+        <!-- LOC PNC-1.52, 8.0 in ogive, weight on 2018 site 3.5oz, measured mass 92g / 3.22 oz -->
         <!--
         -->
         <NoseCone>
@@ -348,7 +373,7 @@ REFERENCES:
             <Length Unit="in">8.0</Length>
             <Thickness Unit="in">0.180</Thickness>
         </NoseCone>
-        <!-- LOC PNC-2.14, 9.5 in ogive, 112 g / 3.92 oz.  -->
+        <!-- LOC PNC-2.14, 9.5 in ogive, LOC site weight "4 oz", Apogee weight 112 g / 3.92 oz.  -->
         <NoseCone>
             <Manufacturer>LOC Precision</Manufacturer>
             <PartNumber>PNC-2.14</PartNumber>
@@ -361,8 +386,7 @@ REFERENCES:
             <Length Unit="in">9.5</Length>
             <Thickness Unit="in">0.120</Thickness>
         </NoseCone>
-        <!-- LOC PNC-2.56, 9.0 in ogive, 94 g / 3.316 oz, Apogee doesn't give shoulder len but there
-             is a photo with ruler.  Old LOC catalogs give shoulder as 2.62 so I used that. -->
+        <!-- LOC PNC-2.56, 9.0 in ogive, 94 g / 3.316 oz, LOC 2018 site shoulder len 2.62, weight "3 oz" -->
         <NoseCone>
             <Manufacturer>LOC Precision</Manufacturer>
             <PartNumber>PNC-2.56</PartNumber>
@@ -375,13 +399,16 @@ REFERENCES:
             <Length Unit="in">9.0</Length>
             <Thickness Unit="in">0.083</Thickness>
         </NoseCone>
-        <!-- LOC PNC-3.00, 11.25" ogive, mass 133.3 g / 4.67 oz.  Apogee doesn't give diam or
-             shoulder diam, but I had one to measure.  The functional shoulder cylinder is
-             2.85".  There is also a tapered cone of about 0.80" behind that.  Old LOC catalogs give
-             the shoulder as 3.75", which I used in hopes of getting the mass/volume calc to come
+        <!-- LOC PNC-3.00, 11.25" ogive.  Poorly documented anywhere, but I had one to measure:
+                 Mass 133.3 g / 4.67 oz.
+                 Exposed length: 11.25 in
+                 Shoulder functional cylinder length: 2.85 in
+                 Shoulder extension cone taper length: 0.80 in
+             Apogee doesn't give diam or shoulder diameter.
+             Old LOC catalogs give the shoulder as 3.75", which I used in hopes of getting the mass/volume calc to come
              out well.  Although the length is given in various places as 12.5", that is wrong.
              Length is given in the 2010 Accessories Catalog as 11.25" (15 - 3.75), which is correct.
-             My example is also 11.25".
+             LOC 2018 website gives mass as 0.35 lb = 5.6 oz but no other useful dimensions.
         -->
         <NoseCone>
             <Manufacturer>LOC Precision</Manufacturer>
@@ -395,7 +422,7 @@ REFERENCES:
             <Length Unit="in">11.25</Length>
             <Thickness Unit="in">0.077</Thickness>
         </NoseCone>
-        <!-- LOC PNC-3.90, 12.75 in ogive, 5.0 oz per LOC, 200 g per Apogee
+        <!-- LOC PNC-3.90, 12.75 in ogive, 5.0 oz and shoulder length 3.75 in per LOC, mass 200 g per Apogee
              I have a late 1980's example that weighs 151 gm -->
         <NoseCone>
             <Manufacturer>LOC Precision</Manufacturer>
@@ -409,7 +436,7 @@ REFERENCES:
             <Length Unit="in">12.75</Length>
             <Thickness Unit="in">0.06</Thickness>
         </NoseCone>
-        <!-- LOC PNC-5.38, 13.0 in ogive, 360g / 12.6 oz.  LOC now quotes this as "10 oz" -->
+        <!-- LOC PNC-5.38, 13.0 in ogive, Apogee mass 360g / 12.6 oz.  LOC 2017-2018 website now quotes this as "10 oz" -->
         <NoseCone>
             <Manufacturer>LOC Precision</Manufacturer>
             <PartNumber>PNC-5.38</PartNumber>
@@ -422,7 +449,7 @@ REFERENCES:
             <Length Unit="in">13.0</Length>
             <Thickness Unit="in">0.095</Thickness>
         </NoseCone>
-        <!-- LOC PNC-5.38L, 21.0 in ogive, mass 594 g / 20.79 oz -->
+        <!-- LOC PNC-5.38L, 21.0 in ogive, LOC 2018 website weight 22 oz, Apogee mass 594 g / 20.79 oz -->
         <NoseCone>
             <Manufacturer>LOC Precision</Manufacturer>
             <PartNumber>PNC-5.38L</PartNumber>
@@ -435,7 +462,7 @@ REFERENCES:
             <Length Unit="in">21.0</Length>
             <Thickness Unit="in">0.111</Thickness>
         </NoseCone>
-        <!-- LOC PNC-7.51, 22.0 in ogive, mass 876 g / 30.66 oz -->
+        <!-- LOC PNC-7.51, 22.0 in ogive, mass 876 g / 30.66 oz.  LOC 2018 website gives weight as 1.2 lb -->
         <NoseCone>
             <Manufacturer>LOC Precision</Manufacturer>
             <PartNumber>PNC-7.51</PartNumber>
@@ -451,19 +478,21 @@ REFERENCES:
 
         <!-- LOC nylon flat sheet parachutes -->
         <!-- Historically LOC made their own parachutes, which were originally sewn by
-             Deb Schultz.  I don't know if LOC still makes their own.  The masses listed for the
-             parachutes mostly don't line up very well with the computed masses derived from
+             Deb Schultz.  I don't know if LOC still makes their own.  On the 2018 website
+             the material is stated to be 1.9 oz "urethane coated, calendared rip-stop" nylon.
+
+             The masses listed for the parachutes mostly don't line up very well with the computed masses derived from
              1.7oz ripstop nylon with reasonable paracord sizes. Some are complete nonsense,
              such as having the LHPC-48 be 28 gm *heavier* than the LHPC-58.  (actually those
              would match a lot better if they were swapped!)  So I've just
              used a best guess at the materials and allow OpenRocket to compute the mass.  -->
 
-        <!-- LP-12, mass given as 9.7 gm, calculated 7.13 -->
+        <!-- LP-12, mass given as 9.7 gm, calculated 7.13 .  LOC 2018 website gives 0.0625 lb = 1 oz -->
         <Parachute>
             <Manufacturer>LOC Precision</Manufacturer>
             <PartNumber>LP-12</PartNumber>
             <Description>Parachute, 12 in., nylon, 6 lines</Description>
-            <Material Type="SURFACE">Nylon fabric, ripstop, 1.7 oz actual</Material>
+            <Material Type="SURFACE">Nylon fabric, ripstop, 1.9 oz actual</Material>
             <Diameter Unit="in">12.0</Diameter>
             <Sides>6</Sides>
             <LineCount>6</LineCount>
@@ -471,12 +500,12 @@ REFERENCES:
             <LineMaterial Type="LINE">Nylon Paracord, 110 lb, 1/16 in. dia.</LineMaterial>
         </Parachute>
         
-        <!-- LP-14, mass given as 11.34 gm, calculated 9.14 -->
+        <!-- LP-14, mass given as 11.34 gm, calculated 9.14. -->
         <Parachute>
             <Manufacturer>LOC Precision</Manufacturer>
             <PartNumber>LP-14</PartNumber>
             <Description>Parachute, 14 in., nylon, 6 lines</Description>
-            <Material Type="SURFACE">Nylon fabric, ripstop, 1.7 oz actual</Material>
+            <Material Type="SURFACE">Nylon fabric, ripstop, 1.9 oz actual</Material>
             <Diameter Unit="in">14.0</Diameter>
             <Sides>6</Sides>
             <LineCount>6</LineCount>
@@ -485,11 +514,13 @@ REFERENCES:
         </Parachute>
         
         <!-- LP-18, mass given as 22.68 gm, calculated 13.9 -->
+        <!--- *** SOURCE ERROR: LOC 2018 website gives identical masses 0.0625 lb for LP-12, LP-14, and LP-18.
+              This is impossible. -->
         <Parachute>
             <Manufacturer>LOC Precision</Manufacturer>
             <PartNumber>LP-18</PartNumber>
             <Description>Parachute, 18 in., nylon, 6 lines</Description>
-            <Material Type="SURFACE">Nylon fabric, ripstop, 1.7 oz actual</Material>
+            <Material Type="SURFACE">Nylon fabric, ripstop, 1.9 oz actual</Material>
             <Diameter Unit="in">18.0</Diameter>
             <Sides>6</Sides>
             <LineCount>6</LineCount>
@@ -497,12 +528,12 @@ REFERENCES:
             <LineMaterial Type="LINE">Nylon Paracord, 110 lb, 1/16 in. dia.</LineMaterial>
         </Parachute>
         
-        <!-- LP-28, mass given as 28.35 gm, calculated 32.0 -->
+        <!-- LP-28, mass given as 28.35 gm, calculated 32.0.  LOC 2018 site gives weight 0.1875 lb == 3 oz -->
         <Parachute>
             <Manufacturer>LOC Precision</Manufacturer>
             <PartNumber>LP-28</PartNumber>
             <Description>Parachute, 28 in., nylon, 8 lines</Description>
-            <Material Type="SURFACE">Nylon fabric, ripstop, 1.7 oz actual</Material>
+            <Material Type="SURFACE">Nylon fabric, ripstop, 1.9 oz actual</Material>
             <Diameter Unit="in">28.0</Diameter>
             <Sides>8</Sides>
             <LineCount>8</LineCount>
@@ -518,7 +549,7 @@ REFERENCES:
             <Manufacturer>LOC Precision</Manufacturer>
             <PartNumber>LHPC-36</PartNumber>
             <Description>Parachute, 36 in., nylon, 10 lines</Description>
-            <Material Type="SURFACE">Nylon fabric, ripstop, 1.7 oz actual</Material>
+            <Material Type="SURFACE">Nylon fabric, ripstop, 1.9 oz actual</Material>
             <Diameter Unit="in">36.0</Diameter>
             <Sides>10</Sides>
             <LineCount>10</LineCount>
@@ -532,7 +563,7 @@ REFERENCES:
             <Manufacturer>LOC Precision</Manufacturer>
             <PartNumber>LHPC-48</PartNumber>
             <Description>Paraachute, 48 in., nylon, 10 lines</Description>
-            <Material Type="SURFACE">Nylon fabric, ripstop, 1.7 oz actual</Material>
+            <Material Type="SURFACE">Nylon fabric, ripstop, 1.9 oz actual</Material>
             <Diameter Unit="in">48.00</Diameter>
             <Sides>10</Sides>
             <LineCount>10</LineCount>
@@ -545,7 +576,7 @@ REFERENCES:
             <Manufacturer>LOC Precision</Manufacturer>
             <PartNumber>LHPC-58</PartNumber>
             <Description>Parachute, 58 in., nylon, 10 lines</Description>
-            <Material Type="SURFACE">Nylon fabric, ripstop, 1.7 oz actual</Material>
+            <Material Type="SURFACE">Nylon fabric, ripstop, 1.9 oz actual</Material>
             <Diameter Unit="in">58.0</Diameter>
             <Sides>10</Sides>
             <LineCount>10</LineCount>
@@ -553,12 +584,12 @@ REFERENCES:
             <LineMaterial Type="LINE">Nylon Paracord, 275 lb, 2.38 mm dia.</LineMaterial>
         </Parachute>
         
-        <!-- LHPC-78, mass given as 311.8 gm, calculated 343 gm -->
+        <!-- LHPC-78, mass given as 311.8 gm, calculated 343 gm.  2018 website gives 0.75 lb = 340 gm -->
         <Parachute>
             <Manufacturer>LOC Precision</Manufacturer>
             <PartNumber>LHPC-78</PartNumber>
             <Description>Parachute, 78 in., nylon, 16 lines</Description>
-            <Material Type="SURFACE">Nylon fabric, ripstop, 1.7 oz actual</Material>
+            <Material Type="SURFACE">Nylon fabric, ripstop, 1.9 oz actual</Material>
             <Diameter Unit="in">78.0</Diameter>
             <Sides>16</Sides>
             <LineCount>16</LineCount>
@@ -566,13 +597,14 @@ REFERENCES:
             <LineMaterial Type="LINE">Nylon Paracord, 275 lb, 2.38 mm dia.</LineMaterial>
         </Parachute>
 
-        <!-- The 86" parachute is mentioned in the 2017 website update but cannot be selected -->
+        <!-- The 86" parachute is mentioned in the 2017 website update but cannot be selected.
+             It is completely gone from the 2018 website.  -->
         <!-- LHPC-86, mass given as 453.6 gm (crude conversion from 16 oz?), calculated 400 gm -->
         <Parachute>
             <Manufacturer>LOC Precision</Manufacturer>
             <PartNumber>LHPC-86</PartNumber>
             <Description>Parachute, 86 in., nylon, 16 lines</Description>
-            <Material Type="SURFACE">Nylon fabric, ripstop, 1.7 oz actual</Material>
+            <Material Type="SURFACE">Nylon fabric, ripstop, 1.9 oz actual</Material>
             <Diameter Unit="in">86.0</Diameter>
             <Sides>16</Sides>
             <LineCount>16</LineCount>

@@ -27,11 +27,21 @@ System compatibility:  works anywhere OpenRocket can run
 
 ## Release Notes
 
+0.9.0.19 - Aug 2018
+* Fixes
+* Additions
+  * New file with extended discussion of Estes history and brands
+  * Discussion of company history and data availability for Giant Leap Rocketry
+  * Obtained LOC centering ring thickness for several missing ones
+  * Noted some data inconsistencies on sub-1-inch LOC tubes
+
 0.9.0.18 - Mar/Apr 2018
 * Fixes
   * Corrected note about parts filtering - functionality exists but is effectively hidden by near zero-width field in UI.
   * Exterminated quote marks from 3 more Semroc part numbers due to bug identified by PR2, and verified that none
     exist in any other .orc files.
+  * Fixed LOC parachute material to be 1.9 oz nylon per 2018 website
+  * Minor fixes to ripstop nylon densities in `generic_materials.orc` and in the Top Flight file.
   * Reformatted many SOURCE ERROR documentation tags in semroc.orc to aid in parsing them for the upcoming
     errata report to e-rockets.
 * Additions
@@ -632,6 +642,27 @@ Unfortunately, Wildman provides so little data that it may not be worthwhile to 
 There are certain unique parts, such as the 3" and 4" polycarbonate nose cones used for the Punisher 3 and 4.
 For most fiberglass tube sizes (1.6, 2.2, 2.6, 3.0, 4.0, 5.5, 6.0 inches), you can find reasonable parts in 
 the Madcow file.
+
+#### Giant Leap Rocketry
+
+(History from various sources including Giant Leap Rocketry Inc. Facebook page, Aerotech news archives, etc.)
+Giant Leap Rocketry was originally founded on June 1, 1997 in Baton Rouge, LA.  As of 2002 (rmrfaq archive)
+their address was 6061 Hibiscus Drive, Baton Rouge, LA 70808, and were selling phenolic tubing and fiberglass
+nose cones.
+
+As of 2005, Giant Leap was selling Aerotech motors; as of 2018 they are no longer selling motors.
+
+Giant Leap Rocketry was sold in October 2016 to Dix Densley of Hillsboro, OR and Bob Martell of
+Portland, OR.  Operations have been moved to Hillsboro, OR. The former owners were Ed and Kent (last names needed).
+I haven't found any information about any other sales of the company between 2005 and 2016.
+
+There doesn't seem to have been any systematic production of print catalogs.  The company had minimal presence
+on Facebook between their account starting in 2012, and fall 2016 right before the company was sold.
+There are no Giant Leap catalogs on Ninfinger.org, and Google searches come up empty.
+
+Giant Leap offers some dimensional data on their current (2018) website.  They offer three types of tubes - 
+K-frame (Kevlar/fiberglass hybrid), Magnaframe (hybrid phenolic/vulcanized fiber), and Phenolic.
+Wall thickness is only given for the phenolic tubes, and weights are not given for much of anything.
 
 ### Missing Manufacturers
 

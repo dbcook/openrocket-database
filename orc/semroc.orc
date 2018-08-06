@@ -10058,19 +10058,21 @@ Ejection baffle rings
     <!-- TA-20xx - BT-20 to larger sizes -->
     <!-- =============================== -->
 
-    <!-- TA-2050 has length 2.0" (e-rockets site), shoulders -->
+    <!-- TA-2050 has length 2.0" (e-rockets site), shoulders 0.57" (9/16") -->
 
-    <!-- TA-2050A has length 1.0" (e-rockets site), shoulders -->
+    <!-- TA-2050A has length 1.0" (e-rockets site), shoulders 0.57" (9/16")-->
 
-    <!-- TA-2050B has length 2.5" (e-rockets site), shoulders -->
+    <!-- TA-2050B has length 2.5" (e-rockets site), shoulders 0.57" (9/16") -->
 
-    <!-- TA-2055 has length 1.5" (legacy site), shoulders -->
+    <!-- TA-2055 has length 1.5" (legacy site), shoulders 0.57" (9/16") -->
 
-    <!-- TA-2058 has length 2.0" (legacy site), shoulders -->
+    <!-- TA-2058 has length 2.0" (legacy site), shoulders 0.57" (9/16") -->
+    <!-- SOURCE ERROR: TA-2058 legacy site scaled drawing gives length 1.8", whereas
+         specified length is 2.0" -->
 
-    <!-- TA-2060 has length 2.0" (legacy site), shoulders -->
+    <!-- TA-2060 has length 2.0" (legacy site), shoulders 0.57" (9/16") -->
 
-    <!-- TA-2070 has length 2.5" (scaled dwg), fore shoulder 0.57", aft shoulder 0.67 (scaled dwg)-->
+    <!-- TA-2070 (new 2017 site only, not on legacy) has length 2.5" (scaled dwg), fore shoulder 0.57", aft shoulder 0.67" (scaled dwg)-->
 
     <!-- =============================== -->
     <!-- TA-50xx - BT-50 to larger sizes -->
@@ -10178,6 +10180,8 @@ Ejection baffle rings
     
     <!-- TR-115 0.25" is same as CR-9-115 but Semroc 2017 website incorrectly says the
          1.0" long version is the same.  -->
+    <!--- SOURCE ERROR: TR-115 is same as CR-9-115 but Semroc 2017 website
+          incorrectly says the 1.0" long version is the same. -->
     <EngineBlock>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>TR-115</PartNumber>
@@ -10242,6 +10246,7 @@ Ejection baffle rings
       <Length Unit="in">0.10</Length>
     </BulkHead>
     <!-- FB-20 has an erroneous duplicate listing as NB-20P -->
+    <!-- SOURCE ERROR: FB-20 has an erroneous duplicate listing as NB-20P -->
     <BulkHead>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>FB-20</PartNumber>
@@ -10727,7 +10732,7 @@ Ejection baffle rings
          Semroc does not list shoulder lengths of nose cones on either the legacy site or
          the new eRockets/Semroc 2017 site.  Estes published shoulder lengths in older
          catalogs, Centuri never published shoulder lengths, and Quest (at least
-         currently) publishes no data at all.  Shoulder lengths here are from:
+         currently) publishes no shoulder lengths.  Shoulder lengths here are from:
 
              Estes compatible nose cones: legacy Estes catalogs and research data from my
                  Estes parts file.

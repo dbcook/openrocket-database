@@ -39,14 +39,14 @@ TODO: verify masses against actual parachutes.
         <!-- 1.1 oz is Top Flight thin mill material -->
         <Material UnitsOfMeasure="g/m2">
             <Name>Nylon fabric, ripstop, 1.1 oz actual</Name>
-            <Density>0.03735</Density>
+            <Density>0.0341</Density>
             <Type>SURFACE</Type>
         </Material>
 
-        <!-- 1.7oz ripstop nylon is Top Flight and LOC standard parachute material -->
+        <!-- 1.7oz ripstop nylon is Top Flight standard parachute material -->
         <Material UnitsOfMeasure="g/m2">
             <Name>Nylon fabric, ripstop, 1.7 oz actual</Name>
-            <Density>0.05764</Density>
+            <Density>0.0527</Density>
             <Type>SURFACE</Type>
         </Material>
 
