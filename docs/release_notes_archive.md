@@ -1,0 +1,135 @@
+# Release Notes Archive
+
+Here are release notes from non-recent versions of the OpenRocket parts database.
+
+0.9.0.17 - Jan 2018
+* Fixes
+  * Started matching Semroc NC shoulder lengths to drawings from legacy site (some were already done that way)
+    * Series 200
+    * Series 225
+    * Series 275
+* Additions
+  * Semroc BC-20099
+  * Note about the apparent high accuracy of nose cone drawings on the Semroc legacy site.
+
+0.9.0.16 - Jan 2018
+* Fixes
+  * Merged PR2 - removed quote marks from Semroc PNs b/c OpenRocket mishandles in .ork's (thanks thzero)
+  * Fix blue tube sizes/mass in tube_data.txt and body_tube_data.xlsx to current values from vendor
+  * Fixed incorrect length of Estes PNC-55D
+  * Fix ID/OD of Estes PST-65 to print catalog values (was erroneous 1974 custom parts catalog values)
+  * Improve discussion of Estes part indexing situation
+* Additions
+  * Semroc nose cones completed!  Added:
+    * BC-10, BC-11, BC-13, BNC-52, BNC-55, BC-125, BNC-58, BC-150, BC-16, BC-175, BC-18, BC-20, BC-200 series
+    * BC-085, BNC-60, BNC-65, BNC-70, BNC-70H, BNC-80, BNC-80H series
+    * BTC-11SC tailcone
+  * Semroc - all clear payload tubes
+  * bluetube.orc, with all body tubes and couplers, current published dimensions and empirical density
+  * Estes SBT-xxx tube series added, complete per Brohm Appendix II
+  * Estes PNC-60RL recovered from Semroc balsa clone dimensions and Brohm PN listing
+  * Estes PNC-55EX, data recovered from actual sample and Semroc BNC-55EX
+  * Estes BTC-55Z V-2 tail cone
+  * Notes on PNC-55xx where no published data is available
+
+0.9.0.15 - Nov 2017
+* Fixes
+  * Merged PR1 - ID/OD of BT-101 were swapped - thanks thzero
+  * Fixed part number on Semroc BNC-50MA
+* Additions
+  * Estes PRP-1H, PNC-50K, PNC-50X, PNC-50V/PNC-50BB with tailcone
+  * Semroc BNC-50 series finished off
+  * Semroc BNC-51 series
+  * ./gen/ directory with very beginnings of json -> XML part generator
+  * ./docs/ directory with more focused explanation of Estes sizes and PNs
+
+0.9.0.14 - Jul 2017
+* Fixes
+  * Reorganized research notes and errata in madcow.orc
+  * Removed bogus "BNC-80K" tailcone transition from estes_classic.orc (Semroc only)
+  * Fixed Top Flight parachute material specs to match generic_materials.orc
+  * Adjusted Madcow coupler FC55 dimensions based on the official DX3 Massive RockSim file
+  * Found numeric PN for Estes BNC-50BA on Semroc legacy site
+  * Set length of Estes BNC-50BC and BNC-50BD to Estes specified values
+  * Fixed ID/OD of Semroc BT-2+ (Semroc site was recently updated)
+* Additions
+  * Madcow G10 fiberglass centering rings, G12 4" to 54mm transition,  and launch lug
+  * Madcow switch bands, balsa and G10 tail cones, and generic nylon parachutes
+  * __Madcow is done__ until we get data on the two balsa ramjet nacelles
+  * Semroc BNC-2xx, BNC-40xx, BNC-50xx, BC-8xx and BC-9xx nose cones
+  * Wrote up initial design for JSON based XML generator
+
+0.9.0.13 - 18 Jun 2017
+* Fixes
+  * Fix masses of Madcow fiberglass nose cones
+  * Fix material type on a few Semroc plywood centering rings
+* Additions
+  * Madcow plywood centering rings
+  * Madcow fiberglass nose cones done
+  * README note about handling metal tip fiberglass nose cones
+  * Research data for modelrockets.us tubes added to tube data spreadsheet
+
+0.9.0.12 - 8 Jun 2017
+* Added FSI and CMR tube sizes to tube data spreadsheet
+* Added Madcow tube couplers
+* Fix Estes PSII nylon chutes to have mass (paste in correct materials)
+
+0.9.0.11 - 18 May 2017
+* Inserted correct dimensions for CPT-10 clear tube in tube_data.txt
+
+0.9.0.10 - 18 May 2017
+* Semroc additions: BC-2xx, BC-6xx, BC-7xx, BC-8xx, BC-8Fxx, BNC-20xx completed
+
+0.9.0.9 - 11 May 2017
+* Estes additions:  BNC-3A, BNC-5RA, BWP-EJ, BNC-2 (Apollo capsule cone for BT-50), BNC-55AZ,
+  BNC-55BE, oddball BNP-41 and PSM-1.  I am fairly confident that I now have all Estes balsa
+  nose cones that existed prior to 2010.
+* Added MPC file `mpc.orc`, which is essentially complete.
+* Fixed material field on Estes BNC-70AJ
+* Semroc additions: all BNC-5xx, BNC-10xx, BNC-19xx nose cones
+* Added references section to README and moved in material from the estes and semroc files.
+* Updated info about materials UnitsOfMeasure with improvements that appeared in OR 15.03
+* Added discussion of MPC parts and catalogs.
+
+0.9.0.8 - 3 May 2017
+* Added a number of Estes balsa nose cones with dimensions recovered from 1974 custom parts
+  catalog and Semroc legacy site.  Partial list: BNC-5AW, BNC-5BA, BNC-50AR, BNC-52G, BNC-52AG,
+  BNC-55AW, BNC-60AL, BNC-65AF
+* Added research notes on Estes BNC-60T vs BNC-60AK balsa Mercury capsules.
+* Moved BNC-5AL from Estes to Semroc file after finding no proof Estes ever listed it and noting
+  its absence from the Semroc cross reference list.
+* Rectified a lot of Estes nose cone shapes where PARABOLIC should have been ELLIPSOID
+* Removed unneeded mass overrides for Estes balsa nose cones and added some needed ones
+* Reduced completion status of estes_classic file after finding various problems
+
+0.9.0.7 - 1 May 2017
+* Add README discussion about specialty nose cones and printing XML tags
+* Document inability to set nose/transition shape parameter in .orc files
+* Added first increment of Semroc nose cones (LT-225, LT-275)
+* Added Estes BNC-5AX after recovering shape and length from Semroc upscale BC-22597
+
+0.9.0.6 - 30 Apr 2017
+* Semroc balsa couplers added, fixed various errors in Semroc file
+* Added legacy glassine thin-wall version of JT-80C in Semroc and Estes files
+
+0.9.0.5 - 26 Apr 2017
+* Semroc tube couplers are in, except for balsa ones.
+* Found and fixed a few errors in the Semroc file.
+
+0.9.0.4 - 23 Apr 2017
+* Finished Semroc centering rings, started on couplers.
+* Added FSI tube data to tube data text file, renamed to tube_data.txt, moved to data/ directory.
+
+0.9.0.3 - 19 Apr 2017
+* Semroc body tubes completed, added around half of centering rings
+
+0.9.0.2 - 16 Apr 2017
+* Added estes_ps2.orc with nearly all known Pro Series II parts
+* 80% of SEMROC tubes added
+* Added tube data .txt file
+* Many fixes, improvements and additions in loc_precision.orc; it's effectively done
+* Documented procedure for getting correct mass and CG of hollow nose cones
+* Fixed thickness of Estes AR-2050 and AR-2055
+
+0.9.0.1 - 2 Apr 2017
+* Publishing what I have to date: Estes and LOC Precision.
