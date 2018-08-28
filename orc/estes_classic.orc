@@ -157,6 +157,15 @@ Known issues:
             <Type>SURFACE</Type>
         </Material>
 
+        <!-- LINE materials for parachute shroud lines -->
+
+        <Material UnitsOfMeasure="kg/m">
+            <Name>Carpet Thread</Name>
+            <Density>3.3E-4</Density>
+            <Type>LINE</Type>
+        </Material>
+
+
     </Materials>
     <Components>
       <!-- Body Tubes -->

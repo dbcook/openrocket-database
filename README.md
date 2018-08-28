@@ -30,8 +30,11 @@ System compatibility:  works anywhere OpenRocket can run
 0.9.0.19 - Aug 2018
 * Fixes
   * Remove asterisk from Estes LaunchLug_0.25_x_2.0 PN to avoid PN handling in OR
+  * Add missing Semroc BTC-70HY and fix mass of Semroc BTC-70VY, was swapped with BTC-70HY
+  * Discovered Semroc metric nose cones BNC-Txxxx are all missing
+  * Add missing carpet thread material to estes_classic file
 * Additions
-  * Finished off Semroc balsa reducers and launch lugs
+  * Finished off Semroc balsa reducers, launch lugs and parachutes
   * New file with extended discussion of Estes history and brands
   * Discussion of company history and data availability for Giant Leap Rocketry
   * Obtained LOC centering ring thickness for several missing ones
@@ -157,27 +160,28 @@ somewhat Mac centric because that's what I use most.
 
 * Finish up new Semroc file
 * Review Semroc nose cones for completeness
+  * Add metric cones BNC-Txxxx - 15 exist on legacy site
 * Adjust Semroc nose cone shoulder lengths to match drawings on legacy site
-* Add Semroc transitions, lugs and chutes
+* Add Semroc chutes
 * Add Bluetube / Always Ready Rocketry centering rings
 * Add Always Ready Rocketry nose cones (if data exists or can determine sourcing)
 * Review Quest, FlisKits, GLR, BMS, PML stock files
 
 ### Database Files Status
 
-| File                    | In Stock OR      |  Upgrade State                 |
+| File                    | In Stock OR      |  Upgrade/Completion State       |
 | ----- | ----- | ----- |
-| `Estes.orc`              | Yes  | Split - see new files below
+| `Estes.orc`              | Yes  | 100% (split - see new files below)
 | `loc_precision.orc`      | Yes  | 100% 
-| `semroc.orc`             | Yes  | 95%  (tubes, couplers, CRs, nosecones, transitions done.  Need only lugs, chutes)
-| `Quest.orc`              | Yes  | --
+| `semroc.orc`             | Yes  | 95%  (tubes, couplers, CRs, nose cones, transitions done.  Need metric cones, chutes)
 | `bluetube.orc`           | Yes  | 100% (tubes and couplers like stock file, still needs CRs and NCs)
+| `Quest.orc`              | Yes  | --
 | `bms.orc`                | Yes  | --
 | `Fliskits.orc`           | Yes  | --
 | `giantleaprocketry.orc`  | Yes  | --
 | `publicmissiles.orc`     | Yes  | --
-| `fsi.orc`                | No   | -- Not started
-| `cmr.orc`                | No   | -- Not started
+| `fsi.orc`                | No   | -- new file needed
+| `cmr.orc`                | No   | -- new file needed
 | `mpc.orc`                | No   | 98% - all known data included
 | `estes_classic.orc`      | No   | 98% - classic era parts are complete
 | `estes_ps2.orc`          | No   | 98%
@@ -230,9 +234,9 @@ Estes production works roughly like this:
 * A few Estes kits - typically small production run scale models - are
   actually produced in Penrose.
 
-These facts some logical consequences:
+These facts have some logical results:
 
-* Parts requests for incomplete or damaged kits are handled by sending an
+* Customer service requests for incomplete or damaged kits are handled by sending an
   entire new kit; the parts are not separately inventoried by Estes.
 * Newer kits have no PNs listed in the kit instructions, since the parts
   can't be obtained separately.

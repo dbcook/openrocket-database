@@ -89,11 +89,33 @@ Ejection baffle rings
       <Type>BULK</Type>
     </Material>
  
+
+    <!-- SURFACE (sheet) materials, only needed for parachute and streamer components -->
+
+        
+    <!-- Estes/Centuri HDPE poly chute material (100% printed) is about 1 mil thick -->
+    <!-- This value is just the bare poly value for 1.0 mil thick, printed material may be a bit different -->
+    <Material UnitsOfMeasure="g/m2">
+      <Name>Polyethylene film, HDPE, 1.0 mil, bare</Name>
+      <Density>0.0235</Density>
+      <Type>SURFACE</Type>
+    </Material>
+
     <!-- Mylar (polyester) density quoted by DuPont as 1.39 g/cc -->
     <Material UnitsOfMeasure="g/cm3">
       <Name>Mylar, bulk</Name>
       <Density>1390.0</Density>
       <Type>BULK</Type>
+    </Material>
+
+
+    <!-- LINE materials for parachute shroud lines -->
+
+
+    <Material UnitsOfMeasure="kg/m">
+      <Name>Carpet Thread</Name>
+      <Density>3.3E-4</Density>
+      <Type>LINE</Type>
     </Material>
 
   </Materials>
@@ -11587,7 +11609,7 @@ Ejection baffle rings
          Semroc published data:
          
          On the legacy Semroc site, shoulder diameter, maximum diameter, exposed length,
-         and weight in ounces are given for all listed Estes, Centuri and Quest compatible
+         and weight in ounces are given for all listed Estes, Centuri and Quest (metric) compatible
          nose cones.  On the new eRockets/Semroc 2017 site, only the exposed length is
          given.
 
@@ -18733,15 +18755,33 @@ Ejection baffle rings
         <Length Unit="in">7.5</Length>
     </NoseCone>
 
-    <!-- BTC-70HY is a straight conic tailcone drilled for 24mm MMT -->
+    <!-- BTC-70HY is a straight conic tailcone drilled for 24mm MMT, length 1.75", shoulder 0.57"
+         mass from legacy site. -->
+    <Transition>
+        <Manufacturer>Semroc</Manufacturer>
+        <PartNumber>BTC-70HY [R]</PartNumber>
+        <Description>Transition, balsa, BT-70, 1.75 in, conical, reducing, PN BTC-70HY</Description>
+        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Mass Unit="oz">0.47</Mass>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">2.247</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">2.175</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.57</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.300</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">0.950</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.0</AftShoulderLength>
+        <Length Unit="in">1.75</Length>
+    </Transition>
 
-    <!-- BTC-70VY is a 5.0" ogive tailcone drilled for 24mm MMT -->
+
+    <!-- BTC-70VY is a 5.0" ogive tailcone drilled for 24mm MMT, mass from legacy site -->
     <Transition>
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BTC-70VY [R]</PartNumber>
         <Description>Transition, balsa, BT-70, 5.0", ogive, reducing, PN BTC-70VY</Description>
         <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
-        <Mass Unit="oz">0.47</Mass>
+        <Mass Unit="oz">0.80</Mass>
         <Shape>OGIVE</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">2.247</ForeOutsideDiameter>
@@ -19497,6 +19537,187 @@ Ejection baffle rings
       <ShoulderLength Unit="in">1.28</ShoulderLength>
       <Length Unit="in">8.9</Length>
     </NoseCone>
+
+
+    <!-- =================================== -->
+    <!-- Metric Quest / MRI / MPC Nose Cones -->
+    <!-- =================================== -->
+
+
+
+    <!-- ========== -->
+    <!-- Parachutes -->
+    <!-- ========== -->
+
+    <!-- SOURCE ERROR: Semroc legacy site lists inconsistent thicknesses for the various sizes of
+         parachutes...I doubt that these are all correct.  Here is the list:
+
+         12"   1 mil
+         14"   1.5 mil
+         16"   1.5 mil
+         20"   1.1 mil
+         24"   1.1 mil
+         32"   1.5 mil
+         36"   no thickness given
+
+         For now I have used the stock 1 mil HDPE Estes type material for all of the Semroc
+         sizes until we get better information.
+    -->
+
+    <Parachute>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CP-12RY</PartNumber>
+      <Description>Parachute kit, plastic, 12 in, red/yellow</Description>
+      <Material Type="SURFACE">Polyethylene film, HDPE, 1.0 mil, bare</Material>
+      <Diameter Unit="in">12.0</Diameter>
+      <Sides>6</Sides>
+      <LineCount>6</LineCount>
+      <LineLength Unit="in">12.0</LineLength>
+      <LineMaterial Type="LINE">Carpet Thread</LineMaterial>
+    </Parachute>
+
+    <Parachute>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CP-12RW</PartNumber>
+      <Description>Parachute kit, plastic, 12 in, red/white</Description>
+      <Material Type="SURFACE">Polyethylene film, HDPE, 1.0 mil, bare</Material>
+      <Diameter Unit="in">12.0</Diameter>
+      <Sides>6</Sides>
+      <LineCount>6</LineCount>
+      <LineLength Unit="in">12.0</LineLength>
+      <LineMaterial Type="LINE">Carpet Thread</LineMaterial>
+    </Parachute>
+
+    <Parachute>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CP-12BY</PartNumber>
+      <Description>Parachute kit, plastic, 12 in, black/yellow</Description>
+      <Material Type="SURFACE">Polyethylene film, HDPE, 1.0 mil, bare</Material>
+      <Diameter Unit="in">12.0</Diameter>
+      <Sides>6</Sides>
+      <LineCount>6</LineCount>
+      <LineLength Unit="in">12.0</LineLength>
+      <LineMaterial Type="LINE">Carpet Thread</LineMaterial>
+    </Parachute>
+
+    <Parachute>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CP-12BW</PartNumber>
+      <Description>Parachute kit, plastic, 12 in, blue/white</Description>
+      <Material Type="SURFACE">Polyethylene film, HDPE, 1.0 mil, bare</Material>
+      <Diameter Unit="in">12.0</Diameter>
+      <Sides>6</Sides>
+      <LineCount>6</LineCount>
+      <LineLength Unit="in">12.0</LineLength>
+      <LineMaterial Type="LINE">Carpet Thread</LineMaterial>
+    </Parachute>
+
+    <Parachute>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CP-14R</PartNumber>
+      <Description>Parachute kit, plastic, 14 in, red</Description>
+      <Material Type="SURFACE">Polyethylene film, HDPE, 1.0 mil, bare</Material>
+      <Diameter Unit="in">14.0</Diameter>
+      <Sides>6</Sides>
+      <LineCount>6</LineCount>
+      <LineLength Unit="in">14.0</LineLength>
+      <LineMaterial Type="LINE">Carpet Thread</LineMaterial>
+    </Parachute>
+
+    <Parachute>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CP-16O</PartNumber>
+      <Description>Parachute kit, plastic, 16 in, orange</Description>
+      <Material Type="SURFACE">Polyethylene film, HDPE, 1.0 mil, bare</Material>
+      <Diameter Unit="in">16.0</Diameter>
+      <Sides>8</Sides>
+      <LineCount>8</LineCount>
+      <LineLength Unit="in">16.0</LineLength>
+      <LineMaterial Type="LINE">Carpet Thread</LineMaterial>
+    </Parachute>
+
+    <Parachute>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CP-16R</PartNumber>
+      <Description>Parachute kit, plastic, 16 in, red</Description>
+      <Material Type="SURFACE">Polyethylene film, HDPE, 1.0 mil, bare</Material>
+      <Diameter Unit="in">16.0</Diameter>
+      <Sides>8</Sides>
+      <LineCount>8</LineCount>
+      <LineLength Unit="in">16.0</LineLength>
+      <LineMaterial Type="LINE">Carpet Thread</LineMaterial>
+    </Parachute>
+
+    <Parachute>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CP-16Y</PartNumber>
+      <Description>Parachute kit, plastic, 16 in, yellow</Description>
+      <Material Type="SURFACE">Polyethylene film, HDPE, 1.0 mil, bare</Material>
+      <Diameter Unit="in">16.0</Diameter>
+      <Sides>8</Sides>
+      <LineCount>8</LineCount>
+      <LineLength Unit="in">16.0</LineLength>
+      <LineMaterial Type="LINE">Carpet Thread</LineMaterial>
+    </Parachute>
+
+    <Parachute>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CP-20R</PartNumber>
+      <Description>Parachute kit, plastic, 20 in, red</Description>
+      <Material Type="SURFACE">Polyethylene film, HDPE, 1.0 mil, bare</Material>
+      <Diameter Unit="in">20.0</Diameter>
+      <Sides>8</Sides>
+      <LineCount>8</LineCount>
+      <LineLength Unit="in">20.0</LineLength>
+      <LineMaterial Type="LINE">Carpet Thread</LineMaterial>
+    </Parachute>
+
+    <Parachute>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CP-20Y</PartNumber>
+      <Description>Parachute kit, plastic, 20 in, yellow</Description>
+      <Material Type="SURFACE">Polyethylene film, HDPE, 1.0 mil, bare</Material>
+      <Diameter Unit="in">20.0</Diameter>
+      <Sides>8</Sides>
+      <LineCount>8</LineCount>
+      <LineLength Unit="in">20.0</LineLength>
+      <LineMaterial Type="LINE">Carpet Thread</LineMaterial>
+    </Parachute>
+
+    <Parachute>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CP-24Y</PartNumber>
+      <Description>Parachute kit, plastic, 24 in, yellow</Description>
+      <Material Type="SURFACE">Polyethylene film, HDPE, 1.0 mil, bare</Material>
+      <Diameter Unit="in">24.0</Diameter>
+      <Sides>8</Sides>
+      <LineCount>8</LineCount>
+      <LineLength Unit="in">24.0</LineLength>
+      <LineMaterial Type="LINE">Carpet Thread</LineMaterial>
+    </Parachute>
+
+    <Parachute>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>CP-32Y</PartNumber>
+      <Description>Parachute kit, plastic, 32 in, yellow</Description>
+      <Material Type="SURFACE">Polyethylene film, HDPE, 1.0 mil, bare</Material>
+      <Diameter Unit="in">32.0</Diameter>
+      <Sides>8</Sides>
+      <LineCount>8</LineCount>
+      <LineLength Unit="in">32.0</LineLength>
+      <LineMaterial Type="LINE">Carpet Thread</LineMaterial>
+    </Parachute>
+
+    <!-- ========= -->
+    <!-- STREAMERS -->
+    <!-- ========= -->
+
+    <!-- On the legacy site there is a "Streamer Pak" SP-136O but the only description is 36 inch orange.
+         Material, width and thickness not given.  On the new e-rockets site there are a number of
+         streamers, and dimensions are given. Though the material is not specified, the photos are good
+         enough to tell that the material is similar to or identical to the Estes type plastic streamers.
+    -->
+
 
     <!-- =========== -->
     <!-- LAUNCH LUGS -->
