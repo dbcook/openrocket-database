@@ -5245,7 +5245,7 @@ Known issues:
         <!-- ***ID/OD estimated using 9/32 ID and giving it .021 wall -->
         <LaunchLug>
           <Manufacturer>Estes</Manufacturer>
-          <PartNumber>LaunchLug_0.25_x_2.0*</PartNumber>
+          <PartNumber>LaunchLug_0.25_x_2.0</PartNumber>
           <Description>Launch lug, paper, 1/4 x 2"</Description>
           <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
           <InsideDiameter Unit="in">0.281</InsideDiameter>

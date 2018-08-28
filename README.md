@@ -29,7 +29,9 @@ System compatibility:  works anywhere OpenRocket can run
 
 0.9.0.19 - Aug 2018
 * Fixes
+  * Remove asterisk from Estes LaunchLug_0.25_x_2.0 PN to avoid PN handling in OR
 * Additions
+  * Finished off Semroc balsa reducers and launch lugs
   * New file with extended discussion of Estes history and brands
   * Discussion of company history and data availability for Giant Leap Rocketry
   * Obtained LOC centering ring thickness for several missing ones
@@ -167,7 +169,7 @@ somewhat Mac centric because that's what I use most.
 | ----- | ----- | ----- |
 | `Estes.orc`              | Yes  | Split - see new files below
 | `loc_precision.orc`      | Yes  | 100% 
-| `semroc.orc`             | Yes  | 90%  (tubes, couplers, CRs, nosecones, Centuri balsa transitions done.  Need Estes balsa transitions, lugs, chutes)
+| `semroc.orc`             | Yes  | 95%  (tubes, couplers, CRs, nosecones, transitions done.  Need only lugs, chutes)
 | `Quest.orc`              | Yes  | --
 | `bluetube.orc`           | Yes  | 100% (tubes and couplers like stock file, still needs CRs and NCs)
 | `bms.orc`                | Yes  | --

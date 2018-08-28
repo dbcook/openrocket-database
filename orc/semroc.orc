@@ -81,7 +81,8 @@ Ejection baffle rings
       <Density>128.1</Density>
       <Type>BULK</Type>
     </Material>
-    
+
+    <!-- Use Estes body tube density until we know better -->    
     <Material UnitsOfMeasure="kg/m3">
       <Name>Paper, spiral kraft glassine, Estes avg, bulk</Name>
       <Density>894.4</Density>
@@ -9188,6 +9189,39 @@ Ejection baffle rings
     -->
     <!-- To resolve the BR-1820 / BR-1820L issue, I'm taking the long one to be BR-1820L. -->
 
+    <!-- BR-60-18 is oddball cross-series adaapter, length 1.0", fore shoulder 1.07", aft shoulder 0.67".
+         It has a BR prefix so I've grouped with the Centuri compatible set. -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BR-60-18</PartNumber>
+        <Description>Transition, balsa, BT-60 to ST-18, increasing, 1.0 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.637</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.595</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">1.07</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.840</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.800</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.67</AftShoulderLength>
+        <Length Unit="in">1.0</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>BR-60-18 [R]</PartNumber>
+        <Description>Transition, balsa, ST-18 to BT-60, reducing, 1.0 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.840</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.800</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.67</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.637</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.595</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">1.07</AftShoulderLength>
+        <Length Unit="in">2.4</Length>
+    </Transition>
+
     <!-- BR-1820 scaled drawing dims are shoulder 0.67", length 0.375".  See discussion above. -->
     <Transition>
         <Manufacturer>SEMROC</Manufacturer>
@@ -10059,44 +10093,879 @@ Ejection baffle rings
     <!-- =============================== -->
 
     <!-- TA-2050 has length 2.0" (e-rockets site), shoulders 0.57" (9/16") -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-2050</PartNumber>
+        <Description>Transition, balsa, BT-20 to BT-50, increasing, 2.0 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">0.736</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">0.710</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.57</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">0.976</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">0.950</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.57</AftShoulderLength>
+        <Length Unit="in">2.0</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-2050 [R]</PartNumber>
+        <Description>Transition, balsa, BT-50 to BT-20, reducing, 2.0 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">0.976</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">0.950</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.57</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">0.736</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">0.710</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.57</AftShoulderLength>
+        <Length Unit="in">2.0</Length>
+    </Transition>
 
     <!-- TA-2050A has length 1.0" (e-rockets site), shoulders 0.57" (9/16")-->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-2050A</PartNumber>
+        <Description>Transition, balsa, BT-20 to BT-50, increasing, 1.0 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">0.736</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">0.710</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.57</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">0.976</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">0.950</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.57</AftShoulderLength>
+        <Length Unit="in">1.0</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-2050A [R]</PartNumber>
+        <Description>Transition, balsa, BT-50 to BT-20, reducing, 1.0 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">0.976</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">0.950</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.57</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">0.736</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">0.710</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.57</AftShoulderLength>
+        <Length Unit="in">1.0</Length>
+    </Transition>
 
     <!-- TA-2050B has length 2.5" (e-rockets site), shoulders 0.57" (9/16") -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-2050B</PartNumber>
+        <Description>Transition, balsa, BT-20 to BT-50, increasing, 2.5 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">0.736</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">0.710</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.57</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">0.976</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">0.950</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.57</AftShoulderLength>
+        <Length Unit="in">2.5</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-2050B [R]</PartNumber>
+        <Description>Transition, balsa, BT-50 to BT-20, reducing, 2.5 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">0.976</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">0.950</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.57</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">0.736</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">0.710</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.57</AftShoulderLength>
+        <Length Unit="in">2.5</Length>
+    </Transition>
+
 
     <!-- TA-2055 has length 1.5" (legacy site), shoulders 0.57" (9/16") -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-2055</PartNumber>
+        <Description>Transition, balsa, BT-20 to BT-55, increasing, 1.5 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">0.736</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">0.710</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.57</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.325</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.283</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.57</AftShoulderLength>
+        <Length Unit="in">1.5</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-2055 [R]</PartNumber>
+        <Description>Transition, balsa, BT-55 to BT-20, reducing, 1.5 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.325</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.283</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.57</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">0.736</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">0.710</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.57</AftShoulderLength>
+        <Length Unit="in">1.5</Length>
+    </Transition>
 
     <!-- TA-2058 has length 2.0" (legacy site), shoulders 0.57" (9/16") -->
     <!-- SOURCE ERROR: TA-2058 legacy site scaled drawing gives length 1.8", whereas
          specified length is 2.0" -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-2058</PartNumber>
+        <Description>Transition, balsa, BT-20 to BT-58, increasing, 1.8 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">0.736</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">0.710</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.57</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.540</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.498</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.57</AftShoulderLength>
+        <Length Unit="in">1.8</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-2058 [R]</PartNumber>
+        <Description>Transition, balsa, BT-58 to BT-20, reducing, 1.8 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.540</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.498</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.57</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">0.736</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">0.710</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.57</AftShoulderLength>
+        <Length Unit="in">1.8</Length>
+    </Transition>
 
     <!-- TA-2060 has length 2.0" (legacy site), shoulders 0.57" (9/16") -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-2060</PartNumber>
+        <Description>Transition, balsa, BT-20 to BT-60, increasing, 2.0 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">0.736</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">0.710</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.57</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.637</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.595</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.57</AftShoulderLength>
+        <Length Unit="in">2.0</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-2060 [R]</PartNumber>
+        <Description>Transition, balsa, BT-60 to BT-20, reducing, 2.0 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.637</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.595</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.57</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">0.736</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">0.710</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.57</AftShoulderLength>
+        <Length Unit="in">2.0</Length>
+    </Transition>
 
-    <!-- TA-2070 (new 2017 site only, not on legacy) has length 2.5" (scaled dwg), fore shoulder 0.57", aft shoulder 0.67" (scaled dwg)-->
+    <!-- TA-2070 (new 2017 site only, not on legacy) has length 2.5" (scaled dwg), fore shoulder 0.57", 
+         aft shoulder 0.67" (scaled dwg)-->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-2070</PartNumber>
+        <Description>Transition, balsa, BT-20 to BT-70, increasing, 2.5 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">0.736</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">0.710</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.57</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">2.217</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">2.175</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.67</AftShoulderLength>
+        <Length Unit="in">2.5</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-2070 [R]</PartNumber>
+        <Description>Transition, balsa, BT-70 to BT-20, reducing, 2.5 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">2.217</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">2.175</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.67</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">0.736</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">0.710</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.57</AftShoulderLength>
+        <Length Unit="in">2.5</Length>
+    </Transition>
 
     <!-- =============================== -->
     <!-- TA-50xx - BT-50 to larger sizes -->
     <!-- =============================== -->
 
+    <!-- TA-5055 has length 1.0" (legacy site), shoulders 0.67" (scaled dwg) -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-5055</PartNumber>
+        <Description>Transition, balsa, BT-50 to BT-55, increasing, 1.0 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">0.976</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">0.950</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.67</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.325</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.283</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.67</AftShoulderLength>
+        <Length Unit="in">1.0</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-5055 [R]</PartNumber>
+        <Description>Transition, balsa, BT-55 to BT-50, reducing, 1.0 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.325</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.283</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.67</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">0.976</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">0.950</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.67</AftShoulderLength>
+        <Length Unit="in">1.0</Length>
+    </Transition>
+
+
+    <!-- TA-5055D same as TA-5055 but through drilled 0.75" dia.  Mass override from Semroc legacy site -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-5055D</PartNumber>
+        <Description>Transition, balsa, BT-50 to BT-55, increasing, 1.0 in len, drilled 0.75 in</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <Mass Unit="oz">0.23</Mass>
+        <ForeOutsideDiameter Unit="in">0.976</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">0.950</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.67</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.325</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.283</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.67</AftShoulderLength>
+        <Length Unit="in">1.0</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-5055D [R]</PartNumber>
+        <Description>Transition, balsa, BT-55 to BT-50, reducing, 1.0 in len, drilled 0.75 in</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <Mass Unit="oz">0.23</Mass>
+        <ForeOutsideDiameter Unit="in">1.325</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.283</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.67</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">0.976</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">0.950</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.67</AftShoulderLength>
+        <Length Unit="in">1.0</Length>
+    </Transition>
+
+    <!-- TA-5055L has length 1.5", shoulders 0.67" (scaled dwg) -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-5055L</PartNumber>
+        <Description>Transition, balsa, BT-50 to BT-55, increasing, 1.5 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">0.976</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">0.950</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.67</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.325</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.283</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.67</AftShoulderLength>
+        <Length Unit="in">1.5</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-5055 [R]</PartNumber>
+        <Description>Transition, balsa, BT-55 to BT-50, reducing, 1.5 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.325</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.283</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.67</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">0.976</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">0.950</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.67</AftShoulderLength>
+        <Length Unit="in">1.5</Length>
+    </Transition>
+
+    <!-- TA-5055LD same as TA-5055L but through drilled 0.75" dia. Mass override from legacy site. -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-5055LD</PartNumber>
+        <Description>Transition, balsa, BT-50 to BT-55, increasing, 1.5 in len, drilled 0.75 in</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <Mass Unit="oz">0.31</Mass>
+        <ForeOutsideDiameter Unit="in">0.976</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">0.950</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.67</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.325</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.283</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.67</AftShoulderLength>
+        <Length Unit="in">1.5</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-5055LD [R]</PartNumber>
+        <Description>Transition, balsa, BT-55 to BT-50, reducing, 1.5 in len, drilled 0.75 in</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <Mass Unit="oz">0.31</Mass>
+        <ForeOutsideDiameter Unit="in">1.325</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.283</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.67</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">0.976</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">0.950</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.67</AftShoulderLength>
+        <Length Unit="in">1.5</Length>
+    </Transition>
+
+    <!-- TA-5060C has actual exposed length 0.75", shoulders 0.57 (scaled dwg)
+         This has a conical taper of o.5" plus a cylindrical section 0.25" long at the rear -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-5060C</PartNumber>
+        <Description>Transition, balsa, BT-50 to BT-60, increasing, 0.75 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">0.976</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">0.950</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.57</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.637</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.595</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.57</AftShoulderLength>
+        <Length Unit="in">0.75</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-5060C [R]</PartNumber>
+        <Description>Transition, balsa, BT-60 to BT-50, reducing, 0.75 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.637</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.595</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.57</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">0.976</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">0.950</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.57</AftShoulderLength>
+        <Length Unit="in">0.75</Length>
+    </Transition>
+
+
+    <!-- TA-5060 has length 2.0", shoulders 0.67" (scaled dwg) -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-5060</PartNumber>
+        <Description>Transition, balsa, BT-50 to BT-60, increasing, 2.0 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">0.976</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">0.950</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.67</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.637</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.595</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.67</AftShoulderLength>
+        <Length Unit="in">2.0</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-5060 [R]</PartNumber>
+        <Description>Transition, balsa, BT-60 to BT-50, reducing, 2.0 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.637</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.595</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.67</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">0.976</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">0.950</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.67</AftShoulderLength>
+        <Length Unit="in">2.0</Length>
+    </Transition>
+
+    <!-- TA-5060E is an ellipsoid shape, length 2.0, shoulders 0.67" (scaled dwg) -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-5060E</PartNumber>
+        <Description>Transition, balsa, BT-50 to BT-60, ellipsoid, increasing, 2.0 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>ELLIPSOID</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">0.976</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">0.950</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.67</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.637</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.595</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.67</AftShoulderLength>
+        <Length Unit="in">2.0</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-5060 [R]</PartNumber>
+        <Description>Transition, balsa, BT-60 to BT-50, ellipsoid, reducing, 2.0 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>ELLIPSOID</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.637</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.595</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.67</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">0.976</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">0.950</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.67</AftShoulderLength>
+        <Length Unit="in">2.0</Length>
+    </Transition>
+
+    <!-- TA-5060M is conical, length 1.5", shoulders 0.67" (scaled dwg) -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-5060M</PartNumber>
+        <Description>Transition, balsa, BT-50 to BT-60, increasing, 1.5 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">0.976</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">0.950</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.67</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.637</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.595</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.67</AftShoulderLength>
+        <Length Unit="in">1.5</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-5060M [R]</PartNumber>
+        <Description>Transition, balsa, BT-60 to BT-50, reducing, 1.5 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.637</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.595</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.67</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">0.976</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">0.950</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.67</AftShoulderLength>
+        <Length Unit="in">1.5</Length>
+    </Transition>
+
+
+    <!-- TA-5065 has length 2.0", shoulders 0.67" (scaled dwg) -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-5065</PartNumber>
+        <Description>Transition, balsa, BT-50 to PST-65, increasing, 2.0 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">0.976</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">0.950</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.67</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.774</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.750</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.67</AftShoulderLength>
+        <Length Unit="in">2.0</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-5065 [R]</PartNumber>
+        <Description>Transition, balsa, PST-65 to BT-50, reducing, 2.0 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.774</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.750</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.67</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">0.976</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">0.950</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.67</AftShoulderLength>
+        <Length Unit="in">2.0</Length>
+    </Transition>
+
     <!-- =============================== -->
     <!-- TA-52xx - BT-52 to larger sizes -->
     <!-- =============================== -->
+
+    <!-- TA-5260A has length 1.0", shoulders 0.67" (scaled dwg) -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-5260A</PartNumber>
+        <Description>Transition, balsa, BT-52 to BT-60, increasing, 1.0 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.014</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">0.988</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.67</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.637</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.595</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.67</AftShoulderLength>
+        <Length Unit="in">1.0</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-5260A [R]</PartNumber>
+        <Description>Transition, balsa, BT-60 to BT-52, reducing, 1.0 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.637</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.595</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.67</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.014</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">0.998</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.67</AftShoulderLength>
+        <Length Unit="in">1.0</Length>
+    </Transition>
+
+    <!-- TA-5260C has total exposed length 3.75", shoulders 0.67" (scaled dwg)
+         This is a slight bi-conic shape with diameter reaching 1.32" at 0.75" back from the front -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-5260C</PartNumber>
+        <Description>Transition, balsa, BT-52 to BT-60, bi-conic, increasing, 3.75 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.014</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">0.988</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.67</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.637</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.595</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.67</AftShoulderLength>
+        <Length Unit="in">3.75</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-5260C [R]</PartNumber>
+        <Description>Transition, balsa, BT-60 to BT-52, bi-conic, reducing, 3.75 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.637</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.595</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.67</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.014</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">0.998</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.67</AftShoulderLength>
+        <Length Unit="in">3.75</Length>
+    </Transition>
 
     <!-- =============================== -->
     <!-- TA-55xx - BT-55 to larger sizes -->
     <!-- =============================== -->
 
+    <!-- TA-5560 has length 1.0", shoulders 0.67" (scaled dwg) -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-5560</PartNumber>
+        <Description>Transition, balsa, BT-55 to BT-60, increasing, 1.0 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.325</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.283</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.67</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.637</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.595</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.67</AftShoulderLength>
+        <Length Unit="in">1.0</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-5560 [R]</PartNumber>
+        <Description>Transition, balsa, BT-60 to BT-55, reducing, 1.0 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.637</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.595</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.67</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.325</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.283</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.67</AftShoulderLength>
+        <Length Unit="in">1.0</Length>
+    </Transition>
+
+    <!-- TA-5560A had length of 1.25".  On legacy site "view" leads to "Invalid or Inactive Product".
+         Doesn't exist on modern e-rockets site.  Shoulders presumed to be 0.67" -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-5560A</PartNumber>
+        <Description>Transition, balsa, BT-55 to BT-60, increasing, 1.25 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.325</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.283</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.67</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.637</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.595</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.67</AftShoulderLength>
+        <Length Unit="in">1.25</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-5560A [R]</PartNumber>
+        <Description>Transition, balsa, BT-60 to BT-55, reducing, 1.25 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.637</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.595</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.67</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.325</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.283</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.67</AftShoulderLength>
+        <Length Unit="in">1.25</Length>
+    </Transition>
+
+    <!-- TA-5560L is 2.4" long, shoulders 0.72" long (scaled dwg).  Only exists on e-rockets site. -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-5560L</PartNumber>
+        <Description>Transition, balsa, BT-55 to BT-60, increasing, 2.4 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.325</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.283</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.67</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.637</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.595</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.67</AftShoulderLength>
+        <Length Unit="in">2.4</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-5560L [R]</PartNumber>
+        <Description>Transition, balsa, BT-60 to BT-55, reducing, 2.4 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.637</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.595</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.67</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.325</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.283</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.67</AftShoulderLength>
+        <Length Unit="in">2.4</Length>
+    </Transition>
+
     <!-- =============================== -->
     <!-- TA-60xx - BT-60 to larger sizes -->
     <!-- =============================== -->
+
+    <!-- TA-6065 is 0.5" long, fore shoulder 0.72", aft shoulder 0.67" (scaled dwg) -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-6065</PartNumber>
+        <Description>Transition, balsa, BT-60 to PST-65, increasing, 0.5 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.637</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.595</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.72</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.774</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.750</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.67</AftShoulderLength>
+        <Length Unit="in">0.5</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-6065 [R]</PartNumber>
+        <Description>Transition, balsa, PST-65 to BT-60, reducing, 0.5 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.774</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.750</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.67</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.637</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.595</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.72</AftShoulderLength>
+        <Length Unit="in">0.5</Length>
+    </Transition>
+
+    <!-- TA-6070 has length 1.5", fore shoulder 0.72", aft shoulder 0.67" (scaled dwg) -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-6070</PartNumber>
+        <Description>Transition, balsa, BT-60 to BT-70, increasing, 1.5 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.637</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.595</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.72</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">2.217</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">2.175</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.67</AftShoulderLength>
+        <Length Unit="in">1.5</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-6070 [R]</PartNumber>
+        <Description>Transition, balsa, BT-70 to BT-60, reducing, 1.5 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">2.217</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">2.175</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.67</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.637</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.595</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.72</AftShoulderLength>
+        <Length Unit="in">1.5</Length>
+    </Transition>
+
+    <!-- TA-6080 has length 2.25, fore shoulder 0.72", aft shoulder 0.67" (scaled dwg) -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-6080</PartNumber>
+        <Description>Transition, balsa, BT-60 to BT-80, increasing, 2.25 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.637</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.595</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.72</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">2.600</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">2.558</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.67</AftShoulderLength>
+        <Length Unit="in">2.25</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-6080 [R]</PartNumber>
+        <Description>Transition, balsa, BT-80 to BT-60, reducing, 2.25 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">2.600</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">2.558</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.67</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.637</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.595</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.72</AftShoulderLength>
+        <Length Unit="in">2.25</Length>
+    </Transition>
 
     <!-- =============================== -->
     <!-- TA-70xx - BT-70 to larger sizes -->
     <!-- =============================== -->
 
+    <!-- SOURCE ERROR: TA-7080 has length 1.5" in table on legacy site, but View page gives length 2.25".
+         Scaled drawing gives 2.25", so the table is wrong. -->
+
+    <!-- TA-7080 has length 2.25", fore shoulder 0.72", aft shoulder 0.67" (scaled dwg) -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-7080</PartNumber>
+        <Description>Transition, balsa, BT-70 to BT-80, increasing, 2.25 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">2.217</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">2.175</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.72</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">2.600</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">2.558</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.67</AftShoulderLength>
+        <Length Unit="in">2.25</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-7080 [R]</PartNumber>
+        <Description>Transition, balsa, BT-80 to BT-70, reducing, 2.25 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">2.600</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">2.558</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.67</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">2.217</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">2.175</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.72</AftShoulderLength>
+        <Length Unit="in">2.25</Length>
+    </Transition>
+
     <!-- ================================= -->
     <!-- TA-70Hxx - BT-70H to larger sizes -->
     <!-- ================================= -->
+
+    <!-- SOURCE ERROR: TA-7080H has length 1.5" in table on legacy site, but View page gives length 1.0".
+         Scaled drawing also gives 1.0", so legacy site table is wrong.  -->
+    <!-- TA-7080H has length 1.0", fore shoulder 0.85", aft shoulder 0.67" -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-7080H</PartNumber>
+        <Description>Transition, balsa, BTH-70 to BTH-80, increasing, 1.0 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">2.247</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">2.175</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.85</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">2.640</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">2.558</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.67</AftShoulderLength>
+        <Length Unit="in">1.0</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-7080H [R]</PartNumber>
+        <Description>Transition, balsa, BTH-80 to BTH-70, reducing, 1.0 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">2.640</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">2.558</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.67</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">2.247</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">2.175</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.85</AftShoulderLength>
+        <Length Unit="in">1.0</Length>
+    </Transition>
 
     
     <!-- ================= -->
@@ -18628,6 +19497,260 @@ Ejection baffle rings
       <ShoulderLength Unit="in">1.28</ShoulderLength>
       <Length Unit="in">8.9</Length>
     </NoseCone>
+
+    <!-- =========== -->
+    <!-- LAUNCH LUGS -->
+    <!-- =========== -->
+
+    <!-- 1/8" Estes compatible lengths -->
+    <!-- Estes specified the ID as 5/32 == 0.156".  Measured OD of some samples is 0.173" -->
+
+    <!-- LL-2AM not known in Estes usage -->
+    <LaunchLug>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LL-2AM</PartNumber>
+      <Description>Launch lug, paper, 1/8 x 0.375 in</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.156</InsideDiameter>
+      <OutsideDiameter Unit="in">0.173</OutsideDiameter>
+      <Length Unit="in">0.375</Length>
+    </LaunchLug>
+
+    <LaunchLug>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LL-2A</PartNumber>
+      <Description>Launch lug, paper, 1/8 x 1.25 in</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.156</InsideDiameter>
+      <OutsideDiameter Unit="in">0.173</OutsideDiameter>
+      <Length Unit="in">1.25</Length>
+    </LaunchLug>
+
+    <LaunchLug>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LL-2B</PartNumber>
+      <Description>Launch lug, paper, 1/8 x 2.375 in</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.156</InsideDiameter>
+      <OutsideDiameter Unit="in">0.173</OutsideDiameter>
+      <Length Unit="in">2.375</Length>
+    </LaunchLug>
+
+    <LaunchLug>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LL-2C</PartNumber>
+      <Description>Launch lug, paper, 1/8 x 5 in</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.156</InsideDiameter>
+      <OutsideDiameter Unit="in">0.173</OutsideDiameter>
+      <Length Unit="in">5.0</Length>
+    </LaunchLug>
+
+    <LaunchLug>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LL-2D</PartNumber>
+      <Description>Launch lug, paper, 1/8 x 8 in</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.156</InsideDiameter>
+      <OutsideDiameter Unit="in">0.173</OutsideDiameter>
+      <Length Unit="in">8.0</Length>
+    </LaunchLug>
+
+    <!-- LL-2E 9.5" long was used in the K-43 Mars Lander. -->
+    <LaunchLug>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LL-2E</PartNumber>
+      <Description>Launch lug, paper, 1/8 x 9.5 in</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.156</InsideDiameter>
+      <OutsideDiameter Unit="in">0.173</OutsideDiameter>
+      <Length Unit="in">9.5</Length>
+    </LaunchLug>
+
+
+    <!-- 1/8" Semroc numeric length PNs -->
+
+    <LaunchLug>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LL-104</PartNumber>
+      <Description>Launch lug, paper, 1/8 x 0.4 in</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.156</InsideDiameter>
+      <OutsideDiameter Unit="in">0.173</OutsideDiameter>
+      <Length Unit="in">0.4</Length>
+    </LaunchLug>
+
+    <LaunchLug>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LL-108</PartNumber>
+      <Description>Launch lug, paper, 1/8 x 0.75 in</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.156</InsideDiameter>
+      <OutsideDiameter Unit="in">0.173</OutsideDiameter>
+      <Length Unit="in">0.75</Length>
+    </LaunchLug>
+
+    <LaunchLug>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LL-110</PartNumber>
+      <Description>Launch lug, paper, 1/8 x 1.0 in</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.156</InsideDiameter>
+      <OutsideDiameter Unit="in">0.173</OutsideDiameter>
+      <Length Unit="in">1.0</Length>
+    </LaunchLug>
+
+    <LaunchLug>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LL-115</PartNumber>
+      <Description>Launch lug, paper, 1/8 x 1.5 in</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.156</InsideDiameter>
+      <OutsideDiameter Unit="in">0.173</OutsideDiameter>
+      <Length Unit="in">1.5</Length>
+    </LaunchLug>
+
+    <LaunchLug>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LL-117</PartNumber>
+      <Description>Launch lug, paper, 1/8 x 1.75 in</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.156</InsideDiameter>
+      <OutsideDiameter Unit="in">0.173</OutsideDiameter>
+      <Length Unit="in">1.75</Length>
+    </LaunchLug>
+
+    <LaunchLug>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LL-120</PartNumber>
+      <Description>Launch lug, paper, 1/8 x 2.0 in</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.156</InsideDiameter>
+      <OutsideDiameter Unit="in">0.173</OutsideDiameter>
+      <Length Unit="in">2.0</Length>
+    </LaunchLug>
+
+    <LaunchLug>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LL-122</PartNumber>
+      <Description>Launch lug, paper, 1/8 x 2.25 in</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.156</InsideDiameter>
+      <OutsideDiameter Unit="in">0.173</OutsideDiameter>
+      <Length Unit="in">2.25</Length>
+    </LaunchLug>
+
+    <LaunchLug>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LL-130</PartNumber>
+      <Description>Launch lug, paper, 1/8 x 3.0 in</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.156</InsideDiameter>
+      <OutsideDiameter Unit="in">0.173</OutsideDiameter>
+      <Length Unit="in">3.0</Length>
+    </LaunchLug>
+
+    <!-- LL-180 is alias for Estes LL-2D -->
+    <LaunchLug>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LL-180</PartNumber>
+      <Description>Launch lug, paper, 1/8 x 8.0 in</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.156</InsideDiameter>
+      <OutsideDiameter Unit="in">0.173</OutsideDiameter>
+      <Length Unit="in">8.0</Length>
+    </LaunchLug>
+
+    <!-- LL-195 is alias for Estes LL-2E -->
+    <LaunchLug>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LL-195</PartNumber>
+      <Description>Launch lug, paper, 1/8 x 9.5 in</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.156</InsideDiameter>
+      <OutsideDiameter Unit="in">0.173</OutsideDiameter>
+      <Length Unit="in">9.5</Length>
+    </LaunchLug>
+
+    <LaunchLug>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LL-1120</PartNumber>
+      <Description>Launch lug, paper, 1/8 x 12.0 in</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.156</InsideDiameter>
+      <OutsideDiameter Unit="in">0.173</OutsideDiameter>
+      <Length Unit="in">12.0</Length>
+    </LaunchLug>
+
+    <!-- 3/16 Estes-compatible numbers -->
+    <!-- 3/16 lug measured OD = 0.227, set ID to give same wall thickness as 1/8 lugs -->
+    <!-- 3/16 x 2 possibly has LL designation; no known Estes ref but Semroc calls
+         it LL-3B.  Carl McLawhorn was pretty careful about his PNs for exact Estes parts -->
+    <LaunchLug>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LL-3B</PartNumber>
+      <Description>Launch lug, paper, 3/16 x 2.0 in</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.210</InsideDiameter>
+      <OutsideDiameter Unit="in">0.227</OutsideDiameter>
+      <Length Unit="in">2.0</Length>
+    </LaunchLug>
+
+
+    <!-- 3/16 Semroc numeric length PNs -->
+
+    <LaunchLug>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LL-310</PartNumber>
+      <Description>Launch lug, paper, 3/16 x 1.0 in</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.210</InsideDiameter>
+      <OutsideDiameter Unit="in">0.227</OutsideDiameter>
+      <Length Unit="in">1.0</Length>
+    </LaunchLug>
+
+    <LaunchLug>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LL-320</PartNumber>
+      <Description>Launch lug, paper, 3/16 x 2.0 in</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.210</InsideDiameter>
+      <OutsideDiameter Unit="in">0.227</OutsideDiameter>
+      <Length Unit="in">2.0</Length>
+    </LaunchLug>
+
+    <LaunchLug>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LL-330</PartNumber>
+      <Description>Launch lug, paper, 3/16 x 3.0 in</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.210</InsideDiameter>
+      <OutsideDiameter Unit="in">0.227</OutsideDiameter>
+      <Length Unit="in">3.0</Length>
+    </LaunchLug>
+
+    <LaunchLug>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LL-3120</PartNumber>
+      <Description>Launch lug, paper, 3/16 x 12.0 in</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.210</InsideDiameter>
+      <OutsideDiameter Unit="in">0.227</OutsideDiameter>
+      <Length Unit="in">12.0</Length>
+    </LaunchLug>
+
+    <!-- 1/4 Semroc numeric length PNs -->
+    <!-- ID/OD estimated using 9/32 ID and giving it .021 wall -->
+    <LaunchLug>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>LL-423</PartNumber>
+      <Description>Launch lug, paper, 1/4 x 2.25 in</Description>
+      <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+      <InsideDiameter Unit="in">0.281</InsideDiameter>
+      <OutsideDiameter Unit="in">0.323</OutsideDiameter>
+      <Length Unit="in">2.25</Length>
+    </LaunchLug>
+
     
   </Components>
 </OpenRocketComponent>
