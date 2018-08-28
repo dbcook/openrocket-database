@@ -31,14 +31,16 @@ System compatibility:  works anywhere OpenRocket can run
 * Fixes
   * Remove asterisk from Estes LaunchLug_0.25_x_2.0 PN to avoid PN handling in OR
   * Add missing Semroc BTC-70HY and fix mass of Semroc BTC-70VY, was swapped with BTC-70HY
-  * Discovered Semroc metric nose cones BNC-Txxxx are all missing
   * Add missing carpet thread material to estes_classic file
 * Additions
-  * Finished off Semroc balsa reducers, launch lugs and parachutes
+  * Finished off Semroc balsa reducers, launch lugs, parachutes and streamers
   * New file with extended discussion of Estes history and brands
   * Discussion of company history and data availability for Giant Leap Rocketry
   * Obtained LOC centering ring thickness for several missing ones
   * Noted some data inconsistencies on sub-1-inch LOC tubes
+* Problems found but not fixed yet
+  * Semroc metric nose cones BNC-Txxxx are all missing
+  * Semroc TA-T40-65 is missing
 
 0.9.0.18 - Mar/Apr 2018
 * Fixes
@@ -159,10 +161,9 @@ somewhat Mac centric because that's what I use most.
 ### Near Term Plan
 
 * Finish up new Semroc file
-* Review Semroc nose cones for completeness
   * Add metric cones BNC-Txxxx - 15 exist on legacy site
-* Adjust Semroc nose cone shoulder lengths to match drawings on legacy site
-* Add Semroc chutes
+  * Review Semroc nose cones for completeness
+  * Adjust Semroc nose cone shoulder lengths to match drawings on legacy site
 * Add Bluetube / Always Ready Rocketry centering rings
 * Add Always Ready Rocketry nose cones (if data exists or can determine sourcing)
 * Review Quest, FlisKits, GLR, BMS, PML stock files
@@ -173,7 +174,7 @@ somewhat Mac centric because that's what I use most.
 | ----- | ----- | ----- |
 | `Estes.orc`              | Yes  | 100% (split - see new files below)
 | `loc_precision.orc`      | Yes  | 100% 
-| `semroc.orc`             | Yes  | 95%  (tubes, couplers, CRs, nose cones, transitions done.  Need metric cones, chutes)
+| `semroc.orc`             | Yes  | 95%  (tubes, couplers, CRs, nose cones, transitions done.  Need metric cones)
 | `bluetube.orc`           | Yes  | 100% (tubes and couplers like stock file, still needs CRs and NCs)
 | `Quest.orc`              | Yes  | --
 | `bms.orc`                | Yes  | --

@@ -1236,9 +1236,8 @@
       
       <!-- HDPE bag / tube film
            Atlanticpoly.com indicates that HDPE film can be had in 1-micron increments from 5 microns (.19 mil)
-           on up.  So we choose here a set of thicknesses 0.30, .40, 0.50, 0.75, and 1.0 mils to cover the
-           useful range for model rocket parachutes.  Poly sheet is not used in any higher thicknesses because
-           ripstop nylon is far superior.
+           on up.  So we choose here a set of thicknesses 0.30, .40, 0.50, 0.75, 1.0  and 2.0 mils to cover the
+           useful range for model rocket parachutes and streamers.  Poly sheet is not used in any higher thicknesses because ripstop nylon is far superior.
       -->
 
       <!-- Bare poly film (cleaner bag type) -->
@@ -1267,13 +1266,20 @@
             <Density>0.0235</Density>
             <Type>SURFACE</Type>
         </Material>
+        <Material UnitsOfMeasure="kg/m2">
+            <Name>Polyethylene film, HDPE, 2.0 mil, bare</Name>
+            <Density>0.0470</Density>
+            <Type>SURFACE</Type>
+        </Material>
 
       <!-- Fully printed film (Estes parachute type) -->
       <!--
           TRF user micromeister reported a complete Estes 18" chute with #10 snap swivel weighs 7.4 g
           TRF user gpoehlein reports 4 layers of an Estes 12" chute are .005" or .00125" per layer
-          Apogee says standard model rocket parachutes are 1 mil thick.
+          Apogee says on their website that standard model rocket parachutes are 1 mil thick.
           Apogee also sells a very large (32") printed polyethylene parachute that is quite heavy.
+          It has been reported that Estes was forced to make their parachute film thicker for
+          anti-suffocation properties and that it is now (2018) about 1.0 mil.
       -->
 
       <!-- SURFACE papers -->

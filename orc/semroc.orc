@@ -101,6 +101,13 @@ Ejection baffle rings
       <Type>SURFACE</Type>
     </Material>
 
+    <!-- streamer material taken to be 2 mil HDPE or equivalent -->
+    <Material UnitsOfMeasure="kg/m2">
+      <Name>Polyethylene film, HDPE, 2.0 mil, bare</Name>
+      <Density>0.0470</Density>
+      <Type>SURFACE</Type>
+    </Material>
+
     <!-- Mylar (polyester) density quoted by DuPont as 1.39 g/cc -->
     <Material UnitsOfMeasure="g/cm3">
       <Name>Mylar, bulk</Name>
@@ -19717,6 +19724,106 @@ Ejection baffle rings
          streamers, and dimensions are given. Though the material is not specified, the photos are good
          enough to tell that the material is similar to or identical to the Estes type plastic streamers.
     -->
+
+    <Streamer>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>SP-108</PartNumber>
+      <Description>Streamer, 1 x 8 in., HDPE, 2.0 mil</Description>
+      <Material Type="SURFACE">Polyethylene film, HDPE, 2.0 mil, bare</Material>
+      <Thickness Unit="in">0.002</Thickness>
+      <Width Unit="in">1.0</Width>
+      <Length Unit="in">8.0</Length>
+    </Streamer>
+
+    <Streamer>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>SP-110</PartNumber>
+      <Description>Streamer, 1 x 10 in., HDPE, 2.0 mil</Description>
+      <Material Type="SURFACE">Polyethylene film, HDPE, 2.0 mil, bare</Material>
+      <Thickness Unit="in">0.002</Thickness>
+      <Width Unit="in">1.0</Width>
+      <Length Unit="in">10.0</Length>
+    </Streamer>
+
+    <Streamer>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>SP-112</PartNumber>
+      <Description>Streamer, 1 x 12 in., HDPE, 2.0 mil</Description>
+      <Material Type="SURFACE">Polyethylene film, HDPE, 2.0 mil, bare</Material>
+      <Thickness Unit="in">0.002</Thickness>
+      <Width Unit="in">1.0</Width>
+      <Length Unit="in">12.0</Length>
+    </Streamer>
+
+    <Streamer>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>SP-118</PartNumber>
+      <Description>Streamer, 1 x 18 in., HDPE, 2.0 mil</Description>
+      <Material Type="SURFACE">Polyethylene film, HDPE, 2.0 mil, bare</Material>
+      <Thickness Unit="in">0.002</Thickness>
+      <Width Unit="in">1.0</Width>
+      <Length Unit="in">18.0</Length>
+    </Streamer>
+
+    <Streamer>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>SP-124</PartNumber>
+      <Description>Streamer, 1 x 24 in., HDPE, 2.0 mil</Description>
+      <Material Type="SURFACE">Polyethylene film, HDPE, 2.0 mil, bare</Material>
+      <Thickness Unit="in">0.002</Thickness>
+      <Width Unit="in">1.0</Width>
+      <Length Unit="in">24.0</Length>
+    </Streamer>
+
+    <Streamer>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>SP-136</PartNumber>
+      <Description>Streamer, 1 x 36 in., HDPE, 2.0 mil</Description>
+      <Material Type="SURFACE">Polyethylene film, HDPE, 2.0 mil, bare</Material>
+      <Thickness Unit="in">0.002</Thickness>
+      <Width Unit="in">1.0</Width>
+      <Length Unit="in">36.0</Length>
+    </Streamer>
+
+    <Streamer>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>SP-190</PartNumber>
+      <Description>Streamer, 1 x 90 in., HDPE, 2.0 mil</Description>
+      <Material Type="SURFACE">Polyethylene film, HDPE, 2.0 mil, bare</Material>
+      <Thickness Unit="in">0.002</Thickness>
+      <Width Unit="in">1.0</Width>
+      <Length Unit="in">90.0</Length>
+    </Streamer>
+
+    <Streamer>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>SP-224</PartNumber>
+      <Description>Streamer, 1.75 x 24 in., HDPE, 2.0 mil</Description>
+      <Material Type="SURFACE">Polyethylene film, HDPE, 2.0 mil, bare</Material>
+      <Thickness Unit="in">0.002</Thickness>
+      <Width Unit="in">1.75</Width>
+      <Length Unit="in">24.0</Length>
+    </Streamer>
+
+    <Streamer>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>SP-236</PartNumber>
+      <Description>Streamer, 1.75 x 36 in., HDPE, 2.0 mil</Description>
+      <Material Type="SURFACE">Polyethylene film, HDPE, 2.0 mil, bare</Material>
+      <Thickness Unit="in">0.002</Thickness>
+      <Width Unit="in">1.75</Width>
+      <Length Unit="in">36.0</Length>
+    </Streamer>
+
+    <Streamer>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>SP-290</PartNumber>
+      <Description>Streamer, 1.75 x 90 in., HDPE, 2.0 mil</Description>
+      <Material Type="SURFACE">Polyethylene film, HDPE, 2.0 mil, bare</Material>
+      <Thickness Unit="in">0.002</Thickness>
+      <Width Unit="in">1.75</Width>
+      <Length Unit="in">90.0</Length>
+    </Streamer>
 
 
     <!-- =========== -->
