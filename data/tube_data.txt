@@ -97,8 +97,8 @@ PST-50    0.950     0.976      0.978     0.948
 PST-55    1.283     1.325      1.327     1.281
 PST-65    1.750     1.774      1.776     1.748
 
-Metric tubes (MPC/Quest) - dimensions in mm
--------------------------------------------
+Metric tubes (MRI/MPC/Quest) - dimensions in mm
+-----------------------------------------------
 T5        4.00      5.00       5.05      3.95    MPC only
 T14      13.00     14.00      14.05     12.95    MPC only, MMT for 13mm motors
 T15      14.00     15.00      15.05     13.95    Standard 15mm body tube, Quest specs as ID 0.550", OD 0.590" which is 14.0/15.0

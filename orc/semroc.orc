@@ -19549,6 +19549,227 @@ Ejection baffle rings
     <!-- =================================== -->
     <!-- Metric Quest / MRI / MPC Nose Cones -->
     <!-- =================================== -->
+    <!-- Here we have mixed units.  The nose cone diameter and shoulder diameter are given in mm
+         per their definitions, while the length and shoulder length are in inches to match the
+         Semroc advertised specs.  -->
+
+    <!-- BC-T1518 is ellipsoid with length 1.8", shoulder len 0.42" (scaled dwg) -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-T1518</PartNumber>
+      <Description>Nose cone, balsa, T-15, 1.8", ellipsoid, PN BC-T1518</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="mm">15.0</OutsideDiameter>
+      <ShoulderDiameter Unit="mm">14.0</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.42</ShoulderLength>
+      <Length Unit="in">1.8</Length>
+    </NoseCone>
+
+    <!-- BC-T1529 is ogive with length 2.9", shoulder len 0.42" (scaled dwg) -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-T1529</PartNumber>
+      <Description>Nose cone, balsa, T-15, 2.9", ogive, PN BC-T1529</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="mm">15.0</OutsideDiameter>
+      <ShoulderDiameter Unit="mm">14.0</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.42</ShoulderLength>
+      <Length Unit="in">2.9</Length>
+    </NoseCone>
+
+    <!-- BC-T2014 is ogive with length 1.4", shoulder len 0.53" (scaled dwg) -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-T2014</PartNumber>
+      <Description>Nose cone, balsa, T-20, 1.4", ogive, PN BC-T2014</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="mm">20.0</OutsideDiameter>
+      <ShoulderDiameter Unit="mm">19.0</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.53</ShoulderLength>
+      <Length Unit="in">1.4</Length>
+    </NoseCone>
+
+    <!-- BC-T2032C is conical (with aft cyl section len 0.5") with length 3.25",
+         shoulder length 0.53" (scaled dwg) -->
+    <!-- SOURCE ERROR: BC-T2032C legacy site gives length 3.2", but scaled drawing is 3.25".  Looks to be a 
+         roundoff error where Carl changed a 3.25" length to a "32" part number suffix.  -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-T2032C</PartNumber>
+      <Description>Nose cone, balsa, T-20, 3.25", conical, PN BC-T2032C</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>CONICAL</Shape>
+      <OutsideDiameter Unit="mm">20.0</OutsideDiameter>
+      <ShoulderDiameter Unit="mm">19.0</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.53</ShoulderLength>
+      <Length Unit="in">3.25</Length>
+    </NoseCone>
+
+    <!-- BC-T2032 is ogive with length 3.2", shoulder length 0.53" (scaled dwg)  -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-T2032</PartNumber>
+      <Description>Nose cone, balsa, T-20, 3.2", ogive, PN BC-T2032</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="mm">20.0</OutsideDiameter>
+      <ShoulderDiameter Unit="mm">19.0</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.53</ShoulderLength>
+      <Length Unit="in">3.2</Length>
+    </NoseCone>
+
+    <!-- BC-T2534 is ogive with length 3.4", shoulder length 0.63" (scaled dwg) -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-T2534</PartNumber>
+      <Description>Nose cone, balsa, T-25, 3.4", ogive, PN BC-T2534</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="mm">25.0</OutsideDiameter>
+      <ShoulderDiameter Unit="mm">24.0</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.63</ShoulderLength>
+      <Length Unit="in">3.4</Length>
+    </NoseCone>
+
+    <!-- BC-T3033 is blunt ogive with length 3.35", shoulder length 0.69" (scaled dwg) -->
+    <!-- SOURCE ERROR: BC-T3033 legacy site gives length 3.3" but scaled drawing is 3.35".
+         Apparently another part number length roundoff.  -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-T3033</PartNumber>
+      <Description>Nose cone, balsa, T-30, 3.35", blunt ogive, PN BC-T3033</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="mm">35.0</OutsideDiameter>
+      <ShoulderDiameter Unit="mm">34.0</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <Length Unit="in">3.35</Length>
+    </NoseCone>
+
+    <!-- BC-T3525E is ellipsoid with length 2.5", shoulder len 0.69" (scaled dwg) -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-T3525E</PartNumber>
+      <Description>Nose cone, balsa, T-35, 2.5", ellipsoid, PN BC-T3525E</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="mm">35.0</OutsideDiameter>
+      <ShoulderDiameter Unit="mm">34.0</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <Length Unit="in">2.5</Length>
+    </NoseCone>
+
+    <!-- BC-T3532 is ellipsoid with length 3.2", shoulder len 0.75" (scaled dwg) -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-T3532</PartNumber>
+      <Description>Nose cone, balsa, T-35, 3.2", ellipsoid, PN BC-T3532</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="mm">35.0</OutsideDiameter>
+      <ShoulderDiameter Unit="mm">34.0</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.75</ShoulderLength>
+      <Length Unit="in">3.2</Length>
+    </NoseCone>
+
+    <!-- BC-T3539 is ogive with length 3.9", shoulder len 0.69" (scaled dwg) -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-T3529</PartNumber>
+      <Description>Nose cone, balsa, T-35, 3.9", ogive, PN BC-T3529</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="mm">35.0</OutsideDiameter>
+      <ShoulderDiameter Unit="mm">34.0</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <Length Unit="in">3.9</Length>
+    </NoseCone>
+
+    <!-- BC-T3541C is conical with length 4.1", shoulder len 0.69" (scaled dwg) -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-T3541C</PartNumber>
+      <Description>Nose cone, balsa, T-35, 4.1", conical, PN BC-T3541C</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>CONICAL</Shape>
+      <OutsideDiameter Unit="mm">35.0</OutsideDiameter>
+      <ShoulderDiameter Unit="mm">34.0</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <Length Unit="in">4.1</Length>
+    </NoseCone>
+
+    <!-- BC-T3541E is ellipsoid with length 4.1", shoulder len 0.69" (scaled dwg) -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-T3541E</PartNumber>
+      <Description>Nose cone, balsa, T-35, 4.1", ellipsoid, PN BC-T3541E</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="mm">35.0</OutsideDiameter>
+      <ShoulderDiameter Unit="mm">34.0</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <Length Unit="in">4.1</Length>
+    </NoseCone>
+
+    <!-- BC-T3541H is Haack with length 4.1", shoulder len 0.69" (scaled dwg) -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-T3541H</PartNumber>
+      <Description>Nose cone, balsa, T-35, 4.1", Haack, PN BC-T3541H</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>HAACK</Shape>
+      <OutsideDiameter Unit="mm">35.0</OutsideDiameter>
+      <ShoulderDiameter Unit="mm">34.0</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <Length Unit="in">4.1</Length>
+    </NoseCone>
+
+    <!-- BC-T3541G is ogive with length 4.1", shoulder len 0.69" (scaled dwg) -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-T3541G</PartNumber>
+      <Description>Nose cone, balsa, T-35, 4.1", ogive, PN BC-T3541G</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="mm">35.0</OutsideDiameter>
+      <ShoulderDiameter Unit="mm">34.0</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <Length Unit="in">4.1</Length>
+    </NoseCone>
+
+    <!-- BC-T3541B is rounded tip ogive with length 4.05", shoulder len 0.69" (scaled dwg) -->
+    <!-- SOURCE ERROR: BC-T3541B legacy site gives length 4.1" but scaled drawing is 4.05".
+         Apparently another part number length roundoff.  -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-T3541B</PartNumber>
+      <Description>Nose cone, balsa, T-35, 4.1", round tip ogive, PN BC-T3541B</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="mm">35.0</OutsideDiameter>
+      <ShoulderDiameter Unit="mm">34.0</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <Length Unit="in">4.1</Length>
+    </NoseCone>
+
 
 
 

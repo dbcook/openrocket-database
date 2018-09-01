@@ -29,18 +29,18 @@ System compatibility:  works anywhere OpenRocket can run
 
 0.9.0.19 - Aug 2018
 * Fixes
-  * Remove asterisk from Estes LaunchLug_0.25_x_2.0 PN to avoid PN handling in OR
-  * Add missing Semroc BTC-70HY and fix mass of Semroc BTC-70VY, was swapped with BTC-70HY
-  * Add missing carpet thread material to estes_classic file
+  * Semroc: Add missing Semroc BTC-70HY and fix mass of Semroc BTC-70VY, was swapped with BTC-70HY
+  * Estes: Remove asterisk from Estes LaunchLug_0.25_x_2.0 PN to avoid PN handling bug in OR
+  * Estes: Add missing carpet thread material to estes_classic file, shroud lines had no mass
 * Additions
-  * Finished off Semroc balsa reducers, launch lugs, parachutes and streamers
-  * New file with extended discussion of Estes history and brands
-  * Discussion of company history and data availability for Giant Leap Rocketry
-  * Obtained LOC centering ring thickness for several missing ones
-  * Noted some data inconsistencies on sub-1-inch LOC tubes
-* Problems found but not fixed yet
-  * Semroc metric nose cones BNC-Txxxx are all missing
-  * Semroc TA-T40-65 is missing
+  * Semroc: Finished off balsa reducers, metric nose cones, launch lugs, parachutes and streamers
+  * Estes: New file with extended discussion of Estes history and brands
+  * Giant Leap Rocketry: Discussion of company history and data availability
+  * LOC: Obtained centering ring thickness for several missing ones
+  * LOC: Noted some data inconsistencies on sub-1-inch LOC tubes
+  * AVI: Add discussion section
+* Problems found
+  * Semroc TA-T40-65 is missing, and likely other metric transitions
 
 0.9.0.18 - Mar/Apr 2018
 * Fixes
@@ -161,9 +161,8 @@ somewhat Mac centric because that's what I use most.
 ### Near Term Plan
 
 * Finish up new Semroc file
-  * Add metric cones BNC-Txxxx - 15 exist on legacy site
-  * Review Semroc nose cones for completeness
-  * Adjust Semroc nose cone shoulder lengths to match drawings on legacy site
+  * Review Semroc nose cones and transitions for completeness - esp. metric transitions
+  * Adjust Semroc nose cone shoulder lengths to match drawings on legacy site (ones I did early)
 * Add Bluetube / Always Ready Rocketry centering rings
 * Add Always Ready Rocketry nose cones (if data exists or can determine sourcing)
 * Review Quest, FlisKits, GLR, BMS, PML stock files
@@ -174,7 +173,7 @@ somewhat Mac centric because that's what I use most.
 | ----- | ----- | ----- |
 | `Estes.orc`              | Yes  | 100% (split - see new files below)
 | `loc_precision.orc`      | Yes  | 100% 
-| `semroc.orc`             | Yes  | 95%  (tubes, couplers, CRs, nose cones, transitions done.  Need metric cones)
+| `semroc.orc`             | Yes  | 98%
 | `bluetube.orc`           | Yes  | 100% (tubes and couplers like stock file, still needs CRs and NCs)
 | `Quest.orc`              | Yes  | --
 | `bms.orc`                | Yes  | --
@@ -207,7 +206,6 @@ files from a set of more fundamental json parameter files.  This would have many
 * Compute whether mass override is needed based on mass ratio error threshold
 * Instant regeneration of files with different balsa densities etc.
 
-There are several built-in database files that have not been touched yet (see above for list).
 
 ### Data Gathering Discussion
 
@@ -268,6 +266,9 @@ that contain a lot of hard-to-find data.
 Early catalogs were comprehensive and accurate in their specs for parts, usually giving
 full dimensions and a representative weight.
 
+Estes produced an encyclopedic "Custom Parts Catalog" in 1974 that is a valuable reference,
+though it contains many errors.
+
 As Estes shifted production to China, in addition to the issues created by
 contract manufacturing (see above), several more things happened that affected our ability
 to get Estes parts info:
@@ -295,19 +296,18 @@ A much more detailed explanation of Estes part identifiers may be found [here](d
 
 #### Centuri Engineering
 
-Centuri parts indexing is difficult across the latter part of the life of the product line.
 Up until about 1971-1972, Centuri catalogs had parts listings nearly on par with Estes.
 But the Centuri catalog parts listings after the Damon acquisition in 1972 are sparse and omit many
 dimensions.  The overall completeness is much less than for Estes in the same
 era, even though the same parent company owned both brands.
-
-No Centuri parts file is provided with the stock OpenRocket.
 
 Almost no Centuri kit instructions listed any part numbers.
 Centuri kit instructions are not archived on the official Estes instructions pages, even
 though Estes owns the rights to all things Centuri.  Various plans do exist on the
 [JimZ plans site](http://www.spacemodeling.org/jimz/) and [RocketShoppe](http://www.oldrocketplans.com/centuri.htm),
 but coverage is poor - neither site has even 50% of known Centuri kits.
+
+No Centuri parts file is provided with the stock OpenRocket.
 
 Fortunately, the SEMROC online listings provide data for many Centuri-compatible tubes and nose cones.
 Given SEMROC's attention to detail, the SEMROC dimensions for Centuri parts can be
@@ -322,8 +322,8 @@ to have comprenehsive data in the period between 1972 and Centuri's end of produ
 
 Dimensional data from LOC Precision is notoriously incomplete and error-filled, but I've
 been able to resolve most of it using Apogee's tabulated data and some measurements of actual parts.
-LOC changed hands for the second time around the beginning of 2017, but thus far (late 2017) the
-website parts listings have not had any significant upgrades as far as dimensions.
+LOC changed hands for the second time around the beginning of 2017, but thus far (fall 2018) the
+website parts listings have not had any significant upgrades to the part dimensions.
 
 #### SEMROC
 
@@ -405,13 +405,13 @@ rocket kit makers.
 
 #### MRI (Model Rocket Industries)
 
-The lineage of MRI, MPC and AVI are all connected.  There is an article with some
+The lineage of MRI, MPC and AVI is sequentially connected.  There is an article with some
 historical information reported directly from Myke Bergenske on
 [this blog post by Chris Michielssen](http://modelrocketbuilding.blogspot.com/2011/03/some-mri-mpc-and-avi-questions-answered.html)
 
 MRI was started by Myke Bergenske of Wisconsin (later the owner of AVI).  Myke may 
 have acquired Central Rocket Company from Richard Goldsmith in the early 1960s per a
-post from Terry Dean on oldrocketforum.com on 6-11-2007.  Myke subsequently made
+post from Terry Dean on oldrocketforum.com on 11 June 2007.  Myke subsequently made
 some kind of deal with General Mills circa 1969, leading to MRI being morphed into MPC.
 In 1973, the MPC rocket line was bought back by Myke and folded into AVI.  AVI
 finally went out of business in 1979.
@@ -460,6 +460,22 @@ metric tubes.
 Despite the thin information, I have been able to build a relatively complete MPC parts file
 which is now included with this package.  Any parts that may have been created during
 the AVI ownership era have not been included yet.
+
+#### AVI (Aerospace Vehicles Inc.)
+
+AVI was created around 1973 when Myke Bergenske bought back the MPC line from General Mills.  It was
+famous for having an enormous newspaper style catalog (many of the items in which were not
+really available), and for making some very nice black powder motors, including a 24mm "E11.8".
+AVI continued production of various MPC kits, with some substitutions to replace expensive injection
+molded parts.  AVI ceased operation around 1979, at which time some of its motor making equipment
+was transferred to FSI, allowing FSI to enter the 18mm motor market to supplement its by then
+nonstandard 21mm and 27mm motor lines.
+
+I do not believe that AVI actually produced enough unique parts to make an OpenRocket file necessary.
+
+An interesting side note is that the AVI and FSI motor making equipment surfaced *again* circa
+2015 - in very poor condition (I saw photos at NARAM-58) - when Dave Bucher and David Lucas located and bought up
+residsual assets of FSI in an effort to restart production of some FSI products.
 
 #### Madcow Rocketry
 
@@ -564,7 +580,7 @@ nose cones, etc.  It's not clear whether Apogee had a full line catalog.
 
 At some time a number of years ago (check date), Apogee Components was sold to Tim van Milligan of Colorado, who turned it
 into a general retail outlet for various rocket companies including Estes, Quest, LOC, and others.
-It is still named Apogee Components (website as of August 2018).
+It is still officially named Apogee Components (website as of August 2018).
 
 Apogee now mostly sells parts OEM'd from other vendors.  Their website is notable for having a lot of tabular
 dimension and mass data that seems to have been obtained from actual measurement of parts.  Their site is in
@@ -622,9 +638,9 @@ There are several product lines from legacy and major manufacturers - especially
 power vendors - that are not included in OpenRocket at all.  Some of these are now covered in
 this components database.
 
-* Centuri (many cloneable kits with parts different than Estes)
-* Apogee (they mostly OEM other vendors' parts but do have some unique ones, e.g. foam egg protectors for TARC)
-* Apogee Components (predecessor to Apogee owned by Ed LaCroix; made competition parts that
+* Centuri (many cloneable kits with parts different than Estes).  Many parts are in Semroc listings though.
+* Apogee Components (mostly other vendors' parts but with some unique ones, e.g. foam egg protectors for TARC)
+* Apogee Components (predecessor version owned by Ed LaCroix; made competition parts that
   Apogee under Tim van Milligan did not carry forward)
 * CMR (defunct but had unique tube sizes)
 * FSI (defunct but had unique tube sizes)
@@ -719,10 +735,11 @@ and usable from the OpenRocket user interface.
 
 * Mass overrides have been eliminated to the maximum extent possible.  This has primarily
   been done by using good density values for the materials, and adjusting non-significant
-  dimensions such as wall thickness of hollow parts.  The only case where mass overrides
+  dimensions such as wall thickness of hollow parts.  One case where mass overrides
   become necessary is for oddly shaped, solid nose cones where OpenRocket cannot
   model the shape properly and the standard material density produces a notably incorrect
-  mass when applied to the approximate shape chosen.
+  mass when applied to the approximate shape chosen.  Drilled nose cones and tail cones also
+  often need mass overrides as they can weigh less than half of what an un-drilled part weighs.
 
 * CG overrides are never used.
 
@@ -730,7 +747,7 @@ and usable from the OpenRocket user interface.
   specifications.  For example, dimensional specs of Estes body tubes have all been
   changed to inches, allowing direct comparison to Estes catalogs.  The OpenRocket
   original files have almost all lengths in meters, which obstructs comparison to catalog
-  values for the USA rocket industry.
+  values for the entire USA rocket industry.
 
 * Descriptions have been regularized to the engineering standard of a comma-separated list
   of attributes, progressing from the most general to the most specific.  For example, an
@@ -742,7 +759,7 @@ and usable from the OpenRocket user interface.
   that the master materials file is not actually processed by OpenRocket; it is just used
   as a source of truth for the materials pasted into the actual component files.
 
-* Materials entries not actually used in each components file have been removed.
+* Materials entries not actually used in each component file have been removed.
 
 * Synthetic part numbers have been generated for components for which dimensions are known
   but there is no documented part number from the vendor.  For example, the 12.25 inch BT-5
@@ -1006,7 +1023,7 @@ structural.
    * UI part selection dialog expands poorly, only 1/3 of the area gets used for the main table
    * UI doesn't visually distinguish between component intrinsic attributes and parameters
      related to their placement or use in the design like relative position, radial position, etc.
-   * Keyword filter field in the parts selection UI defaults to near zero width (on Mac at least)
+   * The filter field in the parts selection UI defaults to near zero width (on Mac at least)
    * UI doesn't remember last size of the parts selection dialogs, you have to resize every time
    * Duplicating a part, whether by copy/paste or by creating a 2nd one attached to the same
      parent component, always puts them right on top of each other.  That is useful for
@@ -1096,7 +1113,7 @@ or decals.
 [Catalogs on Ninfinger.org](http://www.ninfinger.org/rockets/rockets.html)
 
 This site contains scans of historic model rocket catalogs from Estes, Centuri, FSI, LOC, and others.
-Some of the Estes and Centuri catalog scans here are poor quality - check the Estes catalog archive listed
+Some of the Estes and Centuri catalog scans here are old and of poor quality - check the Estes catalog archive listed
 above for generally better versions.
 
 There formerly was a spreadsheet in the OpenRocket source code tree giving a source

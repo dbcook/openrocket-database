@@ -3,13 +3,14 @@ SOURCE ERROR: ST-7400 Semroc has aberrant PN ST-7400 for ST-7 4" length, should 
 SOURCE ERROR: INVESTIGATE Modern eRockets/SEMROC site has separate BT-60 and ST-16 listings
 but gives ST-16 dimensions for everything.  Legacy Semroc site has Centuri ST-16 dimensions of
 ID = 1.600, OD = 1.640 and Estes compatible BT-60 dimensions of ID = 1.595, OD = 1.637  ***
+Using Estes compatible dimensions for BT-60, i.e. assuming legacy site is correct. 
 
 SOURCE ERROR: T-3.0 inconsistent sizes for T-3.0 said to be "same as the Aerotech and LOC 3" tubes"
 but lists ID=2.950, OD=3.000, wall 0.050, which are internally inconsistent
 LOC tubes are in fact ID 3.000, OD 3.100, wall=0.050, so I use that.
-
 SOURCE ERROR: T-3.0  incorrect mfr attribution for T-3.0: Aerotech has never offered a 3" tube
 or kit; in early 2017 I personally confirmed this with Charlie Savoie, GM of Aerotech.
+
 
 SOURCE ERROR: PST-65 dimension discrepancies ***
 Semroc clear tube PST-65 (also called "BT-65 Clear" on the legacy site) and the corresponding BNC-65xx nose
@@ -67,6 +68,7 @@ SOURCE ERROR: eRockets Semroc 2017 listings for CPL-52H-34 give OD=1.140, ID=0.9
 exactly the same as the ID of the BTH-52 tube, which is virtually impossible. I
 offset the ID and OD down by .002 to be more realistic.
 
+
 SOURCE ERROR: CPL-55-34 here again the quoted OD of the coupler is exactly the ID of the tube. 
 
 SOURCE ERROR: HTC-13 1975 Centuri catalog has  HTC-13 length = 1.5", legacy Semroc
@@ -74,6 +76,7 @@ site erroneously gives 1.75".  It's correct again in eRockets/Semroc 2017 site
 
 SOURCE ERROR: legacy Semroc site has JTC-60C length = 1.75", new eRockets/Semroc site has 1.5"
 Estes 1980 catalog gives 1.5".
+
 
 SOURCE ERROR: AER-11804 eRockets/Semroc 2017 web listing for AER-11804 gives internally inconsistent
 values of OD 1.804", ID 1.610", wall 0.083".  The OD is too big as the primary
@@ -84,6 +87,7 @@ the ID to 1.629 accordingly.
 SOURCE ERROR: CPL-ST20-4 eRockets/Semroc 2017 listing for CPL-ST20-4 gives internallly inconsistent values
 of ID 1.952, OD 1.981, .036 wall.  I took the wall thickness as likely to be
 correct and used an OD with offset of .005 from the ID of an ST-20.
+
 
 SOURCE ERROR: (?) CPL-3.0=34 OD quoted of 2.92" is a very sloppy fit if the
 intended mating tube is LOC 3.0" tube with its 3.00" ID. LOC couplers are OD
@@ -149,6 +153,7 @@ Length, scaled dwg: 0.42"
 Here the nomenclature is consistent, but the drawing shows a very short exposed length inconsistent
 with the L designation.
 
+
 SOURCE ERROR: BR-085-175 length not specified on new Semroc/e-rockets site 
 
 SOURCE ERROR: BR-085-225 length not specified on new Semroc/e-rockets site 
@@ -177,6 +182,12 @@ Drawing on new e-rockets site is correct.
 SOURCE ERROR: TA-2058 legacy site scaled drawing gives length 1.8", whereas
 specified length is 2.0" 
 
+SOURCE ERROR: TA-7080 has length 1.5" in table on legacy site, but View page gives length 2.25".
+Scaled drawing gives 2.25", so the table is wrong. 
+
+SOURCE ERROR: TA-7080H has length 1.5" in table on legacy site, but View page gives length 1.0".
+Scaled drawing also gives 1.0", so legacy site table is wrong.  
+
 SOURCE ERROR: EB-5 OD on 2017 eRocket site of .516 is wrong, must be less than 0.515 
 
 SOURCE ERROR: FB-20 has an erroneous duplicate listing as NB-20P 
@@ -194,9 +205,25 @@ SOURCE ERROR: BC-943 and BC-944  Semroc legacy and new sites both show length of
 BNC-50Y, respectively.  However the official Estes specs for those items have
 identical lengths of 4.375".
 
+
 SOURCE ERROR: BNC-50G3 Semroc legacy and new sites both describe BNC-50G3 as a #9 cone 
 
 SOURCE ERROR: BNC-50G4 Semroc legacy and new sites both describe BNC-50G4 as a #9 cone 
 
 SOURCE ERROR: BNC-70 and BHC-70Hxx are not separated on new Semroc site, but BNC-80 and BNC-80Hxx are 
+
+SOURCE ERROR: Semroc legacy site lists inconsistent thicknesses for the various sizes of
+parachutes...I doubt that these are all correct.  Here is the list:
+
+12"   1 mil
+14"   1.5 mil
+16"   1.5 mil
+20"   1.1 mil
+24"   1.1 mil
+32"   1.5 mil
+36"   no thickness given
+
+For now I have used the stock 1 mil HDPE Estes type material for all of the Semroc
+sizes until we get better information.
+
 
