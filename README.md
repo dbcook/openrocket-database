@@ -27,9 +27,12 @@ System compatibility:  works anywhere OpenRocket can run
 
 ## Release Notes
 
-0.9.0.19 - Aug 2018
+0.9.0.19 - Sep 2018
 * Fixes
   * Semroc: Add missing Semroc BTC-70HY and fix mass of Semroc BTC-70VY, was swapped with BTC-70HY
+  * Semroc: Add missing BC-1338B
+  * Semroc: Fix part number of BC-1022 (was BC-10222)
+  * Semroc: Start fixing shoulder lengths to exactly match scaled drawings: ST-10 series
   * Estes: Remove asterisk from Estes LaunchLug_0.25_x_2.0 PN to avoid PN handling bug in OR
   * Estes: Add missing carpet thread material to estes_classic file, shroud lines had no mass
 * Additions

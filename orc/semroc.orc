@@ -13475,9 +13475,8 @@ Ejection baffle rings
     <!-- ================================================ -->
     <!-- Series 085 nose cones for Centuri LT-085 tubes   -->
     <!-- ================================================ -->
-    <!-- shoulder lengths scaled from drawings on legacy site -->
 
-    <!-- BC-08542 is 4.2" ogive, upscale of Centuri BC-524 -->
+    <!-- BC-08542 is 4.2" ogive, upscale of Centuri BC-524.  Length 4.2", shoulder len 0.69" (scaled dwg)  -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-08542</PartNumber>
@@ -13487,7 +13486,7 @@ Ejection baffle rings
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">0.945</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.862</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.675</ShoulderLength>
+      <ShoulderLength Unit="in">0.69</ShoulderLength>
       <Length Unit="in">4.2</Length>
     </NoseCone>
 
@@ -14285,28 +14284,29 @@ Ejection baffle rings
     <!-- ==================================== -->
     <!-- shoulder lengths all estimaetd from Semroc drawings unless a Centuri part exists -->
 
-    <!-- BC-1016 is old Semroc NB-404, 1.6" ogive -->
+    <!-- BC-1016 is old Semroc NB-404, 1.6" ogive, shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BC-1016</PartNumber>
-        <Description>Nose cone, balsa, BC-1016, 1.6", ogive, old Semroc NB-404</Description>
+        <Description>Nose cone, balsa, ST-10, 1.6", ogive, old Semroc NB-404</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>OGIVE</Shape>
         <OutsideDiameter Unit="in">1.040</OutsideDiameter>
         <ShoulderDiameter Unit="in">1.000</ShoulderDiameter>
-        <ShoulderLength Unit="in">0.75</ShoulderLength>
+        <ShoulderLength Unit="in">0.69</ShoulderLength>
         <Length Unit="in">1.6</Length>
     </NoseCone>
 
     <!-- BC-1016C is Centuri Orion downscale, actually a rounded cone (Semroc erroneously says "rounded ogive")
          Ellipsoid shape makes mass come out better.
          There is also listed a BC-1016CO with identical specs, I just show as a 2nd PN on this one
+         Shoulder len 0.75" (scaled dwg)
     -->
     <NoseCone>
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BC-1016C, BC-1016CO</PartNumber>
-        <Description>Nose cone, balsa, BC-1016C, 1.6", round tip cone, Centuri Orion downscale</Description>
+        <Description>Nose cone, balsa, ST-10, 1.6", round tip cone, Centuri Orion downscale</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>ELLIPSOID</Shape>
@@ -14316,230 +14316,243 @@ Ejection baffle rings
         <Length Unit="in">1.6</Length>
     </NoseCone>
 
-    <!-- BC-1017 is downscale of Centuri PNC-231 -->
+    <!-- BC-1017 is downscale of Centuri PNC-231, shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BC-1017</PartNumber>
-        <Description>Nose cone, balsa, BC-1017, 1.7", round tip cone, Centuri PNC-231 downscale</Description>
+        <Description>Nose cone, balsa, ST-10, 1.7", round tip cone, Centuri PNC-231 downscale</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>ELLIPSOID</Shape>
         <OutsideDiameter Unit="in">1.040</OutsideDiameter>
         <ShoulderDiameter Unit="in">1.000</ShoulderDiameter>
-        <ShoulderLength Unit="in">0.75</ShoulderLength>
+        <ShoulderLength Unit="in">0.69</ShoulderLength>
         <Length Unit="in">1.7</Length>
     </NoseCone>
 
-    <!-- BC-1019 is upscale of old Semroc NB-204 -->
+    <!-- BC-1019 is upscale of old Semroc NB-204, shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BC-1019</PartNumber>
-        <Description>Nose cone, balsa, BC-1019, 1.9", ogive, upscale of old Semroc NB-204</Description>
+        <Description>Nose cone, balsa, ST-10, 1.9", ogive, upscale of old Semroc NB-204</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>OGIVE</Shape>
         <OutsideDiameter Unit="in">1.040</OutsideDiameter>
         <ShoulderDiameter Unit="in">1.000</ShoulderDiameter>
-        <ShoulderLength Unit="in">0.75</ShoulderLength>
+        <ShoulderLength Unit="in">0.69</ShoulderLength>
         <Length Unit="in">1.9</Length>
     </NoseCone>
 
-    <!-- BC-1020 is upscale of Estes Mark II nose cone, spherical tip -->
+    <!-- BC-1020 is upscale of Estes Mark II nose cone, shoulder 0.69", spherical tip
+         radius 0.4" (scaled dwg) -->
     <NoseCone>
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BC-1020</PartNumber>
-        <Description>Nose cone, balsa, BC-1020, 2.0", spherical tip, upscale of Estes Mark II</Description>
+        <Description>Nose cone, balsa, ST-10, 2.0", spherical tip, upscale of Estes Mark II</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>ELLIPSOID</Shape>
         <OutsideDiameter Unit="in">1.040</OutsideDiameter>
         <ShoulderDiameter Unit="in">1.000</ShoulderDiameter>
-        <ShoulderLength Unit="in">0.75</ShoulderLength>
+        <ShoulderLength Unit="in">0.69</ShoulderLength>
         <Length Unit="in">2.0</Length>
     </NoseCone>
 
-    <!-- BC-1020E is equivalent to Centuri BC-101 -->
+    <!-- BC-1020E is ellipsoid, equivalent to Centuri BC-101, shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BC-1020E</PartNumber>
-        <Description>Nose cone, balsa, BC-1020E, 2.0", ellipsoid, Centuri BC-101</Description>
+        <Description>Nose cone, balsa, ST-10, 2.0", ellipsoid, Centuri BC-101</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>ELLIPSOID</Shape>
         <OutsideDiameter Unit="in">1.040</OutsideDiameter>
         <ShoulderDiameter Unit="in">1.000</ShoulderDiameter>
-        <ShoulderLength Unit="in">0.75</ShoulderLength>
+        <ShoulderLength Unit="in">0.69</ShoulderLength>
         <Length Unit="in">2.0</Length>
     </NoseCone>
 
-    <!-- BC-1022 is upscale of Centuri PNC-70 -->
+    <!-- BC-1022 is upscale of Centuri PNC-70, shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
         <Manufacturer>Semroc</Manufacturer>
-        <PartNumber>BC-10222</PartNumber>
-        <Description>Nose cone, balsa, BC-1022, 2.2", ellipsoid, upscale of Centuri PNC-70</Description>
+        <PartNumber>BC-1022</PartNumber>
+        <Description>Nose cone, balsa, ST-10, 2.2", ellipsoid, upscale of Centuri PNC-70</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>ELLIPSOID</Shape>
         <OutsideDiameter Unit="in">1.040</OutsideDiameter>
         <ShoulderDiameter Unit="in">1.000</ShoulderDiameter>
-        <ShoulderLength Unit="in">0.75</ShoulderLength>
+        <ShoulderLength Unit="in">0.69</ShoulderLength>
         <Length Unit="in">2.2</Length>
     </NoseCone>
 
-    <!-- BC-1023 is downscale of Coaster Centauri.  Shape is a fat ogive, approaching ellipsoid -->
+    <!-- BC-1023 is downscale of Coaster Centauri.  Shape is a fat ogive, approaching ellipsoid.
+         Length 2.25", shoulder len 0.69" (scaled dwg) -->
+    <!-- SOURCE ERROR: BC-1023 given length on legacy site is 2.3", but scaled dwg is 2.25".
+         Looks like part number length rounding propagated into the description.  -->
     <NoseCone>
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BC-1023</PartNumber>
-        <Description>Nose cone, balsa, BC-1023, 2.3", ellipsoid, downscale of Coaster Centauri</Description>
+        <Description>Nose cone, balsa, BC-1023, 2.25", ellipsoid, downscale of Coaster Centauri</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>ELLIPSOID</Shape>
         <OutsideDiameter Unit="in">1.040</OutsideDiameter>
         <ShoulderDiameter Unit="in">1.000</ShoulderDiameter>
-        <ShoulderLength Unit="in">0.75</ShoulderLength>
-        <Length Unit="in">2.3</Length>
+        <ShoulderLength Unit="in">0.69</ShoulderLength>
+        <Length Unit="in">2.25</Length>
     </NoseCone>
 
-    <!-- BC-1023C is downscale of Centuri BC-1636 -->
+    <!-- BC-1023C is downscale of Centuri BC-1636.  Length 2.25", shoulder len 0.69" (scaled dwg) -->
+    <!-- SOURCE ERROR: BC-1023C given length on legacy site is 2.3", but scaled dwg is 2.25".
+         Looks like part number length rounding propagated into the description.  -->
     <NoseCone>
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BC-1023C</PartNumber>
-        <Description>Nose cone, balsa, BC-1023C, 2.3", ogive, downscale of Centuri BC-1636</Description>
+        <Description>Nose cone, balsa, ST-10, 2.25", ogive, downscale of Centuri BC-1636</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>OGIVE</Shape>
         <OutsideDiameter Unit="in">1.040</OutsideDiameter>
         <ShoulderDiameter Unit="in">1.000</ShoulderDiameter>
-        <ShoulderLength Unit="in">0.75</ShoulderLength>
-        <Length Unit="in">2.3</Length>
+        <ShoulderLength Unit="in">0.69</ShoulderLength>
+        <Length Unit="in">2.25</Length>
     </NoseCone>
 
-    <!-- BC-1024 is old Semroc NB-406 -->
+    <!-- BC-1024 is old Semroc NB-406, shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BC-1024</PartNumber>
-        <Description>Nose cone, balsa, BC-1024, 2.4", ogive, old Semroc NB-406</Description>
+        <Description>Nose cone, balsa, ST-10, 2.4", ogive, old Semroc NB-406</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>OGIVE</Shape>
         <OutsideDiameter Unit="in">1.040</OutsideDiameter>
         <ShoulderDiameter Unit="in">1.000</ShoulderDiameter>
-        <ShoulderLength Unit="in">0.75</ShoulderLength>
+        <ShoulderLength Unit="in">0.69</ShoulderLength>
         <Length Unit="in">2.4</Length>
     </NoseCone>
 
-    <!-- BC-1028 is upscale of Estes BNC-5E -->
+    <!-- BC-1028 is upscale of Estes BNC-5E.  Len 2.75", shoulder len 0.60" (scaled dwg) -->
+    <!-- SOURCE ERROR: BC-1028 length on legacy site is 2.8", but scaled dwg is 2.75".
+         Looks like part number length rounding propagated into the description.  -->
     <NoseCone>
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BC-1028</PartNumber>
-        <Description>Nose cone, balsa, BC-1028, 2.8", ogive, upscale of Estes BNC-5E</Description>
+        <Description>Nose cone, balsa, ST-10, 2.75", ogive, upscale of Estes BNC-5E</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>OGIVE</Shape>
         <OutsideDiameter Unit="in">1.040</OutsideDiameter>
         <ShoulderDiameter Unit="in">1.000</ShoulderDiameter>
-        <ShoulderLength Unit="in">0.75</ShoulderLength>
-        <Length Unit="in">2.8</Length>
+        <ShoulderLength Unit="in">0.60</ShoulderLength>
+        <Length Unit="in">2.75</Length>
     </NoseCone>
 
-    <!-- BNC-1029 is upscale of Estes BNC-50K -->
+    <!-- BNC-1029 is upscale of Estes BNC-50K.  Len 2.9", shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BC-1029</PartNumber>
-        <Description>Nose cone, balsa, BC-1029, 2.9", ogive, upscale of Estes BNC-50K</Description>
+        <Description>Nose cone, balsa, ST-10, 2.9", ogive, upscale of Estes BNC-50K</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>OGIVE</Shape>
         <OutsideDiameter Unit="in">1.040</OutsideDiameter>
         <ShoulderDiameter Unit="in">1.000</ShoulderDiameter>
-        <ShoulderLength Unit="in">0.75</ShoulderLength>
+        <ShoulderLength Unit="in">0.69</ShoulderLength>
         <Length Unit="in">2.9</Length>
     </NoseCone>
 
-    <!-- BC-1031 is upscale of Centuri PNC-73 -->
+    <!-- BC-1031 is upscale of Centuri PNC-73.  Length 3.1", shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BC-1031</PartNumber>
-        <Description>Nose cone, balsa, BC-1031, 3.1", ellipsoid, upscale of Centuri PNC-73</Description>
+        <Description>Nose cone, balsa, ST-10, 3.1", ellipsoid, upscale of Centuri PNC-73</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>ELLIPSOID</Shape>
         <OutsideDiameter Unit="in">1.040</OutsideDiameter>
         <ShoulderDiameter Unit="in">1.000</ShoulderDiameter>
-        <ShoulderLength Unit="in">0.75</ShoulderLength>
+        <ShoulderLength Unit="in">0.69</ShoulderLength>
         <Length Unit="in">3.1</Length>
     </NoseCone>
 
-    <!-- BC-1032 is generic 3:1 ogive -->
+    <!-- BC-1032 is generic 3:1 ogive.  Length 3.2", shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BC-1032</PartNumber>
-        <Description>Nose cone, balsa, BC-1032, 3.2", 3:1 ogive</Description>
+        <Description>Nose cone, balsa, ST-10, 3.2", 3:1 ogive</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>OGIVE</Shape>
         <OutsideDiameter Unit="in">1.040</OutsideDiameter>
         <ShoulderDiameter Unit="in">1.000</ShoulderDiameter>
-        <ShoulderLength Unit="in">0.75</ShoulderLength>
+        <ShoulderLength Unit="in">0.69</ShoulderLength>
         <Length Unit="in">3.2</Length>
     </NoseCone>
 
-    <!-- BC-1033 is downscale of Estes PNC-80K -->
+    <!-- BC-1033 is downscale of Estes PNC-80K.  Len 3.3", shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BC-1033</PartNumber>
-        <Description>Nose cone, balsa, BC-1033, 3.3", ogive, downscale of Estes PNC-80K</Description>
+        <Description>Nose cone, balsa, ST-10, 3.3", ogive, downscale of Estes PNC-80K</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>OGIVE</Shape>
         <OutsideDiameter Unit="in">1.040</OutsideDiameter>
         <ShoulderDiameter Unit="in">1.000</ShoulderDiameter>
-        <ShoulderLength Unit="in">0.75</ShoulderLength>
+        <ShoulderLength Unit="in">0.69</ShoulderLength>
         <Length Unit="in">3.3</Length>
     </NoseCone>
 
-    <!-- BC-1037 listed on old Semroc site as "Centuri BC-10x".  It no longer appears on the 2017
-         Semroc/e-rockets site. *** what was this? *** -->
+    <!-- BC-1037 listed on old Semroc site as "Centuri BC-10x".  Len 3.7", shoulder len 0.69" (scaled dwg).
+         It no longer appears on the 2018 Semroc/e-rockets site. *** what was this? *** -->
     <NoseCone>
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BC-1037</PartNumber>
-        <Description>Nose cone, balsa, BC-1037, 3.7", ogive, Centuri BC-10x</Description>
+        <Description>Nose cone, balsa, ST-10, 3.7", ogive, Centuri BC-10x</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>OGIVE</Shape>
         <OutsideDiameter Unit="in">1.040</OutsideDiameter>
         <ShoulderDiameter Unit="in">1.000</ShoulderDiameter>
-        <ShoulderLength Unit="in">0.75</ShoulderLength>
+        <ShoulderLength Unit="in">0.69</ShoulderLength>
         <Length Unit="in">3.7</Length>
     </NoseCone>
 
-    <!-- BC-1037N is upscale of Estes BNC-30N -->
+    <!-- BC-1037N is upscale of Estes BNC-30N.  Length 3.7", shoulder len 0.69" (scaed dwg) -->
     <NoseCone>
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BC-1037N</PartNumber>
-        <Description>Nose cone, balsa, BC-1037N, 3.7", ogive, upscale of Estes BNC-30N</Description>
+        <Description>Nose cone, balsa, ST-10, 3.7", ogive, upscale of Estes BNC-30N</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>OGIVE</Shape>
         <OutsideDiameter Unit="in">1.040</OutsideDiameter>
         <ShoulderDiameter Unit="in">1.000</ShoulderDiameter>
-        <ShoulderLength Unit="in">0.75</ShoulderLength>
+        <ShoulderLength Unit="in">0.69</ShoulderLength>
         <Length Unit="in">3.7</Length>
     </NoseCone>
 
-    <!-- BC-1038 is a capsule shape, Centuri BC-108 -->
+    <!-- BC-1038 is a capsule shape, Centuri BC-108.  Len 4.13", shoulder 0.69" (scaled dwg) -->
+    <!-- SOURCE ERROR:  BC-1038 given length on legacy site is 3.8", but scaled drawing gives 4.13". -->
     <NoseCone>
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BC-1038</PartNumber>
-        <Description>Nose cone, balsa, BC-1038, 3.8", caapsule, Centuri BC-108</Description>
+        <Description>Nose cone, balsa, ST-10, 4.13", caapsule, Centuri BC-108</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>CONICAL</Shape>
         <OutsideDiameter Unit="in">1.040</OutsideDiameter>
         <ShoulderDiameter Unit="in">1.000</ShoulderDiameter>
-        <ShoulderLength Unit="in">0.75</ShoulderLength>
-        <Length Unit="in">3.8</Length>
+        <ShoulderLength Unit="in">0.69</ShoulderLength>
+        <Length Unit="in">4.13</Length>
     </NoseCone>
+
+
+    <!-- *** CORRECTING SHOULDER LENGTHS HERE *** -->
+
 
     <!-- BC-1038B is a fat ogive, downscale of Centuri BC-175B -->
     <NoseCone>
@@ -15683,7 +15696,7 @@ Ejection baffle rings
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1315</PartNumber>
-      <Description>Nose cone, balsa, BC-1315, 1.5", rounded tip cone, Centuri Orion shape</Description>
+      <Description>Nose cone, balsa, ST-13, 1.5", rounded tip cone, Centuri Orion shape</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>CONICAL</Shape>
@@ -15697,7 +15710,7 @@ Ejection baffle rings
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1319</PartNumber>
-      <Description>Nose cone, balsa, BC-1319, 1.9", ellipsoid, Centuri BC-130</Description>
+      <Description>Nose cone, balsa, ST-13, 1.9", ellipsoid, Centuri BC-130</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
@@ -15711,7 +15724,7 @@ Ejection baffle rings
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1321</PartNumber>
-      <Description>Nose cone, balsa, BC-1321, 2.1", ellipsoid</Description>
+      <Description>Nose cone, balsa, ST-13, 2.1", ellipsoid</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
@@ -15725,7 +15738,7 @@ Ejection baffle rings
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1327</PartNumber>
-      <Description>Nose cone, balsa, BC-1327, 2.7", ellipsoid, Centuri PNC-132 shape</Description>
+      <Description>Nose cone, balsa, ST-13, 2.7", ellipsoid, Centuri PNC-132 shape</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
@@ -15739,7 +15752,7 @@ Ejection baffle rings
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1327S</PartNumber>
-      <Description>Nose cone, balsa, BC-1327S, 2.7", ellipsoid, short shoulder, Centuri PNC-132 shape</Description>
+      <Description>Nose cone, balsa, ST-13, 2.7", ellipsoid, short shoulder, Centuri PNC-132 shape</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
@@ -15753,7 +15766,7 @@ Ejection baffle rings
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1328</PartNumber>
-      <Description>Nose cone, balsa, BC-1328, 2.8", ellipsoid, upscale of Centuri BC-101</Description>
+      <Description>Nose cone, balsa, ST-13, 2.8", ellipsoid, upscale of Centuri BC-101</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
@@ -15767,7 +15780,7 @@ Ejection baffle rings
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1329</PartNumber>
-      <Description>Nose cone, balsa, BC-1329, 2.9", ogive, Centuri BC-132</Description>
+      <Description>Nose cone, balsa, ST-13, 2.9", ogive, Centuri BC-132</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
@@ -15781,7 +15794,7 @@ Ejection baffle rings
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1330</PartNumber>
-      <Description>Nose cone, balsa, BC-1330, 3.0", ogive</Description>
+      <Description>Nose cone, balsa, ST-13, 3.0", ogive</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
@@ -15795,7 +15808,7 @@ Ejection baffle rings
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1331</PartNumber>
-      <Description>Nose cone, balsa, BC-1331, 3.1", ellipsoid</Description>
+      <Description>Nose cone, balsa, ST-13, 3.1", ellipsoid</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
@@ -15809,7 +15822,7 @@ Ejection baffle rings
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1336</PartNumber>
-      <Description>Nose cone, balsa, BC-1336, 3.6", ogive, FSI NC-123 shape</Description>
+      <Description>Nose cone, balsa, ST-13, 3.6", ogive, FSI NC-123 shape</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
@@ -15823,7 +15836,21 @@ Ejection baffle rings
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1338</PartNumber>
-      <Description>Nose cone, balsa, BC-1338, 3.8", ogive, upscale of Estes BNC-50K</Description>
+      <Description>Nose cone, balsa, ST-13, 3.8", ogive, upscale of Estes BNC-50K</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">1.340</OutsideDiameter>
+      <ShoulderDiameter Unit="in">1.300</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <Length Unit="in">3.8</Length>
+    </NoseCone>
+
+    <!-- BC-1338B is downscale of Centuri BC-225B, shoulder len 0.69" (scaled dwg) -->
+    <NoseCone>
+      <Manufacturer>Semroc</Manufacturer>
+      <PartNumber>BC-1338B</PartNumber>
+      <Description>Nose cone, balsa, ST-13, 3.8", ogive, downscale of Centuri BC-225B</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
@@ -15837,7 +15864,7 @@ Ejection baffle rings
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1339</PartNumber>
-      <Description>Nose cone, balsa, BC-1339, 3.9", rounded ogive</Description>
+      <Description>Nose cone, balsa, ST-13, 3.9", rounded ogive</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
@@ -15851,7 +15878,7 @@ Ejection baffle rings
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1340</PartNumber>
-      <Description>Nose cone, balsa, BC-1340, 4.0", flared ogive</Description>
+      <Description>Nose cone, balsa, ST-13, 4.0", flared ogive</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
@@ -15866,7 +15893,7 @@ Ejection baffle rings
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1340D</PartNumber>
-      <Description>Nose cone, balsa, BC-1340, 4.0", flared ogive, drilled 0.75" x 2.0" deep</Description>
+      <Description>Nose cone, balsa, ST-13, 4.0", flared ogive, drilled 0.75" x 2.0" deep</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
@@ -15881,7 +15908,7 @@ Ejection baffle rings
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1340G</PartNumber>
-      <Description>Nose cone, balsa, BC-1340G, 4.0", 3:1 ogive</Description>
+      <Description>Nose cone, balsa, ST-13, 4.0", 3:1 ogive</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
@@ -15895,7 +15922,7 @@ Ejection baffle rings
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1344</PartNumber>
-      <Description>Nose cone, balsa, BC-1344, 4.4", ogive</Description>
+      <Description>Nose cone, balsa, ST-13, 4.4", ogive</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
@@ -15909,7 +15936,7 @@ Ejection baffle rings
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1345</PartNumber>
-      <Description>Nose cone, balsa, BC-1345, 4.5", ellipsoid, upscale of Estes BNC-50X</Description>
+      <Description>Nose cone, balsa, ST-13, 4.5", ellipsoid, upscale of Estes BNC-50X</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
@@ -15923,7 +15950,7 @@ Ejection baffle rings
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1349</PartNumber>
-      <Description>Nose cone, balsa, BC-1349, 4.9", ellipsoid, upscale of Centuri PNC-83</Description>
+      <Description>Nose cone, balsa, ST-13, 4.9", ellipsoid, upscale of Centuri PNC-83</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
@@ -15937,7 +15964,7 @@ Ejection baffle rings
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1350</PartNumber>
-      <Description>Nose cone, balsa, BC-1350, 5.0", ellipsoid</Description>
+      <Description>Nose cone, balsa, ST-13, 5.0", ellipsoid</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
@@ -15951,7 +15978,7 @@ Ejection baffle rings
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1352</PartNumber>
-      <Description>Nose cone, balsa, BC-1352, 5.25", ellipsoid</Description>
+      <Description>Nose cone, balsa, ST-13, 5.25", ellipsoid</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
@@ -15965,7 +15992,7 @@ Ejection baffle rings
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1353</PartNumber>
-      <Description>Nose cone, balsa, BC-1353, 5.3", secant ogive</Description>
+      <Description>Nose cone, balsa, ST-13, 5.3", secant ogive</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
@@ -15979,7 +16006,7 @@ Ejection baffle rings
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1353F</PartNumber>
-      <Description>Nose cone, balsa, BC-1353F, 5.3", ellipsoid, FSI NC-121 shape</Description>
+      <Description>Nose cone, balsa, ST-13, 5.3", ellipsoid, FSI NC-121 shape</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
@@ -15993,7 +16020,7 @@ Ejection baffle rings
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1354</PartNumber>
-      <Description>Nose cone, balsa, BC-1354, 5.4", 4:1 ogive</Description>
+      <Description>Nose cone, balsa, ST-13, 5.4", 4:1 ogive</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
@@ -16007,7 +16034,7 @@ Ejection baffle rings
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1354C</PartNumber>
-      <Description>Nose cone, balsa, BC-1354C, 5.4", ellipsoid, upscale of Centuri BC-76</Description>
+      <Description>Nose cone, balsa, ST-13, 5.4", ellipsoid, upscale of Centuri BC-76</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
@@ -16021,7 +16048,7 @@ Ejection baffle rings
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1364</PartNumber>
-      <Description>Nose cone, balsa, BC-1364, 6.4", rounded tip ogive</Description>
+      <Description>Nose cone, balsa, ST-13, 6.4", rounded tip ogive</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
@@ -16035,7 +16062,7 @@ Ejection baffle rings
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1364A</PartNumber>
-      <Description>Nose cone, balsa, BC-1364A, 6.4", ellipsoid</Description>
+      <Description>Nose cone, balsa, ST-13, 6.4", ellipsoid</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
@@ -16049,7 +16076,7 @@ Ejection baffle rings
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1367</PartNumber>
-      <Description>Nose cone, balsa, BC-1367, 6.7", 5:1 ogive</Description>
+      <Description>Nose cone, balsa, ST-13, 6.7", 5:1 ogive</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
@@ -16063,7 +16090,7 @@ Ejection baffle rings
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1371</PartNumber>
-      <Description>Nose cone, balsa, BC-1371, 7.1", ogive, upscale of Centuri BC-89</Description>
+      <Description>Nose cone, balsa, ST-13, 7.1", ogive, upscale of Centuri BC-89</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
