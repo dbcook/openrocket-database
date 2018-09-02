@@ -27,6 +27,9 @@ System compatibility:  works anywhere OpenRocket can run
 
 ## Release Notes
 
+0.9.1 - 2 Sep 2018
+* A minor release at last, based on bringing the Semroc file above 99% complete.
+
 0.9.0.19 - 2 Sep 2018
 * Fixes
   * Semroc: Add missing Semroc BTC-70HY and fix mass of Semroc BTC-70VY, was swapped with BTC-70HY
@@ -39,8 +42,8 @@ System compatibility:  works anywhere OpenRocket can run
   * Semroc: Finished off balsa reducers, metric nose cones, launch lugs, parachutes and streamers
   * Semroc: Add missing BC-1338B
   * Estes: New file with extended discussion of Estes history and brands
-  * Giant Leap Rocketry: Discussion of company history and data availability
-  * LOC: Obtained centering ring thickness for several missing ones
+  * Giant Leap Rocketry: Added info on company history and data availability
+  * LOC: Obtained several missing centering ring thicknesses
   * LOC: Noted some data inconsistencies on sub-1-inch LOC tubes
   * AVI: Add discussion section
 
@@ -134,40 +137,33 @@ If you have a large contribution, please fork the repo, make your changes, and s
 
 Please don't report problems on TRF, via email, etc. - use GitHub issues; others may be ignored.
 
-## Features and improvements:
+## Features and improvements
 
 * Detailed documentation on how the components database works, and much info about restrictions and limitations.
 * Much research data added as comments in the files
 * Mass overrides mostly removed - material densities set correctly
 * Mass data for tubing analyzed to remove outliers and derive correct average densities
-* A master materials reference file is provided with heavily researched data
-* Estes file vastly enhanced
-  * Added many missing parts from Brohm tube index and nose cone reference docs
-  * Numeric PNs and old style part numbers both listed where known
-  * Centering rings added (all missing from stock OpenRocket)
-  * Pro Series II parts file added (missing from stock OpenRocket)
-* Semroc: many errors and conflicts resolved
-* LOC Precision file improvements:  many conflicts and errors resolved, parachutes added
-* Top Flight: parachutes and streamers file added
-* Competition generic parachutes and streamers file added
-* Madcow: new file added, complete coverage
-* MPC: new file added, complete coverage
+* Master materials reference file built, with heavily researched data
+* Estes file vastly enhanced: added missing parts, PNs, Pro Series II parts, many errors fixed
+* Semroc: many errors and conflicts resolved, missing parts added
+* LOC Precision:  many conflicts and errors resolved, parachutes added
+* New manufacturer files added: Top Flight, Madcow, MPC, generic chutes/streamers
 
 ## State of the Project
 
 Although a lot of work has gone into this project over the last 4+ years, I would still
-characterize it as very incomplete.  The information about how OpenRocket databases work
+characterize it as incomplete.  The information about how OpenRocket databases work
 has been through several iterations including code dives and is pretty accurate, but it's
 somewhat Mac centric because that's what I use most.
 
 ### Near Term Plan
 
 * Finish up new Semroc file
-  * Review Semroc nose cones and transitions for completeness - esp. metric transitions
+  * Review Semroc nose cones and transitions for completeness
   * Adjust Semroc nose cone shoulder lengths to match drawings on legacy site (ones I did early)
 * Add Bluetube / Always Ready Rocketry centering rings
 * Add Always Ready Rocketry nose cones (if data exists or can determine sourcing)
-* Review Quest, FlisKits, GLR, BMS, PML stock files
+* Review / upgrade Quest, FlisKits, GLR, BMS, PML stock files
 
 ### Database Files Status
 
@@ -175,7 +171,7 @@ somewhat Mac centric because that's what I use most.
 | ----- | ----- | ----- |
 | `Estes.orc`              | Yes  | 100% (split - see new files below)
 | `loc_precision.orc`      | Yes  | 100% 
-| `semroc.orc`             | Yes  | 98%
+| `semroc.orc`             | Yes  | 99%  (believed complete, some cleanup continues)
 | `bluetube.orc`           | Yes  | 100% (tubes and couplers like stock file, still needs CRs and NCs)
 | `Quest.orc`              | Yes  | --
 | `bms.orc`                | Yes  | --
