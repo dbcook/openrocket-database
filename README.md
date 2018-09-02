@@ -32,7 +32,8 @@ System compatibility:  works anywhere OpenRocket can run
   * Semroc: Add missing Semroc BTC-70HY and fix mass of Semroc BTC-70VY, was swapped with BTC-70HY
   * Semroc: Add missing BC-1338B
   * Semroc: Fix part number of BC-1022 (was BC-10222)
-  * Semroc: Start fixing shoulder lengths to exactly match scaled drawings: ST-10 series
+  * Semroc: BC-10xx, BC-11xx - Fix shoulder lengths to match scaled drawings
+  * Semroc: Fix length of BC-1045RR to match drawing.
   * Estes: Remove asterisk from Estes LaunchLug_0.25_x_2.0 PN to avoid PN handling bug in OR
   * Estes: Add missing carpet thread material to estes_classic file, shroud lines had no mass
 * Additions
@@ -376,6 +377,18 @@ accurately to scale, and to make things even better, they are mostly at the
 in 2018 that the drawings
 do in fact come directly from the software that controls the nose cone making
 machines, so they are authoritative.
+
+To exploit this you have to be careful about the browser zoom factor.  In chrome,
+hitting 'zoom in' five times gives you 200 pixels/inch in the Semroc legacy site drawings.
+For a few larger items you'll need less zoom.  Here is a list of zoom factors for
+Chrome on the Semroc legacy site images:
+
+* +0 - 100 pix per inch
+* +1 - 110 pix per inch
+* +2 - 125 pix per inch
+* +3 - 150 pix per inch
+* +4 - 175 pix per inch
+* +5 - 200 pix per inch
 
 This enabled me to do pixel measurements in Gimp and get reasonably accurate
 shoulder lengths (and sometimes other doubtful dimensions) for all the Semroc
