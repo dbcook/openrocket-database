@@ -27,24 +27,22 @@ System compatibility:  works anywhere OpenRocket can run
 
 ## Release Notes
 
-0.9.0.19 - Sep 2018
+0.9.0.19 - 2 Sep 2018
 * Fixes
   * Semroc: Add missing Semroc BTC-70HY and fix mass of Semroc BTC-70VY, was swapped with BTC-70HY
-  * Semroc: Add missing BC-1338B
   * Semroc: Fix part number of BC-1022 (was BC-10222)
-  * Semroc: BC-10xx, BC-11xx - Fix shoulder lengths to match scaled drawings
+  * Semroc: BC-10xx, BC-11xx, BC-12xx - Fix shoulder lengths to match scaled drawings
   * Semroc: Fix length of BC-1045RR to match drawing.
   * Estes: Remove asterisk from Estes LaunchLug_0.25_x_2.0 PN to avoid PN handling bug in OR
   * Estes: Add missing carpet thread material to estes_classic file, shroud lines had no mass
 * Additions
   * Semroc: Finished off balsa reducers, metric nose cones, launch lugs, parachutes and streamers
+  * Semroc: Add missing BC-1338B
   * Estes: New file with extended discussion of Estes history and brands
   * Giant Leap Rocketry: Discussion of company history and data availability
   * LOC: Obtained centering ring thickness for several missing ones
   * LOC: Noted some data inconsistencies on sub-1-inch LOC tubes
   * AVI: Add discussion section
-* Problems found
-  * Semroc TA-T40-65 is missing, and likely other metric transitions
 
 0.9.0.18 - Mar/Apr 2018
 * Fixes

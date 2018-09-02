@@ -10819,6 +10819,76 @@ Ejection baffle rings
         <Length Unit="in">2.4</Length>
     </Transition>
 
+    <!-- TA-55-T35 is Estes-to-metric cross coupler.  Len 0.5", both shoulders 0.62" (scaled dwg) -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-55-T35</PartNumber>
+        <Description>Transition, balsa, BT-55 to T-35, increasing, 0.5 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.325</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.283</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.62</ForeShoulderLength>
+        <AftOutsideDiameter Unit="mm">35.0</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="mm">34.0</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.62</AftShoulderLength>
+        <Length Unit="in">0.5</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-55-T35 [R]</PartNumber>
+        <Description>Transition, balsa, T-35 to BT-55, reducing, 0.5 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="mm">35.0</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="mm">34.0</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.62</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.325</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.283</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.62</AftShoulderLength>
+        <Length Unit="in">0.5</Length>
+    </Transition>
+
+    <!-- ====================================== -->
+    <!-- TA-T40xx - Metric T-40 to larger sizes -->
+    <!-- ====================================== -->
+    <!-- TA-T40-65 is Estes-to-metric cross coupler.  Len 0.5", aft shoulder 0.62",
+         fore shoulder 0.67" (scaled dwg) -->
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-T40-65</PartNumber>
+        <Description>Transition, balsa, T-40 to PST-65, increasing, 0.5 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="mm">40.0</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="mm">39.0</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.67</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">1.774</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">1.750</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.62</AftShoulderLength>
+        <Length Unit="in">0.5</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>SEMROC</Manufacturer>
+        <PartNumber>TA-T40-65 [R]</PartNumber>
+        <Description>Transition, balsa, PST-65 to T-40, reducing, 0.5 in len</Description>
+        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">1.774</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">1.750</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.62</ForeShoulderLength>
+        <AftOutsideDiameter Unit="mm">40.0</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="mm">39.0</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.67</AftShoulderLength>
+        <Length Unit="in">0.5</Length>
+    </Transition>
+
+
+
     <!-- =============================== -->
     <!-- TA-60xx - BT-60 to larger sizes -->
     <!-- =============================== -->
@@ -15700,9 +15770,8 @@ Ejection baffle rings
     <!-- =================================== -->
     <!-- Series 13 nose cones for ST-13 tube -->
     <!-- =================================== -->
-    <!-- shoulder lengths scale to 11/16" (0.69") from drawings on legacy site -->
 
-    <!-- BC-1315 is Centuri Orion shape -->
+    <!-- BC-1315 is Centuri Orion shape.  Len 1.5", shoulder len 0.58" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1315</PartNumber>
@@ -15712,11 +15781,11 @@ Ejection baffle rings
       <Shape>CONICAL</Shape>
       <OutsideDiameter Unit="in">1.340</OutsideDiameter>
       <ShoulderDiameter Unit="in">1.300</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <ShoulderLength Unit="in">0.58</ShoulderLength>
       <Length Unit="in">1.5</Length>
     </NoseCone>
 
-    <!-- BC-1319 is Centuri BC-130 -->
+    <!-- BC-1319 is Centuri BC-130.  Len 1.9", shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1319</PartNumber>
@@ -15729,6 +15798,9 @@ Ejection baffle rings
       <ShoulderLength Unit="in">0.69</ShoulderLength>
       <Length Unit="in">1.9</Length>
     </NoseCone>
+
+    <!-- *** CORRECTING SHOULDER LENGTHS HERE *** -->
+
 
     <!-- BC-1321 is 2.1" ellipsoid, no cross-compatibility specified -->
     <NoseCone>
@@ -16129,14 +16201,12 @@ Ejection baffle rings
       <Length Unit="in">2.5</Length>
     </NoseCone>
 
-    <!-- *** CORRECTING SHOULDER LENGTHS HERE *** -->
-    
-
-    <!-- BC-12536 is 3.6" slightly rounded tip ogive, clone of Centuri BC-125A -->
+    <!-- BC-12536 is 3.6" slightly rounded tip ogive, clone of Centuri BC-125A.
+         Len 3.6", shoulder len 0.82" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-12536</PartNumber>
-      <Description>Nose cone, balsa, LT-125, 3.6", ogive, PN BC-12536, Centuri BC-125A clone</Description>
+      <Description>Nose cone, balsa, LT-125, 3.6", ogive, Centuri BC-125A clone, PN BC-12536</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
@@ -16146,11 +16216,11 @@ Ejection baffle rings
       <Length Unit="in">3.6</Length>
     </NoseCone>
 
-    <!-- BC-12545 is 4.5" ellipsoid, upscale of Estes BNC-50X -->
+    <!-- BC-12545 is 4.5" ellipsoid, upscale of Estes BNC-50X.  Len 4.5", shoulder len 0.82" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-12545</PartNumber>
-      <Description>Nose cone, balsa, LT-125, 4.5", ellipsoid, PN BC-12545, upscale of Estes BNC-50X</Description>
+      <Description>Nose cone, balsa, LT-125, 4.5", ellipsoid, upscale of Estes BNC-50X, PN BC-12545</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
@@ -16160,11 +16230,11 @@ Ejection baffle rings
       <Length Unit="in">4.5</Length>
     </NoseCone>
 
-    <!-- BC-12548 is 4.8" ogive, upscale of Centuri BC-727 -->
+    <!-- BC-12548 is 4.8" ogive, upscale of Centuri BC-727.  Len 4.8", shoulder len 0.82" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-12548</PartNumber>
-      <Description>Nose cone, balsa, LT-125, 4.8", ogive, PN BC-12548, upscale of Centuri BC-727</Description>
+      <Description>Nose cone, balsa, LT-125, 4.8", ogive, upscale of Centuri BC-727, PN BC-12548</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
@@ -16174,7 +16244,7 @@ Ejection baffle rings
       <Length Unit="in">4.8</Length>
     </NoseCone>
 
-    <!-- BC-12553 is 5.3" rounded ogive (closer to ellipsoid) -->
+    <!-- BC-12553 is 5.3" rounded ogive (closer to ellipsoid).  Len 5.3", shoulder len 0.82" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-12553</PartNumber>
@@ -16188,11 +16258,11 @@ Ejection baffle rings
       <Length Unit="in">5.3</Length>
     </NoseCone>
 
-    <!-- BC-12555 is 5.5" ogive, clone of Centuri BC-125B -->
+    <!-- BC-12555 is 5.5" ogive, clone of Centuri BC-125B.  Len 5.5", shoulder len 0.82" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-12555</PartNumber>
-      <Description>Nose cone, balsa, LT-125, 5.5", ogive, PN BC-12555, Centuri BC-125B clone</Description>
+      <Description>Nose cone, balsa, LT-125, 5.5", ogive, Centuri BC-125B clone, PN BC-12555</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
@@ -16202,11 +16272,11 @@ Ejection baffle rings
       <Length Unit="in">5.5</Length>
     </NoseCone>
 
-    <!-- BC-12558 is 5.8" ogive, upscale of Centuri BC-733 -->
+    <!-- BC-12558 is 5.8" ogive, upscale of Centuri BC-733. Len 5.8", shoulder len 0.82" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-12558</PartNumber>
-      <Description>Nose cone, balsa, LT-125, 5.8", ogive, PN BC-12558, Centuri BC-733 upscale</Description>
+      <Description>Nose cone, balsa, LT-125, 5.8", ogive, Centuri BC-733 upscale, PN BC-12558</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
@@ -16216,11 +16286,11 @@ Ejection baffle rings
       <Length Unit="in">5.8</Length>
     </NoseCone>
 
-    <!-- BC-12561 is 6.1" ogive, upscale of Centuri BC-735 -->
+    <!-- BC-12561 is 6.1" ogive, upscale of Centuri BC-735.  Len 6.1", shoulder len 0.82" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-12561</PartNumber>
-      <Description>Nose cone, balsa, LT-125, 6.1", ogive, PN BC-12561, Centuri BC-735 upscale</Description>
+      <Description>Nose cone, balsa, LT-125, 6.1", ogive, Centuri BC-735 upscale, PN BC-12561</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
