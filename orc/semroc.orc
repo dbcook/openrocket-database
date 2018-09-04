@@ -15799,10 +15799,8 @@ Ejection baffle rings
       <Length Unit="in">1.9</Length>
     </NoseCone>
 
-    <!-- *** CORRECTING SHOULDER LENGTHS HERE *** -->
-
-
-    <!-- BC-1321 is 2.1" ellipsoid, no cross-compatibility specified -->
+    <!-- BC-1321 is 2.1" ellipsoid, no cross-compatibility specified.  
+         Len 2.1", shoulder len 0.58" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1321</PartNumber>
@@ -15812,11 +15810,11 @@ Ejection baffle rings
       <Shape>ELLIPSOID</Shape>
       <OutsideDiameter Unit="in">1.340</OutsideDiameter>
       <ShoulderDiameter Unit="in">1.300</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <ShoulderLength Unit="in">0.58</ShoulderLength>
       <Length Unit="in">2.1</Length>
     </NoseCone>
 
-    <!-- BC-1327 is Centuri PNC-132 shape -->
+    <!-- BC-1327 is Centuri PNC-132 shape, 2.7" length, shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1327</PartNumber>
@@ -15830,7 +15828,7 @@ Ejection baffle rings
       <Length Unit="in">2.7</Length>
     </NoseCone>
 
-    <!-- BC-1327S is same as BC-1327 with shorter shoulder (shoulder length scaled from drawings on legacy site) -->
+    <!-- BC-1327S is same as BC-1327, 2.7" len with shorter 0.48" shoulder (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1327S</PartNumber>
@@ -15840,25 +15838,26 @@ Ejection baffle rings
       <Shape>ELLIPSOID</Shape>
       <OutsideDiameter Unit="in">1.340</OutsideDiameter>
       <ShoulderDiameter Unit="in">1.300</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <ShoulderLength Unit="in">0.48</ShoulderLength>
       <Length Unit="in">2.7</Length>
     </NoseCone>
 
-    <!-- BC-1328 is upscale of Centuri BC-101 -->
+    <!-- BC-1328 is upscale of Centuri BC-101.  Len 2.75", shoulder len 0.69" (scaled dwg) -->
+    <!--- SOURCE ERROR: BC-1328 length given as 2.8", but drawing scales to 2.75" -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1328</PartNumber>
-      <Description>Nose cone, balsa, ST-13, 2.8", ellipsoid, upscale of Centuri BC-101</Description>
+      <Description>Nose cone, balsa, ST-13, 2.75", ellipsoid, upscale of Centuri BC-101</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
       <OutsideDiameter Unit="in">1.340</OutsideDiameter>
       <ShoulderDiameter Unit="in">1.300</ShoulderDiameter>
       <ShoulderLength Unit="in">0.69</ShoulderLength>
-      <Length Unit="in">2.8</Length>
+      <Length Unit="in">2.75</Length>
     </NoseCone>
 
-    <!-- BC-1329 is Centuri BC-132 -->
+    <!-- BC-1329 is Centuri BC-132.  Len 2.9", shoulder 0.69" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1329</PartNumber>
@@ -15872,7 +15871,7 @@ Ejection baffle rings
       <Length Unit="in">2.9</Length>
     </NoseCone>
 
-    <!-- BC-1330 is 3.0" generic ogive -->
+    <!-- BC-1330 is 3.0" generic ogive, shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1330</PartNumber>
@@ -15886,7 +15885,7 @@ Ejection baffle rings
       <Length Unit="in">3.0</Length>
     </NoseCone>
 
-    <!-- BC-1331 is generic 3.1" elliptical -->
+    <!-- BC-1331 is generic 3.1" elliptical, shoulder 0.69" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1331</PartNumber>
@@ -15900,7 +15899,7 @@ Ejection baffle rings
       <Length Unit="in">3.1</Length>
     </NoseCone>
 
-    <!-- BC-1336 is FSI NC-123 shape -->
+    <!-- BC-1336 is FSI NC-123 shape, len 3.6", shoulder 0.72" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1336</PartNumber>
@@ -15910,11 +15909,11 @@ Ejection baffle rings
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">1.340</OutsideDiameter>
       <ShoulderDiameter Unit="in">1.300</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <ShoulderLength Unit="in">0.72</ShoulderLength>
       <Length Unit="in">3.6</Length>
     </NoseCone>
 
-    <!-- BC-1338 is upscale of Estes BNC-50K -->
+    <!-- BC-1338 is upscale of Estes BNC-50K, len 3.8", shoulder 0.57" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1338</PartNumber>
@@ -15924,7 +15923,7 @@ Ejection baffle rings
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">1.340</OutsideDiameter>
       <ShoulderDiameter Unit="in">1.300</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <ShoulderLength Unit="in">0.57</ShoulderLength>
       <Length Unit="in">3.8</Length>
     </NoseCone>
 
@@ -15942,7 +15941,7 @@ Ejection baffle rings
       <Length Unit="in">3.8</Length>
     </NoseCone>
 
-    <!-- BC-1339 is Centuri BC-135 clone -->
+    <!-- BC-1339 is Centuri BC-135 clone, len 3.9", shoulder 0.69" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1339</PartNumber>
@@ -15956,7 +15955,7 @@ Ejection baffle rings
       <Length Unit="in">3.9</Length>
     </NoseCone>
 
-    <!-- BC-1340 is a 4.0" slightly flared ogive (1.5" diam) -->
+    <!-- BC-1340 is a 4.0" slightly flared ogive (1.5" diam), shoulder 0.69" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1340</PartNumber>
@@ -15971,7 +15970,7 @@ Ejection baffle rings
       <Mass Unit="oz">0.35</Mass>
     </NoseCone>
 
-    <!-- BC-1340D is a BC-1340 drilled with .75" x 2" deep for weight (ref Semroc legacy site) -->
+    <!-- BC-1340D is a BC-1340 drilled with .75" x 2.0" deep for weight (ref Semroc legacy site scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1340D</PartNumber>
@@ -15986,7 +15985,7 @@ Ejection baffle rings
       <Mass Unit="oz">0.32</Mass>
     </NoseCone>
 
-    <!-- BC-1340G is a generic 3:1 ogive -->
+    <!-- BC-1340G is a generic 3:1 ogive, len 4.0", shoulder 0.69" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1340G</PartNumber>
@@ -16000,7 +15999,8 @@ Ejection baffle rings
       <Length Unit="in">4.0</Length>
     </NoseCone>
 
-    <!-- BC-1344 is a generic 4.4" long ogive, no cross-compatibility specified -->
+    <!-- BC-1344 is a generic 4.4" long ogive, no cross-compatibility specified.
+         Len 4.4", shoulder 0.69" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1344</PartNumber>
@@ -16014,7 +16014,7 @@ Ejection baffle rings
       <Length Unit="in">4.4</Length>
     </NoseCone>
 
-    <!-- BC-1345 is upscale of Estes BNC-50X elliptical -->
+    <!-- BC-1345 is upscale of Estes BNC-50X elliptical, len 4.5", shoulder 0.69" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1345</PartNumber>
@@ -16028,7 +16028,7 @@ Ejection baffle rings
       <Length Unit="in">4.5</Length>
     </NoseCone>
 
-    <!-- BC-1349 is upscale of Centuri PNC-83 -->
+    <!-- BC-1349 is upscale of Centuri PNC-83, len 4.9", shoulder 0.69" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1349</PartNumber>
@@ -16042,7 +16042,9 @@ Ejection baffle rings
       <Length Unit="in">4.9</Length>
     </NoseCone>
 
-    <!-- BC-1350 is generic 5.0" ellipsoid -->
+    <!-- BC-1350 is generic 5.0" ellipsoid, len 5.0", shoulder 0.87" (scaled dwg) -->
+    <!-- SOURCE ERROR: BC-1350 appears in the legacy site table http://www.semroc.com/Store/Products/NoseCones.asp
+         but does not appear in the All > nose cones > balsa parts product query -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1350</PartNumber>
@@ -16052,11 +16054,11 @@ Ejection baffle rings
       <Shape>ELLIPSOID</Shape>
       <OutsideDiameter Unit="in">1.340</OutsideDiameter>
       <ShoulderDiameter Unit="in">1.300</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <ShoulderLength Unit="in">0.87</ShoulderLength>
       <Length Unit="in">5.0</Length>
     </NoseCone>
 
-    <!-- BC-1352 is generic 5.25" ellipsoid -->
+    <!-- BC-1352 is generic 5.25" ellipsoid, shoulder 0.69" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1352</PartNumber>
@@ -16070,7 +16072,7 @@ Ejection baffle rings
       <Length Unit="in">5.25</Length>
     </NoseCone>
 
-    <!-- BC-1353 is 5.3" secant ogive -->
+    <!-- BC-1353 is 5.3" secant ogive, shoulder 0.69" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1353</PartNumber>
@@ -16084,7 +16086,7 @@ Ejection baffle rings
       <Length Unit="in">5.3</Length>
     </NoseCone>
 
-    <!-- BC-1353F is 5.3" elliptical, FSI NC-121 shape -->
+    <!-- BC-1353F is 5.3" elliptical, FSI NC-121 shape, shoulder 0.97" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1353F</PartNumber>
@@ -16094,11 +16096,14 @@ Ejection baffle rings
       <Shape>ELLIPSOID</Shape>
       <OutsideDiameter Unit="in">1.340</OutsideDiameter>
       <ShoulderDiameter Unit="in">1.300</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <ShoulderLength Unit="in">0.97</ShoulderLength>
       <Length Unit="in">5.3</Length>
     </NoseCone>
 
-    <!-- GC-1354 is generic 4:1 ogive -->
+    <!-- *** CORRECTING SHOULDER LENGTHS HERE *** -->
+
+
+    <!-- BC-1354 is generic 4:1 ogive -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1354</PartNumber>
