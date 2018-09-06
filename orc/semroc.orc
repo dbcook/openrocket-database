@@ -16100,10 +16100,7 @@ Ejection baffle rings
       <Length Unit="in">5.3</Length>
     </NoseCone>
 
-    <!-- *** CORRECTING SHOULDER LENGTHS HERE *** -->
-
-
-    <!-- BC-1354 is generic 4:1 ogive -->
+    <!-- BC-1354 is generic 4:1 ogive, len 5.4", shoulder 0.69" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1354</PartNumber>
@@ -16117,7 +16114,7 @@ Ejection baffle rings
       <Length Unit="in">5.4</Length>
     </NoseCone>
 
-    <!-- BC-1354C 5.4" ellipsoid is upscale of Centuri BC-76 -->
+    <!-- BC-1354C 5.4" ellipsoid is upscale of Centuri BC-76, shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1354C</PartNumber>
@@ -16131,7 +16128,7 @@ Ejection baffle rings
       <Length Unit="in">5.4</Length>
     </NoseCone>
 
-    <!-- BC-1364 6.4" rounded ogive is Centuri PNC-136 clone -->
+    <!-- BC-1364 6.4" rounded ogive is Centuri PNC-136 clone, shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1364</PartNumber>
@@ -16145,7 +16142,8 @@ Ejection baffle rings
       <Length Unit="in">6.4</Length>
     </NoseCone>
 
-    <!-- BC-1364A rounded tip ogive is Estes PNC-56A clone (see extensive notes in Estes file about PNC-56's) -->
+    <!-- BC-1364A rounded tip ogive is Estes PNC-56A clone (see extensive notes in Estes file about PNC-56's)
+         Len 6.4", shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1364A</PartNumber>
@@ -16159,7 +16157,7 @@ Ejection baffle rings
       <Length Unit="in">6.4</Length>
     </NoseCone>
 
-    <!-- BC-1367 is generic 5:1 ogive -->
+    <!-- BC-1367 is generic 5:1 ogive, len 6.7", shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1367</PartNumber>
@@ -16173,7 +16171,7 @@ Ejection baffle rings
       <Length Unit="in">6.7</Length>
     </NoseCone>
 
-    <!-- BC-1371 7.1" ogive is upscale of Centuri BC-89 -->
+    <!-- BC-1371 7.1" ogive is upscale of Centuri BC-89, shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1371</PartNumber>
@@ -16608,7 +16606,7 @@ Ejection baffle rings
     <!-- =============================================== -->
     <!-- shoulder lengths scaled from drawings on legacy site -->
 
-    <!-- BC-15044 is 4.4" conical, upscale of Estes BNC-5S -->
+    <!-- BC-15044 is 4.4" conical, upscale of Estes BNC-5S, shoulder len 0.98" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-15044</PartNumber>
@@ -16618,11 +16616,11 @@ Ejection baffle rings
       <Shape>CONICAL</Shape>
       <OutsideDiameter Unit="in">1.590</OutsideDiameter>
       <ShoulderDiameter Unit="in">1.497</ShoulderDiameter>
-      <ShoulderLength Unit="in">1.00</ShoulderLength>
+      <ShoulderLength Unit="in">0.98</ShoulderLength>
       <Length Unit="in">4.4</Length>
     </NoseCone>
 
-    <!-- BC-15066 is 6.6" ogive, upscale of Estes BNC-5AX -->
+    <!-- BC-15066 is 6.6" ogive, upscale of Estes BNC-5AX, shoulder len 0.98" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-15066</PartNumber>
@@ -16632,11 +16630,11 @@ Ejection baffle rings
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">1.590</OutsideDiameter>
       <ShoulderDiameter Unit="in">1.497</ShoulderDiameter>
-      <ShoulderLength Unit="in">1.00</ShoulderLength>
+      <ShoulderLength Unit="in">0.98</ShoulderLength>
       <Length Unit="in">6.6</Length>
     </NoseCone>
 
-    <!-- BC-15070 is 7.0" ogive, upscale of Estes BNC-50Y -->
+    <!-- BC-15070 is 7.0" ogive, upscale of Estes BNC-50Y, shoulder 0.98" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-15070</PartNumber>
@@ -16646,11 +16644,11 @@ Ejection baffle rings
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">1.590</OutsideDiameter>
       <ShoulderDiameter Unit="in">1.497</ShoulderDiameter>
-      <ShoulderLength Unit="in">1.00</ShoulderLength>
+      <ShoulderLength Unit="in">0.98</ShoulderLength>
       <Length Unit="in">7.0</Length>
     </NoseCone>
 
-    <!-- BC-15080 is 8.0" ogive, upscale of Centuri BC-845 -->
+    <!-- BC-15080 is 8.0" ogive, upscale of Centuri BC-845, shoulder len 0.98" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-15080</PartNumber>
@@ -16660,11 +16658,11 @@ Ejection baffle rings
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">1.590</OutsideDiameter>
       <ShoulderDiameter Unit="in">1.497</ShoulderDiameter>
-      <ShoulderLength Unit="in">1.00</ShoulderLength>
+      <ShoulderLength Unit="in">0.98</ShoulderLength>
       <Length Unit="in">8.0</Length>
     </NoseCone>
 
-    <!-- BC-15081 is 8.1" ogive, upscale of Centuri PNC-89 -->
+    <!-- BC-15081 is 8.1" ogive, upscale of Centuri PNC-89, shoulder len 0.98" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-15081</PartNumber>
@@ -16674,7 +16672,7 @@ Ejection baffle rings
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">1.590</OutsideDiameter>
       <ShoulderDiameter Unit="in">1.497</ShoulderDiameter>
-      <ShoulderLength Unit="in">1.00</ShoulderLength>
+      <ShoulderLength Unit="in">0.98</ShoulderLength>
       <Length Unit="in">8.1</Length>
     </NoseCone>
 
@@ -17315,7 +17313,7 @@ Ejection baffle rings
     <!-- ============================================== -->
     <!-- shoulder lengths scaled from Semroc legacy site drawings -->
 
-    <!-- BC-1623J is 2.3" very blunt ogive, upscale of Estes BNC-50J -->
+    <!-- BC-1623J is 2.3" very blunt ogive, upscale of Estes BNC-50J, shoulder len 0.77" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1623J</PartNumber>
@@ -17325,11 +17323,11 @@ Ejection baffle rings
       <Shape>ELLIPSOID</Shape>
       <OutsideDiameter Unit="in">1.640</OutsideDiameter>
       <ShoulderDiameter Unit="in">1.598</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.75</ShoulderLength>
+      <ShoulderLength Unit="in">0.77</ShoulderLength>
       <Length Unit="in">2.3</Length>
     </NoseCone>
 
-    <!-- BC-1625 is 2.5" ellipsoid, clone of Centuri BC-160 -->
+    <!-- BC-1625 is 2.5" ellipsoid, clone of Centuri BC-160, shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1625</PartNumber>
@@ -17343,7 +17341,7 @@ Ejection baffle rings
       <Length Unit="in">2.5</Length>
     </NoseCone>
 
-    <!-- BC-1625P is 2.5" ellipsoid, shape clone of Centuri PNC-160 -->
+    <!-- BC-1625P is 2.5" ellipsoid, shape clone of Centuri PNC-160, shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1625P</PartNumber>
@@ -17357,7 +17355,7 @@ Ejection baffle rings
       <Length Unit="in">2.5</Length>
     </NoseCone>
 
-    <!-- BC-1631 is 3.1" ogive, clone of old Semroc NB-808 -->
+    <!-- BC-1631 is 3.1" ogive, clone of old Semroc NB-808, shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1631</PartNumber>
@@ -17371,7 +17369,7 @@ Ejection baffle rings
       <Length Unit="in">3.1</Length>
     </NoseCone>
 
-    <!-- BC-1633 is 3.3" capsule shape, clone of Centuri BC-164 -->
+    <!-- BC-1633 is 3.3" capsule shape, clone of Centuri BC-164, shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1633</PartNumber>
@@ -17386,7 +17384,7 @@ Ejection baffle rings
       <Mass Unit="oz">0.24</Mass>
     </NoseCone>
 
-    <!-- BC-1634 is 3.4" ogive, clone of Centuri BC-162 -->
+    <!-- BC-1634 is 3.4" ogive, clone of Centuri BC-162, shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1634</PartNumber>
@@ -17400,7 +17398,7 @@ Ejection baffle rings
       <Length Unit="in">3.4</Length>
     </NoseCone>
 
-    <!-- BC-1636 is 3.6" "rounded ogive" -->
+    <!-- BC-1636 is 3.6" "rounded ogive", shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1636</PartNumber>
@@ -17414,7 +17412,7 @@ Ejection baffle rings
       <Length Unit="in">3.6</Length>
     </NoseCone>
 
-    <!-- BC-1646 is 4.6" ogive, upscale of Estes BNC-50K -->
+    <!-- BC-1646 is 4.6" ogive, upscale of Estes BNC-50K, shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1646</PartNumber>
@@ -17428,7 +17426,7 @@ Ejection baffle rings
       <Length Unit="in">4.6</Length>
     </NoseCone>
 
-    <!-- BC-1647 is 4.7" ogive, upscale of Estes BNC-30E -->
+    <!-- BC-1647 is 4.7" ogive, upscale of Estes BNC-30E, shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1647</PartNumber>
@@ -17443,6 +17441,9 @@ Ejection baffle rings
     </NoseCone>
 
     <!-- BC-1648 is generic 4.8" ogive -->
+    <!-- SOURCE ERROR: BC-1648 length is supposed to be 4.8" but legacy drawing scales to 4.6" and superposition
+         shows it to be exactly the same drawing as for BC-1646 but with the label changed to BC-1648. This error
+         has propagated to the new eRockets site.  Are manufactured BC-1648's actually only 4.6" long? -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1648</PartNumber>
@@ -17455,6 +17456,9 @@ Ejection baffle rings
       <ShoulderLength Unit="in">0.69</ShoulderLength>
       <Length Unit="in">4.8</Length>
     </NoseCone>
+
+    <!-- *** CORRECTING SHOULDER LENGTHS HERE *** -->
+
 
     <!-- BC-1649 is generic 4.9" 3:1 ogive -->
     <NoseCone>
@@ -17616,7 +17620,7 @@ Ejection baffle rings
       <Length Unit="in">8.2</Length>
     </NoseCone>
 
-    <!-- BC-16100 is a 10.0" flared bi-conic, Nike Smoke 1/10 scale shape -->
+    <!-- BC-16100 is a 10.0" flared bi-conic, Nike Smoke 1/10 scale shape, shoulder 0.77" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-16100</PartNumber>
@@ -17626,11 +17630,12 @@ Ejection baffle rings
       <Shape>CONICAL</Shape>
       <OutsideDiameter Unit="in">1.640</OutsideDiameter>
       <ShoulderDiameter Unit="in">1.598</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.75</ShoulderLength>
+      <ShoulderLength Unit="in">0.77</ShoulderLength>
       <Length Unit="in">10.0</Length>
     </NoseCone>
 
-    <!-- BC-16103 is a 10.3" flared conical (called ogive), Centuri BC-86 upscale, similar to Honest John shape -->
+    <!-- BC-16103 is a 10.3" flared conical (called ogive), Centuri BC-86 upscale, similar to Honest John shape
+         Shoulder length 0.69" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-16103</PartNumber>

@@ -210,7 +210,44 @@ SOURCE ERROR: BNC-50G3 Semroc legacy and new sites both describe BNC-50G3 as a #
 
 SOURCE ERROR: BNC-50G4 Semroc legacy and new sites both describe BNC-50G4 as a #9 cone 
 
+SOURCE ERROR: BC-1023 given length on legacy site is 2.3", but scaled dwg is 2.25".
+Looks like part number length rounding propagated into the description.  
+
+SOURCE ERROR: BC-1023C given length on legacy site is 2.3", but scaled dwg is 2.25".
+Looks like part number length rounding propagated into the description.  
+
+SOURCE ERROR: BC-1028 length on legacy site is 2.8", but scaled dwg is 2.75".
+Looks like part number length rounding propagated into the description.  
+
+SOURCE ERROR:  BC-1038 given length on legacy site is 3.8", but scaled drawing gives 4.13". 
+
+SOURCE ERROR: BC-1043 length given on legacy site as 4.3", but drawing scales to 4.46" 
+
+SOURCE ERROR:  BC-1048 length given on legacy site as 4.8", but drawing scales to 4.98" 
+
+SOURCE ERROR: BC-1121 len is given as 2.1" but drawing scales to 2.15" 
+
+SOURCE ERROR: BC-1135 len is given as 3.5" but drawing scales to 3.55" 
+
+SOURCE ERROR: BC-1159 len is given as 5.9" but drawing scales to 5.81" 
+
+SOURCE ERROR: BC-1350 appears in the legacy site table http://www.semroc.com/Store/Products/NoseCones.asp
+but does not appear in the All > nose cones > balsa parts product query 
+
+SOURCE ERROR: BC-1648 length is supposed to be 4.8" but legacy drawing scales to 4.6" and superposition
+shows it to be exactly the same drawing as for BC-1646 but with the label changed to BC-1648. This error
+has propagated to the new eRockets site.  Are manufactured BC-1648's actually only 4.6" long? 
+
 SOURCE ERROR: BNC-70 and BHC-70Hxx are not separated on new Semroc site, but BNC-80 and BNC-80Hxx are 
+
+SOURCE ERROR: BC-T2032C legacy site gives length 3.2", but scaled drawing is 3.25".  Looks to be a
+roundoff error where Carl changed a 3.25" length to a "32" part number suffix.  
+
+SOURCE ERROR: BC-T3033 legacy site gives length 3.3" but scaled drawing is 3.35".
+Apparently another part number length roundoff.  
+
+SOURCE ERROR: BC-T3541B legacy site gives length 4.1" but scaled drawing is 4.05".
+Apparently another part number length roundoff.  
 
 SOURCE ERROR: Semroc legacy site lists inconsistent thicknesses for the various sizes of
 parachutes...I doubt that these are all correct.  Here is the list:
