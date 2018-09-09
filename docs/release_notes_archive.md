@@ -2,6 +2,24 @@
 
 Here are release notes from non-recent versions of the OpenRocket parts database.
 
+0.9.0.18 - Mar/Apr 2018
+* Fixes
+  * Corrected note about parts filtering - functionality exists but is effectively hidden by near zero-width field in UI.
+  * Exterminated quote marks from 3 more Semroc part numbers due to bug identified by PR2, and verified that none
+    exist in any other .orc files.
+  * Fixed LOC parachute material to be 1.9 oz nylon per 2018 website
+  * Minor fixes to ripstop nylon densities in `generic_materials.orc` and in the Top Flight file.
+  * Reformatted many SOURCE ERROR documentation tags in semroc.orc to aid in parsing them for the upcoming
+    errata report to e-rockets.
+* Additions
+  * Semroc balsa transitions BR-5xx, BR-6xx, BR-7xx, BR-8xx, BR-8Fxx, BR-9xx, BR-10xx, BR-11xx, BR-13xx
+  * Semroc balsa transitions BR-16xx, BR-18xx, BR-085-xx, BR-115xx, BR-125xx, BR-150xx, BR-175xx, BR-225xx
+  * Semroc balsa transitions TA-3xx, TA-5xx
+  * Estes LL-2E 9.5" used in K-43 Mars Lander
+  * Edited discussion of data situations for several vendors, added FSI and Quest
+  * Added short python script to print out SOURCE ERROR tags
+  * Added info on Quest/MPC metric tube sizes to tube_data.txt
+
 0.9.0.17 - Jan 2018
 * Fixes
   * Started matching Semroc NC shoulder lengths to drawings from legacy site (some were already done that way)

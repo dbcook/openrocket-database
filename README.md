@@ -27,6 +27,14 @@ System compatibility:  works anywhere OpenRocket can run
 
 ## Release Notes
 
+0.9.1.1 - 9 Sep 2018
+* Fixes
+  * Semroc: BC-1674 length is stated as 7.4", but mfg drawings scale out to 7.25".
+  * Semroc: Note discontinuance of BC-175, BC-225, BC-275 nose cones as of 2018
+  * Semroc: Nose cone shoulder length validation/correction for BC-125xx, BC-13xx, BC-150xx, BC-16xx, BC-175xx
+* Additions
+  * Semroc: BC-16838 "special" nose cone for 1.75" OD tube, from new eRockets site.  Matches no known tube size.
+
 0.9.1 - 2 Sep 2018
 * A minor release at last, based on bringing the Semroc file above 99% complete.
 
@@ -46,24 +54,6 @@ System compatibility:  works anywhere OpenRocket can run
   * LOC: Obtained several missing centering ring thicknesses
   * LOC: Noted some data inconsistencies on sub-1-inch LOC tubes
   * AVI: Add discussion section
-
-0.9.0.18 - Mar/Apr 2018
-* Fixes
-  * Corrected note about parts filtering - functionality exists but is effectively hidden by near zero-width field in UI.
-  * Exterminated quote marks from 3 more Semroc part numbers due to bug identified by PR2, and verified that none
-    exist in any other .orc files.
-  * Fixed LOC parachute material to be 1.9 oz nylon per 2018 website
-  * Minor fixes to ripstop nylon densities in `generic_materials.orc` and in the Top Flight file.
-  * Reformatted many SOURCE ERROR documentation tags in semroc.orc to aid in parsing them for the upcoming
-    errata report to e-rockets.
-* Additions
-  * Semroc balsa transitions BR-5xx, BR-6xx, BR-7xx, BR-8xx, BR-8Fxx, BR-9xx, BR-10xx, BR-11xx, BR-13xx
-  * Semroc balsa transitions BR-16xx, BR-18xx, BR-085-xx, BR-115xx, BR-125xx, BR-150xx, BR-175xx, BR-225xx
-  * Semroc balsa transitions TA-3xx, TA-5xx
-  * Estes LL-2E 9.5" used in K-43 Mars Lander
-  * Edited discussion of data situations for several vendors, added FSI and Quest
-  * Added short python script to print out SOURCE ERROR tags
-  * Added info on Quest/MPC metric tube sizes to tube_data.txt
 
 Release notes from older versions can be seen [here](docs/release_notes_archive.md)
 
