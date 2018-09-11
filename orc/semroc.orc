@@ -39,11 +39,10 @@ Engine blocks
 Bulkheads (fiber)
 Bulkheads / nose blocks (balsa)
 Balsa nose cones
-Centuri compatible balsa reducers
+Balsa reducers
 
 TODO
 ====
-Estes compatible balsa reducers
 Ejection baffle rings
 
 -->
@@ -17724,10 +17723,7 @@ Ejection baffle rings
     <!-- ================================ -->
     <!-- shoulder lengths scaled from Semroc legacy site drawings -->
 
-    <!-- *** CORRECTING SHOULDER LENGTHS HERE *** -->
-
-
-    <!-- BC-1828 is 2.8" ellipsoid -->
+    <!-- BC-1828 is 2.8" ellipsoid, shoulder 0.69" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1828</PartNumber>
@@ -17741,7 +17737,7 @@ Ejection baffle rings
       <Length Unit="in">2.8</Length>
     </NoseCone>
 
-    <!-- BC-1828D is 2.8" ellipsoid, drilled 0.75" x 2.0" -->
+    <!-- BC-1828D is 2.8" ellipsoid, drilled 0.75" x 2.0", shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1828D</PartNumber>
@@ -17756,7 +17752,7 @@ Ejection baffle rings
       <Mass Unit="oz">0.37</Mass>
     </NoseCone>
 
-    <!-- BC-1829D is an unusual 2.9" bi-ellipsoid, drilled 0.75" x 2.5" -->
+    <!-- BC-1829D is an unusual 2.9" bi-ellipsoid, drilled 0.75" x 2.5", shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1829D</PartNumber>
@@ -17770,7 +17766,7 @@ Ejection baffle rings
       <Length Unit="in">2.9</Length>
     </NoseCone>
 
-    <!-- BC-1834 is a 3.4" rounded conical, Estes Cineroc nose shape -->
+    <!-- BC-1834 is a 3.4" rounded conical, Estes Cineroc nose shape, shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1834</PartNumber>
@@ -17785,7 +17781,7 @@ Ejection baffle rings
       <Mass Unit="oz">0.41</Mass>
     </NoseCone>
 
-    <!-- BC-1835 is generic 3.5" ellipsoid -->
+    <!-- BC-1835 is generic 3.5" ellipsoid, shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1835</PartNumber>
@@ -17799,7 +17795,7 @@ Ejection baffle rings
       <Length Unit="in">3.5</Length>
     </NoseCone>
 
-    <!-- BC-1837 is a 3.7" irregular ellipsoid, upscale of Centuri PNC-132 -->
+    <!-- BC-1837 is a 3.7" irregular ellipsoid, upscale of Centuri PNC-132, shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1837</PartNumber>
@@ -17813,7 +17809,7 @@ Ejection baffle rings
       <Length Unit="in">3.7</Length>
     </NoseCone>
 
-    <!-- BC-1840 is a 4.0" round tip ogive -->
+    <!-- BC-1840 is a 4.0" round tip ogive, shoulder len 0.76" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1840</PartNumber>
@@ -17823,11 +17819,11 @@ Ejection baffle rings
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">1.840</OutsideDiameter>
       <ShoulderDiameter Unit="in">1.798</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.75</ShoulderLength>
+      <ShoulderLength Unit="in">0.76</ShoulderLength>
       <Length Unit="in">4.0</Length>
     </NoseCone>
 
-    <!-- BC-1842 is a 4.2" ellipsoid (called ogive), upscale of Estes BNC-20B -->
+    <!-- BC-1842 is a 4.2" ellipsoid (called ogive), upscale of Estes BNC-20B, shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1842</PartNumber>
@@ -17840,6 +17836,9 @@ Ejection baffle rings
       <ShoulderLength Unit="in">0.69</ShoulderLength>
       <Length Unit="in">4.2</Length>
     </NoseCone>
+
+    <!-- *** CORRECTING SHOULDER LENGTHS HERE *** -->
+
 
     <!-- BC-1845 is 4.5" fat ogive -->
     <NoseCone>
