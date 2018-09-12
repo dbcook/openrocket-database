@@ -35,6 +35,7 @@ DONE
 Body tubes
 Tube couplers
 Centering rings
+Baffle rings, fiber and plywood
 Engine blocks
 Bulkheads (fiber)
 Bulkheads / nose blocks (balsa)
@@ -43,7 +44,7 @@ Balsa reducers
 
 TODO
 ====
-Ejection baffle rings
+none known
 
 -->
 <OpenRocketComponent>
@@ -7585,19 +7586,256 @@ Ejection baffle rings
       <OutsideDiameter Unit="in">3.894</OutsideDiameter>
       <Length Unit="in">0.05</Length>
     </CenteringRing>
-    
-    
-    <!-- Ejection Baffle Rings  ***TODO***
 
-         Most Semroc EBR's have 7 holes.  There is both an EBR-60 and EBR-60W; unclear how
-         they differ.  I have listed them as bulkheads with a central hole to make the
-         mass correct, computed as follows: Using some quick photogrammetry on the #16
-         baffle shows about 35% of the area has been removed, so
+    <!-- ===================== -->
+    <!-- Ejection Baffle Rings -->
+    <!-- ===================== -->
+    <!--
+        Semroc has two different ejection baffle designs:
+            Laser-cut fiber system using a 7-hole ring, a 1-hole ring, with a vented laser-cut fiber conical
+            section between.
+
+            Plywood system using two offset laser-cut 1-hole bulkheads and two pieces of smaller tubing
+
+        Data availability:
+             There is almost no dimension data and no weight data published for these products.  
+
+             Thickness of the fiber rings is likely the same as for other Semroc centering rings, i.e. about 0.05"
+             Thickness of the plywood rings is unspecified.
+
+             Based on CAD drawings on the 2018 site, I've adopted 0.010" clearance for the OD the
+             rings vs the tube ID into which they fit.
+
+             Length of the baffle assemblies is unspecified.  On the 2018 site there are CAD renderings of
+             the fiber units suggesting the overall length is 150-175% of the diameter.  There are low-fidelity
+             line drawings of the plywood/tube units that I do not trust for dimensions.  From the legacy
+             site we know that the EB-80T system used 2.0" long LT11520 tubes, making the overall length of
+             that unit about 2.5".
+
+             Diameters of the holes in the 1-hole rings in fiber rings are not specified.
+
+             Diameters of the holes for the 7-hole rings EBR-58, EBR-60, EBR-16 and EBR-18 are known due
+             to publication of high fidelity CAD drawings for these items on the 2018 eRockets website.
+
+             Thickness of the fiber cone is unspecified and not currently known.
+
+        Modeling a fiber baffle assembly in OpenRocket:
+
+             You need 3 separate components:
+                * A 7-hole ring.  Use one of the EBR-xx components I've put in this file
+                * A 1-hole ring.  For now, just use anaother copy of the EBR-xx, mass will be pretty close
+                * The fiber cone.  I recommend creating a tube that will have the right mass and
+                  approximately the right moments of inertia.
+
+        Modeling a plywood baffle assembly in OpenRocket:
+
+             You need four components for the plywood/tube assembly:
+                * Two plywood rings with holes the diameter of the baffle tubes.
+                * Two baffle tubes offset from the centerline by half their diameter and in
+                  longitudinala position by about 0.5"
+
+        The multi-hole baffle rings for the fiber cone system have 7 holes.
+        You can model them as OpenRocket bulkheads with a central hole to make the
+        mass correct, computed as follows using some quick photogrammetry on the #16
+        baffle.  About 35% of the area has been removed, so
 
            dhole^2 = .35 * diam^2
            dhole = .59 * diam
+
+        The moments of inertia will be slightly too large, but not enough to matter.
+
+        Parts tabulation:
+
+        Ejection baffles and rings appear in the following sizes on the legacy and new websites.  The new
+        eRockets/Semroc site has been considerably improved with matching drawings for all baffle related
+        products.  A BT-50 / #9 size has been added, while plywood rings are no longer listed separately.
+        In addition, the #20 size baffle has changed from being listed as fiber to plywood.
+
+        PN suffixes: for the legacy ring PNs, the T suffix indicates a 2-pack.  Meaning of the W suffix is unknown.
+        Significance of the T suffix on the baffle PNs is also unknown.
+
+        Size      Type    Baffle Assy          Rings (legacy)        Rings     Notes
+                          Legacy   2018                              2018
+        ===========================================================================================================
+        BT-50/#9  Fiber            EB-9                                        Fits ST-9 and BT-50
+        BT-55     Fiber   EB-55    EB-55                  
+        BT-58     Fiber                        EBR-58                EBR-58
+        BT-60     Fiber   EB-60    EB-60       EBR-60  EBR-60W       EBR-60    EBR-60 vs EBR-60W diff unknown
+        BT-70     Plywood EB-70    EB-70T      EBR-70T               
+        BT-80     Plywood EB-80T   EB-80T      EBR-80T               
+        #9        Fiber            EB-9                                        same as BT-50/#9 row above
+        #13       Fiber   EB-13    EB-13                  
+        #16       Fiber   EB-16    EB-16       EBR-16 EBR-16W        EBR-16    EBR-16 vs EBR-16W diff unknown
+        #18       Fiber   EB-18    EB-18       EBR-18W               EBR-18
+        #20       Fiber   EB-20                                                legacy site is fiber
+        #20       Plywood          EB-ST-20                                    2018 site is plywood
+        #125      Fiber   EB-125   EB-125                                      legacy site describes as fiber system
+        #175      Plywood EB-175T  EB-175T     EBR-175T                  
+        #225      Plywood EB-225T  EB-225T     EBR-225 EBR-225T                EBR-225 was single ring, EBR-225T is 2
+
+        For purposes of this file, I created synthetic part numbers for the baffle rings that were
+        never sold separately.
     -->
 
+    <!-- FIBER 7-HOLE BAFFLE RINGS -->
+
+    <!-- EBR-50 and EBR-9 are the same product -->
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>EBR-50_syn</PartNumber>
+      <Description>Baffle ring, fiber, 7 holes, BT-50, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">0.558</InsideDiameter>
+      <OutsideDiameter Unit="in">0.94</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>EBR-9_syn</PartNumber>
+      <Description>Baffle ring, fiber, 7 holes, ST-9, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">0.558</InsideDiameter>
+      <OutsideDiameter Unit="in">0.94</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>EBR-55_syn</PartNumber>
+      <Description>Baffle ring, fiber, 7 holes, BT-55, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">0.755</InsideDiameter>
+      <OutsideDiameter Unit="in">1.273</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>EBR-58</PartNumber>
+      <Description>Baffle ring, fiber, 7 holes, BT-58, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">0.882</InsideDiameter>
+      <OutsideDiameter Unit="in">1.49</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>EBR-60, EBR-60W</PartNumber>
+      <Description>Baffle ring, fiber, 7 holes, BT-60, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">0.939</InsideDiameter>
+      <OutsideDiameter Unit="in">1.59</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>EBR-13_syn</PartNumber>
+      <Description>Baffle ring, fiber, 7 holes, ST-13, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">0.765</InsideDiameter>
+      <OutsideDiameter Unit="in">1.29</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>EBR-16, EBR-16W</PartNumber>
+      <Description>Baffle ring, fiber, 7 holes, ST-16, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">0.942</InsideDiameter>
+      <OutsideDiameter Unit="in">1.59</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>EBR-18, EBR-18W</PartNumber>
+      <Description>Baffle ring, fiber, 7 holes, ST-18, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">1.060</InsideDiameter>
+      <OutsideDiameter Unit="in">1.79</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>EBR-20_syn</PartNumber>
+      <Description>Baffle ring, fiber, 7 holes, ST-20, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">1.178</InsideDiameter>
+      <OutsideDiameter Unit="in">1.99</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>EBR-125_syn</PartNumber>
+      <Description>Baffle ring, fiber, 7 holes, LT-125, .05"</Description>
+      <Material Type="BULK">Fiber, bulk</Material>
+      <InsideDiameter Unit="in">0.736</InsideDiameter>
+      <OutsideDiameter Unit="in">1.24</OutsideDiameter>
+      <Length Unit="in">0.05</Length>
+    </CenteringRing>
+
+    <!-- PLYWOOD 1-HOLE BAFFLE RINGS.  Thickness and hole size are estimated. -->
+
+    <!-- EBR-70T.  Assumed baffle tube is BTH-50 -->
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>EBR-70T</PartNumber>
+      <Description>Baffle ring, plywood, 1 hole, BT-70, 0.125"</Description>
+      <Material Type="BULK">Plywood, light, bulk</Material>
+      <InsideDiameter Unit="in">0.994</InsideDiameter>
+      <OutsideDiameter Unit="in">2.165</OutsideDiameter>
+      <Length Unit="in">0.125</Length>
+    </CenteringRing>
+
+    <!-- EBR-80T.  Baffle tube is known to be LT-115 -->
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>EBR-80T</PartNumber>
+      <Description>Baffle ring, plywood, 1 hole, BT-80, 0.125"</Description>
+      <Material Type="BULK">Plywood, light, bulk</Material>
+      <InsideDiameter Unit="in">1.222</InsideDiameter>
+      <OutsideDiameter Unit="in">2.55</OutsideDiameter>
+      <Length Unit="in">0.125</Length>
+    </CenteringRing>
+
+    <!-- EBR-20_ply_syn.  Assuming baffle tube is ST-8 -->
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>EBR-20_ply_syn</PartNumber>
+      <Description>Baffle ring, plywood, 1 hole, ST-20, 0.125"</Description>
+      <Material Type="BULK">Plywood, light, bulk</Material>
+      <InsideDiameter Unit="in">0.910</InsideDiameter>
+      <OutsideDiameter Unit="in">1.99</OutsideDiameter>
+      <Length Unit="in">0.125</Length>
+    </CenteringRing>
+
+    <!-- EBR-175T.  Assuming baffle tube is ST-7 -->
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>EBR-175, EBR-175T</PartNumber>
+      <Description>Baffle ring, plywood, 1 hole, LT-175, 0.125"</Description>
+      <Material Type="BULK">Plywood, light, bulk</Material>
+      <InsideDiameter Unit="in">0.761</InsideDiameter>
+      <OutsideDiameter Unit="in">1.74</OutsideDiameter>
+      <Length Unit="in">0.125</Length>
+    </CenteringRing>
+
+    <!-- EBR-225T.  Assuming baffle tube is ST-10 -->
+    <CenteringRing>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>EBR-225, EBR-225T</PartNumber>
+      <Description>Baffle ring, plywood, 1 hole, LT-225, 0.125"</Description>
+      <Material Type="BULK">Plywood, light, bulk</Material>
+      <InsideDiameter Unit="in">1.042</InsideDiameter>
+      <OutsideDiameter Unit="in">2.24</OutsideDiameter>
+      <Length Unit="in">0.125</Length>
+    </CenteringRing>
 
     <!-- ================= -->
     <!-- Balsa Transitions -->
@@ -11689,6 +11927,12 @@ Ejection baffle rings
          nose cones.  On the new eRockets/Semroc 2017 site, only the exposed length is
          given.
 
+         In a huge win, the Semroc legacy site has manufacturing drawing outlines for nearly
+         every balsa part.  I've confirmed with eRockets owner Randy Boadway that these
+         actually are the drawings used by the balsa turning equipment, and thus are
+         completely accurate.  He also confirmed that Semroc did not observe the original
+         manufacturer's shoulder lengths.
+
          Nose cone mass and balsa density:
 
          The nose cone weights shown on the legacy Semroc site generally correspond to
@@ -11697,15 +11941,8 @@ Ejection baffle rings
          Shoulder lengths:
 
          Semroc does not list shoulder lengths of nose cones on either the legacy site or
-         the new eRockets/Semroc 2017 site.  Estes published shoulder lengths in older
-         catalogs, Centuri never published shoulder lengths, and Quest (at least
-         currently) publishes no shoulder lengths.  Shoulder lengths here are from:
-
-             Estes compatible nose cones: legacy Estes catalogs and research data from my
-                 Estes parts file.
-             Centuri tube sizes: Shoulder length estimated from drawings since Centuri
-                 never published specs.   *** check BMS for data ***
-             Metric (Quest) nose cones:  Shoulder length estimated from drawings.
+         the new eRockets/Semroc 2017 site.  For this file we have obtained all shoulder
+         lengths from the manufacturing drawing outlines published on the legacy and 2018 websites.
 
          Shoulder diameter:
          
