@@ -27,11 +27,12 @@ System compatibility:  works anywhere OpenRocket can run
 
 ## Release Notes
 
-0.9.1.1 - 12 Sep 2018
+0.9.1.1 - 13 Sep 2018
 * Fixes
+  * Semroc: BC-2ET Apollo escape NC/nozzle unit split into 2 correct pieces
   * Semroc: BC-1674 length is stated as 7.4", but mfg drawings scale out to 7.25".
   * Semroc: Note discontinuance of BC-175, BC-225, BC-275 nose cones as of 2018
-  * Semroc: Nose cone shoulder length validation/correction for BC-125xx, BC-13xx, BC-150xx, BC-16xx, BC-175xx
+  * Semroc: Nose cone shoulder length validation/correction for BC-125xx, BC-13xx, BC-150xx, BC-16xx, BC-175xx, BC-18xx
 * Additions
   * Semroc: EBR-xx ejection baffle rings, fiber and plywood.
   * Semroc: BC-16838 "special" nose cone for 1.75" OD tube, from new eRockets site.  Matches no known tube size.

@@ -11942,7 +11942,8 @@ none known
 
          Semroc does not list shoulder lengths of nose cones on either the legacy site or
          the new eRockets/Semroc 2017 site.  For this file we have obtained all shoulder
-         lengths from the manufacturing drawing outlines published on the legacy and 2018 websites.
+         lengths from the manufacturing drawing outlines published on the Semroc legacy and
+         2018 websites.
 
          Shoulder diameter:
          
@@ -11961,22 +11962,49 @@ none known
 
     <!-- BC-2 Balsa Nose Cones -->
     
-    <!-- BC-2ET is a complex shape flared nose cone for ST-2 tube
-         *** needs mass override ***
-         *** shoulder length unknown ***
+    <!-- BC-2ET is a 2-piece nose cone / nozzle set that you cut apart in the middle.
+         Despite the BC-xx nomenclature, it's really for BT-2, not ST-2 tube.
+         It makes an Apollo 1/70 escape tower.  Shoulder diam of both pieces is 0.25".
+         On Semroc legacy site drawing, the main diameter is 0.28", combined overall length 1.37"
+
+         We have to split this up into two pieces with partially synthetic part numbers.
+         The nose cone part is a cone+cylinder hybrid with exposed length 0.62", where the
+         aft cylindrical part is 0.25" long and the conical section is 0.37".  Shoulder len is 0.25".
+
+         The nozzle section is a conical flare 0.24" exposed length to a max diam of 0.56",
+         with a shoulder diam 0.25" and shoulder length 0.25".
+         There is also a nozzle protrusion 0.31" dia x 0.04" long, which is disregarded here.
+         For OpenRocket purposes we model this as a rear facing transition with no aft shoulder.
     -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
-      <PartNumber>BC-2ET</PartNumber>
-      <Description>Nose cone, balsa, BC-2ET, 1.35", complex conical flared</Description>
+      <PartNumber>BC-2ET_nc, BC-2ET</PartNumber>
+      <Description>Nose cone, balsa, BT-2, 0.67", Apollo escape tower 1/72, PN BC-2ET</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>CONICAL</Shape>
-      <OutsideDiameter Unit="in">0.260</OutsideDiameter>
-      <ShoulderDiameter Unit="in">0.232</ShoulderDiameter>
+      <OutsideDiameter Unit="in">0.281</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.25</ShoulderDiameter>
       <ShoulderLength Unit="in">0.25</ShoulderLength>
-      <Length Unit="in">1.35</Length>
+      <Length Unit="in">0.62</Length>
     </NoseCone>
+
+    <Transition>
+        <Manufacturer>Semroc</Manufacturer>
+        <PartNumber>BC-2ET_nozzle, BC-2ET</PartNumber>
+        <Description>Nozzle tail cone, balsa, BT-2, 0.24", Apollo escape tower 1/72, PN BC-2ET</Description>
+        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">0.281</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">0.25</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.25</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">0.56</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">0.56</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.0</AftShoulderLength>
+        <Length Unit="in">0.24</Length>
+    </Transition>
+
 
     <!-- BNC-2 Balsa Nose Cones -->
     <!-- BNC-2PY is 1.3" ogive (described as 'elliptical') for Estes BT-2 -->
@@ -18074,10 +18102,7 @@ none known
       <Length Unit="in">4.2</Length>
     </NoseCone>
 
-    <!-- *** CORRECTING SHOULDER LENGTHS HERE *** -->
-
-
-    <!-- BC-1845 is 4.5" fat ogive -->
+    <!-- BC-1845 is 4.5" fat ogive, shoulder len 0.76" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1845</PartNumber>
@@ -18087,11 +18112,11 @@ none known
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">1.840</OutsideDiameter>
       <ShoulderDiameter Unit="in">1.798</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.75</ShoulderLength>
+      <ShoulderLength Unit="in">0.76</ShoulderLength>
       <Length Unit="in">4.5</Length>
     </NoseCone>
 
-    <!-- BC-1848 is a 4.8" round tip fat ogive -->
+    <!-- BC-1848 is a 4.8" round tip fat ogive, shoulder len 0.75" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1848</PartNumber>
@@ -18105,7 +18130,7 @@ none known
       <Length Unit="in">4.8</Length>
     </NoseCone>
 
-    <!-- BC-1853 is a 5.3" secant ogive, upscale of Estes BNC-55F -->
+    <!-- BC-1853 is a 5.3" secant ogive, upscale of Estes BNC-55F, shoulder len 0.67" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1853</PartNumber>
@@ -18115,11 +18140,11 @@ none known
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">1.840</OutsideDiameter>
       <ShoulderDiameter Unit="in">1.798</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <ShoulderLength Unit="in">0.67</ShoulderLength>
       <Length Unit="in">5.3</Length>
     </NoseCone>
 
-    <!-- BC-1856 is a generic 5.6" 3:1 ogive -->
+    <!-- BC-1856 is a generic 5.6" 3:1 ogive, shoulder len 0.67" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1856</PartNumber>
@@ -18129,11 +18154,11 @@ none known
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">1.840</OutsideDiameter>
       <ShoulderDiameter Unit="in">1.798</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <ShoulderLength Unit="in">0.67</ShoulderLength>
       <Length Unit="in">5.6</Length>
     </NoseCone>
 
-    <!-- BC-1859 is a 5.9" ogive, V-2 1/35 scale -->
+    <!-- BC-1859 is a 5.9" ogive, V-2 1/35 scale, shoulder len 0.68" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1859</PartNumber>
@@ -18143,26 +18168,26 @@ none known
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">1.840</OutsideDiameter>
       <ShoulderDiameter Unit="in">1.798</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">5.9</Length>
     </NoseCone>
 
-    <!-- BC-1859D is 5.9" ogive, V-2 1/35 scale, drilled 0.75" x 4.0" -->
+    <!-- BC-1859D is 5.9" ogive, V-2 1/35 scale, drilled 0.74" x 4.0", shoulder len 0.68" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1859D</PartNumber>
-      <Description>Nose cone, balsa, ST-18, 5.9", ogive, V-2 1/35 scale, drilled 0.75" x 4.0", PN BC-1859D</Description>
+      <Description>Nose cone, balsa, ST-18, 5.9", ogive, V-2 1/35 scale, drilled 0.74" x 4.0", PN BC-1859D</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">1.840</OutsideDiameter>
       <ShoulderDiameter Unit="in">1.798</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">5.9</Length>
       <Mass Unit="oz">0.61</Mass>
     </NoseCone>
 
-    <!-- BC-1861 is 6.1" ellipsoid, upscale of Estes BNC-56X -->
+    <!-- BC-1861 is 6.1" ellipsoid, upscale of Estes BNC-56X, shoulder len 0.97" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1861</PartNumber>
@@ -18172,11 +18197,11 @@ none known
       <Shape>ELLIPSOID</Shape>
       <OutsideDiameter Unit="in">1.840</OutsideDiameter>
       <ShoulderDiameter Unit="in">1.798</ShoulderDiameter>
-      <ShoulderLength Unit="in">1.0</ShoulderLength>
+      <ShoulderLength Unit="in">0.97</ShoulderLength>
       <Length Unit="in">6.1</Length>
     </NoseCone>
 
-    <!-- BC-1869 is a 6.9" ogive, upscale of Estes BNC-20N -->
+    <!-- BC-1869 is a 6.9" ogive, upscale of Estes BNC-20N, shoulder len 0.68" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1869</PartNumber>
@@ -18186,11 +18211,11 @@ none known
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">1.840</OutsideDiameter>
       <ShoulderDiameter Unit="in">1.798</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">6.9</Length>
     </NoseCone>
 
-    <!-- BC-1869C is a 6.9" conical, upscale of Estes BNC-20R -->
+    <!-- BC-1869C is a 6.9" conical, upscale of Estes BNC-20R, shoulder len 0.68" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1869C</PartNumber>
@@ -18200,11 +18225,11 @@ none known
       <Shape>CONICAL</Shape>
       <OutsideDiameter Unit="in">1.840</OutsideDiameter>
       <ShoulderDiameter Unit="in">1.798</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">6.9</Length>
     </NoseCone>
 
-    <!-- BC-1874 is generic 7.4" 4:1 ogive -->
+    <!-- BC-1874 is generic 7.4" 4:1 ogive, shoulder len 0.68" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1874</PartNumber>
@@ -18214,11 +18239,11 @@ none known
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">1.840</OutsideDiameter>
       <ShoulderDiameter Unit="in">1.798</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">7.4</Length>
     </NoseCone>
 
-    <!-- BC-1892 is generic 9.2" 5:1 ogive -->
+    <!-- BC-1892 is generic 9.2" 5:1 ogive, shoulder len 0.67" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1892</PartNumber>
@@ -18228,11 +18253,11 @@ none known
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">1.840</OutsideDiameter>
       <ShoulderDiameter Unit="in">1.798</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <ShoulderLength Unit="in">0.67</ShoulderLength>
       <Length Unit="in">9.2</Length>
     </NoseCone>
 
-    <!-- BTC-18VY is 4.1" ogive tailcone, V-2 1/35 scale, drilled 24mm -->
+    <!-- BTC-18VY is 4.1" ogive tailcone, V-2 1/35 scale, drilled 24mm, shoulder len 0.57" (scaled dwg) -->
     <Transition>
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BTC-18VY [R]</PartNumber>
