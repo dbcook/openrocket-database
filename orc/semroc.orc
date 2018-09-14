@@ -18429,7 +18429,11 @@ none known
     <!-- ============================================== -->
     <!-- shoulder lengths scaled from drawaings on Semroc legacy site -->
 
-    <!-- BC-2019 is a 1.9" capsule, Orion 1/100 scale -->
+    <!-- BC-2019 is a 1.9" capsule, Orion 1/100 scale.  The Semroc part has a stub shoulder
+         on top 0.345" dia x 0.48" long that is much too long for scale, and is not included in the
+         quoted length of the capsule. Shoulder length is 0.68" (scaled dwg).
+         The shape of the Semroc part is not correct as the NASA Orion capsule is now a pure cone 
+         like Apollo was.  -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-2019</PartNumber>
@@ -18439,12 +18443,12 @@ none known
       <Shape>CONICAL</Shape>
       <OutsideDiameter Unit="in">2.040</OutsideDiameter>
       <ShoulderDiameter Unit="in">1.998</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">1.9</Length>
       <Mass Unit="oz">0.30</Mass>
     </NoseCone>
 
-    <!-- BC-2025 is a 2.5" ellipsoid, Centuri BC-200 clone -->
+    <!-- BC-2025 is a 2.5" ellipsoid, Centuri BC-200 clone, shoulder len 0.68" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-2025</PartNumber>
@@ -18454,11 +18458,11 @@ none known
       <Shape>ELLIPSOID</Shape>
       <OutsideDiameter Unit="in">2.040</OutsideDiameter>
       <ShoulderDiameter Unit="in">1.998</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">2.5</Length>
     </NoseCone>
 
-    <!-- BC-2026 is a 2.6" modified ellipsoid -->
+    <!-- BC-2026 is a 2.6" modified ellipsoid, shoulder len 0.68" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-2026</PartNumber>
@@ -18468,12 +18472,12 @@ none known
       <Shape>ELLIPSOID</Shape>
       <OutsideDiameter Unit="in">2.040</OutsideDiameter>
       <ShoulderDiameter Unit="in">1.998</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">2.6</Length>
     </NoseCone>
 
     <!-- BC-2031 is a 3.2" round tip cone, Centuri Orion clone.  The PN makes it look like a source error, except
-         that BC-2032 is another different round tip cone style.
+         that BC-2032 is another different round tip cone style.  Actual len 3.2", shoulder len 0.77" (scaled dwg)
     -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
@@ -18484,25 +18488,26 @@ none known
       <Shape>CONICAL</Shape>
       <OutsideDiameter Unit="in">2.040</OutsideDiameter>
       <ShoulderDiameter Unit="in">1.998</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.75</ShoulderLength>
+      <ShoulderLength Unit="in">0.77</ShoulderLength>
       <Length Unit="in">3.2</Length>
     </NoseCone>
 
-    <!-- BC-2032 is a 3.2" (very) round tip cone, clone of Centuri PNC-231 -->
+    <!-- BC-2032 is a 3.2" nominal (very) round tip cone, clone of Centuri PNC-231.  Actual len 3.33", shoulder len
+         0.68" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-2032</PartNumber>
-      <Description>Nose cone, balsa, ST-20, 3.2", round tip cone, Centuri PNC-231 clone, PN BC-2032</Description>
+      <Description>Nose cone, balsa, ST-20, 3.3", round tip cone, Centuri PNC-231 clone, PN BC-2032</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>CONICAL</Shape>
       <OutsideDiameter Unit="in">2.040</OutsideDiameter>
       <ShoulderDiameter Unit="in">1.998</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.69</ShoulderLength>
-      <Length Unit="in">3.2</Length>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
+      <Length Unit="in">3.33</Length>
     </NoseCone>
 
-    <!-- BC-2033 is a 3.3" ellipsoid, upscale of Semroc (NOT Estes) BNC-60MS -->
+    <!-- BC-2033 is a 3.3" ellipsoid, upscale of Semroc (NOT Estes) BNC-60MS, shoulder len 0.68" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-2033</PartNumber>
@@ -18512,12 +18517,13 @@ none known
       <Shape>ELLIPSOID</Shape>
       <OutsideDiameter Unit="in">2.040</OutsideDiameter>
       <ShoulderDiameter Unit="in">1.998</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">3.3</Length>
     </NoseCone>
 
     <!-- BC-2034CR is a 3.4" Crayon nose (truncated cone with cylinder aft).  The cylindrical part is about 0.78" long.
-         Modeled as ellipsoid to get the mass right.  Actual drag will be quite a bit higher. -->
+         Modeled as ellipsoid to get the mass right.  Actual drag will be quite a bit higher. Shoulder len
+         0.89" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-2034CR</PartNumber>
@@ -18527,11 +18533,11 @@ none known
       <Shape>ELLIPSOID</Shape>
       <OutsideDiameter Unit="in">2.040</OutsideDiameter>
       <ShoulderDiameter Unit="in">1.998</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.87</ShoulderLength>
+      <ShoulderLength Unit="in">0.89</ShoulderLength>
       <Length Unit="in">3.4</Length>
     </NoseCone>
 
-    <!-- BC-2039 si a 3.9" round tip ogive (called Bezier), FSI NC-192 clone -->
+    <!-- BC-2039 si a 3.9" round tip ogive (called Bezier), FSI NC-192 clone, shoulder len 0.68" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-2039</PartNumber>
@@ -18541,11 +18547,11 @@ none known
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">2.040</OutsideDiameter>
       <ShoulderDiameter Unit="in">1.998</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">3.9</Length>
     </NoseCone>
 
-    <!-- BC-2045 is a 4.5" ogive, clone of Centuri BC-204 -->
+    <!-- BC-2045 is a 4.5" ogive, clone of Centuri BC-204, shoulder len 0.68" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-2045</PartNumber>
@@ -18555,11 +18561,11 @@ none known
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">2.040</OutsideDiameter>
       <ShoulderDiameter Unit="in">1.998</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">4.5</Length>
     </NoseCone>
 
-    <!-- BC-2047 is a 4.7" ellipsoid, upscale of Estes BNC-20B -->
+    <!-- BC-2047 is a 4.7" ellipsoid, upscale of Estes BNC-20B, shoulder len 0.78" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-2047</PartNumber>
@@ -18569,11 +18575,11 @@ none known
       <Shape>ELLIPSOID</Shape>
       <OutsideDiameter Unit="in">2.040</OutsideDiameter>
       <ShoulderDiameter Unit="in">1.998</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.75</ShoulderLength>
+      <ShoulderLength Unit="in">0.78</ShoulderLength>
       <Length Unit="in">4.7</Length>
     </NoseCone>
 
-    <!-- BC-2050 is a 5.0" conical, clone of FSI NC-193 -->
+    <!-- BC-2050 is a 5.0" conical, clone of FSI NC-193, shoulder len 1.08" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-2050</PartNumber>
@@ -18583,11 +18589,11 @@ none known
       <Shape>CONICAL</Shape>
       <OutsideDiameter Unit="in">2.040</OutsideDiameter>
       <ShoulderDiameter Unit="in">1.998</ShoulderDiameter>
-      <ShoulderLength Unit="in">1.07</ShoulderLength>
+      <ShoulderLength Unit="in">1.08</ShoulderLength>
       <Length Unit="in">5.0</Length>
     </NoseCone>
 
-    <!-- BC-2057 is a generic 5.7" ogive -->
+    <!-- BC-2057 is a generic 5.7" ogive, shoulder len 0.68" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-2057</PartNumber>
@@ -18597,11 +18603,11 @@ none known
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">2.040</OutsideDiameter>
       <ShoulderDiameter Unit="in">1.998</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">5.7</Length>
     </NoseCone>
 
-    <!-- BC-2061 is a generic 6.1" 3:1 ogive -->
+    <!-- BC-2061 is a generic 6.1" 3:1 ogive, shoulder len 0.68" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-2061</PartNumber>
@@ -18611,11 +18617,11 @@ none known
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">2.040</OutsideDiameter>
       <ShoulderDiameter Unit="in">1.998</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">6.1</Length>
     </NoseCone>
 
-    <!-- BC-2065 is a generic 6.5" ogive -->
+    <!-- BC-2065 is a generic 6.5" ogive, shoulder len 0.68" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-2065</PartNumber>
@@ -18625,11 +18631,11 @@ none known
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">2.040</OutsideDiameter>
       <ShoulderDiameter Unit="in">1.998</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">6.5</Length>
     </NoseCone>
 
-    <!-- BC-2080 is a generic 8.0" ellipsoid -->
+    <!-- BC-2080 is a generic 8.0" ellipsoid, shoulder len 0.68" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-2080</PartNumber>
@@ -18639,11 +18645,11 @@ none known
       <Shape>ELLIPSOID</Shape>
       <OutsideDiameter Unit="in">2.040</OutsideDiameter>
       <ShoulderDiameter Unit="in">1.998</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">8.0</Length>
     </NoseCone>
 
-    <!-- BC-2082 is a generic 8.2" 4:1 ogive -->
+    <!-- BC-2082 is a generic 8.2" 4:1 ogive, shoulder len 0.68" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-2082</PartNumber>
@@ -18653,11 +18659,11 @@ none known
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">2.040</OutsideDiameter>
       <ShoulderDiameter Unit="in">1.998</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">8.2</Length>
     </NoseCone>
 
-    <!-- BC-2090 is a 9.0" fat ogive (called Bezier), Estes BNC-50Y upscale -->
+    <!-- BC-2090 is a 9.0" fat ogive (called Bezier), Estes BNC-50Y upscale, shoulder len 0.84" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-2090</PartNumber>
@@ -18667,11 +18673,11 @@ none known
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">2.040</OutsideDiameter>
       <ShoulderDiameter Unit="in">1.998</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.82</ShoulderLength>
+      <ShoulderLength Unit="in">0.84</ShoulderLength>
       <Length Unit="in">9.0</Length>
     </NoseCone>
 
-    <!-- BC-20102 is a generic 10.2" 5:1 ogive -->
+    <!-- BC-20102 is a generic 10.2" 5:1 ogive, shoulder len 0.68" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-20102</PartNumber>
@@ -18681,11 +18687,11 @@ none known
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">2.040</OutsideDiameter>
       <ShoulderDiameter Unit="in">1.998</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">10.2</Length>
     </NoseCone>
 
-    <!-- BC-20104 is a 10.4" ogive, Arcon 1/3 scale -->
+    <!-- BC-20104 is a 10.4" ogive, Arcon 1/3 scale, shoulder len 0.875" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-20104</PartNumber>
@@ -18699,7 +18705,7 @@ none known
       <Length Unit="in">10.4</Length>
     </NoseCone>
 
-    <!-- BC-20107 is a 10.7" conical, FSI NC-191 clone -->
+    <!-- BC-20107 is a 10.7" conical, FSI NC-191 clone, shoulder len 0.875" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-20107</PartNumber>
@@ -18713,7 +18719,7 @@ none known
       <Length Unit="in">10.7</Length>
     </NoseCone>
 
-    <!-- BTC-20BB is a 3.0" complex nozzle section drilled for 29mm motor tube -->
+    <!-- BTC-20BB is a 3.0" complex nozzle section drilled for 29mm motor tube, shoulder len 1.08" (scaled dwg) -->
     <Transition>
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BTC-20BB [R]</PartNumber>
@@ -18724,7 +18730,7 @@ none known
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">2.040</ForeOutsideDiameter>
         <ForeShoulderDiameter Unit="in">1.998</ForeShoulderDiameter>
-        <ForeShoulderLength Unit="in">1.06</ForeShoulderLength>
+        <ForeShoulderLength Unit="in">1.08</ForeShoulderLength>
         <AftOutsideDiameter Unit="in">1.48</AftOutsideDiameter>
         <AftShoulderDiameter Unit="in">1.14</AftShoulderDiameter>
         <AftShoulderLength Unit="in">0.0</AftShoulderLength>
@@ -18736,6 +18742,9 @@ none known
     <!-- Series 200 nose cones for Centuri LT-200 tube -->
     <!-- ============================================= -->
     <!-- shoulder lengths scaled from drawings on Semroc legacy site -->
+
+    <!-- *** CORRECTING SHOULDER LENGTHS HERE *** -->
+
 
     <!-- BC-20040 is a 4.0" ellipsoid -->
     <NoseCone>
