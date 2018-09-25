@@ -2,21 +2,21 @@
 <!--
 loc_precision.orc - LOC Precision parts file for OpenRocket
 
-by Dave Cook  NAR 21953  caveduck17@gmail.com 2014-2017
+by Dave Cook  NAR 21953  caveduck17@gmail.com 2014-2018
 
 Dimensions and masses are a severe challenge for LOC parts; in 30 years of existence through 3
 different ownerships, LOC has never published good size/weight data for any of its
 parts.  There are many missing dimensions on the LOC site, and several cases where
-dimensions given are obviously approximate or even outright wrong.  Even after
-the 2016 ownership change, the new website is no better with regard to part numbers and dimensions;
-mostly preserving the old errors and incompleteness.
+dimensions given are obviously approximate or even outright wrong.  After
+the 2016 ownership change, the new website as of fall 2018 is a bit better with regard to airframe
+tube dimensions, but there remains little data about couplers, 75/98mm motor tubes, and many other items.
 
 The best *official* LOC resource is the "2010-2012 Accessories Catalog".  However it is still
 pretty bad.
 
 Recent updates to the LOC website in early 2018 have added some dimensional data, but
 the accuracy and precision are mostly poor.  Some of the new products like LBT-50 airframe
-have good data though.
+have good data though and there have been scattered other improvements.
 
 The Apogee site has a very comprehensive listing of parts with measured
 dimensions and masses for LOC and other lines of parts. In all cases except where I measured
