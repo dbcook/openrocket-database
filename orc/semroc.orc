@@ -18741,12 +18741,8 @@ none known
     <!-- ============================================= -->
     <!-- Series 200 nose cones for Centuri LT-200 tube -->
     <!-- ============================================= -->
-    <!-- shoulder lengths scaled from drawings on Semroc legacy site -->
 
-    <!-- *** CORRECTING SHOULDER LENGTHS HERE *** -->
-
-
-    <!-- BC-20040 is a 4.0" ellipsoid -->
+    <!-- BC-20040 is a 4.0" ellipsoid, shoulder 0.78" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-20040</PartNumber>
@@ -18756,11 +18752,11 @@ none known
       <Shape>ELLIPSOID</Shape>
       <OutsideDiameter Unit="in">2.080</OutsideDiameter>
       <ShoulderDiameter Unit="in">1.998</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.75</ShoulderLength>
+      <ShoulderLength Unit="in">0.78</ShoulderLength>
       <Length Unit="in">4.0</Length>
     </NoseCone>
 
-    <!-- BC-20045 is 4.5" elliptical, Coaster Centauri shape -->
+    <!-- BC-20045 is 4.5" elliptical, Coaster Centauri shape, shoulder len 1.08" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-20045</PartNumber>
@@ -18770,11 +18766,12 @@ none known
       <Shape>ELLIPSOID</Shape>
       <OutsideDiameter Unit="in">2.080</OutsideDiameter>
       <ShoulderDiameter Unit="in">1.998</ShoulderDiameter>
-      <ShoulderLength Unit="in">1.07</ShoulderLength>
+      <ShoulderLength Unit="in">1.08</ShoulderLength>
       <Length Unit="in">4.0</Length>
     </NoseCone>
 
-    <!-- BC-20090 is 9.0" rounded tip ogive (called bezier), upscale of Centuri PNC-106 -->
+    <!-- BC-20090 is 9.0" rounded tip ogive (called bezier), upscale of Centuri PNC-106,
+         shoulder len 1.08" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-20090</PartNumber>
@@ -18784,11 +18781,11 @@ none known
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">2.080</OutsideDiameter>
       <ShoulderDiameter Unit="in">1.998</ShoulderDiameter>
-      <ShoulderLength Unit="in">1.07</ShoulderLength>
+      <ShoulderLength Unit="in">1.08</ShoulderLength>
       <Length Unit="in">9.0</Length>
     </NoseCone>
 
-    <!-- BC-20099 is 9.9" rounded tip ogive (called bezier) -->
+    <!-- BC-20099 is 9.9" rounded tip ogive (called bezier), shoulder len 1.08" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-20099</PartNumber>
@@ -18798,7 +18795,7 @@ none known
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">2.080</OutsideDiameter>
       <ShoulderDiameter Unit="in">1.998</ShoulderDiameter>
-      <ShoulderLength Unit="in">1.07</ShoulderLength>
+      <ShoulderLength Unit="in">1.08</ShoulderLength>
       <Length Unit="in">9.9</Length>
     </NoseCone>
 
@@ -19219,6 +19216,9 @@ none known
     <!-- ALL BC-225 nose cones are shown as discontinued on the 2018 eRockets/Semroc website -->
     <!-- Shoulder lengths scaled from drawings on Semroc legacy site -->
 
+    <!-- *** CORRECTING SHOULDER LENGTHS HERE *** -->
+
+
     <!-- BC-22530 shape called "bezier", weight spec 0.74 oz -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
@@ -19232,6 +19232,7 @@ none known
       <ShoulderLength Unit="in">1.07</ShoulderLength>
       <Length Unit="in">3.0</Length>
     </NoseCone>
+
     <!-- BC-22545 weight spec 1.2 oz -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
@@ -19245,6 +19246,7 @@ none known
       <ShoulderLength Unit="in">1.07</ShoulderLength>
       <Length Unit="in">4.5</Length>
     </NoseCone>
+
     <!-- BC-22548 shape called "bezier", weight spec 1.13 oz -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
@@ -19258,6 +19260,7 @@ none known
       <ShoulderLength Unit="in">1.07</ShoulderLength>
       <Length Unit="in">4.8</Length>
     </NoseCone>
+
     <!-- BC-22551 weight spec 1.16 oz -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
@@ -19271,6 +19274,7 @@ none known
       <ShoulderLength Unit="in">1.07</ShoulderLength>
       <Length Unit="in">5.1</Length>
     </NoseCone>
+
     <!-- BC-22563 shape called "bezier", rounded point ogive, weight spec 1.34 oz -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
@@ -19284,6 +19288,7 @@ none known
       <ShoulderLength Unit="in">1.07</ShoulderLength>
       <Length Unit="in">6.25</Length>
     </NoseCone>
+
     <!-- BC-22567 weight spec 1.41 oz -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
@@ -19297,6 +19302,7 @@ none known
       <ShoulderLength Unit="in">1.07</ShoulderLength>
       <Length Unit="in">6.7</Length>
     </NoseCone>
+
     <!-- BC-22567E weight spec 1.41 oz -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
@@ -19310,6 +19316,7 @@ none known
       <ShoulderLength Unit="in">1.07</ShoulderLength>
       <Length Unit="in">6.7</Length>
     </NoseCone>
+
     <!-- BC-22569 weight spec 1.53 oz -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
@@ -19323,6 +19330,7 @@ none known
       <ShoulderLength Unit="in">1.07</ShoulderLength>
       <Length Unit="in">6.9</Length>
     </NoseCone>
+
     <!-- BC-22578 weight spec 1.66 oz. -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
@@ -19336,6 +19344,7 @@ none known
       <ShoulderLength Unit="in">1.07</ShoulderLength>
       <Length Unit="in">7.8</Length>
     </NoseCone>
+
     <!-- BC-22579 weight spec 1.64 oz -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
@@ -19349,6 +19358,7 @@ none known
       <ShoulderLength Unit="in">1.07</ShoulderLength>
       <Length Unit="in">7.9</Length>
     </NoseCone>
+
     <!-- BC-22588 shape (BNC-55AO) is closer to ogive, weight spec 1.82 oz.  Original shoulder length was 0.75" -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
@@ -19362,6 +19372,7 @@ none known
       <ShoulderLength Unit="in">1.07</ShoulderLength>
       <Length Unit="in">8.8</Length>
     </NoseCone>
+
     <!-- BC-22595 weight spec 1.52 oz.  Original shoulder length was only 0.375". -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
@@ -19375,6 +19386,7 @@ none known
       <ShoulderLength Unit="in">1.07</ShoulderLength>
       <Length Unit="in">9.5</Length>
     </NoseCone>
+
     <!-- BC-22597 weight spec 1.73 oz -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
@@ -19388,6 +19400,7 @@ none known
       <ShoulderLength Unit="in">1.07</ShoulderLength>
       <Length Unit="in">9.7</Length>
     </NoseCone>
+    
     <!-- BC-225103 weight spec 2.16 oz -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>

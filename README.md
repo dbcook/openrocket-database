@@ -27,6 +27,11 @@ System compatibility:  works anywhere OpenRocket can run
 
 ## Release Notes
 
+0.9.1.2 - 24 Sep 2018
+* Fixes
+  * Semroc: Nose cone shoulder lengths corrected to mfg drawings for:
+      BC-200xx
+
 0.9.1.1 - 14 Sep 2018
 * Fixes
   * Semroc: BC-2ET Apollo escape NC/nozzle unit split into 2 correct pieces
