@@ -19216,10 +19216,7 @@ none known
     <!-- ALL BC-225 nose cones are shown as discontinued on the 2018 eRockets/Semroc website -->
     <!-- Shoulder lengths scaled from drawings on Semroc legacy site -->
 
-    <!-- *** CORRECTING SHOULDER LENGTHS HERE *** -->
-
-
-    <!-- BC-22530 shape called "bezier", weight spec 0.74 oz -->
+    <!-- BC-22530 shape called "bezier", weight spec 0.74 oz, shoulder len 1.08" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-22530</PartNumber>
@@ -19229,11 +19226,11 @@ none known
       <Shape>ELLIPSOID</Shape>
       <OutsideDiameter Unit="in">2.340</OutsideDiameter>
       <ShoulderDiameter Unit="in">2.248</ShoulderDiameter>
-      <ShoulderLength Unit="in">1.07</ShoulderLength>
+      <ShoulderLength Unit="in">1.08</ShoulderLength>
       <Length Unit="in">3.0</Length>
     </NoseCone>
 
-    <!-- BC-22545 weight spec 1.2 oz -->
+    <!-- BC-22545 weight spec 1.2 oz, shoulder len 1.08" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-22545</PartNumber>
@@ -19243,25 +19240,25 @@ none known
       <Shape>ELLIPSOID</Shape>
       <OutsideDiameter Unit="in">2.340</OutsideDiameter>
       <ShoulderDiameter Unit="in">2.248</ShoulderDiameter>
-      <ShoulderLength Unit="in">1.07</ShoulderLength>
+      <ShoulderLength Unit="in">1.08</ShoulderLength>
       <Length Unit="in">4.5</Length>
     </NoseCone>
 
-    <!-- BC-22548 shape called "bezier", weight spec 1.13 oz -->
+    <!-- BC-22548 shape called "bezier", weight spec 1.13 oz, len 4.75", shoulder len 1.08" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-22548</PartNumber>
-      <Description>Nose cone, balsa, LT-225, 4.8", ellipsoid, PNC-132 upscale, PN BC-22548</Description>
+      <Description>Nose cone, balsa, LT-225, 4.75", ellipsoid, PNC-132 upscale, PN BC-22548</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
       <OutsideDiameter Unit="in">2.340</OutsideDiameter>
       <ShoulderDiameter Unit="in">2.248</ShoulderDiameter>
-      <ShoulderLength Unit="in">1.07</ShoulderLength>
-      <Length Unit="in">4.8</Length>
+      <ShoulderLength Unit="in">1.08</ShoulderLength>
+      <Length Unit="in">4.75</Length>
     </NoseCone>
 
-    <!-- BC-22551 weight spec 1.16 oz -->
+    <!-- BC-22551 weight spec 1.16 oz, len 5.1", shoulder len 1.08" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-22551</PartNumber>
@@ -19271,11 +19268,12 @@ none known
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">2.340</OutsideDiameter>
       <ShoulderDiameter Unit="in">2.248</ShoulderDiameter>
-      <ShoulderLength Unit="in">1.07</ShoulderLength>
+      <ShoulderLength Unit="in">1.08</ShoulderLength>
       <Length Unit="in">5.1</Length>
     </NoseCone>
 
-    <!-- BC-22563 shape called "bezier", rounded point ogive, weight spec 1.34 oz -->
+    <!-- BC-22563 shape called "bezier", rounded point ogive, weight spec 1.34 oz, len 6.25",
+         shoulder len 1.08" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-22563</PartNumber>
@@ -19285,11 +19283,11 @@ none known
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">2.340</OutsideDiameter>
       <ShoulderDiameter Unit="in">2.248</ShoulderDiameter>
-      <ShoulderLength Unit="in">1.07</ShoulderLength>
+      <ShoulderLength Unit="in">1.08</ShoulderLength>
       <Length Unit="in">6.25</Length>
     </NoseCone>
 
-    <!-- BC-22567 weight spec 1.41 oz -->
+    <!-- BC-22567 weight spec 1.41 oz, len 6.7", shoulder len 1.08" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-22567</PartNumber>
@@ -19299,11 +19297,11 @@ none known
       <Shape>ELLIPSOID</Shape>
       <OutsideDiameter Unit="in">2.340</OutsideDiameter>
       <ShoulderDiameter Unit="in">2.248</ShoulderDiameter>
-      <ShoulderLength Unit="in">1.07</ShoulderLength>
+      <ShoulderLength Unit="in">1.08</ShoulderLength>
       <Length Unit="in">6.7</Length>
     </NoseCone>
 
-    <!-- BC-22567E weight spec 1.41 oz -->
+    <!-- BC-22567E weight spec 1.41 oz, upscale of Estes BNC-30E, len 6.7", shoulder len 1.08" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-22567E</PartNumber>
@@ -19313,11 +19311,11 @@ none known
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">2.340</OutsideDiameter>
       <ShoulderDiameter Unit="in">2.248</ShoulderDiameter>
-      <ShoulderLength Unit="in">1.07</ShoulderLength>
+      <ShoulderLength Unit="in">1.08</ShoulderLength>
       <Length Unit="in">6.7</Length>
     </NoseCone>
 
-    <!-- BC-22569 weight spec 1.53 oz -->
+    <!-- BC-22569 weight spec 1.53 oz, len 6.9", shoudler len 1.08" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-22569</PartNumber>
@@ -19327,11 +19325,11 @@ none known
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">2.340</OutsideDiameter>
       <ShoulderDiameter Unit="in">2.248</ShoulderDiameter>
-      <ShoulderLength Unit="in">1.07</ShoulderLength>
+      <ShoulderLength Unit="in">1.08</ShoulderLength>
       <Length Unit="in">6.9</Length>
     </NoseCone>
 
-    <!-- BC-22578 weight spec 1.66 oz. -->
+    <!-- BC-22578 weight spec 1.66 oz, upscale of Estes BNC-50X, length 7.8", shoulder len 1.08" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-22578</PartNumber>
@@ -19341,11 +19339,11 @@ none known
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">2.340</OutsideDiameter>
       <ShoulderDiameter Unit="in">2.248</ShoulderDiameter>
-      <ShoulderLength Unit="in">1.07</ShoulderLength>
+      <ShoulderLength Unit="in">1.08</ShoulderLength>
       <Length Unit="in">7.8</Length>
     </NoseCone>
 
-    <!-- BC-22579 weight spec 1.64 oz -->
+    <!-- BC-22579 weight spec 1.64 oz, upscale of Centuri PNC-165, len 7.9", shoulder len 1.08" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-22579</PartNumber>
@@ -19355,25 +19353,31 @@ none known
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">2.340</OutsideDiameter>
       <ShoulderDiameter Unit="in">2.248</ShoulderDiameter>
-      <ShoulderLength Unit="in">1.07</ShoulderLength>
+      <ShoulderLength Unit="in">1.08</ShoulderLength>
       <Length Unit="in">7.9</Length>
     </NoseCone>
 
-    <!-- BC-22588 shape (BNC-55AO) is closer to ogive, weight spec 1.82 oz.  Original shoulder length was 0.75" -->
+    <!-- BC-22588 shape (Estes BNC-55AO upscale) is closer to ogive, weight spec 1.82 oz.
+         Length 8.94", shoulder len 1.08" (scaled dwg)  -->
+    <!-- SOURCE ERROR: BC-22588 length given as 8.8", but mfg drawing length scales to 8.94" -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-22588</PartNumber>
-      <Description>Nose cone, balsa, LT-225, 8.8", ellipsoid, Estes BNC-55AO upscale, PN BC-22588</Description>
+      <Description>Nose cone, balsa, LT-225, 8.94", ellipsoid, Estes BNC-55AO upscale, PN BC-22588</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
       <OutsideDiameter Unit="in">2.340</OutsideDiameter>
       <ShoulderDiameter Unit="in">2.248</ShoulderDiameter>
-      <ShoulderLength Unit="in">1.07</ShoulderLength>
-      <Length Unit="in">8.8</Length>
+      <ShoulderLength Unit="in">1.08</ShoulderLength>
+      <Length Unit="in">8.94</Length>
     </NoseCone>
 
-    <!-- BC-22595 weight spec 1.52 oz.  Original shoulder length was only 0.375". -->
+    <!-- *** CORRECTING SHOULDER LENGTHS HERE *** -->
+
+
+    <!-- BC-22595 is Estes BNC-55AC upscale, weight spec 1.52 oz, len 9.5", shoulder len 1.08" (scaled dwg).
+         Shoulder is very much not to scale, original BNC-55AC only had 0.375" shoulder  -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-22595</PartNumber>
@@ -19383,11 +19387,11 @@ none known
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">2.340</OutsideDiameter>
       <ShoulderDiameter Unit="in">2.248</ShoulderDiameter>
-      <ShoulderLength Unit="in">1.07</ShoulderLength>
+      <ShoulderLength Unit="in">1.08</ShoulderLength>
       <Length Unit="in">9.5</Length>
     </NoseCone>
 
-    <!-- BC-22597 weight spec 1.73 oz -->
+    <!-- BC-22597 is Estes BNC-5AX upscale, weight spec 1.73 oz, len 9.7", shoulder len 1.08" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-22597</PartNumber>
@@ -19397,11 +19401,11 @@ none known
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">2.340</OutsideDiameter>
       <ShoulderDiameter Unit="in">2.248</ShoulderDiameter>
-      <ShoulderLength Unit="in">1.07</ShoulderLength>
+      <ShoulderLength Unit="in">1.08</ShoulderLength>
       <Length Unit="in">9.7</Length>
     </NoseCone>
-    
-    <!-- BC-225103 weight spec 2.16 oz -->
+
+    <!-- BC-225103 weight spec 2.16 oz, shoulder len 1.08" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-225103</PartNumber>
@@ -19411,7 +19415,7 @@ none known
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">2.340</OutsideDiameter>
       <ShoulderDiameter Unit="in">2.248</ShoulderDiameter>
-      <ShoulderLength Unit="in">1.07</ShoulderLength>
+      <ShoulderLength Unit="in">1.08</ShoulderLength>
       <Length Unit="in">10.3</Length>
     </NoseCone>
     
