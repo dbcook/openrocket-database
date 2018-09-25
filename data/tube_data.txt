@@ -166,56 +166,59 @@ RT-15     1.60      1.64    18.0     0.936   1.642     1.598    RT-1518, RT-1512
 RT-19     2.00      2.04    18.0     1.184   2.042     1.998    RT-1918, RT-1912, RT-1906
 
 LOC tube data from 2018 website
-------------------------------------------------
+-------------------------------
 Note: weights are quoted on the site in lbs in the "additional information" tab and look to be mostly inaccurate.
 The diameters and weights given for motor tubes and couplers in the same tab are totally inaccurate.
+The tables below contain only the LOC-provided specs from the website.  See the body_tube_data.xlsx
+spreadsheet for improved data from actual measurements.
 
 Airframes
 ---------
 
-SERIES    ID        OD      Len      Wt        RingID    RingOD   Lengths           Notes
-------    -----     -----   -----    -----     ------    ------   -------------     -------------
-LBT-50    0.95      1.00    12.0     0.1 lb    1.003     0.947    12                Same as 24mm MMT
-1.52      1.52      1.625   34.0     0.25 lb   1.628     1.517    34                Same as 38mm MMT
-2.14      2.14      2.26    34.0     0.24 lb   2.263     2.137    34                Same as 54mm MMT
-2.56      2.56      2.63    30.0     0.4 lb    2.633     2.557    30                Heavy wall BT-80 ID compatible
-3.0       3.00      3.10    34.0     0.5 lb    3.103     2.997    34                NOT same as 75mm MMT
-3.9       3.90      4.00    34.0     0.5 lb    4.003     3.897    34                NOT same as 98mm MMT
-5.38      5.38      5.54    42.0     1.2 lb    5.543     5.377    42
-7.51      7.51      7.675   30.0     3.43 lb*  7.678     7.507    30                Sold as 2x30" with a coupler
+SERIES         ID        OD      Len      Wt        RingID    RingOD   Lengths           Notes
+------         -----     -----   -----    -----     ------    ------   -------------     -------------
+BT-1.0/LBT-50  0.95      1.00    12.0     0.1 lb    1.003     0.947    12                Same as 24mm MMT
+BT-1.52        1.52      1.625   34.0     0.25 lb   1.628     1.517    34                Same as 38mm MMT
+BT-2.14        2.14      2.26    34.0     0.24 lb   2.263     2.137    34                Same as 54mm MMT
+BT-2.56        2.56      2.63    30.0     0.4 lb    2.633     2.557    30                Heavy wall BT-80 ID compatible
+BT-3.00        3.00      3.10    34.0     0.5 lb    3.103     2.997    34                NOT same as 75mm MMT
+BT-3.90        3.90      4.00    34.0     0.5 lb    4.003     3.897    34                NOT same as 98mm MMT
+BT-5.38        5.38      5.54    42.0     1.2 lb    5.543     5.377    42
+BT-7.51        7.51      7.675   30.0     3.43 lb*  7.678     7.507    30                Sold as 2x30" with a coupler
 
 * weight of 7.51 airframe tube is quoted for 2x30" pieces of tube with a coupler of unspecified length.
 
 Motor Mount Tubes
 -----------------
-24mm MMT                    12.0     0.06875 lb (12")             6, 12             See LBT-50
-29mm MMT                    12.0     0.125 lb (12")               8, 12         
-38mm MMT                    20.0     0.68 lb (20"), .375 lb (14") 11, 14, 20        See series 1.52 airframe.  Bad weights. 
-54mm MMT                    17.0     0.275 lb (17")               10, 14, 17        See series 2.14 airframe tube
-75mm MMT                    34.0     0.875 lb                     34     
-98mm MMT                    34.0     1.1875 lb                    34
+MMT-0.95                         12.0     0.06875 lb (12")             6, 12             See LBT-50
+MMT-1.14                         12.0     0.125 lb (12")               8, 12         
+MMT-1.58                         20.0     0.68 lb (20"), .375 lb (14") 11, 14, 20        See series 1.52 airframe
+MMT-2.14                         17.0     0.275 lb (17")               10, 14, 17        See series 2.14 airframe tube
+MMTHD-300                        34.0     0.875 lb                     34     
+MMTHD-390                        34.0     1.1875 lb                    34
 
 Couplers
 --------
-LBT-50                       2.0     0.1 lb
-29mm                         2.0     0.1 lb
-1.52                         4.0     0.1 lb
-2.14                         6.0     0.1 lb
-2.56                         6.0     0.12 lb
-3.0                          8.0     0.19 lb
-3.9                          8.0     0.2 lb
-5.38                        11.0     1 lb
-7.51                        15.0     1 lb
-
+CT-1.0                           2.0     0.1 lb
+TC-1.14                          2.0     0.1 lb
+TC-1.52                          4.0     0.1 lb
+TC-2.14                          6.0     0.1 lb
+TC-2.56                          6.0     0.12 lb
+TC-3.00                          8.0     0.19 lb
+TC-3.90L                         8.0     0.2 lb
+TC-5.38                         11.0     1 lb
+TC-7.51                         15.0     1 lb
 
 Coupler Stiffeners
 ------------------
-2.14                         5.0     0.0987 lb
-2.56                         6.0     0.15625 lb
-3.0                          6.0     0.1875 lb
-3.9                          7.75    0.25 lb
-5.38                        11.0     0.625 lb
-7.51                        15.0     1.625 lb
+Note wildly inconsistent use of decimal point in SKUs here.  This is held over from long ago.
+
+STC-214                          5.0     0.0987 lb
+STC-256                          6.0     0.15625 lb
+STC-3.00                         6.0     0.1875 lb
+STC-390L                         7.75    0.25 lb
+STC-5.38                        11.0     0.625 lb
+STC-751                         15.0     1.625 lb
 
 
 
