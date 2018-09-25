@@ -30,7 +30,8 @@ System compatibility:  works anywhere OpenRocket can run
 0.9.1.2 - 24 Sep 2018
 * Fixes
   * Semroc: Nose cone shoulder lengths corrected to mfg drawings for:
-      BC-200xx
+      BC-200xx, BC-225xx
+  * LOC: Add 2018 website tube specs to tube_data.txt
 
 0.9.1.1 - 14 Sep 2018
 * Fixes
