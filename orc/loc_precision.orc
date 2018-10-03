@@ -58,6 +58,10 @@ generic_materials.orc.
   SBT-3.90-3S
   SBT-3.90-6S   (6 slots, used in Ultimate)
 
+* Phenolic tubing (claimed flexible) has reappeared on the LOC website in fall 2018.  It is
+said to be the saem size as the cardboard tubing.  Only the 1.52 and 5.38 sizes can be selected
+in the shop, though the "additional information" tab shows all sizes from 1.52 through 7.51.
+
 * Centering rings (plywood and one fiber type) are listed in the 2010 Accessories Catalog as
 follows.  Thicknesses are not given except for a general statement that they are made from "1/8",
 3/16" and 1/4" specialty plywood".  The FCR-1.52-1.14 is the fiber centering ring.  We can infer the
@@ -141,6 +145,13 @@ the former should be lighter because of larger hole. -->
         </Material>
         
         <!-- standard materials copied from generic_materials.orc -->
+
+        <!-- LOC phenolic tubes are assumed to be generic Kraft phenolic til proven otherwise -->
+        <Material UnitsOfMeasure="g/cm3">
+            <Name>Phenolic, kraft, bulk</Name>
+            <Density>943.0</Density>
+            <Type>BULK</Type>
+        </Material>
 
         <Material UnitsOfMeasure="kg/m3">
             <Name>Polypropylene, bulk</Name>
@@ -344,7 +355,83 @@ the former should be lighter because of larger hole. -->
             <OutsideDiameter Unit="in">7.675</OutsideDiameter>
             <Length Unit="in">60.0</Length>
         </BodyTube>
+
+        <!-- ======================= -->
+        <!-- PHENOLIC AIRFRAME TUBES -->
+        <!-- ======================= -->
+        <!-- No mass data is available from LOC, so we use generic kraft phenolic density.
+             The dimensions are stated to be identical to the cardboard airframe tubes (website, fall 2018) -->
         
+        <BodyTube>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>FT-1.52</PartNumber>
+            <Description>Body tube, phenolic, BT-1.52, 34.0"</Description>
+            <Material Type="BULK">Phenolic, kraft, bulk</Material>
+            <InsideDiameter Unit="in">1.525</InsideDiameter>
+            <OutsideDiameter Unit="in">1.635</OutsideDiameter>
+            <Length Unit="in">34.0</Length>
+        </BodyTube>
+
+        <BodyTube>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>FT-2.14</PartNumber>
+            <Description>Body tube, phenolic, FT-2.14, 34.0"</Description>
+            <Material Type="BULK">Phenolic, kraft, bulk</Material>
+            <InsideDiameter Unit="in">2.14</InsideDiameter>
+            <OutsideDiameter Unit="in">2.26</OutsideDiameter>
+            <Length Unit="in">34.0</Length>
+        </BodyTube>
+
+        <BodyTube>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>FT-2.56</PartNumber>
+            <Description>Body tube, phenolic, FT-2.56, 30.0"</Description>
+            <Material Type="BULK">Phenolic, kraft, bulk</Material>
+            <InsideDiameter Unit="in">2.56</InsideDiameter>
+            <OutsideDiameter Unit="in">2.63</OutsideDiameter>
+            <Length Unit="in">30.0</Length>
+        </BodyTube>
+
+        <BodyTube>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>FT-3.00</PartNumber>
+            <Description>Body tube, phenolic, FT-3.00, 34.0"</Description>
+            <Material Type="BULK">Phenolic, kraft, bulk</Material>
+            <InsideDiameter Unit="in">3.0</InsideDiameter>
+            <OutsideDiameter Unit="in">3.1</OutsideDiameter>
+            <Length Unit="in">34.0</Length>
+        </BodyTube>
+
+        <BodyTube>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>FT-3.9</PartNumber>
+            <Description>Body tube, phenolic, FT-3.9, 34.0"</Description>
+            <Material Type="BULK">Phenolic, kraft, bulk</Material>
+            <InsideDiameter Unit="in">3.9</InsideDiameter>
+            <OutsideDiameter Unit="in">4.0</OutsideDiameter>
+            <Length Unit="in">34.0</Length>
+        </BodyTube>
+
+        <BodyTube>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>FT-5.38</PartNumber>
+            <Description>Body tube, phenolic, FT-5.38, 42.0"</Description>
+            <Material Type="BULK">Phenolic, kraft, bulk</Material>
+            <InsideDiameter Unit="in">5.38</InsideDiameter>
+            <OutsideDiameter Unit="m">5.54</OutsideDiameter>
+            <Length Unit="in">42.0</Length>
+        </BodyTube>
+
+        <BodyTube>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>FT-7.51</PartNumber>
+            <Description>Body tube, phenolic, FT-7.51, 60.0"</Description>
+            <Material Type="BULK">Phenolic, kraft, bulk</Material>
+            <InsideDiameter Unit="in">7.515</InsideDiameter>
+            <OutsideDiameter Unit="in">7.675</OutsideDiameter>
+            <Length Unit="in">60.0</Length>
+        </BodyTube>
+
         <!--
             LOC plastic nose cones
 

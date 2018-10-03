@@ -27,6 +27,10 @@ System compatibility:  works anywhere OpenRocket can run
 
 ## Release Notes
 
+0.9.1.3 - 2 Oct 2018
+* Additions
+  * LOC: added phenolic tubes that recently appeared on the website
+  
 0.9.1.2 - 24 Sep 2018
 * Fixes
   * Semroc: Nose cone shoulder lengths corrected to mfg drawings for:
