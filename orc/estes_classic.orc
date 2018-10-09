@@ -5105,7 +5105,7 @@ Known issues:
             <Diameter Unit="in">18.0</Diameter>
             <Sides>6</Sides>
             <LineCount>6</LineCount>
-            <LineLength Unit="m">18.0</LineLength>
+            <LineLength Unit="in">18.0</LineLength>
             <LineMaterial Type="LINE">Carpet Thread</LineMaterial>
         </Parachute>
         <!-- PN for PK-18A was 85566 according to #1294 Cobra instructions -->
@@ -5117,7 +5117,7 @@ Known issues:
             <Diameter Unit="in">18.0</Diameter>
             <Sides>6</Sides>
             <LineCount>6</LineCount>
-            <LineLength Unit="m">18.0</LineLength>
+            <LineLength Unit="in">18.0</LineLength>
             <LineMaterial Type="LINE">Carpet Thread</LineMaterial>
         </Parachute>
         <!-- 18in preassembled parachute:  PN 302267 in 2007 catalog, 002267 on 2017 website -->
@@ -5129,7 +5129,7 @@ Known issues:
             <Diameter Unit="in">18.0</Diameter>
             <Sides>6</Sides>
             <LineCount>6</LineCount>
-            <LineLength Unit="m">18.0</LineLength>
+            <LineLength Unit="in">18.0</LineLength>
             <LineMaterial Type="LINE">Carpet Thread</LineMaterial>
         </Parachute>
         <!-- 18in Der Red Max plastic parachute PN 035823 on 2017 website -->
@@ -5141,7 +5141,7 @@ Known issues:
             <Diameter Unit="in">18.0</Diameter>
             <Sides>6</Sides>
             <LineCount>6</LineCount>
-            <LineLength Unit="m">18.0</LineLength>
+            <LineLength Unit="in">18.0</LineLength>
             <LineMaterial Type="LINE">Carpet Thread</LineMaterial>
         </Parachute>
         <!-- PK-24 was PN 2270 in 1974 custom parts catalog, weight .298 oz -->
