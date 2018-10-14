@@ -27,9 +27,13 @@ System compatibility:  works anywhere OpenRocket can run
 
 ## Release Notes
 
-0.9.1.4 - 8 Oct 2018
+0.9.1.4 - 14 Oct 2018
 * Fixes
    * Estes: PK-18 and all other 18" chutes: line length is in inches, not meters.
+   * Semroc: Fix mfr on BNC-5W (was Estes)
+   * Semroc: Verify nose cone shoulder lengths for BC-275xx
+* Additions
+   * Semroc: added BC-5xx Centuri compatible nose cones, all were missing
 
 0.9.1.3 - 2 Oct 2018
 * Additions
