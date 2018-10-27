@@ -12477,137 +12477,159 @@ none known
     </NoseCone>
 
 
-    <!-- *** CORRECTING SHOULDER LENGTHS ETC. HERE *** -->
-
-    
-
-    <!-- BC-6 Balsa Nose Cones for ST-6 tubes
-         *** shoulder lengths unknown ***
+    <!-- ====================================
+         BC-6 Balsa Nose Cones for ST-6 tubes
+         ====================================
     -->
+    <!-- BC-613 is 1.25" fat ogive (called 1.3"), shoulder 0.42", downscale of Estes BNC-30D -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-613</PartNumber>
-      <Description>Nose cone, balsa, BC-613, 1.3", fat ogive</Description>
+      <Description>Nose cone, balsa, BC-613, 1.25", fat ogive, Estes BNC-30D downscale, PN BC-613</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">0.650</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.608</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.375</ShoulderLength>
-      <Length Unit="in">1.3</Length>
+      <ShoulderLength Unit="in">0.42</ShoulderLength>
+      <Length Unit="in">1.25</Length>
     </NoseCone>
+
+    <!-- BC-615 is 1.5" ellipsoid, shoulder 0.42", downscale of Estes BNC-20B -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-615</PartNumber>
-      <Description>Nose cone, balsa, BC-615, 1.5", elliptical</Description>
+      <Description>Nose cone, balsa, BC-615, 1.5", elliptical, Estes BNC-20B downscale, PN BC-615</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
       <OutsideDiameter Unit="in">0.650</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.608</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.375</ShoulderLength>
+      <ShoulderLength Unit="in">0.42</ShoulderLength>
       <Length Unit="in">1.5</Length>
     </NoseCone>
+
+    <!-- BC-620 is 2.0" 3:1 ogive, shoulder 0.42" -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-620</PartNumber>
-      <Description>Nose cone, balsa, BC-620, 2.0", ogive</Description>
+      <Description>Nose cone, balsa, BC-620, 2.0", 3:1 ogive, PN BC-620</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">0.650</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.608</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.375</ShoulderLength>
+      <ShoulderLength Unit="in">0.42</ShoulderLength>
       <Length Unit="in">2.0</Length>
     </NoseCone>
+
+    <!-- BC-624 is 2.4" ogive, shoulder 0.42", downscale of Estes BNC-20N -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-624</PartNumber>
-      <Description>Nose cone, balsa, BC-624, 2.4", ogive</Description>
+      <Description>Nose cone, balsa, BC-624, 2.4", ogive, Estes BNC-20N downscale, PN BC-624</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">0.650</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.608</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.375</ShoulderLength>
+      <ShoulderLength Unit="in">0.42</ShoulderLength>
       <Length Unit="in">2.4</Length>
     </NoseCone>
+
+    <!-- BC-626 is 4:1 ogive, shoulder 0.42" -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-626</PartNumber>
-      <Description>Nose cone, balsa, BC-626, 2.6", ogive</Description>
+      <Description>Nose cone, balsa, BC-626, 2.6", 4:1 ogive, PN BC-626</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">0.650</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.608</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.375</ShoulderLength>
+      <ShoulderLength Unit="in">0.42</ShoulderLength>
       <Length Unit="in">2.6</Length>
     </NoseCone>
+
+    <!-- BC-628 is 2.9" conical (called 2.8"), shoulder 0.42", 1/10 scale Nike-Asp -->
+    <!-- SOURCE ERROR: BC-628 is called 2.8" long, but drawing shows it to be 2.9" -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-628</PartNumber>
-      <Description>Nose cone, balsa, BC-628, 2.8", conical</Description>
+      <Description>Nose cone, balsa, BC-628, 2.9", conical, 1/10 Nike-Asp, PN BC-628</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>CONICAL</Shape>
       <OutsideDiameter Unit="in">0.650</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.608</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.375</ShoulderLength>
-      <Length Unit="in">2.8</Length>
+      <ShoulderLength Unit="in">0.42</ShoulderLength>
+      <Length Unit="in">2.9</Length>
     </NoseCone>
+
+    <!-- BC-631 is 3.1" ogive, shoulder 0.42", 1/10 scale Asp -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-631</PartNumber>
-      <Description>Nose cone, balsa, BC-631, 3.0", ogive</Description>
+      <Description>Nose cone, balsa, BC-631, 3.0", ogive, 1/10 Asp, PN BC-631</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">0.650</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.608</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.375</ShoulderLength>
+      <ShoulderLength Unit="in">0.42</ShoulderLength>
       <Length Unit="in">3.0</Length>
     </NoseCone>
+
+    <!-- BC-633 is 3.3" 5:1 ogive, shoulder 0.42" -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-633</PartNumber>
-      <Description>Nose cone, balsa, BC-633, 3.3", ogive</Description>
+      <Description>Nose cone, balsa, BC-633, 3.3", 5:1 ogive, PN BC-633</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">0.650</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.608</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.375</ShoulderLength>
+      <ShoulderLength Unit="in">0.42</ShoulderLength>
       <Length Unit="in">3.3</Length>
     </NoseCone>
+
+    <!-- BC-634 is 3.5" conical (called 3.4"), shoulder 0.42", 1/10 Nike-Apache -->
+    <!-- SOURCE ERROR: BC-634 is called 3.4" long, but drawing shows it to be 3.5" -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-634</PartNumber>
-      <Description>Nose cone, balsa, BC-634, 3.4", conical</Description>
+      <Description>Nose cone, balsa, BC-634, 3.5", conical, 1/10 Nike-Apache, PN BC-634</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>CONICAL</Shape>
       <OutsideDiameter Unit="in">0.650</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.608</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.375</ShoulderLength>
-      <Length Unit="in">3.4</Length>
+      <ShoulderLength Unit="in">0.42</ShoulderLength>
+      <Length Unit="in">3.5</Length>
     </NoseCone>
-    <!-- BC-646 is a flared conical for Nike-Cajun.  *** need mass override *** -->
+
+    <!-- BC-646 is 4.6" flared conical for 1/10 Nike-Cajun, shoulder 0.42". 
+         Max diam 0.780", length of forward conic section 3.6", aft section 1.0"
+         mass override from legacy site data table -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-646</PartNumber>
-      <Description>Nose cone, balsa, BC-646, 4.6", flared conical Nike-Cajun</Description>
+      <Description>Nose cone, balsa, BC-646, 4.6", flared conical, 1/10 Nike-Cajun, PN BC-646</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
+      <Mass Unit="in">0.07</Mass>
       <Shape>CONICAL</Shape>
       <OutsideDiameter Unit="in">0.650</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.608</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.375</ShoulderLength>
+      <ShoulderLength Unit="in">0.42</ShoulderLength>
       <Length Unit="in">4.6</Length>
     </NoseCone>
 
 
-    <!-- BNC-10xx Nose Cones.
+    <!-- ===================
+         BNC-10xx Nose Cones
+         ===================
          Unlike Estes, Semroc shows the OD of BNC-10 nose cones to be 0.720, which matches the OD of a BT-10.  -->
 
     <!-- BNC-10A, Semroc weight 0.02 oz.  Used in K-4/#1204 Streak -->
@@ -13033,39 +13055,46 @@ none known
       <Length Unit="in">1.0</Length>
     </NoseCone>
 
-    <!-- =================================== -->
+    <!-- ===================================== -->
     <!-- BC-7xx Balsa Nose Cones for ST-7 tube -->
-    <!-- =================================== -->
+    <!-- ===================================== -->
     <!--
-         *** shoulder lengths unknown ***
          *** BC-715CN nacelle cone/nozzle set not included, need rear taper diameter ***
          *** BC-721CN nacelle cone/nozzle set not included, need rear taper diameter ***
          *** BC-726CN cone/nozzle set not included, need individal dimensions ***
     -->
+
+    <!-- BC-708 is 0.95" cone (called 0.8"), shoulder 0.42" -->
+    <!-- SOURCE ERROR: BC-708 is called 0.8" long, but drawing shows it to be 0.95" -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-708</PartNumber>
-      <Description>Nose cone, balsa, BC-708, 0.8", conical</Description>
+      <Description>Nose cone, balsa, BC-708, 0.95", conical, PN BC-708</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>CONICAL</Shape>
       <OutsideDiameter Unit="in">0.759</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.713</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.375</ShoulderLength>
-      <Length Unit="in">0.8</Length>
+      <ShoulderLength Unit="in">0.42</ShoulderLength>
+      <Length Unit="in">0.95</Length>
     </NoseCone>
+
+    <!-- BC-710 is 1.0" conical, shoulder 0.47", Centuri PNC-71 equivalent -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-710</PartNumber>
-      <Description>Nose cone, balsa, BC-710, 1.0", conical, Centuri PNC-71</Description>
+      <Description>Nose cone, balsa, BC-710, 1.0", conical, Centuri PNC-71 shape, PN BC-710</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>CONICAL</Shape>
       <OutsideDiameter Unit="in">0.759</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.713</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.375</ShoulderLength>
+      <ShoulderLength Unit="in">0.47</ShoulderLength>
       <Length Unit="in">1.0</Length>
     </NoseCone>
+    
+    <!-- *** CORRECTING SHOULDER LENGTHS ETC. HERE *** -->
+
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-711</PartNumber>
