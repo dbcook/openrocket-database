@@ -12618,7 +12618,7 @@ none known
       <Description>Nose cone, balsa, BC-646, 4.6", flared conical, 1/10 Nike-Cajun, PN BC-646</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
-      <Mass Unit="in">0.07</Mass>
+      <Mass Unit="oz">0.07</Mass>
       <Shape>CONICAL</Shape>
       <OutsideDiameter Unit="in">0.650</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.608</ShoulderDiameter>
@@ -13059,7 +13059,6 @@ none known
     <!-- BC-7xx Balsa Nose Cones for ST-7 tube -->
     <!-- ===================================== -->
     <!--
-         *** BC-715CN nacelle cone/nozzle set not included, need rear taper diameter ***
          *** BC-721CN nacelle cone/nozzle set not included, need rear taper diameter ***
          *** BC-726CN cone/nozzle set not included, need individal dimensions ***
     -->
@@ -13069,7 +13068,7 @@ none known
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-708</PartNumber>
-      <Description>Nose cone, balsa, BC-708, 0.95", conical, PN BC-708</Description>
+      <Description>Nose cone, balsa, ST-7, 0.95", conical, PN BC-708</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>CONICAL</Shape>
@@ -13083,7 +13082,7 @@ none known
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-710</PartNumber>
-      <Description>Nose cone, balsa, BC-710, 1.0", conical, Centuri PNC-71 shape, PN BC-710</Description>
+      <Description>Nose cone, balsa, ST-7, 1.0", conical, Centuri PNC-71 shape, PN BC-710</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>CONICAL</Shape>
@@ -13093,57 +13092,100 @@ none known
       <Length Unit="in">1.0</Length>
     </NoseCone>
     
-    <!-- *** CORRECTING SHOULDER LENGTHS ETC. HERE *** -->
-
+    <!-- BC-711 is 1.1" conical, shoulder 0.57", Centuri BC-71 equivalent -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-711</PartNumber>
-      <Description>Nose cone, balsa, BC-711, 1.1", conical, Centuri BC-71</Description>
+      <Description>Nose cone, balsa, ST-7, 1.1", conical, Centuri BC-71, PN BC-711</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>CONICAL</Shape>
       <OutsideDiameter Unit="in">0.759</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.713</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.375</ShoulderLength>
+      <ShoulderLength Unit="in">0.57</ShoulderLength>
       <Length Unit="in">1.1</Length>
     </NoseCone>
-    <!-- BC-714 for Semroc Triton, Hydra VII, Mini Bat -->
+
+    <!-- BC-714 is 1.4" ogive for Semroc Triton, Hydra VII, Mini Bat, 0.69" shoulder -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-714</PartNumber>
-      <Description>Nose cone, balsa, BC-714, 1.4", ogive, old Semroc NB-204</Description>
+      <Description>Nose cone, balsa, ST-7, 1.4", ogive, old Semroc NB-204, PN BC-714</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">0.759</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.713</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.375</ShoulderLength>
+      <ShoulderLength Unit="in">0.69</ShoulderLength>
       <Length Unit="in">1.4</Length>
     </NoseCone>
+
+    <!-- BC-715 is 1.5" near ellipsoid (called rounded ogive), shoulder 0.68", Centuri PNC-70 equiv -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-715</PartNumber>
-      <Description>Nose cone, balsa, BC-715, 1.5", rounded ogive, Centuri PNC-70</Description>
+      <Description>Nose cone, balsa, ST-7, 1.5", rounded ogive, Centuri PNC-70 shape, PN BC-715</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">0.759</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.713</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.375</ShoulderLength>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">1.5</Length>
     </NoseCone>
+
+    <!-- BC-715D is 1.5" ogive, 0.4" shoulder, Estes BNC-30 shape -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-715D</PartNumber>
-      <Description>Nose cone, balsa, BC-715D, 1.5", ogive, Estes BNC-30D</Description>
+      <Description>Nose cone, balsa, ST-7, 1.5", ogive, Estes BNC-30D shape, PN BC-715D</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">0.759</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.713</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.40</ShoulderLength>
+      <Length Unit="in">1.5</Length>
+    </NoseCone>
+
+    <!-- BC-715CN is a 2-part nacelle cone / nozzle set, so we have to split into an NC + tailcone transition -->
+
+    <!-- BC-715CN_nacelle has exposed len 0.96", shoulder 0.375", cone at front of nacelle 0.4" long.
+         Ogive is not a bad approximation to the shape.  -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-715CN_nacelle</PartNumber>
+      <Description>Nose cone, balsa, ST-7, 1.5", nacelle, half of PN BC-715CN</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">0.759</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.713</ShoulderDiameter>
       <ShoulderLength Unit="in">0.375</ShoulderLength>
-      <Length Unit="in">1.5</Length>
+      <Length Unit="in">0.96</Length>
     </NoseCone>
+
+    <!-- BC-715CN_nozzle has exposed len 0.75", shoulder 0.375", pure cone, aft diam of cone 0.45" -->
+    <Transition>
+        <Manufacturer>Semroc</Manufacturer>
+        <PartNumber>BC-715CN_nozzle [R]</PartNumber>
+        <Description>Transition, balsa, ST-7, tailcone, half of PN BTC-715CN</Description>
+        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">0.759</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">0.713</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.375</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">0.45</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">0.0</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.0</AftShoulderLength>
+        <Length Unit="in">0.75</Length>
+    </Transition>
+
+
+    <!-- *** CORRECTING SHOULDER LENGTHS ETC. HERE *** -->
+
+
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-716</PartNumber>
