@@ -11993,7 +11993,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BC-2ET_nozzle, BC-2ET</PartNumber>
         <Description>Nozzle tail cone, balsa, BT-2, 0.24", Apollo escape tower 1/72, PN BC-2ET</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.281</ForeOutsideDiameter>
@@ -13169,8 +13169,8 @@ none known
     <Transition>
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BC-715CN_nozzle [R]</PartNumber>
-        <Description>Transition, balsa, ST-7, tailcone, half of PN BTC-715CN</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Description>Transition, balsa, ST-7, 0.75", conical nozzle, half of PN BTC-715CN</Description>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.759</ForeOutsideDiameter>
@@ -13182,70 +13182,116 @@ none known
         <Length Unit="in">0.75</Length>
     </Transition>
 
-
-    <!-- *** CORRECTING SHOULDER LENGTHS ETC. HERE *** -->
-
-
+    <!-- BC-716 is 1.6" ellipsoid, shoulder 0.68", Centuri BC-70 equivalent -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-716</PartNumber>
-      <Description>Nose cone, balsa, BC-716, 1.6", elliptical, Centuri BC-70</Description>
+      <Description>Nose cone, balsa, ST-7, 1.6", elliptical, Centuri BC-70, PN BC-716</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
       <OutsideDiameter Unit="in">0.759</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.713</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.375</ShoulderLength>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">1.6</Length>
     </NoseCone>
+
+    <!-- BC-718 is 1.8" fat ogive, shoulder 0.55", early Centuri BC-711 shape -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-718</PartNumber>
-      <Description>Nose cone, balsa, BC-718, 1.8", ogive, early Centuri BC-711</Description>
+      <Description>Nose cone, balsa, ST-7, 1.8", ogive, early Centuri BC-711, PN BC-718</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">0.759</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.713</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.375</ShoulderLength>
+      <ShoulderLength Unit="in">0.55</ShoulderLength>
       <Length Unit="in">1.8</Length>
     </NoseCone>
+
+    <!-- BC-719 is 1.9" ogive, shoulder 0.68", Centuri BC-72 equivalent -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-719</PartNumber>
-      <Description>Nose cone, balsa, BC-719, 1.9", ogive, Centuri BC-72</Description>
+      <Description>Nose cone, balsa, ST-7, 1.9", ogive, Centuri BC-72, PN BC-719</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">0.759</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.713</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.375</ShoulderLength>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">1.9</Length>
     </NoseCone>
+
+    <!-- BC-720 is 2.0" ellipsoid, shoulder 0.68" -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-720</PartNumber>
-      <Description>Nose cone, balsa, BC-720, 2.0", elliptical</Description>
+      <Description>Nose cone, balsa, ST-7, 2.0", elliptical, PN BC-720</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
       <OutsideDiameter Unit="in">0.759</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.713</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.375</ShoulderLength>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">2.0</Length>
     </NoseCone>
+
+    <!-- BC-721 is 2.1" ogive, shoulder len 0.68", equiv to old Semroc NB-206 -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-721</PartNumber>
-      <Description>Nose cone, balsa, BC-721, 2.1", ogive, old Semroc NB-206</Description>
+      <Description>Nose cone, balsa, ST-7, 2.1", ogive, old Semroc NB-206, PN BC-721</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">0.759</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.713</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.375</ShoulderLength>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">2.1</Length>
     </NoseCone>
+
+    <!-- BC-721CN is a nacelle + nozzle set, so we split into two components like BC-715CN -->
+
+    <!-- BC-721CN_nacelle has exposed len 0.62", shoulder 0.50", ogive exposed shape has aft
+         diam of 0.41". -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-721CN_nacelle</PartNumber>
+      <Description>Nose cone, balsa, ST-7, 0.62", nacelle, half of PN BC-721CN</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">0.759</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.713</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <Length Unit="in">0.62</Length>
+    </NoseCone>
+
+    <!-- BC-721CN_nozzle has exposed len 0.75", shoulder 0.50", compound shape with an 0.5" long
+         conical section tapering down to 0.55" diameter, then an 0.25" long cylinder of 0.375"
+         diameter with a chamfer at the rear edge. Turns out we can model this by making the
+         aft shoulder be the cylindrical section.  Mass and moments of inertia will be correct,
+         aerodynamics not so much since OpenRocket doesn't model exposed shoulders. -->
+    <Transition>
+        <Manufacturer>Semroc</Manufacturer>
+        <PartNumber>BC-721CN_nozzle [R]</PartNumber>
+        <Description>Transition, balsa, ST-7, 0.75", compound nozzle, half of PN BTC-721CN</Description>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">0.759</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">0.713</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.50</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">0.55</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">0.375</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.25</AftShoulderLength>
+        <Length Unit="in">0.50</Length>
+    </Transition>
+
+    <!-- *** CORRECTING SHOULDER LENGTHS ETC. HERE *** -->
+
     <!-- BC-722 no longer listed on eRockets/Semroc 2017 website -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
@@ -13259,6 +13305,7 @@ none known
       <ShoulderLength Unit="in">0.375</ShoulderLength>
       <Length Unit="in">2.2</Length>
     </NoseCone>
+
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-723</PartNumber>
@@ -13271,6 +13318,7 @@ none known
       <ShoulderLength Unit="in">0.375</ShoulderLength>
       <Length Unit="in">2.3</Length>
     </NoseCone>
+
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-723P</PartNumber>
@@ -13283,6 +13331,7 @@ none known
       <ShoulderLength Unit="in">0.375</ShoulderLength>
       <Length Unit="in">2.3</Length>
     </NoseCone>
+
     <!-- BC-727 described on Semroc legacy site as "close to BNC-20N" -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
@@ -13296,6 +13345,7 @@ none known
       <ShoulderLength Unit="in">0.375</ShoulderLength>
       <Length Unit="in">2.7</Length>
     </NoseCone>
+
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-728</PartNumber>
@@ -13308,6 +13358,7 @@ none known
       <ShoulderLength Unit="in">0.375</ShoulderLength>
       <Length Unit="in">2.8</Length>
     </NoseCone>
+
     <!-- BC-728F no longer appears in eRockets/Semroc 2017 website -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
@@ -13321,6 +13372,7 @@ none known
       <ShoulderLength Unit="in">0.375</ShoulderLength>
       <Length Unit="in">2.8</Length>
     </NoseCone>
+
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-730G</PartNumber>
@@ -13333,6 +13385,7 @@ none known
       <ShoulderLength Unit="in">0.375</ShoulderLength>
       <Length Unit="in">3.0</Length>
     </NoseCone>
+
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-730P</PartNumber>
@@ -13345,6 +13398,7 @@ none known
       <ShoulderLength Unit="in">0.375</ShoulderLength>
       <Length Unit="in">3.0</Length>
     </NoseCone>
+
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-731</PartNumber>
@@ -13357,6 +13411,7 @@ none known
       <ShoulderLength Unit="in">0.25</ShoulderLength>
       <Length Unit="in">3.1</Length>
     </NoseCone>
+
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-731B</PartNumber>
@@ -13369,6 +13424,7 @@ none known
       <ShoulderLength Unit="in">0.375</ShoulderLength>
       <Length Unit="in">3.1</Length>
     </NoseCone>
+
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-731F</PartNumber>
@@ -13381,6 +13437,7 @@ none known
       <ShoulderLength Unit="in">0.375</ShoulderLength>
       <Length Unit="in">3.1</Length>
     </NoseCone>
+
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-733</PartNumber>
@@ -13393,6 +13450,7 @@ none known
       <ShoulderLength Unit="in">0.375</ShoulderLength>
       <Length Unit="in">3.3</Length>
     </NoseCone>
+
     <!-- BC-734 equiv to Centuri BC-78, shape is conical taper down to an ogive front section -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
@@ -13407,6 +13465,7 @@ none known
       <ShoulderLength Unit="in">0.375</ShoulderLength>
       <Length Unit="in">3.4</Length>
     </NoseCone>
+
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-734P</PartNumber>
@@ -13419,6 +13478,7 @@ none known
       <ShoulderLength Unit="in">0.375</ShoulderLength>
       <Length Unit="in">3.4</Length>
     </NoseCone>
+
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-735</PartNumber>
@@ -13431,6 +13491,7 @@ none known
       <ShoulderLength Unit="in">0.375</ShoulderLength>
       <Length Unit="in">3.5</Length>
     </NoseCone>
+
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-736</PartNumber>
@@ -13443,6 +13504,7 @@ none known
       <ShoulderLength Unit="in">0.375</ShoulderLength>
       <Length Unit="in">3.6</Length>
     </NoseCone>
+
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-737</PartNumber>
@@ -13455,6 +13517,7 @@ none known
       <ShoulderLength Unit="in">0.375</ShoulderLength>
       <Length Unit="in">3.65</Length>
     </NoseCone>
+
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-738</PartNumber>
@@ -13467,6 +13530,7 @@ none known
       <ShoulderLength Unit="in">0.375</ShoulderLength>
       <Length Unit="in">3.8</Length>
     </NoseCone>
+
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-739</PartNumber>
@@ -13479,6 +13543,7 @@ none known
       <ShoulderLength Unit="in">0.375</ShoulderLength>
       <Length Unit="in">3.9</Length>
     </NoseCone>
+
     <!-- unclear what difference is between BC-739G and BC-739O except that 739G costs much more
          BC-739O does not exist on Semroc legacy site
     -->
@@ -13506,6 +13571,7 @@ none known
       <ShoulderLength Unit="in">0.375</ShoulderLength>
       <Length Unit="in">3.9</Length>
     </NoseCone>
+
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-744</PartNumber>
@@ -13518,6 +13584,7 @@ none known
       <ShoulderLength Unit="in">0.375</ShoulderLength>
       <Length Unit="in">4.4</Length>
     </NoseCone>
+
     <!-- BC-760 flared ogive similar to Honest John -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
@@ -15737,7 +15804,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BTC-11SC [R]</PartNumber>
         <Description>Transition, balsa, BTC-11SC, tailcone, drilled 18mm, PN BTC-11SC</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Mass Unit="oz">0.32</Mass>
         <Shape>OGIVE</Shape>
         <Filled>true</Filled>
@@ -16365,7 +16432,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BTC-55VZ [R]</PartNumber>
         <Description>Transition, balsa, BTC-55VZ, reducing</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Mass Unit="oz">0.24</Mass>
         <Shape>OGIVE</Shape>
         <Filled>true</Filled>
@@ -16385,7 +16452,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BTC-55Z [R]</PartNumber>
         <Description>Transition, balsa, BTC-55Z, reducing</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Mass Unit="oz">0.25</Mass>
         <Shape>OGIVE</Shape>
         <Filled>true</Filled>
@@ -17203,7 +17270,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BTC-58AY [R]</PartNumber>
         <Description>Transition, balsa, BT-58, 3.9", ogive, reducing, PN BTC-58AY, Arcon 1/4 scale</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>OGIVE</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.540</ForeOutsideDiameter>
@@ -17221,7 +17288,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BTC-58MX [R]</PartNumber>
         <Description>Transition, balsa, BT-58, 3.9", ogive, reducing, PN BTC-58MX</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>OGIVE</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.540</ForeOutsideDiameter>
@@ -17319,7 +17386,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-60AB</PartNumber>
         <Description>Nose cone, balsa, BT-60, 2.625", Gemini Capsule, PN BNC-60AB</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Mass Unit="oz">0.21</Mass>
         <Filled>true</Filled>
         <Shape>CONICAL</Shape>
@@ -17335,7 +17402,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-60AC</PartNumber>
         <Description>Nose cone, balsa, BT-60, 7.25", secant ogive, Estes BNC-55AC upscale, PN BNC-60AC</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>OGIVE</Shape>
         <OutsideDiameter Unit="in">1.637</OutsideDiameter>
@@ -17349,7 +17416,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-60AH</PartNumber>
         <Description>Nose cone, balsa, BT-60, 6.6", ellipsoid, Estes PNC-60AH clone, PN BNC-60AH</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>ELLIPSOID</Shape>
         <OutsideDiameter Unit="in">1.637</OutsideDiameter>
@@ -17363,7 +17430,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-60AHD</PartNumber>
         <Description>Nose cone, balsa, BT-60, 6.6", ellipsoid, drilled 0.75 x 4.0", Estes PNC-60AH clone, PN BNC-60AHD</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>ELLIPSOID</Shape>
         <OutsideDiameter Unit="in">1.637</OutsideDiameter>
@@ -17381,7 +17448,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-60AK</PartNumber>
         <Description>Nose cone, balsa, BT-60, 3.0", Mercury Capsule, PN BNC-60AK</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Mass Unit="oz">0.21</Mass>
         <Filled>true</Filled>
         <Shape>CONICAL</Shape>
@@ -17396,7 +17463,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-60AL</PartNumber>
         <Description>Nose cone, balsa, BT-60, 1.25", Mars Lander, PN BNC-60AL</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Mass Unit="oz">0.17</Mass>
         <Filled>true</Filled>
         <Shape>ELLIPSOID</Shape>
@@ -17412,7 +17479,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-60AM</PartNumber>
         <Description>Nose cone, balsa, BT-60, 5.1", round tip cone + cylinder, PN BNC-60AM</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>ELLIPSOID</Shape>
         <OutsideDiameter Unit="in">1.637</OutsideDiameter>
@@ -17426,7 +17493,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-60AO</PartNumber>
         <Description>Nose cone, balsa, BT-60, 7.0", ellipsoid, PN BNC-60AO</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>ELLIPSOID</Shape>
         <OutsideDiameter Unit="in">1.637</OutsideDiameter>
@@ -17440,7 +17507,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-60AS</PartNumber>
         <Description>Nose cone, balsa, BT-60, 8.3", ogive, Centuri BC-1052 upscale, PN BNC-60AS</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>OGIVE</Shape>
         <OutsideDiameter Unit="in">1.637</OutsideDiameter>
@@ -17454,7 +17521,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-60BC</PartNumber>
         <Description>Nose cone, balsa, BT-60, 4.2", ramjet nacelle, PN BNC-60BC</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>OGIVE</Shape>
         <OutsideDiameter Unit="in">1.637</OutsideDiameter>
@@ -17469,7 +17536,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-60C</PartNumber>
         <Description>Nose cone, balsa, BT-60, 0.9", flat spherical, Estes Camroc NC shape, PN BNC-60C</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>ELLIPSOID</Shape>
         <OutsideDiameter Unit="in">1.637</OutsideDiameter>
@@ -17483,7 +17550,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-60CO</PartNumber>
         <Description>Nose cone, balsa, BT-60, 2.6", round tip cone, Centuri PNC-231 downscale, PN BNC-60CO</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>ELLIPSOID</Shape>
         <OutsideDiameter Unit="in">1.637</OutsideDiameter>
@@ -17497,7 +17564,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-60G3</PartNumber>
         <Description>Nose cone, balsa, BT-60, 4.9", 3:1 ogive, PN BNC-60G3</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>OGIVE</Shape>
         <OutsideDiameter Unit="in">1.637</OutsideDiameter>
@@ -17511,7 +17578,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-60G36</PartNumber>
         <Description>Nose cone, balsa, BT-60, 5.9", 3.6:1 ogive, PN BNC-60G36</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>OGIVE</Shape>
         <OutsideDiameter Unit="in">1.637</OutsideDiameter>
@@ -17525,7 +17592,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-60G4</PartNumber>
         <Description>Nose cone, balsa, BT-60, 6.6", 4:1 ogive, PN BNC-60G4</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>OGIVE</Shape>
         <OutsideDiameter Unit="in">1.637</OutsideDiameter>
@@ -17539,7 +17606,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-60G5</PartNumber>
         <Description>Nose cone, balsa, BT-60, 8.2", 5:1 ogive, PN BNC-60G5</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>OGIVE</Shape>
         <OutsideDiameter Unit="in">1.637</OutsideDiameter>
@@ -17553,7 +17620,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-60GMR</PartNumber>
         <Description>Nose cone, balsa, BT-60, 3.8", goony Mercury Redstone capsule, PN BNC-60GMR</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>ELLIPSOID</Shape>
         <OutsideDiameter Unit="in">1.637</OutsideDiameter>
@@ -17568,7 +17635,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-60GT</PartNumber>
         <Description>Nose cone, balsa, BT-60, 2.8", Gemini capsule 1/70, PN BNC-60GT</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>CONICAL</Shape>
         <OutsideDiameter Unit="in">1.637</OutsideDiameter>
@@ -17582,7 +17649,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-60K</PartNumber>
         <Description>Nose cone, balsa, BT-60, 4.6", ogive, Estes BNC-50K upscale, PN BNC-60K</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>OGIVE</Shape>
         <OutsideDiameter Unit="in">1.637</OutsideDiameter>
@@ -17596,7 +17663,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-60KP</PartNumber>
         <Description>Nose cone, balsa, BT-60, 4.4", ellipsoid, Estes PNC-50K upscale, PN BNC-60KP</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>ELLIPSOID</Shape>
         <OutsideDiameter Unit="in">1.637</OutsideDiameter>
@@ -17610,7 +17677,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-60L</PartNumber>
         <Description>Nose cone, balsa, BT-60, 3.1", ellipsoid, Estes BNC-60L clone, PN BNC-60L</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>ELLIPSOID</Shape>
         <OutsideDiameter Unit="in">1.637</OutsideDiameter>
@@ -17624,7 +17691,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-60LP</PartNumber>
         <Description>Nose cone, balsa, BT-60, 2.7", ellipsoid, Estes PNC-60L clone, PN BNC-60LP</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>ELLIPSOID</Shape>
         <OutsideDiameter Unit="in">1.637</OutsideDiameter>
@@ -17639,7 +17706,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-60LV</PartNumber>
         <Description>Nose cone, balsa, BT-60, 3.1", ellipsoid, Vern Estes original Big Bertha clone, PN BNC-60LV</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>ELLIPSOID</Shape>
         <OutsideDiameter Unit="in">1.637</OutsideDiameter>
@@ -17653,7 +17720,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-60MS</PartNumber>
         <Description>Nose cone, balsa, BT-60, 2.6", ellipsoid, PN BNC-60MS</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>ELLIPSOID</Shape>
         <OutsideDiameter Unit="in">1.637</OutsideDiameter>
@@ -17668,7 +17735,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-60NA</PartNumber>
         <Description>Nose cone, balsa, BT-60, 4.75", ogive, Estes PNC-60NA clone, PN BNC-60NA</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>OGIVE</Shape>
         <OutsideDiameter Unit="in">1.637</OutsideDiameter>
@@ -17682,7 +17749,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-60NS</PartNumber>
         <Description>Nose cone, balsa, BT-60, 10.0", flared conical, Nike Smoke shape, PN BNC-60NS</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>ELLIPSOID</Shape>
         <OutsideDiameter Unit="in">1.637</OutsideDiameter>
@@ -17696,7 +17763,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-60OR</PartNumber>
         <Description>Nose cone, balsa, BT-60, 1.6", very round tip conical, PN BNC-60OR</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>ELLIPSOID</Shape>
         <OutsideDiameter Unit="in">1.637</OutsideDiameter>
@@ -17710,7 +17777,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-60PE</PartNumber>
         <Description>Nose cone, balsa, BT-60, 8.0", tri-conic, Pershing missile shape, PN BNC-60PE</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>CONICAL</Shape>
         <OutsideDiameter Unit="in">1.637</OutsideDiameter>
@@ -17724,7 +17791,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-60PED</PartNumber>
         <Description>Nose cone, balsa, BT-60, 8.0", tri-conic, drilled, Pershing missile shape, PN BNC-60PED</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>CONICAL</Shape>
         <OutsideDiameter Unit="in">1.637</OutsideDiameter>
@@ -17739,7 +17806,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-60RL</PartNumber>
         <Description>Nose cone, balsa, BT-60, 8.4", ogive, Estes PNC-60RL clone, PN BNC-60RL</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>OGIVE</Shape>
         <OutsideDiameter Unit="in">1.637</OutsideDiameter>
@@ -17753,7 +17820,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-60R</PartNumber>
         <Description>Nose cone, balsa, BT-60, 6.4", conical, Estes BNC-20R upscale, PN BNC-60R</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>CONICAL</Shape>
         <OutsideDiameter Unit="in">1.637</OutsideDiameter>
@@ -17767,7 +17834,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-60SM</PartNumber>
         <Description>Nose cone, balsa, BT-60, 8.0", conical, PN BNC-60SM</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>CONICAL</Shape>
         <OutsideDiameter Unit="in">1.637</OutsideDiameter>
@@ -17783,7 +17850,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-60SU</PartNumber>
         <Description>Nose cone, balsa, BT-60, 6.4", capsule/payload, PN BNC-60SU</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>ELLIPSOID</Shape>
         <OutsideDiameter Unit="in">1.637</OutsideDiameter>
@@ -17798,7 +17865,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-60SV</PartNumber>
         <Description>Nose cone, balsa, BT-60, 8.1", round tip ogive, PN BNC-60SV</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>OGIVE</Shape>
         <OutsideDiameter Unit="in">1.637</OutsideDiameter>
@@ -17813,7 +17880,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-60T</PartNumber>
         <Description>Nose cone, balsa, BT-60, 2.8", Mercury capsule, Estes BNC-60T clone, PN BNC-60T</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>CONICAL</Shape>
         <OutsideDiameter Unit="in">1.637</OutsideDiameter>
@@ -17828,7 +17895,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-60V</PartNumber>
         <Description>Nose cone, balsa, BT-60, 5.2", ogive, V-2 scale, PN BNC-60V</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>OGIVE</Shape>
         <OutsideDiameter Unit="in">1.637</OutsideDiameter>
@@ -17842,7 +17909,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-60VD</PartNumber>
         <Description>Nose cone, balsa, BT-60, 5.2", ogive, V-2 scale, drilled 0.75 x 3.0", PN BNC-60VD</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>OGIVE</Shape>
         <OutsideDiameter Unit="in">1.637</OutsideDiameter>
@@ -17857,7 +17924,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-60YP</PartNumber>
         <Description>Nose cone, balsa, BT-60, 7.25", ogive, Estes PNC-50Y upscale, PN BNC-60YP</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>OGIVE</Shape>
         <OutsideDiameter Unit="in">1.637</OutsideDiameter>
@@ -17871,7 +17938,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BTC-60CY [R]</PartNumber>
         <Description>Transition, balsa, BT-60, 1.5", conical, reducing, drilled 24mm, PN BTC-60CY</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Mass Unit="oz">0.23</Mass>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
@@ -17889,7 +17956,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BTC-60LZ [R]</PartNumber>
         <Description>Transition, balsa, BT-60, 2.8", ellipsoid, reducing, drilled 18mm BNC-60L, PN BTC-60LZ</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Mass Unit="oz">0.24</Mass>
         <Shape>ELLIPSOID</Shape>
         <Filled>true</Filled>
@@ -17907,7 +17974,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BTC-60VY [R]</PartNumber>
         <Description>Transition, balsa, BT-60, 3.7", ogive, reducing, drilled 24mm, PN BTC-60VY</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Mass Unit="oz">0.45</Mass>
         <Shape>OGIVE</Shape>
         <Filled>true</Filled>
@@ -17925,7 +17992,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BTC-60VZ [R]</PartNumber>
         <Description>Transition, balsa, BT-60, 3.7", ogive, reducing, drilled 18mm, PN BTC-60VZ</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Mass Unit="oz">0.47</Mass>
         <Shape>OGIVE</Shape>
         <Filled>true</Filled>
@@ -18286,7 +18353,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BTC-16V2 [R]</PartNumber>
         <Description>Transition, balsa, ST-16, 4.0", ogive, reducing, drilled 18mm, V-2 scale, PN BTC-16V2</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Mass Unit="oz">0.30</Mass>
         <Shape>OGIVE</Shape>
         <Filled>true</Filled>
@@ -18632,7 +18699,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BTC-18VY [R]</PartNumber>
         <Description>Transition, balsa, ST-18, 4.1", ogive, reducing, drilled 24mm, V-2 1/35 scale, PN BTC-18VY</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Mass Unit="oz">0.21</Mass>
         <Shape>OGIVE</Shape>
         <Filled>true</Filled>
@@ -19094,7 +19161,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BTC-20BB [R]</PartNumber>
         <Description>Transition, balsa, ST-20, 3.0", complex nozzle, reducing, drilled 29mm, PN BTC-20BB</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Mass Unit="oz">0.21</Mass>
         <Shape>OGIVE</Shape>
         <Filled>true</Filled>
@@ -19180,7 +19247,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-70AJ</PartNumber>
         <Description>Nose cone, balsa, BT-70, 4.25" ogive, Estes BNC-70AJ clone, PN BNC-70AJ</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>OGIVE</Shape>
         <OutsideDiameter Unit="in">2.217</OutsideDiameter>
@@ -19194,7 +19261,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-70AO</PartNumber>
         <Description>Nose cone, balsa, BT-70, 8.4" ellipsoid, upscale of Estes BNC-55AO, PN BNC-70AO</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>ELLIPSOID</Shape>
         <OutsideDiameter Unit="in">2.217</OutsideDiameter>
@@ -19208,7 +19275,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-70AP</PartNumber>
         <Description>Nose cone, balsa, BT-70, 1.7" conical, Apollo capsule, PN BNC-70AP</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>CONICAL</Shape>
         <OutsideDiameter Unit="in">2.217</OutsideDiameter>
@@ -19222,7 +19289,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-70B</PartNumber>
         <Description>Nose cone, balsa, BT-70, 7.0" ogive, PN BNC-70B</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>OGIVE</Shape>
         <OutsideDiameter Unit="in">2.217</OutsideDiameter>
@@ -19236,7 +19303,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-70C</PartNumber>
         <Description>Nose cone, balsa, BT-70, 2.5" round tip cone, PN BNC-70C</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>CONICAL</Shape>
         <OutsideDiameter Unit="in">2.217</OutsideDiameter>
@@ -19250,7 +19317,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-70CT</PartNumber>
         <Description>Nose cone, balsa, BT-70, 4.5" ellipsoid+conic, PN BNC-70CT</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>ELLIPSOID</Shape>
         <OutsideDiameter Unit="in">2.217</OutsideDiameter>
@@ -19264,7 +19331,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-70CP</PartNumber>
         <Description>Nose cone, balsa, BT-70, 11.1" round tip ogive, upscale of BC-845P, PN BNC-70CP</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>OGIVE</Shape>
         <OutsideDiameter Unit="in">2.217</OutsideDiameter>
@@ -19278,7 +19345,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-70D</PartNumber>
         <Description>Nose cone, balsa, BT-70, 5.0" ogive, PN BNC-70D</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>OGIVE</Shape>
         <OutsideDiameter Unit="in">2.217</OutsideDiameter>
@@ -19292,7 +19359,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-70G3</PartNumber>
         <Description>Nose cone, balsa, BT-70, 6.7" 3:1 ogive, PN BNC-70G3</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>OGIVE</Shape>
         <OutsideDiameter Unit="in">2.217</OutsideDiameter>
@@ -19306,7 +19373,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-70G4</PartNumber>
         <Description>Nose cone, balsa, BT-70, 8.9" 4:1 ogive, PN BNC-70G4</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>OGIVE</Shape>
         <OutsideDiameter Unit="in">2.217</OutsideDiameter>
@@ -19320,7 +19387,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-70MS</PartNumber>
         <Description>Nose cone, balsa, BT-70, 3.5" ellipsoid, PN BNC-70MS</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>ELLIPSOID</Shape>
         <OutsideDiameter Unit="in">2.217</OutsideDiameter>
@@ -19334,7 +19401,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-70NH</PartNumber>
         <Description>Nose cone, balsa, BT-70, 9.8" ogive, PN BNC-70NH</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>OGIVE</Shape>
         <OutsideDiameter Unit="in">2.217</OutsideDiameter>
@@ -19351,7 +19418,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-70PE</PartNumber>
         <Description>Nose cone, balsa, BT-70, 11.6" tri-conic, Pershing missile shape, PN BNC-70PE</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>CONICAL</Shape>
         <OutsideDiameter Unit="in">2.217</OutsideDiameter>
@@ -19366,7 +19433,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-70PED</PartNumber>
         <Description>Nose cone, balsa, BT-70, 11.6" tri-conic, Pershing missile shape, drilled, PN BNC-70PED</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>CONICAL</Shape>
         <OutsideDiameter Unit="in">2.217</OutsideDiameter>
@@ -19381,7 +19448,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-70TT</PartNumber>
         <Description>Nose cone, balsa, BT-70, 7.2" ogive, Tin-Tin shape, PN BNC-70TT</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>OGIVE</Shape>
         <OutsideDiameter Unit="in">2.217</OutsideDiameter>
@@ -19395,7 +19462,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-70V</PartNumber>
         <Description>Nose cone, balsa, BT-70, 7.1" ogive, V-2 scale, PN BNC-70V</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>OGIVE</Shape>
         <OutsideDiameter Unit="in">2.217</OutsideDiameter>
@@ -19409,7 +19476,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-70VD</PartNumber>
         <Description>Nose cone, balsa, BT-70, 7.1" ogive, drilled, PN BNC-70VD, V-2 scale</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>OGIVE</Shape>
         <OutsideDiameter Unit="in">2.217</OutsideDiameter>
@@ -19426,7 +19493,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-70X</PartNumber>
         <Description>Nose cone, balsa, BT-70, 7.3" ellipsoid, PN BNC-70X, upscale of Estes BNC-50X</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>ELLIPSOID</Shape>
         <OutsideDiameter Unit="in">2.217</OutsideDiameter>
@@ -19447,7 +19514,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-70HAC</PartNumber>
         <Description>Nose cone, balsa, BTH-70, 9.2" secant ogive, PN BNC-70HAC, upscale of Estes BNC-55AC</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>OGIVE</Shape>
         <OutsideDiameter Unit="in">2.247</OutsideDiameter>
@@ -19461,7 +19528,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-70HAJ</PartNumber>
         <Description>Nose cone, balsa, BTH-70, 4.25" ogive, PN BNC-70HAJ, Estes BNC-70AJ shape</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>OGIVE</Shape>
         <OutsideDiameter Unit="in">2.247</OutsideDiameter>
@@ -19475,7 +19542,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-70HAO</PartNumber>
         <Description>Nose cone, balsa, BTH-70, 8.4" ellipsoid, PN BNC-70HAO, upscale of Estes BNC-55AO</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>ELLIPSOID</Shape>
         <OutsideDiameter Unit="in">2.247</OutsideDiameter>
@@ -19489,7 +19556,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-70HB</PartNumber>
         <Description>Nose cone, balsa, BTH-70, 7.0" ogive, PN BNC-70HB</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>OGIVE</Shape>
         <OutsideDiameter Unit="in">2.247</OutsideDiameter>
@@ -19504,7 +19571,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-70HCT</PartNumber>
         <Description>Nose cone, balsa, BTH-70, 4.5" ellipsoid+conic, PN BNC-70HCT</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>ELLIPSOID</Shape>
         <OutsideDiameter Unit="in">2.247</OutsideDiameter>
@@ -19518,7 +19585,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-70HD</PartNumber>
         <Description>Nose cone, balsa, BTH-70, 5.0" ogive, PN BNC-70HD</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>OGIVE</Shape>
         <OutsideDiameter Unit="in">2.247</OutsideDiameter>
@@ -19532,7 +19599,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BNC-70HP</PartNumber>
         <Description>Nose cone, balsa, BTH-70, 7.5" rounded ogive, PN BNC-70HP</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>OGIVE</Shape>
         <OutsideDiameter Unit="in">2.247</OutsideDiameter>
@@ -19547,7 +19614,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BTC-70HY [R]</PartNumber>
         <Description>Transition, balsa, BT-70, 1.75 in, conical, reducing, PN BTC-70HY</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Mass Unit="oz">0.47</Mass>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
@@ -19566,7 +19633,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BTC-70VY [R]</PartNumber>
         <Description>Transition, balsa, BT-70, 5.0", ogive, reducing, PN BTC-70VY</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Mass Unit="oz">0.80</Mass>
         <Shape>OGIVE</Shape>
         <Filled>true</Filled>
@@ -20078,7 +20145,7 @@ none known
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BTC-80VY [R]</PartNumber>
         <Description>Transition, balsa, BTC-80VY, reducing</Description>
-        <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Mass Unit="oz">1.25</Mass>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
