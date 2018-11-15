@@ -30,13 +30,17 @@ System compatibility:  works anywhere OpenRocket can run
 0.9.1.4 - Nov 2018
 * Fixes
    * Estes: PK-18 and all other 18" chutes: line length is in inches, not meters.
+   * Semroc: Corrected balsa material string on about 10% of parts, fixing zero masses
    * Semroc: Fix mfr on BNC-5W (was Estes)
-   * Semroc: Verify nose cone shoulder lengths for BC-275xx, BC-5XX, BC-6xx
-   * Semroc: Corrected balsa material string on about 10% of parts
+   * Semroc: Verify/adjust nose cone shoulder lengths for BC-275xx, BC-5XX, BC-6xx, BC-7xx
+   * Semroc: Harmonize many description strings
+   * Semroc: BC-731 removed erroneous "short shoulder" notation
+   * Semroc: Removed note about odd pricing of BC-739G, now stands corrected on e-rockets site
 * Additions
    * Semroc: added
      * BC-5xx Centuri compatible nose cones, all were missing
-     * BC-715CN and BC-721CN nacelle cone and nozzle sets as separate parts
+     * BC-730, was missing
+     * BC-715CN, BC-721CN, BC-726CN nacelle cone and nozzle sets as separate parts
 
 0.9.1.3 - 2 Oct 2018
 * Additions
