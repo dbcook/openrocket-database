@@ -8194,11 +8194,12 @@ none known
     <!-- BR-7xx - ST-7 to larger sizes -->
     <!-- ============================= -->
 
-    <!-- BR-78 and BR-78S have 0.69 shoulders; BR-78 exposed length is 0.875 while BR-78S is 0.5" -->
+    <!-- BR-78 and BR-78S have 0.69 shoulders; BR-78 exposed length is nominally 0.875" while BR-78S is 0.5"
+         Actual exposed length from the legacy site drawings is 0.90" -->
     <Transition>
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-78</PartNumber>
-        <Description>Transition, balsa, #7 to #8, increasing, 0.875 in len</Description>
+        <Description>Transition, balsa, #7 to #8, increasing, 0.90", PN BR-78</Description>
         <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
@@ -8208,12 +8209,12 @@ none known
         <AftOutsideDiameter Unit="in">0.908</AftOutsideDiameter>
         <AftShoulderDiameter Unit="in">0.865</AftShoulderDiameter>
         <AftShoulderLength Unit="in">0.69</AftShoulderLength>
-        <Length Unit="in">0.875</Length>
+        <Length Unit="in">0.90</Length>
     </Transition>
     <Transition>
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-78 [R]</PartNumber>
-        <Description>Transition, balsa, #8 to #7, reducing, 0.875 in len</Description>
+        <Description>Transition, balsa, #8 to #7, reducing, 0.90", PN BR-78</Description>
         <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
@@ -8223,7 +8224,7 @@ none known
         <AftOutsideDiameter Unit="in">0.759</AftOutsideDiameter>
         <AftShoulderDiameter Unit="in">0.715</AftShoulderDiameter>
         <AftShoulderLength Unit="in">0.69</AftShoulderLength>
-        <Length Unit="in">0.875</Length>
+        <Length Unit="in">0.90</Length>
     </Transition>
 
     <Transition>
@@ -13355,7 +13356,7 @@ none known
     <Transition>
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BC-726CN_nozzle [R]</PartNumber>
-        <Description>Transition, balsa, ST-7, 1.25", deLaval nozzle, half of PN BTC-726CN</Description>
+        <Description>Transition, balsa, ST-7, 1.25", deLaval nozzle, half of PN BC-726CN</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
@@ -13855,37 +13856,40 @@ none known
       <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">1.25</Length>
     </NoseCone>
-    
-    <!-- *** CORRECTING SHOULDER LENGTHS ETC. HERE *** -->
 
+    <!-- BC-814 is 1.4" ellipsoid, shoulder 0.68" -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-814</PartNumber>
-      <Description>Nose cone, balsa, BC-814, 1.4", elliptical</Description>
+      <Description>Nose cone, balsa, ST-8, 1.4", elliptical, PN BC-814</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
       <OutsideDiameter Unit="in">0.908</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.863</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">1.4</Length>
     </NoseCone>
+
+    <!-- BC-815 is 1.5" ogive, shoulder 0.68", old Semroc NB-304 equivalent -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-815</PartNumber>
-      <Description>Nose cone, balsa, BC-815, 1.5", ogive, old Semroc NB-304</Description>
+      <Description>Nose cone, balsa, ST-8, 1.5", ogive, old Semroc NB-304, PN BC-815</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">0.908</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.863</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">1.5</Length>
     </NoseCone>
+
+    <!-- BC-817 is 1.7" ogive, shoulder 0.68" -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-817</PartNumber>
-      <Description>Nose cone, balsa, BC-817, 1.7", ogive</Description>
+      <Description>Nose cone, balsa, ST-8, 1.7", ogive, PN BC-817</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
@@ -13894,254 +13898,383 @@ none known
       <ShoulderLength Unit="in">0.50</ShoulderLength>
       <Length Unit="in">1.7</Length>
     </NoseCone>
+
+    <!-- BC-818 is a 1.8" ellipsoid (called Bezier), shoulder 0.68" -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-818</PartNumber>
-      <Description>Nose cone, balsa, BC-818, 1.8", bezier</Description>
+      <Description>Nose cone, balsa, ST-8, 1.8", bezier, PN BC-818</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
-      <Shape>OGIVE</Shape>
+      <Shape>ELLIPSOID</Shape>
       <OutsideDiameter Unit="in">0.908</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.863</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">1.8</Length>
     </NoseCone>
-    <!-- BC-818L shape in drawing is closer to ellipsoid despite description as ogive -->
+
+    <!-- BC-818L is 1.8" ellipsoid (called ogive), shoulder 0.68", Estes BNC-60L downscale -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-818L</PartNumber>
-      <Description>Nose cone, balsa, BC-818L, 1.76", ogive, BNC-60L downscale</Description>
+      <Description>Nose cone, balsa, ST-8, 1.8", ogive, Estes BNC-60L downscale, PN BC-818L</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
       <OutsideDiameter Unit="in">0.908</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.863</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.50</ShoulderLength>
-      <Length Unit="in">1.76</Length>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
+      <Length Unit="in">1.8</Length>
     </NoseCone>
+
+    <!-- BC-819 is a 1.9" fat ogive, shoulder 0.68", Centuri BC-82 equivalent -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-819</PartNumber>
-      <Description>Nose cone, balsa, BC-819, 1.9", ogive, Centuri BC-82</Description>
+      <Description>Nose cone, balsa, ST-8, 1.9", ogive, Centuri BC-82 shape, PN BC-819</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">0.908</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.863</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">1.9</Length>
     </NoseCone>
+
+    <!-- BC-820 is 2.0" ellipsoid (called Bezier), shoulder 0.68", Centuri PNC-80 equivalent -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-820</PartNumber>
-      <Description>Nose cone, balsa, BC-820, 2.0", bezier, Centuri PNC-80</Description>
+      <Description>Nose cone, balsa, ST-8, 2.0", ellipsoid, Centuri PNC-80 shape, PN BC-820</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
       <OutsideDiameter Unit="in">0.908</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.863</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">2.0</Length>
     </NoseCone>
+
+    <!-- BC-821 is a 2.1" ellipsoid, shoulder 0.68", Centuri BC-80 equivalent -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-821</PartNumber>
+      <Description>Nose cone, balsa, ST-8, 2.1", ellipsoid, Centuri BC-80 shape, PN BC-821</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">0.908</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.863</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
+      <Length Unit="in">2.1</Length>
+    </NoseCone>
+
+    <!-- BC-821SH is Snipe Hunter nose/transition combo piece.  Nose is shape of BC-821 but with
+         shorter shoulder.  Only appears on e-rockets / Semroc 2018 site. Split into two parts here.  -->
+
+    <!-- BC-821SH_nose from drawing is a 2.1" ellipsoid, shoulder 0.40"
+         from actual Semroc Snipe Hunter ca. 2014: len 2 1/4", shoulder 3/8" 
+         Does not exist on legacy Semroc site. -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-821SH_nose</PartNumber>
+      <Description>Nose cone, balsa, ST-8, 2.1", ellipsoid, Centuri Snipe Hunter/BC-80, PN BC-821SH</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>ELLIPSOID</Shape>
+      <OutsideDiameter Unit="in">0.908</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.863</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.40</ShoulderLength>
+      <Length Unit="in">2.1</Length>
+    </NoseCone>
+
+    <!-- BC-821SH_transition is reducing transition for Centuri/Semroc Snipe Hunter.
+         Does not exist on legacy Semroc site.
+         From drawing: Exposed length 0.82", fore shoulder 0.40", aft shoulder 0.65".
+         From an actual Semroc Snipe Hunter: length 1.0", fore shoulder 3/8", aft shoulder 9/16"
+         It is a little shorter than a regular BR-78 transition, and has shorter shoulders. -->
+    <Transition>
+        <Manufacturer>Semroc</Manufacturer>
+        <PartNumber>BC-821SH_transition</PartNumber>
+        <Description>Transition, balsa, ST-8, 0.82", increasing, half of PN BC-821SH</Description>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">0.759</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">0.715</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.65</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">0.908</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">0.863</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.40</AftShoulderLength>
+        <Length Unit="in">0.82</Length>
+    </Transition>
+    <Transition>
+        <Manufacturer>Semroc</Manufacturer>
+        <PartNumber>BC-821SH_transition [R]</PartNumber>
+        <Description>Transition, balsa, ST-8, 0.82", reducing, half of PN BC-821SH</Description>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+        <Shape>CONICAL</Shape>
+        <Filled>true</Filled>
+        <ForeOutsideDiameter Unit="in">0.908</ForeOutsideDiameter>
+        <ForeShoulderDiameter Unit="in">0.863</ForeShoulderDiameter>
+        <ForeShoulderLength Unit="in">0.40</ForeShoulderLength>
+        <AftOutsideDiameter Unit="in">0.759</AftOutsideDiameter>
+        <AftShoulderDiameter Unit="in">0.715</AftShoulderDiameter>
+        <AftShoulderLength Unit="in">0.65</AftShoulderLength>
+        <Length Unit="in">0.82</Length>
+    </Transition>
+
+    <!-- BC-823 is 2.3" ogive, shoulder 0.68", old Semroc NB-306 -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-823</PartNumber>
-      <Description>Nose cone, balsa, BC-823, 2.3", ogive, old Semroc NB-306</Description>
+      <Description>Nose cone, balsa, ST-8, 2.3", ogive, old Semroc NB-306, PN BC-823</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">0.908</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.863</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">2.3</Length>
     </NoseCone>
-    <!-- BC-823E is fat ogive upscale of Estes BNC-5E (per Semroc legacy site), though just described as ogive -->
+
+    <!-- BC-823E is 2.3" ogive, shoulder 0.68", upscale of Estes BNC-5E -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-823E</PartNumber>
-      <Description>Nose cone, balsa, BC-823E, 2.3", ogive, BNC-5E upscale</Description>
+      <Description>Nose cone, balsa, ST-8, 2.3", ogive, Estes BNC-5E upscale, PN BC-823E</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">0.908</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.863</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">2.3</Length>
     </NoseCone>
-    <!-- BC-RW825 is described on new 2017 eRockets/Semroc site as upscale of BNC-5E
-         Does not appear on Semroc legacy site
+
+    <!-- BC-RW825 is described on new 2017-2018 eRockets/Semroc site as upscale of BNC-5E, but the drawing
+         does not resemble a BNC-5E at all.  Despite the 825 designation, the stated length is 2.3".
+         BC-RW825 Does not appear on Semroc legacy site.
+         Given that the drawing is impossible (tapered shoulder), there is not much I can do with
+         this except presume that the BNC-5E upscale shape and length are correct, so I use a 2.3" ogive
+         with a 0.68" shoulder like most other BC-8xx nose cones.
+
          SOURCE ERROR: BC-RW825 eRockets/Semroc website has outline drawing showing pure cone, should be
-         fat ogive.  Also dimensions do not agree with BC-823E.
+         fat ogive to be a BNC-5E upscale as stated.  The drawing also looks problematic as the shoulder
+         is not even cylindrical.
     -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-RW825</PartNumber>
-      <Description>Nose cone, balsa, BC-RW825, 2.5", ogive</Description>
+      <Description>Nose cone, balsa, ST-8, 2.3", ogive, Estes BNC-5E upscale, PN BC-RW825</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">0.908</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.863</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.50</ShoulderLength>
-      <Length Unit="in">2.5</Length>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
+      <Length Unit="in">2.3</Length>
     </NoseCone>
+
+    <!-- BC-826 is a 2.6" ellipsoid, shoulder 0.68" -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-826</PartNumber>
-      <Description>Nose cone, balsa, BC-826, 2.6", rounded ogive</Description>
+      <Description>Nose cone, balsa, ST-8, 2.6", rounded ogive, PN BC-826</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
       <OutsideDiameter Unit="in">0.908</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.863</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">2.6</Length>
     </NoseCone>
+
+    <!-- BC-827 is 2.7" 3:1 ogive, shoulder 0.68" -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-827</PartNumber>
-      <Description>Nose cone, balsa, BC-827, 2.7", ogive</Description>
+      <Description>Nose cone, balsa, ST-8, 2.7", ogive, PN BC-827</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">0.908</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.863</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">2.7</Length>
     </NoseCone>
+
+    <!-- BC-828 is 2.8" ogive, shoulder 0.68", 1/10 scale Sandia Tomahawk -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-828</PartNumber>
-      <Description>Nose cone, balsa, BC-828, 2.8", ogive</Description>
+      <Description>Nose cone, balsa, ST-8, 2.8", ogive, 1/10 scale Sandia Tomahawk, PN BC-828</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">0.908</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.863</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">2.8</Length>
     </NoseCone>
+
+    <!-- BC-829 is 2.9" ogive, shoulder 0.68", 1/10 scale D-Region Tomahawk -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-829</PartNumber>
-      <Description>Nose cone, balsa, BC-829, 2.9", ogive</Description>
+      <Description>Nose cone, balsa, ST-8, 2.9", ogive, 1/10 scale D-Region Tomahawk, PN BC-829</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">0.908</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.863</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">2.9</Length>
     </NoseCone>
+
+    <!-- BC-830 is a 3.0" ogive, shoulder 0.68" -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-830</PartNumber>
-      <Description>Nose cone, balsa, BC-830, 3.0", ogive</Description>
+      <Description>Nose cone, balsa, ST-8, 3.0", ogive, PN BC-830</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">0.908</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.863</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">3.0</Length>
     </NoseCone>
+
+    <!-- BC-832 is a 3.2" ellipsoid (called Bezier), shoulder 0.68", Centuri BC-83 equivalent -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-832</PartNumber>
-      <Description>Nose cone, balsa, BC-832, 3.2", bezier, Centuri BC-83</Description>
+      <Description>Nose cone, balsa, ST-8, 3.2", bezier, Centuri BC-83, PN BC-832</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
       <OutsideDiameter Unit="in">0.908</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.863</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">3.2</Length>
     </NoseCone>
+
+    <!-- BC-832C is a 3.25" conical (called 3.2"), shoulder 0.68", Centuri BC-85 equivalent -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-832C</PartNumber>
-      <Description>Nose cone, balsa, BC-832C, 3.2", conical, Centuri BC-85</Description>
+      <Description>Nose cone, balsa, ST-8, 3.2", conical, Centuri BC-85, PN BC-832C</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>CONICAL</Shape>
       <OutsideDiameter Unit="in">0.908</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.863</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.50</ShoulderLength>
-      <Length Unit="in">3.2</Length>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
+      <Length Unit="in">3.25</Length>
     </NoseCone>
+
+    <!-- BC-833 is a 3.3" ellipsoid, shoulder 0.68", Centuri PNC-83 shape -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-833</PartNumber>
-      <Description>Nose cone, balsa, BC-833, 3.3", elliptical, Centuri PNC-83</Description>
+      <Description>Nose cone, balsa, ST-8, 3.3", ellipsoid, Centuri PNC-83 shape, PN BC-833</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
       <OutsideDiameter Unit="in">0.908</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.863</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">3.3</Length>
     </NoseCone>
+
+    <!-- BC-834 is a 3.35" (nominal 3.4") compound ogive-cylinder-conical-cylinder shape, shoulder 0.68"
+         Centuri BC-87 equivalent
+         Ogive tip section is 1.35" long, to diam of 0.48"
+         cylinder is 0.48" diam, 1.0" long
+         conical section is 0.85" long
+         aft cylinder section is 0.15" long x 0.908 diam
+         Modeled as overall conical, mass and inertia moments are about right -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-834</PartNumber>
-      <Description>Nose cone, balsa, BC-834, 3.4", conical ogive 2 sections, Centuri BC-87</Description>
+      <Description>Nose cone, balsa, ST-8, 3.4", compound ogive-cyl-conical-cyl, Centuri BC-87, PN BC-834</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>CONICAL</Shape>
       <OutsideDiameter Unit="in">0.908</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.863</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.50</ShoulderLength>
-      <Length Unit="in">3.4</Length>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
+      <Length Unit="in">3.35</Length>
     </NoseCone>
+
+    <!-- BC-834C is a 3.4" ogive, shoulder 0.68", Centuri BC-81 equivalent -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-834C</PartNumber>
-      <Description>Nose cone, balsa, BC-834C, 3.4", rounded ogive, Centuri BC-81</Description>
+      <Description>Nose cone, balsa, ST-8, 3.4", rounded ogive, Centuri BC-81, PN BC-834C</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">0.908</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.863</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">3.4</Length>
     </NoseCone>
+
+    <!-- BC-836 is 3.6" ogive, shoulder 0.68", downscale of Estes BNC-55AC -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-836</PartNumber>
-      <Description>Nose cone, balsa, BC-836, 3.6", secant ogive, BNC-55AC downscale</Description>
+      <Description>Nose cone, balsa, ST-8, 3.6", secant ogive, Estes BNC-55AC downscale, PN BC-836</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">0.908</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.863</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">3.6</Length>
     </NoseCone>
+
+    <!-- BC-837 is a 3.7" ogive, shoulder 0.68", old Semroc NB-309 -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-837</PartNumber>
-      <Description>Nose cone, balsa, BC-837, 3.7", ogive, old Semroc NB-309</Description>
+      <Description>Nose cone, balsa, ST-8, 3.7", ogive, old Semroc NB-309, PN BC-837</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">0.908</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.863</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">3.7</Length>
     </NoseCone>
-    <!-- BC-838 has a 3-segment compound taper shape, equiv to Centuri BC-88 -->
+
+    <!-- BC-838 has a 5-segment compound shape, equiv to Centuri BC-88.
+         Length per drawing is 4.17", shoulder 0.68".
+         tip segment is a very short conic, length 0.08", to a diam of 0.22"
+         segment 2 is a shallower conic, length 1.84", diam 0.22" to 0.50"
+         segment 3 is a cylinder, diam 0.50", length 0.75"
+         segment 4 is an enlarging conic, length 1.15", diam 0.50" to 0.908"
+         segment 5 is a short cylinder, length 0.35", diam 0.908"
+         SOURCE ERROR: BC-838 has listed length of 3.8" on both old and new Semroc sites, but drawing scales to 4.17"
+         -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-838</PartNumber>
-      <Description>Nose cone, balsa, BC-838, 3.8", special compound, Centuri BC-88</Description>
+      <Description>Nose cone, balsa, ST-8, 4.17", compound, Centuri BC-88, PN BC-838</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>CONICAL</Shape>
       <OutsideDiameter Unit="in">0.908</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.863</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.50</ShoulderLength>
-      <Length Unit="in">3.8</Length>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
+      <Length Unit="in">4.17</Length>
     </NoseCone>
+
+    <!-- *** CORRECTING SHOULDER LENGTHS ETC. HERE *** -->
+
+
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-840</PartNumber>
@@ -14264,40 +14397,6 @@ none known
       <ShoulderLength Unit="in">0.50</ShoulderLength>
       <Length Unit="in">5.7</Length>
     </NoseCone>
-    <!-- BC-821SH-NC is nose cone part of BC-821SH snipe hunter nose/transition set
-         Dimensions measured from actual part: len 2 1/4", shoulder 3/8"
-         Not present on Semroc legacy site
-    -->
-    <NoseCone>
-      <Manufacturer>SEMROC</Manufacturer>
-      <PartNumber>BC-821SH-NC</PartNumber>
-      <Description>Nose cone, balsa, BC-821SH, 2.25", elliptical</Description>
-      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
-      <Filled>true</Filled>
-      <Shape>ELLIPSOID</Shape>
-      <OutsideDiameter Unit="in">0.908</OutsideDiameter>
-      <ShoulderDiameter Unit="in">0.863</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.375</ShoulderLength>
-      <Length Unit="in">2.25</Length>
-    </NoseCone>
-    <!-- BC-821SH-TR is rear transition part of BC-821SH Snipe Hunter nose/transition set
-         Dimensions measured from actual part: fore shoulder 3/8", aft shoulder 9/16", len 1.0"
-    -->
-    <Transition>
-      <Manufacturer>SEMROC</Manufacturer>
-      <PartNumber>BC-821SH-TR [R]</PartNumber>
-      <Description>Transition, balsa, ST-8 to ST-7, Snipe Hunter, BC-821SH-TR [R], reducing</Description>
-      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
-      <Shape>CONICAL</Shape>
-      <Filled>true</Filled>
-      <ForeOutsideDiameter Unit="in">0.908</ForeOutsideDiameter>
-      <ForeShoulderDiameter Unit="in">0.863</ForeShoulderDiameter>
-      <ForeShoulderLength Unit="in">0.375</ForeShoulderLength>
-      <AftOutsideDiameter Unit="in">0.759</AftOutsideDiameter>
-      <AftShoulderDiameter Unit="in">0.713</AftShoulderDiameter>
-      <AftShoulderLength Unit="in">0.562</AftShoulderLength>
-      <Length Unit="in">1.0</Length>
-    </Transition>
     
     <!-- =================================== -->
     <!-- BC-8Fxx Balsa Nose Cones            -->
