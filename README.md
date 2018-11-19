@@ -44,6 +44,7 @@ System compatibility:  works anywhere OpenRocket can run
      * BC-730, was missing
      * BC-715CN, BC-721CN, BC-726CN nacelle cone and nozzle sets as separate parts
      * BC-821, was missing
+   * Quest: imported original Quest.orc and started fixing it, about 1/3 done
 
 0.9.1.3 - 2 Oct 2018
 * Additions
@@ -194,7 +195,7 @@ somewhat Mac centric because that's what I use most.
 | `loc_precision.orc`      | Yes  | 100% 
 | `semroc.orc`             | Yes  | 99%  (believed complete, some cleanup continues)
 | `bluetube.orc`           | Yes  | 100% (tubes and couplers like stock file, still needs CRs and NCs)
-| `Quest.orc`              | Yes  | --
+| `Quest.orc`              | Yes  | 30%  (tubes, couplers, engine blocks done)
 | `bms.orc`                | Yes  | --
 | `Fliskits.orc`           | Yes  | --
 | `giantleaprocketry.orc`  | Yes  | --
@@ -208,6 +209,11 @@ somewhat Mac centric because that's what I use most.
 | `top_flight.orc`         | No   | 100%
 | `competition_chutes.orc` | No   | 100%
 
+
+There are files I may never do, or do in very abbreviated form.
+
+* Fliskits - Jim Flis ceased operations of Fliskits in 2018; no unique parts except nose cones.
+* CMR - the unique tube sizes are no longer made by anyone, so very limited usefulness.
 
 Validation tests are needed to make sure that part generate reasonable masses and have
 internally consistent dimensions.  I experimented with creating some `.ork` design files,
@@ -433,6 +439,16 @@ compatible items.
 
 In addition to their own stocked parts, BMS also makes custom balsa parts for other
 rocket kit makers.
+
+#### Fliskits
+
+Fliskits, operated by Jim Flis, ceased operation during 2018 after 16 years in business.
+There is a 2-page 2014 Fliskits catalog online, but it has no parts information.
+There are useful snapshots of fliskits.com in the Internet Wayback Machine.
+The body tube sizes were all Estes standard.  There is a variety of nose cones that were
+likely made by BMS or Semroc - full dimensions are given.  There is only one balsa transition,
+and all the centering rings look identical to BMS ring specs.  Apart from the nose cones,
+there do not look to be any custom parts.  So the parts file will likely be nose cones only.
 
 #### MRI (Model Rocket Industries)
 
