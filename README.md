@@ -44,7 +44,7 @@ System compatibility:  works anywhere OpenRocket can run
      * BC-730, was missing
      * BC-715CN, BC-721CN, BC-726CN nacelle cone and nozzle sets as separate parts
      * BC-821, was missing
-   * Quest: imported original Quest.orc and started fixing it, about 1/3 done
+   * Quest: imported original Quest.orc and fixed it up.  98% done now.
 
 0.9.1.3 - 2 Oct 2018
 * Additions
@@ -195,7 +195,7 @@ somewhat Mac centric because that's what I use most.
 | `loc_precision.orc`      | Yes  | 100% 
 | `semroc.orc`             | Yes  | 99%  (believed complete, some cleanup continues)
 | `bluetube.orc`           | Yes  | 100% (tubes and couplers like stock file, still needs CRs and NCs)
-| `Quest.orc`              | Yes  | 30%  (tubes, couplers, engine blocks done)
+| `Quest.orc`              | Yes  | 98%  (everything known is done)
 | `bms.orc`                | Yes  | --
 | `Fliskits.orc`           | Yes  | --
 | `giantleaprocketry.orc`  | Yes  | --
