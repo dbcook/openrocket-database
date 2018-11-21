@@ -20,6 +20,12 @@ dimensions for a few parts, but certain things are known from the MPC part syste
     * The quoted tube sizes refer to the outside diameter
     * Tube wall thickness is 0.50 mm for the smaller tubes
 
+There is a little bit of units mayhem when dealing with Quest tube series.  When Quest specifies
+dimensions on their website, they are always in decimal inches, but the primary tube series
+outside diameters are nearly all exact millimeter sizes, e.g. 5.0, 10.0, 15.0, etc.  To keep
+things readable I have used the metric tube diameters, but most lengths are in inches because
+Quest specifies them that way and they are usually in round inch fractions.
+
 Using this file:
     Drop this file in the OS-dependent location where OpenRocket looks for component databases:
         Windows:  $APPDATA/OpenRocket/Components/ (you need to set $APPDATA)
@@ -29,18 +35,20 @@ Using this file:
     You need to restart OpenRocket after adding these files before the parts will be available.
 
 DONE
+====
 Body tubes
 Tube couplers
 Engine blocks
-====
+Centering rings
+Parachute and streamer
+Nose cones (balsa)
+Nose cones (plastic)
+Transitions (plastic)
+Launch lugs
 
 TODO
 ====
-Centering rings
-Bulkheads
-Nose cones (plastic)
-Reducers (plastic)
-Parachute and streamer
+none known
 
 -->
 <OpenRocketComponent>
@@ -61,6 +69,13 @@ Parachute and streamer
             <Name>Paper, spiral kraft glassine, Estes avg, bulk</Name>
             <Density>894.4</Density>
             <Type>BULK</Type>
+        </Material>
+
+        <!-- Regular balsa -->
+        <Material UnitsOfMeasure="g/cm3">
+          <Name>Balsa, bulk, 7 lb/ft3</Name>
+          <Density>112.0</Density>
+          <Type>BULK</Type>
         </Material>
 
         <!-- injection molded plastic parts -->
@@ -84,6 +99,26 @@ Parachute and streamer
             <Type>BULK</Type>
         </Material>
 
+        <!-- Parachute material, 3/4 mil polyethylene -->
+        <Material UnitsOfMeasure="kg/m2">
+            <Name>Polyethylene film, HDPE, 0.75 mil, bare</Name>
+            <Density>0.0176</Density>
+            <Type>SURFACE</Type>
+        </Material>
+
+        <!-- Streamer material, 2 mil polyethylene -->
+        <Material UnitsOfMeasure="kg/m2">
+            <Name>Polyethylene film, HDPE, 2.0 mil, bare</Name>
+            <Density>0.0470</Density>
+            <Type>SURFACE</Type>
+        </Material>
+
+        <!-- Shroud line material - carpet thread -->
+        <Material UnitsOfMeasure="kg/m">
+            <Name>Carpet Thread</Name>
+            <Density>3.3E-4</Density>
+            <Type>LINE</Type>
+        </Material>
 
     </Materials>
 
@@ -92,16 +127,22 @@ Parachute and streamer
         <!-- ============= -->
         <!-- Tube Couplers -->
         <!-- ============= -->
-        <!-- Quest does not offer tube couplers smaller than 25mm on their website.
+        <!-- Quest does not offer tube couplers smaller than 25mm on the 2009 nor 2018 websites.
+             On the 2009 website the 25mm paper tube coupler is described as "fishpaper", which would
+             be the same dark blue vulcanized paper tube used by Estes and others.  The 35mm paper
+             coupler is "Kraft paper".  The photos were not archived on the wayback machine so
+             I can't tell if these are the same or different materials.
 
-             Original OR file had things seriously wrong for couplers with incorrect ODs, IDs and
+             No couplers nor transitions had PNs on the 2009 Quest website.
+
+             The original OR file had things seriously wrong for couplers with incorrect ODs, IDs and
              bogus mass overrides, some based on very low fidelity weights listed by Quest.
              We don't have good data on coupler thickness yet; until we know
              better I am adopting an 0.50 mm wall thickness, same as the body tubes.
              OR original file omitted the 30mm plastic coupler.  -->
 
         <!-- Q10100 25mm paper tube coupler is quoted on 2018 website as 1.6875" long, which is 1 11/16" -->
-        <!-- *** original file had incorrect ID/OD (OD was 25mm, should be 24) and mass override of 28 grams -->
+        <!-- *** original OR file had incorrect ID/OD (OD was 25mm, should be 24) and mass override of 28 grams -->
         <TubeCoupler>
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>Q10100</PartNumber>
@@ -197,13 +238,13 @@ Parachute and streamer
             <Length Unit="in">30.0</Length>
         </BodyTube>
 
-        <!-- 18mm motor mount tube is a slip fit inside a 20mm body tube -->
+        <!-- 18mm motor mount tube is a slip fit inside a 20mm body tube.  Had no PN on 2009 website. -->
         <BodyTube>
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>Q10303</PartNumber>
             <Description>Body tube, paper, 18mm, yellow, 2.6875", motor mount, PN Q10303</Description>
             <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
-            <InsideDiameter Unit="mm">18.1</InsideDiameter>
+            <InsideDiameter Unit="mm">18.08</InsideDiameter>
             <OutsideDiameter Unit="mm">18.75</OutsideDiameter>
             <Length Unit="in">30.0</Length>
         </BodyTube>
@@ -215,7 +256,7 @@ Parachute and streamer
             <PartNumber>T203000</PartNumber>
             <Description>Body tube, paper, 20mm, white, 30", PN T203000</Description>
             <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
-            <InsideDiameter Unit="mm">19.0</InsideDiameter>
+            <InsideDiameter Unit="mm">19.1</InsideDiameter>
             <OutsideDiameter Unit="mm">20.0</OutsideDiameter>
             <Length Unit="in">30.0</Length>
         </BodyTube>
@@ -226,7 +267,7 @@ Parachute and streamer
             <PartNumber>Q11214</PartNumber>
             <Description>Body tube, paper, 20mm, white, 11", PN Q11214</Description>
             <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
-            <InsideDiameter Unit="mm">19.0</InsideDiameter>
+            <InsideDiameter Unit="mm">19.1</InsideDiameter>
             <OutsideDiameter Unit="mm">20.0</OutsideDiameter>
             <Length Unit="in">11.0</Length>
         </BodyTube>
@@ -249,8 +290,8 @@ Parachute and streamer
             <PartNumber>Q11300</PartNumber>
             <Description>Body tube, paper, 24mm, white, 24mm MMT, 2.75", PN Q11300</Description>
             <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
-            <InsideDiameter Unit="mm">23.1</InsideDiameter>
-            <OutsideDiameter Unit="mm">23.75</OutsideDiameter>
+            <InsideDiameter Unit="mm">23.25</InsideDiameter>
+            <OutsideDiameter Unit="mm">23.9</OutsideDiameter>
             <Length Unit="in">2.75</Length>
         </BodyTube>
 
@@ -266,7 +307,8 @@ Parachute and streamer
             <Length Unit="in">4.0</Length>
         </BodyTube>
 
-        <!-- 25mm clear red tint payload tube no longer appears on Quest website (2018), PN unknown
+        <!-- 25mm clear red tint payload tube no longer appears on 2018 website.
+             On the 2009 website is had no PN and was just called "Red Tint Payload Tube"
              The 25mm payload tube is shown as clear in 2018 -->
         <BodyTube>
             <Manufacturer>Quest</Manufacturer>
@@ -311,6 +353,7 @@ Parachute and streamer
             <Length Unit="in">30.0</Length>
         </BodyTube>
 
+        <!-- 35mm x 18" tube only exists on 2018 website -->
         <BodyTube>
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>Q11503</PartNumber>
@@ -321,7 +364,7 @@ Parachute and streamer
             <Length Unit="in">18.0</Length>
         </BodyTube>
 
-        <!-- 35mm x 30" tube no longer exists on 2018 website (now 18" long)-->
+        <!-- 35mm x 30" tube no longer exists on 2018 website -->
         <BodyTube>
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>T353000</PartNumber>
@@ -332,6 +375,7 @@ Parachute and streamer
             <Length Unit="in">30.0</Length>
         </BodyTube>
 
+        <!-- 40mm x 30" tube -->
         <BodyTube>
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>T403000, Q9525</PartNumber>
@@ -342,7 +386,7 @@ Parachute and streamer
             <Length Unit="in">30.0</Length>
         </BodyTube>
 
-        <!-- 40mm 18" tube is only on the 2018 website, not in original OR file -->      
+        <!-- 40mm 18" tube is only on the 2018 website, not 2009 site -->      
         <BodyTube>
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>Q11511</PartNumber>
@@ -353,24 +397,24 @@ Parachute and streamer
             <Length Unit="in">18.0</Length>
         </BodyTube>
         
-        <!-- 50mm x 24" tube has old and new PNs, on 2018 website with dimensions -->
+        <!-- 50mm x 24" has dimensions specified on 2009 and 2018 websites -->
         <BodyTube>
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>T502400, Q11700</PartNumber>
             <Description>Body tube, paper, 50mm, white, 24", PN T502400/Q11700</Description>
             <Material Type="BULK">Paper</Material>
-            <InsideDiameter Unit="mm">49.0</InsideDiameter>
+            <InsideDiameter Unit="mm">48.8</InsideDiameter>
             <OutsideDiameter Unit="mm">50.0</OutsideDiameter>
             <Length Unit="in">24.0</Length>
         </BodyTube>
 
-        <!-- 50mm x 18" tube is on 2018 website, but not in original OR file -->
+        <!-- 50mm x 18" tube is on 2018 website, but not on 2009 website -->
         <BodyTube>
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>Q11701</PartNumber>
             <Description>Body tube, paper, 50mm, white, 18", PN Q11701</Description>
             <Material Type="BULK">Paper</Material>
-            <InsideDiameter Unit="mm">49.0</InsideDiameter>
+            <InsideDiameter Unit="mm">48.8</InsideDiameter>
             <OutsideDiameter Unit="mm">50.0</OutsideDiameter>
             <Length Unit="in">18.0</Length>
         </BodyTube>
@@ -394,8 +438,8 @@ Parachute and streamer
         <!-- 18mm thrust ring.  Dimensions are specified on 2018 website. -->
         <EngineBlock>
             <Manufacturer>Quest Aerospace</Manufacturer>
-            <PartNumber>14000</PartNumber>
-            <Description>Thrust Ring for 10303 Eng. Tube/ .25in</Description>
+            <PartNumber>Q14000</PartNumber>
+            <Description>Engine block, fiber, 18mm, 0.25" len, PN Q14000</Description>
             <Material Type="BULK">Fiber, bulk</Material>
             <InsideDiameter Unit="mm">13.0</InsideDiameter>
             <OutsideDiameter Unit="mm">18.0</OutsideDiameter>
@@ -417,8 +461,8 @@ Parachute and streamer
              on the 2018 Quest website.  -->
         <EngineBlock>
             <Manufacturer>Quest Aerospace</Manufacturer>
-            <PartNumber>14103</PartNumber>
-            <Description>Engine block, fiber, 29mm, 0.25" len, PN 14103</Description>
+            <PartNumber>Q14103</PartNumber>
+            <Description>Engine block, fiber, 29mm, 0.25" len, PN Q14103</Description>
             <Material Type="BULK">Fiber, bulk</Material>
             <InsideDiameter Unit="mm">22.9</InsideDiameter>
             <OutsideDiameter Unit="m">28.9</OutsideDiameter>
@@ -430,7 +474,12 @@ Parachute and streamer
         <!-- Centering Rings -->
         <!-- =============== -->
 
+        <!-- thickness of thin fiber centering rings mostly not specified by Quest, but a couple
+             of them are so we use those values to fill in the blanks.
+             The 2009 website has very inconsistent PNs for the centering rings.
+        -->
 
+        <!-- 7mm Micromaxx MMT to 10mm -->
         <CenteringRing>
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>Q14007</PartNumber>
@@ -441,258 +490,338 @@ Parachute and streamer
             <Length Unit="in">0.5</Length>
         </CenteringRing>
 
+        <!-- 21mm D5 MMT to 25mm -->
         <CenteringRing>
             <Manufacturer>Quest</Manufacturer>
-            <PartNumber>CR2125</PartNumber>
-            <Description>Paper Center Ring D5(20mm) to T25 x.045</Description>
-            <Material Type="BULK">Paper</Material>
-            <InsideDiameter Unit="m">0.021209</InsideDiameter>
-            <OutsideDiameter Unit="m">0.023977599999999998</OutsideDiameter>
-            <Length Unit="m">0.001143</Length>
+            <PartNumber>CR2125, Q16036</PartNumber>
+            <Description>Centering ring, fiber, 21mm D5 MMT to 25mm, 0.045", PN Q16036</Description>
+            <Material Type="BULK">Fiber, bulk</Material>
+            <InsideDiameter Unit="mm">21.45</InsideDiameter>
+            <OutsideDiameter Unit="mm">23.9</OutsideDiameter>
+            <Length Unit="in">0.045</Length>
         </CenteringRing>
+
+        <!-- 21mm D5 MMT to 30mm -->
         <CenteringRing>
             <Manufacturer>Quest</Manufacturer>
-            <PartNumber>CR2130</PartNumber>
-            <Description>Paper Center Ring D5(20mm) to T30 x.045</Description>
-            <Material Type="BULK">Paper</Material>
-            <InsideDiameter Unit="m">0.021209</InsideDiameter>
-            <OutsideDiameter Unit="m">0.0289814</OutsideDiameter>
-            <Length Unit="m">0.001143</Length>
+            <PartNumber>CR2130, Q16037</PartNumber>
+            <Description>Centering ring, fiber, 21mm D5 MMT to 30mm, 0.045", PN Q16037</Description>
+            <Material Type="BULK">Fiber, bulk</Material>
+            <InsideDiameter Unit="mm">21.45</InsideDiameter>
+            <OutsideDiameter Unit="mm">28.75</OutsideDiameter>
+            <Length Unit="in">0.045</Length>
         </CenteringRing>
+
+        <!-- 21mm D5 MMT to 35mm -->
         <CenteringRing>
             <Manufacturer>Quest</Manufacturer>
-            <PartNumber>CR2135</PartNumber>
-            <Description>Paper Center Ring D5(20mm) to T35 x.045</Description>
-            <Material Type="BULK">Paper</Material>
-            <InsideDiameter Unit="m">0.021209</InsideDiameter>
-            <OutsideDiameter Unit="m">0.034036000000000004</OutsideDiameter>
-            <Length Unit="m">0.001143</Length>
+            <PartNumber>CR2135, Q16038</PartNumber>
+            <Description>Centering ring, fiber, 21mm D5 MMT to 35mm, 0.045", PN Q16038</Description>
+            <Material Type="BULK">Fiber, bulk</Material>
+            <InsideDiameter Unit="mm">21.45</InsideDiameter>
+            <OutsideDiameter Unit="mm">33.75</OutsideDiameter>
+            <Length Unit="in">0.045</Length>
         </CenteringRing>
+
+        <!-- 21mm D5 MMT to 40mm -->
         <CenteringRing>
             <Manufacturer>Quest</Manufacturer>
-            <PartNumber>CR2140</PartNumber>
-            <Description>Paper Center Ring D5(20mm) to T40 x.045</Description>
-            <Material Type="BULK">Paper</Material>
-            <InsideDiameter Unit="m">0.021209</InsideDiameter>
-            <OutsideDiameter Unit="m">0.038862</OutsideDiameter>
-            <Length Unit="m">0.001143</Length>
+            <PartNumber>CR2140, Q16039</PartNumber>
+            <Description>Centering ring, fiber, 21mm D5 MMT to 40mm, 0.045", PN Q16039</Description>
+            <Material Type="BULK">Fiber, bulk</Material>
+            <InsideDiameter Unit="mm">21.45</InsideDiameter>
+            <OutsideDiameter Unit="mm">38.75</OutsideDiameter>
+            <Length Unit="in">0.045</Length>
         </CenteringRing>
+
+        <!-- 21mm D5 MMT to 50mm, 0.07" thick (per old OpenRocket file) -->
         <CenteringRing>
             <Manufacturer>Quest</Manufacturer>
-            <PartNumber>CR2150</PartNumber>
-            <Description>Paper Center Ring D5(20mm) to T50 x.07</Description>
-            <Material Type="BULK">Paper</Material>
-            <InsideDiameter Unit="m">0.021209</InsideDiameter>
-            <OutsideDiameter Unit="m">0.048768</OutsideDiameter>
-            <Length Unit="m">0.001778</Length>
+            <PartNumber>CR2150, Q16040</PartNumber>
+            <Description>Centering ring, fiber, 21mm D5 MMT to 50mm, 0.07", PN Q16040</Description>
+            <Material Type="BULK">Fiber, bulk</Material>
+            <InsideDiameter Unit="mm">21.45</InsideDiameter>
+            <OutsideDiameter Unit="mm">48.75</OutsideDiameter>
+            <Length Unit="in">0.07</Length>
         </CenteringRing>
+
+        <!-- 18mm MMT to 25mm, specs given on 2018 website as ID .752", OD .942", len 0.25".
+             Old PN CR24 confirmed -->
         <CenteringRing>
             <Manufacturer>Quest</Manufacturer>
-            <PartNumber>CR24</PartNumber>
-            <Description>Paper Center Ring .75 x .942 x .25</Description>
-            <Material Type="BULK">Paper</Material>
-            <InsideDiameter Unit="m">0.019049999999999997</InsideDiameter>
-            <OutsideDiameter Unit="m">0.023926799999999998</OutsideDiameter>
-            <Length Unit="m">0.00635</Length>
+            <PartNumber>CR24, Q14050</PartNumber>
+            <Description>Centering ring, fiber, 18mm MMT to 25mm, 0.25", PN Q14050</Description>
+            <Material Type="BULK">Fiber, bulk</Material>
+            <InsideDiameter Unit="mm">19.1</InsideDiameter>
+            <OutsideDiameter Unit="mm">23.9</OutsideDiameter>
+            <Length Unit="in">0.25</Length>
         </CenteringRing>
+
+        <!-- 18mm MMT to 30mm.  Old PN CR29 confirmed. -->
         <CenteringRing>
             <Manufacturer>Quest</Manufacturer>
-            <PartNumber>CR2534</PartNumber>
-            <Description>Paper Center Ring T25(24mm) to T35 x .05</Description>
-            <Material Type="BULK">Paper</Material>
-            <InsideDiameter Unit="m">0.024993599999999998</InsideDiameter>
-            <OutsideDiameter Unit="m">0.034036000000000004</OutsideDiameter>
-            <Length Unit="m">0.00127</Length>
+            <PartNumber>CR29, Q16001</PartNumber>
+            <Description>Centering ring, fiber, 18mm MMT to 30mm, 0.045", PN Q16001</Description>
+            <Material Type="BULK">Fiber, bulk</Material>
+            <InsideDiameter Unit="mm">19.1</InsideDiameter>
+            <OutsideDiameter Unit="mm">28.75</OutsideDiameter>
+            <Length Unit="in">0.045</Length>
         </CenteringRing>
+
+        <!-- 18mm MMT to 35mm, thickness specified on 2018 website as 0.045".  Old PN CR34 confirmed. -->
         <CenteringRing>
             <Manufacturer>Quest</Manufacturer>
-            <PartNumber>CR29</PartNumber>
-            <Description>Paper Center Ring 10303(18mm) to T30 x .045</Description>
-            <Material Type="BULK">Paper</Material>
-            <InsideDiameter Unit="m">0.0187452</InsideDiameter>
-            <OutsideDiameter Unit="m">0.0289814</OutsideDiameter>
-            <Length Unit="m">0.001143</Length>
+            <PartNumber>CR34, Q16002</PartNumber>
+            <Description>Centering ring, fiber, 18mm MMT to 35mm, 0.045", PN Q16002</Description>
+            <Material Type="BULK">Fiber, bulk</Material>
+            <InsideDiameter Unit="mm">19.1</InsideDiameter>
+            <OutsideDiameter Unit="mm">33.75</OutsideDiameter>
+            <Length Unit="in">0.045</Length>
         </CenteringRing>
+
+        <!-- 18mm MMT to 40mm, thickness specified on 2018 website as 0.045".  Old PN CF39 confirmed. -->
         <CenteringRing>
             <Manufacturer>Quest</Manufacturer>
-            <PartNumber>CR2924</PartNumber>
-            <Description>Paper Center Ring .994(25mm)x 1.134(29mm) x .5</Description>
-            <Material Type="BULK">Paper</Material>
-            <InsideDiameter Unit="m">0.0252476</InsideDiameter>
-            <OutsideDiameter Unit="m">0.028803599999999995</OutsideDiameter>
-            <Length Unit="m">0.0127</Length>
+            <PartNumber>CR39, Q16007</PartNumber>
+            <Description>Centering ring, fiber, 18mm MMT to 40mm, 0.045", PN Q16007</Description>
+            <Material Type="BULK">Fiber, bulk</Material>
+            <InsideDiameter Unit="mm">19.1</InsideDiameter>
+            <OutsideDiameter Unit="mm">38.75</OutsideDiameter>
+            <Length Unit="in">0.045</Length>
         </CenteringRing>
+
+        <!-- 25mm to 30 mm, 0.5" long, dimensions given on 2018 website as ID .994", OD 1.134", 0.5" long.
+             Old PN looks backwards, doesn't exist on 2009 website, need to check a later version. -->
         <CenteringRing>
             <Manufacturer>Quest</Manufacturer>
-            <PartNumber>CR34</PartNumber>
-            <Description>Paper Center Ring 10303(18mm) to T35 x .045</Description>
+            <PartNumber>CR2924, Q14022</PartNumber>
+            <Description>Centering ring, fiber, 25mm to 30mm, 0.5", PN Q14022</Description>
             <Material Type="BULK">Paper</Material>
-            <InsideDiameter Unit="m">0.0187452</InsideDiameter>
-            <OutsideDiameter Unit="m">0.034036000000000004</OutsideDiameter>
-            <Length Unit="m">0.001143</Length>
+            <InsideDiameter Unit="mm">28.8</InsideDiameter>
+            <OutsideDiameter Unit="mm">25.25</OutsideDiameter>
+            <Length Unit="in">0.50</Length>
         </CenteringRing>
+
+        <!-- 25mm to 35mm ring is specified as .050" thick on 2009 and 2018 websites (inconsistent with others).
+             Old PN CR2534 confirmed. -->
         <CenteringRing>
             <Manufacturer>Quest</Manufacturer>
-            <PartNumber>CR39</PartNumber>
-            <Description>Paper Center Ring 10303(18mm) to T40 x .045</Description>
-            <Material Type="BULK">Paper</Material>
-            <InsideDiameter Unit="m">0.0187452</InsideDiameter>
-            <OutsideDiameter Unit="m">0.038862</OutsideDiameter>
-            <Length Unit="m">0.001143</Length>
+            <PartNumber>CR2534, Q16008</PartNumber>
+            <Description>Centering ring, fiber, 25mm to 35mm, .05", PN Q16008</Description>
+            <Material Type="BULK">Fiber, bulk</Material>
+            <InsideDiameter Unit="mm">25.25</InsideDiameter>
+            <OutsideDiameter Unit="mm">33.75</OutsideDiameter>
+            <Length Unit="in">0.05</Length>
         </CenteringRing>
+
+        <!-- 25mm to 40mm - no such animal.  -->
+
+        <!-- 25mm to 50mm.  Old PN not confirmed, does not exist on 2009 website. -->
         <CenteringRing>
             <Manufacturer>Quest</Manufacturer>
-            <PartNumber>CR4924</PartNumber>
-            <Description>Paper Center Ring T25(24mm) to T50 x .07</Description>
-            <Material Type="BULK">Paper</Material>
-            <InsideDiameter Unit="m">0.024993599999999998</InsideDiameter>
-            <OutsideDiameter Unit="m">0.048768</OutsideDiameter>
-            <Length Unit="m">0.001778</Length>
+            <PartNumber>CR4924, Q16035</PartNumber>
+            <Description>Centering ring, fiber, 25mm to 50mm, 0.07"</Description>
+            <Material Type="BULK">Fiber, bulk</Material>
+            <InsideDiameter Unit="mm">25.1</InsideDiameter>
+            <OutsideDiameter Unit="mm">48.70</OutsideDiameter>
+            <Length Unit="in">0.07</Length>
         </CenteringRing>
+
+        <!-- 29mm MMT to 50mm.  Old PN not confirmed, not on 2009 website.  Thickness 0.070 specified on 2018 site. -->
         <CenteringRing>
             <Manufacturer>Quest</Manufacturer>
-            <PartNumber>CR4929</PartNumber>
-            <Description>Paper Center Ring T29(29mm) to T50 x .07</Description>
-            <Material Type="BULK">Paper</Material>
-            <InsideDiameter Unit="m">0.030861</InsideDiameter>
-            <OutsideDiameter Unit="m">0.048768</OutsideDiameter>
-            <Length Unit="m">0.001778</Length>
+            <PartNumber>CR4929, Q16035</PartNumber>
+            <Description>Centering ring, fiber, 25mm to 50mm, 0.07"</Description>
+            <Material Type="BULK">Fiber, bulk</Material>
+            <InsideDiameter Unit="mm">28.9</InsideDiameter>
+            <OutsideDiameter Unit="mm">48.7</OutsideDiameter>
+            <Length Unit="in">0.07</Length>
         </CenteringRing>
 
         <!-- ========== -->
         <!-- Nose Cones -->
         <!-- ========== -->
 
+        <!-- Balsa nose cones -->
+
+        <!-- 10mm Micromaxx nose cone is the only balsa nose cone.  Old PN unconfirmed. -->
         <NoseCone>
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>19990</PartNumber>
-            <Description>MMX</Description>
-            <Material Type="BULK">Balsa</Material>
-            <Mass Unit="kg">0.01417476155</Mass>
+            <Description>Nose cone, balsa, 10mm, ogive, 1.0"</Description>
+            <Material Type="BULK">Balsa, bulk, 7 lb/ft3</Material>
             <Filled>true</Filled>
             <Shape>OGIVE</Shape>
-            <OutsideDiameter Unit="m">0.0099568</OutsideDiameter>
-            <ShoulderDiameter Unit="m">0.0094488</ShoulderDiameter>
-            <ShoulderLength Unit="m">0.009524999999999999</ShoulderLength>
-            <Length Unit="m">0.0254</Length>
+            <OutsideDiameter Unit="mm">10.0</OutsideDiameter>
+            <ShoulderDiameter Unit="mm">9.3</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.375</ShoulderLength>
+            <Length Unit="in">1.0</Length>
         </NoseCone>
 
+        <!-- Plastic nose cones -->
+        <!-- Original OR file has thickness of all the PNCs at 3.175mm, way too high.
+             All had mass overrides, data source unknown but the masses look reasonable. -->
+
+        <!-- 15mm plastic nose, no base.  Original OR file had mass override 2.3 gm -->
         <NoseCone>
             <Manufacturer>Quest</Manufacturer>
-            <PartNumber>PNC15</PartNumber>
-            <Description>15mm Plastic Nose Cone</Description>
-            <Material Type="BULK">Polystyrene PS</Material>
-            <Mass Unit="kg">0.002267961848</Mass>
+            <PartNumber>PNC15, Q20050</PartNumber>
+            <Description>Nose cone, plastic, 15mm, white, ogive, 1.0", PN PNC15/Q20050</Description>
+            <Material Type="BULK">Polystyrene, bulk</Material>
+            <Mass Unit="g">2.3</Mass>
             <Shape>OGIVE</Shape>
-            <OutsideDiameter Unit="m">0.014986</OutsideDiameter>
-            <ShoulderDiameter Unit="m">0.013716</ShoulderDiameter>
-            <ShoulderLength Unit="m">0.00635</ShoulderLength>
-            <Length Unit="m">0.0254</Length>
-            <Thickness Unit="m">0.003175</Thickness>
+            <OutsideDiameter Unit="mm">15.0</OutsideDiameter>
+            <ShoulderDiameter Unit="mm">13.9</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.25</ShoulderLength>
+            <Length Unit="in">1.0</Length>
+            <Thickness Unit="mm">3.175</Thickness>
         </NoseCone>
+
+        <!-- PNC20 is black blowmolded 1-piece.  OR mass override was 2.8 gm -->
         <NoseCone>
             <Manufacturer>Quest</Manufacturer>
-            <PartNumber>PNC20</PartNumber>
-            <Description>20mm Plastic Nose Cone</Description>
-            <Material Type="BULK">Polystyrene PS</Material>
-            <Mass Unit="kg">0.00283495231</Mass>
+            <PartNumber>PNC20, Q20075</PartNumber>
+            <Description>Nose cone, plastic, 20mm, black, ogive, 2.5", PN PNC20/Q20075</Description>
+            <Material Type="BULK">Polystyrene, bulk</Material>
+            <Mass Unit="g">2.8</Mass>
             <Shape>OGIVE</Shape>
-            <OutsideDiameter Unit="m">0.0199898</OutsideDiameter>
-            <ShoulderDiameter Unit="m">0.019049999999999997</ShoulderDiameter>
-            <ShoulderLength Unit="m">0.0127</ShoulderLength>
-            <Length Unit="m">0.06426199999999999</Length>
-            <Thickness Unit="m">0.003175</Thickness>
+            <OutsideDiameter Unit="mm">20.0</OutsideDiameter>
+            <ShoulderDiameter Unit="mm">19.0</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.5</ShoulderLength>
+            <Length Unit="in">2.5</Length>
+            <Thickness Unit="mm">3.175</Thickness>
         </NoseCone>
+
+        <!-- PNC25 exists on the 2009 site, but there is no 25mm nose cone on the 2018 website.
+             OR file had mass override 7.1 gm and listed as 1-piece blowmold 3.125" long.
+             No info on shoulder length. -->
         <NoseCone>
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>PNC25</PartNumber>
-            <Description>25mm Plastic Nose Cone</Description>
-            <Material Type="BULK">Polystyrene PS</Material>
-            <Mass Unit="kg">0.007087380775</Mass>
+            <Description>Nose cone, plastic, 25mm, ogive, 3.125", PN PNC25</Description>
+            <Material Type="BULK">Polystyrene, bulk</Material>
+            <Mass Unit="g">7.1</Mass>
             <Shape>OGIVE</Shape>
-            <OutsideDiameter Unit="m">0.024993599999999998</OutsideDiameter>
-            <ShoulderDiameter Unit="m">0.0237236</ShoulderDiameter>
-            <ShoulderLength Unit="m">0.0127</ShoulderLength>
-            <Length Unit="m">0.08001</Length>
-            <Thickness Unit="m">0.003175</Thickness>
+            <OutsideDiameter Unit="mm">25.0</OutsideDiameter>
+            <ShoulderDiameter Unit="mm">23.9</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.5</ShoulderLength>
+            <Length Unit="in">3.125</Length>
+            <Thickness Unit="mm">3.175</Thickness>
         </NoseCone>
+
+        <!-- PNC30 is listed on 2009 site as a 3.25" ogive without base.  Original OR file
+             has mass override of 14.2 gm, and 0.75" shoulder length, both unsubstantiated. -->
         <NoseCone>
             <Manufacturer>Quest</Manufacturer>
-            <PartNumber>PNC30</PartNumber>
-            <Description>30mm Plastic Nose Cone</Description>
-            <Material Type="BULK">Polystyrene PS</Material>
-            <Mass Unit="kg">0.01417476155</Mass>
+            <PartNumber>PNC30, Q20304</PartNumber>
+            <Description>Nose cone, plastic, 30mm, black, ogive, 3.25", PN PNC30/Q20304</Description>
+            <Material Type="BULK">Polystyrene, bulk</Material>
+            <Mass Unit="g">14.2</Mass>
             <Shape>OGIVE</Shape>
-            <OutsideDiameter Unit="m">0.029972</OutsideDiameter>
-            <ShoulderDiameter Unit="m">0.028701999999999995</ShoulderDiameter>
-            <ShoulderLength Unit="m">0.019049999999999997</ShoulderLength>
-            <Length Unit="m">0.08255</Length>
-            <Thickness Unit="m">0.003175</Thickness>
+            <OutsideDiameter Unit="mm">30.0</OutsideDiameter>
+            <ShoulderDiameter Unit="m">28.9</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.75</ShoulderLength>
+            <Length Unit="in">3.25</Length>
+            <Thickness Unit="mm">3.175</Thickness>
         </NoseCone>
+
+        <!-- PNC35 is listed on 2009 site as 4.25" one piece blowmolded ogive; OR file has mass 10.2 gm and
+             shoulder length 0.75" -->
         <NoseCone>
             <Manufacturer>Quest</Manufacturer>
-            <PartNumber>PNC35</PartNumber>
-            <Description>35mm Plastic Nose Cone</Description>
-            <Material Type="BULK">Polystyrene PS</Material>
-            <Mass Unit="kg">0.010205828315999999</Mass>
+            <PartNumber>PNC35, Q20200</PartNumber>
+            <Description>Nose cone, plastic, 35mm, white, ogive, 4.25", PN PNC35/Q20200</Description>
+            <Material Type="BULK">Polystyrene, bulk</Material>
+            <Mass Unit="g">10.2</Mass>
             <Shape>OGIVE</Shape>
-            <OutsideDiameter Unit="m">0.03505199999999999</OutsideDiameter>
-            <ShoulderDiameter Unit="m">0.033782</ShoulderDiameter>
-            <ShoulderLength Unit="m">0.019049999999999997</ShoulderLength>
-            <Length Unit="m">0.104648</Length>
-            <Thickness Unit="m">0.003175</Thickness>
+            <OutsideDiameter Unit="mm">35.0</OutsideDiameter>
+            <ShoulderDiameter Unit="mm">33.9</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.75</ShoulderLength>
+            <Length Unit="in">4.25</Length>
+            <Thickness Unit="mm">3.175</Thickness>
         </NoseCone>
+
+        <!-- PNC35B2 is 4.5" white blowmolded X-15 nose cone, white in 2018 site. OR file has mass 12.2 gm
+             and shoulder length 0.75".  Might be able to pull real shoulder length from 2018 site photo.  -->
         <NoseCone>
             <Manufacturer>Quest</Manufacturer>
-            <PartNumber>PNC35B2</PartNumber>
-            <Description>35mm Plastic X-15 Nose Cone</Description>
-            <Material Type="BULK">Polystyrene PS</Material>
-            <Mass Unit="kg">0.012190294933</Mass>
+            <PartNumber>PNC35B2, Q20222</PartNumber>
+            <Description>Nose cone, plastic, 35mm, white, X-15 shape, 4.5", PN PNC35B2/Q20222</Description>
+            <Material Type="BULK">Polystyrene, bulk</Material>
+            <Mass Unit="g">12.2</Mass>
             <Shape>OGIVE</Shape>
-            <OutsideDiameter Unit="m">0.03505199999999999</OutsideDiameter>
-            <ShoulderDiameter Unit="m">0.033782</ShoulderDiameter>
-            <ShoulderLength Unit="m">0.019049999999999997</ShoulderLength>
-            <Length Unit="m">0.1143</Length>
-            <Thickness Unit="m">0.003175</Thickness>
+            <OutsideDiameter Unit="mm">35.0</OutsideDiameter>
+            <ShoulderDiameter Unit="mm">33.9</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.75</ShoulderLength>
+            <Length Unit="in">4.5</Length>
+            <Thickness Unit="mm">3.175</Thickness>
         </NoseCone>
+
+        <!-- PNC35Nike is an 8.0" 2-piece white injection molded cone with separate tip.  Length given as
+             8" on 2009 site.  OR file has mass 25.5 gm, shoulder length 0.75".  -->
         <NoseCone>
             <Manufacturer>Quest</Manufacturer>
-            <PartNumber>PNC35N</PartNumber>
-            <Description>35mm Plastic Nike Nose Cone</Description>
-            <Material Type="BULK">Polystyrene PS</Material>
-            <Mass Unit="kg">0.02551457079</Mass>
+            <PartNumber>PNC35Nike, Q20201</PartNumber>
+            <Description>Nose cone, plastic, 35mm, white, Nike Smoke, 8.0", PN PNC35Nike/Q20201</Description>
+            <Material Type="BULK">Polystyrene, bulk</Material>
+            <Mass Unit="g">25.5</Mass>
             <Shape>CONICAL</Shape>
-            <OutsideDiameter Unit="m">0.03505199999999999</OutsideDiameter>
-            <ShoulderDiameter Unit="m">0.033782</ShoulderDiameter>
-            <ShoulderLength Unit="m">0.019049999999999997</ShoulderLength>
-            <Length Unit="m">0.2032</Length>
-            <Thickness Unit="m">0.003175</Thickness>
+            <OutsideDiameter Unit="mm">35.0</OutsideDiameter>
+            <ShoulderDiameter Unit="mm">33.9</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.75</ShoulderLength>
+            <Length Unit="in">8.0</Length>
+            <Thickness Unit="mm">3.175</Thickness>
         </NoseCone>
+
+        <!-- PNC35Egg / Q20224 is a black blowmolded cut-apart egg capsule.  2018 site says max diam is 1.9"
+             with length 5.0".  Shoulder length in the 2018 photo is about 1".  No data on the mass but
+             I'm estimating it around 25 gm. From the shape it would be more accurately modeled as
+             a ~3.5" ogive nose with a 1.5" conical rear transition.  For here I'm just making an ogive
+             with the right mass...drag will be somewhat off. -->
         <NoseCone>
             <Manufacturer>Quest</Manufacturer>
-            <PartNumber>PNC40</PartNumber>
-            <Description>40mm Plastic Nose Cone</Description>
-            <Material Type="BULK">Polystyrene PS</Material>
-            <Mass Unit="kg">0.01133980924</Mass>
-            <Shape>ELLIPSOID</Shape>
-            <OutsideDiameter Unit="m">0.039878</OutsideDiameter>
-            <ShoulderDiameter Unit="m">0.038099999999999995</ShoulderDiameter>
-            <ShoulderLength Unit="m">0.019049999999999997</ShoulderLength>
-            <Length Unit="m">0.0635</Length>
-            <Thickness Unit="m">0.003175</Thickness>
-        </NoseCone>
-        <NoseCone>
-            <Manufacturer>Quest</Manufacturer>
-            <PartNumber>PNC50</PartNumber>
-            <Description>50mm Plastic Nose Cone</Description>
-            <Material Type="BULK">Polystyrene PS</Material>
-            <Mass Unit="kg">0.042524</Mass>
+            <PartNumber>PNC35Egg, Q20224</PartNumber>
+            <Description>Nose cone, plastic, 35mm, black, egg capsule, 5.0", PN PNC35Egg/Q20224</Description>
+            <Material Type="BULK">Polystyrene, bulk</Material>
+            <Mass Unit="g">25.0</Mass>
             <Shape>OGIVE</Shape>
-            <OutsideDiameter Unit="m">0.050038000000000006</OutsideDiameter>
-            <ShoulderDiameter Unit="m">0.048260000000000004</ShoulderDiameter>
-            <ShoulderLength Unit="m">0.057150000000000006</ShoulderLength>
-            <Length Unit="m">0.1524</Length>
-            <Thickness Unit="m">0.003175</Thickness>
+            <OutsideDiameter Unit="mm">35.0</OutsideDiameter>
+            <ShoulderDiameter Unit="mm">33.9</ShoulderDiameter>
+            <ShoulderLength Unit="in">1.0</ShoulderLength>
+            <Length Unit="in">5.0</Length>
+            <Thickness Unit="mm">1.0</Thickness>
+        </NoseCone>
+
+        <!-- PNC40 is a 2.5" white one piece blowmoded ellipsoid.  OR file has
+             mass 11.3 gm, shoulder len 0.75" -->
+        <NoseCone>
+            <Manufacturer>Quest</Manufacturer>
+            <PartNumber>PNC40, Q20400</PartNumber>
+            <Description>Nose cone, plastic, 40mm, white, ellipsoid, 2.5", PN PNC40/Q20400</Description>
+            <Material Type="BULK">Polystyrene, bulk</Material>
+            <Mass Unit="g">11.3</Mass>
+            <Shape>ELLIPSOID</Shape>
+            <OutsideDiameter Unit="mm">40.0</OutsideDiameter>
+            <ShoulderDiameter Unit="mm">38.8</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.75</ShoulderLength>
+            <Length Unit="in">2.5</Length>
+            <Thickness Unit="mm">3.175</Thickness>
+        </NoseCone>
+
+        <!-- PNC50 is a 6.0" white blowmold.  OR file had mass 42.5 gm, shoulder len 2.25".  Data on 2018 site
+             actually states that the shoulder is 2.5" long. -->
+        <NoseCone>
+            <Manufacturer>Quest</Manufacturer>
+            <PartNumber>PNC50, Q20250</PartNumber>
+            <Description>Nose cone, plastic, 50mm, white, ogive, 6.0", PN PNC50/Q20250</Description>
+            <Material Type="BULK">Polystyrene, bulk</Material>
+            <Mass Unit="g">42.5</Mass>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="mm">50.0</OutsideDiameter>
+            <ShoulderDiameter Unit="mm">48.7</ShoulderDiameter>
+            <ShoulderLength Unit="in">2.5</ShoulderLength>
+            <Length Unit="in">6.0</Length>
+            <Thickness Unit="mm">3.175</Thickness>
         </NoseCone>
 
         <!-- =========== -->
@@ -701,132 +830,183 @@ Parachute and streamer
 
         <Transition>
             <Manufacturer>Quest</Manufacturer>
-            <PartNumber>2520</PartNumber>
-            <Description>Ribbed Plastic Reducer 25mm/20mm</Description>
-            <Material Type="BULK">Polystyrene PS</Material>
+            <PartNumber>2520, Q21057</PartNumber>
+            <Description>Transition, plastic, 20mm to 25mm, black, increasing, 0.5" length</Description>
+            <Material Type="BULK">Polystyrene, bulk</Material>
             <Mass Unit="kg">0.00566990462</Mass>
             <Shape>CONICAL</Shape>
-            <ForeOutsideDiameter Unit="m">0.024993599999999998</ForeOutsideDiameter>
-            <ForeShoulderDiameter Unit="m">0.023977599999999998</ForeShoulderDiameter>
-            <ForeShoulderLength Unit="m">0.019049999999999997</ForeShoulderLength>
-            <AftOutsideDiameter Unit="m">0.0200152</AftOutsideDiameter>
-            <AftShoulderDiameter Unit="m">0.019100799999999998</AftShoulderDiameter>
-            <AftShoulderLength Unit="m">0.019049999999999997</AftShoulderLength>
-            <Length Unit="m">0.0127</Length>
-            <Thickness Unit="m">0.003175</Thickness>
+            <ForeOutsideDiameter Unit="mm">20.0</ForeOutsideDiameter>
+            <ForeShoulderDiameter Unit="mm">19.0</ForeShoulderDiameter>
+            <ForeShoulderLength Unit="in">0.75</ForeShoulderLength>
+            <AftOutsideDiameter Unit="mm">25.0</AftOutsideDiameter>
+            <AftShoulderDiameter Unit="mm">23.9</AftShoulderDiameter>
+            <AftShoulderLength Unit="in">0.75</AftShoulderLength>
+            <Length Unit="in">0.5</Length>
+            <Thickness Unit="mm">1.0</Thickness>
         </Transition>
+
         <Transition>
             <Manufacturer>Quest</Manufacturer>
-            <PartNumber>2520 -R</PartNumber>
-            <Description>Ribbed Plastic Reducer 20mm/25mm -Rev</Description>
-            <Material Type="BULK">Polystyrene PS</Material>
-            <Mass Unit="kg">0.00566990462</Mass>
+            <PartNumber>2520 [R], Q21057 [R]</PartNumber>
+            <Description>Transition, plastic, 25mm to 20mm, black, decreasing, 0.5" length</Description>
+            <Material Type="BULK">Polystyrene, bulk</Material>
+            <Mass Unit="g">5.7</Mass>
             <Shape>CONICAL</Shape>
-            <ForeOutsideDiameter Unit="m">0.0200152</ForeOutsideDiameter>
-            <ForeShoulderDiameter Unit="m">0.019100799999999998</ForeShoulderDiameter>
-            <ForeShoulderLength Unit="m">0.019049999999999997</ForeShoulderLength>
-            <AftOutsideDiameter Unit="m">0.024993599999999998</AftOutsideDiameter>
-            <AftShoulderDiameter Unit="m">0.023977599999999998</AftShoulderDiameter>
-            <AftShoulderLength Unit="m">0.019049999999999997</AftShoulderLength>
-            <Length Unit="m">0.0127</Length>
-            <Thickness Unit="m">0.003175</Thickness>
+            <ForeOutsideDiameter Unit="mm">25.0</ForeOutsideDiameter>
+            <ForeShoulderDiameter Unit="mm">23.9</ForeShoulderDiameter>
+            <ForeShoulderLength Unit="in">0.75</ForeShoulderLength>
+            <AftOutsideDiameter Unit="mm">20.0</AftOutsideDiameter>
+            <AftShoulderDiameter Unit="mm">19.0</AftShoulderDiameter>
+            <AftShoulderLength Unit="in">0.75</AftShoulderLength>
+            <Length Unit="in">0.5</Length>
+            <Thickness Unit="mm">1.0</Thickness>
         </Transition>
+
         <Transition>
             <Manufacturer>Quest</Manufacturer>
-            <PartNumber>3025</PartNumber>
-            <Description>Ribbed Plastic Reducer 30mm/25mm</Description>
-            <Material Type="BULK">Polystyrene PS</Material>
-            <Mass Unit="kg">0.007087380775</Mass>
+            <PartNumber>3025 [R], Q21061 [R]</PartNumber>
+            <Description>Transition, plastic, 30mm to 25mm, black, decreasing, 0.5" length</Description>
+            <Material Type="BULK">Polystyrene, bulk</Material>
+            <Mass Unit="g">7.1</Mass>
             <Shape>CONICAL</Shape>
-            <ForeOutsideDiameter Unit="m">0.0299974</ForeOutsideDiameter>
-            <ForeShoulderDiameter Unit="m">0.0289814</ForeShoulderDiameter>
-            <ForeShoulderLength Unit="m">0.019049999999999997</ForeShoulderLength>
-            <AftOutsideDiameter Unit="m">0.024993599999999998</AftOutsideDiameter>
-            <AftShoulderDiameter Unit="m">0.023977599999999998</AftShoulderDiameter>
-            <AftShoulderLength Unit="m">0.019049999999999997</AftShoulderLength>
-            <Length Unit="m">0.0127</Length>
-            <Thickness Unit="m">0.003175</Thickness>
+            <ForeOutsideDiameter Unit="mm">30.0</ForeOutsideDiameter>
+            <ForeShoulderDiameter Unit="mm">28.9</ForeShoulderDiameter>
+            <ForeShoulderLength Unit="in">0.75</ForeShoulderLength>
+            <AftOutsideDiameter Unit="mm">25.0</AftOutsideDiameter>
+            <AftShoulderDiameter Unit="mm">23.9</AftShoulderDiameter>
+            <AftShoulderLength Unit="in">0.75</AftShoulderLength>
+            <Length Unit="in">0.5</Length>
+            <Thickness Unit="mm">1.0</Thickness>
         </Transition>
+
         <Transition>
             <Manufacturer>Quest</Manufacturer>
-            <PartNumber>3025 -R</PartNumber>
-            <Description>Ribbed Plastic Reducer 25mm/30mm -Rev</Description>
-            <Material Type="BULK">Polystyrene PS</Material>
-            <Mass Unit="kg">0.007087380775</Mass>
+            <PartNumber>3025, Q21061</PartNumber>
+            <Description>Transition, plastic, 25mm to 30mm, black, increasing, 0.5" length</Description>
+            <Material Type="BULK">Polystyrene, bulk</Material>
+            <Mass Unit="g">7.1</Mass>
             <Shape>CONICAL</Shape>
-            <ForeOutsideDiameter Unit="m">0.024993599999999998</ForeOutsideDiameter>
-            <ForeShoulderDiameter Unit="m">0.023875999999999998</ForeShoulderDiameter>
-            <ForeShoulderLength Unit="m">0.019049999999999997</ForeShoulderLength>
-            <AftOutsideDiameter Unit="m">0.0299974</AftOutsideDiameter>
-            <AftShoulderDiameter Unit="m">0.0289814</AftShoulderDiameter>
-            <AftShoulderLength Unit="m">0.019049999999999997</AftShoulderLength>
-            <Length Unit="m">0.0127</Length>
-            <Thickness Unit="m">0.003175</Thickness>
+            <ForeOutsideDiameter Unit="mm">25.0</ForeOutsideDiameter>
+            <ForeShoulderDiameter Unit="mm">23.9</ForeShoulderDiameter>
+            <ForeShoulderLength Unit="in">0.75</ForeShoulderLength>
+            <AftOutsideDiameter Unit="mm">30.0</AftOutsideDiameter>
+            <AftShoulderDiameter Unit="mm">28.9</AftShoulderDiameter>
+            <AftShoulderLength Unit="in">0.75</AftShoulderLength>
+            <Length Unit="in">0.5</Length>
+            <Thickness Unit="mm">1.0</Thickness>
         </Transition>
+
+        <!-- Mass from OR file is probably wrong, identical to 3025 transition.  2018 site says 35mm end
+             shoulder is 0.50", on 25mm end shoulder is 0.375" -->
         <Transition>
             <Manufacturer>Quest</Manufacturer>
-            <PartNumber>3525</PartNumber>
-            <Description>Ribbed Plastic Reducer 35mm/25mm</Description>
-            <Material Type="BULK">Polystyrene PS</Material>
-            <Mass Unit="kg">0.007087380775</Mass>
+            <PartNumber>3525 [R], Q21052 [R]</PartNumber>
+            <Description>Tranasition, plastic, 35mm to 25mm, white, decreasing, 0.75" length</Description>
+            <Material Type="BULK">Polystyrene, bulk</Material>
+            <Mass Unit="g">7.1</Mass>
             <Shape>CONICAL</Shape>
-            <ForeOutsideDiameter Unit="m">0.03505199999999999</ForeOutsideDiameter>
-            <ForeShoulderDiameter Unit="m">0.034036000000000004</ForeShoulderDiameter>
-            <ForeShoulderLength Unit="m">0.0127</ForeShoulderLength>
-            <AftOutsideDiameter Unit="m">0.024993599999999998</AftOutsideDiameter>
-            <AftShoulderDiameter Unit="m">0.023977599999999998</AftShoulderDiameter>
-            <AftShoulderLength Unit="m">0.009524999999999999</AftShoulderLength>
-            <Length Unit="m">0.019049999999999997</Length>
-            <Thickness Unit="m">0.003175</Thickness>
+            <ForeOutsideDiameter Unit="mm">35.0</ForeOutsideDiameter>
+            <ForeShoulderDiameter Unit="mm">33.9</ForeShoulderDiameter>
+            <ForeShoulderLength Unit="in">0.50</ForeShoulderLength>
+            <AftOutsideDiameter Unit="mm">25.0</AftOutsideDiameter>
+            <AftShoulderDiameter Unit="mm">23.9</AftShoulderDiameter>
+            <AftShoulderLength Unit="in">0.375</AftShoulderLength>
+            <Length Unit="in">0.75</Length>
+            <Thickness Unit="mm">1.0</Thickness>
         </Transition>
+
         <Transition>
             <Manufacturer>Quest</Manufacturer>
-            <PartNumber>3525 -R</PartNumber>
-            <Description>Ribbed Plastic Reducer 25mm/35mm -Rev</Description>
-            <Material Type="BULK">Polystyrene PS</Material>
-            <Mass Unit="kg">0.007087380775</Mass>
+            <PartNumber>3525, Q21052</PartNumber>
+            <Description>Transition, plastic, 25mm to 35mm, white, increasing, 0.75" length</Description>
+            <Material Type="BULK">Polystyrene, bulk</Material>
+            <Mass Unit="g">7.1</Mass>
             <Shape>CONICAL</Shape>
-            <ForeOutsideDiameter Unit="m">0.024993599999999998</ForeOutsideDiameter>
-            <ForeShoulderDiameter Unit="m">0.023875999999999998</ForeShoulderDiameter>
-            <ForeShoulderLength Unit="m">0.009524999999999999</ForeShoulderLength>
-            <AftOutsideDiameter Unit="m">0.03505199999999999</AftOutsideDiameter>
-            <AftShoulderDiameter Unit="m">0.034036000000000004</AftShoulderDiameter>
-            <AftShoulderLength Unit="m">0.0127</AftShoulderLength>
-            <Length Unit="m">0.019049999999999997</Length>
-            <Thickness Unit="m">0.003175</Thickness>
+            <ForeOutsideDiameter Unit="mm">25.0</ForeOutsideDiameter>
+            <ForeShoulderDiameter Unit="mm">23.9</ForeShoulderDiameter>
+            <ForeShoulderLength Unit="in">0.375</ForeShoulderLength>
+            <AftOutsideDiameter Unit="mm">35.0</AftOutsideDiameter>
+            <AftShoulderDiameter Unit="mm">33.9</AftShoulderDiameter>
+            <AftShoulderLength Unit="in">0.50</AftShoulderLength>
+            <Length Unit="in">0.75</Length>
+            <Thickness Unit="mm">1.0</Thickness>
         </Transition>
+
+        <!-- NOTE - there are two 3530 reducers listed on both the 2009 and 2018 sites.  They are not the
+             same.  Q21056 has .75" exposed length and .5 and .375 shoulders, while Q21071 has .5" exposed
+             length and 0.75" shoulders on both ends. To make matters worse, the photos look to be swapped! -->
+
+        <!-- 3530 transition Q21056 per 2018 website is 0.75" long, shoulder 0.50 on 35mm end and 0.375" on 30mm end -->
         <Transition>
             <Manufacturer>Quest</Manufacturer>
-            <PartNumber>3530</PartNumber>
-            <Description>Ribbed Plastic Reducer 35mm/30mm</Description>
-            <Material Type="BULK">Polystyrene PS</Material>
-            <Mass Unit="kg">0.007087380775</Mass>
+            <PartNumber>3530 [R], Q21056 [R]</PartNumber>
+            <Description>Transition, plastic, 35mm to 30mm, black, decreasing, 0.75" length</Description>
+            <Material Type="BULK">Polystyrene, bulk</Material>
+            <Mass Unit="g">7.1</Mass>
             <Shape>CONICAL</Shape>
-            <ForeOutsideDiameter Unit="m">0.03505199999999999</ForeOutsideDiameter>
-            <ForeShoulderDiameter Unit="m">0.034036000000000004</ForeShoulderDiameter>
-            <ForeShoulderLength Unit="m">0.0127</ForeShoulderLength>
-            <AftOutsideDiameter Unit="m">0.0299974</AftOutsideDiameter>
-            <AftShoulderDiameter Unit="m">0.028955999999999996</AftShoulderDiameter>
-            <AftShoulderLength Unit="m">0.009524999999999999</AftShoulderLength>
-            <Length Unit="m">0.019049999999999997</Length>
-            <Thickness Unit="m">0.003175</Thickness>
+            <ForeOutsideDiameter Unit="mm">35.0</ForeOutsideDiameter>
+            <ForeShoulderDiameter Unit="mm">33.9</ForeShoulderDiameter>
+            <ForeShoulderLength Unit="in">0.50</ForeShoulderLength>
+            <AftOutsideDiameter Unit="mm">30.0</AftOutsideDiameter>
+            <AftShoulderDiameter Unit="mm">28.9</AftShoulderDiameter>
+            <AftShoulderLength Unit="in">0.375</AftShoulderLength>
+            <Length Unit="in">0.75</Length>
+            <Thickness Unit="mm">1.0</Thickness>
         </Transition>
+
         <Transition>
             <Manufacturer>Quest</Manufacturer>
-            <PartNumber>3530 -R</PartNumber>
-            <Description>Ribbed Plastic Reducer 30mm/35mm -Rev</Description>
-            <Material Type="BULK">Polystyrene PS</Material>
-            <Mass Unit="kg">0.007087380775</Mass>
+            <PartNumber>3530, Q21056</PartNumber>
+            <Description>Transition, plastic, 30mm to 35mm, black, increasing, 0.75" length</Description>
+            <Material Type="BULK">Polystyrene, bulk</Material>
+            <Mass Unit="g">7.1</Mass>
             <Shape>CONICAL</Shape>
-            <ForeOutsideDiameter Unit="m">0.0299974</ForeOutsideDiameter>
-            <ForeShoulderDiameter Unit="m">0.0289814</ForeShoulderDiameter>
-            <ForeShoulderLength Unit="m">0.009524999999999999</ForeShoulderLength>
-            <AftOutsideDiameter Unit="m">0.03505199999999999</AftOutsideDiameter>
-            <AftShoulderDiameter Unit="m">0.034036000000000004</AftShoulderDiameter>
-            <AftShoulderLength Unit="m">0.0127</AftShoulderLength>
-            <Length Unit="m">0.019049999999999997</Length>
-            <Thickness Unit="m">0.003175</Thickness>
+            <ForeOutsideDiameter Unit="mm">30.0</ForeOutsideDiameter>
+            <ForeShoulderDiameter Unit="mm">28.9</ForeShoulderDiameter>
+            <ForeShoulderLength Unit="in">0.375</ForeShoulderLength>
+            <AftOutsideDiameter Unit="mm">35.0</AftOutsideDiameter>
+            <AftShoulderDiameter Unit="mm">33.9</AftShoulderDiameter>
+            <AftShoulderLength Unit="in">0.50</AftShoulderLength>
+            <Length Unit="in">0.75</Length>
+            <Thickness Unit="mm">1.0</Thickness>
         </Transition>
+
+        <!-- 3530 short transition (believe to be Q21071) per 2009 website is 0.50" long, with shoulders 0.75"
+             on both ends -->
+        <Transition>
+            <Manufacturer>Quest</Manufacturer>
+            <PartNumber>3530_short [R], Q21071 [R]</PartNumber>
+            <Description>Transition, plastic, 35mm to 30mm, black, decreasing, 0.50" length</Description>
+            <Material Type="BULK">Polystyrene, bulk</Material>
+            <Mass Unit="g">7.1</Mass>
+            <Shape>CONICAL</Shape>
+            <ForeOutsideDiameter Unit="mm">35.0</ForeOutsideDiameter>
+            <ForeShoulderDiameter Unit="mm">33.9</ForeShoulderDiameter>
+            <ForeShoulderLength Unit="in">0.75</ForeShoulderLength>
+            <AftOutsideDiameter Unit="mm">30.0</AftOutsideDiameter>
+            <AftShoulderDiameter Unit="mm">28.9</AftShoulderDiameter>
+            <AftShoulderLength Unit="in">0.75</AftShoulderLength>
+            <Length Unit="in">0.50</Length>
+            <Thickness Unit="mm">1.0</Thickness>
+        </Transition>
+
+        <Transition>
+            <Manufacturer>Quest</Manufacturer>
+            <PartNumber>3530_short, Q21071</PartNumber>
+            <Description>Transition, plastic, 30mm to 35mm, black, increasing, 0.5" length</Description>
+            <Material Type="BULK">Polystyrene, bulk</Material>
+            <Mass Unit="g">7.1</Mass>
+            <Shape>CONICAL</Shape>
+            <ForeOutsideDiameter Unit="mm">30.0</ForeOutsideDiameter>
+            <ForeShoulderDiameter Unit="mm">28.9</ForeShoulderDiameter>
+            <ForeShoulderLength Unit="in">0.75</ForeShoulderLength>
+            <AftOutsideDiameter Unit="mm">35.0</AftOutsideDiameter>
+            <AftShoulderDiameter Unit="mm">33.9</AftShoulderDiameter>
+            <AftShoulderLength Unit="in">0.75</AftShoulderLength>
+            <Length Unit="in">0.50</Length>
+            <Thickness Unit="mm">1.0</Thickness>
+        </Transition>
+
 
         <!-- ======================== -->
         <!-- Parachutes and Streamers -->
@@ -835,24 +1015,67 @@ Parachute and streamer
         <Parachute>
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>7810</PartNumber>
-            <Description>14 in Plastic Parachute</Description>
-            <Material Type="SURFACE">Polyethylene LDPE</Material>
-            <Mass Unit="kg">0.0283495231</Mass>
-            <Diameter Unit="m">0.35559999999999997</Diameter>
+            <Description>Parachute, plastic, 0.75 mil, 14" diam</Description>
+            <Material Type="SURFACE">Polyethylene film, HDPE, 0.75 mil, bare</Material>
+            <Diameter Unit="in">14.0</Diameter>
             <Sides>6</Sides>
             <LineCount>6</LineCount>
-            <LineLength Unit="m">0.35559999999999997</LineLength>
-            <LineMaterial Type="LINE">Carpet String</LineMaterial>
+            <LineLength Unit="in">14.0</LineLength>
+            <LineMaterial Type="LINE">Carpet Thread</LineMaterial>
         </Parachute>
         <Streamer>
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>7811</PartNumber>
-            <Description>Streamer 3in x 36in (2mil Plastic)</Description>
-            <Material Type="SURFACE">Polyethylene LDPE</Material>
-            <Length Unit="m">0.9144</Length>
-            <Width Unit="m">0.07619999999999999</Width>
-            <Thickness Unit="m">2.54E-5</Thickness>
+            <Description>Streamer, plastic, 2.0 mil, 3 x 36"</Description>
+            <Material Type="SURFACE">Polyethylene film, HDPE, 2.0 mil, bare</Material>
+            <Length Unit="in">36.0</Length>
+            <Width Unit="in">3.0</Width>
+            <Thickness Unit="in">0.002</Thickness>
         </Streamer>
+
+        <!-- =========== -->
+        <!-- Launch Lugs -->
+        <!-- =========== -->
+
+        <LaunchLug>
+            <Manufacturer>Quest</Manufacturer>
+            <PartNumber>Q10000</PartNumber>
+            <Description>Launch lug, paper, 1/8 x 1.0 in</Description>
+            <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+            <InsideDiameter Unit="in">0.156</InsideDiameter>
+            <OutsideDiameter Unit="in">0.173</OutsideDiameter>
+            <Length Unit="in">1.0</Length>
+        </LaunchLug>
+
+        <LaunchLug>
+            <Manufacturer>Quest</Manufacturer>
+            <PartNumber>Q10001</PartNumber>
+            <Description>Launch lug, paper, 1/8 x 2.0 in</Description>
+            <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+            <InsideDiameter Unit="in">0.156</InsideDiameter>
+            <OutsideDiameter Unit="in">0.173</OutsideDiameter>
+            <Length Unit="in">2.0</Length>
+        </LaunchLug>
+
+        <LaunchLug>
+            <Manufacturer>Quest</Manufacturer>
+            <PartNumber>Q10009</PartNumber>
+            <Description>Launch lug, paper, 1/8 x 2.75 in</Description>
+            <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+            <InsideDiameter Unit="in">0.156</InsideDiameter>
+            <OutsideDiameter Unit="in">0.173</OutsideDiameter>
+            <Length Unit="in">2.75</Length>
+        </LaunchLug>
+
+        <LaunchLug>
+            <Manufacturer>Quest</Manufacturer>
+            <PartNumber>Q10008</PartNumber>
+            <Description>Launch lug, paper, 1/8 x 3.0 in</Description>
+            <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+            <InsideDiameter Unit="in">0.156</InsideDiameter>
+            <OutsideDiameter Unit="in">0.173</OutsideDiameter>
+            <Length Unit="in">3.0</Length>
+        </LaunchLug>
 
     </Components>
 </OpenRocketComponent>
