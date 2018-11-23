@@ -2,6 +2,47 @@
 
 Here are release notes from non-recent versions of the OpenRocket parts database.
 
+0.9.1.3 - 2 Oct 2018
+* Additions
+  * LOC: added phenolic tubes that recently appeared on the website
+
+0.9.1.2 - 24 Sep 2018
+* Fixes
+  * Semroc: Nose cone shoulder lengths corrected to mfg drawings for:
+      BC-200xx, BC-225xx
+  * LOC: Add 2018 website tube specs to tube_data.txt
+
+0.9.1.1 - 14 Sep 2018
+* Fixes
+  * Semroc: BC-2ET Apollo escape NC/nozzle unit split into 2 correct pieces
+  * Semroc: BC-1674 length is stated as 7.4", but mfg drawings scale out to 7.25".
+  * Semroc: Note discontinuance of BC-175, BC-225, BC-275 nose cones as of 2018
+  * Semroc: Nose cone shoulder length validation/correction for:
+      BC-125xx, BC-13xx, BC-150xx, BC-16xx, BC-175xx, BC-18xx, BC-20xx
+* Additions
+  * Semroc: EBR-xx ejection baffle rings, fiber and plywood.
+  * Semroc: BC-16838 "special" nose cone for 1.75" OD tube, from new eRockets site.  Matches no known tube size.
+
+0.9.1 - 2 Sep 2018
+* A minor release at last, based on bringing the Semroc file above 99% complete.
+
+0.9.0.19 - 2 Sep 2018
+* Fixes
+  * Semroc: Add missing Semroc BTC-70HY and fix mass of Semroc BTC-70VY, was swapped with BTC-70HY
+  * Semroc: Fix part number of BC-1022 (was BC-10222)
+  * Semroc: BC-10xx, BC-11xx, BC-12xx - Fix shoulder lengths to match scaled drawings
+  * Semroc: Fix length of BC-1045RR to match drawing.
+  * Estes: Remove asterisk from Estes LaunchLug_0.25_x_2.0 PN to avoid PN handling bug in OR
+  * Estes: Add missing carpet thread material to estes_classic file, shroud lines had no mass
+* Additions
+  * Semroc: Finished off balsa reducers, metric nose cones, launch lugs, parachutes and streamers
+  * Semroc: Add missing BC-1338B
+  * Estes: New file with extended discussion of Estes history and brands
+  * Giant Leap Rocketry: Added info on company history and data availability
+  * LOC: Obtained several missing centering ring thicknesses
+  * LOC: Noted some data inconsistencies on sub-1-inch LOC tubes
+  * AVI: Add discussion section
+
 0.9.0.18 - Mar/Apr 2018
 * Fixes
   * Corrected note about parts filtering - functionality exists but is effectively hidden by near zero-width field in UI.
