@@ -238,7 +238,12 @@ none known
             <Length Unit="in">30.0</Length>
         </BodyTube>
 
-        <!-- 18mm motor mount tube is a slip fit inside a 20mm body tube.  Had no PN on 2009 website. -->
+        <!-- 18mm motor mount tube is a slip fit inside a 20mm body tube.  Had no PN on 2009 website.
+             I have an actual instance of this tube from a recent (2016?) Striker AGM kit.  It is
+             yellow and very flimsy.  I get a wall thickness of 0.32 mm but it is hard to measure
+             accurately as the tube is very soft and compressible.  Outside diameter over an engine block as
+             support is 18.65mm.  Measured length is 2.687".  Wall .032 mm would give an ID of 18.01 mm.
+             This is close enough to the factory specs to stick with those.  -->
         <BodyTube>
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>Q10303</PartNumber>
@@ -246,9 +251,8 @@ none known
             <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
             <InsideDiameter Unit="mm">18.08</InsideDiameter>
             <OutsideDiameter Unit="mm">18.75</OutsideDiameter>
-            <Length Unit="in">30.0</Length>
+            <Length Unit="in">2.6875</Length>
         </BodyTube>
-
         
         <!-- Legacy listing of 20mm tube in 30" length with old style PN -->
         <BodyTube>
@@ -294,7 +298,6 @@ none known
             <OutsideDiameter Unit="mm">23.9</OutsideDiameter>
             <Length Unit="in">2.75</Length>
         </BodyTube>
-
 
         <!-- Clear 25mm x 4" payload tube exists on 2018 website -->
         <BodyTube>
@@ -435,13 +438,15 @@ none known
           <Length Unit="in">0.25</Length>
         </EngineBlock>
 
-        <!-- 18mm thrust ring.  Dimensions are specified on 2018 website. -->
+        <!-- 18mm thrust ring.  Dimensions are specified on 2018 website. However a recent sample
+             from the 2016-2081 timeframe has ID of 13.6mm and OD of 18.0 mm.  I'm going with the
+             measured ID here since it's 0.6mm different than spec. -->
         <EngineBlock>
             <Manufacturer>Quest Aerospace</Manufacturer>
             <PartNumber>Q14000</PartNumber>
             <Description>Engine block, fiber, 18mm, 0.25" len, PN Q14000</Description>
             <Material Type="BULK">Fiber, bulk</Material>
-            <InsideDiameter Unit="mm">13.0</InsideDiameter>
+            <InsideDiameter Unit="mm">13.6</InsideDiameter>
             <OutsideDiameter Unit="mm">18.0</OutsideDiameter>
             <Length Unit="in">0.25</Length>
         </EngineBlock>
@@ -660,7 +665,8 @@ none known
 
         <!-- Plastic nose cones -->
         <!-- Original OR file has thickness of all the PNCs at 3.175mm, way too high.
-             All had mass overrides, data source unknown but the masses look reasonable. -->
+             All had mass overrides, data source unknown but the masses look reasonable.
+             Thicknesses set to match a sample of PNC35Nike that I have.  -->
 
         <!-- 15mm plastic nose, no base.  Original OR file had mass override 2.3 gm -->
         <NoseCone>
@@ -674,7 +680,7 @@ none known
             <ShoulderDiameter Unit="mm">13.9</ShoulderDiameter>
             <ShoulderLength Unit="in">0.25</ShoulderLength>
             <Length Unit="in">1.0</Length>
-            <Thickness Unit="mm">3.175</Thickness>
+            <Thickness Unit="mm">1.3</Thickness>
         </NoseCone>
 
         <!-- PNC20 is black blowmolded 1-piece.  OR mass override was 2.8 gm -->
@@ -689,7 +695,7 @@ none known
             <ShoulderDiameter Unit="mm">19.0</ShoulderDiameter>
             <ShoulderLength Unit="in">0.5</ShoulderLength>
             <Length Unit="in">2.5</Length>
-            <Thickness Unit="mm">3.175</Thickness>
+            <Thickness Unit="mm">1.3</Thickness>
         </NoseCone>
 
         <!-- PNC25 exists on the 2009 site, but there is no 25mm nose cone on the 2018 website.
@@ -706,7 +712,7 @@ none known
             <ShoulderDiameter Unit="mm">23.9</ShoulderDiameter>
             <ShoulderLength Unit="in">0.5</ShoulderLength>
             <Length Unit="in">3.125</Length>
-            <Thickness Unit="mm">3.175</Thickness>
+            <Thickness Unit="mm">1.3</Thickness>
         </NoseCone>
 
         <!-- PNC30 is listed on 2009 site as a 3.25" ogive without base.  Original OR file
@@ -722,7 +728,7 @@ none known
             <ShoulderDiameter Unit="m">28.9</ShoulderDiameter>
             <ShoulderLength Unit="in">0.75</ShoulderLength>
             <Length Unit="in">3.25</Length>
-            <Thickness Unit="mm">3.175</Thickness>
+            <Thickness Unit="mm">1.3</Thickness>
         </NoseCone>
 
         <!-- PNC35 is listed on 2009 site as 4.25" one piece blowmolded ogive; OR file has mass 10.2 gm and
@@ -738,7 +744,7 @@ none known
             <ShoulderDiameter Unit="mm">33.9</ShoulderDiameter>
             <ShoulderLength Unit="in">0.75</ShoulderLength>
             <Length Unit="in">4.25</Length>
-            <Thickness Unit="mm">3.175</Thickness>
+            <Thickness Unit="mm">1.3</Thickness>
         </NoseCone>
 
         <!-- PNC35B2 is 4.5" white blowmolded X-15 nose cone, white in 2018 site. OR file has mass 12.2 gm
@@ -754,23 +760,28 @@ none known
             <ShoulderDiameter Unit="mm">33.9</ShoulderDiameter>
             <ShoulderLength Unit="in">0.75</ShoulderLength>
             <Length Unit="in">4.5</Length>
-            <Thickness Unit="mm">3.175</Thickness>
+            <Thickness Unit="mm">1.3</Thickness>
         </NoseCone>
 
-        <!-- PNC35Nike is an 8.0" 2-piece white injection molded cone with separate tip.  Length given as
-             8" on 2009 site.  OR file has mass 25.5 gm, shoulder length 0.75".  -->
+        <!-- PNC35Nike is an 8.0" 2-piece clamshell white injection molded cone with separate tip.  Length given as
+             8" on 2009 site.  OR file has mass 25.5 gm, shoulder length 0.75".
+             I have acquired an actual example that is missing the tip piece.  Shoulder length is 0.75",
+             exposed length without the tip is 7.925", and shoulder diam on the ribbed shoulder is 33.70mm
+             when avoiding the ribs, and 33.9 mm across the ribs.  Mass is 23.0 gm without the tip.  The missing
+             tip is well under 1 gram so I'm putting the total mass at 23.5 gm based on this measurement. Wall
+             thickness samples run from 1.25 to 1.40 mm so adopting 1.3 mm here. -->
         <NoseCone>
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>PNC35Nike, Q20201</PartNumber>
             <Description>Nose cone, plastic, 35mm, white, Nike Smoke, 8.0", PN PNC35Nike/Q20201</Description>
             <Material Type="BULK">Polystyrene, bulk</Material>
-            <Mass Unit="g">25.5</Mass>
+            <Mass Unit="g">23.5</Mass>
             <Shape>CONICAL</Shape>
             <OutsideDiameter Unit="mm">35.0</OutsideDiameter>
-            <ShoulderDiameter Unit="mm">33.9</ShoulderDiameter>
+            <ShoulderDiameter Unit="mm">33.7</ShoulderDiameter>
             <ShoulderLength Unit="in">0.75</ShoulderLength>
             <Length Unit="in">8.0</Length>
-            <Thickness Unit="mm">3.175</Thickness>
+            <Thickness Unit="mm">1.3</Thickness>
         </NoseCone>
 
         <!-- PNC35Egg / Q20224 is a black blowmolded cut-apart egg capsule.  2018 site says max diam is 1.9"
@@ -789,7 +800,7 @@ none known
             <ShoulderDiameter Unit="mm">33.9</ShoulderDiameter>
             <ShoulderLength Unit="in">1.0</ShoulderLength>
             <Length Unit="in">5.0</Length>
-            <Thickness Unit="mm">1.0</Thickness>
+            <Thickness Unit="mm">1.3</Thickness>
         </NoseCone>
 
         <!-- PNC40 is a 2.5" white one piece blowmoded ellipsoid.  OR file has
@@ -805,7 +816,7 @@ none known
             <ShoulderDiameter Unit="mm">38.8</ShoulderDiameter>
             <ShoulderLength Unit="in">0.75</ShoulderLength>
             <Length Unit="in">2.5</Length>
-            <Thickness Unit="mm">3.175</Thickness>
+            <Thickness Unit="mm">1.3</Thickness>
         </NoseCone>
 
         <!-- PNC50 is a 6.0" white blowmold.  OR file had mass 42.5 gm, shoulder len 2.25".  Data on 2018 site
@@ -821,7 +832,7 @@ none known
             <ShoulderDiameter Unit="mm">48.7</ShoulderDiameter>
             <ShoulderLength Unit="in">2.5</ShoulderLength>
             <Length Unit="in">6.0</Length>
-            <Thickness Unit="mm">3.175</Thickness>
+            <Thickness Unit="mm">1.3</Thickness>
         </NoseCone>
 
         <!-- =========== -->
@@ -934,21 +945,23 @@ none known
 
         <!-- NOTE - there are two 3530 reducers listed on both the 2009 and 2018 sites.  They are not the
              same.  Q21056 has .75" exposed length and .5 and .375 shoulders, while Q21071 has .5" exposed
-             length and 0.75" shoulders on both ends. To make matters worse, the photos look to be swapped! -->
+             length and 0.75" shoulders on both ends. To make matters worse, the photos look to be swapped!
+             Also the color of Q21056 can be black or white (website photo is black but I have a white instance)
+             On my example, the T35 shoulder diam is 33.66mm and the T30 shoulder diam is 28.66 mm -->
 
         <!-- 3530 transition Q21056 per 2018 website is 0.75" long, shoulder 0.50 on 35mm end and 0.375" on 30mm end -->
         <Transition>
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>3530 [R], Q21056 [R]</PartNumber>
-            <Description>Transition, plastic, 35mm to 30mm, black, decreasing, 0.75" length</Description>
+            <Description>Transition, plastic, 35mm to 30mm, white/black, decreasing, 0.75" length</Description>
             <Material Type="BULK">Polystyrene, bulk</Material>
             <Mass Unit="g">7.1</Mass>
             <Shape>CONICAL</Shape>
             <ForeOutsideDiameter Unit="mm">35.0</ForeOutsideDiameter>
-            <ForeShoulderDiameter Unit="mm">33.9</ForeShoulderDiameter>
+            <ForeShoulderDiameter Unit="mm">33.66</ForeShoulderDiameter>
             <ForeShoulderLength Unit="in">0.50</ForeShoulderLength>
             <AftOutsideDiameter Unit="mm">30.0</AftOutsideDiameter>
-            <AftShoulderDiameter Unit="mm">28.9</AftShoulderDiameter>
+            <AftShoulderDiameter Unit="mm">28.66</AftShoulderDiameter>
             <AftShoulderLength Unit="in">0.375</AftShoulderLength>
             <Length Unit="in">0.75</Length>
             <Thickness Unit="mm">1.0</Thickness>
@@ -957,15 +970,15 @@ none known
         <Transition>
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>3530, Q21056</PartNumber>
-            <Description>Transition, plastic, 30mm to 35mm, black, increasing, 0.75" length</Description>
+            <Description>Transition, plastic, 30mm to 35mm, white/black, increasing, 0.75" length</Description>
             <Material Type="BULK">Polystyrene, bulk</Material>
             <Mass Unit="g">7.1</Mass>
             <Shape>CONICAL</Shape>
             <ForeOutsideDiameter Unit="mm">30.0</ForeOutsideDiameter>
-            <ForeShoulderDiameter Unit="mm">28.9</ForeShoulderDiameter>
+            <ForeShoulderDiameter Unit="mm">28.66</ForeShoulderDiameter>
             <ForeShoulderLength Unit="in">0.375</ForeShoulderLength>
             <AftOutsideDiameter Unit="mm">35.0</AftOutsideDiameter>
-            <AftShoulderDiameter Unit="mm">33.9</AftShoulderDiameter>
+            <AftShoulderDiameter Unit="mm">33.66</AftShoulderDiameter>
             <AftShoulderLength Unit="in">0.50</AftShoulderLength>
             <Length Unit="in">0.75</Length>
             <Thickness Unit="mm">1.0</Thickness>
@@ -1012,6 +1025,7 @@ none known
         <!-- Parachutes and Streamers -->
         <!-- ======================== -->
 
+        <!-- PN 7810 14" parachute - acquired a sample of this.  -->
         <Parachute>
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>7810</PartNumber>
@@ -1020,7 +1034,7 @@ none known
             <Diameter Unit="in">14.0</Diameter>
             <Sides>6</Sides>
             <LineCount>6</LineCount>
-            <LineLength Unit="in">14.0</LineLength>
+            <LineLength Unit="in">13.0</LineLength>
             <LineMaterial Type="LINE">Carpet Thread</LineMaterial>
         </Parachute>
         <Streamer>

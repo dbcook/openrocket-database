@@ -27,6 +27,17 @@ System compatibility:  works anywhere OpenRocket can run
 
 ## Release Notes
 
+0.9.1.5 - Dec 2018
+* Fixes
+   * Quest - Q10303 18mm motor mount tube - fix length to 2.6875", was 30"
+   * Quest - 18mm thrust ring - set ID to measured value of 13.6 mm
+   * Quest - 30-35mm transition Q21056 - set shoulder diameters to measured values
+   * Quest - PNC35Nike - add some measurement info and make minor corrections to values
+   * Quest - all plastic NC - set thickness to 1.3mm based on an actual instance
+   * Quest - Q7810 14" parachute - set shroud length to match actual instance.
+* Additions
+
+
 0.9.1.4 - Nov 2018
 * Fixes
    * Estes: PK-18 and all other 18" chutes: line length is in inches, not meters.
