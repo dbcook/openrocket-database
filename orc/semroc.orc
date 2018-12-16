@@ -2,14 +2,17 @@
 <!--
 SEMROC parts file for OpenRocket
 
-by Dave Cook NAR 21953  caveduck17@gmail.com 2017-2018
+Copyright 2017-2018 by Dave Cook NAR 21953  caveduck17@gmail.com
 
-This file provides parts definitions for SEMROC products.  It has been adapted from the original
+See the file LICENSE in this distribution for license information.
+
+This file provides parts definitions for SEMROC products.  It has been rewritten from the original
 semroc.orc distributed with OpenRocket 15.03 with various improvements:
 
     * Descriptions normalized to comma-separated list of attributes in increasing specificity
     * Material types all matched to generic_materials.orc
-    * Dimension units changed to those specified in reference materials such as catalogs
+    * Only lists materials that are referenced in this file
+    * Dimension units are those specified in reference materials such as catalogs
     * Excess significant digits removed from dimensions; generally kept 3-4 significant figures
     * Unspecified or missing dimensions estimated by photogrammetry of drawings and photos
     * Numerous dimension/mass/material/part number errors fixed (sorry, WAY too many to list)
@@ -18,7 +21,7 @@ semroc.orc distributed with OpenRocket 15.03 with various improvements:
 Semroc carries a vast line of model rocketry parts including a comprehensive set of equivalent
 parts for the Estes and Centuri lines, as well as some MPC/Quest metric tube sizes, and even some
 Aerotech tubes.  Thus, there is a lot of overlap between this file and the separate Estes and (future)
-Centuri files.  There are a few - only a few - differences.  Semroc only makes balsa nose cones,
+Centuri files.  Semroc only makes balsa nose cones,
 so they have made shape-identical balsa nose cones for many Estes and Centuri plastic nose cones.
 
 Using this file:
