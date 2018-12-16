@@ -34,7 +34,7 @@ System compatibility:  works anywhere OpenRocket can run
    * Quest - 30-35mm transition Q21056 - set shoulder diameters to measured values
    * Quest - PNC35Nike - add some measurement info and make minor corrections to values
    * Quest - all plastic NC - set thickness to 1.3mm based on an actual instance
-   * Quest - Q7810 14" parachute - set shroud length to match actual instance.
+   * Quest - Q7810 14" parachute - set thickness and shroud length to match actual instance.
 * Additions
 
 
