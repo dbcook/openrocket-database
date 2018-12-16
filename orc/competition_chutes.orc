@@ -3,7 +3,9 @@
 
 Competition parachutes and streamers database file for OpenRocket
 
-by Dave Cook  NAR 21953  caveduck17@gmail.com 2017
+Copyright 2017 by Dave Cook  NAR 21953  caveduck17@gmail.com
+
+See the file LICENSE in this distribution for license information.
 
 This file defines an array of sizes of competition parachutes and streamers in
 various thicknesses.
