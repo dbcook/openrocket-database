@@ -1236,8 +1236,11 @@
       
       <!-- HDPE bag / tube film
            Atlanticpoly.com indicates that HDPE film can be had in 1-micron increments from 5 microns (.19 mil)
-           on up.  So we choose here a set of thicknesses 0.30, .40, 0.50, 0.75, 1.0  and 2.0 mils to cover the
+           on up.  So we choose here a set of thicknesses 0.30, .40, 0.50, 0.75, 1.0, 1.75 and 2.0 mils to cover the
            useful range for model rocket parachutes and streamers.  Poly sheet is not used in any higher thicknesses because ripstop nylon is far superior.
+
+           As of 2018, clear poly dry clean bags are commonly available in 0.8 and 1.0 mil thicknesses.
+           Estes printed poly parachutes at this date are now 1.75 mils thick.
       -->
 
       <!-- Bare poly film (cleaner bag type) -->
@@ -1256,14 +1259,28 @@
             <Density>0.0117</Density>
             <Type>SURFACE</Type>
         </Material>
+        <!-- legacy Estes parachutes ca. 1970s to 1980s were about 3/4 mil -->
         <Material UnitsOfMeasure="kg/m2">
             <Name>Polyethylene film, HDPE, 0.75 mil, bare</Name>
             <Density>0.0176</Density>
             <Type>SURFACE</Type>
         </Material>
+        <!-- dry clean bags are commonly available in 0.8 mil -->
+        <Material UnitsOfMeasure="kg/m2">
+            <Name>Polyethylene film, HDPE, 0.80 mil, bare</Name>
+            <Density>0.0188</Density>
+            <Type>SURFACE</Type>
+        </Material>
+        <!-- dry clean bags are commonly available in 1.0 mil -->
         <Material UnitsOfMeasure="kg/m2">
             <Name>Polyethylene film, HDPE, 1.0 mil, bare</Name>
             <Density>0.0235</Density>
+            <Type>SURFACE</Type>
+        </Material>
+        <!-- Estes typical parachutes ca. 2018 are 1.75 mil -->
+        <Material UnitsOfMeasure="kg/m2">
+            <Name>Polyethylene film, HDPE, 1.75 mil, bare</Name>
+            <Density>0.0411</Density>
             <Type>SURFACE</Type>
         </Material>
         <Material UnitsOfMeasure="kg/m2">
