@@ -2,15 +2,19 @@
 <!--
 Quest parts file for OpenRocket
 
-by Dave Cook NAR 21953  caveduck17@gmail.com 2018
+Copyright 2018 by Dave Cook NAR 21953  caveduck17@gmail.com
+
+See the file LICENSE in this distribution for license information.
 
 This file is for use with OpenRocket and provides parts definitions for Quest Aerospace products.
-It has been adapted from the original Quest.orc distributed with OpenRocket 15.03 with various improvements:
+It is completely different from the original Quest.orc distributed with OpenRocket 15.03 and
+has many improvements:
 
     * Descriptions normalized to comma-separated list of attributes in increasing specificity
     * Material types all matched to generic_materials.orc
-    * Dimension units changed to those specified in reference materials such as catalogs
-    * Excess significant digits removed from dimensions; generally kept 3-4 significant figures
+    * No materials listed that are not referenced in this file
+    * Dimension units are now those specified in reference materials such as catalogs
+    * No excess significant digits in dimensions
     * Unspecified or missing dimensions estimated by photogrammetry of drawings and photos
     * Mass overrides have been eliminated wherever feasible
     * All discovered errors fixed or documented if unresolvable
@@ -845,7 +849,7 @@ none known
             <PartNumber>2520, Q21057</PartNumber>
             <Description>Transition, plastic, 20mm to 25mm, black, increasing, 0.5" length</Description>
             <Material Type="BULK">Polystyrene, bulk</Material>
-            <Mass Unit="kg">0.00566990462</Mass>
+            <Mass Unit="g">5.7</Mass>
             <Shape>CONICAL</Shape>
             <ForeOutsideDiameter Unit="mm">20.0</ForeOutsideDiameter>
             <ForeShoulderDiameter Unit="mm">19.0</ForeShoulderDiameter>
