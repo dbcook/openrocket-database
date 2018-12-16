@@ -1,15 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!-- Generic materials file for OpenRocket            -->
-<!-- by Dave Cook  NAR 21953  dcook@caveduck.com 2014-2015 -->
-<!-- This is a heavily modified version of the materials that come with OpenRocket -->
-<!-- Improvements: -->
-<!--   * Blue tube densities from actual measurements -->
-<!--   * Paper densities from authoritative sources -->
-<!--   * Excess significant figures removed -->
-<!--   * Many materials added -->
-<!-- NOTE: Many of the materials in the original OR component files have incorrect UnitsOfMeasure -->
-<!--  attributes.  This seems to have no effect; looks like everything is actually kg/m3 -->
-<!-- ****Need to look in code and test behavior****-->
+<!-- 
+
+Generic materials file for OpenRocket
+
+Copyright 2014-2018 by Dave Cook  NAR 21953  caveduck17@gmail.com
+
+This is a much more curated materials file for OpenRocket.
+
+*** This file is not actually read or processed by OpenRocket ***
+It is here as a reference when editing the individual .orc parts database files.
+You must insert the material definitions used in any .orc directly into that .orc file.
+
+Improvements
+* Blue tube densities from actual measurements
+* Paper densities from authoritative sources
+* Excess significant figures removed
+* Many materials added
+
+NOTE: Many of the materials in the original OR component files have incorrect UnitsOfMeasure
+attributes.  This seems to have no effect; looks like everything is actually kg/m3
+
+-->
 
 <OpenRocketComponent>
     <Version>0.1</Version>

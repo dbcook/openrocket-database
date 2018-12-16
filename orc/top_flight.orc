@@ -2,7 +2,10 @@
 <!--
 top_flight.orc - Top Flight Parachutes component file for OpenRocket
 
-by Dave Cook  NAR 21953  caveduck17@gmail.com  Mar 2017
+Copyright 2017 by Dave Cook  NAR 21953  caveduck17@gmail.com
+
+See the file LICENSE in this distribution for license information.
+
 
 Top Flight gives good size, nylon thickness, and number of shrouds for its parachutes.
 However, they do not specify the mass or packing volume for their chutes, nor much information
