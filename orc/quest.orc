@@ -99,10 +99,10 @@ none known
             <Type>BULK</Type>
         </Material>
 
-        <!-- Parachute material, 3/4 mil polyethylene -->
+        <!-- recent quest parachute measured at 1.1 mil, with printing -->
         <Material UnitsOfMeasure="kg/m2">
-            <Name>Polyethylene film, HDPE, 0.75 mil, bare</Name>
-            <Density>0.0176</Density>
+            <Name>Polyethylene film, HDPE, 1.0 mil, bare</Name>
+            <Density>0.0235</Density>
             <Type>SURFACE</Type>
         </Material>
 
@@ -356,7 +356,8 @@ none known
             <Length Unit="in">30.0</Length>
         </BodyTube>
 
-        <!-- 35mm x 18" tube only exists on 2018 website -->
+        <!-- 35mm x 18" tube only exists on 2018 website.  A sample acquired in 2018 has OD of 34.93 mm
+             and ID of 34.01 mm -->
         <BodyTube>
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>Q11503</PartNumber>
@@ -1025,12 +1026,12 @@ none known
         <!-- Parachutes and Streamers -->
         <!-- ======================== -->
 
-        <!-- PN 7810 14" parachute - acquired a sample of this.  -->
+        <!-- PN 7810 14" parachute - acquired a sample of this.  Thickness including printing is 1.1 mil  -->
         <Parachute>
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>7810</PartNumber>
-            <Description>Parachute, plastic, 0.75 mil, 14" diam</Description>
-            <Material Type="SURFACE">Polyethylene film, HDPE, 0.75 mil, bare</Material>
+            <Description>Parachute, plastic, 1.0 mil, 14" diam</Description>
+            <Material Type="SURFACE">Polyethylene film, HDPE, 1.0 mil, bare</Material>
             <Diameter Unit="in">14.0</Diameter>
             <Sides>6</Sides>
             <LineCount>6</LineCount>
