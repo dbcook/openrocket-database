@@ -1,6 +1,11 @@
 Body Tube Data Tables
 =====================
 
+Copyright 2016-2018 by Dave Cook NAR 21953 caveduck17@gmail.org
+
+See the file LICENSE in this distribution for license information.
+
+
 Estes-Compatible Series
 -----------------------
 All of these listed by Semroc that match Estes designations have identical sizes.
