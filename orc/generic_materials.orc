@@ -68,6 +68,32 @@ attributes.  This seems to have no effect; looks like everything is actually kg/
             <Type>BULK</Type>
         </Material>
         
+        <!-- LOC-specific materials for tube/couplers -->
+        
+        <!-- Average values for LOC tube, coupler and stiffener parts from spreadsheet density analysis of Apogee data
+             These densities are a very good fit with everything but a few outliers -->
+        <Material UnitsOfMeasure="g/cm3">
+            <Name>Paper, kraft, LOC coupler avg</Name>
+            <Density>789.6</Density>
+            <Type>BULK</Type>
+        </Material>
+        <Material UnitsOfMeasure="g/cm3">
+            <Name>Paper, kraft, LOC coupler stiffener avg</Name>
+            <Density>603.3</Density>
+            <Type>BULK</Type>
+        </Material>
+        <Material UnitsOfMeasure="g/cm3">
+            <Name>Paper, kraft glassine, LOC tube avg</Name>
+            <Density>855.2</Density>
+            <Type>BULK</Type>
+        </Material>
+        <!-- The LOC MMTHD-3.00 and MMTHD-3.90 have much higher density -->
+        <Material UnitsOfMeasure="g/cm3">
+            <Name>Paper, kraft glassine, LOC MMTHD avg</Name>
+            <Density>1220.6</Density>
+            <Type>BULK</Type>
+        </Material>
+
         <!-- Paper product densities, many from paperonweb.com/density.htm -->
         <Material UnitsOfMeasure="g/cm3">
             <Name>Paper, tag, 0.53 g/cm3, bulk</Name>
