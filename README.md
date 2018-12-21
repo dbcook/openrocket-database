@@ -185,13 +185,31 @@ There are files I may never do, or do in very abbreviated form.
 * Fliskits - Jim Flis ceased operations of Fliskits in 2018; no unique parts except nose cones.
 * CMR - the unique tube sizes are no longer made by anyone, so very limited usefulness.
 
-Validation tests are needed to make sure that part generate reasonable masses and have
+Validation tests are needed to make sure that parts generate reasonable masses and have
 internally consistent dimensions.  I experimented with creating some `.ork` design files,
 but there are limitations to the usefulness of that due to
 how OpenRocket copies components into the .ork file, so something better is needed.
 
-At one point I started working on ideas for a Python based system to generate the XML
-files from a set of more fundamental json parameter files.  This would have many benefits:
+### Future Parts Database Organization
+
+Looking past OpenRocket, it would be useful to have a more general database of sport rocket
+parts, both current and historic.  The OpenRocket design with a collection of standalone XML files
+will not satisfy the more general needs, which include
+
+* Ability to store 2D images and 3D shape information
+* Referential consistency for materials used in parts
+* Composition (ability to define an assembly made up of other parts and assemblies)
+* Support for web applications (today this implies REST interface with json payload)
+* Query support for
+  * Parts in a designated size + tolerance, e.g. show all BT-50 compatible nose cones
+  * In-production parts
+  * Scale prototype, e.g. show Nike Smoke nose cones of any sizs
+  * Partial description, e.g. find all matching "Nose cone, balsa, BT-55"
+
+
+There is some embryonic code here for a Python based system to generate the XML
+files from a set of more fundamental json parameter files.  Although this can't
+implement everything envisioned for the general parts library, it could still have benefits:
 
 * Centralization of materials spec file
 * Guarantees all parts in a given series (e.g. BT-50 tubes) have the same ID/OD
