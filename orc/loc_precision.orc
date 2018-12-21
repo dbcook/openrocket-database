@@ -14,6 +14,10 @@ dimensions given are obviously approximate or even outright wrong.  After
 the 2016 ownership change, the website as of fall 2018 is a bit better with regard to airframe
 tube dimensions, but there remains little data about couplers, 75/98mm motor tubes, and many other items.
 
+LOC is very inconsistent on whether decimal points are included in SKU/PNs.  I have adopted
+the convention of using the decimal points since more of them seem to have that in the LOC
+literature.
+
 The best *official* LOC resource is the "2010-2012 Accessories Catalog".  However it is still
 pretty bad.
 
@@ -28,16 +32,11 @@ different values from an actual part, I've adopted the Apogee values as more lik
 Apogee has not indexed some of the LOC line including plastic transitions and the
 18mm and 24mm tubes.
 
-Many errors in the currently shipping (v 15.x as of early 2017) OpenRocket built-in LOC file have
-been corrected.  Here are a few notes from along the way:
+NOTES:
 
 * MMTHD-2.56 seems to be non-existent, though it was in the built-in OpenRocket file.
 There formerly was an entry on the LOC site for 64mm MMT but had an icon for BT-3.00
 As of Jan 2017 it is gone.  I am now pretty confident it never existed commercially.
-
-* LOC is very inconsistent on whether decimal points are included in SKU/PNs.  I have adopted
-the convention of using the decimal points since more of them seem to have that in the LOC
-literature.
 
 * The builtin OpenRocket .orc has entries for PNC-2.56, PNC-3.00 and PNC-3.90 reversed and cut for
 boattails. I kept this as potentially useful, but their authenticity as LOC parts is dubious.
@@ -65,13 +64,14 @@ generic_materials.orc.
 said to be the saem size as the cardboard tubing.  Only the 1.52 and 5.38 sizes can be selected
 in the shop, though the "additional information" tab shows all sizes from 1.52 through 7.51.
 
-* Centering rings (plywood and one fiber type) are listed in the 2010 Accessories Catalog as
-follows.  Thicknesses are not given except for a general statement that they are made from "1/8",
-3/16" and 1/4" specialty plywood".  The FCR-1.52-1.14 is the fiber centering ring.  We can infer the
-thickness of the smallest and largest rings but the range of the 3/16" thick ones is unknown.
+CENTERING RINGS AND LAUNCH LUGS:
 
-UPDATE Apr 2018: On the 2018 website, thicknesses are given for some more rings, enough to let us infer thicknesses
-for all the ones not explicitly given somewhere.
+Centering rings (plywood and one fiber type) are listed in the 2010 Accessories Catalog as
+follows.  Thicknesses were mostly not given except for a general statement that they are made from "1/8",
+3/16" and 1/4" specialty plywood".  The FCR-1.52-1.14 is the fiber centering ring.
+
+UPDATE Apr 2018: On the 2018 website, thicknesses are given for more rings, enough to let us
+infer thicknesses for all the ones not explicitly given somewhere.
 
 FCR-1.52-1.14
 CR-2.14-0.95        0.125 (inferred)
