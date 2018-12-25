@@ -35,6 +35,8 @@ System compatibility:  works anywhere OpenRocket can run
    * Quest - PNC35Nike - add some measurement info and make minor corrections to values
    * Quest - all plastic NC - set thickness to 1.3mm based on an actual instance
    * Quest - Q7810 14" parachute - set thickness and shroud length to match actual instance.
+   * Semroc - make sure all Centuri nose cone cross-refs are referenced in the .orc
+   * Semroc - resume fixing up NC shoulder lengths in BC-8xx series
 * Additions
 
 

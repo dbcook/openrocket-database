@@ -33,6 +33,29 @@ Using this file:
     You need to restart OpenRocket after adding these files before the parts will be
     available.
 
+LINKS
+=====
+Classic parts cross reference: http://www.semroc.com/Store/scripts/xref.asp
+   This chart lists cross-references for Semroc PNs matching Centuri PNs.
+   It's notable for tabulatingg the years of production for Centuri and FSI parts.
+   It appears that certain Semroc parts listed there may have never actually existed because the
+   Semroc PNs don't appear anywhere else on either the leggacy or new site.
+   These "unimplemented" Semroc PNs are:
+      BC-1057  = Centuri BC-109
+      BC-27567 = Centuri BC-275B
+      BC-27563 = Centuri BC-275C
+      BNC-5A   = Estes PNC-5A
+      BNC-50S  = Estes PNC-50S
+      BNC-55AZ = Estes BNC-55AZ
+    In a twist, there are also 3 "old Semroc" nose cones that were never assigned "new Semroc" PNs,
+    possibly because they were obsolete tube sizes.  No "new Semroc" nose cones are listed in
+    the 600 and 900 series.  All of the "old Semroco" nose cones were listed as having been
+    produced in 1968-1971.
+      NB-607
+      NB-611
+      NB-908
+
+
 DONE
 ====
 Body tubes
@@ -12380,7 +12403,7 @@ none known
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-522P</PartNumber>
-      <Description>Nose cone, balsa, ST-5, 2.25", ogive, PN BC-522P</Description>
+      <Description>Nose cone, balsa, ST-5, 2.25", ogive, Centuri PNC-54 shape, PN BC-522P</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
@@ -13525,7 +13548,7 @@ none known
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-734</PartNumber>
-      <Description>Nose cone, balsa, ST-7, 3.4", ogive-cyl-conical, Centuri BC-78 equiv, PN BC-734</Description>
+      <Description>Nose cone, balsa, ST-7, 3.4", ogive-cyl-conical, Centuri BC-78, PN BC-734</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Mass Unit="oz">0.05</Mass>
       <Filled>true</Filled>
@@ -13934,7 +13957,7 @@ none known
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-819</PartNumber>
-      <Description>Nose cone, balsa, ST-8, 1.9", ogive, Centuri BC-82 shape, PN BC-819</Description>
+      <Description>Nose cone, balsa, ST-8, 1.9", ogive, Centuri BC-82, PN BC-819</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
@@ -14275,57 +14298,65 @@ none known
       <Length Unit="in">4.17</Length>
     </NoseCone>
 
-    <!-- *** CORRECTING SHOULDER LENGTHS ETC. HERE *** -->
 
-
+    <!-- BC-840 is a 4.0" ellipsoid, shoulder 0.68" -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-840</PartNumber>
-      <Description>Nose cone, balsa, BC-840, 4.0", elliptical</Description>
+      <Description>Nose cone, balsa, ST-8, 4.0", ellipsoid, PN BC-840</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
       <OutsideDiameter Unit="in">0.908</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.863</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">4.0</Length>
     </NoseCone>
+
+    <!-- BC-845 is a 4.5" 5:1 ogive, shoulder 0.68" -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-845</PartNumber>
-      <Description>Nose cone, balsa, BC-845, 4.5", ogive</Description>
+      <Description>Nose cone, balsa, ST-8, 4.5", 5:1 ogive, PN BC-845</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">0.908</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.863</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">4.5</Length>
     </NoseCone>
+
+    <!-- BC-845P is a 4.5" ellipsoid (called rounded ogive), shoulder 0.68" -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-845P</PartNumber>
-      <Description>Nose cone, balsa, BC-845P, 4.5", rounded ogive</Description>
+      <Description>Nose cone, balsa, ST-8, 4.5", rounded ogive, PN BC-845P</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
       <OutsideDiameter Unit="in">0.908</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.863</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">4.5</Length>
     </NoseCone>
+
+    <!-- BC-846G is a 4.6" ogive, shoulder 0.68", Centuri PNC-89 -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-846</PartNumber>
-      <Description>Nose cone, balsa, BC-846, 4.6", rounded ogive, Centuri PNC-89</Description>
+      <Description>Nose cone, balsa, ST-8, 4.6", rounded ogive, Centuri PNC-89 shape, PN BC-846G</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">0.908</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.863</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">4.6</Length>
     </NoseCone>
+
+    <!-- *** CORRECTING SHOULDER LENGTHS ETC. HERE *** -->
+
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-846G</PartNumber>
@@ -15574,7 +15605,7 @@ none known
     <NoseCone>
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BC-1041G</PartNumber>
-        <Description>Nose cone, balsa, ST-10, 4.1", ellipsoid, upscale of Centuri PNC-76</Description>
+        <Description>Nose cone, balsa, ST-10, 4.1", ellipsoid, Centuri PNC-76 upscale, PN BC-1041GG</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>ELLIPSOID</Shape>
@@ -15588,7 +15619,7 @@ none known
     <NoseCone>
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BC-1041P</PartNumber>
-        <Description>Nose cone, balsa, ST-10, 4.1", ellipsoid, Centuri PNC-103</Description>
+        <Description>Nose cone, balsa, ST-10, 4.1", ellipsoid, Centuri PNC-103 shape, PN BC-1041P</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>ELLIPSOID</Shape>
@@ -15616,7 +15647,7 @@ none known
     <NoseCone>
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BC-1042AC</PartNumber>
-        <Description>Nose cone, balsa, ST-10, 4.2", secant ogive, downscale of Estes BNC-55AC</Description>
+        <Description>Nose cone, balsa, ST-10, 4.2", secant ogive, Estes BNC-55AC downscale, PN BC-1042AC</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>OGIVE</Shape>
@@ -15632,7 +15663,7 @@ none known
     <NoseCone>
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BC-1043</PartNumber>
-        <Description>Nose cone, balsa, ST-10, 4.46", flared double cone, Centuri PNC-102</Description>
+        <Description>Nose cone, balsa, ST-10, 4.46", flared double cone, Centuri PNC-102 shape, PN BC-1043</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>ELLIPSOID</Shape>
@@ -15678,7 +15709,7 @@ none known
     <NoseCone>
         <Manufacturer>Semroc</Manufacturer>
         <PartNumber>BC-1045P</PartNumber>
-        <Description>Nose cone, balsa, ST-10, 4.5", rounded ogive, Centuri PNC-106</Description>
+        <Description>Nose cone, balsa, ST-10, 4.5", rounded ogive, Centuri PNC-106 shape, PN BC-1045P</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Filled>true</Filled>
         <Shape>OGIVE</Shape>
@@ -16057,7 +16088,7 @@ none known
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-11535</PartNumber>
-      <Description>Nose cone, balsa, LT-115, 3.5", round tip ogive, PN BC-11535</Description>
+      <Description>Nose cone, balsa, LT-115, 3.5", round tip ogive, Centuri BC-115A, PN BC-11535</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
@@ -16707,7 +16738,7 @@ none known
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1327</PartNumber>
-      <Description>Nose cone, balsa, ST-13, 2.7", ellipsoid, Centuri PNC-132 shape</Description>
+      <Description>Nose cone, balsa, ST-13, 2.7", ellipsoid, Centuri PNC-132 shape, PN BC-1327</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
@@ -16834,7 +16865,7 @@ none known
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1339</PartNumber>
-      <Description>Nose cone, balsa, ST-13, 3.9", rounded ogive</Description>
+      <Description>Nose cone, balsa, ST-13, 3.9", rounded ogive, Centuri BC-135, PN BC-1339</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
@@ -17021,7 +17052,7 @@ none known
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1364</PartNumber>
-      <Description>Nose cone, balsa, ST-13, 6.4", rounded tip ogive</Description>
+      <Description>Nose cone, balsa, ST-13, 6.4", rounded tip ogive, Centuri PNC-136 shape, PN BC-1364</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
@@ -17097,7 +17128,7 @@ none known
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-12536</PartNumber>
-      <Description>Nose cone, balsa, LT-125, 3.6", ogive, Centuri BC-125A clone, PN BC-12536</Description>
+      <Description>Nose cone, balsa, LT-125, 3.6", ogive, Centuri BC-125A, PN BC-12536</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
@@ -17153,7 +17184,7 @@ none known
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-12555</PartNumber>
-      <Description>Nose cone, balsa, LT-125, 5.5", ogive, Centuri BC-125B clone, PN BC-12555</Description>
+      <Description>Nose cone, balsa, LT-125, 5.5", ogive, Centuri BC-125B, PN BC-12555</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
@@ -18218,7 +18249,7 @@ none known
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1625</PartNumber>
-      <Description>Nose cone, balsa, ST-16, 2.5", ellipsoid, Centuri BC-160 clone, PN BC-1625</Description>
+      <Description>Nose cone, balsa, ST-16, 2.5", ellipsoid, Centuri BC-160, PN BC-1625</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
@@ -18232,7 +18263,7 @@ none known
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1625P</PartNumber>
-      <Description>Nose cone, balsa, ST-16, 2.5", ellipsoid, Centuri PNC-160 clone, PN BC-1625P</Description>
+      <Description>Nose cone, balsa, ST-16, 2.5", ellipsoid, Centuri PNC-160 shape, PN BC-1625P</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
@@ -18260,7 +18291,7 @@ none known
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1633</PartNumber>
-      <Description>Nose cone, balsa, ST-16, 3.3", capsule, Centuri BC-164 clone, PN BC-1633</Description>
+      <Description>Nose cone, balsa, ST-16, 3.3", capsule, Centuri BC-164, PN BC-1633</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
@@ -18275,7 +18306,7 @@ none known
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1634</PartNumber>
-      <Description>Nose cone, balsa, ST-16, 3.4", ogive, Centuri BC-162 clone, PN BC-1634</Description>
+      <Description>Nose cone, balsa, ST-16, 3.4", ogive, Centuri BC-162, PN BC-1634</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
@@ -18390,7 +18421,7 @@ none known
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-1655</PartNumber>
-      <Description>Nose cone, balsa, ST-16, 5.5", ogive, Centuri PNC-165 clone, PN BC-1655</Description>
+      <Description>Nose cone, balsa, ST-16, 5.5", ogive, Centuri PNC-165 shape, PN BC-1655</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
@@ -18925,7 +18956,7 @@ none known
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-17541</PartNumber>
-      <Description>Nose cone, balsa, LT-175, 4.1", ogive, Centuri BC-175A clone, PN BC-17541</Description>
+      <Description>Nose cone, balsa, LT-175, 4.1", ogive, Centuri BC-175A, PN BC-17541</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
@@ -18967,7 +18998,7 @@ none known
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-17567</PartNumber>
-      <Description>Nose cone, balsa, LT-175, 6.7", ogive, Centuri BC-175B clone, PN BC-17567</Description>
+      <Description>Nose cone, balsa, LT-175, 6.7", ogive, Centuri BC-175B, PN BC-17567</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
@@ -18996,7 +19027,7 @@ none known
     <NoseCone>
       <Manufacturer>Semroc</Manufacturer>
       <PartNumber>BC-17582</PartNumber>
-      <Description>Nose cone, balsa, LT-175, 8.2", conic+ogive, Centuri BC-175C clone, PN BC-17582</Description>
+      <Description>Nose cone, balsa, LT-175, 8.2", conic+ogive, Centuri BC-175C, PN BC-17582</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
@@ -19077,7 +19108,7 @@ none known
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-2025</PartNumber>
-      <Description>Nose cone, balsa, ST-20, 2.5", ellipsoid, Centuri BC-200 clone, PN BC-2025</Description>
+      <Description>Nose cone, balsa, ST-20, 2.5", ellipsoid, Centuri BC-200, PN BC-2025</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
@@ -19122,7 +19153,7 @@ none known
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-2032</PartNumber>
-      <Description>Nose cone, balsa, ST-20, 3.3", round tip cone, Centuri PNC-231 clone, PN BC-2032</Description>
+      <Description>Nose cone, balsa, ST-20, 3.3", round tip cone, Centuri PNC-231 shape, PN BC-2032</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>CONICAL</Shape>
@@ -19180,7 +19211,7 @@ none known
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-2045</PartNumber>
-      <Description>Nose cone, balsa, ST-20, 4.5", ogive, Centuri BC-204 clone, PN BC-2045</Description>
+      <Description>Nose cone, balsa, ST-20, 4.5", ogive, Centuri BC-204, PN BC-2045</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
@@ -19855,11 +19886,11 @@ none known
       <Length Unit="in">3.0</Length>
     </NoseCone>
 
-    <!-- BC-22545 weight spec 1.2 oz, shoulder len 1.08" (scaled dwg) -->
+    <!-- BC-22545 is 4.5" ellipsoid, clone of Centuri BC-225A, weight spec 1.2 oz, shoulder len 1.08" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-22545</PartNumber>
-      <Description>Nose cone, balsa, LT-225, 4.5", ellipsoid, BC-225A, PN BC-22545</Description>
+      <Description>Nose cone, balsa, LT-225, 4.5", ellipsoid, Centuri BC-225A, PN BC-22545</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
@@ -19873,7 +19904,7 @@ none known
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-22548</PartNumber>
-      <Description>Nose cone, balsa, LT-225, 4.75", ellipsoid, PNC-132 upscale, PN BC-22548</Description>
+      <Description>Nose cone, balsa, LT-225, 4.75", ellipsoid, Centuri PNC-132 upscale, PN BC-22548</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
@@ -19887,7 +19918,7 @@ none known
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-22551</PartNumber>
-      <Description>Nose cone, balsa, LT-225, 5.1", ogive, BC-132 upscale, PN BC-22551</Description>
+      <Description>Nose cone, balsa, LT-225, 5.1", ogive, Centuri BC-132 upscale, PN BC-22551</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
@@ -19912,11 +19943,12 @@ none known
       <Length Unit="in">6.25</Length>
     </NoseCone>
 
-    <!-- BC-22567 weight spec 1.41 oz, len 6.7", shoulder len 1.08" (scaled dwg) -->
+    <!-- BC-22567  is 6.7" ellipsoid, Centuri BC-225B clone, weight spec 1.41 oz, len 6.7", 
+         shoulder len 1.08" (scaled dwg) -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-22567</PartNumber>
-      <Description>Nose cone, balsa, LT-225, 6.7", ellipsoid, BC-225B, PN BC-22567</Description>
+      <Description>Nose cone, balsa, LT-225, 6.7", ellipsoid, Centuri BC-225B, PN BC-22567</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
@@ -20547,7 +20579,7 @@ none known
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-27540</PartNumber>
-      <Description>Nose cone, balsa, LT-275, 4.0", blunt ogive, BNC-50J upscale, PN BC-27540</Description>
+      <Description>Nose cone, balsa, LT-275, 4.0", blunt ogive, Estes BNC-50J upscale, PN BC-27540</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
@@ -20561,7 +20593,7 @@ none known
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-27554</PartNumber>
-      <Description>Nose cone, balsa, LT-275, 5.4", ogive, BC-1631 upscale, PN BC-27554</Description>
+      <Description>Nose cone, balsa, LT-275, 5.4", ogive, Centuri BC-1631 upscale, PN BC-27554</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
@@ -20575,7 +20607,7 @@ none known
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-27555</PartNumber>
-      <Description>Nose cone, balsa, LT-275, 5.5", elliptical, BNC-60L upscale, PN BC-27555</Description>
+      <Description>Nose cone, balsa, LT-275, 5.5", elliptical, Estes BNC-60L upscale, PN BC-27555</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
