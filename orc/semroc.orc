@@ -14344,8 +14344,22 @@ none known
     <!-- BC-846G is a 4.6" ogive, shoulder 0.68", Centuri PNC-89 -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
-      <PartNumber>BC-846</PartNumber>
+      <PartNumber>BC-846G</PartNumber>
       <Description>Nose cone, balsa, ST-8, 4.6", rounded ogive, Centuri PNC-89 shape, PN BC-846G</Description>
+      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
+      <Filled>true</Filled>
+      <Shape>OGIVE</Shape>
+      <OutsideDiameter Unit="in">0.908</OutsideDiameter>
+      <ShoulderDiameter Unit="in">0.863</ShoulderDiameter>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
+      <Length Unit="in">4.6</Length>
+    </NoseCone>
+
+    <!-- BC-846 is a 4.6" ogive, shoulder 0.68" -->
+    <NoseCone>
+      <Manufacturer>SEMROC</Manufacturer>
+      <PartNumber>BC-846</PartNumber>
+      <Description>Nose cone, balsa, ST-8, 4.6", rounded ogive, PN BC-846</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
@@ -14359,20 +14373,8 @@ none known
 
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
-      <PartNumber>BC-846G</PartNumber>
-      <Description>Nose cone, balsa, BC-846G, 4.6", ogive</Description>
-      <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
-      <Filled>true</Filled>
-      <Shape>OGIVE</Shape>
-      <OutsideDiameter Unit="in">0.908</OutsideDiameter>
-      <ShoulderDiameter Unit="in">0.863</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.50</ShoulderLength>
-      <Length Unit="in">4.6</Length>
-    </NoseCone>
-    <NoseCone>
-      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-847</PartNumber>
-      <Description>Nose cone, balsa, BC-847, 4.7", conical, old Semroc NB-312</Description>
+      <Description>Nose cone, balsa, ST-8, 4.7", conical, old Semroc NB-312, PN BC-847</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>CONICAL</Shape>
