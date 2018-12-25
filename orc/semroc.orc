@@ -55,6 +55,16 @@ Classic parts cross reference: http://www.semroc.com/Store/scripts/xref.asp
       NB-611
       NB-908
 
+A fun oddity:  On the legacy site at http://www.semroc.com/Store/scripts/prodView.asp?idproduct=1575
+you find a "Balsa Nose Cone #8 Boid Assortment" with PN BC-BOID, and a drawing for a BC-834C.
+The My Boid was an ST-8 kit introduced in 2005 that had different nose cone and fins in every kit.
+There is now a 13mm (ST-5 version of the My Boid).  John Lee's 2009 review of the original My Boid
+on RocketReviews said "As I understand it, the parts in this kit are highly variable and consist of
+whatever Semroc has an excess of".  The original KA-6 My Boid kit card says "Over 100 different species!"
+The instructions (see on https://www.rocketryforum.com/threads/my-boid-semroc-kit-ka-6.24373/) give the PN for the
+nose cone as "BC-BOID".  My conclusion is that if you ordered a BC-BOID, you would get a random
+ST-8 nose cone!
+
 
 DONE
 ====
@@ -13981,7 +13991,8 @@ none known
       <Length Unit="in">2.0</Length>
     </NoseCone>
 
-    <!-- BC-821 is a 2.1" ellipsoid, shoulder 0.68", Centuri BC-80 equivalent -->
+    <!-- BC-821 is a 2.1" ellipsoid, shoulder 0.68", Centuri BC-80 equivalent.  This is the
+         original Centuri Snipe Hunter nose cone. -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-821</PartNumber>
@@ -13995,12 +14006,13 @@ none known
       <Length Unit="in">2.1</Length>
     </NoseCone>
 
-    <!-- BC-821SH is Snipe Hunter nose/transition combo piece.  Nose is shape of BC-821 but with
-         shorter shoulder.  Only appears on e-rockets / Semroc 2018 site. Split into two parts here.  -->
+    <!-- BC-821SH is the modern Semroc Snipe Hunter nose/transition combo piece.  Nose is shape of BC-821 but with
+         shorter shoulder.  Split into two parts here.  -->
 
     <!-- BC-821SH_nose from drawing is a 2.1" ellipsoid, shoulder 0.40"
          from actual Semroc Snipe Hunter ca. 2014: len 2 1/4", shoulder 3/8" 
-         Does not exist on legacy Semroc site. -->
+         On the legacy site you can find a BC-821SH "Snipe Hunter set" but the only drawing is for a
+         regular BC-821 long-shoulder cone; it may not have been a combined part then. -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-821SH_nose</PartNumber>
@@ -14369,71 +14381,79 @@ none known
       <Length Unit="in">4.6</Length>
     </NoseCone>
 
-    <!-- *** CORRECTING SHOULDER LENGTHS ETC. HERE *** -->
-
+    <!-- BC-847 is 4.75" conical (quoted 4.7"), shoulder 0.68", old Semroc NB-312 -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-847</PartNumber>
-      <Description>Nose cone, balsa, ST-8, 4.7", conical, old Semroc NB-312, PN BC-847</Description>
+      <Description>Nose cone, balsa, ST-8, 4.75", conical, old Semroc NB-312, PN BC-847</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>CONICAL</Shape>
       <OutsideDiameter Unit="in">0.908</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.863</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.50</ShoulderLength>
-      <Length Unit="in">4.7</Length>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
+      <Length Unit="in">4.75</Length>
     </NoseCone>
+
+    <!-- BC-847W is a 4.7" modified ogive, shoulder 0.68", Estes BNC-5W upscale -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-847W</PartNumber>
-      <Description>Nose cone, balsa, BC-847W, 4.7", ogive, BNC-5W upscale</Description>
+      <Description>Nose cone, balsa, ST-8, 4.7", ogive, Estes BNC-5W upscale, PN BC-847W</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">0.908</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.863</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">4.7</Length>
     </NoseCone>
+
+    <!-- BC-848 is a 4.8" ogive, shoulder 0.68", Centuri BC-89 clone -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-848</PartNumber>
-      <Description>Nose cone, balsa, BC-848, 4.8", ogive, Centuri BC-89</Description>
+      <Description>Nose cone, balsa, ST-8, 4.8", ogive, Centuri BC-89, PN BC-848</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">0.908</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.863</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">4.8</Length>
     </NoseCone>
+
+    <!-- BC-853 is a 5.3" ogive, shoulder 0.68" -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-853</PartNumber>
-      <Description>Nose cone, balsa, BC-853, 5.3", ogive</Description>
+      <Description>Nose cone, balsa, ST-8, 5.3", ogive, PN BC-853</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">0.908</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.863</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">5.3</Length>
     </NoseCone>
-    <!-- BC-857 is a flared ogive, equiv to Centuri BC-86 -->
+
+    <!-- BC-857 is a 5.7" flared ogive, shoulder 0.68", equiv to Centuri BC-86 -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-857</PartNumber>
-      <Description>Nose cone, balsa, BC-857, 5.7", flared ogive, Centuri BC-86</Description>
+      <Description>Nose cone, balsa, ST-8, 5.7", flared ogive, Centuri BC-86, PN BC-857</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Mass Unit="oz">0.28</Mass>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">0.908</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.863</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">5.7</Length>
     </NoseCone>
     
+    <!-- *** CORRECTING SHOULDER LENGTHS ETC. HERE *** -->
+
     <!-- =================================== -->
     <!-- BC-8Fxx Balsa Nose Cones            -->
     <!-- =================================== -->
