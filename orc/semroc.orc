@@ -14472,17 +14472,17 @@ none known
       <Length Unit="in">2.0</Length>
     </NoseCone>
 
-    <!-- BC-8F28 equiv to FSI NHC-81 -->
+    <!-- BC-8F28 is a 2.8" very rounded ogive, shoulder 0.68", FSI NHC-81 clone -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-8F28</PartNumber>
-      <Description>Nose cone, balsa, BC-8F28, 2.8", rounded ogive</Description>
+      <Description>Nose cone, balsa, ST-8F, 2.8", rounded ogive, FSI NHC-81, PN BC-8F28</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
       <OutsideDiameter Unit="in">0.921</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.883</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">2.75</Length>
     </NoseCone>
 

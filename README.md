@@ -37,7 +37,7 @@ System compatibility:  works anywhere OpenRocket can run
    * Quest - Q7810 14" parachute - set thickness and shroud length to match actual instance.
    * Semroc - make sure all Centuri nose cone cross-refs are referenced in the .orc
    * Semroc - fix reversed Centuri attribution on BC-846 and BC-846G
-   * Semroc - NC shoulder length fixups: completed BC-8xx series
+   * Semroc - NC shoulder length fixups: completed BC-8xx and BC-8Fxx series
 * Additions
    * Semroc - added research note about the BC-BOID random ST-8 nose cone PN
    * Semroc - add note about ST-8F tube having same OD as old FSI HRT-8 tube
