@@ -1619,7 +1619,7 @@ none known
       <Length Unit="in">2.0</Length>
     </BodyTube>
 
-    <!-- ST-8F -->
+    <!-- ST-8F (same OD as old FSI HRT-8 tube) -->
 
     <BodyTube>
       <Manufacturer>SEMROC</Manufacturer>
@@ -14454,22 +14454,24 @@ none known
     
     <!-- *** CORRECTING SHOULDER LENGTHS ETC. HERE *** -->
 
-    <!-- =================================== -->
-    <!-- BC-8Fxx Balsa Nose Cones            -->
-    <!-- =================================== -->
-    
+    <!-- ==================================================== -->
+    <!-- BC-8Fxx Balsa Nose Cones (same OD as FSI HRT-8 tube) -->
+    <!-- ==================================================== -->
+
+    <!-- BC-8F20 is a 2.0" rounded ogive, shoulder 0.68" -->    
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-8F20</PartNumber>
-      <Description>Nose cone, balsa, BC-8F20, 2.0", rounded ogive</Description>
+      <Description>Nose cone, balsa, ST-8F, 2.0", rounded ogive, PN BC-8F20</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">0.921</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.883</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">2.0</Length>
     </NoseCone>
+
     <!-- BC-8F28 equiv to FSI NHC-81 -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
