@@ -192,7 +192,8 @@ Here I conclude with high confidence that the ID is 0.715".
 ** I am flagging the catalog value .903" ID of HRT-8 / RT-8 as a certain error.  The HRT-8 was
 described in the FSI 1977 catalog as "Heavy Duty tubes for engine mounts", yet with the given ID it would
 have only a .009" wall, which is not reasonable.  FSI also specified the motor diameter as 21 mm, which
-would be 0.827", a LOT smaller than the quoted tube diameter.
+would be 0.827", a LOT smaller than the quoted tube diameter.  I do personally recall that the FSI 21mm
+motors were a pretty loose fit in the motor tubes, but a .08" difference is huge.
 
 The 0.903 ID remained all the way to the 1993 catalog where the "H" prefix had been
 dropped and the length changed from 16" to 18".  The quoted weight did not change here, confirming
@@ -207,7 +208,8 @@ weight of .425 oz for a 16" RT-8 with ID = 0.903".  If, however, we assume a wal
 the other tubes, the weight comes to 0.47 oz, which seems very reasonable.
 
 For what it's worth, the Semroc version of this tube (Semroc PN ST-8Fxx) has an ID of 0.885", implying a
-wall of 0.018", and Carl McLawhorn was rarely far off.
+wall of 0.018", and Carl McLawhorn was rarely far off.  The CMR 21mm motor tube (RB-90) had ID 0.864" and
+OD 0.890" with .013 wall, and I recall it was a better fit for the motors.
 
 Thus I am adopting an ID of 0.881" for the RT-8 and HRT-8.
 
@@ -292,5 +294,15 @@ STC-390L                         7.75    0.25 lb
 STC-5.38                        11.0     0.625 lb
 STC-751                         15.0     1.625 lb
 
+CMR - Competition Model Rockets (from 1972 catalog)
+---------------------------------------------------
 
-
+SERIES         ID        OD      Len      Wt        RingID    RingOD   Lengths           Notes
+------         -----     -----   -----    -----     ------    ------   -------------     ------------------------
+RB-50          0.538     0.558   12.0               0.561     0.535    12                MMT for 13mm motors
+RB-52          0.564     0.584   12.0               0.587     0.561    12                slip fit over RB-50
+RB-74          0.710     0.736   12.0               0.739     0.707    12                MMT for 18mm motors
+RB-77          0.740     0.766   12.0               0.769     0.737    12                slip fit over RB-74
+RB-90          0.864     0.890   16.0               0.893     0.861    16                MMT for FSI 21mm motors
+RB-92          0.894     0.920   16.0               0.923     0.891    16                slip fit over RB-90
+RB-120         1.120     1.170   18.0               1.173     1.117    18                MMT for FSI 27mm motors
