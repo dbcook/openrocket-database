@@ -41,6 +41,7 @@ System compatibility:  works anywhere OpenRocket can run
 * Additions
    * Semroc - added research note about the BC-BOID random ST-8 nose cone PN
    * Semroc - add note about ST-8F tube having same OD as old FSI HRT-8 tube
+   * FSI - figured out correct IDs of RT-6, RT-8 / HRT-8 tubes, added to tube_data.txt
 
 
 0.9.1.4 - Nov 2018

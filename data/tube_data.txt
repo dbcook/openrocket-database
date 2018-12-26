@@ -162,16 +162,54 @@ SERIES    ID        OD         RingID    RingOD
 3.0        2.932     3.000     3.005     2.927
 4.0        3.900     4.000     4.005     3.895     same as LOC tube, Mega Der Red Max
 
-FSI tube data from 1977 catalog
--------------------------------
+FSI tube data from 1977 and 1993 catalogs
+-----------------------------------------
 
 SERIES    ID        OD      Len      Wt      RingID    RingOD   Lengths
 ------    -----     -----   -----    -----   ------    ------   --------------------------
-HRT-8     0.903     0.921   16.0     0.425   0.923     0.901    HRT-816, HRT-808, HRT-804
-HRT-10    1.13      1.17    18.0     0.725   1.172     1.128    HRT-1018, HRT-1009, HRT-1004
+RT-6      0.715***  0.755   18.0     0.425   0.757     0.713    18" PN 6006  (1993)
+RT-8+     0.881**   0.921   18.0     0.425   0.923     0.879    18" PN 6008  (1993)
+HRT-8+    0.881**   0.921   16.0     0.425   0.923     0.879    HRT-816, HRT-808, HRT-804
+HRT-10+   1.13      1.17    18.0     0.725   1.172     1.128    HRT-1018, HRT-1009, HRT-1004
 RT-12     1.30      1.34    18.0     0.738   1.342     1.298    RT-1218, RT-1209, RT-1204
 RT-15     1.60      1.64    18.0     0.936   1.642     1.598    RT-1518, RT-1512, RT-1506
+RT-17     1.80      1.84    18.0     0.950   1.842     1.798    18" PN 6017  (1993)
 RT-19     2.00      2.04    18.0     1.184   2.042     1.998    RT-1918, RT-1912, RT-1906
+RT-22     2.25      2.34    22.0     3.0     2.342     2.248    22" PN 6022  (1993)
+
++ HRT-8 and HRT-10 designations changed to RT-8 and RT-10 by the 1993 catalog.
+
+*** ID, wall and mass of RT-6 have messed up data...the 1993 catalog had an obvious typo of .175" for the ID.
+Likewise the 0.425 oz weight quoted for the RT-6 is an obvious duplication of the much older value
+for the HRT-8.
+
+For the RT-6 we can solve the case by knowing that a) this is MMT for 18mm motors and the ID is going to be
+in the .710 to .715 range; b) FSI leaned toward Centuri dimensions as RT-15/17/19/22 are
+exact duplicates of Centuri sizes; c) the typo value of .175 is an anagram of a likely correct
+value of 0.715"; and d) all of the other wall thicknesses down through RT-19 are .020".
+Here I conclude with high confidence that the ID is 0.715".
+
+** I am flagging the catalog value .903" ID of HRT-8 / RT-8 as a certain error.  The HRT-8 was
+described in the FSI 1977 catalog as "Heavy Duty tubes for engine mounts", yet with the given ID it would
+have only a .009" wall, which is not reasonable.  FSI also specified the motor diameter as 21 mm, which
+would be 0.827", a LOT smaller than the quoted tube diameter.
+
+The 0.903 ID remained all the way to the 1993 catalog where the "H" prefix had been
+dropped and the length changed from 16" to 18".  The quoted weight did not change here, confirming
+they were not careful about recalculating data when parts were modified.
+
+It must be mentioned that the .903" dimension also appears on nose cone HNC-81, transition HTS-810,
+and coupler BB-8 size data, but the egregious typo of .175" for the RT-6 also propagated to its mating parts,
+so I don't think the multiple occurrences of that value add to the evidence.
+
+A volumetric calculation (using OpenRocket) with known Kraft paper density gives about half the quoted
+weight of .425 oz for a 16" RT-8 with ID = 0.903".  If, however, we assume a wall of .020" like most of
+the other tubes, the weight comes to 0.47 oz, which seems very reasonable.
+
+For what it's worth, the Semroc version of this tube (Semroc PN ST-8Fxx) has an ID of 0.885", implying a
+wall of 0.018", and Carl McLawhorn was rarely far off.
+
+Thus I am adopting an ID of 0.881" for the RT-8 and HRT-8.
 
 LOC tube data from 2018 website
 -------------------------------

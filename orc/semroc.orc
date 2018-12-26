@@ -1619,7 +1619,7 @@ none known
       <Length Unit="in">2.0</Length>
     </BodyTube>
 
-    <!-- ST-8F (same OD as old FSI HRT-8 tube) -->
+    <!-- ST-8F (same OD as old FSI RT-8 / HRT-8 tube) -->
 
     <BodyTube>
       <Manufacturer>SEMROC</Manufacturer>
