@@ -2,7 +2,7 @@
 <!--
 Madcow Rocketry components file for OpenRocket
 
-by Dave Cook  NAR 21953  caveduck17@gmail.com  2017
+by Dave Cook  NAR 21953  caveduck17@gmail.com  2017-2018
 
 Data in this file is primarily from the Madcow website madcowrocketry.com
 As far as I know, Madcow Rocketry has never offered a print catalog or a comprehensive
@@ -35,7 +35,7 @@ Parachutes - generic nylon
 
 TODO
 ====
->>> all cleared <<<
+Nike-Apache 38mm FG nose cone (7.75" cone plus 1.0" cylindrical extension, mass 78 gm)
 
 DEFERRED
 ========
