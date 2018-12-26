@@ -12669,11 +12669,11 @@ none known
          ===================
          Unlike Estes, Semroc shows the OD of BNC-10 nose cones to be 0.720, which matches the OD of a BT-10.  -->
 
-    <!-- BNC-10A, Semroc weight 0.02 oz.  Used in K-4/#1204 Streak -->
+    <!-- BNC-10A, length 0.812", shoulder 0.25".  Semroc weight 0.02 oz.  Used in K-4/#1204 Streak -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-10A</PartNumber>
-      <Description>Nose cone, balsa, BNC-10A, 0.8", elliptical</Description>
+      <Description>Nose cone, balsa, BT-10, 0.8", elliptical, PN BNC-10A</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
@@ -12682,7 +12682,9 @@ none known
       <ShoulderLength Unit="in">0.25</ShoulderLength>
       <Length Unit="in">0.812</Length>
     </NoseCone>
-    <!-- BNC-10B not known to have ever been used in any Estes kit, Semroc weight 0.04 oz -->
+
+    <!-- BNC-10B not known to have ever been used in any Estes kit, Semroc weight 0.04 oz 
+         Length 1.687", shoulder 0.35" -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-10B</PartNumber>
@@ -12692,32 +12694,34 @@ none known
       <Shape>ELLIPSOID</Shape>
       <OutsideDiameter Unit="in">0.720</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.312</ShoulderLength>
+      <ShoulderLength Unit="in">0.35</ShoulderLength>
       <Length Unit="in">1.687</Length>
     </NoseCone>
 
-    <!-- BNC-19xx nose cones
-         An odd one - Semroc lists only a Mercury capsule for BT-19, weight 0.02 oz
-         ***shoulder length undocumented***
-         -->
+    <!-- BNC-19 nose cones -->
+
+    <!-- BNC-19MC is an odd one - a 2.6" Mercury capsule for BT-19, weight 0.02 oz, shoulder 0.43"
+         Estes had no equivalent, and this is the only thing Semroc ever made for a BT-19.
+         Was this an OEM part for a Dr. Zooch peanut scale Mercury-Redstone perhaps? -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-19MC</PartNumber>
-      <Description>Nose cone, balsa, BT-19, 2.6", Mercury capsule</Description>
+      <Description>Nose cone, balsa, BT-19, 2.6", Mercury capsule, PN BNC-19MC</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Mass Unit="oz">0.02</Mass>
       <Filled>true</Filled>
       <Shape>CONICAL</Shape>
       <OutsideDiameter Unit="in">0.700</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.672</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.375</ShoulderLength>
+      <ShoulderLength Unit="in">0.43</ShoulderLength>
       <Length Unit="in">2.6</Length>
     </NoseCone>
+
+    <!-- *** CORRECTING SHOULDER LENGTHS ETC. HERE *** -->
 
     <!-- BNC-20xx nose cones -->
     <!--
         Semroc BNC-20xx nose cones never made by Estes:
-        *** shoulder lengths unknown for all of these ***
 
         BNC-20AH (3.0" slightly rounded ogive, downscale of BHC-60AH)
         BNC-20BA (0.9" ramjet nacelle)
@@ -14856,8 +14860,6 @@ none known
       <ShoulderLength Unit="in">0.97</ShoulderLength>
       <Length Unit="in">6.1</Length>
     </NoseCone>
-
-    <!-- *** CORRECTING SHOULDER LENGTHS ETC. HERE *** -->
 
     <!-- =================================== -->
     <!-- BNC-50 nose cones for BT-50 tube    -->

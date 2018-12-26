@@ -38,7 +38,7 @@ System compatibility:  works anywhere OpenRocket can run
    * Semroc - make sure all Centuri nose cone cross-refs are referenced in the .orc
    * Semroc - fix reversed Centuri attribution on BC-846 and BC-846G
    * Semroc - improve discussion of Estes PNC-50Y, BNC-50Y vs Semroc BC-943 and BC-944.
-   * Semroc - NC shoulder length fixups: completed BC-8xx, BC-8Fxx, BC-9xx series.
+   * Semroc - NC shoulder length fixups: completed BC-8xx, BC-8Fxx, BC-9xx, BNC-10x, BNC-19xx series.
 * Additions
    * Semroc - added research note about the BC-BOID random ST-8 nose cone PN
    * Semroc - add note about ST-8F tube having same OD as old FSI HRT-8 tube
