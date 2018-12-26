@@ -14641,118 +14641,139 @@ none known
       <Length Unit="in">3.0</Length>
     </NoseCone>
 
-    <!-- *** CORRECTING SHOULDER LENGTHS ETC. HERE *** -->
-
-    <!-- BC-932 is Estes BNC-50X shape for ST-9 -->
+    <!-- BC-932 is/was a 3.25" ellipsoid, shoulder 0.68", Estes BNC-50X shape for ST-9
+         BC-932 is not found in the legacy product list search, however it does appear with a
+         "new" flag in the legacy nose cone table, but the "View" link gets an error.
+         It has identical specs to the BC-933.  I am keeping a listing for it because it's
+         possible that old kit instructions might reference it.
+    -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-932</PartNumber>
-      <Description>Nose cone, balsa, BC-932, 3.25", elliptical, BNC-50X shape</Description>
+      <Description>Nose cone, balsa, ST-9, 3.25", elliptical, Estes BNC-50X shape, PN BC-932</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
       <OutsideDiameter Unit="in">0.998</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">3.25</Length>
     </NoseCone>
-    <!-- SOURCE ERROR: (?) BC-933 description is identical to BC-932, they both say BNC-50X for ST-9 -->
+
+    <!-- BC-933 is the surviving Estes BNC-50X shape for ST-9.  It's a 3.25" ellipsoid, shoulder 0.68" -->
+    <!-- SOURCE ERROR: BC-932 description is identical to BC-933, they both say BNC-50X for ST-9.  It
+         looks like BC-932 is actually dead. -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-933</PartNumber>
-      <Description>Nose cone, balsa, BC-933, 3.25", elliptical, BNC-50X shape</Description>
+      <Description>Nose cone, balsa, ST-9, 3.25", elliptical, Estes BNC-50X shape, PN BC-933</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
       <OutsideDiameter Unit="in">0.998</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">3.25</Length>
     </NoseCone>
-    <!-- BC-937 is downscale of Estes BNC-55AO -->
+
+    <!-- BC-937 is a 3.7" ellipsoid, shoulder 0.68", downscale of Estes BNC-55AO.
+         BC-937 does not appear in the legacy site product search results, but does appear in the table
+         with a "New" flag. -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-937</PartNumber>
-      <Description>Nose cone, balsa, BC-937, 3.7", elliptical, BNC-55AO shape</Description>
+      <Description>Nose cone, balsa, ST-9, 3.7", elliptical, Estes BNC-55AO downscale, PN BC-937</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
       <OutsideDiameter Unit="in">0.998</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">3.7</Length>
     </NoseCone>
-    <!-- BC-940 is upscale of Centuri PNC-76 -->
+
+    <!-- BC-940 is 4.0" ellipsoid, shoulder 0.68", upscale of Centuri PNC-76 -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-940</PartNumber>
-      <Description>Nose cone, balsa, BC-940, 4.0", rounded ogive, Centuri PNC-76 shape</Description>
+      <Description>Nose cone, balsa, ST-9, 4.0", rounded ogive, Centuri PNC-76 upscale, PN BC-940</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
       <OutsideDiameter Unit="in">0.998</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">4.0</Length>
     </NoseCone>
-    <!-- BC-940G is 4:1 ogive -->
+
+    <!-- BC-940G is 4.0" 4:1 ogive, shoulder 0.68" -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-940G</PartNumber>
-      <Description>Nose cone, balsa, BC-940G, 4.0", ogive</Description>
+      <Description>Nose cone, balsa, ST-9, 4.0", 4:1 ogive, PN BC-940G</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">0.998</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <ShoulderLength Unit="in">0.68</ShoulderLength>
       <Length Unit="in">4.0</Length>
     </NoseCone>
-    <!-- BNC-941 is Estes BNC-50AD Honest John shape; flared so we use mass override -->
+
+    <!-- BNC-941 is Estes BNC-50AD Honest John shape; flared so we use mass override
+         Exposed length 4.1", shoulder 1.07" (much longer shoulder than Estes version) -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-941</PartNumber>
-      <Description>Nose cone, balsa, BC-941, 4.1", flared ogive, BNC-50AD Honest John shape</Description>
+      <Description>Nose cone, balsa, ST-9, 4.1", flared ogive, Honest John, Estes BNC-50AD, PN BC-941</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Mass Unit="oz">0.25</Mass>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">0.998</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <ShoulderLength Unit="in">1.07</ShoulderLength>
       <Length Unit="in">4.1</Length>
     </NoseCone>
+
     <!-- SOURCE ERROR: BC-943 and BC-944  Semroc legacy and new sites both show length of 4.3" for BC-943 and
          4.4" for BC-944.  They are supposed to be modeled after the Estes PNC-50Y and
          BNC-50Y, respectively.  However the official Estes specs for those items have
-         identical lengths of 4.375".
+         identical lengths of 4.375".  UPDATE: The Semroc drawings show that they do in fact
+         have slightly different shapes - the BNC-50Y is more pointed, and the Semroc shoulder
+         lengths are different.  The BC-944 drawing shows the correct Estes-compatible length
+         of 4.375", but the BC-943 drawing is too short at 4.30".
     -->
-    <!-- BC-943 is Estes PNC-50Y shape for ST-9 -->
+    <!-- BC-943 is 4.3" Estes PNC-50Y shape (slightly too short?) for ST-9, shoulder 0.57" -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-943</PartNumber>
-      <Description>Nose cone, balsa, BC-943, 4.3", ogive, Estes PNC-50Y shape</Description>
+      <Description>Nose cone, balsa, ST-9, 4.3", ogive, Estes PNC-50Y shape, PN BC-943</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">0.998</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.50</ShoulderLength>
-      <Length Unit="in">4.3</Length>
+      <ShoulderLength Unit="in">0.57</ShoulderLength>
+      <Length Unit="in">4.30</Length>
     </NoseCone>
-    <!-- BC-944 is Estes BNC-50Y shape for ST-9 -->
+
+    <!-- BC-944 is 4.375" Estes BNC-50Y shape for ST-9, shoulder 0.68" -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-944</PartNumber>
-      <Description>Nose cone, balsa, BC-943, 4.4", ogive, Estes BNC-50Y shape</Description>
+      <Description>Nose cone, balsa, ST-9, 4.375", ogive, Estes BNC-50Y shape, PN BC-944</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
       <OutsideDiameter Unit="in">0.998</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.948</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.50</ShoulderLength>
-      <Length Unit="in">4.4</Length>
+      <ShoulderLength Unit="in">0.69</ShoulderLength>
+      <Length Unit="in">4.375</Length>
     </NoseCone>
+
+    <!-- *** CORRECTING SHOULDER LENGTHS ETC. HERE *** -->
+
     <!-- BC-945 is Estes Firecat flared ogive shape BNC-50BD.  Mass override needed here. -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
