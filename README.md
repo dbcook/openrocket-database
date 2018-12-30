@@ -202,32 +202,8 @@ how OpenRocket copies components into the .ork file, so something better is need
 
 ### Future Parts Database Organization
 
-Looking past OpenRocket, it would be useful to have a more general database of sport rocket
-parts, both current and historic.  The OpenRocket design with a collection of standalone XML files
-will not satisfy the more general needs, which include
+See [this discussion](docs/next_gen_parts_database.md)
 
-* Ability to store 2D images and 3D shape information
-* Referential consistency for materials used in parts
-* Composition (ability to define an assembly made up of other parts and assemblies)
-* Support for web applications (today this implies REST interface with json payload)
-* Query support for
-  * Parts in a designated size + tolerance, e.g. show all BT-50 compatible nose cones
-  * In-production parts
-  * Scale prototype, e.g. show Nike Smoke nose cones of any sizs
-  * Partial description, e.g. find all matching "Nose cone, balsa, BT-55"
-
-
-There is some embryonic code here for a Python based system to generate the XML
-files from a set of more fundamental json parameter files.  Although this can't
-implement everything envisioned for the general parts library, it could still have benefits:
-
-* Centralization of materials spec file
-* Guarantees all parts in a given series (e.g. BT-50 tubes) have the same ID/OD
-* Automatic generation of hierarchical engineering description field
-* Description guaranteed to match dimensions
-* Automatic notation of duplicate part numbers
-* Compute whether mass override is needed based on mass ratio error threshold
-* Instant regeneration of files with different balsa densities etc.
 
 
 ### Data Gathering Discussion
@@ -347,7 +323,7 @@ mnemonic, e.g. "BT-20J" was a body tube.  In the 1970s Estes introduced pure num
 period had both the original and numeric PNs.  The traditional part numbers gradually
 disappeared from catalogs and instructions, all but vanishing by 2010.
 
-A much more detailed explanation of Estes part identifiers may be found [here](data/estes_sizes_and_part_numbers.md)
+A much more detailed explanation of Estes part identifiers may be found [here](docs/estes_sizes_and_part_numbers.md)
 
 
 #### Centuri Engineering
