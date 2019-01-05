@@ -46,8 +46,8 @@ Tube Density
 ============
 
 I have a tube density analysis based on my own actual and externally reported measurements that finds the
-density of Blue Tube to be 1153.5 kg/m3 with a very good standard deviation of 17.3.  The stock OpenRocket file 
-has a density value of 1250, which is nearly 10% too high.
+density of Blue Tube to be 1153.5 kg/m3 with a very good standard deviation of 17.3.  The stock
+OpenRocket file has a density value of 1250, which is nearly 10% too high.
 
 Part Numbers
 ============
@@ -58,9 +58,10 @@ The old tube PNs looked like "BT20-139C"; all started with "BT20", which is a bi
 Four foot lengths had an A suffix, while one foot lengths had a "C suffix."  The 6 foot lengths now
 available for the 5.5, 6.0 and 7.5" sizes were not represented.
 
-There is a quirk in the listings for 1.15" and 1.52" x 48" tubes:  There are separate listings for two apparently
-different items, one designated as "airframe", the other as "MMT ONLY".  The dimensions shown are identical
-so it's not clear what the difference is.  For larger tubes 2.15" and up, all are shown as "airframe/MMT".
+There is a quirk in the listings for 1.15" and 1.52" x 48" tubes:  There are separate listings
+for two apparently different items, one designated as "airframe", the other as "MMT ONLY".  The
+dimensions shown are identical so it's not clear what the difference is.  For larger tubes 2.15"
+and up, all are shown as "airframe/MMT".
 
 Tube couplers are listed in "standard" 12-18 inch lengths, and also in 48" "full length" pieces.
 Fortunately, as for the body tubes, complete dimensions are given in the store menu dropdowns.
