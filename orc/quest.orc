@@ -878,20 +878,28 @@ none known
             <Thickness Unit="mm">1.0</Thickness>
         </Transition>
 
+        <!-- 25-30mm transition 21061 weighs 7.7 gm.  Exposed length is 0.55", and houlder max diameters 
+             are 23.34 mm and 28.75 mm, measured on a new sample obtained direct from Quest in late 2018.
+             The part is blow-molded in black, and the small shoulder is measurably
+             out of round; the minimum diameter is about 23.12 mm.  Both ends of this transition are
+             closed and have molded-in loops for shock line attachment.  The functional cylindrical
+             part of the smaller shoulder is 0.75" and 0.70" for the larger.  There is a deep groove
+             on each end that allows the smaller section of the shoulder with the molded loop to
+             be optionally cut off. -->
         <Transition>
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>3025 [R], Q21061 [R]</PartNumber>
             <Description>Transition, plastic, 30mm to 25mm, black, decreasing, 0.5" length</Description>
             <Material Type="BULK">Polystyrene, bulk</Material>
-            <Mass Unit="g">7.1</Mass>
+            <Mass Unit="g">7.7</Mass>
             <Shape>CONICAL</Shape>
             <ForeOutsideDiameter Unit="mm">30.0</ForeOutsideDiameter>
-            <ForeShoulderDiameter Unit="mm">28.9</ForeShoulderDiameter>
-            <ForeShoulderLength Unit="in">0.75</ForeShoulderLength>
+            <ForeShoulderDiameter Unit="mm">28.75</ForeShoulderDiameter>
+            <ForeShoulderLength Unit="in">0.79</ForeShoulderLength>
             <AftOutsideDiameter Unit="mm">25.0</AftOutsideDiameter>
-            <AftShoulderDiameter Unit="mm">23.9</AftShoulderDiameter>
+            <AftShoulderDiameter Unit="mm">23.34</AftShoulderDiameter>
             <AftShoulderLength Unit="in">0.75</AftShoulderLength>
-            <Length Unit="in">0.5</Length>
+            <Length Unit="in">0.55</Length>
             <Thickness Unit="mm">1.0</Thickness>
         </Transition>
 
@@ -900,19 +908,19 @@ none known
             <PartNumber>3025, Q21061</PartNumber>
             <Description>Transition, plastic, 25mm to 30mm, black, increasing, 0.5" length</Description>
             <Material Type="BULK">Polystyrene, bulk</Material>
-            <Mass Unit="g">7.1</Mass>
+            <Mass Unit="g">7.7</Mass>
             <Shape>CONICAL</Shape>
             <ForeOutsideDiameter Unit="mm">25.0</ForeOutsideDiameter>
-            <ForeShoulderDiameter Unit="mm">23.9</ForeShoulderDiameter>
+            <ForeShoulderDiameter Unit="mm">23.34</ForeShoulderDiameter>
             <ForeShoulderLength Unit="in">0.75</ForeShoulderLength>
             <AftOutsideDiameter Unit="mm">30.0</AftOutsideDiameter>
-            <AftShoulderDiameter Unit="mm">28.9</AftShoulderDiameter>
-            <AftShoulderLength Unit="in">0.75</AftShoulderLength>
-            <Length Unit="in">0.5</Length>
+            <AftShoulderDiameter Unit="mm">28.75</AftShoulderDiameter>
+            <AftShoulderLength Unit="in">0.70</AftShoulderLength>
+            <Length Unit="in">0.55</Length>
             <Thickness Unit="mm">1.0</Thickness>
         </Transition>
 
-        <!-- Mass from OR file is probably wrong, identical to 3025 transition.  2018 site says 35mm end
+        <!-- Mass from OR file is probably wrong, identical to spec for 3025 transition.  2018 site says 35mm end
              shoulder is 0.50", on 25mm end shoulder is 0.375" -->
         <Transition>
             <Manufacturer>Quest</Manufacturer>
@@ -948,63 +956,97 @@ none known
             <Thickness Unit="mm">1.0</Thickness>
         </Transition>
 
-        <!-- NOTE - there are two 3530 reducers listed on both the 2009 and 2018 sites.  They are not the
-             same.  Q21056 has .75" exposed length and .5 and .375 shoulders, while Q21071 has .5" exposed
-             length and 0.75" shoulders on both ends. To make matters worse, the photos look to be swapped!
-             Also the color of Q21056 can be black or white (website photo is black but I have a white instance)
-             On my example, the T35 shoulder diam is 33.66mm and the T30 shoulder diam is 28.66 mm -->
+        <!-- NOTE - there are two 35/30 reducers listed on both the 2009 and 2018 sites.  They are not the
+             same.  Nominally, Q21056 has .75" exposed length and .5 and .375 shoulders, while Q21071 has
+             0.5" exposed length and 0.75" shoulders on both ends.
 
-        <!-- 3530 transition Q21056 per 2018 website is 0.75" long, shoulder 0.50 on 35mm end and 0.375" on 30mm end -->
+             There is some contradictory data about colors of some parts.  Close inspection of the Quest
+             website as of Jan 2019 shows that various photos of the transitions are wrong.  For example,
+             the picture for the 21052 35/25 mm reducer is clearly of the 21056 35/30mm part.  Likewise,
+             the photo for the 21056 35/30mm reducer has obviously wrong proportions and is too small on
+             the background grid; it looks like another photo of the 25/20 mm part.
+
+             The website description and photo for 21056 indicate black color, but the photo is obviously
+             of the wrong part - the exposed length and shoulder proportions are toally wrong.  A newly
+             purchased part in late 2018 is white, as is another example from a Striker AGM kit.  
+             On a 2018 invoice for a purchased part, the Q21056 description is just "35mm/30mm Reducer",
+             while for Q21071 it's "35mm/30mm Reducer Black".  I also have a 21071 purchased at the same
+             time, and it's a black blow-molded part.
+
+             Given these data errors, I'm treating the website specs as less than authoritative.
+             -->
+
+        <!-- 35/30 transition Q21056 per 2018 website is nominally 0.75" long, shoulders 0.50" on 35mm end 
+             and 0.375" on 30mm end.  This is an injection molded part and has longitudinal ridges along the
+             exposed length, as well as four deeper valleys at 90 degree intervals.  Internally there are 8
+             good-sized ribs around the inside of the 35 mm end that extend forward for about 2/3 of the
+             overall length.
+
+             On both my 21056 examples, the T35 shoulder diam is 33.66mm and the T30 shoulder diam is 28.66 mm.
+             Shoulder lengths are 0.346" for the 30mm end and 0.480" for the 35mm end; exposed length
+             is 0.75".  Masses are 6.3 and 6.4 gm.  Thickness of the shoulders averages about 0.40" on the
+             30 mm end and 0.57" on the 35 mm end.
+
+             Actual values from measured samples are used here.  As for color, given the website photo
+             errors discussed above, I am only listing this as white until proven otherwise.
+             -->
         <Transition>
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>3530 [R], Q21056 [R]</PartNumber>
-            <Description>Transition, plastic, 35mm to 30mm, white/black, decreasing, 0.75" length</Description>
+            <Description>Transition, plastic, 35mm to 30mm, white, decreasing, 0.75" length</Description>
             <Material Type="BULK">Polystyrene, bulk</Material>
-            <Mass Unit="g">7.1</Mass>
+            <Mass Unit="g">6.4</Mass>
             <Shape>CONICAL</Shape>
             <ForeOutsideDiameter Unit="mm">35.0</ForeOutsideDiameter>
             <ForeShoulderDiameter Unit="mm">33.66</ForeShoulderDiameter>
-            <ForeShoulderLength Unit="in">0.50</ForeShoulderLength>
+            <ForeShoulderLength Unit="in">0.48</ForeShoulderLength>
             <AftOutsideDiameter Unit="mm">30.0</AftOutsideDiameter>
             <AftShoulderDiameter Unit="mm">28.66</AftShoulderDiameter>
-            <AftShoulderLength Unit="in">0.375</AftShoulderLength>
+            <AftShoulderLength Unit="in">0.346</AftShoulderLength>
             <Length Unit="in">0.75</Length>
-            <Thickness Unit="mm">1.0</Thickness>
+            <Thickness Unit="in">0.050</Thickness>
         </Transition>
 
         <Transition>
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>3530, Q21056</PartNumber>
-            <Description>Transition, plastic, 30mm to 35mm, white/black, increasing, 0.75" length</Description>
+            <Description>Transition, plastic, 30mm to 35mm, white, increasing, 0.75" length</Description>
             <Material Type="BULK">Polystyrene, bulk</Material>
-            <Mass Unit="g">7.1</Mass>
+            <Mass Unit="g">6.4</Mass>
             <Shape>CONICAL</Shape>
             <ForeOutsideDiameter Unit="mm">30.0</ForeOutsideDiameter>
             <ForeShoulderDiameter Unit="mm">28.66</ForeShoulderDiameter>
-            <ForeShoulderLength Unit="in">0.375</ForeShoulderLength>
+            <ForeShoulderLength Unit="in">0.346</ForeShoulderLength>
             <AftOutsideDiameter Unit="mm">35.0</AftOutsideDiameter>
             <AftShoulderDiameter Unit="mm">33.66</AftShoulderDiameter>
-            <AftShoulderLength Unit="in">0.50</AftShoulderLength>
+            <AftShoulderLength Unit="in">0.48</AftShoulderLength>
             <Length Unit="in">0.75</Length>
-            <Thickness Unit="mm">1.0</Thickness>
+            <Thickness Unit="in">0.050</Thickness>
         </Transition>
 
-        <!-- 3530 short transition (believe to be Q21071) per 2009 website is 0.50" long, with shoulders 0.75"
-             on both ends -->
+        <!-- 35/30 short transition per 2009 website (maps to modern PN Q21071) is nominally 0.50" long,
+             with shoulders 0.75" on both ends.  I have an actual 21071, purchased late 2018.  It is
+             black blow-molded plastic, with the molded-loop sections on each end and grooves to facilitate
+             cutting them off.
+
+             Actual mass: 10.9 gm (without cutting off the ends)  Measured dimensions: 30mm shoulder end
+             diam 28.16 to 28.60 mm, 35mm shoulder diam 33.18 to 33.80 mm, cylindrical shoulder lengths
+             0.772" on 30mm end, 0.697" on 35mm end. Exposed length 0.53".  There's no way to measure
+             the thickness of the molding without cutting off an end. -->
         <Transition>
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>3530_short [R], Q21071 [R]</PartNumber>
-            <Description>Transition, plastic, 35mm to 30mm, black, decreasing, 0.50" length</Description>
+            <Description>Transition, plastic, 35mm to 30mm, black, decreasing, 0.5" length</Description>
             <Material Type="BULK">Polystyrene, bulk</Material>
-            <Mass Unit="g">7.1</Mass>
+            <Mass Unit="g">10.9</Mass>
             <Shape>CONICAL</Shape>
             <ForeOutsideDiameter Unit="mm">35.0</ForeOutsideDiameter>
-            <ForeShoulderDiameter Unit="mm">33.9</ForeShoulderDiameter>
-            <ForeShoulderLength Unit="in">0.75</ForeShoulderLength>
+            <ForeShoulderDiameter Unit="mm">33.8</ForeShoulderDiameter>
+            <ForeShoulderLength Unit="in">0.70</ForeShoulderLength>
             <AftOutsideDiameter Unit="mm">30.0</AftOutsideDiameter>
-            <AftShoulderDiameter Unit="mm">28.9</AftShoulderDiameter>
-            <AftShoulderLength Unit="in">0.75</AftShoulderLength>
-            <Length Unit="in">0.50</Length>
+            <AftShoulderDiameter Unit="mm">28.6</AftShoulderDiameter>
+            <AftShoulderLength Unit="in">0.77</AftShoulderLength>
+            <Length Unit="in">0.53</Length>
             <Thickness Unit="mm">1.0</Thickness>
         </Transition>
 
@@ -1013,15 +1055,15 @@ none known
             <PartNumber>3530_short, Q21071</PartNumber>
             <Description>Transition, plastic, 30mm to 35mm, black, increasing, 0.5" length</Description>
             <Material Type="BULK">Polystyrene, bulk</Material>
-            <Mass Unit="g">7.1</Mass>
+            <Mass Unit="g">10.9</Mass>
             <Shape>CONICAL</Shape>
             <ForeOutsideDiameter Unit="mm">30.0</ForeOutsideDiameter>
-            <ForeShoulderDiameter Unit="mm">28.9</ForeShoulderDiameter>
-            <ForeShoulderLength Unit="in">0.75</ForeShoulderLength>
+            <ForeShoulderDiameter Unit="mm">28.6</ForeShoulderDiameter>
+            <ForeShoulderLength Unit="in">0.77</ForeShoulderLength>
             <AftOutsideDiameter Unit="mm">35.0</AftOutsideDiameter>
-            <AftShoulderDiameter Unit="mm">33.9</AftShoulderDiameter>
-            <AftShoulderLength Unit="in">0.75</AftShoulderLength>
-            <Length Unit="in">0.50</Length>
+            <AftShoulderDiameter Unit="mm">33.8</AftShoulderDiameter>
+            <AftShoulderLength Unit="in">0.70</AftShoulderLength>
+            <Length Unit="in">0.53</Length>
             <Thickness Unit="mm">1.0</Thickness>
         </Transition>
 
