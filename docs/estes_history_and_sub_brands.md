@@ -15,10 +15,6 @@ run out of operating cash in ~60 days and thus would liquidate its assets.  Ulti
 was sold in March 2018 to Estes Industries LLC, a group headed by the John Langford family,
 who have been active in both sport rocketry and commercial aerospace.
 
-It was reliably reported near the time of the Hobbico bankruptcy sale that Estes had been on the market
-since April 2017.
-
-
 ## Corporate and Brand History
 
 The corporate history of Estes and the companies that have been combined with it is complicated.
@@ -68,9 +64,10 @@ The use of "undisclosed sum" indicates that disclosure of the price would either
 Thus we can infer that the sale price was likely not especially favorable for the seller.
 Barry Tunick left Estes at that time.
 
-The assets acquired by Hobbico included most or all of the Estes, Centuri and Cox intellectual property, as
-legacy trademarks from all three brands were subsequently used.  Examples include Centuri kit re-issues
-(Long Tom, large scale Little Joe II), a new kit design called the "Centuri", and some Cox branded RC planes/drones.
+The assets acquired by Hobbico included most or all of the Estes, Centuri and Cox intellectual
+property, as legacy trademarks from all three brands were subsequently used.  Examples include
+Centuri kit re-issues (Long Tom, large scale Little Joe II), a new kit design called the "Centuri",
+and some Cox branded RC planes/drones.
 
 Most recently, in January 2018 Hobbico declared bankruptcy, and in late March, Estes was sold to a
 private group called "Estes Industries LLC" controlled by the John Langford family.  Details are below.
@@ -116,8 +113,9 @@ disappeared from Estes usage.
 
 ### North Coast Rocketry
 
-Later, from 1996-1999 (source: northcoastrocketry.com) Estes held manufacturing rights to North Coast Rocketry (NCR) products.
 NCR is a boutique mid-power company originally owned by Matt Steele, Chris Pearon, and Dan Kafun.
+Later, from 1996-1999 (source: northcoastrocketry.com) Estes held manufacturing rights to North
+Coast Rocketry (NCR) products.
 
 The product line included some composite motors (OEM'd from Aerotech) and
 various mid-power kits, including an RC rocket glider.  Matt Steele went to Penrose and worked
@@ -129,19 +127,21 @@ As of 2018, the Estes-branded composite motors have been discontinued by Estes.
 
 ## Cross-Pollination
 
-Besides the recycling of old kit names, there were a few technology holdovers from the merged-in companies.
+Besides the recycling of old kit names, there were a few technology holdovers from the
+merged-in companies.
+
 Probably the most obvious was the persistent use by Estes of the "BT-56" tube size and associated
-plastic parts, which was never in the Estes line before the mergers.  It turns out the BT-56 is
+plastic parts, a size that was never in the Estes line before the mergers.  It turns out the BT-56 is
 essentially identical to the Centuri ST-13 tube size.  The reason for its continuance is not the tube
-size, but the fact that Centuri had good plastic injection mold tooling for a quad fin unit (Challenger II), nose cone,
-and egg capsule in that size, and perhaps an inventory of already molded parts.  The high cost of the
-tooling made it far cheaper to issue a BT-56 sized kit (tubes are inexpensive in any size) than to
-create new plastics tooling in the Estes standard BT-55 size.
+size, but the fact that Centuri had good plastic injection mold tooling for a quad fin unit
+(Challenger II), nose cone, and egg capsule in that size, and perhaps an inventory of already
+molded parts.  The high cost of the tooling made it far cheaper to issue a BT-56 sized kit 
+(tubes are inexpensive in any size) than to create new plastics tooling in the Estes standard BT-55 size.
 
 ## Hobbico Bankruptcy and Financial Issues
 
-Estes has been sold once again following the Hobbico bankruptcy in January 2018, triggered after a 33% sales decline from
-2016 to 2017 left it unable to service its ~$175M debt.
+Estes has been sold once again following the Hobbico bankruptcy in January 2018, triggered after
+a 33% sales decline from 2016 to 2017 left it unable to service its ~$175M debt.
 Terms used in some of the filings strongly suggest that key unpaid suppliers cut off shipments,
 leaving Hobbico unable to operate.
 From other numbers that came out in the Chapter 11 filings (sales plummeted from $170M to ~$110M),
@@ -153,28 +153,33 @@ on a mandatory obligation to employees is a key indicator of insufficient workin
 probably should have results in an immediate bankruptcy filing.  As it was, the main
 response at the beginning of 2017 was the ouster of the Hobbico CEO.
 
-At a bankruptcy auction on Mar 28, 2018,
-most subsidiaries of Hobbico were sold for $18.8M to Horizon Hobby - the other large hobby distributor in the US -
-but notably the offer did not include Estes.  Pre-auction news that Estes wasn't included in the main bid
-caused anxiety on rocketry social media since it created a perceived threat that Estes could cease operations.
+At a bankruptcy auction on Mar 28, 2018, most subsidiaries of Hobbico were sold for $18.8M to
+Horizon Hobby - the other large hobby distributor in the US - but notably the offer did not
+include Estes.  Pre-auction news that Estes wasn't included in the main bid
+caused anxiety on rocketry social media since it created a perceived threat that Estes could
+cease operations.
 
-However, with less advance publicity, Estes-Cox was sold at the same time for $7M to an entity officially known
-as "Estes Industries LLC" - also referred to as "the Langford Group" in court documents.  The sale was approved on April 2, 2018
-by the bankruptcy judge.  The price went up from the $6M stalking horse value, so it looks like at least one 
-other bid was received.
+However, with less advance publicity, Estes-Cox was sold at the same time for $7M to an entity
+officially known as "Estes Industries LLC" - also referred to as "the Langford Group" in court
+documents.  The sale was approved on April 2, 2018 by the bankruptcy judge.  The price went up
+from the $6M stalking horse value, so it looks like at least one other bid was received, though
+the identity of the bidder has not emerged.
+
+It was reliably reported to me privately near the time of the Hobbico bankruptcy sale that
+Estes had been on the market since April 2017.
 
 Public documents show that "Estes Industries LLC" is a Delaware LLC listing Robert Ellis Langford
-as manager.  Robert Ellis Langford is the son of John Langford, a successful aerospace entrepreneur who has been involved
-in historically significant man-powered flights, and later sold a company to Boeing.  John has
-also been an international NAR/FAI rocketry competitor for many years.
+as manager.  Robert Ellis Langford is the son of John Langford, a successful aerospace entrepreneur
+who has been involved in historically significant man-powered flights, and later sold a company 
+to Boeing.  John has also been an international NAR/FAI rocketry competitor for many years.
 
-The Chapter 11 filings revealed some recent sales data. Estes had revenues
-of $13.9M in 2016 and $11.3M in 2017 (19% YoY decline) and assets of ~$7M, including roughly $2.5M each of finished
+The Chapter 11 filings revealed some recent sales data. Estes had revenues of $13.9M in 2016
+and $11.3M in 2017 (19% YoY decline) and assets of ~$7M, including roughly $2.5M each of finished
 inventory and "manufacturing supplies" (parts), and the Penrose CO facility.
 
 Those financial results are very poor, due both to declining hobby sales in general and
 mismanagement by the owners of Hobbico.  Estes did much better than other parts of Hobbico,
-but a 19% annual sales decline is still catastrophic.  The Langfords will have to work to reverse this quickly.
+but a 19% annual sales decline is still catastrophic.
 
 ## Black Powder Motor Products
 

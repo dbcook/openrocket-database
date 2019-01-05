@@ -27,6 +27,13 @@ System compatibility:  works anywhere OpenRocket can run
 
 ## Release Notes
 
+0.9.1.6 - Jan 2019
+* Fixes
+   * Quest - greatly improve measurements and mass on 3 transitions based on actual parts
+* Additions
+   * README - improved writeups on various company histories
+   * Bluetube - added note about airframe/MMT ambiguity for the 1.15" and 1.52" sizes
+
 0.9.1.5 - Dec 2018
 * Fixes
    * Quest - Q10303 18mm motor mount tube - fix length to 2.6875", was 30"
@@ -246,18 +253,40 @@ The ninfinger.org site has a lot of scans of rocket catalogs and documents, incl
 of the more obscure vendors.  Scan quality is sometimes very poor, but there are important
 and unique resources there such as early Aerotech and Canaroc catalogs.
 
-#### Estes Contract Manufacturing and the Death of Parts Data
+### Data Availability by Manufacturer
 
-In recent years, the rise of outsourced, offshore contract manufacturing has
-drastically limited our ability to get parts data for rocket vendors that use outsourcing, principally Estes.
+This section discusses the parts data situation for various prominent model rocket vendors.
 
-Estes production works roughly like this:
+#### Estes
+
+[Estes Corporate History](docs/estes_history_and_sub_brands.md)
+
+Estes has an archive with many kit instructions and nearly all back catalogs on its
+website, and many kits have instructions plus fin and decal scans on the two prominent
+rocketry archive sites (JimZ and Ye Olde Rocket Shoppe).  In addition, John Brohm
+produced comprehensive Estes body tube and nose cone kit cross-references in 2007
+that contain a lot of hard-to-find data.
+
+Early catalogs were comprehensive and accurate in their specs for parts, usually giving
+full dimensions and a representative weight.
+
+Estes produced an encyclopedic "Custom Parts Catalog" in 1974 that is a valuable reference,
+though it contains many errors.
+
+John Brohm published ca. 2007 a pair of valuable documents that cross-reference Estes
+nose cones and body tubes to the kits in which they were used.  These contain information
+not available anywhere else, and have been highly valuable for this project.
+
+##### Contract Manufacturing
+
+In the last two decades, the use of offshore contract manufacturing in China by Estes has
+drastically limited our ability to get parts data.  Estes production now works roughly like this:
 
 * Kits are assembled and packaged by the overseas contractor
   using parts that are either made or sourced by the overseas
   contractor.
 * The only thing that comes back to the USA is fully packaged finished product.
-* The manufacturers do not send back parts to the Estes unless Estes
+* The manufacturers do not send back parts to Estes unless Estes
   specifically asks (and pays) for that to happen.
 * There is a cost associated with every SKU (product) that gets packaged
   and sent back to the USA, creating a strong disincentive to have the
@@ -275,31 +304,10 @@ These facts have some logical results:
   into assortments, with the assortment having its own PN.  The internal PNs
   of the constituents aren't published, nor their specs. In some cases the
   actual contents of assortments can change over time.
-* In this environment, the only way to index the parts used in kits is by
-  obtaining and measuring actual samples.
 
-Overall, I think the era of model rocket kits being assembled from parts that themselves
-have full manufacturer-published public specs is over, permanently.  The way that outsourced
+The way that outsourced
 contract manufacturing works now guarantees that individual part details will not
 be publicly available unless the kit maker goes to extra expense to provide it.
-
-### Data Availability by Manufacturer
-
-This section discusses the parts data situation for various prominent model rocket vendors.
-
-#### Estes
-
-Estes has an archive with many kit instructions and nearly all back catalogs on its
-website, and many kits have instructions plus fin and decal scans on the two prominent
-rocketry archive sites (JimZ and Ye Olde Rocket Shoppe).  In addition, John Brohm
-produced comprehensive Estes body tube and nose cone kit cross-references in 2007
-that contain a lot of hard-to-find data.
-
-Early catalogs were comprehensive and accurate in their specs for parts, usually giving
-full dimensions and a representative weight.
-
-Estes produced an encyclopedic "Custom Parts Catalog" in 1974 that is a valuable reference,
-though it contains many errors.
 
 As Estes shifted production to China, in addition to the issues created by
 contract manufacturing (see above), several more things happened that affected our ability
@@ -309,12 +317,16 @@ to get Estes parts info:
   dimension or weight data is usually given.
 * The number of obvious errors in Estes catalogs increased substantially after
   about year 2000.
-* Estes did not produce a catalog for 2017. Catalog production has resumed in
+* Estes did not produce a catalog for 2017. Catalog production resumed in
   2018 but with little parts information.
 
-Thus we have better parts data on legacy (1960s through the late 1980s) Estes
-parts than for newer ones.  In the future we'll likely have almost no parts data
+Thus we have better parts data on legacy (1960s through the late 1980s)
+parts than for newer ones.  In this environment, the only way to index the parts used in
+kits is by obtaining and measuring actual samples, which I think is not going to
+happen broadly. In the future we'll likely have almost no parts data
 until 3D scanning and shape-matching become convenient.
+
+##### Part Numbers
 
 The Estes part numbering scheme is as convoluted as you might expect for a company that
 started as a small operation in the early 1960s.  The first part numbering system was very
@@ -336,7 +348,8 @@ era, even though the same parent company owned both brands.
 Almost no Centuri kit instructions listed any part numbers.
 Centuri kit instructions are not archived on the official Estes instructions pages, even
 though Estes owns the rights to all things Centuri.  Various plans do exist on the
-[JimZ plans site](http://www.spacemodeling.org/jimz/) and [RocketShoppe](http://www.oldrocketplans.com/centuri.htm),
+[JimZ plans site](http://www.spacemodeling.org/jimz/) 
+and [RocketShoppe](http://www.oldrocketplans.com/centuri.htm),
 but coverage is poor - neither site has even 50% of known Centuri kits.
 
 No Centuri parts file is provided with the stock OpenRocket.
@@ -352,10 +365,14 @@ to have comprenehsive data in the period between 1972 and Centuri's end of produ
 
 #### LOC Precision
 
+LOC Precision was an early high power kit vendor, founded in 1986 by Ron and Deb Schulz in Ohio.
+It was acquired in late 2000 by Barry Lynch when Ron and Deb retired, and most recently sold in
+November 2016 to Dave Barber and Jason Turicik of Plymouth, WI. (source: LOC website 2018)
+
 Dimensional data from LOC Precision is notoriously incomplete and error-filled, but I've
 been able to resolve most of it using Apogee's tabulated data and some measurements of actual parts.
-LOC changed hands for the second time around the beginning of 2017, but thus far (fall 2018) the
-website parts listings have not had any significant upgrades to the part dimensions.
+LOC changed hands for the second time around the beginning of 2017 and is how based in Wisconsin.
+As of late 2018, the website parts listings have had some minor improvements in dimensional data.
 
 #### SEMROC
 
@@ -376,10 +393,10 @@ identified as such in any existing Estes literature.  These fall into a few diff
 situations:
 
 1. Specialty parts that Estes actually made for use in certain kits.  In the era after
-  Estes stopped assigning "BNC-xxx" codes, they would have a numeric PN only, and might
-  never appear in a catalog.  Semroc appears to have created BNC-xxx designators for these.  Example:
+   Estes stopped assigning "BNC-xxx" codes, they would have a numeric PN only, and might
+   never appear in a catalog.  Semroc appears to have created BNC-xxx designators for these.  Example:
   
-  * BNC-5RA PN 70217 for #0893 Red Alert (PN given in instructions, no known Estes use of "BNC-5RA")
+   * BNC-5RA PN 70217 for #0893 Red Alert (PN given in instructions, no known Estes use of "BNC-5RA")
 
 2. Semroc-specific parts that Semroc made for their own unique kits.  If they were made to
    mate with an Estes tube size, Semroc would assign a made-up Estes style BNC-xxx
@@ -392,19 +409,22 @@ situations:
    
    * BNC-20LS (2.0 inch elliptical, downscale of BNC-60L)
 
-4. Semroc parts that are balsa versions of Estes plastic PNC-xxx parts that had no Estes balsa equivalent.
+4. Semroc parts that are balsa versions of Estes _plastic_ PNC-xxx parts that had no Estes
+   balsa equivalent.
    See http://www.semroc.com/store/scripts/xref.asp?company=classic for some info.  Examples:
 
    * BNC-20ED (4.2 inch "capsule", version of PNC-20ED from Saros, Nomad)
    * BNC-50KP (balsa version of PNC-50K, which was not the same shape as Estes BNC-50K)
    * BNC-50S (balsa version of PNC-50S; Estes never made a balsa version)
 
+
+##### Nose Cone Shape Drawings
+
 It turns out that the shape drawings on the nose cone individual pages on the Semroc legacy site are
 accurately to scale, and to make things even better, they are mostly at the 
 *same* scale.  Randy Boadway, owner of eRockets, confirmed to me at NARAM-60
-in 2018 that the drawings
-do in fact come directly from the software that controls the nose cone making
-machines, so they are authoritative.
+in 2018 that the drawings do in fact come directly from the software that controls the 
+nose cone making machines, so they are authoritative.
 
 To exploit this you have to be careful about the browser zoom factor.  In chrome,
 hitting 'zoom in' five times gives you 200 pixels/inch in the Semroc legacy site drawings.
@@ -428,11 +448,11 @@ consistent as on the legacy site, but the drawings are still very useful.
 
 The nose cone drawings have also proven that Semroc did *not* scale the 
 shoulder length exactly, just the shape of the exposed portion of the nose
-cone or transition.  Randy Boadway confirmed this to me at NARAM-60.
+cone or transition.  Randy Boadway also confirmed this to me at NARAM-60.
 
 #### BMS (Balsa Machining Service)
 
-BMS is operated by Bill Saindon of Pahrump, NV.  Much of the BMS business is
+BMS is operated by Bill and Mary Saindon of Pahrump, NV.  Much of the BMS business is
 balsa parts, but body tubes and Aerotech motors are also available.  Lists of
 tubes and balsa parts are on the [BMS website](https://balsamachining.com).
 
@@ -457,9 +477,9 @@ There are, however, many useful snapshots of fliskits.com in the
 [Internet Wayback Machine](https://web.archive.org).
 
 Fliskits body tube sizes were all Estes standard.  There is a variety of nose cones that were
-likely made by BMS or Semroc - fortunately, full dimensions are given.  There is only one balsa transition,
-and all the centering rings look identical to BMS rings.  Apart from the nose cones,
-there do not look to be any custom parts.  So the parts file can likely just be nose cones.
+likely made by BMS or Semroc - fortunately, full dimensions are given.  There is only one 
+balsa transition, and all the centering rings look identical to BMS rings.  Apart from the
+nose cones, there do not look to be any custom parts.  So the parts file can likely just be nose cones.
 
 #### MRI (Model Rocket Industries)
 
@@ -470,8 +490,9 @@ historical information reported directly from Myke Bergenske on
 MRI was started by Myke Bergenske of Wisconsin (later the owner of AVI).  Myke may 
 have acquired Central Rocket Company from Richard Goldsmith in the early 1960s per a
 post from Terry Dean on oldrocketforum.com on 11 June 2007.  Myke subsequently made
-some kind of deal with General Mills circa 1969, leading to MRI being morphed into MPC.
-In 1973, the MPC rocket line was bought back by Myke and folded into AVI.  AVI
+some kind of deal with General Mills circa 1969, leading to MRI being morphed into MPC,
+which operated as a division of General Mills.
+In 1973, the MPC rocket line was bought back by Myke and re-branded as AVI.  AVI
 finally went out of business in 1979.
 
 Information about this chain of events can be found [here](https://www.rocketryforum.com/threads/the-lost-history-of-model-rocketry.63543/)
@@ -541,7 +562,7 @@ Madcow Rocketry, owned by Mike Stoop, is a mid to high power vendor operating in
 Los Angeles area for the past several years (as of 2018).  Madcow acquired the Rocketry
 Warehouse fiberglass kit line in 2016, but not the fiberglass tube/nose cone manufacturing
 operation.  The tubes and nose cones sold by Madcow were and continue to be made by the
-former owners of Rocketry Warehouse.
+former owner of Rocketry Warehouse, Curtis Taylor.
 
 To the best of my knowledge, Madcow Rocketry has never published a print catalog.
 
@@ -569,8 +590,8 @@ Quest formerly sold 18mm and 20mm black powder motors, which have been discontin
 by Aerotech.
 
 The [Quest website](https://www.questaerospace.com/) has good dimensions for most body tubes, but
-incomplete or no dimensions for nose cones and other part types.  There is basically no mass data anywhere.
-There is a `quest.orc` included with stock OpenRocket, which I have just started updating.
+incomplete or no dimensions for nose cones and other part types.  There is basically no mass
+data anywhere.
 
 Quest makes several Micromaxx (1/4" diameter motor) kits that can only be had as part of starter sets:
 
@@ -584,22 +605,26 @@ Quest makes several Micromaxx (1/4" diameter motor) kits that can only be had as
 The parts content of these Micromaxx kits is totally undocumented.  John McCoy, probably the
 world's moset prolific Micromaxx specialist, might be of help here.
 
-Side note: The Saturn V and Space Shuttle are offered in a "Space Pioneers" starter set, which is a reference
-to the New Canaan YMCA Space Pioneers founded by G. Harry Stine (father of Quest founder Bill Stine),
-one of the first NAR sections from the 1960s.
+Side note: The Saturn V and Space Shuttle are offered in a "Space Pioneers" starter set, which
+is a reference to the New Canaan YMCA Space Pioneers founded by G. Harry Stine (father of Quest
+founder Bill Stine), one of the early NAR sections from the 1960s.
 
 A fair fraction of Quest kit instructions are available, and all of the instructions examined have
 part lists with numeric PNs and brief descriptions.
 
-Quest currently has at least 38 kits
-in production (counting from the website as of March 2018), while the Quest website has around 30 plans on its
+Quest currently has at least 38 kits in production (counting from the website as of March 2018),
+while the Quest website has around 30 plans on its
 [Downloadable Instructions page](https://www.questaerospace.com/page/download_instructions).
 [Ye Old Rocket Shoppe](http://plans.rocketshoppe.com/quest.htm) has 14 plan sets that are mostly
-not listed on the Quest site, while the JimZ plans site has no Quest data.  None of the posted plans appear
-to be for Micromaxx sized models.  
+not listed on the Quest site, while the JimZ plans site has no Quest data.  None of the posted
+plans appear to be for Micromaxx sized models.  
 
-Comparing the instructions reveals that Quest used product number 1005 for two completely different models,
-the Tracer and the Starhawk.
+Comparing the instructions reveals that Quest used product number 1005 for two completely 
+different models, the Tracer and the Starhawk.
+
+The `quest.orc` included with stock OpenRocket has many errors.  I constructed a completely
+new Quest file with better dimensions; however the masses are all computed volumetrically and
+are mostly unverified.
 
 #### FSI - Flight Systems Inc.
 
@@ -610,39 +635,47 @@ powder motors in A through F classes, and also made an early composite propellan
 motor called the Thunderbolt.  FSI was notable for producing motors in odd diameters
 (21mm and 27mm) that were never adopted by any later vendor, leading to unique tube sizes.
 
-In about 2015 the decaying FSI and AVI motor making equipment and some remaining parts inventory were located
-and acquired by Dave Bucher and David Lucas, who announced a relaunch of the company.  At NARAM-58 they sold
-a small number of some FSI branded kits made from NOS parts with substitutions to enable use of 24mm motors.
-However, their website never went live for orders, and the passing of Dave Bucher in 2017 was a setback to the
-reboot attempt.  The 2017 website is gone, but Facebook posts have resurfaced in 2018 with two new people
-identifying themselves only as "B.G." and "R.M." apparently joining Dave Lucas.  The Facebook posts make it
-clear they are focusing on bringing out a few new kits.  It's possible that the modified old stock kits sold
-at NARAM-58 are now exceedingly rare, as they were made legitimately under the FSI name but no more than a few
-tens of them exist.
+In about 2015 the decaying FSI and AVI motor making equipment and some remaining parts inventory
+were located and acquired by Dave Bucher and David Lucas, who announced a relaunch of the company. 
+At NARAM-58 they sold a small number of some FSI branded kits made from NOS parts with substitutions 
+to enable use of 24mm motors. However, their website never went live for orders, and the passing
+of Dave Bucher in 2017 was a setback to the reboot attempt.  The 2017 website is gone, but
+Facebook posts have resurfaced in 2018 with two new people identifying themselves only as 
+"B.G." and "R.M." apparently joining Dave Lucas.  The Facebook posts make it
+clear they are focusing on bringing out a few new kits.  It's possible that the modified old
+stock kits sold at NARAM-58 are now exceedingly rare, as they were made legitimately under the
+FSI name but no more than a few tens of them exist.
 
-The Bucher/Lucas FSI is not known to have had individual parts on sale, and did not produce any new motors.
+The Bucher/Lucas FSI is not known to have had individual parts on sale, and did not produce
+any new motors.
 
 FSI had printed catalogs that provided good data on tube sizes, which have already been incorporated into
-`tube_data.txt`.  Catalogs were produced only sporadically, but the product line changed slowly.  FSI did sell
-almost all of the parts that went into their kits, so making a good parts file looks feasible.  One unusual
-FSI part series was the hardwood nose cones.  Getting proper weights for these may be
-challenging since the specific type of hardwood wasn't given, and it's not certain that the same type of
-wood was always used.
+`tube_data.txt`.  Catalogs were produced only sporadically, but the product line changed slowly.
+FSI did sell almost all of the parts that went into their kits, so making a good parts file 
+looks feasible.  One unusual FSI part series was the hardwood nose cones.  Getting proper weights
+for these may be challenging since the specific type of hardwood wasn't given, and it's not
+certain that the same type of wood was always used.
 
 #### Apogee
 
-Apogee started as a competition specialty supplier called Apogee Components that was run by Ed LaCroix of Minneapolis
-during the 1980s. Apogee Components carried various parts including lightweight phenolic "blackshaft" tubing, very light
-nose cones, etc.  It's not clear whether Apogee had a full line catalog.
+Apogee started as a competition specialty supplier called Apogee Components that was run by
+Ed LaCroix of Minneapolis at least into the mid 1990s. Apogee Components carried various parts
+including lightweight phenolic "blackshaft" tubing, nose cones, etc.
 
-At some time a number of years ago (check date), Apogee Components was sold to Tim van Milligan of Colorado, who turned it
-into a general retail outlet for various rocket companies including Estes, Quest, LOC, and others.
-It is still officially named Apogee Components (website as of August 2018).
+A 1994 Apogee catalog can be seen
+[here on ninfinger.org](http://www.ninfinger.org/rockets/catalogs/apogee94/apogee94cat.pdf) 
+It has good dimensions and weights for the competition parts.
 
-Apogee now mostly sells parts OEM'd from other vendors.  Their website is notable for having a lot of tabular
-dimension and mass data that seems to have been obtained from actual measurement of parts.  Their site is in
-fact the only source of published mass data for a number of LOC components.  It is not error free but has
-already helped me resolve some inconsistencies in LOC and Madcow data.
+At some time a number of years ago (check date), Apogee Components was sold to Tim van Milligan
+of Colorado, who turned it into a general retail outlet for various rocket companies including
+Estes, Quest, LOC, and others. It is still officially named Apogee Components (per the website
+as of August 2018).
+
+Apogee now mostly sells parts OEM'd from other vendors.  Their website is notable for having a
+lot of tabular dimension and mass data that seems to have been obtained from actual measurement
+of parts.  Their site is in fact the only source of published mass data for a number of LOC
+components.  It is not error free, but has helped resolve inconsistencies in LOC
+and Madcow data.
 
 Apogee does make a few own-design parts, including the foam egg protectors and nose cones widely used by
 TARC teams, and foam ejection plugs used in NAR/FAI competition.  I don't believe they make any tubes or
@@ -652,58 +685,62 @@ Apogee file with the important parts.
 
 #### Wildman Rocketry
 
-Wildman Rocketry is operated by Tim and Jackie Lehr out of Indiana.  It is one of the most important high
-power vendors and sells many large fiberglass HPR kits of their own design, along with parts.
+Wildman Rocketry is operated by Tim and Jackie Lehr of Van Orin, Illinois.  It is one of the
+most important high power vendors and sells many large fiberglass HPR kits of their own design,
+along with parts.
 
-Unfortunately, Wildman provides so little data that it is probably not worthwhile to try to make a parts file.
-There are certain unique parts, such as the 3" and 4" polycarbonate nose cones used for the Punisher 3 and 4.
-For most fiberglass tube sizes (1.6, 2.2, 2.6, 3.0, 4.0, 5.5, 6.0 inches), you can find reasonable equivalents in 
-the Madcow file.
+Wildman provides so little data that it is probably not worthwhile to try to make a
+parts file, though there are certain unique parts, such as the 3" and 4" polycarbonate nose cones
+used for the Punisher 3 and 4.
+
+For most Wildman fiberglass tube sizes (1.6, 2.2, 2.6, 3.0, 4.0, 5.5, 6.0 inches), you can
+find reasonable equivalents in the Madcow file.
 
 #### Giant Leap Rocketry
 
 (History from various sources including Giant Leap Rocketry Inc. Facebook page, Aerotech news archives, etc.)
 
 Giant Leap Rocketry was originally founded on June 1, 1997 in Baton Rouge, LA.
-As of 2002 (rmrfaq archive)
-their address was 6061 Hibiscus Drive, Baton Rouge, LA 70808, and the company was
-selling phenolic tubing and fiberglass nose cones.  The owners were Ed Shihadeh of Baton Rouge and 
-Kent (last name needed).
+As of 2002 (rmrfaq archive) their address was 6061 Hibiscus Drive, Baton Rouge, LA 70808, and
+the company was selling phenolic tubing and fiberglass nose cones.  The owners were Ed Shihadeh 
+of Baton Rouge and Kent (last name needed).
 
 In 2005, Giant Leap was selling Aerotech motors; but as of 2018 they are no longer selling motors.
 
 Giant Leap Rocketry was sold in October 2016 to Dix Densley of Hillsboro, OR and Bob Martell of
 Portland, OR.  Operations have been moved to Hillsboro, OR. 
-I haven't found any information about any other sales of the company between 2005 and 2016.  The current
+I haven't found any information about any other ownership changes between 2005 and 2016.  The current
 status of the company is unclear as there have been no Facebook posts since August 2017, and no other
 recent activity or even discussion of Giant Leap.
 
-There doesn't seem to have been any systematic production of print catalogs.  The company had minimal presence
-on Facebook between their account starting in 2012, and fall 2016 right before the company was sold.
-There are no Giant Leap catalogs on Ninfinger.org, and Google searches come up empty.
+There doesn't seem to have been any systematic production of print catalogs.  The company had
+minimal presence on Facebook between their account starting in 2012, and fall 2016 right before
+the company was sold. There are no Giant Leap catalogs on Ninfinger.org, and Google searches come
+up empty.
 
-Giant Leap offers some dimensional data on their current (2018) website.  They offer three types of tubes - 
-K-frame (Kevlar/fiberglass hybrid), Magnaframe (hybrid phenolic/vulcanized fiber), and Phenolic.
-Wall thickness is only given for the phenolic tubes, and weights are not given for much of anything.
-I heard verbally at a 2018 event that all tubes except the phenolic have been discontinued, and this is substantiated
-by the website where most of the K-frame tube is shown as out of stock, and one of the two sizes of magna-frame
-is also out of stock.
+Giant Leap offers some dimensional data on their current (2018) website.  They offer three types
+of tubes: K-frame (Kevlar/fiberglass hybrid), Magnaframe (hybrid phenolic/vulcanized fiber),
+and phenolic. Wall thickness is only given for the phenolic tubes, and weights are not given for
+much of anything. I heard verbally at a 2018 event that all tubes except the phenolic have been
+discontinued, and this is substantiated by the website where most of the K-frame tube is shown as
+out of stock, and one of the two sizes of magna-frame is also out of stock.
 
 ### Missing Manufacturers
 
 There are several product lines from legacy and major manufacturers - especially high
-power vendors - that are not included in OpenRocket at all.  Some of these are now covered in
-this components database.
+power vendors - that are not represented in the stock OpenRocket.  Some of these are now covered in
+this database.
 
-* Centuri (many cloneable kits with parts different than Estes).  Many parts are in Semroc listings though.
-* Apogee Components (mostly other vendors' parts but with some unique ones, e.g. foam egg protectors for TARC)
-* Apogee Components (predecessor owned by Ed LaCroix; made competition parts that the later
-  Apogee under Tim van Milligan did not carry forward).  There is an original 1994 Apogee catalog
-  [here on ninfinger.org](http://www.ninfinger.org/rockets/catalogs/apogee94/apogee94cat.pdf) with good
-  dimensions for the competition parts.
-* CMR (defunct but had unique tube sizes)
-* FSI (defunct but had unique tube sizes)
-* ModelRockets.us (Discount Rocketry), offers tubes with heavier wall than Estes
+* Centuri (many cloneable kits with parts different than Estes).  The Semroc parts file contains
+  main closely compatible parts including all nose cones and tube sizes.
+* Apogee Components / van Milligan. They mostly sell other vendors' parts, but they do source
+  some unique ones, e.g. foam egg protectors for TARC.
+* Apogee Components / Ed LaCroix.  The original Apogee made competition parts that the later
+  Apogee under Tim van Milligan did not carry forward.  
+* CMR (long defunct but had unique tube sizes)
+* FSI (long defunct but had unique tube sizes)
+* ModelRockets.us (Discount Rocketry), offers tubes with heavier wall than Estes, and various
+  plastic nose cones.
 * Very small manufacturers including Kopter, Pine Cap Assoc., US Rockets, ASP, etc.
 * Canaroc
 * High power kit and parts vendors
