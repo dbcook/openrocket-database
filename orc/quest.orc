@@ -984,8 +984,11 @@ none known
 
              On both my 21056 examples, the T35 shoulder diam is 33.66mm and the T30 shoulder diam is 28.66 mm.
              Shoulder lengths are 0.346" for the 30mm end and 0.480" for the 35mm end; exposed length
-             is 0.75".  Masses are 6.3 and 6.4 gm.  Thickness of the shoulders averages about 0.40" on the
-             30 mm end and 0.57" on the 35 mm end.
+             is 0.75".  Masses are 6.3 and 6.4 gm.  Thickness of the shoulders averages about 0.040" on the
+             30 mm end and 0.057" on the 35 mm end.
+
+             The max diam of the ribbed section is 1.343" = 34.13 mm at the 35mm end, and the diam at the 30mm end
+             is 1.168" = 29.66 mm.  This matches the impression of an obvious under-sized match to the T35 tube.
 
              Actual values from measured samples are used here.  As for color, given the website photo
              errors discussed above, I am only listing this as white until proven otherwise.
