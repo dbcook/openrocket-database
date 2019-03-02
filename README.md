@@ -27,6 +27,13 @@ System compatibility:  works anywhere OpenRocket can run
 
 ## Release Notes
 
+0.9.1.7 - Feb 2019
+* Fixes
+   * semroc - rearrange some NC description fields to newest layout
+   * estes - match up numeric PN for PNC-20Y, link to authoritative YORF discussion
+   * README - some general editing
+* Additions
+
 0.9.1.6 - Jan 2019
 * Fixes
    * Quest - greatly improve measurements and mass on 3 transitions based on actual parts
@@ -168,21 +175,20 @@ somewhat Mac centric because that's what I use most.
 ### Near Term Plan
 
 * Finish up new Semroc file
-  * Review Semroc nose cones and transitions for completeness
   * Adjust Semroc nose cone shoulder lengths to match drawings on legacy site (ones I did early)
 * Add Bluetube / Always Ready Rocketry centering rings
 * Add Always Ready Rocketry nose cones (if data exists or can determine sourcing)
-* Review / upgrade Quest, FlisKits, GLR, BMS, PML stock files
+* Review / upgrade FlisKits, GLR, BMS, PML stock files
 
 ### Database Files Status
 
 | File                    | In Stock OR      |  Upgrade/Completion State       |
 | ----- | ----- | ----- |
-| `Estes.orc`              | Yes  | 100% (split - see new files below)
+| `Estes.orc`              | Yes  | 100% - split - see new files below
 | `loc_precision.orc`      | Yes  | 100% 
-| `semroc.orc`             | Yes  | 99%  (believed complete, some cleanup continues)
-| `bluetube.orc`           | Yes  | 100% (tubes and couplers like stock file, still needs CRs and NCs)
-| `Quest.orc`              | Yes  | 98%  (everything known is done)
+| `semroc.orc`             | Yes  | 99% - believed complete, some cleanup continues
+| `bluetube.orc`           | Yes  | 100% - tubes and couplers are done, still needs CRs and NCs
+| `Quest.orc`              | Yes  | 98% - everything known is done
 | `bms.orc`                | Yes  | --
 | `Fliskits.orc`           | Yes  | --
 | `giantleaprocketry.orc`  | Yes  | --
@@ -212,7 +218,6 @@ how OpenRocket copies components into the .ork file, so something better is need
 See [this discussion](docs/next_gen_parts_database.md)
 
 
-
 ### Data Gathering Discussion
 
 Accurate data is really hard to come by for many items, and it's getting harder.
@@ -239,7 +244,7 @@ pretty poor.  There have not been any new additions to this site since circa 201
 The Rocketshoppe plans site is similar to the JimZ site, with instructions plus fin and decal scans.
 There is some overlap in coverage with JimZ.  The decal and pattern scans often suffer the same
 kinds of problems as on the JimZ site, for the same reasons.  I don't know if new plans are
-actively been added to Rocketshoppe.
+actively being added to Rocketshoppe.
 
 The Estes instructions archive is _only_ instructions; there are no fins or decal scans.  But the
 quality of the scans is uniformly good, and coverage is pretty good.  There is no Centuri material
@@ -371,14 +376,13 @@ November 2016 to Dave Barber and Jason Turicik of Plymouth, WI. (source: LOC web
 
 Dimensional data from LOC Precision is notoriously incomplete and error-filled, but I've
 been able to resolve most of it using Apogee's tabulated data and some measurements of actual parts.
-LOC changed hands for the second time around the beginning of 2017 and is how based in Wisconsin.
 As of late 2018, the website parts listings have had some minor improvements in dimensional data.
 
 #### SEMROC
 
 SEMROC is unique in that a majority of its parts are dimensionally exact reproductions of
 classic Estes and Centuri parts.  The late Carl McLawhorn was a fanatic about getting those things
-right, and data from the SEMROC legacy website has helped resolve some
+right, and data from the SEMROC legacy website has helped resolve
 uncertainties about some obscure Estes parts, especially tubes and nose cones.  eRockets acquired
 SEMROC after Carl's passing and has done a fantastic job of getting nearly all the SEMROC parts back
 into production and indexing them on the [erockets.biz](http://erockets.biz) website.
@@ -389,11 +393,11 @@ and I have digested them into a table of dimensions text file and a spreadsheet.
 Semroc is known for its vast array of Estes and Centuri compatible nose cones, but they
 also make some nose cones for their own kits.  This leads to some complications.  There
 are nose cones produced by SEMROC with Estes style designations that are not
-identified as such in any existing Estes literature.  These fall into a few different
+referenced in any known Estes literature.  These fall into a few different
 situations:
 
-1. Specialty parts that Estes actually made for use in certain kits.  In the era after
-   Estes stopped assigning "BNC-xxx" codes, they would have a numeric PN only, and might
+1. Specialty parts Estes made that never received a traditional PN.  In the era after
+   Estes stopped assigning "BNC-xxx" codes, they would assign a numeric PN only, and might
    never appear in a catalog.  Semroc appears to have created BNC-xxx designators for these.  Example:
   
    * BNC-5RA PN 70217 for #0893 Red Alert (PN given in instructions, no known Estes use of "BNC-5RA")
@@ -426,10 +430,9 @@ accurately to scale, and to make things even better, they are mostly at the
 in 2018 that the drawings do in fact come directly from the software that controls the 
 nose cone making machines, so they are authoritative.
 
-To exploit this you have to be careful about the browser zoom factor.  In chrome,
+To exploit this you have to be careful about the browser zoom factor.  In Chrome,
 hitting 'zoom in' five times gives you 200 pixels/inch in the Semroc legacy site drawings.
-For a few larger items you'll need less zoom.  Here is a list of zoom factors for
-Chrome on the Semroc legacy site images:
+Here is a list of zoom factors for Chrome on the Semroc legacy site images:
 
 * +0 - 100 pix per inch
 * +1 - 110 pix per inch
@@ -447,7 +450,7 @@ On the new e-rockets/Semroc site, the pixel scaling of the drawings is not as
 consistent as on the legacy site, but the drawings are still very useful.
 
 The nose cone drawings have also proven that Semroc did *not* scale the 
-shoulder length exactly, just the shape of the exposed portion of the nose
+shoulder length exactly, just the shape of the __exposed__ portion of the nose
 cone or transition.  Randy Boadway also confirmed this to me at NARAM-60.
 
 #### BMS (Balsa Machining Service)
@@ -479,7 +482,7 @@ There are, however, many useful snapshots of fliskits.com in the
 Fliskits body tube sizes were all Estes standard.  There is a variety of nose cones that were
 likely made by BMS or Semroc - fortunately, full dimensions are given.  There is only one 
 balsa transition, and all the centering rings look identical to BMS rings.  Apart from the
-nose cones, there do not look to be any custom parts.  So the parts file can likely just be nose cones.
+nose cones, there do not look to be any custom parts.
 
 #### MRI (Model Rocket Industries)
 
@@ -487,7 +490,7 @@ The lineage of MRI, MPC and AVI is sequentially connected.  There is an article 
 historical information reported directly from Myke Bergenske on
 [this blog post by Chris Michielssen](http://modelrocketbuilding.blogspot.com/2011/03/some-mri-mpc-and-avi-questions-answered.html)
 
-MRI was started by Myke Bergenske of Wisconsin (later the owner of AVI).  Myke may 
+MRI was started by Myke Bergenske of Wisconsin, who later was the owner of AVI.  Myke may 
 have acquired Central Rocket Company from Richard Goldsmith in the early 1960s per a
 post from Terry Dean on oldrocketforum.com on 11 June 2007.  Myke subsequently made
 some kind of deal with General Mills circa 1969, leading to MRI being morphed into MPC,
@@ -508,7 +511,7 @@ MPC, a division of General Mills, entered the business as a successor to MRI, an
 produced rocket parts and kits from ca. 1969 to 1973, when the product line was
 transferred back to
 Myke Bergenske d/b/a AVI.  AVI continued to manufacture and sell kits under the MPC
-name (with substitutions for the old plastic parts) until around 1978-1979.  The kit
+name (with substitutions for some originally plastic parts) until around 1978-1979.  The kit
 line is historically significant as many of them were designed by G. Harry Stine,
 one of the principal founders of model rocketry.
 
@@ -528,7 +531,7 @@ Tubes and nose cones that may have been added when the Miniroc line was introduc
 separately cataloged anywhere.  A couple have been identified (3 cal ellipsoid and 5 cal ogive
 T-15 nose cones) by pulling information from kit descriptions and instructions.
 
-The MRI/MPC metric tube sizing system has persisted to the present (2018) due to its adoption by
+The MRI/MPC metric tube sizing system has persisted to the present (2019) due to its adoption by
 Quest, which not coincidentally was founded by Bill Stine, son of MPC designer G. Harry Stine.
 I have confirmed that the modern day Quest tubes have identical
 dimensions to the original MRI/MPC tubes, with a uniform 0.5mm (.020") wall thickness.  Quest gives
@@ -564,6 +567,8 @@ Warehouse fiberglass kit line in 2016, but not the fiberglass tube/nose cone man
 operation.  The tubes and nose cones sold by Madcow were and continue to be made by the
 former owner of Rocketry Warehouse, Curtis Taylor.
 
+Madcow also acquired the Polecat Rocketry line of kits around the start of 2019.
+
 To the best of my knowledge, Madcow Rocketry has never published a print catalog.
 
 Madcow has spotty dimensional and mass data on its website; perhaps 2/3 of the parts have
@@ -590,8 +595,8 @@ Quest formerly sold 18mm and 20mm black powder motors, which have been discontin
 by Aerotech.
 
 The [Quest website](https://www.questaerospace.com/) has good dimensions for most body tubes, but
-incomplete or no dimensions for nose cones and other part types.  There is basically no mass
-data anywhere.
+incomplete or no dimensions for nose cones and other part types.  There is basically no useful mass
+data anywhere in their literature.
 
 Quest makes several Micromaxx (1/4" diameter motor) kits that can only be had as part of starter sets:
 
@@ -602,8 +607,7 @@ Quest makes several Micromaxx (1/4" diameter motor) kits that can only be had as
 * Saturn V
 * Space Shuttle
 
-The parts content of these Micromaxx kits is totally undocumented.  John McCoy, probably the
-world's moset prolific Micromaxx specialist, might be of help here.
+The parts content of these Micromaxx kits is totally undocumented.
 
 Side note: The Saturn V and Space Shuttle are offered in a "Space Pioneers" starter set, which
 is a reference to the New Canaan YMCA Space Pioneers founded by G. Harry Stine (father of Quest
@@ -659,7 +663,7 @@ certain that the same type of wood was always used.
 #### Apogee
 
 Apogee started as a competition specialty supplier called Apogee Components that was run by
-Ed LaCroix of Minneapolis at least into the mid 1990s. Apogee Components carried various parts
+Ed LaCroix of Minneapolis at least as far back as 1994. Apogee Components carried various parts
 including lightweight phenolic "blackshaft" tubing, nose cones, etc.
 
 A 1994 Apogee catalog can be seen
@@ -668,12 +672,12 @@ It has good dimensions and weights for the competition parts.
 
 At some time a number of years ago (check date), Apogee Components was sold to Tim van Milligan
 of Colorado, who turned it into a general retail outlet for various rocket companies including
-Estes, Quest, LOC, and others. It is still officially named Apogee Components (per the website
-as of August 2018).
+Estes, Quest, LOC, and others. It is still officially named Apogee Components
+as of early 2019.
 
 Apogee now mostly sells parts OEM'd from other vendors.  Their website is notable for having a
 lot of tabular dimension and mass data that seems to have been obtained from actual measurement
-of parts.  Their site is in fact the only source of published mass data for a number of LOC
+of parts.  Their website is the only source of published mass data for a number of LOC
 components.  It is not error free, but has helped resolve inconsistencies in LOC
 and Madcow data.
 
@@ -746,10 +750,10 @@ this database.
 * High power kit and parts vendors
   * Wildman
   * Rocketry Warehouse (pre Madcow acquisition)
-  * Polecat Aerospace
-* Fruity, Rocketman, Sky Angle, B2 nylon parachutes
+  * Polecat Aerospace (pre Madcow acquisition)
+* Fruity, Rocketman, Sky Angle, and B2 nylon parachutes
 
-## Usage and Quirks
+## OpenRocket Usage and Quirks
 
 For most things, you can use OpenRocket as you normally would.  However, there are a few things
 you should know about if you want maximum accuracy.
@@ -837,7 +841,7 @@ and usable from the OpenRocket user interface.
   mass when applied to the approximate shape chosen.  Drilled nose cones and tail cones also
   often need mass overrides as they can weigh less than half of what an un-drilled part weighs.
 
-* CG overrides are never used.
+* CG overrides are never used, though I may revisit this decision for some drilled parts.
 
 * Units of measure for dimensions have been set to the units used in the manufacturer's
   specifications.  For example, dimensional specs of Estes body tubes have all been
@@ -846,9 +850,8 @@ and usable from the OpenRocket user interface.
   values for the entire USA rocket industry.
 
 * Descriptions have been regularized to the engineering standard of a comma-separated list
-  of attributes, progressing from the most general to the most specific.  For example, an
-  Estes BNC-5E has the description "Nose cone, balsa, BNC-5E, PN 70212" while a PNC-5A is
-  "Nose cone, plastic, PNC-5A, PN 72600".
+  of attributes, progressing from the most general to the most specific.  For example, a
+  Semroc BNC-5AW has the description "Nose cone, balsa, BT-5, 2.25", elliptical, PN BNC-5AW".
 
 * Materials entries have been consolidated into a master reference file
   `generic_materials.orc` and pasted into the parts database .orc files where used.  Note
