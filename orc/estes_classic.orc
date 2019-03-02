@@ -3623,7 +3623,7 @@ Known issues:
             <ShoulderLength Unit="in">0.375</ShoulderLength>
             <Length Unit="in">2.75</Length>
         </NoseCone>
-        <!-- BNC-20Y 70241 (Yankee #1381 only) ref 1988 catalog, 0.02 oz -->
+        <!-- BNC-20Y 70241 (Yankee #1381 up to 1994 only) ref 1988 catalog, 0.02 oz -->
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
             <PartNumber>BNC-20Y, 70241</PartNumber>
@@ -4264,7 +4264,7 @@ Known issues:
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
             <PartNumber>PNC-5A, 072600</PartNumber>
-            <Description>Nose cone, plastic, PNC-5A, PN 072600</Description>
+            <Description>Nose cone, plastic, BT-5, 2.125", parabolic, PNC-5A, PN 072600</Description>
             <Material Type="BULK">Polystyrene, cast, bulk</Material>
             <Shape>PARABOLIC</Shape>
             <OutsideDiameter Unit="in">0.541</OutsideDiameter>
@@ -4283,7 +4283,7 @@ Known issues:
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
             <PartNumber>PNC-5V, 070305</PartNumber>
-            <Description>Nose cone, plastic, injection molded, PNC-5V, PN 070305</Description>
+            <Description>Nose cone, plastic, BT-5, 0.75", ellipsoid, injection molded, PNC-5V, PN 070305</Description>
             <Material Type="BULK">Polystyrene, cast, bulk</Material>
             <Shape>ELLIPSOID</Shape>
             <OutsideDiameter Unit="in">0.541</OutsideDiameter>
@@ -4302,7 +4302,7 @@ Known issues:
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
             <PartNumber>PNC-5_swift, 072609</PartNumber>
-            <Description>Nose cone, plastic, injection molded, PNC-5_swift, PN 072609</Description>
+            <Description>Nose cone, plastic, BT-5, 1.0", ogive, injection molded, PNC-5_swift, PN 072609</Description>
             <Material Type="BULK">Polystyrene, cast, bulk</Material>
             <Shape>OGIVE</Shape>
             <OutsideDiameter Unit="in">0.541</OutsideDiameter>
@@ -4329,7 +4329,7 @@ Known issues:
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
             <PartNumber>PNC-20, 072606</PartNumber>
-            <Description>Nose cone, plastic, PNC-20, white, PN 072606</Description>
+            <Description>Nose cone, plastic, BT-20, 2.65", ogive, PNC-20, white, PN 072606</Description>
             <Material Type="BULK">Polystyrene, cast, bulk</Material>
             <Mass Unit="oz">0.12</Mass>
             <Shape>OGIVE</Shape>
@@ -4343,21 +4343,24 @@ Known issues:
         <!-- PN 071095 from #1999 Corsair, #2039 Space Racer, #1941 Fox Fire, blow molded per Brohm -->
 
         <!--
-            PN 070323 from #1381 Yankee only, injection molded per Brohm
-            Yankee instructions confirm PN and use of 072603 base insert
         -->
 
-        <!-- PNC-20A from #1292 Wizard, #1917 Zinger, etc. injection molded per Brohm -->
+        <!-- PNC-20A from #1292 Wizard, #1917 Zinger, etc. 2-piece injection molded per Brohm -->
 
         <!-- PNC-20ED from #1254 SAROS, #1344 NOMAD -->
 
         <!-- PNC-20N from #0846 Eclipse, #0868 Big Yank, #1390 Aero-Fin -->
 
-        <!-- PNC-20Y ref ***, mass 0.1 oz -->
+        <!-- PNC-20Y, mass 0.1 oz.  Not mentioned as such in Brohm, nor in Semroc cross-ref. 
+             There is discussion on YORF http://www.oldrocketforum.com/archive/index.php/t-6197.html
+             that was likely the 1994 plastic successor to the BNC-20Y used in the Estes #1381 Yankee
+             Per Brohm there was a PN 070323 from #1381 Yankee only, injection molded.
+             Yankee instructions confirm PN and use of a PN 072603 base insert.
+              -->
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
-            <PartNumber>PNC-20Y</PartNumber>
-            <Description>Nose cone, plastic, PNC-20Y</Description>
+            <PartNumber>PNC-20Y, PN 070323</PartNumber>
+            <Description>Nose cone, plastic, BT-20, 1.0", conical, PNC-20Y, 2-pc inj molded, PN 070323</Description>
             <Material Type="BULK">Polystyrene, cast, bulk</Material>
             <Mass Unit="oz">0.10</Mass>
             <Shape>CONICAL</Shape>
