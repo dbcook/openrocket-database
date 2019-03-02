@@ -12067,7 +12067,7 @@ none known
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-5AL</PartNumber>
-      <Description>Nose cone, balsa, BNC-5AL, 0.4", rounded cone</Description>
+      <Description>Nose cone, balsa, BT-5, 0.4", rounded cone, PN BNC-5AL</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
@@ -12080,7 +12080,7 @@ none known
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-5AW</PartNumber>
-      <Description>Nose cone, balsa, BNC-5AW, 2.25", elliptical</Description>
+      <Description>Nose cone, balsa, BT-5, 2.25", elliptical, PN BNC-5AW</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
