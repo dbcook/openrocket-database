@@ -278,7 +278,9 @@ the former should be lighter because of larger hole. -->
         <!-- BT-2.56 mass 158 g / 5.53 oz per Apogee, 4.50 oz per LOC 2010 accessories catalog
              The LOC mass yields a much more reasonable density so I adopted that.
              0.035 wall
-             LOC and Apogee reliably say this tube is 30" long instead of the usual 34"
+             LOC co-owner Jason Turicek authoritatively stated in a rocketryforum post
+             on 17 Mar 2019 that BT-2.56 has always been 30" long instead of the 34" used for
+             other tube sizes (based on tube ordering records back into the 1990s)
         -->
         <BodyTube>
             <Manufacturer>LOC Precision</Manufacturer>
