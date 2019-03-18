@@ -33,6 +33,7 @@ System compatibility:  works anywhere OpenRocket can run
    * estes - match up numeric PN for PNC-20Y, link to authoritative YORF discussion
    * README - some general editing
 * Additions
+   * LOC - add note about official confirmation that BT-2.56 has always been 30" long
 
 0.9.1.6 - Jan 2019
 * Fixes
