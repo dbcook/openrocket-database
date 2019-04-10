@@ -2,7 +2,7 @@
 <!--
 SEMROC parts file for OpenRocket
 
-Copyright 2017-2018 by Dave Cook NAR 21953  caveduck17@gmail.com
+Copyright 2017-2019 by Dave Cook NAR 21953  caveduck17@gmail.com
 
 See the file LICENSE in this distribution for license information.
 
@@ -58,7 +58,7 @@ Classic parts cross reference: http://www.semroc.com/Store/scripts/xref.asp
 A fun oddity:  On the legacy site at http://www.semroc.com/Store/scripts/prodView.asp?idproduct=1575
 you find a "Balsa Nose Cone #8 Boid Assortment" with PN BC-BOID, and a drawing for a BC-834C.
 The My Boid was an ST-8 kit introduced in 2005 that had different nose cone and fins in every kit.
-There is now a 13mm (ST-5 version of the My Boid).  John Lee's 2009 review of the original My Boid
+There is now a 13mm (ST-5) version of the My Boid.  John Lee's 2009 review of the original My Boid
 on RocketReviews said "As I understand it, the parts in this kit are highly variable and consist of
 whatever Semroc has an excess of".  The original KA-6 My Boid kit card says "Over 100 different species!"
 The instructions (see on https://www.rocketryforum.com/threads/my-boid-semroc-kit-ka-6.24373/) give the PN for the
@@ -80,7 +80,7 @@ Balsa reducers
 
 TODO
 ====
-none known
+Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
 -->
 <OpenRocketComponent>
@@ -12716,8 +12716,6 @@ none known
       <Length Unit="in">2.6</Length>
     </NoseCone>
 
-    <!-- *** CORRECTING SHOULDER LENGTHS ETC. HERE *** -->
-
 
     <!-- BNC-20xx nose cones -->
     <!--
@@ -12757,45 +12755,50 @@ none known
       <Length Unit="in">0.82</Length>
     </NoseCone>
 
-    <!-- BNC-20AH (non Estes, downscale of BNC-60AH) ref 2017 eRockets/Semroc website -->
+    <!-- BNC-20AH (non Estes, downscale of BNC-60AH) ref 2017 eRockets/Semroc website, shoulder .42" -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-20AH</PartNumber>
-      <Description>Nose cone, balsa, BNC-20AH, 3.0", elliptical</Description>
+      <Description>Nose cone, balsa, BT-20, 3.0", elliptical, BNC-20AH</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
       <OutsideDiameter Unit="in">0.736</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <ShoulderLength Unit="in">0.42</ShoulderLength>
       <Length Unit="in">3.0</Length>
     </NoseCone>
-    <!-- BNC-20AM (K-53 Stinger etc) ref 1988 Estes catalog -->
+
+    <!-- BNC-20AM (K-53 Stinger etc) ref 1988 Estes catalog, shoulder 0.54" -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-20AM</PartNumber>
-      <Description>Nose cone, balsa, BNC-20AM, 2.0", rounded cone</Description>
+      <Description>Nose cone, balsa, BT-20, 2.0", rounded cone, BNC-20AM</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
       <OutsideDiameter Unit="in">0.736</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <ShoulderLength Unit="in">0.54</ShoulderLength>
       <Length Unit="in">2.00</Length>
     </NoseCone>
-    <!-- BNC-20AZ (#2033 Trident II etc.), ref 1974 Estes custom parts catalog. -->
+
+    <!-- BNC-20AZ (#2033 Trident II etc.), ref 1974 Estes custom parts catalog.  shoulder 0.54" -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-20AZ</PartNumber>
-      <Description>Nose cone, balsa, BNC-20AZ, 2.5", ogive</Description>
+      <Description>Nose cone, balsa, BT-20, 2.5", ogive, BNC-20AZ</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>PARABOLIC</Shape>
       <OutsideDiameter Unit="in">0.736</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
-      <ShoulderLength Unit="in">0.50</ShoulderLength>
+      <ShoulderLength Unit="in">0.54</ShoulderLength>
       <Length Unit="in">2.5</Length>
     </NoseCone>
+
+    <!-- *** CORRECTING SHOULDER LENGTHS ETC. HERE *** -->
+
     <!-- BNC-20B (K-5 Apogee II etc.) ref 1988 Estes catalog -->
     <NoseCone>
       <Manufacturer>SEMROC</Manufacturer>
