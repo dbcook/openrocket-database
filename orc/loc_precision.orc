@@ -108,7 +108,7 @@ REFERENCES:
     LOC 2009 to 2012 Accessories Catalog - retrieved from yumpu.com in 2017
     apogeerockets.com - carries LOC parts with many additional measurements and masses tabulated
     1986, 1987 and 1989 LOC catalogs - on ninfinger.org
-    
+
 *** TODO ***
 
 1) Improve masses for most of the plastic parts.
@@ -146,7 +146,7 @@ the former should be lighter because of larger hole. -->
             <Density>1220.6</Density>
             <Type>BULK</Type>
         </Material>
-        
+
         <!-- standard materials copied from generic_materials.orc -->
 
         <!-- LOC phenolic tubes are assumed to be generic Kraft phenolic til proven otherwise -->
@@ -195,9 +195,9 @@ the former should be lighter because of larger hole. -->
             Apogee does not list the LOC MMT-0.71 and MMT-0.95 tubes
             2018 website has changed some product lengths, and there are many errors in the dimensions/weights
         -->
-        
+
         <!-- MMT-0.71 - dimensions from 2010 accessories catalog, no mass info available
-             Working from density analysis, mass given avg density of 855.2 kg/m3 is estimated at 27.7 gm 
+             Working from density analysis, mass given avg density of 855.2 kg/m3 is estimated at 27.7 gm
              On 2018 website the SKU has changed to MMT-0.75 and is only shown as available in 2.75" length
              *** SOURCE ERROR: on 2018 website, 18mm motor mount tube is given as 2.75" in the menu dropdown, but the
              SKU is "MMT-0.75x6", and the listed dimension is "6 x .75 x .75 in".  The weight is also given as 0.0156 oz,
@@ -211,7 +211,7 @@ the former should be lighter because of larger hole. -->
             <OutsideDiameter Unit="in">0.765</OutsideDiameter>
             <Length Unit="in">34.0</Length>
         </BodyTube>
-        
+
         <!-- MMT-0.95 - ID, OD and .025 wall per LOC 1980s catalogs and 2018 website, discount rocketry comparable weight 1.30 oz.
              In April 2018 website, there is now an airframe LBT-50, only sold in 12" lengths,
              and MMT-0.95x6 and MMT-0.95x12 -->
@@ -228,7 +228,7 @@ the former should be lighter because of larger hole. -->
             <OutsideDiameter Unit="in">1.0</OutsideDiameter>
             <Length Unit="in">34.0</Length>
         </BodyTube>
-        
+
         <!-- MMT-1.14 mass for 34" given as 2.40 oz / 68 g per Apogee;
              Discount Rocketry identical dimensions tube is quoted at 2.3 oz / 65.1 gm
              I measured a recent LOC Aura MMT (6" of MMT-1.14) at 11.1 gm implying 62.9 gm for 34"
@@ -291,7 +291,7 @@ the former should be lighter because of larger hole. -->
             <OutsideDiameter Unit="in">2.63</OutsideDiameter>
             <Length Unit="in">30.0</Length>
         </BodyTube>
-        
+
         <!-- BT-3.00 - mass of 34" length is 226 g / 7.91 oz per Apogee, .050 wall -->
         <BodyTube>
             <Manufacturer>LOC Precision</Manufacturer>
@@ -314,7 +314,7 @@ the former should be lighter because of larger hole. -->
             <OutsideDiameter Unit="in">3.120</OutsideDiameter>
             <Length Unit="in">34.0</Length>
         </BodyTube>
-        
+
         <!-- BT-3.9 34" long mass is 298 g / 10.512 oz per Apogee, .050 wall -->
         <BodyTube>
             <Manufacturer>LOC Precision</Manufacturer>
@@ -366,7 +366,7 @@ the former should be lighter because of larger hole. -->
         <!-- ======================= -->
         <!-- No mass data is available from LOC, so we use generic kraft phenolic density.
              The dimensions are stated to be identical to the cardboard airframe tubes (website, fall 2018) -->
-        
+
         <BodyTube>
             <Manufacturer>LOC Precision</Manufacturer>
             <PartNumber>FT-1.52</PartNumber>
@@ -444,7 +444,7 @@ the former should be lighter because of larger hole. -->
             OpenRocket file erroneously had them all as polystyrene.
             Dimensionss and masses are mostly from the Apogee site, supplemented with a few
             actual measurements of parts I have and some values from the 2018 LOC site.
-            
+
             Thicknesses are set to make mass come out right PROVIDED you go in and manually set the
             shoulder thicknesses to be the same as what you see here, and turn on "end capped".
             This provides the most accurate CG location for the nose cone.
@@ -554,7 +554,10 @@ the former should be lighter because of larger hole. -->
             <Length Unit="in">21.0</Length>
             <Thickness Unit="in">0.111</Thickness>
         </NoseCone>
-        <!-- LOC PNC-7.51, 22.0 in ogive, mass 876 g / 30.66 oz.  LOC 2018 website gives weight as 1.2 lb -->
+        <!-- LOC PNC-7.51, 22.0 in ogive, mass 876 g / 30.66 oz per Apogee.  TRF users have confirmed
+             22.0 inch length and weight 30.6 oz., see
+             https://www.rocketryforum.com/threads/loc-nosecone-length.152021/
+             LOC 2018-2019 website gives no dimensions and weight as 1.2 lb, which is much too low. -->
         <NoseCone>
             <Manufacturer>LOC Precision</Manufacturer>
             <PartNumber>PNC-7.51</PartNumber>
@@ -591,7 +594,7 @@ the former should be lighter because of larger hole. -->
             <LineLength Unit="in">12.0</LineLength>
             <LineMaterial Type="LINE">Nylon Paracord, 110 lb, 1/16 in. dia.</LineMaterial>
         </Parachute>
-        
+
         <!-- LP-14, mass given as 11.34 gm, calculated 9.14. -->
         <Parachute>
             <Manufacturer>LOC Precision</Manufacturer>
@@ -604,7 +607,7 @@ the former should be lighter because of larger hole. -->
             <LineLength Unit="in">14.0</LineLength>
             <LineMaterial Type="LINE">Nylon Paracord, 110 lb, 1/16 in. dia.</LineMaterial>
         </Parachute>
-        
+
         <!-- LP-18, mass given as 22.68 gm, calculated 13.9 -->
         <!--- *** SOURCE ERROR: LOC 2018 website gives identical masses 0.0625 lb for LP-12, LP-14, and LP-18.
               This is impossible. -->
@@ -619,7 +622,7 @@ the former should be lighter because of larger hole. -->
             <LineLength Unit="in">18.0</LineLength>
             <LineMaterial Type="LINE">Nylon Paracord, 110 lb, 1/16 in. dia.</LineMaterial>
         </Parachute>
-        
+
         <!-- LP-28, mass given as 28.35 gm, calculated 32.0.  LOC 2018 site gives weight 0.1875 lb == 3 oz -->
         <Parachute>
             <Manufacturer>LOC Precision</Manufacturer>
@@ -662,7 +665,7 @@ the former should be lighter because of larger hole. -->
             <LineLength Unit="in">72.0</LineLength>
             <LineMaterial Type="LINE">Nylon Paracord, 275 lb, 2.38 mm dia.</LineMaterial>
         </Parachute>
-        
+
         <!-- LHPC-58, mass given as 141.7 gm, calculated 176.0 gm -->
         <Parachute>
             <Manufacturer>LOC Precision</Manufacturer>
@@ -675,7 +678,7 @@ the former should be lighter because of larger hole. -->
             <LineLength Unit="in">87.0</LineLength>
             <LineMaterial Type="LINE">Nylon Paracord, 275 lb, 2.38 mm dia.</LineMaterial>
         </Parachute>
-        
+
         <!-- LHPC-78, mass given as 311.8 gm, calculated 343 gm.  2018 website gives 0.75 lb = 340 gm -->
         <Parachute>
             <Manufacturer>LOC Precision</Manufacturer>
@@ -883,7 +886,7 @@ the former should be lighter because of larger hole. -->
             LOC has two nested series of tube couplers, the TC and STC series.  The STC series fits
             *inside* the TC series and provides additional strength where desired.
             The STC stiffeners are made in ST-2.14 (54mm) size and up.
-            
+
             There are several anomalies in the dimensions and mass info from Apogee and LOC:
                 Length of STC-3.90 stiffener greater than length of matching coupler
                 Oddly low wall thickness for TC-3.90
@@ -912,7 +915,7 @@ the former should be lighter because of larger hole. -->
             <OutsideDiameter Unit="in">1.52</OutsideDiameter>
             <Length Unit="in">4.0</Length>
         </TubeCoupler>
-        
+
         <!-- TC-2.14 coupler - Apogee gives mass 29.1 g / 1.02 oz, len 5.75"
              LOC gives len = 6.0" -->
         <TubeCoupler>
@@ -946,7 +949,7 @@ the former should be lighter because of larger hole. -->
             <OutsideDiameter Unit="in">2.555</OutsideDiameter>
             <Length Unit="in">6.0</Length>
         </TubeCoupler>
-        
+
         <!-- STC-2.56 stiffener - Apogee gives mass 50.2 g / 1.76 oz -->
         <TubeCoupler>
             <Manufacturer>LOC Precision</Manufacturer>
@@ -1064,7 +1067,7 @@ the former should be lighter because of larger hole. -->
             <OutsideDiameter Unit="in">7.375</OutsideDiameter>
             <Length Unit="in">15.0</Length>
         </TubeCoupler>
-        
+
         <!-- Launch lugs
              2017 site lists 1/4" and 1/2" lugs in 5" lengths.  Photo shows 3 sizes with a small
              one looking like 1/8" or 3/16".  Assuming .030 wall for 1/4" lug, .040 for 1/2" lug

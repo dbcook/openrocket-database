@@ -27,6 +27,10 @@ System compatibility:  works anywhere OpenRocket can run
 
 ## Release Notes
 
+0.9.1.8 - Apr 2019
+* Fixes
+   * LOC - add note confirming PNC-7.51 as 22.0" long and 30.6 oz weight
+
 0.9.1.7 - Feb 2019
 * Fixes
    * semroc - rearrange some NC description fields to newest layout
