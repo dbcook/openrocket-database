@@ -27,6 +27,9 @@ System compatibility:  works anywhere OpenRocket can run
 
 ## Release Notes
 
+0.9.1.9 - Nov 2019
+* Additions
+   * Add note about existence of MMX X-15 starter set, per message from Chris Michielssen
 0.9.1.8 - Apr 2019
 * Fixes
    * LOC - add note confirming PNC-7.51 as 22.0" long and 30.6 oz weight
@@ -613,6 +616,9 @@ Quest makes several Micromaxx (1/4" diameter motor) kits that can only be had as
 * Space Shuttle
 
 The parts content of these Micromaxx kits is totally undocumented.
+
+Chris Michielssen reported to me (personal message, Nov 2019) that there was an MMX X-15
+starter set, which Dane Boles at one time had "a few" for sale.
 
 Side note: The Saturn V and Space Shuttle are offered in a "Space Pioneers" starter set, which
 is a reference to the New Canaan YMCA Space Pioneers founded by G. Harry Stine (father of Quest
