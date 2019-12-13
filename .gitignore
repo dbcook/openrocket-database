@@ -109,3 +109,6 @@ venv.bak/
 .mypy_cache/
 A
 .mypy_cache/
+
+# Mac specific
+.DS_Store
