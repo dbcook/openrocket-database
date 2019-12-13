@@ -313,11 +313,6 @@ attributes.  This seems to have no effect; looks like everything is actually kg/
             <Density>344.3</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
-            <Name>Plywood, aircraft, 1/8 in. bulk</Name>
-            <Density>337.5</Density>
-            <Type>BULK</Type>
-        </Material>
         <!-- Note large disagreement with previous value for 1/8 aircraft ply -->
         <Material UnitsOfMeasure="g/cm3">
             <Name>Plywood, aircraft, 1/8 in. bulk (HI DENSITY)</Name>
