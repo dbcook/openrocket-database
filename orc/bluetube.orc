@@ -25,11 +25,11 @@ Dimensions previously available from vendors were very inconsistent.
 
 It appears likely that various batches of Blue Tube produced over the years have not all had
 identical dimensions.  There is an old RockSim parts file BTDATA.CSV that once was linked from the ARR
-website that had mildly variant dimensions for some sizes aand wall thicknesses.  Notably, the IDs
+website that had mildly variant dimensions for some sizes and wall thicknesses.  Notably, the IDs
 in that file were essentially identical to LOC tube IDs except for the 5.5" tube which was smaller by 0.035".
 
 There is an interesting statement on the "Bulkheads" page in the ARR store that "we individually
-fit each ring aand bulkplate to current production Blue Tube 2.0 sizes...".  This
+fit each ring and bulkplate to current production Blue Tube 2.0 sizes...".  This rather strongly
 implies that the Blue Tube sizes used to be different.
 
 The current tube inside diameters (IDs) mostly align with the prevalent LOC Precision tube sizes;
@@ -54,11 +54,12 @@ Part Numbers
 
 The PNs shown in the stock OpenRocket file came from previous editions of the ARR website.  On the current
 (2017) site there are no PNs for any product - even when you add the items to your cart, they are shown by full description only.
-The old tube PNs looked like "BT20-139C"; all started with "BT20", which is a bit confusing.
+The old tube PNs looked like "BT20-139C"; all started with "BT20", which is a bit confusing
+until you know it means "BlueTube 2.0" and does not refer to a size.
 Four foot lengths had an A suffix, while one foot lengths had a "C suffix."  The 6 foot lengths now
-available for the 5.5, 6.0 and 7.5" sizes were not represented.
+available for the 5.5, 6.0 and 7.5" sizes were not then represented.
 
-There is a quirk in the listings for 1.15" and 1.52" x 48" tubes:  There are separate listings
+There is a quirk in the listings for 1.15" and 1.52" x 48" tubes:  there are separate listings
 for two apparently different items, one designated as "airframe", the other as "MMT ONLY".  The
 dimensions shown are identical so it's not clear what the difference is.  For larger tubes 2.15"
 and up, all are shown as "airframe/MMT".
@@ -85,6 +86,11 @@ TC_5.5_12          Coupler for BT_5.5, 12" long
             <Type>BULK</Type>
         </Material>
     </Materials>
+        <Material UnitsOfMeasure="g/cm3">
+            <Name>Plywood, aircraft, 1/4 in. bulk</Name>
+            <Density>344.3</Density>
+            <Type>BULK</Type>
+       </Material>
 
     <Components>
 
@@ -464,6 +470,168 @@ TC_5.5_12          Coupler for BT_5.5, 12" long
             <OutsideDiameter Unit="in">7.497</OutsideDiameter>
             <Length Unit="in">48.0</Length>
         </BodyTube>
+
+        <!-- Centering Rings.  No dimensional or weight data given; using offsets from tube sizes. -->
+        <!-- Up to 4" are 6mm Baltic Birch ply, 5.5" are 9mm ply, and 6.0 and 7.5" sizes are 12mm plywood -->
+        <!-- 29mm OD to 38mm ID -->
+        <CenteringRing>
+            <Manufacturer>Always Ready Rocketry</Manufacturer>
+            <PartNumber>CR-38/29</PartNumber>
+            <Description>Centering ring, plywood, 29mm to 38mm, .25"</Description>
+            <Material Type="BULK">Plywood, aircraft, 1/4 in. bulk</Material>
+            <InsideDiameter Unit="in">1.279</InsideDiameter>
+            <OutsideDiameter Unit="in">1.515</OutsideDiameter>
+            <Length Unit="in">0.25</Length>
+        </CenteringRing>
+        <!-- 29mm OD to 54mm ID -->
+        <CenteringRing>
+            <Manufacturer>Always Ready Rocketry</Manufacturer>
+            <PartNumber>CR-54/29</PartNumber>
+            <Description>Centering ring, plywood, 29mm to 54mm, .25"</Description>
+            <Material Type="BULK">Plywood, aircraft, 1/4 in. bulk</Material>
+            <InsideDiameter Unit="in">1.279</InsideDiameter>
+            <OutsideDiameter Unit="in">2.269</OutsideDiameter>
+            <Length Unit="in">0.25</Length>
+        </CenteringRing>
+        <!-- 38mm OD to 54mm ID -->
+        <CenteringRing>
+            <Manufacturer>Always Ready Rocketry</Manufacturer>
+            <PartNumber>CR-54/38</PartNumber>
+            <Description>Centering ring, plywood, 38mm to 54mm, .25"</Description>
+            <Material Type="BULK">Plywood, aircraft, 1/4 in. bulk</Material>
+            <InsideDiameter Unit="in">1.649</InsideDiameter>
+            <OutsideDiameter Unit="in">2.145</OutsideDiameter>
+            <Length Unit="in">0.25</Length>
+        </CenteringRing>
+        <!-- 29mm OD to 63mm ID -->
+        <CenteringRing>
+            <Manufacturer>Always Ready Rocketry</Manufacturer>
+            <PartNumber>CR-63/29</PartNumber>
+            <Description>Centering ring, plywood, 29mm to 63mm, .25"</Description>
+            <Material Type="BULK">Plywood, aircraft, 1/4 in. bulk</Material>
+            <InsideDiameter Unit="in">1.279</InsideDiameter>
+            <OutsideDiameter Unit="in">2.555</OutsideDiameter>
+            <Length Unit="in">0.25</Length>
+        </CenteringRing>
+        <!-- 38mm OD to 63mm ID -->
+        <CenteringRing>
+            <Manufacturer>Always Ready Rocketry</Manufacturer>
+            <PartNumber>CR-63/38</PartNumber>
+            <Description>Centering ring, plywood, 38mm to 63mm, .25"</Description>
+            <Material Type="BULK">Plywood, aircraft, 1/4 in. bulk</Material>
+            <InsideDiameter Unit="in">1.649</InsideDiameter>
+            <OutsideDiameter Unit="in">2.555</OutsideDiameter>
+            <Length Unit="in">0.25</Length>
+        </CenteringRing>
+        <!-- 29mm OD to 75mm ID -->
+        <CenteringRing>
+            <Manufacturer>Always Ready Rocketry</Manufacturer>
+            <PartNumber>CR-75/29</PartNumber>
+            <Description>Centering ring, plywood, 29mm to 75mm, .25"</Description>
+            <Material Type="BULK">Plywood, aircraft, 1/4 in. bulk</Material>
+            <InsideDiameter Unit="in">1.279</InsideDiameter>
+            <OutsideDiameter Unit="in">2.995</OutsideDiameter>
+            <Length Unit="in">0.25</Length>
+        </CenteringRing>
+        <!-- 38mm OD to 75mm ID -->
+        <CenteringRing>
+            <Manufacturer>Always Ready Rocketry</Manufacturer>
+            <PartNumber>CR-75/38</PartNumber>
+            <Description>Centering ring, plywood, 38mm to 75mm, .25"</Description>
+            <Material Type="BULK">Plywood, aircraft, 1/4 in. bulk</Material>
+            <InsideDiameter Unit="in">1.649</InsideDiameter>
+            <OutsideDiameter Unit="in">2.995</OutsideDiameter>
+            <Length Unit="in">0.25</Length>
+        </CenteringRing>
+        <!-- 54mm OD to 75mm ID -->
+        <CenteringRing>
+            <Manufacturer>Always Ready Rocketry</Manufacturer>
+            <PartNumber>CR-75/54</PartNumber>
+            <Description>Centering ring, plywood, 54mm to 75mm, .25"</Description>
+            <Material Type="BULK">Plywood, aircraft, 1/4 in. bulk</Material>
+            <InsideDiameter Unit="in">2.279</InsideDiameter>
+            <OutsideDiameter Unit="in">2.995</OutsideDiameter>
+            <Length Unit="in">0.25</Length>
+        </CenteringRing>
+        <!-- 29mm OD to 98mm ID -->
+        <CenteringRing>
+            <Manufacturer>Always Ready Rocketry</Manufacturer>
+            <PartNumber>CR-98/29</PartNumber>
+            <Description>Centering ring, plywood, 29mm to 98mm, .25"</Description>
+            <Material Type="BULK">Plywood, aircraft, 1/4 in. bulk</Material>
+            <InsideDiameter Unit="in">1.279</InsideDiameter>
+            <OutsideDiameter Unit="in">3.895</OutsideDiameter>
+            <Length Unit="in">0.25</Length>
+        </CenteringRing>
+        <!-- 38mm OD to 98mm ID -->
+        <CenteringRing>
+            <Manufacturer>Always Ready Rocketry</Manufacturer>
+            <PartNumber>CR-98/38</PartNumber>
+            <Description>Centering ring, plywood, 38mm to 98mm, .25"</Description>
+            <Material Type="BULK">Plywood, aircraft, 1/4 in. bulk</Material>
+            <InsideDiameter Unit="in">1.649</InsideDiameter>
+            <OutsideDiameter Unit="in">3.895</OutsideDiameter>
+            <Length Unit="in">0.25</Length>
+        </CenteringRing>
+        <!-- 54mm OD to 98mm ID -->
+        <CenteringRing>
+            <Manufacturer>Always Ready Rocketry</Manufacturer>
+            <PartNumber>CR-98/54</PartNumber>
+            <Description>Centering ring, plywood, 54mm to 98mm, .25"</Description>
+            <Material Type="BULK">Plywood, aircraft, 1/4 in. bulk</Material>
+            <InsideDiameter Unit="in">2.279</InsideDiameter>
+            <OutsideDiameter Unit="in">3.895</OutsideDiameter>
+            <Length Unit="in">0.25</Length>
+        </CenteringRing>
+        <!-- 75mm OD to 98mm ID -->
+        <CenteringRing>
+            <Manufacturer>Always Ready Rocketry</Manufacturer>
+            <PartNumber>CR-98/75</PartNumber>
+            <Description>Centering ring, plywood, 75mm to 98mm, .25"</Description>
+            <Material Type="BULK">Plywood, aircraft, 1/4 in. bulk</Material>
+            <InsideDiameter Unit="in">3.129</InsideDiameter>
+            <OutsideDiameter Unit="in">3.895</OutsideDiameter>
+            <Length Unit="in">0.25</Length>
+        </CenteringRing>
+        <!-- 38mm OD to 5.5" ID -->
+        <CenteringRing>
+            <Manufacturer>Always Ready Rocketry</Manufacturer>
+            <PartNumber>CR-139/38</PartNumber>
+            <Description>Centering ring, plywood, 38mm to 5.5", .50"</Description>
+            <Material Type="BULK">Plywood, aircraft, 1/2 in. bulk</Material>
+            <InsideDiameter Unit="in">1.649</InsideDiameter>
+            <OutsideDiameter Unit="in">5.495</OutsideDiameter>
+            <Length Unit="in">0.50</Length>
+        </CenteringRing>
+        <!-- 54mm OD to 5.5" ID -->
+        <CenteringRing>
+            <Manufacturer>Always Ready Rocketry</Manufacturer>
+            <PartNumber>CR-139/54</PartNumber>
+            <Description>Centering ring, plywood, 54mm to 5.5", .50"</Description>
+            <Material Type="BULK">Plywood, aircraft, 1/2 in. bulk</Material>
+            <InsideDiameter Unit="in">2.279</InsideDiameter>
+            <OutsideDiameter Unit="in">5.495</OutsideDiameter>
+            <Length Unit="in">0.50</Length>
+        </CenteringRing>
+        <!-- 75mm OD to 5.5" ID -->
+        <CenteringRing>
+            <Manufacturer>Always Ready Rocketry</Manufacturer>
+            <PartNumber>CR-139/75</PartNumber>
+            <Description>Centering ring, plywood, 75mm to 5.5", .50"</Description>
+            <Material Type="BULK">Plywood, aircraft, 1/2 in. bulk</Material>
+            <InsideDiameter Unit="in">3.129</InsideDiameter>
+            <OutsideDiameter Unit="in">5.495</OutsideDiameter>
+            <Length Unit="in">0.50</Length>
+        </CenteringRing>
+        <!-- 98mm OD to 5.5" ID -->
+            <Manufacturer>Always Ready Rocketry</Manufacturer>
+            <PartNumber>CR-139/98</PartNumber>
+            <Description>Centering ring, plywood, 98mm to 5.5", .50"</Description>
+            <Material Type="BULK">Plywood, aircraft, 1/2 in. bulk</Material>
+            <InsideDiameter Unit="in">4.029</InsideDiameter>
+            <OutsideDiameter Unit="in">5.495</OutsideDiameter>
+            <Length Unit="in">0.50</Length>
+        </CenteringRing>
 
     </Components>
 </OpenRocketComponent>
