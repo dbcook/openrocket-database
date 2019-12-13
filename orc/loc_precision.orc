@@ -2,12 +2,12 @@
 <!--
 loc_precision.orc - LOC Precision parts file for OpenRocket
 
-Copyright 2014-2018 by Dave Cook  NAR 21953  caveduck17@gmail.com
+Copyright 2014-2019 by Dave Cook  NAR 21953  caveduck17@gmail.com
 
 See the file LICENSE in this distribution for license information.
 
 
-Dimensions and masses are a severe challenge for LOC parts; in 30 years of existence through 3
+Dimensions and masses are a severe challenge for LOC parts; in 34 years of existence through 3
 different ownerships, LOC has never published good size/weight data for any of its
 parts.  There are many missing dimensions on the LOC website, and several cases where
 dimensions given are obviously approximate or even outright wrong.  After
@@ -19,9 +19,9 @@ the convention of using the decimal points since more of them seem to have that 
 literature.
 
 The best *official* LOC resource is the "2010-2012 Accessories Catalog".  However it is still
-pretty bad.
+pretty incomplete.
 
-Recent updates to the LOC website in early 2018 have added some dimensional data, but
+Updates to the LOC website in early 2018 have added some dimensional data, but
 the accuracy and precision are mostly poor.  Some of the new products like LBT-50 airframe
 have good data though and there have been scattered other improvements.
 
@@ -115,8 +115,8 @@ REFERENCES:
 
 -->
 <!-- *** SOURCE ERROR: LOC 2018 website gives identical weight of .03125 lb for CR-2.14-1.52 and CR-2.14-1.14,
-the former should be lighter because of larger hole. -->
-<!-- *** SOURCE ERROR: The dimensions under "additional information" for nearly all LOC centering rings are wrong. -->
+the former should be lighter because of the larger center hole. -->
+<!-- *** SOURCE ERROR: The dimensions on the LOC website under "additional information" for nearly all LOC centering rings are wrong. -->
 
 <OpenRocketComponent>
     <Version>1.0</Version>
@@ -442,7 +442,7 @@ the former should be lighter because of larger hole. -->
 
             These are the infamous hard-to-paint blow-molded polypropylene nose cones.  The built-in
             OpenRocket file erroneously had them all as polystyrene.
-            Dimensionss and masses are mostly from the Apogee site, supplemented with a few
+            Dimensions and masses are mostly from the Apogee site, supplemented with a few
             actual measurements of parts I have and some values from the 2018 LOC site.
 
             Thicknesses are set to make mass come out right PROVIDED you go in and manually set the
@@ -451,8 +451,6 @@ the former should be lighter because of larger hole. -->
         -->
 
         <!-- LOC PNC-1.52, 8.0 in ogive, weight on 2018 site 3.5oz, measured mass 92g / 3.22 oz -->
-        <!--
-        -->
         <NoseCone>
             <Manufacturer>LOC Precision</Manufacturer>
             <PartNumber>PNC-1.52</PartNumber>
