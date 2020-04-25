@@ -60,24 +60,18 @@ suffixes on the SKU:
   BLK  : Black
 
 Fiberglass coupler SKU nomenclature is inconsistent.  Mostly the SKUs reflect the size in
-inches, but FC29, FC38, and FC54 and athe corresponding cardboard T29, T38 and T54 are in mm.
+inches, but FC29, FC38, and FC54 and the corresponding cardboard T29, T38 and T54 are in mm.
 
 Size indicators in the SKUs are also inconsistent with respect to the actual size.
 For some tubes the SKU designator seems to reflect the OD (FT16, FT40), but for others the
 SKU prefix reflects the ID (FT30, FT50).
 
-There is SKU inconsistency between cardboard and fiberglass tubes.  We have cardboard T39
-and G12 FT40 with identical ID of 3.900 and ODs of 4.000 and 4.024 respectively.
+Fiberglass coupler and tube SKUs do not all match.  The FT11, FT16 and FT22 tubes 
+mate with FC29, FC38 and FC54 couplers.
 
-Fiberglass coupler and tube SKUs do not match.  We have FT22 tube that has mating FC54 coupler.
-We also have FC39 which is the mating coupler for FT40.
+There is no cardboard 29mm coupler, and no G12 11.5" coupler.
 
-Madcow lists a number of fiberglass and carbon fiber parts that may not actually be available
-from their upstream supplier.
-
-There is no 29mm coupler, no 7.5" coupler, and no 11.5" coupler to go with those tube sizes.
-
-There is no 29mm thin wall tube.
+There is no 29mm thin wall G12 tube.
 
 There is no 2.6" heavy wall tube; FT26 is offered in thin wall only.
 
@@ -90,18 +84,13 @@ ERRATA IN UPSTREAM DATA
 SOURCE ERROR:  The website (as of 2 Jun 2017) does not generate fully qualified SKUs for FT11 and
 FT26. I.e., it does not show something like "FT11-STD-300-RED" if you select a 30" red FT11 tube.
 
-SOURCE ERROR: As of 2 Jun 2017 the website generates bogus SKUs for all FT30 tubes that look
-like "STD-3B1D970C-600-RED" where the 381D970C field varies from color to color, and the FT30
-field is missing.  This looks like a website programming bug.
-
 SOURCE ERROR: The SKUs generated for all sizes of G12 fiberglass couplers are wacky.  Looks to
-be website programming problems.
+be website programming problems.  This remains true as of April 2020.
 
 MISSING UPSTREAM DATA
 =====================
 
-SOURCE ERROR: Dimensions and weights are missing entirely for tube FT115 and couplers FC45, FC55,
-and FC80.  FC55 dimensions are found in the DX3 Massive 5.5 RocketSim file though.
+SOURCE ERROR: Dimensions and weights are missing entirely for tube FT115 and coupler FC45.
 
 SOURCE ERROR: ID/OD dimensions are missing for all cardboard tube couplers; only the length is
 given.  The C39-800HD coupler for T39 tube has a noticeably thicker wall in the photo, and it is
@@ -1080,11 +1069,12 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
         <Length Unit="in">9.0</Length>
       </TubeCoupler>
 
-      <!-- FC39 (4.0" tube), weight per foot not quoted.  Using G12 density gives 10.9 oz/ft -->
+      <!-- FC40 (4.0" tube), weight per foot not quoted.  Using G12 density gives 10.9 oz/ft
+           Prior to 2020 the SKU was FC39 -->
       <TubeCoupler>
         <Manufacturer>Madcow</Manufacturer>
-        <PartNumber>FC39_8in</PartNumber>
-        <Description>Tube coupler, 4.0in, G12 FWFG, 8.0 in., PN FC39</Description>
+        <PartNumber>FC40_8in</PartNumber>
+        <Description>Tube coupler, 4.0in, G12 FWFG, 8.0 in., PN FC40</Description>
         <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">3.755</InsideDiameter>
         <OutsideDiameter Unit="in">3.899</OutsideDiameter>
@@ -1092,8 +1082,8 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
       </TubeCoupler>
       <TubeCoupler>
         <Manufacturer>Madcow</Manufacturer>
-        <PartNumber>FC39_9in</PartNumber>
-        <Description>Tube coupler, 4.0in, G12 FWFG, 9.0 in., PN FC39</Description>
+        <PartNumber>FC40_9in</PartNumber>
+        <Description>Tube coupler, 4.0in, G12 FWFG, 9.0 in., PN FC40</Description>
         <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">3.755</InsideDiameter>
         <OutsideDiameter Unit="in">3.899</OutsideDiameter>
@@ -1101,8 +1091,8 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
       </TubeCoupler>
       <TubeCoupler>
         <Manufacturer>Madcow</Manufacturer>
-        <PartNumber>FC39_12in</PartNumber>
-        <Description>Tube coupler, 4.0in, G12 FWFG, 12.0 in., PN FC39</Description>
+        <PartNumber>FC40_12in</PartNumber>
+        <Description>Tube coupler, 4.0in, G12 FWFG, 12.0 in., PN FC40</Description>
         <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">3.755</InsideDiameter>
         <OutsideDiameter Unit="in">3.899</OutsideDiameter>
@@ -1197,28 +1187,45 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
         <Length Unit="in">14.0</Length>
       </TubeCoupler>
 
-      <!-- Coupler for 7.5" tube (which would be FC75) doesn't exist on website -->
+      <!-- FC75 (7.5" tube), new prior to Apr 2020 -->
+      <TubeCoupler>
+        <Manufacturer>Madcow</Manufacturer>
+        <PartNumber>FC75-160</PartNumber>
+        <Description>Tube coupler, 7.5in, G12 FWFG, 16.0 in., PN FC75-160</Description>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
+        <InsideDiameter Unit="in">7.330</InsideDiameter>
+        <OutsideDiameter Unit="in">7.516</OutsideDiameter>
+        <Length Unit="in">16.0</Length>
+      </TubeCoupler>
+      <TubeCoupler>
+        <Manufacturer>Madcow</Manufacturer>
+        <PartNumber>FC75-180</PartNumber>
+        <Description>Tube coupler, 7.5in, G12 FWFG, 18.0 in., PN FC75-180</Description>
+        <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
+        <InsideDiameter Unit="in">7.330</InsideDiameter>
+        <OutsideDiameter Unit="in">7.516</OutsideDiameter>
+        <Length Unit="in">18.0</Length>
+      </TubeCoupler>
 
-      <!-- FC80 (8.0" tube), dimensions not specified - reconstructed based on .089 wall
+      <!-- FC80 (8.0" tube)
            Mfr data: in the FWNC80 nose cone section, Madcow says 11 in of FC80 weighs 25 oz
-           or 27.3 oz/ft.  This implies a .089 wall based on G12 density of ~1800 kg/m3.
-           SOURCE ERROR: FC80 dimensions not given on Madcow website.
+           or 27.3 oz/ft.
       -->
       <TubeCoupler>
         <Manufacturer>Madcow</Manufacturer>
-        <PartNumber>FC80_16in</PartNumber>
-        <Description>Tube coupler, 8.0in, G12 FWFG, 16.0 in., PN FC80</Description>
+        <PartNumber>FC80-160</PartNumber>
+        <Description>Tube coupler, 8.0in, G12 FWFG, 16.0 in., PN FC80-160</Description>
         <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
-        <InsideDiameter Unit="in">7.635</InsideDiameter>
+        <InsideDiameter Unit="in">7.518</InsideDiameter>
         <OutsideDiameter Unit="in">7.813</OutsideDiameter>
         <Length Unit="in">16.0</Length>
       </TubeCoupler>
       <TubeCoupler>
         <Manufacturer>Madcow</Manufacturer>
-        <PartNumber>FC80_18in</PartNumber>
-        <Description>Tube coupler, 8.0in, G12 FWFG, 18.0 in., PN FC80</Description>
+        <PartNumber>FC80-180</PartNumber>
+        <Description>Tube coupler, 8.0in, G12 FWFG, 18.0 in., PN FC80-180</Description>
         <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
-        <InsideDiameter Unit="in">7.635</InsideDiameter>
+        <InsideDiameter Unit="in">7.518</InsideDiameter>
         <OutsideDiameter Unit="in">7.813</OutsideDiameter>
         <Length Unit="in">18.0</Length>
       </TubeCoupler>
