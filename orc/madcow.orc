@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+  <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!--
 Madcow Rocketry components file for OpenRocket
 
@@ -81,11 +81,8 @@ Lite" kit (SKU KIT-ARCAS_HV_FS-LT) implies that 4.5" diameter thin wall tube exi
 ERRATA IN UPSTREAM DATA
 =======================
 
-SOURCE ERROR:  The website (as of 2 Jun 2017) does not generate fully qualified SKUs for FT11 and
-FT26. I.e., it does not show something like "FT11-STD-300-RED" if you select a 30" red FT11 tube.
-
 SOURCE ERROR: The SKUs generated for all sizes of G12 fiberglass couplers are wacky.  Looks to
-be website programming problems.  This remains true as of April 2020.
+be website programming problems.  This remains true as of October 2020.
 
 MISSING UPSTREAM DATA
 =====================
@@ -513,9 +510,7 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
         <Length Unit="in">30.0</Length>
       </BodyTube>
 
-      <!-- FT26 thin wall weight per foot quoted as 5.200 oz
-           SOURCE ERROR: madcow site has ID 2.560, OD 2.538, should be 2.638
-      -->
+      <!-- FT26 thin wall weight per foot quoted as 5.200 oz -->
       <BodyTube>
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FT26-THIN-600-NAT</PartNumber>
@@ -535,9 +530,7 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
         <Length Unit="in">30.0</Length>
       </BodyTube>
 
-      <!-- FT30 thin wall weight per foot ??? oz
-           SOURCE ERROR: Madcow site gives same weight per foot as for heavy wall
-      -->
+      <!-- FT30 thin wall weight per foot 5.730 oz -->
       <BodyTube>
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FT30-THIN-600-NAT</PartNumber>
@@ -564,7 +557,6 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
       <!-- ================================================ -->
 
       <!-- 29mm FT11: mass of FT11 tube quoted as 2.428 oz per ft, so 5 ft tube should be 11.240 oz
-           SOURCE ERROR: Madcow website does not generate fully qualified SKU for FT11 color/length
       -->
       <BodyTube>
         <Manufacturer>Madcow</Manufacturer>
@@ -667,7 +659,7 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
         <Length Unit="in">30.0</Length>
       </BodyTube>
 
-      <!-- FT45 heavy wall weight per foot 16.80 oz ***value 50% too high *** -->
+      <!-- FT45 heavy wall weight per foot 16.80 oz *** value appears too high *** -->
       <BodyTube>
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FT45-STD-600-NAT</PartNumber>
@@ -687,7 +679,7 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
         <Length Unit="in">30.0</Length>
       </BodyTube>
 
-      <!-- FT50 heavy wall weight per foot not specified -->
+      <!-- FT50 heavy wall weight per foot 19 oz. -->
       <BodyTube>
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FT50-STD-600-NAT</PartNumber>
@@ -707,9 +699,8 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
         <Length Unit="in">30.0</Length>
       </BodyTube>
 
-      <!-- FT55 heavy wall weight per foot given (reasonably) as 16.80 oz
-           website gives ID 5.375", OD 5.525 oz.  Differs from DX3 Massive RockSim ID 5.36, OD=5.5
-           SOURCE ERROR: FT55 weight per foot cannot be the same as for FT45; looks like FT45 is wrong
+      <!-- FT55 heavy wall weight per foot given as 16.80 oz
+           SOURCE ERROR: FT55 weight per foot cannot be the same as for FT45 and less than FT50
       -->
       <BodyTube>
         <Manufacturer>Madcow</Manufacturer>
@@ -730,7 +721,7 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
         <Length Unit="in">30.0</Length>
       </BodyTube>
 
-      <!-- FT60 heavy wall weight per foot not specified -->
+      <!-- FT60 heavy wall weight per foot 24 oz. -->
       <BodyTube>
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FT60-STD-600-NAT</PartNumber>
@@ -780,7 +771,7 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
 
       <!-- FT115 11.5" heavy wall has no dimensions given.  I have assumed OD=11.500 and ID=11.310,
            wall=.090 as per FT80.
-           Only offered in 60" length with two week lead time and no custom cuts.
+           Only offered in 60" length with 4-5 week lead time and no custom cuts.
            Color limited to natural green.
            SOURCE ERROR: dimensions for FT115 missing on Madcow site.
       -->
@@ -851,10 +842,9 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
       </BodyTube>
       
       <!-- FT26 thin wall switch band -->
-      <!-- SOURCE ERROR: SKUJ given as "FT26-075" but description says it's 1" long -->
       <BodyTube>
         <Manufacturer>Madcow</Manufacturer>
-        <PartNumber>FT26-THIN-010-NAT FT26-075</PartNumber>
+        <PartNumber>FT26-THIN-010-NAT FT26-010</PartNumber>
         <Description>Switch band, 2.6in, G12 FWFG, thin wall, natural, 1.0 in.</Description>
         <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">2.560</InsideDiameter>
@@ -887,10 +877,9 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
       </BodyTube>
 
       <!-- 4in std wall switch band -->
-      <!-- SOURCE ERROR: The body tube is FT40 but the switch band is FT39 -->
       <BodyTube>
         <Manufacturer>Madcow</Manufacturer>
-        <PartNumber>FT40-STD-010-NAT FT39-010</PartNumber>
+        <PartNumber>FT40-STD-010-NAT FT40-010</PartNumber>
         <Description>Switch band, 4.0in, G12 FWFG, heavy wall, natural, 1.0 in.</Description>
         <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
         <InsideDiameter Unit="in">3.900</InsideDiameter>
@@ -1028,14 +1017,14 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
       </TubeCoupler>
 
       <!-- FC26 (2.6" tube), weight per foot quoted as 5.2 oz = 0.433 oz/in
-           SOURCE ERROR?: unclear why weight/ft of FC26 is less than for FC54
+           This is less than for FC54 but FC26 is thin-wall.
       -->
       <TubeCoupler>
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FC26_6in</PartNumber>
         <Description>Tube coupler, 2.6in, G12 FWFG, 6.0 in., PN FC26</Description>
         <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
-        <InsideDiameter Unit="in">2.375</InsideDiameter>
+        <InsideDiameter Unit="in">2.475</InsideDiameter>
         <OutsideDiameter Unit="in">2.558</OutsideDiameter>
         <Length Unit="in">6.0</Length>
       </TubeCoupler>
@@ -1044,7 +1033,7 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
         <PartNumber>FC26_8in</PartNumber>
         <Description>Tube coupler, 2.6in, G12 FWFG, 8.0 in., PN FC26</Description>
         <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
-        <InsideDiameter Unit="in">2.375</InsideDiameter>
+        <InsideDiameter Unit="in">2.475</InsideDiameter>
         <OutsideDiameter Unit="in">2.558</OutsideDiameter>
         <Length Unit="in">8.0</Length>
       </TubeCoupler>
@@ -1142,19 +1131,14 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
         <Length Unit="in">12.0</Length>
       </TubeCoupler>
 
-      <!-- FC55 (5.5" tube), dimensions not specified - using ID and wall from
-           DX-3 Massive 5.5 RockSim file (14" len, .073 wall, 5.357 OD, 5.211 ID)
-           I don't trust this (FC50 has specified .091 wall) but the data is from the Madcow site.
-           weight per foot using G12 density gives 19.1 oz/ft
-           SOURCE ERROR: FC55 dimensions not given directly on Madcow website.
-      -->
+      <!-- FC55 (5.5" tube) - weight per foot not specified, using G12 density gives 19.1 oz/ft -->
       <TubeCoupler>
         <Manufacturer>Madcow</Manufacturer>
         <PartNumber>FC55_12in</PartNumber>
         <Description>Tube coupler, 5.5in, G12 FWFG, 12.0 in., PN FC55</Description>
         <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
-        <InsideDiameter Unit="in">5.211</InsideDiameter>
-        <OutsideDiameter Unit="in">5.357</OutsideDiameter>
+        <InsideDiameter Unit="in">5.180</InsideDiameter>
+        <OutsideDiameter Unit="in">5.373</OutsideDiameter>
         <Length Unit="in">12.0</Length>
       </TubeCoupler>
       <TubeCoupler>
@@ -1162,8 +1146,8 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
         <PartNumber>FC55_14in</PartNumber>
         <Description>Tube coupler, 5.5in, G12 FWFG, 14.0 in., PN FC55</Description>
         <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
-        <InsideDiameter Unit="in">5.211</InsideDiameter>
-        <OutsideDiameter Unit="in">5.357</OutsideDiameter>
+        <InsideDiameter Unit="in">5.180</InsideDiameter>
+        <OutsideDiameter Unit="in">5.373</OutsideDiameter>
         <Length Unit="in">14.0</Length>
       </TubeCoupler>
 
@@ -1235,7 +1219,7 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
       <!-- ========================== -->
       <!-- Carbon Fiber Airframe Tube -->
       <!-- ========================== -->
-      <!-- Madcow resells CF tube from another vendor (lead times quoted at 1 week.
+      <!-- Madcow resells CF tube from another vendor, with lead times quoted at 1 week.
            Tubes are available in 12, 24, 36, 48, and 60 inch lengths in black only.
       -->
       <!-- FWCF-29 CF tubing quoted weight is 1.8 oz/ft, ID 1.145", OD 1.255", .055 wall
@@ -1650,7 +1634,7 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
       <!-- Fiberglass Nose Cones -->
       <!-- ===================== -->
 
-      <!-- For all these parts the shoulder length is set zero here; you must put in the
+      <!-- For many of these parts the shoulder length is set zero here; you must put in the
            nose cone coupler as a separate part since the position of the coupler in the
            nose cone is not fixed by the manufacturer.
 
@@ -1660,6 +1644,8 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
            not that large and OpenRocket has no good way to model this in a single component.  For
            highest accuracy in mass, CG and moments of inertia, you can add a small mass object at
            the nose cone tip to make up the difference.
+
+           Overall the state of the nose cone listings on the Madcow site as of Oct 2020 is a bit messy.
       -->
 
       <!-- No nose cones listed for 1.1" / 29mm tube -->
@@ -1669,7 +1655,7 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
       <!-- =============================== -->
 
       <!-- 1.6" thin wall composite tip shapes
-           Mfr data (***not clear whether weight includes the NC coupler but looks like it does ***)
+           Mfr data (*** not clear whether weight includes the NC coupler but looks like it does ***)
               4" FC38 coupler weight = 1.34 oz
               3:1 ogive: 5" exposed length, 1.61" diameter, 2.1 oz
               4:1 ogive: 6 1/2" exposed length, 1.61" diameter, 2.6 oz
@@ -1717,7 +1703,7 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
             <Thickness Unit="in">0.0590</Thickness>
         </NoseCone>
         <!-- FWNC38T-C net wt 2.26 oz
-             SOURCE ERROR?: Have to use anomalous .1085 thickness to reach specified weight.
+             SOURCE ERROR: FWNC38T-C Have to use anomalous .1085 thickness to reach specified weight.
                             Quoted weight not for thinwall?
         -->
         <NoseCone>
@@ -1757,6 +1743,7 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
         <!-- =============================== -->
 
         <!-- 2.2" 54mm fiberglass thin wall composite tip shapes
+             *** No longer exist on website as of Oct 2020 - erroneously removed? ***
              *** No mfr data given except fineness ratio ***
              *** Get actual weights and set thickness to put weight to actual ***
              For now have set thickness equal to .040 wall, mass should be reasonably close
@@ -1903,7 +1890,7 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
         <!-- =============================== -->
 
         <!-- SOURCE ERROR: Madcow website gives same weight for FWNC30-VK and FWNC30T-VK, and
-             for FWNC30-Y and FWNC30T-Y.  This is definitely incorrect. -->
+             4.7 oz for FWNC30-Y and FWNC30T-Y.  This is definitely incorrect. -->
 
         <!-- 3" 75mm fiberglass thin wall composite tip nose cone shapes
              Mfr Data:
