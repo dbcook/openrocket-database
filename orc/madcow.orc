@@ -764,13 +764,13 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
         <PartNumber>FT80</PartNumber>
         <Description>Body tube, 8.0in, G12 FWFG, heavy wall, natural, 60.0 in.</Description>
         <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
-        <InsideDiameter Unit="in">7.815</InsideDiameter>
+        <InsideDiameter Unit="in">7.800</InsideDiameter>
         <OutsideDiameter Unit="in">8.005</OutsideDiameter>
         <Length Unit="in">60.0</Length>
       </BodyTube>
 
-      <!-- FT115 11.5" heavy wall has no dimensions given.  I have assumed OD=11.500 and ID=11.310,
-           wall=.090 as per FT80.
+      <!-- FT115 11.5" heavy wall has no dimensions given.  I have assumed OD=11.500 and ID=11.298,
+           wall=.102 as per FT80.
            Only offered in 60" length with 4-5 week lead time and no custom cuts.
            Color limited to natural green.
            SOURCE ERROR: dimensions for FT115 missing on Madcow site.
@@ -780,7 +780,7 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
         <PartNumber>FT115</PartNumber>
         <Description>Body tube, 11.5in, G12 FWFG, heavy wall, natural, 60.0 in.</Description>
         <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
-        <InsideDiameter Unit="in">11.310</InsideDiameter>
+        <InsideDiameter Unit="in">11.298</InsideDiameter>
         <OutsideDiameter Unit="in">11.500</OutsideDiameter>
         <Length Unit="in">60.0</Length>
       </BodyTube>
@@ -1200,8 +1200,8 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
         <PartNumber>FC80-160</PartNumber>
         <Description>Tube coupler, 8.0in, G12 FWFG, 16.0 in., PN FC80-160</Description>
         <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
-        <InsideDiameter Unit="in">7.518</InsideDiameter>
-        <OutsideDiameter Unit="in">7.813</OutsideDiameter>
+        <InsideDiameter Unit="in">7.500</InsideDiameter>
+        <OutsideDiameter Unit="in">7.795</OutsideDiameter>
         <Length Unit="in">16.0</Length>
       </TubeCoupler>
       <TubeCoupler>
@@ -1209,8 +1209,8 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
         <PartNumber>FC80-180</PartNumber>
         <Description>Tube coupler, 8.0in, G12 FWFG, 18.0 in., PN FC80-180</Description>
         <Material Type="BULK">Fiberglass, G12, filament wound tube, bulk</Material>
-        <InsideDiameter Unit="in">7.518</InsideDiameter>
-        <OutsideDiameter Unit="in">7.813</OutsideDiameter>
+        <InsideDiameter Unit="in">7.500</InsideDiameter>
+        <OutsideDiameter Unit="in">7.795</OutsideDiameter>
         <Length Unit="in">18.0</Length>
       </TubeCoupler>
       
