@@ -337,10 +337,11 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
         <OutsideDiameter Unit="in">3.100</OutsideDiameter>
         <Length Unit="in">24.0</Length>
       </BodyTube>
+      <!-- T40 tube was formerly called T39 before about 2020 -->
       <BodyTube>
         <Manufacturer>Madcow</Manufacturer>
-        <PartNumber>T39-310</PartNumber>
-        <Description>Body tube, paper, T39, 31.0 in., PN T39-310</Description>
+        <PartNumber>T40-310, T39-310</PartNumber>
+        <Description>Body tube, paper, T39, 31.0 in., PN T40-310</Description>
         <Material Type="BULK">Paper, spiral kraft glassine, bulk</Material>
         <InsideDiameter Unit="in">3.900</InsideDiameter>
         <OutsideDiameter Unit="in">4.000</OutsideDiameter>
@@ -348,8 +349,8 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
       </BodyTube>
       <BodyTube>
         <Manufacturer>Madcow</Manufacturer>
-        <PartNumber>T39-310S3</PartNumber>
-        <Description>Body tube, paper, T39, 31.0 in., 3 slots, PN T39-310S3</Description>
+        <PartNumber>T40-310S3, T39-310S3</PartNumber>
+        <Description>Body tube, paper, T39, 31.0 in., 3 slots, PN T40-310S3</Description>
         <Material Type="BULK">Paper, spiral kraft glassine, bulk</Material>
         <InsideDiameter Unit="in">3.900</InsideDiameter>
         <OutsideDiameter Unit="in">4.000</OutsideDiameter>
@@ -357,8 +358,8 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
       </BodyTube>
       <BodyTube>
         <Manufacturer>Madcow</Manufacturer>
-        <PartNumber>T39-310S4</PartNumber>
-        <Description>Body tube, paper, T39, 31.0 in., 4 slots, PN T39-310S4</Description>
+        <PartNumber>T40-310S4, T39-310S4</PartNumber>
+        <Description>Body tube, paper, T39, 31.0 in., 4 slots, PN T40-310S4</Description>
         <Material Type="BULK">Paper, spiral kraft glassine, bulk</Material>
         <InsideDiameter Unit="in">3.900</InsideDiameter>
         <OutsideDiameter Unit="in">4.000</OutsideDiameter>
@@ -366,18 +367,18 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
       </BodyTube>
       <BodyTube>
         <Manufacturer>Madcow</Manufacturer>
-        <PartNumber>T39-190</PartNumber>
-        <Description>Body tube, paper, T39, 19.0 in., PN T39-190</Description>
+        <PartNumber>T40-190, T39-190</PartNumber>
+        <Description>Body tube, paper, T39, 19.0 in., PN T40-190</Description>
         <Material Type="BULK">Paper, spiral kraft glassine, bulk</Material>
         <InsideDiameter Unit="in">3.900</InsideDiameter>
         <OutsideDiameter Unit="in">4.000</OutsideDiameter>
         <Length Unit="in">19.0</Length>
       </BodyTube>
-      <!-- T39-190S3 3 slots are 4.25" long, 0.5" from end, 1/4" wide -->
+      <!-- T40-190S3 3 slots are 4.25" long, 0.5" from end, 1/4" wide -->
       <BodyTube>
         <Manufacturer>Madcow</Manufacturer>
-        <PartNumber>T39-190S3</PartNumber>
-        <Description>Body tube, paper, T39, 19.0 in., 3 slots, PN T39-190S3</Description>
+        <PartNumber>T40-190S3, T39-190S3</PartNumber>
+        <Description>Body tube, paper, T39, 19.0 in., 3 slots, PN T40-190S3</Description>
         <Material Type="BULK">Paper, spiral kraft glassine, bulk</Material>
         <InsideDiameter Unit="in">3.900</InsideDiameter>
         <OutsideDiameter Unit="in">4.000</OutsideDiameter>
@@ -385,28 +386,28 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
       </BodyTube>
       <BodyTube>
         <Manufacturer>Madcow</Manufacturer>
-        <PartNumber>T39-120</PartNumber>
-        <Description>Body tube, paper, T39, 12.0 in., PN T39-120</Description>
+        <PartNumber>T40-120, T39-120</PartNumber>
+        <Description>Body tube, paper, T39, 12.0 in., PN T40-120</Description>
         <Material Type="BULK">Paper, spiral kraft glassine, bulk</Material>
         <InsideDiameter Unit="in">3.900</InsideDiameter>
         <OutsideDiameter Unit="in">4.000</OutsideDiameter>
         <Length Unit="in">12.0</Length>
       </BodyTube>
-      <!-- T39-120S3 3 slots are 4.25" long, 0.5" from end, 1/4" wide -->
+      <!-- T40-120S3 3 slots are 4.25" long, 0.5" from end, 1/4" wide -->
       <BodyTube>
         <Manufacturer>Madcow</Manufacturer>
-        <PartNumber>T39-120S3</PartNumber>
-        <Description>Body tube, paper, T39, 12.0 in., 3 slots, PN T39-120S3</Description>
+        <PartNumber>T40-120S3, T39-120S3</PartNumber>
+        <Description>Body tube, paper, T39, 12.0 in., 3 slots, PN T40-120S3</Description>
         <Material Type="BULK">Paper, spiral kraft glassine, bulk</Material>
         <InsideDiameter Unit="in">3.900</InsideDiameter>
         <OutsideDiameter Unit="in">4.000</OutsideDiameter>
         <Length Unit="in">12.0</Length>
       </BodyTube>
-      <!-- T39-010 is 1" switch band -->
+      <!-- T40-010 is 1" switch band -->
       <BodyTube>
         <Manufacturer>Madcow</Manufacturer>
-        <PartNumber>T39-010</PartNumber>
-        <Description>Switch band, paper, T39, 1.0 in., PN T39-010</Description>
+        <PartNumber>T40-010, T39-010</PartNumber>
+        <Description>Switch band, paper, T39, 1.0 in., PN T40-010</Description>
         <Material Type="BULK">Paper, spiral kraft glassine, bulk</Material>
         <InsideDiameter Unit="in">3.900</InsideDiameter>
         <OutsideDiameter Unit="in">4.000</OutsideDiameter>
@@ -455,13 +456,14 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
       </TubeCoupler>
       <TubeCoupler>
         <Manufacturer>Madcow</Manufacturer>
-        <PartNumber>C39-800HD</PartNumber>
-        <Description>Tube coupler, paper, T39, heavy wall, 8.0 in., PN C39-800HD</Description>
+        <PartNumber>C40-800, C39-800HD</PartNumber>
+        <Description>Tube coupler, paper, T40, heavy wall, 8.0 in., PN C40-800</Description>
         <Material Type="BULK">Paper, spiral kraft glassine, bulk</Material>
         <InsideDiameter Unit="in">3.667</InsideDiameter>
         <OutsideDiameter Unit="in">3.897</OutsideDiameter>
         <Length Unit="in">8.0</Length>
       </TubeCoupler>
+      <!-- website (2020) also lists a C55-900, said to be for Polecat 5.5" cardboard airframe -->
       
 
       <!-- ============================== -->
