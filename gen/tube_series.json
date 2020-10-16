@@ -4,12 +4,12 @@
     // Estes and Semroc "BT" tube series
     // These share nomenclature.  Semroc makes various sizes that Estes never did.
     // Except for BT-10, the Semroc sizes are a proper superset of the Estes sizes.
-    // Semroc BT-19 is out of size order as it is smaller than BT-10
+    // Semroc BT-19 (missing!) is out of size order as it is smaller than BT-10
 
     "BT-1+":
     {
         "name": "BT-1+",
-        "alias": "T-1+",
+        "aliases": ["T-1+"],
         "id" : "0.220 in",
         "od" : "0.246 in",
         "rmk": "Quest MMX motor size"
@@ -104,7 +104,7 @@
     "BT-50": 
     { 
         "name": "BT-50",
-        "alias": "PST-50",
+        "aliases": ["PST-50"],
         "id" : "0.950 in",
         "od" : "0.976 in",
         "rmk": "24mm motor tube"
@@ -148,7 +148,7 @@
     "BT-55": 
     { 
         "name": "BT-55",
-        "alias": "PST-55",
+        "aliases": ["PST-55"],
         "id" : "1.283 in",
         "od" : "1.325 in"
     },
@@ -607,14 +607,14 @@
         "name": "TC-1.52",
         "id" : "1.398 in",
         "od" : "1.520 in",
-        "rmk": "mfr spec has zero clearance"
+        "rmk": "LOC mfr spec has zero clearance"
     },
     "TC-2.14": 
     { 
         "name": "TC-2.14",
         "id" : "2.017 in",
         "od" : "2.138 in",
-        "rmk": "mfr spec has only .002 clearance"
+        "rmk": "LOC mfr spec has only .002 clearance"
     },
     "TC-2.56": 
     { 
