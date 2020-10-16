@@ -32,6 +32,7 @@ System compatibility:  works anywhere OpenRocket can run
    * Madcow - update FC80 ID/OD to match newly published dimensions of FT80
    * Madcow - ID/OD of FC55 changed noticeably now that data has been published
    * Madcow - remove more source error tags based on website data improvements
+   * Madcow - 4" tube SKU changed from T39 -> T40
    
 0.9.1.9 - Apr 2020
 * Fixes
