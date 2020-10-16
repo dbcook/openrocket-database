@@ -27,18 +27,22 @@ System compatibility:  works anywhere OpenRocket can run
 
 ## Release Notes
 
-0.9.1.10 - Oct 2020
+0.9.1.11 - Oct 2020
 * Fixes
    * Madcow - update FC80 ID/OD to match newly published dimensions of FT80
    * Madcow - ID/OD of FC55 changed noticeably now that data has been published
    * Madcow - remove more source error tags based on website data improvements
    * Madcow - 4" tube SKU changed from T39 -> T40
    
-0.9.1.9 - Apr 2020
+0.9.1.10 - Apr 2020
 * Fixes
    * Madcow - add FC75 and newly published mfr data for FC80
    * Madcow - update body_tube_data.xlsx for mfr website changes and fixes
    * Madcow - source error for FT11 SKUs removed; fixed on madcow.com
+
+0.9.1.9 - Nov 2019
+* Additions
+   * Add note about existence of MMX X-15 starter set, per message from Chris Michielssen
 
 0.9.1.8 - Apr 2019
 * Fixes
@@ -626,6 +630,9 @@ Quest makes several Micromaxx (1/4" diameter motor) kits that can only be had as
 * Space Shuttle
 
 The parts content of these Micromaxx kits is totally undocumented.
+
+Chris Michielssen reported to me (personal message, Nov 2019) that there was an MMX X-15
+starter set, which Dane Boles at one time had "a few" for sale.
 
 Side note: The Saturn V and Space Shuttle are offered in a "Space Pioneers" starter set, which
 is a reference to the New Canaan YMCA Space Pioneers founded by G. Harry Stine (father of Quest
