@@ -624,6 +624,7 @@ TC_5.5_12          Coupler for BT_5.5, 12" long
             <Length Unit="in">0.50</Length>
         </CenteringRing>
         <!-- 98mm OD to 5.5" ID -->
+        <CenteringRing>
             <Manufacturer>Always Ready Rocketry</Manufacturer>
             <PartNumber>CR-139/98</PartNumber>
             <Description>Centering ring, plywood, 98mm to 5.5", .50"</Description>
@@ -632,6 +633,5 @@ TC_5.5_12          Coupler for BT_5.5, 12" long
             <OutsideDiameter Unit="in">5.495</OutsideDiameter>
             <Length Unit="in">0.50</Length>
         </CenteringRing>
-
     </Components>
 </OpenRocketComponent>
