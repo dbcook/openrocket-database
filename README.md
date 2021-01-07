@@ -27,6 +27,10 @@ System compatibility:  works anywhere OpenRocket can run
 
 ## Release Notes
 
+0.9.1.12 - Jan 2021
+* Fixes
+   * Bluetube - Add missing CenteringRing opening tag (closes issue #3)
+
 0.9.1.11 - Oct 2020
 * Fixes
    * Madcow - update FC80 ID/OD to match newly published dimensions of FT80
