@@ -27,6 +27,13 @@ System compatibility:  works anywhere OpenRocket can run
 
 ## Release Notes
 
+0.9.1.13 - Jan 2021
+* Fixes
+   * quest - fix incorrect length of 10mm tube - was 10 meters
+* Updates
+   * quest - change most tube dimensions to inches now that official specs are mostly in inches
+   * README - note demise of Semroc legacy website, end of FSI reboot, revival of Giant Leap Magna-frame tubes
+
 0.9.1.12 - Jan 2021
 * Fixes
    * Bluetube - Add missing CenteringRing opening tag (closes issue #3)
@@ -413,8 +420,10 @@ uncertainties about some obscure Estes parts, especially tubes and nose cones.  
 SEMROC after Carl's passing and has done a fantastic job of getting nearly all the SEMROC parts back
 into production and indexing them on the [erockets.biz](http://erockets.biz) website.
 
-The body tube and nose cone listings on the old SEMROC website are unique resources,
+The body tube and nose cone listings on the old SEMROC website were unique resources,
 and I have digested them into a table of dimensions text file and a spreadsheet.
+Sadly, in late 2020 the server that hosted the legacy SEMROC website died in a hardware crash.
+eRockets has said that it cannot be restored, so that resource is gone.
 
 Semroc is known for its vast array of Estes and Centuri compatible nose cones, but they
 also make some nose cones for their own kits.  This leads to some complications.  There
@@ -624,7 +633,10 @@ The [Quest website](https://www.questaerospace.com/) has good dimensions for mos
 incomplete or no dimensions for nose cones and other part types.  There is basically no useful mass
 data anywhere in their literature.
 
-Quest makes several Micromaxx (1/4" diameter motor) kits that can only be had as part of starter sets:
+In the latest editions of the website (last examined in Jan 2021), Quest now gives dimensions
+for nearly all of their body tubes in inch units.  The Quest file here has been updated to match.
+
+Quest makes several ready-to-fly Micromaxx (1/4" diameter motor) rockets that can only be had as part of starter sets:
 
 * Space Fighter
 * Flying Saucer
@@ -633,9 +645,12 @@ Quest makes several Micromaxx (1/4" diameter motor) kits that can only be had as
 * Saturn V
 * Space Shuttle
 
-The parts content of these Micromaxx kits is totally undocumented.
+There is also one builder MMX rocket in the form of the Boingo, available only in a 12-pack.
+It has a foam nose cone that is not sold separately and for which no PN is given.
 
-Chris Michielssen reported to me (personal message, Nov 2019) that there was an MMX X-15
+The parts content of these Micromaxx rockets is totally undocumented.
+
+Chris Michielssen reported to me (personal message, Nov 2019) that there was also an MMX X-15
 starter set, which Dane Boles at one time had "a few" for sale.
 
 Side note: The Saturn V and Space Shuttle are offered in a "Space Pioneers" starter set, which
@@ -673,14 +688,17 @@ were located and acquired by Dave Bucher and David Lucas, who announced a relaun
 At NARAM-58 they sold a small number of some FSI branded kits made from NOS parts with substitutions 
 to enable use of 24mm motors. However, their website never went live for orders, and the passing
 of Dave Bucher in 2017 was a setback to the reboot attempt.  The 2017 website is gone, but
-Facebook posts have resurfaced in 2018 with two new people identifying themselves only as 
-"B.G." and "R.M." apparently joining Dave Lucas.  The Facebook posts make it
-clear they are focusing on bringing out a few new kits.  It's possible that the modified old
+Facebook posts resurfaced in 2018 with two new people identifying themselves only as 
+"B.G." and "R.M." apparently joining Dave Lucas.  The Facebook posts made it
+clear they planned only on bringing out a few new kits.
+
+The FSI restart is not known to have had individual parts on sale, and did not produce
+any new motors.  In 2020 I was told privately that the new FSI has ceased operation and that the FSI
+assets are again for sale.
+
+It's likely that the modified old
 stock kits sold at NARAM-58 are now exceedingly rare, as they were made legitimately under the
 FSI name but no more than a few tens of them exist.
-
-The Bucher/Lucas FSI is not known to have had individual parts on sale, and did not produce
-any new motors.
 
 FSI had printed catalogs that provided good data on tube sizes, which have already been incorporated into
 `tube_data.txt`.  Catalogs were produced only sporadically, but the product line changed slowly.
@@ -755,8 +773,11 @@ Giant Leap offers some dimensional data on their current (2018) website.  They o
 of tubes: K-frame (Kevlar/fiberglass hybrid), Magnaframe (hybrid phenolic/vulcanized fiber),
 and phenolic. Wall thickness is only given for the phenolic tubes, and weights are not given for
 much of anything. I heard verbally at a 2018 event that all tubes except the phenolic have been
-discontinued, and this is substantiated by the website where most of the K-frame tube is shown as
-out of stock, and one of the two sizes of magna-frame is also out of stock.
+discontinued.  However, as of Jan 2021 this does not seem to be the case, as all sizes
+of Magna-frame are now shown as in-stock again.
+
+There is now a file on the Giant Leap website with RockSim data for some (unknown) subset of
+Giant Leap parts.  I have yet to digest this.
 
 ### Missing Manufacturers
 

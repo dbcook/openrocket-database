@@ -200,6 +200,7 @@ none known
         <!-- Body Tubes -->
         <!-- ========== -->
 
+        <!-- MMX minimum diameter tube no longer exists on Quest website as of Jan 2021 -->
         <BodyTube>
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>Q9527</PartNumber>
@@ -222,27 +223,33 @@ none known
             <Length Unit="in">1.0</Length>
         </BodyTube>
 
+        <!-- MMX 10mm tube 6" long
+             Dimensions on 2021 website given as ID 0.372", OD 0.392", 6.0" long -->
         <BodyTube>
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>Q9528</PartNumber>
             <Description>Body tube, paper, 10mm, white, 6", PN Q9528</Description>
             <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
-            <InsideDiameter Unit="mm">9.4</InsideDiameter>
-            <OutsideDiameter Unit="m">10.0</OutsideDiameter>
+            <InsideDiameter Unit="in">0.372</InsideDiameter>
+            <OutsideDiameter Unit="in">0.392</OutsideDiameter>
             <Length Unit="in">6.0</Length>
         </BodyTube>
 
+        <!-- 15mm body tube 30" long 
+             As of Jan 2021 website, dimensions are given as ID 0.550", OD 0.590", 30.0" length-->
         <BodyTube>
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>T153000</PartNumber>
             <Description>Body tube, paper, 15mm, white, 30"</Description>
             <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
-            <InsideDiameter Unit="mm">14.0</InsideDiameter>
-            <OutsideDiameter Unit="mm">15.0</OutsideDiameter>
+            <InsideDiameter Unit="in">0.550</InsideDiameter>
+            <OutsideDiameter Unit="in">0.590</OutsideDiameter>
             <Length Unit="in">30.0</Length>
         </BodyTube>
 
-        <!-- 18mm motor mount tube is a slip fit inside a 20mm body tube.  Had no PN on 2009 website.
+        <!-- 18mm motor mount tube is a slip fit inside a 20mm body tube.
+            Specs on 2021 website are ID 0.712", OD 0.738", length 2.6875"; using these as authoritative.
+             Had no PN on 2009 website.
              I have an actual instance of this tube from a recent (2016?) Striker AGM kit.  It is
              yellow and very flimsy.  I get a wall thickness of 0.32 mm but it is hard to measure
              accurately as the tube is very soft and compressible.  Outside diameter over an engine block as
@@ -253,8 +260,8 @@ none known
             <PartNumber>Q10303</PartNumber>
             <Description>Body tube, paper, 18mm, yellow, 2.6875", motor mount, PN Q10303</Description>
             <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
-            <InsideDiameter Unit="mm">18.08</InsideDiameter>
-            <OutsideDiameter Unit="mm">18.75</OutsideDiameter>
+            <InsideDiameter Unit="in">0.712</InsideDiameter>
+            <OutsideDiameter Unit="in">0.738</OutsideDiameter>
             <Length Unit="in">2.6875</Length>
         </BodyTube>
         
@@ -269,29 +276,43 @@ none known
             <Length Unit="in">30.0</Length>
         </BodyTube>
 
-        <!-- On 2018 Quest website the only 20mm tube is listed as 11" long -->
+        <!-- On 2021 Quest website there is a new 12" long 20mm tube in yellow with
+             dimensions specified as ID 0.752", OD 0.788" -->
+        <BodyTube>
+            <Manufacturer>Quest</Manufacturer>
+            <PartNumber>Q11210</PartNumber>
+            <Description>Body tube, paper, 20mm, yellow, 12", PN Q11210</Description>
+            <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+            <InsideDiameter Unit="in">0.752</InsideDiameter>
+            <OutsideDiameter Unit="in">0.788</OutsideDiameter>
+            <Length Unit="in">12.0</Length>
+        </BodyTube>
+
+        <!-- On 2018 Quest website the only 20mm tube was listed as 11" long in white
+             As of Jan 2021 dimensions are specified as ID 0.752", OD 0.788" -->
         <BodyTube>
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>Q11214</PartNumber>
             <Description>Body tube, paper, 20mm, white, 11", PN Q11214</Description>
             <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
-            <InsideDiameter Unit="mm">19.1</InsideDiameter>
-            <OutsideDiameter Unit="mm">20.0</OutsideDiameter>
+            <InsideDiameter Unit="in">0.752</InsideDiameter>
+            <OutsideDiameter Unit="in">0.788</OutsideDiameter>
             <Length Unit="in">11.0</Length>
         </BodyTube>
 
-        <!-- 21mm motor mount tube is still on 2018 website.  In the photo, it's red. -->
+        <!-- 21mm motor mount tube for the old Quest D5-0 motor is still on 2021 website.  In the photo, it's red.
+             Dimensions are now given as ID 0.795", OD 0.835" -->
         <BodyTube>
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>Q10315</PartNumber>
             <Description>Body tube, paper, 21mm, red, D5 Motor Mount Tube, 3.65", PN Q10315</Description>
             <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
-            <InsideDiameter Unit="mm">20.2</InsideDiameter>
-            <OutsideDiameter Unit="mm">21.2</OutsideDiameter>
+            <InsideDiameter Unit="in">0.795</InsideDiameter>
+            <OutsideDiameter Unit="in">0.835</OutsideDiameter>
             <Length Unit="in">3.65</Length>
         </BodyTube>
 
-        <!-- 24mm motor mount tube is on 2018 website, length 2.75", size given only as 1".
+        <!-- 24mm motor mount aka "adapter" tube is on 2018-2021+ website, length 2.75", size given only as 1".
              ID/OD offset from 25mm tube with same offsets as 18mm motor tube, for which dimensions are given. -->
         <BodyTube>
             <Manufacturer>Quest</Manufacturer>
@@ -303,7 +324,9 @@ none known
             <Length Unit="in">2.75</Length>
         </BodyTube>
 
-        <!-- Clear 25mm x 4" payload tube exists on 2018 website -->
+        <!-- Clear 25mm x 4" payload tube exists on 2018+ website
+             Dimensions are confusingly given as "PETG-CLEAR - cut in 4" lengths7/8" x 4" med. wall tube"
+             This does confirm that the clear tube is PETG -->
         <BodyTube>
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>Q28700</PartNumber>
@@ -314,7 +337,7 @@ none known
             <Length Unit="in">4.0</Length>
         </BodyTube>
 
-        <!-- 25mm clear red tint payload tube no longer appears on 2018 website.
+        <!-- 25mm clear red tint payload tube no longer appears on + website.
              On the 2009 website is had no PN and was just called "Red Tint Payload Tube"
              The 25mm payload tube is shown as clear in 2018 -->
         <BodyTube>
@@ -327,25 +350,26 @@ none known
             <Length Unit="in">4.0</Length>
         </BodyTube>
 
-        <!-- 25mm x 30" paper tube has old style PN in original OR file -->
+        <!-- 25mm x 30" paper tube has old style PN in original OR file
+             As of Jan 2021 website, dimensions are given as ID 0.950", OD 0.976", len 30" -->
         <BodyTube>
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>T253000, Q9522</PartNumber>
             <Description>Body tube, paper, 25mm, white, 30", PN T253000/Q9522</Description>
             <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
-            <InsideDiameter Unit="mm">24.0</InsideDiameter>
-            <OutsideDiameter Unit="mm">25.0</OutsideDiameter>
+            <InsideDiameter Unit="in">0.950</InsideDiameter>
+            <OutsideDiameter Unit="in">0.976</OutsideDiameter>
             <Length Unit="in">30.0</Length>
         </BodyTube>
 
-        <!-- 29mm MMT has heavier wall, dimensions given on 2018 website -->
+        <!-- 29mm MMT has heavier wall, dimensions given in inch units on 2018+ website -->
         <BodyTube>
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>Q10316</PartNumber>
             <Description>Body tube, paper, 29mm, white, 29mm MMT, 4.5", PN Q10316</Description>
             <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
-            <InsideDiameter Unit="mm">29.0</InsideDiameter>
-            <OutsideDiameter Unit="mm">30.9</OutsideDiameter>
+            <InsideDiameter Unit="in">1.14</InsideDiameter>
+            <OutsideDiameter Unit="in">1.215</OutsideDiameter>
             <Length Unit="in">4.5</Length>
         </BodyTube>
 
@@ -360,16 +384,15 @@ none known
             <Length Unit="in">30.0</Length>
         </BodyTube>
 
-        <!-- 35mm x 18" tube only exists on 2018 website.  A sample acquired in 2018 has OD of 34.93 mm
-             and ID of 34.01 mm -->
+        <!-- 30mm x 5" tube is on 2018+ website, specified only as "Body Tube 5" 30mm(white)" -->
         <BodyTube>
             <Manufacturer>Quest</Manufacturer>
-            <PartNumber>Q11503</PartNumber>
-            <Description>Body tube, paper, 35mm, white, 18", PN Q11503</Description>
+            <PartNumber>T303000, Q9523</PartNumber>
+            <Description>Body tube, paper, 30mm, white, 5", PN Q11421</Description>
             <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
-            <InsideDiameter Unit="mm">34.0</InsideDiameter>
-            <OutsideDiameter Unit="mm">35.0</OutsideDiameter>
-            <Length Unit="in">18.0</Length>
+            <InsideDiameter Unit="mm">29.0</InsideDiameter>
+            <OutsideDiameter Unit="mm">30.0</OutsideDiameter>
+            <Length Unit="in">5.0</Length>
         </BodyTube>
 
         <!-- 35mm x 30" tube no longer exists on 2018 website -->
@@ -383,7 +406,20 @@ none known
             <Length Unit="in">30.0</Length>
         </BodyTube>
 
-        <!-- 40mm x 30" tube -->
+        <!-- 35mm x 18" tube only exists on 2018+ website.  A sample acquired in 2018 has OD of 34.93 mm
+             and ID of 34.01 mm.  Dimensions now specified in inch units as ID 1.340, OD 1.380, 18 long -->
+        <BodyTube>
+            <Manufacturer>Quest</Manufacturer>
+            <PartNumber>Q11503</PartNumber>
+            <Description>Body tube, paper, 35mm, white, 18", PN Q11503</Description>
+            <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+            <InsideDiameter Unit="in">1.340</InsideDiameter>
+            <OutsideDiameter Unit="in">1.380</OutsideDiameter>
+            <Length Unit="in">18.0</Length>
+        </BodyTube>
+
+        <!-- 40mm x 30" tube
+             On 2018+ website, dimensions are only given as 40mm diam, 30 inches long -->
         <BodyTube>
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>T403000, Q9525</PartNumber>
@@ -394,36 +430,39 @@ none known
             <Length Unit="in">30.0</Length>
         </BodyTube>
 
-        <!-- 40mm 18" tube is only on the 2018 website, not 2009 site -->      
+        <!-- 40mm 18" tube is only on the 2018+ website, not on 2009 site
+             Dimensions now specified as ID 1.530", OD 1.570", 18" long -->      
         <BodyTube>
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>Q11511</PartNumber>
             <Description>Body tube, paper, 40mm, white, 18", PN Q11511</Description>
             <Material Type="BULK">Paper</Material>
-            <InsideDiameter Unit="mm">39.0</InsideDiameter>
-            <OutsideDiameter Unit="mm">40.0</OutsideDiameter>
+            <InsideDiameter Unit="in">1.530</InsideDiameter>
+            <OutsideDiameter Unit="in">1.570</OutsideDiameter>
             <Length Unit="in">18.0</Length>
         </BodyTube>
         
-        <!-- 50mm x 24" has dimensions specified on 2009 and 2018 websites -->
+        <!-- 50mm x 24" has dimensions specified on 2009 and 2018+ websites
+             Dimensions now specified as ID 1.921", OD 1.970" -->
         <BodyTube>
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>T502400, Q11700</PartNumber>
             <Description>Body tube, paper, 50mm, white, 24", PN T502400/Q11700</Description>
             <Material Type="BULK">Paper</Material>
-            <InsideDiameter Unit="mm">48.8</InsideDiameter>
-            <OutsideDiameter Unit="mm">50.0</OutsideDiameter>
+            <InsideDiameter Unit="in">1.921</InsideDiameter>
+            <OutsideDiameter Unit="in">1.970</OutsideDiameter>
             <Length Unit="in">24.0</Length>
         </BodyTube>
 
-        <!-- 50mm x 18" tube is on 2018 website, but not on 2009 website -->
+        <!-- 50mm x 18" tube is on 2018+ website, but not on 2009 website
+             Dimensions now specified as ID 1.92", OD 1.97" -->
         <BodyTube>
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>Q11701</PartNumber>
             <Description>Body tube, paper, 50mm, white, 18", PN Q11701</Description>
             <Material Type="BULK">Paper</Material>
-            <InsideDiameter Unit="mm">48.8</InsideDiameter>
-            <OutsideDiameter Unit="mm">50.0</OutsideDiameter>
+            <InsideDiameter Unit="in">1.92</InsideDiameter>
+            <OutsideDiameter Unit="in">1.97</OutsideDiameter>
             <Length Unit="in">18.0</Length>
         </BodyTube>
 
