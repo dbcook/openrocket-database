@@ -2495,7 +2495,7 @@ Known issues:
       </BodyTube>
 
       <!-- PST-65 clear payload tube 
-           *** SOURCE ERROR: There are conflicts on PST-65 / BNC-65 dimensions. ***
+           SOURCE ERROR: There are conflicts on PST-65 / BNC-65 dimensions.
            The 1974 CPC gives grossly incorrect OD 1.641  ID 1.595 (nearly the same as BT-60)
            The 1974 Estes print catalog gives   OD 1.796  ID 1.750
       -->
