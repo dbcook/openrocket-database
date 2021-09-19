@@ -33,6 +33,7 @@ System compatibility:  works anywhere OpenRocket can run
 * Fixes
    * README - fix broken URL for Estes catalog archive
 * Updates
+   * apogee - add new file with TARC foam nose cones and egg protectors
    * README - add info about not being able to remove the old database when using the packaged installers
    * README - move some old release notes to the archive file
 
@@ -182,7 +183,7 @@ somewhat Mac centric because that's what I use most.
 | `Fliskits.orc`           | Yes  | --
 | `giantleaprocketry.orc`  | Yes  | --
 | `publicmissiles.orc`     | Yes  | --
-| `apogee.orc`             | No   | -- new file needed, esp. for TARC egg protectors
+| `apogee.orc`             | No   | 50%? new file added with TARC foam NCs and egg protectors
 | `fsi.orc`                | No   | -- new file needed
 | `cmr.orc`                | No   | -- new file needed
 | `mpc.orc`                | No   | 98% - all known data included
