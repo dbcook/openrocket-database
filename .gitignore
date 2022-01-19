@@ -112,3 +112,6 @@ A
 
 # Mac specific
 .DS_Store
+
+# VSCode
+.vscode

@@ -10,14 +10,14 @@ OpenRocket jar file.
 Installing this package does not change how OpenRocket __works__ in any way.  It only changes what
 components are available for selection in the menus.
 
+The OpenRocket developers have expressed interest in incorporating this database into the
+app, replacing the outdated original parts database, but I don't know when that will happen
+as there has not been an OpenRocket release in several years.
+
 I apologize in advance for the geeky way you need to install this.  It's not very
 complicated, but there's a bit of command line work.  You'll need to be able to use a `git`
 client to grab this repo, and create a soft symlink so that OpenRocket finds the database
-when it starts up.  If you want to remove the built-in databases from OpenRocket, you'll
-need a `zip` tool to remove those .orc files from the OpenRocket jar.  Detailed
-instructions are given below.
-
-I invite contributors to create a packaged installer, especially for Windows.
+when it starts up.
 
 ## Compatibility
 
@@ -26,6 +26,25 @@ OpenRocket compatibility:  tested with OpenRocket 15.03 __only__
 System compatibility:  works anywhere OpenRocket can run
 
 ## Release Notes
+
+0.9.1.16 - Jan 2022
+* Fixes
+   * README - minor clean up
+* Updates
+   * publicmissiles - add PML file, centering rings not complete
+   * madcow - minor doc change
+
+0.9.1.15 - Sep 2021
+* Fixes
+   * README - fix broken URL for Estes catalog archive
+* Updates
+   * apogee - add new file with TARC foam nose cones and egg protectors
+   * README - add info about not being able to remove the old database when using the packaged installers
+   * README - move some old release notes to the archive file
+
+0.9.1.14 - Jun 2021
+* Updates
+   * madcow - update error tag about switch band SKUs, website behavior has changed
 
 0.9.1.13 - Jan 2021
 * Fixes
@@ -51,68 +70,6 @@ System compatibility:  works anywhere OpenRocket can run
    * Madcow - update body_tube_data.xlsx for mfr website changes and fixes
    * Madcow - source error for FT11 SKUs removed; fixed on madcow.com
 
-0.9.1.9 - Nov 2019
-* Additions
-   * Add note about existence of MMX X-15 starter set, per message from Chris Michielssen
-
-0.9.1.8 - Apr 2019
-* Fixes
-   * LOC - add note confirming PNC-7.51 as 22.0" long and 30.6 oz weight
-
-0.9.1.7 - Feb 2019
-* Fixes
-   * semroc - rearrange some NC description fields to newest layout
-   * estes - match up numeric PN for PNC-20Y, link to authoritative YORF discussion
-   * README - some general editing
-* Additions
-   * LOC - add note about official confirmation that BT-2.56 has always been 30" long
-
-0.9.1.6 - Jan 2019
-* Fixes
-   * Quest - greatly improve measurements and mass on 3 transitions based on actual parts
-* Additions
-   * README - improved writeups on various company histories
-   * Bluetube - added note about airframe/MMT ambiguity for the 1.15" and 1.52" sizes
-
-0.9.1.5 - Dec 2018
-* Fixes
-   * Quest - Q10303 18mm motor mount tube - fix length to 2.6875", was 30"
-   * Quest - 18mm thrust ring - set ID to measured value of 13.6 mm
-   * Quest - 30-35mm transition Q21056 - set shoulder diameters to measured values
-   * Quest - PNC35Nike - add some measurement info and make minor corrections to values
-   * Quest - all plastic NC - set thickness to 1.3mm based on an actual instance
-   * Quest - Q7810 14" parachute - set thickness and shroud length to match actual instance.
-   * Semroc - make sure all Centuri nose cone cross-refs are referenced in the .orc
-   * Semroc - fix reversed Centuri attribution on BC-846 and BC-846G
-   * Semroc - improve discussion of Estes PNC-50Y, BNC-50Y vs Semroc BC-943 and BC-944.
-   * Semroc - NC shoulder length fixups: completed BC-8xx, BC-8Fxx, BC-9xx, BNC-10x, BNC-19xx, BNC-2xx series.
-   * Semroc - NC shoulder length fixups: started BNC-20xx series.
-   * Semroc - fix large length error on BNC-20LS
-* Additions
-   * Semroc - added research note about the BC-BOID random ST-8 nose cone PN
-   * Semroc - add note about ST-8F tube having same OD as old FSI HRT-8 tube
-   * FSI - figured out correct IDs of RT-6, RT-8 / HRT-8 tubes, added to tube_data.txt
-   * CMR - added CMR tube sizes to tube_data.txt
-
-
-0.9.1.4 - Nov 2018
-* Fixes
-   * Estes: PK-18 and all other 18" chutes: line length is in inches, not meters.
-   * Semroc: Corrected balsa material string on about 10% of parts, fixing zero masses
-   * Semroc: Fix mfr on BNC-5W (was Estes)
-   * Semroc: Verify/adjust nose cone shoulder lengths for BC-275xx, BC-5XX, BC-6xx, BC-7xx
-   * Semroc: Harmonize many description strings
-   * Semroc: BC-731 flagged possible design change to "short shoulder" version
-   * Semroc: BC-818 changed shape to ELLIPSOID to better match shape (was OGIVE)
-   * Semroc: Removed note about odd pricing of BC-739G, now stands corrected on e-rockets site
-   * Semroc: Changed length of BC-RW825 to 2.3", apparent update on e-rockets website
-* Additions
-   * Semroc:
-     * BC-5xx Centuri compatible nose cones, all were missing
-     * BC-730, was missing
-     * BC-715CN, BC-721CN, BC-726CN nacelle cone and nozzle sets as separate parts
-     * BC-821, was missing
-   * Quest: imported original Quest.orc and fixed it up.  98% done now.
 
 Release notes from older versions can be seen [here](docs/release_notes_archive.md)
 
@@ -142,7 +99,6 @@ ln -s ~/openrocket-database/orc Components
 ### Windows
 
 Here you need to clone the git repo and create a soft directory symlink to where you cloned it.
-The following has been reported to work on Windows 10.
 
 * Install git for Windows (https://git-for-windows.github.io/)
 * Get a command prompt.  You either have to use "Run as administrator" or have Developer Mode enabled.
@@ -155,19 +111,19 @@ mklink /D %APPDATA%\OpenRocket\Components C:\openrocket-database\orc
 
 ## Removing the Built-in .orc Files from OpenRocket
 
-For the cleanest parts browsing experience, you'll want to remove the stock built-in .orc
+With the orignal jar file installation of OR 15.03, it was possible to remove the stock built-in .orc
 files from the OpenRocket jar file.  This is a slightly technical operation and requires
 that you have the 'zip' tool or equivalent.
 
-NOTE: In the current OpenRocket 15.03, all of the built-in .orc files are serialized into
-a single binary file under datafiles/presets/system.ser.  You can remove this file safely,
-but this deletes *all* the built-in .orc components, including the ones that have not been
-replaced by this package.
+However, as of late 2021, you _must_ use the prepackaged OpenRocket installers due to the
+very outdated Java JRE version needed by OpenRocket. Removing the old parts database
+is not currently feasible unless you are building OR from source.
+The OR developers intend to replace the old parts database with this one
+when they make a new release, so eventually the need for this will disappear.
+I have no idea when that will actually happen.
 
-I like to keep both a "stock" and a "stripped" OpenRocket so that I can run either way. The
-following commands show how to achieve that.  You can also use a graphical "zip" tool if
-you prefer.
-
+For the record, here are the commands that formerly could be used to remove the stock parts database
+from the original OpenRocket 15.03 jar file:
 ```bash
 cd location-of-openrocket-jar
 cp OpenRocket-15.03.jar OpenRocket-15.03-nopresets.jar
@@ -199,19 +155,23 @@ Please don't report problems on TRF, via email, etc. - use GitHub issues; others
 * New manufacturer files added: Top Flight, Madcow, MPC, generic chutes/streamers
 
 ## State of the Project
+As of early 2021, after 5+ years of development, I feel this project is mostly complete and the effort is at the point
+of diminishing returns.  All of the major, historic
+rocketry vendors that provided usable information have been covered in considerable detail.
+This encompasses Estes, Quest, MPC, and Semroc (which includes most Centuri parts) on the low power
+side, plus LOC and Madcow on the high power side.
+Indexing of new Estes parts is no longer possible, and corrections to the Semroc parts are also now
+impossible since the legacy Semroc web server has crashed irrecoverably.
 
-Although a lot of work has gone into this project over the last 4+ years, I would still
-characterize it as incomplete.  The information about how OpenRocket databases work
+The information about how OpenRocket databases work
 has been through several iterations including code dives and is pretty accurate, but it's
 somewhat Mac centric because that's what I use most.
 
-### Near Term Plan
+### Possible Updates
 
-* Finish up new Semroc file
-  * Adjust Semroc nose cone shoulder lengths to match drawings on legacy site (ones I did early)
-* Add Bluetube / Always Ready Rocketry centering rings
-* Add Always Ready Rocketry nose cones (if data exists or can determine sourcing)
-* Review / upgrade FlisKits, GLR, BMS, PML stock files
+* Build a separate Centuri file (but compatible tubes and nose cones are in the Semroc file)
+* Review / upgrade BMS, PML, and GLR stock files
+* Add historic FSI and CMR parts, though they are no longer available anywhere
 
 ### Database Files Status
 
@@ -222,12 +182,13 @@ somewhat Mac centric because that's what I use most.
 | `semroc.orc`             | Yes  | 99% - believed complete, some cleanup continues
 | `bluetube.orc`           | Yes  | 100% - tubes and couplers are done, still needs CRs and NCs
 | `Quest.orc`              | Yes  | 98% - everything known is done
-| `bms.orc`                | Yes  | --
-| `Fliskits.orc`           | Yes  | --
-| `giantleaprocketry.orc`  | Yes  | --
-| `publicmissiles.orc`     | Yes  | --
-| `fsi.orc`                | No   | -- new file needed
-| `cmr.orc`                | No   | -- new file needed
+| `bms.orc`                | Yes  | -- Mostly Estes size compatible
+| `Fliskits.orc`           | Yes  | -- Won't do, few or no unique parts
+| `giantleaprocketry.orc`  | Yes  | -- Won't do, no useful data provided by mfr
+| `publicmissiles.orc`     | Yes  | 75% - need to finish centering rings and glassed couplers
+| `apogee.orc`             | No   | New file added with TARC foam NCs and egg protectors only
+| `fsi.orc`                | No   | -- won't do for now, historical completeness only
+| `cmr.orc`                | No   | -- won't do for now, historical completeness only
 | `mpc.orc`                | No   | 98% - all known data included
 | `estes_classic.orc`      | No   | 98% - classic era parts are complete
 | `estes_ps2.orc`          | No   | 98%
@@ -240,6 +201,7 @@ There are files I may never do, or do in very abbreviated form.
 
 * Fliskits - Jim Flis ceased operations of Fliskits in 2018; no unique parts except nose cones.
 * CMR - the unique tube sizes are no longer made by anyone, so very limited usefulness.
+* FSI - same story as CMR with unique tube sizes that are no longer made by anyone.
 
 Validation tests are needed to make sure that parts generate reasonable masses and have
 internally consistent dimensions.  I experimented with creating some `.ork` design files,
@@ -332,7 +294,7 @@ drastically limited our ability to get parts data.  Estes production now works r
 * A few Estes kits - typically small production run scale models - are
   actually produced in Penrose.
 
-These facts have some logical results:
+These facts have some consequences:
 
 * Customer service requests for incomplete or damaged kits are handled by sending an
   entire new kit; the parts are not separately inventoried by Estes.
@@ -341,14 +303,14 @@ These facts have some logical results:
 * Some parts, such as nose cones, that are made available at retail are bundled
   into assortments, with the assortment having its own PN.  The internal PNs
   of the constituents aren't published, nor their specs. In some cases the
-  actual contents of assortments can change over time.
+  actual contents of Estes assortments can change over time.
 
 The way that outsourced
 contract manufacturing works now guarantees that individual part details will not
-be publicly available unless the kit maker goes to extra expense to provide it.
+be publicly available unless the manufacturer goes to extra expense to provide it.
 
 As Estes shifted production to China, in addition to the issues created by
-contract manufacturing (see above), several more things happened that affected our ability
+contract manufacturing, several more things happened that affected our ability
 to get Estes parts info:
 
 * Even for parts that are listed separately on the Estes website, little or no
@@ -459,11 +421,14 @@ situations:
 
 ##### Nose Cone Shape Drawings
 
-It turns out that the shape drawings on the nose cone individual pages on the Semroc legacy site are
-accurately to scale, and to make things even better, they are mostly at the 
+It turns out that the shape drawings on the nose cone individual pages on the Semroc legacy site were
+accurately to scale, and to make things even better, they were mostly at the 
 *same* scale.  Randy Boadway, owner of eRockets, confirmed to me at NARAM-60
 in 2018 that the drawings do in fact come directly from the software that controls the 
-nose cone making machines, so they are authoritative.
+nose cone making machines, so they were authoritative.
+
+On the new e-rockets/Semroc site, the pixel scaling of the drawings is not as
+consistent as on the legacy site, but the drawings are still very useful and remain authoritative.
 
 To exploit this you have to be careful about the browser zoom factor.  In Chrome,
 hitting 'zoom in' five times gives you 200 pixels/inch in the Semroc legacy site drawings.
@@ -481,9 +446,6 @@ shoulder lengths (and sometimes other doubtful dimensions) for all the Semroc
 nose cones.  The drawings allowed correction of some errors in tabulation,
 and also enabled good determination of the hole dimensions in drilled nose cones.
 
-On the new e-rockets/Semroc site, the pixel scaling of the drawings is not as
-consistent as on the legacy site, but the drawings are still very useful.
-
 The nose cone drawings have also proven that Semroc did *not* scale the 
 shoulder length exactly, just the shape of the __exposed__ portion of the nose
 cone or transition.  Randy Boadway also confirmed this to me at NARAM-60.
@@ -495,7 +457,8 @@ balsa parts, but body tubes and Aerotech motors are also available.  Lists of
 tubes and balsa parts are on the [BMS website](https://balsamachining.com).
 
 The balsa parts lists do not show shoulder lengths, while the tube listings
-give full dimensions.  No mass/weight data is given.
+give full dimensions.  No mass/weight data is given.  BMS makes a significant number
+of their own unique centering rings.
 
 The BMS part numbering is somewhat Estes-like, but with considerable modifications.
 The classic Estes tube series numbers (5, 20, 50, 55, 60, 70, 80) appear
@@ -959,7 +922,7 @@ updating or removing it does not require altering the manifest.
 
 ### State of the Built-In Databases
 
-In the OpenRocket source tree, the .orc files are very stale and no one has worked on them
+In the OpenRocket source tree, the .orc files are extremely stale and no one has worked on them
 recently.  The most recent change to the Estes file was in April 2014, and the rest have
 not changed since 2013 or before.
 
@@ -981,7 +944,7 @@ The general search order for database files is:
 * If %APPDATA% is set:     `%APPDATA%/OpenRocket/Components/*.orc`
 * If %APPDATA% is not set: `%HOMEPATH%/OpenRocket/Components/*.orc`
 
-*TBD* need description of how Windows stores locally added prefs in the registry from a contributor!
+*TBD* need description of how Windows stores locally added prefs in the registry!
 
 #### Linux External File Locations
 
@@ -1249,9 +1212,9 @@ Shows which Estes BNC and PNC series nose cones were made by Semroc, and shows t
 equivalents for the Estes plastic PNC nose cones.  Very helpful for determining which parts were
 ever actually made by Estes.
 
-[Catalog archive on the Estes site](http://http://www.estesrockets.com/customer-service/full-catalog/)
+[Catalog archive on the Estes site](https://www.estesrockets.com/catalogs)
 
-Downloadable PDFs of nearly all Estes and many Centuri catalogs.
+Downloadable PDFs of nearly all Estes and many Centuri catalogs with high quality scans.
 
 [Estes official instructions archive](https://www.estesrockets.com/customer-service/instructions)
 
@@ -1264,13 +1227,6 @@ or decals.
 This site contains scans of historic model rocket catalogs from Estes, Centuri, FSI, LOC, and others.
 Some of the Estes and Centuri catalog scans here are old and of poor quality - check the Estes catalog archive listed
 above for generally better versions.
-
-There formerly was a spreadsheet in the OpenRocket source code tree giving a source
-(possibly a Euro style creation date) of "13.09.1" for much of the PNC info. But there
-were obvious mistakes, blanks, and many omissions in that document, and it is no longer in
-the 15.03 source tree, though I believe it was the basis for many of the built-in
-components.  It could be pulled out of the GitHub repo by checking out old revisions, but
-I doubt it is now very useful.
 
 [MPC History and Catalogs](http://vintagevendingwarehouse.weebly.com/history-of-mpc.html)
 
