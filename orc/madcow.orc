@@ -1,4 +1,4 @@
-  <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!--
 Madcow Rocketry components file for OpenRocket
 
@@ -791,11 +791,12 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
       <!-- ================================================================ -->
       <!-- G12 Fiberglass Switch Bands -->
       <!-- ================================================================ -->
-      <!-- SOURCE ERROR: The SKUs shown on the Madcow website don't generate correctly for the
+      <!-- SOURCE ERROR: The SKUs shown on the Madcow website don't generate separately for the
            selected wall thickness and color (natural, blue, red, yellow, green, orange, black).
+           As of 2021 the displayed SKUs no longer change when you select thickness or color.
 
            I use designators consistent with other tubes of the same size and wall thickness here to
-           avoid confusion.  Erroneous and inconsistent SKUs are appended to the PN field.
+           avoid confusion.
       -->
 
       <!-- FT16 38mm G12 thin wall switch band -->
