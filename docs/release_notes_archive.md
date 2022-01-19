@@ -2,6 +2,69 @@
 
 Here are release notes from non-recent versions of the OpenRocket parts database.
 
+0.9.1.9 - Nov 2019
+* Additions
+   * Add note about existence of MMX X-15 starter set, per message from Chris Michielssen
+
+0.9.1.8 - Apr 2019
+* Fixes
+   * LOC - add note confirming PNC-7.51 as 22.0" long and 30.6 oz weight
+
+0.9.1.7 - Feb 2019
+* Fixes
+   * semroc - rearrange some NC description fields to newest layout
+   * estes - match up numeric PN for PNC-20Y, link to authoritative YORF discussion
+   * README - some general editing
+* Additions
+   * LOC - add note about official confirmation that BT-2.56 has always been 30" long
+
+0.9.1.6 - Jan 2019
+* Fixes
+   * Quest - greatly improve measurements and mass on 3 transitions based on actual parts
+* Additions
+   * README - improved writeups on various company histories
+   * Bluetube - added note about airframe/MMT ambiguity for the 1.15" and 1.52" sizes
+
+0.9.1.5 - Dec 2018
+* Fixes
+   * Quest - Q10303 18mm motor mount tube - fix length to 2.6875", was 30"
+   * Quest - 18mm thrust ring - set ID to measured value of 13.6 mm
+   * Quest - 30-35mm transition Q21056 - set shoulder diameters to measured values
+   * Quest - PNC35Nike - add some measurement info and make minor corrections to values
+   * Quest - all plastic NC - set thickness to 1.3mm based on an actual instance
+   * Quest - Q7810 14" parachute - set thickness and shroud length to match actual instance.
+   * Semroc - make sure all Centuri nose cone cross-refs are referenced in the .orc
+   * Semroc - fix reversed Centuri attribution on BC-846 and BC-846G
+   * Semroc - improve discussion of Estes PNC-50Y, BNC-50Y vs Semroc BC-943 and BC-944.
+   * Semroc - NC shoulder length fixups: completed BC-8xx, BC-8Fxx, BC-9xx, BNC-10x, BNC-19xx, BNC-2xx series.
+   * Semroc - NC shoulder length fixups: started BNC-20xx series.
+   * Semroc - fix large length error on BNC-20LS
+* Additions
+   * Semroc - added research note about the BC-BOID random ST-8 nose cone PN
+   * Semroc - add note about ST-8F tube having same OD as old FSI HRT-8 tube
+   * FSI - figured out correct IDs of RT-6, RT-8 / HRT-8 tubes, added to tube_data.txt
+   * CMR - added CMR tube sizes to tube_data.txt
+
+
+0.9.1.4 - Nov 2018
+* Fixes
+   * Estes: PK-18 and all other 18" chutes: line length is in inches, not meters.
+   * Semroc: Corrected balsa material string on about 10% of parts, fixing zero masses
+   * Semroc: Fix mfr on BNC-5W (was Estes)
+   * Semroc: Verify/adjust nose cone shoulder lengths for BC-275xx, BC-5XX, BC-6xx, BC-7xx
+   * Semroc: Harmonize many description strings
+   * Semroc: BC-731 flagged possible design change to "short shoulder" version
+   * Semroc: BC-818 changed shape to ELLIPSOID to better match shape (was OGIVE)
+   * Semroc: Removed note about odd pricing of BC-739G, now stands corrected on e-rockets site
+   * Semroc: Changed length of BC-RW825 to 2.3", apparent update on e-rockets website
+* Additions
+   * Semroc:
+     * BC-5xx Centuri compatible nose cones, all were missing
+     * BC-730, was missing
+     * BC-715CN, BC-721CN, BC-726CN nacelle cone and nozzle sets as separate parts
+     * BC-821, was missing
+   * Quest: imported original Quest.orc and fixed it up.  98% done now.
+
 0.9.1.3 - 2 Oct 2018
 * Additions
   * LOC: added phenolic tubes that recently appeared on the website

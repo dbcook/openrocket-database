@@ -171,6 +171,7 @@ somewhat Mac centric because that's what I use most.
 
 * Build a separate Centuri file (but compatible tubes and nose cones are in the Semroc file)
 * Review / upgrade BMS, PML, and GLR stock files
+* Add Bluetube / Always Ready Rocketry centering rings (and nose cones if possible)
 * Add historic FSI and CMR parts, though they are no longer available anywhere
 
 ### Database Files Status
@@ -199,12 +200,13 @@ somewhat Mac centric because that's what I use most.
 
 There are files I may never do, or do in very abbreviated form.
 
-* Fliskits - Jim Flis ceased operations of Fliskits in 2018; no unique parts except nose cones.
+* Fliskits - Jim Flis ceased operations of Fliskits in 2018; no unique parts except nose cones.  A file exists
+  in OR 15.03 but it has not been updated.
 * CMR - the unique tube sizes are no longer made by anyone, so very limited usefulness.
 * FSI - same story as CMR with unique tube sizes that are no longer made by anyone.
 
-Validation tests are needed to make sure that parts generate reasonable masses and have
-internally consistent dimensions.  I experimented with creating some `.ork` design files,
+Software validation tests are needed to make sure that parts generate reasonable masses and have
+internally consistent dimensions.  I experimented with creating some `.ork` design files for this,
 but there are limitations to the usefulness of that due to
 how OpenRocket copies components into the .ork file, so something better is needed.
 
@@ -314,14 +316,14 @@ contract manufacturing, several more things happened that affected our ability
 to get Estes parts info:
 
 * Even for parts that are listed separately on the Estes website, little or no
-  dimension or weight data is usually given.
+  dimension or weight data is usually given anymore.
 * The number of obvious errors in Estes catalogs increased substantially after
   about year 2000.
 * Estes did not produce a catalog for 2017. Catalog production resumed in
   2018 but with little parts information.
 
 Thus we have better parts data on legacy (1960s through the late 1980s)
-parts than for newer ones.  In this environment, the only way to index the parts used in
+parts than for newer ones.  At this writing, the only way to index the parts used in
 kits is by obtaining and measuring actual samples, which I think is not going to
 happen broadly. In the future we'll likely have almost no parts data
 until 3D scanning and shape-matching become convenient.
@@ -411,8 +413,7 @@ situations:
    * BNC-20LS (2.0 inch elliptical, downscale of BNC-60L)
 
 4. Semroc parts that are balsa versions of Estes _plastic_ PNC-xxx parts that had no Estes
-   balsa equivalent.
-   See http://www.semroc.com/store/scripts/xref.asp?company=classic for some info.  Examples:
+   balsa equivalent. Examples:
 
    * BNC-20ED (4.2 inch "capsule", version of PNC-20ED from Saros, Nomad)
    * BNC-50KP (balsa version of PNC-50K, which was not the same shape as Estes BNC-50K)
