@@ -29,7 +29,8 @@ System compatibility:  works anywhere OpenRocket can run
 
 0.9.1.17 - Jan 2022
 * Fixes
-   * README - Windows installation instructions - make sure in C:\ before doing git clone
+   * README - Windows installation instructions - make sure in C:\ before doing git clone,
+     add info on uninstalling and the need to remove the symlink when doing so.
 
 0.9.1.16 - Jan 2022
 * Fixes
