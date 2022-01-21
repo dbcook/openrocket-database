@@ -27,6 +27,10 @@ System compatibility:  works anywhere OpenRocket can run
 
 ## Release Notes
 
+0.9.1.17 - Jan 2022
+* Fixes
+   * README - Windows installation instructions - make sure in C:\ before doing git clone
+   
 0.9.1.16 - Jan 2022
 * Fixes
    * README - minor clean up
@@ -105,6 +109,7 @@ Here you need to clone the git repo and create a soft directory symlink to where
 Run the following:
 
 ```bash
+cd c:\
 git clone https://github.com/dbcook/openrocket-database.git
 mklink /D %APPDATA%\OpenRocket\Components C:\openrocket-database\orc
 ```
