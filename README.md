@@ -30,7 +30,7 @@ System compatibility:  works anywhere OpenRocket can run
 0.9.1.17 - Jan 2022
 * Fixes
    * README - Windows installation instructions - make sure in C:\ before doing git clone
-   
+
 0.9.1.16 - Jan 2022
 * Fixes
    * README - minor clean up
@@ -78,7 +78,7 @@ System compatibility:  works anywhere OpenRocket can run
 Release notes from older versions can be seen [here](docs/release_notes_archive.md)
 
 
-## Installing
+## Installing and Uninstalling
 
 In all environments, I recommend you create a symlink to the cloned repo so that OpenRocket
 will find the components database there.  Doing it this way allows OpenRocket to
@@ -113,6 +113,21 @@ cd c:\
 git clone https://github.com/dbcook/openrocket-database.git
 mklink /D %APPDATA%\OpenRocket\Components C:\openrocket-database\orc
 ```
+
+### Uninstalling
+
+General procedure:
+1. Delete the symlink you created during the installation procedure.
+1. Delete the openrocket-database directory where you cloned the git repo.
+
+In all environments, if you have created the symlink ('ln -s' or 'mklink' depending on your system) you must
+remove it if you are:
+*  Uninstalling the parts database
+*  Moving the parts database files to a different directory (here you must re-create the symlink to point to the new location)
+*  Restoring "factory original" OpenRocket behavior
+
+Removing the symlink can be done with 'unlink' in Linux/Mac or 'rmdir' in Windows.  Not doing this may cause errors
+when OpenRocket tries to load parts files from a nonexistent directory.
 
 ## Removing the Built-in .orc Files from OpenRocket
 
