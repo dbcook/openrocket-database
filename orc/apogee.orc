@@ -41,7 +41,7 @@ by Dave Cook  NAR 21953  caveduck17@gmail.com 2021
 
         </BulkHead>
 
-        <!-- 14805 horizontal single egg protector for 2.6" BT-80 cardboard tubes, mass 23 gm -->
+        <!-- 14805 horizontal single egg protector for 2.6" BT-80 cardboard tubes, mass quoted 23 gm -->
         <BulkHead>
                 <Manufacturer>Apogee</Manufacturer>
                 <PartNumber>14805</PartNumber>
