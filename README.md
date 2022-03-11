@@ -27,6 +27,10 @@ System compatibility:  works anywhere OpenRocket can run
 
 ## Release Notes
 
+0.9.1.18 - Mar 2022
+* Updates
+   * estes_classic - add two user-reported tubes from Black Star Voyager
+   
 0.9.1.17 - Jan 2022
 * Fixes
    * README - Windows installation instructions - make sure in C:\ before doing git clone,

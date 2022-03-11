@@ -1065,6 +1065,16 @@ Known issues:
         <OutsideDiameter Unit="in">0.976</OutsideDiameter>
         <Length Unit="in">18.0</Length>
       </BodyTube>
+      <!-- BT-50 17.75 in long only known in Black Star Voyager -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>BT-50_17.75in, 30365</PartNumber>
+        <Description>Body tube, BT-50, 17.75 in., PN 30365</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">0.950</InsideDiameter>
+        <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+        <Length Unit="in">17.75</Length>
+      </BodyTube>
       <BodyTube>
         <Manufacturer>Estes</Manufacturer>
         <PartNumber>BT-50V, 30370</PartNumber>
@@ -2036,6 +2046,19 @@ Known issues:
         <InsideDiameter Unit="in">1.304</InsideDiameter>
         <OutsideDiameter Unit="in">1.346</OutsideDiameter>
         <Length Unit="in">3.75</Length>
+      </BodyTube>
+
+      <!-- BT-?? PN 31776 OD 1.44", ID 1.39" 5.7" long used in Black Star Voyager 
+           This size has no old style BT-xx series number
+      -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>31776</PartNumber>
+        <Description>Body tube, ---, 5.7 in., PN 31776</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.39</InsideDiameter>
+        <OutsideDiameter Unit="in">1.44</OutsideDiameter>
+        <Length Unit="in">5.7</Length>
       </BodyTube>
 
       <!-- BT-58 - used only in scale models -->
