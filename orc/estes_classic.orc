@@ -3312,6 +3312,44 @@ Known issues:
 
       <!-- Transitions (plastic) -->
 
+      <!-- Transition from BT-50 to 1.44" tube size (Black Star Voyater #7222)
+           User reported length 1.25", shoulder lengths and mass not reported because glued into a built model.
+           Adopting 0.75" shoulders based on drawing in BSV instructions and shoulder diams from known tube IDs with 0.003 clearance.
+           Mass based on styrene with .050 wall thickness: 25 gm
+      -->
+        <Transition>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>66633</PartNumber>
+            <Description>Transition, plastic, BT-50 to 1.44", increasing, PN 66633</Description>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
+            <Shape>CONICAL</Shape>
+            <Filled>false</Filled>
+            <ForeOutsideDiameter Unit="in">0.976</ForeOutsideDiameter>
+            <ForeShoulderDiameter Unit="in">0.947</ForeShoulderDiameter>
+            <ForeShoulderLength Unit="in">0.75</ForeShoulderLength>
+            <AftOutsideDiameter Unit="in">1.44</AftOutsideDiameter>
+            <AftShoulderDiameter Unit="in">1.387</AftShoulderDiameter>
+            <AftShoulderLength Unit="in">0.75</AftShoulderLength>
+            <Length Unit="in">1.25</Length>
+            <Thickness Unit="in">0.050</Thickness>
+        </Transition>
+        <Transition>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>66633 [R]</PartNumber>
+            <Description>Transition, plastic, BT-50 to 1.44", decreasing, PN 66633</Description>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
+            <Shape>CONICAL</Shape>
+            <Filled>false</Filled>
+            <AftOutsideDiameter Unit="in">0.976</AftOutsideDiameter>
+            <AftShoulderDiameter Unit="in">0.947</AftShoulderDiameter>
+            <AftShoulderLength Unit="in">0.75</AftShoulderLength>
+            <ForeOutsideDiameter Unit="in">1.44</ForeOutsideDiameter>
+            <ForeShoulderDiameter Unit="in">1.387</ForeShoulderDiameter>
+            <ForeShoulderLength Unit="in">0.75</ForeShoulderLength>
+            <Length Unit="in">1.25</Length>
+            <Thickness Unit="in">0.050</Thickness>
+        </Transition>
+
 
         <!-- Nose cones (balsa)
              This list is perhaps still not complete, but much better than the stock OpenRocket data file.
