@@ -4671,6 +4671,23 @@ Known issues:
             <Length Unit="in">5.375</Length>
             <Thickness Unit="in">0.0367</Thickness>
         </NoseCone>
+
+        <!-- PN 72773 blow molded ribbed 4:1 ogive from #7222 Black Star Voyager, User report 5.25" long, 0.75" shoulder, mass 12gm,
+             shoulder diam 1.283.  Base insert is pN 72774, included in the 12gm mass.
+             No legacy PN.
+         -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>72773</PartNumber>
+            <Description>Nose cone, plastic, PNC-55 series, PN 72773 + 72774 base, ribbed, Black Star Voyager</Description>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+            <ShoulderDiameter Unit="in">1.283</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.375</ShoulderLength>
+            <Length Unit="in">5.25</Length>
+            <Thickness Unit="in">0.0502</Thickness>
+        </NoseCone>
         
         <!--
             PNC-55AO ref 1982 Estes Catalog, #1335 Blue Bird Zero and others, quoted mass 0.43 oz = 12.2 gm
