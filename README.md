@@ -27,6 +27,10 @@ System compatibility:  works anywhere OpenRocket can run
 
 ## Release Notes
 
+0.9.1.19 - 21 Mar 2022
+* Updates
+   * Giant Leap - put OR 15.x legacy file back in to pick up the phenolic tubes.
+     Not reformatted yet.
 0.9.1.18 - Mar 2022
 * Updates
    * estes_classic - add two user-reported tubes, a transition, and a nose cone, all from Black Star Voyager
@@ -210,7 +214,7 @@ somewhat Mac centric because that's what I use most.
 | `Quest.orc`              | Yes  | 98% - everything known is done
 | `bms.orc`                | Yes  | -- Mostly Estes size compatible
 | `Fliskits.orc`           | Yes  | -- Won't do, few or no unique parts
-| `giantleaprocketry.orc`  | Yes  | -- Won't do, no useful data provided by mfr
+| `giantleaprocketry.orc`  | Yes  | TODO  There is now some data, phenolic tubes are unique
 | `publicmissiles.orc`     | Yes  | 75% - need to finish centering rings and glassed couplers
 | `apogee.orc`             | No   | New file added with TARC foam NCs and egg protectors only
 | `fsi.orc`                | No   | -- won't do for now, historical completeness only
