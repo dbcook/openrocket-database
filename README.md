@@ -27,10 +27,15 @@ System compatibility:  works anywhere OpenRocket can run
 
 ## Release Notes
 
+0.9.1.20 - 30 Mar 2022
+* Updates
+   * estes_classic - add PNC-50YR PN 72604 per info from Brohm and K'tesh
+
 0.9.1.19 - 21 Mar 2022
 * Updates
    * Giant Leap - put OR 15.x legacy file back in to pick up the phenolic tubes.
      Not reformatted yet.
+
 0.9.1.18 - Mar 2022
 * Updates
    * estes_classic - add two user-reported tubes, a transition, and a nose cone, all from Black Star Voyager

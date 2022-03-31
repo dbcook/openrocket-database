@@ -4443,6 +4443,8 @@ Known issues:
 
                PNC-50BB tailcone section (#1296 Satellite Interceptor)  ***get dimensions from built model***
 
+               PNC-50YR PN 072604 (#1382 Comanche-3 and others) - 4.0" ogive
+
                PNC-50F PN 071030 (#1371 Starship Nova)
 
                PN 72023 blow molded (#1942 SR-71)
@@ -4572,6 +4574,21 @@ Known issues:
             <ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
             <ShoulderLength Unit="in">0.375</ShoulderLength>
             <Length Unit="in">4.375</Length>
+            <Thickness Unit="in">0.062</Thickness>
+        </NoseCone>
+
+        <!-- PNC-50YR PN 072604 ref Brohm and a photo on TRF, 4.0" ogive, mass est. 4 gm, shoulder len est. 0.375 -->
+        <NoseCone>
+            <Manufacturer>Estes</Manufacturer>
+            <PartNumber>PNC-50YR, 72604</PartNumber>
+            <Description>Nose cone, plastic, PNC-50YR, PN 72604</Description>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
+            <Mass Unit="oz">0.15</Mass>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.375</ShoulderLength>
+            <Length Unit="in">4.0</Length>
             <Thickness Unit="in">0.062</Thickness>
         </NoseCone>
 
