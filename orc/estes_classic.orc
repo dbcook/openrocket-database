@@ -4577,7 +4577,7 @@ Known issues:
             <Thickness Unit="in">0.062</Thickness>
         </NoseCone>
 
-        <!-- PNC-50YR PN 072604 ref Brohm and a photo on TRF, 4.0" ogive, mass est. 4 gm, shoulder len est. 0.375 -->
+        <!-- PNC-50YR PN 072604 ref Brohm and a photo on TRF, 4.125" ogive, mass est. 4 gm, shoulder len est. 0.750 from old OR file -->
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
             <PartNumber>PNC-50YR, 72604</PartNumber>
@@ -4587,8 +4587,8 @@ Known issues:
             <Shape>OGIVE</Shape>
             <OutsideDiameter Unit="in">0.976</OutsideDiameter>
             <ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
-            <ShoulderLength Unit="in">0.375</ShoulderLength>
-            <Length Unit="in">4.0</Length>
+            <ShoulderLength Unit="in">0.750</ShoulderLength>
+            <Length Unit="in">4.125</Length>
             <Thickness Unit="in">0.062</Thickness>
         </NoseCone>
 

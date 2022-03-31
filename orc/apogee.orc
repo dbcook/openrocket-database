@@ -28,8 +28,8 @@ by Dave Cook  NAR 21953  caveduck17@gmail.com 2021
         <!-- TARC foam egg protectors -->
         <!-- Egg protectors are modeled as BulkHead, nominal foam density 3 oz/ft**3 -->
 
-        <!-- 14807 horizontal single egg protector for 3.0" LOC/Madcow cardboard tubes, mass 36.7 gm -->
-        <!-- SOURCE ERROR: Apogee 14807 egg protector length is shown as 2.5" but that looks very wrong, assuming 2.5" per half? -->
+        <!-- 14807 horizontal single egg protector for 3.0" LOC/Madcow cardboard tubes, specified mass 36.7 gm -->
+        <!-- SOURCE ERROR: (?) Apogee 14807 egg protector length is shown as 2.5" but that looks wrong vs the photo, assuming 2.5" per half? -->
         <BulkHead>
                 <Manufacturer>Apogee</Manufacturer>
                 <PartNumber>14807</PartNumber>
