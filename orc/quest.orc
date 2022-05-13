@@ -333,7 +333,7 @@ none known
             <Description>Body tube, plastic, 25mm, clear, 4.0"</Description>
             <Material Type="BULK">Mylar, bulk</Material>
             <InsideDiameter Unit="mm">24.0</InsideDiameter>
-            <OutsideDiameter Unit="m">25.0</OutsideDiameter>
+            <OutsideDiameter Unit="mm">25.0</OutsideDiameter>
             <Length Unit="in">4.0</Length>
         </BodyTube>
 
@@ -346,7 +346,7 @@ none known
             <Description>Body tube, plastic, 25mm, red tint, 4.0"</Description>
             <Material Type="BULK">Mylar, bulk</Material>
             <InsideDiameter Unit="mm">24.0</InsideDiameter>
-            <OutsideDiameter Unit="m">25.0</OutsideDiameter>
+            <OutsideDiameter Unit="mm">25.0</OutsideDiameter>
             <Length Unit="in">4.0</Length>
         </BodyTube>
 
@@ -514,7 +514,7 @@ none known
             <Description>Engine block, fiber, 29mm, 0.25" len, PN Q14103</Description>
             <Material Type="BULK">Fiber, bulk</Material>
             <InsideDiameter Unit="mm">22.9</InsideDiameter>
-            <OutsideDiameter Unit="m">28.9</OutsideDiameter>
+            <OutsideDiameter Unit="mm">28.9</OutsideDiameter>
             <Length Unit="in">0.25</Length>
         </EngineBlock>
 
@@ -769,7 +769,7 @@ none known
             <Mass Unit="g">14.2</Mass>
             <Shape>OGIVE</Shape>
             <OutsideDiameter Unit="mm">30.0</OutsideDiameter>
-            <ShoulderDiameter Unit="m">28.9</ShoulderDiameter>
+            <ShoulderDiameter Unit="mm">28.9</ShoulderDiameter>
             <ShoulderLength Unit="in">0.75</ShoulderLength>
             <Length Unit="in">3.25</Length>
             <Thickness Unit="mm">1.3</Thickness>

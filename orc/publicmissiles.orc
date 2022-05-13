@@ -539,7 +539,7 @@ Using this file:
             <Description>Tube coupler, phenolic, 1.5, 3.0"</Description>
             <Material Type="BULK">PML kraft phenolic</Material>
             <InsideDiameter Unit="in">1.40</InsideDiameter>
-            <OutsideDiameter Unit="m">1.525</OutsideDiameter>
+            <OutsideDiameter Unit="in">1.525</OutsideDiameter>
             <Length Unit="in">3.0</Length>
         </TubeCoupler>
         <TubeCoupler>
