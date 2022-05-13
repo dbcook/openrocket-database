@@ -4394,8 +4394,8 @@ Known issues:
             <Material Type="BULK">Polystyrene, cast, bulk</Material>
             <Mass Unit="oz">0.12</Mass>
             <Shape>OGIVE</Shape>
-            <OutsideDiameter Unit="m">0.736</OutsideDiameter>
-            <ShoulderDiameter Unit="m">0.710</ShoulderDiameter>
+            <OutsideDiameter Unit="in">0.736</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
             <ShoulderLength Unit="in">0.5</ShoulderLength>
             <Length Unit="in">2.65</Length>
             <Thickness Unit="in">0.062</Thickness>
