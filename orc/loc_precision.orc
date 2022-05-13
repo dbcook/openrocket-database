@@ -344,7 +344,7 @@ the former should be lighter because of the larger center hole. -->
             <Description>Body tube, paper, BT-5.38, 42.0"</Description>
             <Material Type="BULK">Paper, kraft glassine, LOC tube avg</Material>
             <InsideDiameter Unit="in">5.38</InsideDiameter>
-            <OutsideDiameter Unit="m">5.54</OutsideDiameter>
+            <OutsideDiameter Unit="in">5.54</OutsideDiameter>
             <Length Unit="in">42.0</Length>
         </BodyTube>
         <!-- BT-7.51 60" long mass is 1726.7 g / 60.44 oz per Apogee, .080 wall
@@ -423,7 +423,7 @@ the former should be lighter because of the larger center hole. -->
             <Description>Body tube, phenolic, FT-5.38, 42.0"</Description>
             <Material Type="BULK">Phenolic, kraft, bulk</Material>
             <InsideDiameter Unit="in">5.38</InsideDiameter>
-            <OutsideDiameter Unit="m">5.54</OutsideDiameter>
+            <OutsideDiameter Unit="in">5.54</OutsideDiameter>
             <Length Unit="in">42.0</Length>
         </BodyTube>
 
