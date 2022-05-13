@@ -27,6 +27,10 @@ System compatibility:  works anywhere OpenRocket can run
 
 ## Release Notes
 
+0.9.1.21 - 13 May 2022
+* Fixes
+    * Merged pull request #8 from questionablerocket with a handful of units errors fixed
+    
 0.9.1.20 - 30 Mar 2022
 * Updates
    * estes_classic - add PNC-50YR PN 72604 per info from Brohm and K'tesh
