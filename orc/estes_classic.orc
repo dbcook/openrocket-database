@@ -2517,10 +2517,31 @@ Known issues:
         <Length Unit="in">5.0</Length>
       </BodyTube>
 
+      <!-- BT-65 / PST-65 -->
+
+      <!-- BT-65 size paper tube
+          This tube is found in the #1718 Green Eggs kit and is the same size as the clear PST-65 size tube also
+          from the same kit.  TRF user ZoomieG reported (2022) diameter 1.796" and wall thickness 0.022", a nearly
+          exact match to the legacy PST-65 dimensions of ID 1.750 and OD 1.796"
+          The kit card just gives the diameter as 1.8".
+          Actual length and Numeric PN thus far unknown; I've created a generic 12" length as a placeholder.
+          The actual Green Eggs tube is slotted for 3 fins.
+      -->
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>046005</PartNumber>
+        <Description>Body Tube, BT-65, 12.0 in. approx, 3 slots, PN 046005</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.750</InsideDiameter>
+        <OutsideDiameter Unit="in">1.796</OutsideDiameter>
+        <Length Unit="in">12.0</Length>
+      </BodyTube>
+
       <!-- PST-65 clear payload tube 
            SOURCE ERROR: There are conflicts on PST-65 / BNC-65 dimensions.
            The 1974 CPC gives grossly incorrect OD 1.641  ID 1.595 (nearly the same as BT-60)
            The 1974 Estes print catalog gives   OD 1.796  ID 1.750
+           The PST-65 size tube used in #1718 Green Eggs has PN 30606, length not known.
       -->
       <BodyTube>
         <Manufacturer>Estes</Manufacturer>
