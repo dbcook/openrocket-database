@@ -10,18 +10,17 @@ OpenRocket jar file.
 Installing this package does not change how OpenRocket __works__ in any way.  It only changes what
 components are available for selection in the menus.
 
-The OpenRocket developers have expressed interest in incorporating this database into the
-app, replacing the outdated original parts database, but I don't know when that will happen
-as there has not been an OpenRocket release in several years.
+As of the 2022 OpenRocket beta releases, this database is now being installed along with
+OpenRocket and you don't have to do anything special to install it.
 
-I apologize in advance for the geeky way you need to install this.  It's not very
-complicated, but there's a bit of command line work.  You'll need to be able to use a `git`
+For the old OpenRocket 15.03, you have to do a slightly technical installation.
+It's not very complicated, but there's a bit of command line work.  You'll need to be able to use a `git`
 client to grab this repo, and create a soft symlink so that OpenRocket finds the database
 when it starts up.
 
 ## Compatibility
 
-OpenRocket compatibility:  tested with OpenRocket 15.03 __only__
+OpenRocket compatibility:  OpenRocket 15.03 and 2022 beta releases.
 
 System compatibility:  works anywhere OpenRocket can run
 
@@ -29,6 +28,7 @@ System compatibility:  works anywhere OpenRocket can run
 
 0.9.2.33 - 29 Jun 2022
 * Updates
+  * readme - installation is vastly simpler for new 2022 OpenRocket
   * estes_classic - added PN 046005, BT-65 size 12" 3-slot paper tube for Green Eggs
   * estes_classic - added PN 046008, BT-65 size 18" unslotted paper tube for Olympus
   * estes_classic - added numeric PNs to various items
@@ -104,12 +104,18 @@ Release notes from older versions can be seen [here](docs/release_notes_archive.
 
 ## Installing and Uninstalling
 
-In all environments, I recommend you create a symlink to the cloned repo so that OpenRocket
+### Installing with OpenRocket 2022 releases
+
+You don't have to do anything special.  This is the default database for the new OpenRocket.
+
+### Installing with OpenRocket 15.03 (last stable release from 2015)
+
+For all OS types, I recommend you create a symlink to the cloned repo so that OpenRocket
 will find the components database there.  Doing it this way allows OpenRocket to
 automatically find the updated files after you do a 'git pull' to grab the latest version
 from GitHub.  Otherwise you would have to copy updated files to where OpenRocket expects them.
 
-### Mac
+#### Mac
 
 ```bash
 git clone https://github.com/dbcook/openrocket-database.git
@@ -117,14 +123,14 @@ cd ~/Library/Application\ Support/OpenRocket
 ln -s ~/openrocket-database/orc Components
 ```
 
-### Linux
+#### Linux
 ```bash
 git clone https://github.com/dbcook/openrocket-database.git
 cd ~/.openrocket
 ln -s ~/openrocket-database/orc Components
 ```
 
-### Windows
+#### Windows
 
 Here you need to clone the git repo and create a soft directory symlink to where you cloned it.
 
@@ -138,7 +144,7 @@ git clone https://github.com/dbcook/openrocket-database.git
 mklink /D %APPDATA%\OpenRocket\Components C:\openrocket-database\orc
 ```
 
-### Uninstalling
+### Uninstalling with OpenRocket 15.03
 
 General procedure:
 1. Delete the symlink you created during the installation procedure.
@@ -152,27 +158,6 @@ remove it if you are:
 
 Removing the symlink can be done with 'unlink' in Linux/Mac or 'rmdir' in Windows.  Not doing this may cause errors
 when OpenRocket tries to load parts files from a nonexistent directory.
-
-## Removing the Built-in .orc Files from OpenRocket
-
-With the orignal jar file installation of OR 15.03, it was possible to remove the stock built-in .orc
-files from the OpenRocket jar file.  This is a slightly technical operation and requires
-that you have the 'zip' tool or equivalent.
-
-However, as of late 2021, you _must_ use the prepackaged OpenRocket installers due to the
-very outdated Java JRE version needed by OpenRocket. Removing the old parts database
-is not currently feasible unless you are building OR from source.
-The OR developers intend to replace the old parts database with this one
-when they make a new release, so eventually the need for this will disappear.
-I have no idea when that will actually happen.
-
-For the record, here are the commands that formerly could be used to remove the stock parts database
-from the original OpenRocket 15.03 jar file:
-```bash
-cd location-of-openrocket-jar
-cp OpenRocket-15.03.jar OpenRocket-15.03-nopresets.jar
-zip -d OpenRocket-15.03-nopresets.jar datafiles/presets/system.ser
-```
 
 ## Reporting Problems
 
