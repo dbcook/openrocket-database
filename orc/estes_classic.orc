@@ -2519,18 +2519,30 @@ Known issues:
 
       <!-- BT-65 / PST-65 -->
 
-      <!-- BT-65 size paper tube
-          This tube is found in the #1718 Green Eggs kit and is the same size as the clear PST-65 size tube also
+      <!-- BT-65 size paper tubes
+          The 12" BT-65 tube is found in the #1718 Green Eggs kit and is the same size as the clear PST-65 size tube also
           from the same kit.  TRF user ZoomieG reported (2022) diameter 1.796" and wall thickness 0.022", a nearly
           exact match to the legacy PST-65 dimensions of ID 1.750 and OD 1.796"
-          The kit card just gives the diameter as 1.8".
-          Actual length and Numeric PN thus far unknown; I've created a generic 12" length as a placeholder.
-          The actual Green Eggs tube is slotted for 3 fins.
+          The kit card just gives the diameter as 1.8".  Other TRF users reported the length of 046005 as 12".
+          The #7293 Olympus has a full 18" BT-65 PN 046008, which is incorrectly shown with 3 slots in the kit instructions;
+          the tube in the actual kit is unslotted and the fins are not tabbed.
+          The Green Eggs tube is in fact slotted for 3 fins.
       -->
+
+      <BodyTube>
+        <Manufacturer>Estes</Manufacturer>
+        <PartNumber>046008</PartNumber>
+        <Description>Body Tube, BT-65, 18.0 in., PN 046008</Description>
+        <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
+        <InsideDiameter Unit="in">1.750</InsideDiameter>
+        <OutsideDiameter Unit="in">1.796</OutsideDiameter>
+        <Length Unit="in">18.0</Length>
+      </BodyTube>
+
       <BodyTube>
         <Manufacturer>Estes</Manufacturer>
         <PartNumber>046005</PartNumber>
-        <Description>Body Tube, BT-65, 12.0 in. approx, 3 slots, PN 046005</Description>
+        <Description>Body Tube, BT-65, 12.0 in., 3 slots, PN 046005</Description>
         <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
         <InsideDiameter Unit="in">1.750</InsideDiameter>
         <OutsideDiameter Unit="in">1.796</OutsideDiameter>
@@ -2538,10 +2550,10 @@ Known issues:
       </BodyTube>
 
       <!-- PST-65 clear payload tube 
-           There are conflicts on PST-65 / BNC-65 dimensions, easily resolved.
+           There are conflicts on the Estes official PST-65 / BNC-65 dimensions, easily resolved.
            The 1974 CPC gives grossly incorrect OD 1.641  ID 1.595 (nearly the same as BT-60)
            The 1974 Estes print catalog gives   OD 1.796  ID 1.750
-           The PST-65 size tube used in #1718 Green Eggs has PN 30606, length not known.
+           The PST-65 size clear tube used in #1718 Green Eggs and #7293 Olympus has PN 30606, length not known.
       -->
       <BodyTube>
         <Manufacturer>Estes</Manufacturer>
@@ -5064,11 +5076,11 @@ Known issues:
             <Thickness Unit="in">0.125</Thickness>
         </NoseCone>
         
-        <!-- PNC-60NA is for D-Region Tomahawk, etc. Data from RocketReviews -->
+        <!-- PNC-60NA is for D-Region Tomahawk, Scrambler 2, etc. Data from RocketReviews -->
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
-            <PartNumber>PNC-60NA</PartNumber>
-            <Description>Nose cone, plastic, PNC-60NA</Description>
+            <PartNumber>PNC-60NA, 72057</PartNumber>
+            <Description>Nose cone, plastic, PNC-60NA, PN 72057</Description>
             <Material Type="BULK">Polystyrene, cast, bulk</Material>
             <Mass Unit="oz">0.60</Mass>
             <Shape>OGIVE</Shape>
@@ -5095,6 +5107,10 @@ Known issues:
             <Thickness Unit="in">0.125</Thickness>
             <Mass Unit="oz">1.0</Mass>
         </NoseCone>
+
+        <!--  PNC-65 sized plastic cones known to exist
+                PN 030110 used in #7293 Olympus and #1718 Green Eggs.  Parabolic/ellipsoid, ~3:1
+        -->
 
 
         <!--
@@ -5303,6 +5319,10 @@ Known issues:
         </Parachute>
 
         <!-- Launch lugs -->
+
+        <!-- Launch lugs with missing data
+                LL-12 PN 38166, used in #1908 Scrambler 2, #7293 Olympus.  It's a rather short lug; apparently 3/16".
+        -->
         
         <!-- OD of 1/8 lugs measured at 0.173.  ID specified as 5/32 -->
         <LaunchLug>
@@ -5392,8 +5412,8 @@ Known issues:
         <!-- AR-2050, 1974 parts catalog weight 0.143 oz -->
         <CenteringRing>
           <Manufacturer>Estes</Manufacturer>
-          <PartNumber>AR-2050, 3101</PartNumber>
-          <Description>Centering ring, fiber, thick, BT-20 to BT-50, PN 3101</Description>
+          <PartNumber>AR-2050, 3101, 30164</PartNumber>
+          <Description>Centering ring, fiber, thick, BT-20 to BT-50, PN 3101/30164</Description>
           <Material Type="BULK">Fiber, bulk</Material>
           <InsideDiameter Unit="in">0.738</InsideDiameter>
           <OutsideDiameter Unit="in">0.948</OutsideDiameter>
@@ -5403,8 +5423,8 @@ Known issues:
         <!-- AR-5055, 1974 parts catalog weight 0.62 oz (seems anomalous)-->
         <CenteringRing>
           <Manufacturer>Estes</Manufacturer>
-          <PartNumber>AR-5055, 3103</PartNumber>
-          <Description>Centering ring, fiber, thick, BT-50 to BT-55, PN 3103</Description>
+          <PartNumber>AR-5055, 3103, 30166</PartNumber>
+          <Description>Centering ring, fiber, thick, BT-50 to BT-55, PN 3103/30166</Description>
           <Material Type="BULK">Fiber, bulk</Material>
           <InsideDiameter Unit="in">0.978</InsideDiameter>
           <OutsideDiameter Unit="in">1.281</OutsideDiameter>
