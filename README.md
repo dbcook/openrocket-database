@@ -26,9 +26,12 @@ System compatibility:  works anywhere OpenRocket can run
 
 ## Release Notes
 
-0.9.2.33 - 29 Jun 2022
+0.9.3.0 - 1 Jul 2022
 * Updates
   * giant leap - redid and upgraded the whole file with all available data
+
+0.9.2.33 - 29 Jun 2022
+* Updates
   * readme - installation is vastly simpler for new 2022 OpenRocket
   * estes_classic - added PN 046005, BT-65 size 12" 3-slot paper tube for Green Eggs
   * estes_classic - added PN 046008, BT-65 size 18" unslotted paper tube for Olympus
