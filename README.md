@@ -29,6 +29,8 @@ System compatibility:  works anywhere OpenRocket can run
 0.9.3.0 - 1 Jul 2022
 * Updates
   * giant leap - redid and upgraded the whole file with all available data
+* Fixes
+  * publicmissiles - fix a units error
 
 0.9.2.33 - 29 Jun 2022
 * Updates

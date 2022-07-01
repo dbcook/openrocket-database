@@ -141,7 +141,7 @@ Using this file:
              PML standard tube designators with inside and outside diameters
              The ID's are identical for all tube types; OD varies by material
 
-                Designator  ID          OD phenolic   OD Quantum   OD preglassed
+                Designator  ID          OD phenolic   OD Quantum   OD preglassed0
                 1.1         1.145       1.269
                 1.5         1.525       1.649
                 2.1         2.152       2.276         2.278        2.352
@@ -558,7 +558,7 @@ Using this file:
             <Material Type="BULK">PML kraft phenolic</Material>
             <InsideDiameter Unit="in">2.437</InsideDiameter>
             <OutsideDiameter Unit="in">2.560</OutsideDiameter>
-            <Length Unit="m">0.127</Length>
+            <Length Unit="in">5.0</Length>
         </TubeCoupler>
         <TubeCoupler>
             <Manufacturer>Public Missiles</Manufacturer>
@@ -576,7 +576,7 @@ Using this file:
             <Material Type="BULK">PML kraft phenolic</Material>
             <InsideDiameter Unit="in">3.776</InsideDiameter>
             <OutsideDiameter Unit="in">3.900</OutsideDiameter>
-            <Length Unit="m">0.1778</Length>
+            <Length Unit="in">7.0</Length>
         </TubeCoupler>
         <TubeCoupler>
             <Manufacturer>Public Missiles</Manufacturer>
@@ -984,7 +984,7 @@ Using this file:
             <ForeOutsideDiameter Unit="in">2.684</ForeOutsideDiameter>
             <ForeShoulderDiameter Unit="in">2.560</ForeShoulderDiameter>
             <ForeShoulderLength Unit="in">0.25</ForeShoulderLength>
-            <AftOutsideDiameter Unit="m">0.0418846</AftOutsideDiameter>
+            <AftOutsideDiameter Unit="in">1.649</AftOutsideDiameter>
             <AftShoulderDiameter Unit="in">0.0</AftShoulderDiameter>
             <AftShoulderLength Unit="in">0.0</AftShoulderLength>
             <Length Unit="in">1.75</Length>
@@ -1628,7 +1628,7 @@ Using this file:
             <Diameter Unit="in">36.0</Diameter>
             <Sides>8</Sides>
             <LineCount>8</LineCount>
-            <LineLength Unit="m">0.6858</LineLength>
+            <LineLength Unit="in">36.0</LineLength>
             <LineMaterial Type="LINE">Nylon Paracord, 110 lb, 1/16 in. dia.</LineMaterial>
         </Parachute>
         <Parachute>
@@ -1771,7 +1771,7 @@ Using this file:
             <Description>Launch lug, brass, 3/8" dia., 12.0" long</Description>
             <Material Type="BULK">Brass</Material>
             <InsideDiameter Unit="in">0.409</InsideDiameter>
-            <OutsideDiameter Unit="m">0.437</OutsideDiameter>
+            <OutsideDiameter Unit="in">0.437</OutsideDiameter>
             <Length Unit="in">12.0</Length>
         </LaunchLug>
         <!-- 1/2" rod - 17/32 tube has ID .507 and OD .531, marginal but maybe OK -->
