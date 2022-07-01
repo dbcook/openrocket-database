@@ -293,6 +293,19 @@ attributes.  This seems to have no effect; looks like everything is actually kg/
 
       <!-- BULK plywoods -->
 
+      <!-- some useful information on plywood density is here: https://www.plywood.cc/plywood-density/ 
+            The "birch plywood" values below are for full birch ply, which can range from 680-760 kg/m3
+            birch faced poplar is considerably less at 580-620.
+            Densities of plywood are quite variable due natural variances in the wood and varying compression in the production process.
+      -->
+
+        <!-- "Light ply" plywood types, usually poplar based -->
+
+        <Material UnitsOfMeasure="g/cm3">
+            <Name>Plywood, light, bulk</Name>
+            <Density>352.4</Density>
+            <Type>BULK</Type>
+        </Material>
         <Material UnitsOfMeasure="g/cm3">
             <Name>Plywood, aircraft, 1/16 in. bulk</Name>
             <Density>361.3</Density>
@@ -313,21 +326,54 @@ attributes.  This seems to have no effect; looks like everything is actually kg/
             <Density>344.3</Density>
             <Type>BULK</Type>
         </Material>
-        <!-- Note large disagreement with previous value for 1/8 aircraft ply -->
+
+        <!-- Full birch plywood types -->
+
+        <!-- Baltic birch and Russian birch are synonymous; they are full all-birch plywood.
+          Sold in 3mm thickness increments in 1525 x 1525 mm square sheets.
+          Nominal density of Baltic birch ply according to plywood.cc is 680 kg/m^3 -->
         <Material UnitsOfMeasure="g/cm3">
-            <Name>Plywood, aircraft, 1/8 in. bulk (HI DENSITY)</Name>
-            <Density>672.8</Density>
+            <Name>Plywood, Baltic birch, bulk</Name>
+            <Density>680.0</Density>
             <Type>BULK</Type>
         </Material>
+
+        <!-- "Real" aircraft Baltic birch plywood as sold by Aircraft Spruce
+            AS quotes the weight of their 1/4" 12-ply Finnish made aircraft ply as 0.92 lb/ft^2, which converts to 707 kg/m^3
+            They also quote the weight of a 2' x 4' x 1/64 3-ply sheet as 0.60 lb, which converts to 924 kg/m^3
+            I don't fully trust the accuracy for the thinner sheets since these numbers were just given in the Q&A section
+            where they may have just divided down the number for the 1/4 sheet to low precision. There is
+            no table of weights in the catalog like they have for the domestic plywood.
+        -->
+        <Material UnitsOfMeasure="g/cm3">
+            <Name>Plywood, Baltic birch, Aircraft Spruce Finnish type, bulk</Name>
+            <Density>707.0</Density>
+            <Type>BULK</Type>
+        </Material>
+
+        <!-- variants on all-birch density -->
+        <!-- Revell branded model plywood is no longer sold - SIG seems to own the model plywood space now.
+             SIG states on their website (2022) that the lite-ply is about half the weight of their
+             regular aircraft plywood. SIG products of interest are:
+                 SIG 1/4" 5-ply
+                 SIG 1/4" lite-ply
+                 SIG 3/16" 4-ply
+                 SIG 5/32" 3-ply
+                 SIG 1/8" 5-ply
+                 SIG 1/8" lite-ply
+                 SIG 3/32" 5-ply
+                 SIG 1/16" 3-ply
+                 SIG 1/32" 3-ply
+                 SIG 1/64" 3-ply
+         -->
         <Material UnitsOfMeasure="g/cm3">
             <Name>Plywood, birch, Revell 1/8 in. bulk</Name>
             <Density>640.74</Density>
             <Type>BULK</Type>
         </Material>
-        <!-- ***NOTE discrepancy with previous value for Revell 1/8in bulk *** -->
         <Material UnitsOfMeasure="g/cm3">
             <Name>Plywood, birch, Revell generic, bulk</Name>
-            <Density>656.757</Density>
+            <Density>656.8</Density>
             <Type>BULK</Type>
         </Material>
         <Material UnitsOfMeasure="g/cm3">
@@ -335,16 +381,7 @@ attributes.  This seems to have no effect; looks like everything is actually kg/
             <Density>725.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
-            <Name>Plywood, light, bulk</Name>
-            <Density>352.4</Density>
-            <Type>BULK</Type>
-        </Material>
-        <Material UnitsOfMeasure="g/cm3">
-            <Name>Plywood, Russian, 1/8 in, bulk</Name>
-            <Density>685.1</Density>
-            <Type>BULK</Type>
-        </Material>
+
 
       <!-- BULK metals -->
         <!-- ***See if this is correct value for 6061*** -->
