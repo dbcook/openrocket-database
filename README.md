@@ -4,14 +4,14 @@ This project is aimed at sport rocketry people who use OpenRocket for design and
 
 This is an enhanced parts database for [OpenRocket](http://openrocket.sourceforge.net/),
 providing a massive number of additional rocket parts (nose cones, body tubes,
-transitions, etc.) and corrections to the built-in parts database contained in the
+transitions, etc.) and corrections to the built-in parts database formerly contained in the
 OpenRocket jar file.
 
 Installing this package does not change how OpenRocket __works__ in any way.  It only changes what
 components are available for selection in the menus.
 
-As of the 2022 OpenRocket beta releases, this database is now being installed along with
-OpenRocket and you don't have to do anything special to install it.
+As of the 2022 OpenRocket beta releases the old built-in database has been removed, and *this* database is
+now being installed along with OpenRocket.  Now you don't have to do anything special to install it.
 
 For the old OpenRocket 15.03, you have to do a slightly technical installation.
 It's not very complicated, but there's a bit of command line work.  You'll need to be able to use a `git`
@@ -28,6 +28,7 @@ System compatibility:  works anywhere OpenRocket can run
 
 0.9.2.33 - 29 Jun 2022
 * Updates
+  * giant leap - redid and upgraded the whole file with all available data
   * readme - installation is vastly simpler for new 2022 OpenRocket
   * estes_classic - added PN 046005, BT-65 size 12" 3-slot paper tube for Green Eggs
   * estes_classic - added PN 046008, BT-65 size 18" unslotted paper tube for Olympus
@@ -184,7 +185,12 @@ Please don't report problems on TRF, via email, etc. - use GitHub issues; others
 * New manufacturer files added: Top Flight, Madcow, MPC, generic chutes/streamers
 
 ## State of the Project
-As of early 2021, after 5+ years of development, I feel this project is mostly complete and the effort is at the point
+
+
+
+2022: now making minor updates only
+
+2021: after 5+ years of development, I feel this project is mostly complete and the effort is at the point
 of diminishing returns.  All of the major, historic
 rocketry vendors that provided usable information have been covered in considerable detail.
 This encompasses Estes, Quest, MPC, and Semroc (which includes most Centuri parts) on the low power
@@ -212,11 +218,11 @@ somewhat Mac centric because that's what I use most.
 | `semroc.orc`             | Yes  | 99% - believed complete, some cleanup continues
 | `bluetube.orc`           | Yes  | 100% - tubes and couplers are done, still needs CRs and NCs
 | `Quest.orc`              | Yes  | 98% - everything known is done
-| `bms.orc`                | Yes  | -- Mostly Estes size compatible
+| `bms.orc`                | Yes  | -- won't do for now, mostly Estes size compatible
 | `Fliskits.orc`           | Yes  | -- Won't do, few or no unique parts
-| `giantleaprocketry.orc`  | Yes  | TODO  There is now some data, phenolic tubes are unique
+| `giantleaprocketry.orc`  | Yes  | 95% - totally new file created, many old errors fixed
 | `publicmissiles.orc`     | Yes  | 75% - need to finish centering rings and glassed couplers
-| `apogee.orc`             | No   | New file added with TARC foam NCs and egg protectors only
+| `apogee.orc`             | No   | 75% - New file added with TARC foam NCs and egg protectors
 | `fsi.orc`                | No   | -- won't do for now, historical completeness only
 | `cmr.orc`                | No   | -- won't do for now, historical completeness only
 | `mpc.orc`                | No   | 98% - all known data included
@@ -341,20 +347,21 @@ contract manufacturing works now guarantees that individual part details will no
 be publicly available unless the manufacturer goes to extra expense to provide it.
 
 As Estes shifted production to China, in addition to the issues created by
-contract manufacturing, several more things happened that affected our ability
+contract manufacturing, several more things happened that affected the ability
 to get Estes parts info:
 
 * Even for parts that are listed separately on the Estes website, little or no
   dimension or weight data is usually given anymore.
 * The number of obvious errors in Estes catalogs increased substantially after
   about year 2000.
-* Estes did not produce a catalog for 2017. Catalog production resumed in
-  2018 but with little parts information.
+
+Estes did not produce a catalog for 2017. Catalog production resumed in 2018 but
+with little parts information.
 
 Thus we have better parts data on legacy (1960s through the late 1980s)
 parts than for newer ones.  At this writing, the only way to index the parts used in
-kits is by obtaining and measuring actual samples, which I think is not going to
-happen broadly. In the future we'll likely have almost no parts data
+newer kits is by obtaining and measuring actual samples, which I think is not going to
+happen broadly. In the future we'll likely have almost no new parts data
 until 3D scanning and shape-matching become convenient.
 
 ##### Part Numbers
@@ -363,8 +370,9 @@ The Estes part numbering scheme is as convoluted as you might expect for a compa
 started as a small operation in the early 1960s.  The first part numbering system was very
 mnemonic, e.g. "BT-20J" was a body tube.  In the 1970s Estes introduced pure numeric
 ("non-significant") PNs, first of 4 digits and later 5-6 digits.  Many parts from the transition
-period had both the original and numeric PNs.  The traditional part numbers gradually
-disappeared from catalogs and instructions, all but vanishing by 2010.
+period had multiple PNs including the original and and one or both flavors of numeric PNs.
+The traditional part numbers gradually disappeared from catalogs and kit
+instructions, all but vanishing by 2010.
 
 A much more detailed explanation of Estes part identifiers may be found [here](docs/estes_sizes_and_part_numbers.md)
 
@@ -402,7 +410,7 @@ November 2016 to Dave Barber and Jason Turicik of Plymouth, WI. (source: LOC web
 
 Dimensional data from LOC Precision is notoriously incomplete and error-filled, but I've
 been able to resolve most of it using Apogee's tabulated data and some measurements of actual parts.
-As of late 2018, the website parts listings have had some minor improvements in dimensional data.
+In the Barber/Turicik era the website data has been improving.
 
 #### SEMROC
 
@@ -559,7 +567,7 @@ Tubes and nose cones that may have been added when the Miniroc line was introduc
 separately cataloged anywhere.  A couple have been identified (3 cal ellipsoid and 5 cal ogive
 T-15 nose cones) by pulling information from kit descriptions and instructions.
 
-The MRI/MPC metric tube sizing system has persisted to the present (2019) due to its adoption by
+The MRI/MPC metric tube sizing system has persisted to the present (2022) due to its adoption by
 Quest, which not coincidentally was founded by Bill Stine, son of MPC designer G. Harry Stine.
 I have confirmed that the modern day Quest tubes have identical
 dimensions to the original MRI/MPC tubes, with a uniform 0.5mm (.020") wall thickness.  Quest gives
@@ -590,7 +598,7 @@ located and bought up residsual assets of FSI in an effort to restart production
 #### Madcow Rocketry
 
 Madcow Rocketry, owned by Mike Stoop, is a mid to high power vendor operating in the
-Los Angeles area for the past several years (as of 2018).  Madcow acquired the Rocketry
+Los Angeles area for the past several years (as of 2022).  Madcow acquired the Rocketry
 Warehouse fiberglass kit line in 2016, but not the fiberglass tube/nose cone manufacturing
 operation.  The tubes and nose cones sold by Madcow were and continue to be made by the
 former owner of Rocketry Warehouse, Curtis Taylor.
@@ -680,7 +688,7 @@ In about 2015 the decaying FSI and AVI motor making equipment and some remaining
 were located and acquired by Dave Bucher and David Lucas, who announced a relaunch of the company. 
 At NARAM-58 they sold a small number of some FSI branded kits made from NOS parts with substitutions 
 to enable use of 24mm motors. However, their website never went live for orders, and the passing
-of Dave Bucher in 2017 was a setback to the reboot attempt.  The 2017 website is gone, but
+of Dave Bucher in 2017 effectively halted the reboot attempt.  The 2017 website is gone, but
 Facebook posts resurfaced in 2018 with two new people identifying themselves only as 
 "B.G." and "R.M." apparently joining Dave Lucas.  The Facebook posts made it
 clear they planned only on bringing out a few new kits.
@@ -712,8 +720,7 @@ It has good dimensions and weights for the competition parts.
 
 At some time a number of years ago (check date), Apogee Components was sold to Tim van Milligan
 of Colorado, who turned it into a general retail outlet for various rocket companies including
-Estes, Quest, LOC, and others. It is still officially named Apogee Components
-as of early 2019.
+Estes, Quest, LOC, and others. It is still officially named Apogee Components.
 
 Apogee now mostly sells parts OEM'd from other vendors.  Their website is notable for having a
 lot of tabular dimension and mass data that seems to have been obtained from actual measurement
@@ -740,37 +747,43 @@ used for the Punisher 3 and 4.
 For most Wildman fiberglass tube sizes (1.6, 2.2, 2.6, 3.0, 4.0, 5.5, 6.0 inches), you can
 find reasonable equivalents in the Madcow file.
 
-#### Giant Leap Rocketry
+#### Giant Leap Rocketry (GLR)
 
 (History from various sources including Giant Leap Rocketry Inc. Facebook page, Aerotech news archives, etc.)
 
 Giant Leap Rocketry was originally founded on June 1, 1997 in Baton Rouge, LA.
 As of 2002 (rmrfaq archive) their address was 6061 Hibiscus Drive, Baton Rouge, LA 70808, and
 the company was selling phenolic tubing and fiberglass nose cones.  The owners were Ed Shihadeh 
-of Baton Rouge and Kent (last name needed).
+of Baton Rouge and Kent (last name unknown).
 
-In 2005, Giant Leap was selling Aerotech motors; but as of 2018 they are no longer selling motors.
+In 2005, Giant Leap was selling Aerotech motors; but as of 2018 they were no longer selling motors.
 
 Giant Leap Rocketry was sold in October 2016 to Dix Densley of Hillsboro, OR and Bob Martell of
 Portland, OR.  Operations have been moved to Hillsboro, OR. 
-I haven't found any information about any other ownership changes between 2005 and 2016.  The current
-status of the company is unclear as there have been no Facebook posts since August 2017, and no other
-recent activity or even discussion of Giant Leap.
+I haven't found any information about any other ownership changes between 2005 and 2016.  Dix and Bob
+totally overhauled the website in 2021 and announced they had acquired all the products of
+Acme Rocketry.
 
 There doesn't seem to have been any systematic production of print catalogs.  The company had
-minimal presence on Facebook between their account starting in 2012, and fall 2016 right before
+minimal presence on Facebook between their account starting in 2012 and fall 2016 right before
 the company was sold. There are no Giant Leap catalogs on Ninfinger.org, and Google searches come
 up empty.
 
-Giant Leap offers some dimensional data on their current (2018) website.  They offer three types
-of tubes: K-frame (Kevlar/fiberglass hybrid), Magnaframe (hybrid phenolic/vulcanized fiber),
-and phenolic. Wall thickness is only given for the phenolic tubes, and weights are not given for
-much of anything. I heard verbally at a 2018 event that all tubes except the phenolic have been
-discontinued.  However, as of Jan 2021 this does not seem to be the case, as all sizes
-of Magna-frame are now shown as in-stock again.
+GLR offers four different types of tubes:
+* Phenolic
+* Fiberglass (new in the Dix & Bob era)
+* Magnaframe (hybrid vulcanized fiber and phenolic)
+* K-frame (hybrid Kevlar and fiberglass) - only available in 6" diameter (2022)
 
-There is now a file on the Giant Leap website with RockSim data for some (unknown) subset of
-Giant Leap parts.  I have yet to digest this.
+Giant Leap offers very limited dimensional data on their current website.  Tubing is only identified
+by outside diameter, and weights are not given.
+
+There is a file on the Giant Leap website with RockSim data for most classes of
+Giant Leap parts.  A preliminary look at the files in the zip shows useful dimensions, but
+not much mass information and a number of obvious errors.  There are some inconsistencies as well;
+e.g. all tube families are shown as having "Kraft phenolic" material.  This file may be very old,
+evidenced by the absence of the fiberglass tube line, the presence of the now-vanished
+Dynawind+Magnaframe tubes, and significant changes to the nose cone and centering ring product lines.
 
 ### Missing Manufacturers
 
@@ -779,15 +792,16 @@ power vendors - that are not represented in the stock OpenRocket.  Some of these
 this database.
 
 * Centuri (many cloneable kits with parts different than Estes).  The Semroc parts file contains
-  main closely compatible parts including all nose cones and tube sizes.
-* Apogee Components / van Milligan. They mostly sell other vendors' parts, but they do source
+  many closely compatible parts including all nose cones and tube sizes.
+* Apogee Components / Tim van Milligan. They mostly sell other vendors' parts, but they do source
   some unique ones, e.g. foam egg protectors for TARC.
 * Apogee Components / Ed LaCroix.  The original Apogee made competition parts that the later
   Apogee under Tim van Milligan did not carry forward.  
 * CMR (long defunct but had unique tube sizes)
 * FSI (long defunct but had unique tube sizes)
 * ModelRockets.us (Discount Rocketry), offers tubes with heavier wall than Estes, and various
-  plastic nose cones.
+  plastic nose cones.  Notable for being one of the smaller vendors with actual manufacturing
+  capability.
 * Very small manufacturers including Kopter, Pine Cap Assoc., US Rockets, ASP, etc.
 * Canaroc
 * High power kit and parts vendors
@@ -942,7 +956,7 @@ The .ork rocket definition files are always binary and there is no very easy way
 
 There is no .xsd XML schema definition file to go with the .orc files, though there probably should be.
 
-### Built-in Component Databases
+### Built-in Component Databases (in OpenRocket 15.03)
 
 The OpenRocket builtin databases are embedded in the main OpenRocket jar as a serialized binary file
 in `datafiles/presets/system.ser` inside the jar.
@@ -950,11 +964,13 @@ in `datafiles/presets/system.ser` inside the jar.
 There is nothing in the manifest `META-INF/MANIFEST.MF` that refers to this file, so
 updating or removing it does not require altering the manifest.
 
-### State of the Built-In Databases
+### State of the Built-In Databases (in OpenRocket 15.03)
 
 In the OpenRocket source tree, the .orc files are extremely stale and no one has worked on them
 recently.  The most recent change to the Estes file was in April 2014, and the rest have
 not changed since 2013 or before.
+
+The new 2022 OpenRocket betas have adopted *this* database.
 
 ### OpenRocket Data File Search Path
 
@@ -966,7 +982,7 @@ items of that type.
 The general search order for database files is:
 
 * Items existing in the active document (we still need details on this from a code dive)
-* Files included in the OpenRocket jar under `datafiles/presets/system.ser`
+* Files included in the OpenRocket jar under `datafiles/presets/system.ser` (no longer true in 2022 betas)
 * External .orc files in platform-dependent locations, as described below
 
 #### Windows External File Locations
@@ -1136,7 +1152,7 @@ structural.
    * Cannot set drag coefficient or Cd automatic mode, though UI has them
    * You can set thickness in .orc streamer components but it does not appear in the UI
      and may have no effect
-   * Cannot specify a minimum packing length (usually the stream width + margin)
+   * Cannot specify a minimum packing length (usually the streamer width + margin)
 * Fins:
    * Cannot define finset or tubefin components at all
 * Mass components:
@@ -1145,13 +1161,13 @@ structural.
    * Cannot define shock cord components at all
 * Additional problems not specific to .orc files:
    * OR does not model moments of inertia for hollow NC/transition shoulders
-   * OpenRocket only supports tubular launch lugs - no support for rail buttons or guides
-   * No support for lug standoffs
+   * OpenRocket only supports tubular launch lugs - no support for rail buttons or guides (maybe fixed in 2022 betas)
+   * No support for lug standoffs (maybe fixed in 2022 betas)
    * Cannot attach a mass object to a parachute (e.g. Chute Release device)
    * Cannot attach a mass object to a streamer
    * Cannot attach finsets to nose cones and transitions (thus cannot model Estes Sprint XL),
-     couplers, inner tubes
-   * Cannot define bulkheads with holes in them
+     couplers, inner tubes (fixed in 2022 betas)
+   * Cannot define bulkheads with offcenter holes in them
    * Cannot define centering rings with multiple holes for cluster motor mounts
    * No support for streamer attachment lines
    * No support for parachutes with spill holes
@@ -1230,6 +1246,8 @@ designators, numeric part numbers, and PNs of the kits.
 
 [Semroc legacy site nose cone listing](http://www.semroc.com/Store/Products/NoseCones.asp)
 
+__this resource is now dead__
+
 Shows all the nose cones Semroc and its owner Carl McLawhorn knew of, with dimensions.
 Annoyingly fails to list shoulder lengths, but provides correct dimensions for many parts for
 which Estes data is erroneous or not otherwise available.  You must use this in conjunction with
@@ -1237,6 +1255,8 @@ the Semroc nose cone compatibility list since the overall nose cone listing show
 representing parts that were never issued by Estes as balsa nose cones.
 
 [Semroc legacy site nose cone compatibility list page](http://www.semroc.com/store/Scripts/xref.asp?company=Classic)
+
+__this resource is now dead__
 
 Shows which Estes BNC and PNC series nose cones were made by Semroc, and shows the Semroc BNC
 equivalents for the Estes plastic PNC nose cones.  Very helpful for determining which parts were
