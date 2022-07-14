@@ -407,7 +407,7 @@
             <Material Type="BULK">Kraft phenolic</Material>
             <InsideDiameter Unit="mm">76.2</InsideDiameter>
             <OutsideDiameter Unit="mm">80.01</OutsideDiameter>
-            <Length Unit="m">1.2192</Length>
+            <Length Unit="in">48.0</Length>
         </BodyTube>
 
         <!-- 3.9" x 48" Magnaframe tube (legacy) -->
@@ -713,7 +713,7 @@
             <Material Type="BULK">Birch</Material>
             <InsideDiameter Unit="mm">32.131</InsideDiameter>
             <OutsideDiameter Unit="mm">65.024</OutsideDiameter>
-            <Length Unit="m">0.00381</Length>
+            <Length Unit="in">0.25</Length>
         </CenteringRing>
 
         <CenteringRing>
@@ -918,7 +918,7 @@
             <Material Type="BULK">Kraft phenolic</Material>
             <InsideDiameter Unit="mm">41.71</InsideDiameter>
             <OutsideDiameter Unit="mm">54.66</OutsideDiameter>
-            <Length Unit="mm">17.78</Length>
+            <Length Unit="in">0.7</Length>
         </CenteringRing>
 
         <!-- Launch lugs -->
@@ -1126,7 +1126,7 @@
             <Diameter Unit="in">60.0</Diameter>
             <Sides>4</Sides>
             <LineCount>4</LineCount>
-            <LineLength Unit="m">90.0</LineLength>
+            <LineLength Unit="in">90.0</LineLength>
         </Parachute>
 
         <Parachute>
@@ -1135,7 +1135,7 @@
             <Description>Parachute, TAC-1 type, 72 in., 4 shrouds</Description>
             <Material Type="SURFACE">Rip stop nylon</Material>
             <Mass Unit="kg">0.5103</Mass>
-            <Diameter Unit="in">72</Diameter>
+            <Diameter Unit="in">72.0</Diameter>
             <Sides>4</Sides>
             <LineCount>4</LineCount>
             <LineLength Unit="in">108.0</LineLength>
@@ -1148,7 +1148,7 @@
             <Description>Parachute, TAC-1 type, 84 in., 4 shrouds</Description>
             <Material Type="SURFACE">Rip stop nylon</Material>
             <Mass Unit="kg">0.6946</Mass>
-            <Diameter Unit="in">84</Diameter>
+            <Diameter Unit="in">84.0</Diameter>
             <Sides>4</Sides>
             <LineCount>4</LineCount>
             <LineLength Unit="in">126.0</LineLength>
