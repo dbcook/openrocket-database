@@ -26,6 +26,10 @@ System compatibility:  works anywhere OpenRocket can run
 
 ## Release Notes
 
+0.9.3.1 - 13 Jul 2022
+* Fixes
+  * giantleap - fix units error in 2.56/38 centering ring
+  
 0.9.3.0 - 1 Jul 2022
 * Updates
   * giant leap - redid and upgraded the whole file with all available data
@@ -759,7 +763,8 @@ find reasonable equivalents in the Madcow file.
 Giant Leap Rocketry was originally founded on June 1, 1997 in Baton Rouge, LA.
 As of 2002 (rmrfaq archive) their address was 6061 Hibiscus Drive, Baton Rouge, LA 70808, and
 the company was selling phenolic tubing and fiberglass nose cones.  The owners were Ed Shihadeh 
-of Baton Rouge and Kent (last name unknown).
+of Baton Rouge and Kent Burnett.  In a 2022 TRF post, Kent said he had worked for Giant Leap
+from 2000-2016.
 
 In 2005, Giant Leap was selling Aerotech motors; but as of 2018 they were no longer selling motors.
 

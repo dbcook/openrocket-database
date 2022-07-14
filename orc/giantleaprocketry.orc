@@ -722,7 +722,7 @@
             <Description>Centering ring, birch ply, 38mm to 2.56", 1/4" thick</Description>
             <Material Type="BULK">Birch</Material>
             <InsideDiameter Unit="mm">41.71</InsideDiameter>
-            <OutsideDiameter Unit="m">65.024</OutsideDiameter>
+            <OutsideDiameter Unit="mm">65.024</OutsideDiameter>
             <Length Unit="in">0.25</Length>
         </CenteringRing>
 
