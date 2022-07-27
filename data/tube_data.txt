@@ -306,3 +306,38 @@ RB-77          0.740     0.766   12.0               0.769     0.737    12       
 RB-90          0.864     0.890   16.0               0.893     0.861    16                MMT for FSI 21mm motors
 RB-92          0.894     0.920   16.0               0.923     0.891    16                slip fit over RB-90
 RB-120         1.120     1.170   18.0               1.173     1.117    18                MMT for FSI 27mm motors
+
+Wildman Rocketry fiberglass airframes - Data from 2022 website wildmanrocketry.com
+----------------------------------------------------------------------------------
+Density specified as .070 to .076 lb/in3; used 0.073 for weight calcs
+
+SERIES         ID        OD      Wall   Len      Wt Oz       Lengths             Notes
+------         -----     -----   ----   -----    -----       ---------------     ------------------------
+G12-1.1        1.145     1.255   0.055           2.91 (12)   12,24,36,48,60      MMT for 29mm motors
+G12-1.5        1.520     1.600   0.040           2.75 (12)   12,24,36,48,60      MMT for 38mm motors
+G12-2.1        2.152     2.242   0.045           4.35 (12)   12,24,32,48,60      MMT for 54mm motors
+G12-2.6        2.558     2.640   0.041           4.69 (12)   12,24,48,60
+G12-3.0        3.000     3.120   0.060           8.08 (12)   12,24,32,48,60      MMT for 75mm motors
+G12-4.0        3.900     4.020   0.060           10.46 (12)  12,24,32,48,60      MMT for 98mm motors
+G12-5.0        5.000     5.150   0.075           16.76 (12)  12,24,48,60
+G12-5.5        5.375     5.525   0.075           18.00 (12)  12,24,48,60
+G12-6.0        6.000     6.170   0.085           22.77 (12)  12,30,48,60
+G12-8.0        7.825     8.000   0.0875          30.49 (12)  48                  Only 48"
+
+Wildman Rocketry carbon fiber airframes - data from 2022 website wildmanrocketry.com
+------------------------------------------------------------------------------------
+These tubes are specified to have the same ID/OD as the fiberglass tubes, and the weights are
+individually given on the website.
+
+SERIES         ID        OD      Wall   Len      Wt Oz       Lengths             Notes
+------         -----     -----   ----   -----    -----       ---------------     ------------------------
+CFT1.5         1.520     1.600   0.040           not given   60                  MMT for 38mm motors
+SOURCE ERROR: weight for CFT1.5-60 not given on Wildman website 2022.  Also says length is 66" but PN is CFG1.5-60.
+CFT2.1         2.152     2.242   0.045           16.1 (60)   60                  MMT for 54mm motors
+CFT3.0         3.000     3.120   0.060           32.0 (60)   30,60               MMT for 75mm motors
+CFT4.0         3.900     4.020   0.060           40.5 (60)   30,60               MMT for 98mm motors
+CFT5.0         5.000     5.150   0.075           63.0 (66)   66
+SOURCE ERROR: PN for 5" carbon tube is CFG5.0-66 but description says length is 60".  I believe 66" is more likely.
+CFT6.0         6.000     6.170   0.085           91.5 (66)   66
+SOURCE ERROR: PN for 6" carbon tube is CFG6.0-66 but description says length is 60".  I believe 66" is more likely.
+

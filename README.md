@@ -26,6 +26,10 @@ System compatibility:  works anywhere OpenRocket can run
 
 ## Release Notes
 
+0.9.3.2 - 26 Jul 2022
+* Updates
+  * tube_data.txt - added Wildman glass and carbon tubes
+  
 0.9.3.1 - 13 Jul 2022
 * Fixes
   * giantleap - fix units error in 2.56/38 centering ring
