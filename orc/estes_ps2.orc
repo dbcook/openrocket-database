@@ -284,7 +284,7 @@ Parts from #9701 Ventris
         <PartNumber>30189</PartNumber>
         <Description>Tube coupler, 2.5" series, paper, kraft, PN 30189</Description>
         <Material Type="BULK">Fiber, bulk</Material>
-        <InsideDiameter Unit="in">2,360</InsideDiameter>
+        <InsideDiameter Unit="in">2.360</InsideDiameter>
         <OutsideDiameter Unit="in">2.420</OutsideDiameter>
         <Length Unit="in">4.0</Length>
       </TubeCoupler>
@@ -340,7 +340,7 @@ Parts from #9701 Ventris
         <PartNumber>31800</PartNumber>
         <Description>Tube coupler, 3.0" series, paper, PN 31800</Description>
         <Material Type="BULK">Fiber, bulk</Material>
-        <InsideDiameter Unit="in">2,860</InsideDiameter>
+        <InsideDiameter Unit="in">2.860</InsideDiameter>
         <OutsideDiameter Unit="in">2.920</OutsideDiameter>
         <Length Unit="in">4.0</Length>
       </TubeCoupler>
@@ -358,7 +358,7 @@ Parts from #9701 Ventris
         <ShoulderDiameter Unit="in">2.920</ShoulderDiameter>
         <ShoulderLength Unit="in">3.0</ShoulderLength>
         <Length Unit="in">8.0</Length>
-        <Thickness>0.125</Thickness>
+        <Thickness Unit="in">0.125</Thickness>
       </NoseCone>
       <!-- PSII 3.0" series nose cone PN 72753, 17.4" modified cone used in #9704 Nike Smoke
            Length obtained by photogrammetry on picture in Nike Smoke instructions
@@ -376,7 +376,7 @@ Parts from #9701 Ventris
         <ShoulderDiameter Unit="in">2.920</ShoulderDiameter>
         <ShoulderLength Unit="in">3.0</ShoulderLength>
         <Length Unit="in">17.4</Length>
-        <Thickness>0.125</Thickness>
+        <Thickness Unit="in">0.125</Thickness>
       </NoseCone>
 
 

@@ -729,7 +729,7 @@ attributes.  This seems to have no effect; looks like everything is actually kg/
       
         <Material UnitsOfMeasure="kg/m3">
             <Name>Water, bulk</Name>
-            <Density>>1000.0</Density>
+            <Density>1000.0</Density>
             <Type>BULK</Type>
         </Material>
 

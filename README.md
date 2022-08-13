@@ -26,6 +26,10 @@ System compatibility:  works anywhere OpenRocket can run
 
 ## Release Notes
 
+0.9.3.3 - 13 Aug 2022
+* Fixes
+  * multiple files - fix typos from issue #10 reported by davesrocketshop
+
 0.9.3.2 - 26 Jul 2022
 * Updates
   * tube_data.txt - added Wildman glass and carbon tubes

@@ -2465,7 +2465,7 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
             <Material Type="BULK">Balsa, bulk, 8 lb/ft3</Material>
             <Shape>CONICAL</Shape>
             <Filled>true</Filled>
-            <Mass unit="oz">0.56</Mass>
+            <Mass Unit="oz">0.56</Mass>
             <ForeOutsideDiameter Unit="in">2.640</ForeOutsideDiameter>
             <ForeShoulderDiameter Unit="in">2.548</ForeShoulderDiameter>
             <ForeShoulderLength Unit="in">1.25</ForeShoulderLength>
@@ -2490,7 +2490,7 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
             <Material Type="BULK">Balsa, bulk, 8 lb/ft3</Material>
             <Shape>CONICAL</Shape>
             <Filled>true</Filled>
-            <Mass unit="oz">0.56</Mass>
+            <Mass Unit="oz">0.56</Mass>
             <ForeOutsideDiameter Unit="in">2.640</ForeOutsideDiameter>
             <ForeShoulderDiameter Unit="in">2.548</ForeShoulderDiameter>
             <ForeShoulderLength Unit="in">1.25</ForeShoulderLength>
@@ -2695,7 +2695,7 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
           <PartNumber>FCR2629A-GDL3</PartNumber>
           <Description>Centering ring, G10 FG, aft (no hole), 29mm FG MMT to 2.6in FG</Description>
           <Material Type="BULK">Fiberglass, G10, bulk</Material>
-          <InsideDiameter Unit="in">.1.258</InsideDiameter>
+          <InsideDiameter Unit="in">1.258</InsideDiameter>
           <OutsideDiameter Unit="in">2.557</OutsideDiameter>
           <Length Unit="in">0.092</Length>
         </CenteringRing>
@@ -2704,7 +2704,7 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
           <PartNumber>FCR2629F-GDL4</PartNumber>
           <Description>Centering ring, G10 FG, fwd (drilled), 29mm FG MMT to 2.6in FG</Description>
           <Material Type="BULK">Fiberglass, G10, bulk</Material>
-          <InsideDiameter Unit="in">.1.258</InsideDiameter>
+          <InsideDiameter Unit="in">1.258</InsideDiameter>
           <OutsideDiameter Unit="in">2.557</OutsideDiameter>
           <Length Unit="in">0.092</Length>
         </CenteringRing>
@@ -2715,7 +2715,7 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
           <PartNumber>FCR2638A-GDL1</PartNumber>
           <Description>Centering ring, G10 FG, aft (no hole), 38mm FG MMT to 2.6in FG</Description>
           <Material Type="BULK">Fiberglass, G10, bulk</Material>
-          <InsideDiameter Unit="in">.1.648</InsideDiameter>
+          <InsideDiameter Unit="in">1.648</InsideDiameter>
           <OutsideDiameter Unit="in">2.557</OutsideDiameter>
           <Length Unit="in">0.092</Length>
         </CenteringRing>
@@ -2724,7 +2724,7 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
           <PartNumber>FCR2638F-DL2</PartNumber>
           <Description>Centering ring, G10 FG, fwd (drilled), 38mm FG MMT to 2.6in FG</Description>
           <Material Type="BULK">Fiberglass, G10, bulk</Material>
-          <InsideDiameter Unit="in">.1.648</InsideDiameter>
+          <InsideDiameter Unit="in">1.648</InsideDiameter>
           <OutsideDiameter Unit="in">2.557</OutsideDiameter>
           <Length Unit="in">0.092</Length>
         </CenteringRing>
@@ -2735,7 +2735,7 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
           <PartNumber>FCR2654-GCL5</PartNumber>
           <Description>Centering ring, G10 FG, 54mm FG MMT to 2.6in FG</Description>
           <Material Type="BULK">Fiberglass, G10, bulk</Material>
-          <InsideDiameter Unit="in">.2.280</InsideDiameter>
+          <InsideDiameter Unit="in">2.280</InsideDiameter>
           <OutsideDiameter Unit="in">2.557</OutsideDiameter>
           <Length Unit="in">0.092</Length>
         </CenteringRing>
@@ -2746,7 +2746,7 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
           <PartNumber>FCR3038-GDH3</PartNumber>
           <Description>Centering ring, G10 FG, 38mm FG MMT to 3in FG</Description>
           <Material Type="BULK">Fiberglass, G10, bulk</Material>
-          <InsideDiameter Unit="in">.1.648</InsideDiameter>
+          <InsideDiameter Unit="in">1.648</InsideDiameter>
           <OutsideDiameter Unit="in">2.997</OutsideDiameter>
           <Length Unit="in">0.092</Length>
         </CenteringRing>
@@ -2757,7 +2757,7 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
           <PartNumber>FCR3054-GDH4</PartNumber>
           <Description>Centering ring, G10 FG, 54mm FG MMT to 3in FG</Description>
           <Material Type="BULK">Fiberglass, G10, bulk</Material>
-          <InsideDiameter Unit="in">.2.280</InsideDiameter>
+          <InsideDiameter Unit="in">2.280</InsideDiameter>
           <OutsideDiameter Unit="in">2.997</OutsideDiameter>
           <Length Unit="in">0.092</Length>
         </CenteringRing>
@@ -2768,7 +2768,7 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
           <PartNumber>FCR39C54-RBD3</PartNumber>
           <Description>Centering ring, G10 FG, 54mm FG MMT to 4in FG coupler</Description>
           <Material Type="BULK">Fiberglass, G10, bulk</Material>
-          <InsideDiameter Unit="in">.2.280</InsideDiameter>
+          <InsideDiameter Unit="in">2.280</InsideDiameter>
           <OutsideDiameter Unit="in">3.752</OutsideDiameter>
           <Length Unit="in">0.092</Length>
         </CenteringRing>
@@ -2779,7 +2779,7 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
           <PartNumber>FCR3954-GAJ1</PartNumber>
           <Description>Centering ring, G10 FG, 54mm FG MMT to 4in FG</Description>
           <Material Type="BULK">Fiberglass, G10, bulk</Material>
-          <InsideDiameter Unit="in">.2.280</InsideDiameter>
+          <InsideDiameter Unit="in">2.280</InsideDiameter>
           <OutsideDiameter Unit="in">3.897</OutsideDiameter>
           <Length Unit="in">0.092</Length>
         </CenteringRing>
@@ -2790,7 +2790,7 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
           <PartNumber>FCR3975-GAJ2</PartNumber>
           <Description>Centering ring, G10 FG, 75mm FG MMT to 4in FG</Description>
           <Material Type="BULK">Fiberglass, G10, bulk</Material>
-          <InsideDiameter Unit="in">.3.128</InsideDiameter>
+          <InsideDiameter Unit="in">3.128</InsideDiameter>
           <OutsideDiameter Unit="in">3.897</OutsideDiameter>
           <Length Unit="in">0.092</Length>
         </CenteringRing>
@@ -2812,7 +2812,7 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
           <PartNumber>FCR4575</PartNumber>
           <Description>Centering ring, G10 FG, 75mm FG MMT to 4.5in FG</Description>
           <Material Type="BULK">Fiberglass, G10, bulk</Material>
-          <InsideDiameter Unit="in">.3.128</InsideDiameter>
+          <InsideDiameter Unit="in">3.128</InsideDiameter>
           <OutsideDiameter Unit="in">4.371</OutsideDiameter>
           <Length Unit="in">0.092</Length>
         </CenteringRing>
@@ -2823,7 +2823,7 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
           <PartNumber>FCR5075-DJ1</PartNumber>
           <Description>Centering ring, G10 FG, 75mm FG MMT to 5in FG</Description>
           <Material Type="BULK">Fiberglass, G10, bulk</Material>
-          <InsideDiameter Unit="in">.3.128</InsideDiameter>
+          <InsideDiameter Unit="in">3.128</InsideDiameter>
           <OutsideDiameter Unit="in">4.997</OutsideDiameter>
           <Length Unit="in">0.125</Length>
         </CenteringRing>
