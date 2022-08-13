@@ -13751,7 +13751,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>ELLIPSOID</Shape>
-      <OutsideDiameter Unit="in">0.0.767</OutsideDiameter>
+      <OutsideDiameter Unit="in">0.767</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.723</ShoulderDiameter>
       <ShoulderLength Unit="in">0.375</ShoulderLength>
       <Length Unit="in">0.75</Length>
@@ -13763,7 +13763,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>PARABOLIC</Shape>
-      <OutsideDiameter Unit="in">0.0.767</OutsideDiameter>
+      <OutsideDiameter Unit="in">0.767</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.723</ShoulderDiameter>
       <ShoulderLength Unit="in">0.375</ShoulderLength>
       <Length Unit="in">1.5</Length>
@@ -13775,7 +13775,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
-      <OutsideDiameter Unit="in">0.0.767</OutsideDiameter>
+      <OutsideDiameter Unit="in">0.767</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.723</ShoulderDiameter>
       <ShoulderLength Unit="in">0.375</ShoulderLength>
       <Length Unit="in">1.375</Length>
@@ -13788,7 +13788,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
-      <OutsideDiameter Unit="in">0.0.767</OutsideDiameter>
+      <OutsideDiameter Unit="in">0.767</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.723</ShoulderDiameter>
       <ShoulderLength Unit="in">0.0</ShoulderLength>
       <Length Unit="in">1.375</Length>
@@ -13800,7 +13800,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
-      <OutsideDiameter Unit="in">0.0.767</OutsideDiameter>
+      <OutsideDiameter Unit="in">0.767</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.723</ShoulderDiameter>
       <ShoulderLength Unit="in">0.375</ShoulderLength>
       <Length Unit="in">1.5</Length>
@@ -13812,7 +13812,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>PARABOLIC</Shape>
-      <OutsideDiameter Unit="in">0.0.767</OutsideDiameter>
+      <OutsideDiameter Unit="in">0.767</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.723</ShoulderDiameter>
       <ShoulderLength Unit="in">0.375</ShoulderLength>
       <Length Unit="in">2.3</Length>
@@ -13824,7 +13824,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
       <Filled>true</Filled>
       <Shape>OGIVE</Shape>
-      <OutsideDiameter Unit="in">0.0.767</OutsideDiameter>
+      <OutsideDiameter Unit="in">0.767</OutsideDiameter>
       <ShoulderDiameter Unit="in">0.723</ShoulderDiameter>
       <ShoulderLength Unit="in">0.375</ShoulderLength>
       <Length Unit="in">2.75</Length>
