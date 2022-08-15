@@ -234,7 +234,7 @@ various thicknesses.
             <Manufacturer>Generic competition</Manufacturer>
             <PartNumber>chute_Mylar_0.5_9in</PartNumber>
             <Description>Parachute, 9 in., Mylar, 0.5 mil, 6 lines</Description>
-            <Material Type="SURFACE">Mylar polyester film, 0.5 mil</Material>
+            <Material Type="SURFACE">Mylar polyester film, 0.50 mil</Material>
             <Diameter Unit="in">9.0</Diameter>
             <Sides>6</Sides>
             <LineCount>6</LineCount>
@@ -246,7 +246,7 @@ various thicknesses.
             <Manufacturer>Generic competition</Manufacturer>
             <PartNumber>chute_Mylar_0.5_12in</PartNumber>
             <Description>Parachute, 12 in., Mylar, 0.5 mil, 6 lines</Description>
-            <Material Type="SURFACE">Mylar polyester film, 0.5 mil</Material>
+            <Material Type="SURFACE">Mylar polyester film, 0.50 mil</Material>
             <Diameter Unit="in">12.0</Diameter>
             <Sides>6</Sides>
             <LineCount>6</LineCount>
@@ -258,7 +258,7 @@ various thicknesses.
             <Manufacturer>Generic competition</Manufacturer>
             <PartNumber>chute_Mylar_0.5_15in</PartNumber>
             <Description>Parachute, 15 in., Mylar, 0.5 mil, 6 lines</Description>
-            <Material Type="SURFACE">Mylar polyester film, 0.5 mil</Material>
+            <Material Type="SURFACE">Mylar polyester film, 0.50 mil</Material>
             <Diameter Unit="in">15.0</Diameter>
             <Sides>6</Sides>
             <LineCount>6</LineCount>
@@ -270,7 +270,7 @@ various thicknesses.
             <Manufacturer>Generic competition</Manufacturer>
             <PartNumber>chute_Mylar_0.5_18in</PartNumber>
             <Description>Parachute, 18 in., Mylar, 0.5 mil, 6 lines</Description>
-            <Material Type="SURFACE">Mylar polyester film, 0.5 mil</Material>
+            <Material Type="SURFACE">Mylar polyester film, 0.50 mil</Material>
             <Diameter Unit="in">18.0</Diameter>
             <Sides>6</Sides>
             <LineCount>6</LineCount>
@@ -282,7 +282,7 @@ various thicknesses.
             <Manufacturer>Generic competition</Manufacturer>
             <PartNumber>chute_Mylar_0.5_21in</PartNumber>
             <Description>Parachute, 21 in., Mylar, 0.5 mil, 8 lines</Description>
-            <Material Type="SURFACE">Mylar polyester film, 0.5 mil</Material>
+            <Material Type="SURFACE">Mylar polyester film, 0.50 mil</Material>
             <Diameter Unit="in">21.0</Diameter>
             <Sides>8</Sides>
             <LineCount>8</LineCount>
@@ -294,7 +294,7 @@ various thicknesses.
             <Manufacturer>Generic competition</Manufacturer>
             <PartNumber>chute_Mylar_0.5_24in</PartNumber>
             <Description>Parachute, 24 in., Mylar, 0.5 mil, 8 lines</Description>
-            <Material Type="SURFACE">Mylar polyester film, 0.5 mil</Material>
+            <Material Type="SURFACE">Mylar polyester film, 0.50 mil</Material>
             <Diameter Unit="in">24.0</Diameter>
             <Sides>8</Sides>
             <LineCount>8</LineCount>
@@ -306,7 +306,7 @@ various thicknesses.
             <Manufacturer>Generic competition</Manufacturer>
             <PartNumber>chute_Mylar_0.5_30in</PartNumber>
             <Description>Parachute, 30 in., Mylar, 0.5 mil, 12 lines</Description>
-            <Material Type="SURFACE">Mylar polyester film, 0.5 mil</Material>
+            <Material Type="SURFACE">Mylar polyester film, 0.50 mil</Material>
             <Diameter Unit="in">30.0</Diameter>
             <Sides>12</Sides>
             <LineCount>12</LineCount>
@@ -318,7 +318,7 @@ various thicknesses.
             <Manufacturer>Generic competition</Manufacturer>
             <PartNumber>chute_Mylar_0.5_36in</PartNumber>
             <Description>Parachute, 36 in., Mylar, 0.5 mil, 12 lines</Description>
-            <Material Type="SURFACE">Mylar polyester film, 0.5 mil</Material>
+            <Material Type="SURFACE">Mylar polyester film, 0.50 mil</Material>
             <Diameter Unit="in">36.0</Diameter>
             <Sides>12</Sides>
             <LineCount>12</LineCount>
@@ -530,7 +530,7 @@ various thicknesses.
             <Manufacturer>Generic competition</Manufacturer>
             <PartNumber>strm_mylar_0.5_4x40in</PartNumber>
             <Description>Streamer, 4x40 in., mylar, 0.5 mil</Description>
-            <Material Type="SURFACE">Mylar polyester film, 0.5 mil</Material>
+            <Material Type="SURFACE">Mylar polyester film, 0.50 mil</Material>
             <Thickness Unit="in">0.0005</Thickness>
             <Width Unit="in">4.0</Width>
             <Length Unit="in">40.0</Length>
@@ -540,7 +540,7 @@ various thicknesses.
             <Manufacturer>Generic competition</Manufacturer>
             <PartNumber>strm_mylar_0.5_5x50in</PartNumber>
             <Description>Streamer, 5x50 in., mylar, 0.5 mil</Description>
-            <Material Type="SURFACE">Mylar polyester film, 0.5 mil</Material>
+            <Material Type="SURFACE">Mylar polyester film, 0.50 mil</Material>
             <Thickness Unit="in">0.0005</Thickness>
             <Width Unit="in">5.0</Width>
             <Length Unit="in">50.0</Length>
@@ -550,7 +550,7 @@ various thicknesses.
             <Manufacturer>Generic competition</Manufacturer>
             <PartNumber>strm_mylar_0.5_6x60in</PartNumber>
             <Description>Streamer, 6x60 in., mylar, 0.5 mil</Description>
-            <Material Type="SURFACE">Mylar polyester film, 0.5 mil</Material>
+            <Material Type="SURFACE">Mylar polyester film, 0.50 mil</Material>
             <Thickness Unit="in">0.0005</Thickness>
             <Width Unit="in">6.0</Width>
             <Length Unit="in">60.0</Length>
@@ -560,7 +560,7 @@ various thicknesses.
             <Manufacturer>Generic competition</Manufacturer>
             <PartNumber>strm_mylar_0.5_7x70in</PartNumber>
             <Description>Streamer, 7x70 in., mylar, 0.5 mil</Description>
-            <Material Type="SURFACE">Mylar polyester film, 0.5 mil</Material>
+            <Material Type="SURFACE">Mylar polyester film, 0.50 mil</Material>
             <Thickness Unit="in">0.0005</Thickness>
             <Width Unit="in">7.0</Width>
             <Length Unit="in">70.0</Length>
@@ -570,7 +570,7 @@ various thicknesses.
             <Manufacturer>Generic competition</Manufacturer>
             <PartNumber>strm_mylar_0.5_8x80in</PartNumber>
             <Description>Streamer, 8x80 in., mylar, 0.5 mil</Description>
-            <Material Type="SURFACE">Mylar polyester film, 0.5 mil</Material>
+            <Material Type="SURFACE">Mylar polyester film, 0.50 mil</Material>
             <Thickness Unit="in">0.0005</Thickness>
             <Width Unit="in">8.0</Width>
             <Length Unit="in">80.0</Length>
