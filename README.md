@@ -28,7 +28,7 @@ System compatibility:  works anywhere OpenRocket can run
 
 0.9.3.4 - 15 Aug 2022
 * Fixes from issue #11 reported by davesrocketshop
-  * quest - fix a number of broken units refs
+  * quest - fix a number of broken units refs for plastic parts and tubes
   * competition_chutes - fix one units ref
   * bluetube - fix a few units refs, change plywood material to Baltic birch per 2022 website
   * semroc - fix 202 balsa parts (about 1/4 of total) with wrong material string, yikes
