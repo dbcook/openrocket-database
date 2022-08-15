@@ -85,12 +85,13 @@ TC_5.5_12          Coupler for BT_5.5, 12" long
             <Density>1153.5</Density>
             <Type>BULK</Type>
         </Material>
-    </Materials>
+        <!-- ARR website (2022) specifies they use Baltic birch plywood -->
         <Material UnitsOfMeasure="g/cm3">
-            <Name>Plywood, aircraft, 1/4 in. bulk</Name>
-            <Density>344.3</Density>
+            <Name>Plywood, Baltic birch, bulk</Name>
+            <Density>680.0</Density>
             <Type>BULK</Type>
-       </Material>
+        </Material>
+    </Materials>
 
     <Components>
 
@@ -478,7 +479,7 @@ TC_5.5_12          Coupler for BT_5.5, 12" long
             <Manufacturer>Always Ready Rocketry</Manufacturer>
             <PartNumber>CR-38/29</PartNumber>
             <Description>Centering ring, plywood, 29mm to 38mm, .25"</Description>
-            <Material Type="BULK">Plywood, aircraft, 1/4 in. bulk</Material>
+            <Material Type="BULK">Plywood, Baltic birch, bulk</Material>
             <InsideDiameter Unit="in">1.279</InsideDiameter>
             <OutsideDiameter Unit="in">1.515</OutsideDiameter>
             <Length Unit="in">0.25</Length>
@@ -488,7 +489,7 @@ TC_5.5_12          Coupler for BT_5.5, 12" long
             <Manufacturer>Always Ready Rocketry</Manufacturer>
             <PartNumber>CR-54/29</PartNumber>
             <Description>Centering ring, plywood, 29mm to 54mm, .25"</Description>
-            <Material Type="BULK">Plywood, aircraft, 1/4 in. bulk</Material>
+            <Material Type="BULK">Plywood, Baltic birch, bulk</Material>
             <InsideDiameter Unit="in">1.279</InsideDiameter>
             <OutsideDiameter Unit="in">2.269</OutsideDiameter>
             <Length Unit="in">0.25</Length>
@@ -498,7 +499,7 @@ TC_5.5_12          Coupler for BT_5.5, 12" long
             <Manufacturer>Always Ready Rocketry</Manufacturer>
             <PartNumber>CR-54/38</PartNumber>
             <Description>Centering ring, plywood, 38mm to 54mm, .25"</Description>
-            <Material Type="BULK">Plywood, aircraft, 1/4 in. bulk</Material>
+            <Material Type="BULK">Plywood, Baltic birch, bulk</Material>
             <InsideDiameter Unit="in">1.649</InsideDiameter>
             <OutsideDiameter Unit="in">2.145</OutsideDiameter>
             <Length Unit="in">0.25</Length>
@@ -508,7 +509,7 @@ TC_5.5_12          Coupler for BT_5.5, 12" long
             <Manufacturer>Always Ready Rocketry</Manufacturer>
             <PartNumber>CR-63/29</PartNumber>
             <Description>Centering ring, plywood, 29mm to 63mm, .25"</Description>
-            <Material Type="BULK">Plywood, aircraft, 1/4 in. bulk</Material>
+            <Material Type="BULK">Plywood, Baltic birch, bulk</Material>
             <InsideDiameter Unit="in">1.279</InsideDiameter>
             <OutsideDiameter Unit="in">2.555</OutsideDiameter>
             <Length Unit="in">0.25</Length>
@@ -518,7 +519,7 @@ TC_5.5_12          Coupler for BT_5.5, 12" long
             <Manufacturer>Always Ready Rocketry</Manufacturer>
             <PartNumber>CR-63/38</PartNumber>
             <Description>Centering ring, plywood, 38mm to 63mm, .25"</Description>
-            <Material Type="BULK">Plywood, aircraft, 1/4 in. bulk</Material>
+            <Material Type="BULK">Plywood, Baltic birch, bulk</Material>
             <InsideDiameter Unit="in">1.649</InsideDiameter>
             <OutsideDiameter Unit="in">2.555</OutsideDiameter>
             <Length Unit="in">0.25</Length>
@@ -528,7 +529,7 @@ TC_5.5_12          Coupler for BT_5.5, 12" long
             <Manufacturer>Always Ready Rocketry</Manufacturer>
             <PartNumber>CR-75/29</PartNumber>
             <Description>Centering ring, plywood, 29mm to 75mm, .25"</Description>
-            <Material Type="BULK">Plywood, aircraft, 1/4 in. bulk</Material>
+            <Material Type="BULK">Plywood, Baltic birch, bulk</Material>
             <InsideDiameter Unit="in">1.279</InsideDiameter>
             <OutsideDiameter Unit="in">2.995</OutsideDiameter>
             <Length Unit="in">0.25</Length>
@@ -538,7 +539,7 @@ TC_5.5_12          Coupler for BT_5.5, 12" long
             <Manufacturer>Always Ready Rocketry</Manufacturer>
             <PartNumber>CR-75/38</PartNumber>
             <Description>Centering ring, plywood, 38mm to 75mm, .25"</Description>
-            <Material Type="BULK">Plywood, aircraft, 1/4 in. bulk</Material>
+            <Material Type="BULK">Plywood, Baltic birch, bulk</Material>
             <InsideDiameter Unit="in">1.649</InsideDiameter>
             <OutsideDiameter Unit="in">2.995</OutsideDiameter>
             <Length Unit="in">0.25</Length>
@@ -548,7 +549,7 @@ TC_5.5_12          Coupler for BT_5.5, 12" long
             <Manufacturer>Always Ready Rocketry</Manufacturer>
             <PartNumber>CR-75/54</PartNumber>
             <Description>Centering ring, plywood, 54mm to 75mm, .25"</Description>
-            <Material Type="BULK">Plywood, aircraft, 1/4 in. bulk</Material>
+            <Material Type="BULK">Plywood, Baltic birch, bulk</Material>
             <InsideDiameter Unit="in">2.279</InsideDiameter>
             <OutsideDiameter Unit="in">2.995</OutsideDiameter>
             <Length Unit="in">0.25</Length>
@@ -558,7 +559,7 @@ TC_5.5_12          Coupler for BT_5.5, 12" long
             <Manufacturer>Always Ready Rocketry</Manufacturer>
             <PartNumber>CR-98/29</PartNumber>
             <Description>Centering ring, plywood, 29mm to 98mm, .25"</Description>
-            <Material Type="BULK">Plywood, aircraft, 1/4 in. bulk</Material>
+            <Material Type="BULK">Plywood, Baltic birch, bulk</Material>
             <InsideDiameter Unit="in">1.279</InsideDiameter>
             <OutsideDiameter Unit="in">3.895</OutsideDiameter>
             <Length Unit="in">0.25</Length>
@@ -568,7 +569,7 @@ TC_5.5_12          Coupler for BT_5.5, 12" long
             <Manufacturer>Always Ready Rocketry</Manufacturer>
             <PartNumber>CR-98/38</PartNumber>
             <Description>Centering ring, plywood, 38mm to 98mm, .25"</Description>
-            <Material Type="BULK">Plywood, aircraft, 1/4 in. bulk</Material>
+            <Material Type="BULK">Plywood, Baltic birch, bulk</Material>
             <InsideDiameter Unit="in">1.649</InsideDiameter>
             <OutsideDiameter Unit="in">3.895</OutsideDiameter>
             <Length Unit="in">0.25</Length>
@@ -578,7 +579,7 @@ TC_5.5_12          Coupler for BT_5.5, 12" long
             <Manufacturer>Always Ready Rocketry</Manufacturer>
             <PartNumber>CR-98/54</PartNumber>
             <Description>Centering ring, plywood, 54mm to 98mm, .25"</Description>
-            <Material Type="BULK">Plywood, aircraft, 1/4 in. bulk</Material>
+            <Material Type="BULK">Plywood, Baltic birch, bulk</Material>
             <InsideDiameter Unit="in">2.279</InsideDiameter>
             <OutsideDiameter Unit="in">3.895</OutsideDiameter>
             <Length Unit="in">0.25</Length>
@@ -588,7 +589,7 @@ TC_5.5_12          Coupler for BT_5.5, 12" long
             <Manufacturer>Always Ready Rocketry</Manufacturer>
             <PartNumber>CR-98/75</PartNumber>
             <Description>Centering ring, plywood, 75mm to 98mm, .25"</Description>
-            <Material Type="BULK">Plywood, aircraft, 1/4 in. bulk</Material>
+            <Material Type="BULK">Plywood, Baltic birch, bulk</Material>
             <InsideDiameter Unit="in">3.129</InsideDiameter>
             <OutsideDiameter Unit="in">3.895</OutsideDiameter>
             <Length Unit="in">0.25</Length>
@@ -598,7 +599,7 @@ TC_5.5_12          Coupler for BT_5.5, 12" long
             <Manufacturer>Always Ready Rocketry</Manufacturer>
             <PartNumber>CR-139/38</PartNumber>
             <Description>Centering ring, plywood, 38mm to 5.5", .50"</Description>
-            <Material Type="BULK">Plywood, aircraft, 1/2 in. bulk</Material>
+            <Material Type="BULK">Plywood, Baltic birch, bulk</Material>
             <InsideDiameter Unit="in">1.649</InsideDiameter>
             <OutsideDiameter Unit="in">5.495</OutsideDiameter>
             <Length Unit="in">0.50</Length>
@@ -608,7 +609,7 @@ TC_5.5_12          Coupler for BT_5.5, 12" long
             <Manufacturer>Always Ready Rocketry</Manufacturer>
             <PartNumber>CR-139/54</PartNumber>
             <Description>Centering ring, plywood, 54mm to 5.5", .50"</Description>
-            <Material Type="BULK">Plywood, aircraft, 1/2 in. bulk</Material>
+            <Material Type="BULK">Plywood, Baltic birch, bulk</Material>
             <InsideDiameter Unit="in">2.279</InsideDiameter>
             <OutsideDiameter Unit="in">5.495</OutsideDiameter>
             <Length Unit="in">0.50</Length>
@@ -618,7 +619,7 @@ TC_5.5_12          Coupler for BT_5.5, 12" long
             <Manufacturer>Always Ready Rocketry</Manufacturer>
             <PartNumber>CR-139/75</PartNumber>
             <Description>Centering ring, plywood, 75mm to 5.5", .50"</Description>
-            <Material Type="BULK">Plywood, aircraft, 1/2 in. bulk</Material>
+            <Material Type="BULK">Plywood, Baltic birch, bulk</Material>
             <InsideDiameter Unit="in">3.129</InsideDiameter>
             <OutsideDiameter Unit="in">5.495</OutsideDiameter>
             <Length Unit="in">0.50</Length>
@@ -628,7 +629,7 @@ TC_5.5_12          Coupler for BT_5.5, 12" long
             <Manufacturer>Always Ready Rocketry</Manufacturer>
             <PartNumber>CR-139/98</PartNumber>
             <Description>Centering ring, plywood, 98mm to 5.5", .50"</Description>
-            <Material Type="BULK">Plywood, aircraft, 1/2 in. bulk</Material>
+            <Material Type="BULK">Plywood, Baltic birch, bulk</Material>
             <InsideDiameter Unit="in">4.029</InsideDiameter>
             <OutsideDiameter Unit="in">5.495</OutsideDiameter>
             <Length Unit="in">0.50</Length>
