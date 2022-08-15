@@ -7895,7 +7895,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-57</PartNumber>
         <Description>Transition, balsa, #5 to #7, increasing, 0.5 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.543</ForeOutsideDiameter>
@@ -7910,7 +7910,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-57 [R]</PartNumber>
         <Description>Transition, balsa, #7 to #5, reducing, 0.5 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.759</ForeOutsideDiameter>
@@ -7927,7 +7927,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-58</PartNumber>
         <Description>Transition, balsa, #5 to #8, increasing, 0.6 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.543</ForeOutsideDiameter>
@@ -7942,7 +7942,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-58 [R]</PartNumber>
         <Description>Transition, balsa, #8 to #5, reducing, 0.6 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.908</ForeOutsideDiameter>
@@ -7959,7 +7959,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-58F</PartNumber>
         <Description>Transition, balsa, #5 to #8F, increasing, 0.6 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.543</ForeOutsideDiameter>
@@ -7974,7 +7974,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-58F [R]</PartNumber>
         <Description>Transition, balsa, #8F to #5, reducing, 0.6 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.921</ForeOutsideDiameter>
@@ -7994,7 +7994,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-59</PartNumber>
         <Description>Transition, balsa, #5 to #9, increasing, 0.82 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.543</ForeOutsideDiameter>
@@ -8009,7 +8009,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-59 [R]</PartNumber>
         <Description>Transition, balsa, #9 to #5, reducing, 0.82 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.998</ForeOutsideDiameter>
@@ -8026,7 +8026,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-510</PartNumber>
         <Description>Transition, balsa, #5 to #10, increasing, 0.75 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.543</ForeOutsideDiameter>
@@ -8041,7 +8041,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-510 [R]</PartNumber>
         <Description>Transition, balsa, #10 to #5, reducing, 0.75 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.040</ForeOutsideDiameter>
@@ -8058,7 +8058,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-511</PartNumber>
         <Description>Transition, balsa, #5 to #11, increasing, 0.75 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.543</ForeOutsideDiameter>
@@ -8073,7 +8073,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-511 [R]</PartNumber>
         <Description>Transition, balsa, #11 to #5, reducing, 0.75 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.170</ForeOutsideDiameter>
@@ -8090,7 +8090,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-513</PartNumber>
         <Description>Transition, balsa, #5 to #13, increasing, 1.5 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.543</ForeOutsideDiameter>
@@ -8105,7 +8105,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-513 [R]</PartNumber>
         <Description>Transition, balsa, #13 to #5, reducing, 1.5 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.134</ForeOutsideDiameter>
@@ -8124,7 +8124,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-5-T20</PartNumber>
         <Description>Transition, balsa, #5 to metric T20, increasing, 0.75 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.543</ForeOutsideDiameter>
@@ -8139,7 +8139,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-5-T20 [R]</PartNumber>
         <Description>Transition, balsa, metric T20 to #5, reducing, 0.75 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="mm">20.0</ForeOutsideDiameter>
@@ -8158,7 +8158,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-5-T20A</PartNumber>
         <Description>Transition, balsa, #5 to metric T20, increasing, 1.0 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.543</ForeOutsideDiameter>
@@ -8173,7 +8173,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-5-T20 [R]</PartNumber>
         <Description>Transition, balsa, metric T20 to #5, reducing, 1.0 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="mm">20.0</ForeOutsideDiameter>
@@ -8199,7 +8199,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-610NC</PartNumber>
         <Description>Transition, balsa, #6 to #16, increasing, flared, Nike-Cajun 1/10</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.650</ForeOutsideDiameter>
@@ -8214,7 +8214,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-610NC [R]</PartNumber>
         <Description>Transition, balsa, #16 to #6, reducing, flared, Nike-Cajun 1/10</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.640</ForeOutsideDiameter>
@@ -8236,7 +8236,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-78</PartNumber>
         <Description>Transition, balsa, #7 to #8, increasing, 0.90", PN BR-78</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.759</ForeOutsideDiameter>
@@ -8251,7 +8251,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-78 [R]</PartNumber>
         <Description>Transition, balsa, #8 to #7, reducing, 0.90", PN BR-78</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.908</ForeOutsideDiameter>
@@ -8267,7 +8267,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-78S</PartNumber>
         <Description>Transition, balsa, #7 to #8, increasing, 0.5 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.759</ForeOutsideDiameter>
@@ -8282,7 +8282,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-78 [R]</PartNumber>
         <Description>Transition, balsa, #8 to #7, reducing, 0.5 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.908</ForeOutsideDiameter>
@@ -8299,7 +8299,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-79</PartNumber>
         <Description>Transition, balsa, #7 to #9, increasing, 1.00 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.759</ForeOutsideDiameter>
@@ -8314,7 +8314,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-79 [R]</PartNumber>
         <Description>Transition, balsa, #9 to #7, reducing, 1.00 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.998</ForeOutsideDiameter>
@@ -8330,7 +8330,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-79L</PartNumber>
         <Description>Transition, balsa, #7 to #9, increasing, 2.00 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.759</ForeOutsideDiameter>
@@ -8345,7 +8345,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-79L [R]</PartNumber>
         <Description>Transition, balsa, #9 to #7, reducing, 2.00 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.998</ForeOutsideDiameter>
@@ -8362,7 +8362,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-710</PartNumber>
         <Description>Transition, balsa, #7 to #10, increasing, 0.75 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.759</ForeOutsideDiameter>
@@ -8377,7 +8377,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-710 [R]</PartNumber>
         <Description>Transition, balsa, #10 to #7, reducing, 0.75 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.040</ForeOutsideDiameter>
@@ -8394,7 +8394,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-711</PartNumber>
         <Description>Transition, balsa, #7 to #11, increasing, 0.75 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.759</ForeOutsideDiameter>
@@ -8409,7 +8409,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-711 [R]</PartNumber>
         <Description>Transition, balsa, #11 to #7, reducing, 0.75 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.170</ForeOutsideDiameter>
@@ -8426,7 +8426,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-713</PartNumber>
         <Description>Transition, balsa, #7 to #13, increasing, 1.50 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.759</ForeOutsideDiameter>
@@ -8441,7 +8441,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-713 [R]</PartNumber>
         <Description>Transition, balsa, #13 to #7, reducing, 1.50 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.340</ForeOutsideDiameter>
@@ -8458,7 +8458,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-716</PartNumber>
         <Description>Transition, balsa, #7 to #16, increasing, 2.0 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.759</ForeOutsideDiameter>
@@ -8473,7 +8473,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-716 [R]</PartNumber>
         <Description>Transition, balsa, #16 to #7, reducing, 2.0 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.640</ForeOutsideDiameter>
@@ -8490,7 +8490,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-718</PartNumber>
         <Description>Transition, balsa, #7 to #18, increasing, 2.0 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.759</ForeOutsideDiameter>
@@ -8505,7 +8505,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-718 [R]</PartNumber>
         <Description>Transition, balsa, #18 to #7, reducing, 2.0 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.840</ForeOutsideDiameter>
@@ -8527,7 +8527,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-810</PartNumber>
         <Description>Transition, balsa, #8 to #10, increasing, 0.5 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.908</ForeOutsideDiameter>
@@ -8542,7 +8542,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-810 [R]</PartNumber>
         <Description>Transition, balsa, #10 to #8, reducing, 0.5 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.040</ForeOutsideDiameter>
@@ -8567,7 +8567,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-813</PartNumber>
         <Description>Transition, balsa, #8 to #13, increasing, 1.87 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.908</ForeOutsideDiameter>
@@ -8582,7 +8582,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-813 [R]</PartNumber>
         <Description>Transition, balsa, #13 to #8, reducing, 1.87 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.340</ForeOutsideDiameter>
@@ -8603,7 +8603,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-813P</PartNumber>
         <Description>Transition, balsa, #8 to #13, increasing, 1.5 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.908</ForeOutsideDiameter>
@@ -8618,7 +8618,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-813P [R]</PartNumber>
         <Description>Transition, balsa, #13 to #8, reducing, 1.50 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.340</ForeOutsideDiameter>
@@ -8635,7 +8635,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-816</PartNumber>
         <Description>Transition, balsa, #8 to #16, increasing, 1.5 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.908</ForeOutsideDiameter>
@@ -8650,7 +8650,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-816 [R]</PartNumber>
         <Description>Transition, balsa, #16 to #8, reducing, 1.50 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.640</ForeOutsideDiameter>
@@ -8668,7 +8668,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-816NT</PartNumber>
         <Description>Transition, balsa, #8 to #16, increasing, 1.7 in len, Nike-Tomahawk 1/10</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.908</ForeOutsideDiameter>
@@ -8683,7 +8683,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-816 [R]</PartNumber>
         <Description>Transition, balsa, #16 to #8, reducing, 1.7 in len, Nike-Tomahawk 1/10</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.640</ForeOutsideDiameter>
@@ -8705,7 +8705,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-8F11</PartNumber>
         <Description>Transition, balsa, #8F to #11, increasing, 1.0 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.921</ForeOutsideDiameter>
@@ -8720,7 +8720,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-8F11 [R]</PartNumber>
         <Description>Transition, balsa, #11 to #8F, reducing, 1.0 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.170</ForeOutsideDiameter>
@@ -8737,7 +8737,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-8F11L</PartNumber>
         <Description>Transition, balsa, #8F to #11, increasing, 1.5 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.921</ForeOutsideDiameter>
@@ -8752,7 +8752,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-8F11L [R]</PartNumber>
         <Description>Transition, balsa, #11 to #8F, reducing, 1.5 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.170</ForeOutsideDiameter>
@@ -8773,7 +8773,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-916</PartNumber>
         <Description>Transition, balsa, #9 to #16, increasing, 2.0 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.998</ForeOutsideDiameter>
@@ -8788,7 +8788,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-916 [R]</PartNumber>
         <Description>Transition, balsa, #16 to #9, reducing, 2.0 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.640</ForeOutsideDiameter>
@@ -8805,7 +8805,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-918</PartNumber>
         <Description>Transition, balsa, #9 to #18, increasing, 2.0 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.998</ForeOutsideDiameter>
@@ -8820,7 +8820,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-918 [R]</PartNumber>
         <Description>Transition, balsa, #18 to #9, reducing, 2.0 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.840</ForeOutsideDiameter>
@@ -8837,7 +8837,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-920</PartNumber>
         <Description>Transition, balsa, #9 to #20, increasing, 2.0 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.998</ForeOutsideDiameter>
@@ -8852,7 +8852,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-920 [R]</PartNumber>
         <Description>Transition, balsa, #20 to #9, reducing, 2.0 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">2.040</ForeOutsideDiameter>
@@ -8873,7 +8873,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-1013</PartNumber>
         <Description>Transition, balsa, #10 to #13, increasing, 0.75 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.040</ForeOutsideDiameter>
@@ -8888,7 +8888,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-1013 [R]</PartNumber>
         <Description>Transition, balsa, #13 to #10, reducing, 0.75 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.340</ForeOutsideDiameter>
@@ -8905,7 +8905,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-1013B</PartNumber>
         <Description>Transition, balsa, #10 to #13, increasing, 1.20 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.040</ForeOutsideDiameter>
@@ -8920,7 +8920,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-1013B [R]</PartNumber>
         <Description>Transition, balsa, #13 to #10, reducing, 1.20 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.340</ForeOutsideDiameter>
@@ -8937,7 +8937,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-1016</PartNumber>
         <Description>Transition, balsa, #10 to #16, increasing, 1.5 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.040</ForeOutsideDiameter>
@@ -8952,7 +8952,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-1016 [R]</PartNumber>
         <Description>Transition, balsa, #16 to #10, reducing, 1.50 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.640</ForeOutsideDiameter>
@@ -8969,7 +8969,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-1016S</PartNumber>
         <Description>Transition, balsa, #10 to #16, increasing, 1.2 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.040</ForeOutsideDiameter>
@@ -8984,7 +8984,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-1016S [R]</PartNumber>
         <Description>Transition, balsa, #16 to #10, reducing, 1.20 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.640</ForeOutsideDiameter>
@@ -9005,7 +9005,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-1116</PartNumber>
         <Description>Transition, balsa, #11 to #16, increasing, 1.5 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.170</ForeOutsideDiameter>
@@ -9020,7 +9020,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-1116 [R]</PartNumber>
         <Description>Transition, balsa, #16 to #11, reducing, 1.5 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.640</ForeOutsideDiameter>
@@ -9039,7 +9039,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-1118</PartNumber>
         <Description>Transition, balsa, #11 to #18, increasing, 2.0 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.170</ForeOutsideDiameter>
@@ -9054,7 +9054,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-1118 [R]</PartNumber>
         <Description>Transition, balsa, #18 to #11, reducing, 2.0 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.840</ForeOutsideDiameter>
@@ -9071,7 +9071,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-1120NT</PartNumber>
         <Description>Transition, balsa, #11 to #20, increasing, 2.08 in len, Nike-Tomahawk</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.170</ForeOutsideDiameter>
@@ -9086,7 +9086,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-1120NT [R]</PartNumber>
         <Description>Transition, balsa, #20 to #11, reducing, 2.08 in len, Nike-Tomahawk</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">2.040</ForeOutsideDiameter>
@@ -9107,7 +9107,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-1316</PartNumber>
         <Description>Transition, balsa, #13 to #16, increasing, 0.75 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.340</ForeOutsideDiameter>
@@ -9122,7 +9122,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-1316 [R]</PartNumber>
         <Description>Transition, balsa, #16 to #13, reducing, 0.75 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.640</ForeOutsideDiameter>
@@ -9139,7 +9139,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-1316F</PartNumber>
         <Description>Transition, balsa, #13 to #16, increasing, 1.75 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.340</ForeOutsideDiameter>
@@ -9154,7 +9154,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-1316F [R]</PartNumber>
         <Description>Transition, balsa, #16 to #13, reducing, 1.75 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.640</ForeOutsideDiameter>
@@ -9171,7 +9171,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-1316L</PartNumber>
         <Description>Transition, balsa, #13 to #16, increasing, 1.5 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.340</ForeOutsideDiameter>
@@ -9186,7 +9186,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-1316L [R]</PartNumber>
         <Description>Transition, balsa, #16 to #13, reducing, 1.5 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.640</ForeOutsideDiameter>
@@ -9203,7 +9203,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-1316M</PartNumber>
         <Description>Transition, balsa, #13 to #16, increasing, 1.0 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.340</ForeOutsideDiameter>
@@ -9218,7 +9218,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-1316M [R]</PartNumber>
         <Description>Transition, balsa, #16 to #13, reducing, 1.0 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.640</ForeOutsideDiameter>
@@ -9239,7 +9239,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-1320</PartNumber>
         <Description>Transition, balsa, #13 to #20, increasing, 0.75 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.340</ForeOutsideDiameter>
@@ -9254,7 +9254,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-1320 [R]</PartNumber>
         <Description>Transition, balsa, #20 to #13, reducing, 0.75 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">2.040</ForeOutsideDiameter>
@@ -9271,7 +9271,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-1320L</PartNumber>
         <Description>Transition, balsa, #13 to #20, increasing, 4.5 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.340</ForeOutsideDiameter>
@@ -9286,7 +9286,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-1320L [R]</PartNumber>
         <Description>Transition, balsa, #20 to #13, reducing, 4.5 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">2.040</ForeOutsideDiameter>
@@ -9308,7 +9308,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-1618</PartNumber>
         <Description>Transition, balsa, #16 to #18, increasing, 1.5 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.640</ForeOutsideDiameter>
@@ -9323,7 +9323,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-1618 [R]</PartNumber>
         <Description>Transition, balsa, #18 to #16, reducing, 1.5 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.840</ForeOutsideDiameter>
@@ -9341,7 +9341,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-1618F</PartNumber>
         <Description>Transition, balsa, #16 to #18, increasing, flared + cylinder, 1.8 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.640</ForeOutsideDiameter>
@@ -9356,7 +9356,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-1618F [R]</PartNumber>
         <Description>Transition, balsa, #18 to #16, reducing, flared + cylinder, 1.8 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.840</ForeOutsideDiameter>
@@ -9376,7 +9376,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-1620</PartNumber>
         <Description>Transition, balsa, #16 to #20, increasing, 1.5 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.640</ForeOutsideDiameter>
@@ -9391,7 +9391,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-1620 [R]</PartNumber>
         <Description>Transition, balsa, #20 to #16, reducing, 1.5 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.840</ForeOutsideDiameter>
@@ -9408,7 +9408,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-1620F</PartNumber>
         <Description>Transition, balsa, #16 to #20, increasing, 1.2 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.640</ForeOutsideDiameter>
@@ -9423,7 +9423,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-1620F [R]</PartNumber>
         <Description>Transition, balsa, #20 to #16, reducing, 1.2 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.840</ForeOutsideDiameter>
@@ -9440,7 +9440,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-16225F</PartNumber>
         <Description>Transition, balsa, #16 to #225, increasing, 1.5 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.640</ForeOutsideDiameter>
@@ -9455,7 +9455,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-16225F [R]</PartNumber>
         <Description>Transition, balsa, #225 to #16, reducing, 1.5 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">2.340</ForeOutsideDiameter>
@@ -9498,7 +9498,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-60-18</PartNumber>
         <Description>Transition, balsa, BT-60 to ST-18, increasing, 1.0 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.637</ForeOutsideDiameter>
@@ -9513,7 +9513,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-60-18 [R]</PartNumber>
         <Description>Transition, balsa, ST-18 to BT-60, reducing, 1.0 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.840</ForeOutsideDiameter>
@@ -9530,7 +9530,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-1820</PartNumber>
         <Description>Transition, balsa, #18 to #20, increasing, 0.375 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.840</ForeOutsideDiameter>
@@ -9545,7 +9545,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-1820 [R]</PartNumber>
         <Description>Transition, balsa, #20 to #18, reducing, 0.375 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">2.040</ForeOutsideDiameter>
@@ -9563,7 +9563,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-1820L</PartNumber>
         <Description>Transition, balsa, #18 to #20, increasing, 1.875 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.840</ForeOutsideDiameter>
@@ -9578,7 +9578,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-1820L [R]</PartNumber>
         <Description>Transition, balsa, #20 to #18, reducing, 1.875 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">2.040</ForeOutsideDiameter>
@@ -9596,7 +9596,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-18225</PartNumber>
         <Description>Transition, balsa, #18 to #225, increasing, 2.0 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.840</ForeOutsideDiameter>
@@ -9611,7 +9611,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-18225 [R]</PartNumber>
         <Description>Transition, balsa, #225 to #18, reducing, 2.0 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">2.340</ForeOutsideDiameter>
@@ -9634,7 +9634,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-085-175</PartNumber>
         <Description>Transition, balsa, #085 to #175, increasing, 1.42 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.945</ForeOutsideDiameter>
@@ -9649,7 +9649,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-085-175 [R]</PartNumber>
         <Description>Transition, balsa, #175 to #085, reducing, 1.42 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.840</ForeOutsideDiameter>
@@ -9669,7 +9669,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-085-225</PartNumber>
         <Description>Transition, balsa, #085 to #225, increasing, 2.5 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.945</ForeOutsideDiameter>
@@ -9684,7 +9684,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-085-225 [R]</PartNumber>
         <Description>Transition, balsa, #225 to #085, reducing, 2.5 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">2.340</ForeOutsideDiameter>
@@ -9709,7 +9709,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-84-115</PartNumber>
         <Description>Transition, balsa, 0.84" to #115, increasing, 3.5 in len, no fore shoulder</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.84</ForeOutsideDiameter>
@@ -9724,7 +9724,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-84-115 [R]</PartNumber>
         <Description>Transition, balsa, #115 to 0.84", reducing, 3.5 in len, no aft shoulder</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.220</ForeOutsideDiameter>
@@ -9742,7 +9742,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-11516</PartNumber>
         <Description>Transition, balsa, #115 to #16, increasing, 3.375 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.220</ForeOutsideDiameter>
@@ -9757,7 +9757,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-11516 [R]</PartNumber>
         <Description>Transition, balsa, #16 to #115, reducing, 3.375 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.640</ForeOutsideDiameter>
@@ -9778,7 +9778,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BRS-115-16</PartNumber>
         <Description>Transition, balsa, #115 to #16, increasing, 4.25 in len, no fwd shoulder</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.220</ForeOutsideDiameter>
@@ -9793,7 +9793,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BRS-115-16 [R]</PartNumber>
         <Description>Transition, balsa, #16 to #115, reducing, 4.25 in len, no aft shoulder</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.640</ForeOutsideDiameter>
@@ -9817,7 +9817,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-115-168</PartNumber>
         <Description>Transition, balsa, #115 to #168, increasing, 1.19 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.220</ForeOutsideDiameter>
@@ -9832,7 +9832,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-115-168 [R]</PartNumber>
         <Description>Transition, balsa, #168 to #115, reducing, 1.19 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.75</ForeOutsideDiameter>
@@ -9849,7 +9849,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-11518</PartNumber>
         <Description>Transition, balsa, #115 to #18, increasing, 3.375 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.220</ForeOutsideDiameter>
@@ -9864,7 +9864,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-11518 [R]</PartNumber>
         <Description>Transition, balsa, #18 to #115, reducing, 3.375 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.840</ForeOutsideDiameter>
@@ -9883,7 +9883,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-115-225</PartNumber>
         <Description>Transition, balsa, #115 to #225, increasing, 1.75 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.220</ForeOutsideDiameter>
@@ -9898,7 +9898,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-115-225 [R]</PartNumber>
         <Description>Transition, balsa, #225 to #115, reducing, 1.75 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">2.340</ForeOutsideDiameter>
@@ -9921,7 +9921,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-125-175</PartNumber>
         <Description>Transition, balsa, #125 to #175, increasing, 1.5 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.340</ForeOutsideDiameter>
@@ -9936,7 +9936,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-125-175 [R]</PartNumber>
         <Description>Transition, balsa, #175 to #125, reducing, 1.5 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.840</ForeOutsideDiameter>
@@ -9954,7 +9954,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-125-175L</PartNumber>
         <Description>Transition, balsa, #125 to #175, increasing, 2.125 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.340</ForeOutsideDiameter>
@@ -9969,7 +9969,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-125-175 [R]</PartNumber>
         <Description>Transition, balsa, #175 to #125, reducing, 2.125 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.840</ForeOutsideDiameter>
@@ -9987,7 +9987,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-125-225</PartNumber>
         <Description>Transition, balsa, #125 to #225, increasing, 2.82 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.340</ForeOutsideDiameter>
@@ -10002,7 +10002,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-125-225 [R]</PartNumber>
         <Description>Transition, balsa, #225 to #125, reducing, 2.82 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">2.340</ForeOutsideDiameter>
@@ -10023,7 +10023,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-150-200</PartNumber>
         <Description>Transition, balsa, #150 to #200, increasing, 2.125 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.590</ForeOutsideDiameter>
@@ -10038,7 +10038,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-150-200 [R]</PartNumber>
         <Description>Transition, balsa, #200 to #150, reducing, 2.125 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">2.080</ForeOutsideDiameter>
@@ -10055,7 +10055,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-150-225</PartNumber>
         <Description>Transition, balsa, #150 to #225, increasing, 2.25 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.590</ForeOutsideDiameter>
@@ -10070,7 +10070,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-150-225 [R]</PartNumber>
         <Description>Transition, balsa, #225 to #150, reducing, 2.25 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">2.340</ForeOutsideDiameter>
@@ -10087,7 +10087,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-150-275</PartNumber>
         <Description>Transition, balsa, #150 to #275, increasing, 2.9 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.590</ForeOutsideDiameter>
@@ -10102,7 +10102,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-150-275 [R]</PartNumber>
         <Description>Transition, balsa, #275 to #150, reducing, 2.9 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">2.840</ForeOutsideDiameter>
@@ -10123,7 +10123,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-175-225</PartNumber>
         <Description>Transition, balsa, #175 to #225, increasing, 2.1 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.840</ForeOutsideDiameter>
@@ -10138,7 +10138,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-175-225 [R]</PartNumber>
         <Description>Transition, balsa, #225 to #175, reducing, 2.1 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">2.340</ForeOutsideDiameter>
@@ -10155,7 +10155,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-175-275</PartNumber>
         <Description>Transition, balsa, #175 to #275, increasing, 2.0 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.840</ForeOutsideDiameter>
@@ -10170,7 +10170,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-175-275 [R]</PartNumber>
         <Description>Transition, balsa, #275 to #175, reducing, 2.0 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">2.840</ForeOutsideDiameter>
@@ -10191,7 +10191,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-225-80H</PartNumber>
         <Description>Transition, balsa, #225 to BTH-80, increasing, 2.1 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">2.340</ForeOutsideDiameter>
@@ -10206,7 +10206,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BR-225-80H [R]</PartNumber>
         <Description>Transition, balsa, BT-80H to #225, reducing, 2.1 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">2.640</ForeOutsideDiameter>
@@ -10228,7 +10228,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-35</PartNumber>
         <Description>Transition, balsa, #3 to BT-5, increasing, 0.5 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.375</ForeOutsideDiameter>
@@ -10243,7 +10243,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-35 [R]</PartNumber>
         <Description>Transition, balsa, #3 to BT-5, reducing, 0.5 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.543</ForeOutsideDiameter>
@@ -10260,7 +10260,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-35A</PartNumber>
         <Description>Transition, balsa, #3 to BT-5, increasing, 1.0 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.375</ForeOutsideDiameter>
@@ -10275,7 +10275,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-35A [R]</PartNumber>
         <Description>Transition, balsa, #3 to BT-5, reducing, 1.0 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.543</ForeOutsideDiameter>
@@ -10299,7 +10299,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-520</PartNumber>
         <Description>Transition, balsa, BT-5 to BT-20, increasing, 0.75 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.543</ForeOutsideDiameter>
@@ -10314,7 +10314,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-520 [R]</PartNumber>
         <Description>Transition, balsa, BT-20 to BT-5, reducing, 0.75 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.736</ForeOutsideDiameter>
@@ -10331,7 +10331,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-550</PartNumber>
         <Description>Transition, balsa, BT-5 to BT-50, increasing, 1.0 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.543</ForeOutsideDiameter>
@@ -10346,7 +10346,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-550 [R]</PartNumber>
         <Description>Transition, balsa, BT-50 to BT-5, reducing, 1.0 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.976</ForeOutsideDiameter>
@@ -10363,7 +10363,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-580</PartNumber>
         <Description>Transition, balsa, BT-5 to BT-80, increasing, 2.1 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.543</ForeOutsideDiameter>
@@ -10378,7 +10378,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-580 [R]</PartNumber>
         <Description>Transition, balsa, BT-80 to BT-5, reducing, 2.1 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">2.600</ForeOutsideDiameter>
@@ -10400,7 +10400,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-2050</PartNumber>
         <Description>Transition, balsa, BT-20 to BT-50, increasing, 2.0 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.736</ForeOutsideDiameter>
@@ -10415,7 +10415,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-2050 [R]</PartNumber>
         <Description>Transition, balsa, BT-50 to BT-20, reducing, 2.0 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.976</ForeOutsideDiameter>
@@ -10432,7 +10432,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-2050A</PartNumber>
         <Description>Transition, balsa, BT-20 to BT-50, increasing, 1.0 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.736</ForeOutsideDiameter>
@@ -10447,7 +10447,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-2050A [R]</PartNumber>
         <Description>Transition, balsa, BT-50 to BT-20, reducing, 1.0 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.976</ForeOutsideDiameter>
@@ -10464,7 +10464,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-2050B</PartNumber>
         <Description>Transition, balsa, BT-20 to BT-50, increasing, 2.5 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.736</ForeOutsideDiameter>
@@ -10479,7 +10479,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-2050B [R]</PartNumber>
         <Description>Transition, balsa, BT-50 to BT-20, reducing, 2.5 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.976</ForeOutsideDiameter>
@@ -10497,7 +10497,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-2055</PartNumber>
         <Description>Transition, balsa, BT-20 to BT-55, increasing, 1.5 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.736</ForeOutsideDiameter>
@@ -10512,7 +10512,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-2055 [R]</PartNumber>
         <Description>Transition, balsa, BT-55 to BT-20, reducing, 1.5 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.325</ForeOutsideDiameter>
@@ -10531,7 +10531,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-2058</PartNumber>
         <Description>Transition, balsa, BT-20 to BT-58, increasing, 1.8 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.736</ForeOutsideDiameter>
@@ -10546,7 +10546,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-2058 [R]</PartNumber>
         <Description>Transition, balsa, BT-58 to BT-20, reducing, 1.8 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.540</ForeOutsideDiameter>
@@ -10563,7 +10563,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-2060</PartNumber>
         <Description>Transition, balsa, BT-20 to BT-60, increasing, 2.0 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.736</ForeOutsideDiameter>
@@ -10578,7 +10578,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-2060 [R]</PartNumber>
         <Description>Transition, balsa, BT-60 to BT-20, reducing, 2.0 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.637</ForeOutsideDiameter>
@@ -10596,7 +10596,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-2070</PartNumber>
         <Description>Transition, balsa, BT-20 to BT-70, increasing, 2.5 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.736</ForeOutsideDiameter>
@@ -10611,7 +10611,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-2070 [R]</PartNumber>
         <Description>Transition, balsa, BT-70 to BT-20, reducing, 2.5 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">2.217</ForeOutsideDiameter>
@@ -10632,7 +10632,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-5055</PartNumber>
         <Description>Transition, balsa, BT-50 to BT-55, increasing, 1.0 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.976</ForeOutsideDiameter>
@@ -10647,7 +10647,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-5055 [R]</PartNumber>
         <Description>Transition, balsa, BT-55 to BT-50, reducing, 1.0 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.325</ForeOutsideDiameter>
@@ -10665,7 +10665,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-5055D</PartNumber>
         <Description>Transition, balsa, BT-50 to BT-55, increasing, 1.0 in len, drilled 0.75 in</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <Mass Unit="oz">0.23</Mass>
@@ -10681,7 +10681,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-5055D [R]</PartNumber>
         <Description>Transition, balsa, BT-55 to BT-50, reducing, 1.0 in len, drilled 0.75 in</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <Mass Unit="oz">0.23</Mass>
@@ -10699,7 +10699,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-5055L</PartNumber>
         <Description>Transition, balsa, BT-50 to BT-55, increasing, 1.5 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.976</ForeOutsideDiameter>
@@ -10714,7 +10714,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-5055 [R]</PartNumber>
         <Description>Transition, balsa, BT-55 to BT-50, reducing, 1.5 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.325</ForeOutsideDiameter>
@@ -10731,7 +10731,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-5055LD</PartNumber>
         <Description>Transition, balsa, BT-50 to BT-55, increasing, 1.5 in len, drilled 0.75 in</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <Mass Unit="oz">0.31</Mass>
@@ -10747,7 +10747,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-5055LD [R]</PartNumber>
         <Description>Transition, balsa, BT-55 to BT-50, reducing, 1.5 in len, drilled 0.75 in</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <Mass Unit="oz">0.31</Mass>
@@ -10766,7 +10766,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-5060C</PartNumber>
         <Description>Transition, balsa, BT-50 to BT-60, increasing, 0.75 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.976</ForeOutsideDiameter>
@@ -10781,7 +10781,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-5060C [R]</PartNumber>
         <Description>Transition, balsa, BT-60 to BT-50, reducing, 0.75 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.637</ForeOutsideDiameter>
@@ -10799,7 +10799,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-5060</PartNumber>
         <Description>Transition, balsa, BT-50 to BT-60, increasing, 2.0 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.976</ForeOutsideDiameter>
@@ -10814,7 +10814,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-5060 [R]</PartNumber>
         <Description>Transition, balsa, BT-60 to BT-50, reducing, 2.0 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.637</ForeOutsideDiameter>
@@ -10831,7 +10831,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-5060E</PartNumber>
         <Description>Transition, balsa, BT-50 to BT-60, ellipsoid, increasing, 2.0 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>ELLIPSOID</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.976</ForeOutsideDiameter>
@@ -10846,7 +10846,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-5060 [R]</PartNumber>
         <Description>Transition, balsa, BT-60 to BT-50, ellipsoid, reducing, 2.0 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>ELLIPSOID</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.637</ForeOutsideDiameter>
@@ -10863,7 +10863,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-5060M</PartNumber>
         <Description>Transition, balsa, BT-50 to BT-60, increasing, 1.5 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.976</ForeOutsideDiameter>
@@ -10878,7 +10878,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-5060M [R]</PartNumber>
         <Description>Transition, balsa, BT-60 to BT-50, reducing, 1.5 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.637</ForeOutsideDiameter>
@@ -10896,7 +10896,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-5065</PartNumber>
         <Description>Transition, balsa, BT-50 to PST-65, increasing, 2.0 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">0.976</ForeOutsideDiameter>
@@ -10911,7 +10911,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-5065 [R]</PartNumber>
         <Description>Transition, balsa, PST-65 to BT-50, reducing, 2.0 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.774</ForeOutsideDiameter>
@@ -10932,7 +10932,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-5260A</PartNumber>
         <Description>Transition, balsa, BT-52 to BT-60, increasing, 1.0 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.014</ForeOutsideDiameter>
@@ -10947,7 +10947,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-5260A [R]</PartNumber>
         <Description>Transition, balsa, BT-60 to BT-52, reducing, 1.0 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.637</ForeOutsideDiameter>
@@ -10965,7 +10965,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-5260C</PartNumber>
         <Description>Transition, balsa, BT-52 to BT-60, bi-conic, increasing, 3.75 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.014</ForeOutsideDiameter>
@@ -10980,7 +10980,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-5260C [R]</PartNumber>
         <Description>Transition, balsa, BT-60 to BT-52, bi-conic, reducing, 3.75 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.637</ForeOutsideDiameter>
@@ -11001,7 +11001,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-5560</PartNumber>
         <Description>Transition, balsa, BT-55 to BT-60, increasing, 1.0 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.325</ForeOutsideDiameter>
@@ -11016,7 +11016,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-5560 [R]</PartNumber>
         <Description>Transition, balsa, BT-60 to BT-55, reducing, 1.0 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.637</ForeOutsideDiameter>
@@ -11034,7 +11034,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-5560A</PartNumber>
         <Description>Transition, balsa, BT-55 to BT-60, increasing, 1.25 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.325</ForeOutsideDiameter>
@@ -11049,7 +11049,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-5560A [R]</PartNumber>
         <Description>Transition, balsa, BT-60 to BT-55, reducing, 1.25 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.637</ForeOutsideDiameter>
@@ -11066,7 +11066,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-5560L</PartNumber>
         <Description>Transition, balsa, BT-55 to BT-60, increasing, 2.4 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.325</ForeOutsideDiameter>
@@ -11081,7 +11081,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-5560L [R]</PartNumber>
         <Description>Transition, balsa, BT-60 to BT-55, reducing, 2.4 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.637</ForeOutsideDiameter>
@@ -11098,7 +11098,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-55-T35</PartNumber>
         <Description>Transition, balsa, BT-55 to T-35, increasing, 0.5 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.325</ForeOutsideDiameter>
@@ -11113,7 +11113,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-55-T35 [R]</PartNumber>
         <Description>Transition, balsa, T-35 to BT-55, reducing, 0.5 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="mm">35.0</ForeOutsideDiameter>
@@ -11134,7 +11134,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-T40-65</PartNumber>
         <Description>Transition, balsa, T-40 to PST-65, increasing, 0.5 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="mm">40.0</ForeOutsideDiameter>
@@ -11149,7 +11149,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-T40-65 [R]</PartNumber>
         <Description>Transition, balsa, PST-65 to T-40, reducing, 0.5 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.774</ForeOutsideDiameter>
@@ -11172,7 +11172,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-6065</PartNumber>
         <Description>Transition, balsa, BT-60 to PST-65, increasing, 0.5 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.637</ForeOutsideDiameter>
@@ -11187,7 +11187,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-6065 [R]</PartNumber>
         <Description>Transition, balsa, PST-65 to BT-60, reducing, 0.5 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.774</ForeOutsideDiameter>
@@ -11204,7 +11204,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-6070</PartNumber>
         <Description>Transition, balsa, BT-60 to BT-70, increasing, 1.5 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.637</ForeOutsideDiameter>
@@ -11219,7 +11219,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-6070 [R]</PartNumber>
         <Description>Transition, balsa, BT-70 to BT-60, reducing, 1.5 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">2.217</ForeOutsideDiameter>
@@ -11236,7 +11236,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-6080</PartNumber>
         <Description>Transition, balsa, BT-60 to BT-80, increasing, 2.25 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">1.637</ForeOutsideDiameter>
@@ -11251,7 +11251,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-6080 [R]</PartNumber>
         <Description>Transition, balsa, BT-80 to BT-60, reducing, 2.25 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">2.600</ForeOutsideDiameter>
@@ -11275,7 +11275,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-7080</PartNumber>
         <Description>Transition, balsa, BT-70 to BT-80, increasing, 2.25 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">2.217</ForeOutsideDiameter>
@@ -11290,7 +11290,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-7080 [R]</PartNumber>
         <Description>Transition, balsa, BT-80 to BT-70, reducing, 2.25 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">2.600</ForeOutsideDiameter>
@@ -11313,7 +11313,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-7080H</PartNumber>
         <Description>Transition, balsa, BTH-70 to BTH-80, increasing, 1.0 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">2.247</ForeOutsideDiameter>
@@ -11328,7 +11328,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>TA-7080H [R]</PartNumber>
         <Description>Transition, balsa, BTH-80 to BTH-70, reducing, 1.0 in len</Description>
-        <Material Type="BULK">Balsa, bulk, 7 kg/m3</Material>
+        <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
         <Shape>CONICAL</Shape>
         <Filled>true</Filled>
         <ForeOutsideDiameter Unit="in">2.640</ForeOutsideDiameter>
@@ -12027,7 +12027,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     </NoseCone>
 
     <Transition>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BC-2ET_nozzle, BC-2ET</PartNumber>
         <Description>Nozzle tail cone, balsa, BT-2, 0.24", Apollo escape tower 1/72, PN BC-2ET</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -13226,7 +13226,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-715CN_nozzle has exposed len 0.75", shoulder 0.375", pure cone, aft diam of cone 0.45" -->
     <Transition>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BC-715CN_nozzle [R]</PartNumber>
         <Description>Transition, balsa, ST-7, 0.75", conical nozzle, half of PN BTC-715CN</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -13334,7 +13334,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
          aft shoulder be the cylindrical section.  Mass and moments of inertia will be correct,
          aerodynamics not so much since OpenRocket doesn't model exposed shoulders. -->
     <Transition>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BC-721CN_nozzle [R]</PartNumber>
         <Description>Transition, balsa, ST-7, 0.75", compound nozzle, half of PN BTC-721CN</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -13412,7 +13412,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
          The converging section is 0.40" long with a minimum diam of 0.38", the diverging section
          is 0.85" long with an aft diam of 0.71" -->
     <Transition>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BC-726CN_nozzle [R]</PartNumber>
         <Description>Transition, balsa, ST-7, 1.25", deLaval nozzle, half of PN BC-726CN</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -14054,7 +14054,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
          From an actual Semroc Snipe Hunter: length 1.0", fore shoulder 3/8", aft shoulder 9/16"
          It is a little shorter than a regular BR-78 transition, and has shorter shoulders. -->
     <Transition>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BC-821SH_transition</PartNumber>
         <Description>Transition, balsa, ST-8, 0.82", increasing, half of PN BC-821SH</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -14069,7 +14069,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         <Length Unit="in">0.82</Length>
     </Transition>
     <Transition>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BC-821SH_transition [R]</PartNumber>
         <Description>Transition, balsa, ST-8, 0.82", reducing, half of PN BC-821SH</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -14512,7 +14512,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-08542 is 4.2" ogive, upscale of Centuri BC-524.  Length 4.2", shoulder len 0.69" (scaled dwg)  -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-08542</PartNumber>
       <Description>Nose cone, balsa, LT-085, 4.2", ogive, Centuri BC-524 upscale, PN BC-08542</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -14890,7 +14890,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
          The Semroc mass spec is different than the Estes one, and Semroc has it as 1.5" long
     -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-2</PartNumber>
       <Description>Nose cone, balsa, BNC-2, 1.5", Apollo capsule</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -14905,7 +14905,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     <!-- Semroc BNC-50AO is repro of Estes BNC-50AO, Honest John upper part, requiring a
          shroud for the lower section -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-50AD</PartNumber>
       <Description>Nose cone, balsa, BNC-50AD, 4.1", Honest John top shape</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -14918,7 +14918,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
       <Length Unit="in">4.1</Length>
     </NoseCone>
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-50AH</PartNumber>
       <Description>Nose cone, balsa, BNC-50AH, 4", elliptical</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -14931,7 +14931,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     </NoseCone>
     <!-- BNC-50AO is downscale of Estes BNC-55AO -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-50AO</PartNumber>
       <Description>Nose cone, balsa, BNC-50AO, 3.7", elliptical, BNC-55AO downscale</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -14943,7 +14943,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
       <Length Unit="in">3.7</Length>
     </NoseCone>
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-50AR</PartNumber>
       <Description>Nose cone, balsa, BNC-50AR, 5.5", rounded conical</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -14957,7 +14957,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     <!-- BNC-50BA (old BOMARC #0657) ref Semroc legacy website.
          conical shape looks like best match.  Semroc weight given as 0.05 oz -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-50BA</PartNumber>
       <Description>Nose cone, balsa, BNC-50BA, 1.3", ramjet nacelle, BOMARC</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -14974,7 +14974,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
          Scaling from scans on spacemodeling.com, length of the ramjet cone is 0.5".
     -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-50BC</PartNumber>
       <Description>Nose cone, balsa, BNC-50BC, 2.6", ramjet nacelle</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -14996,7 +14996,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
          of other parts.
     -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-50BD</PartNumber>
       <Description>Nose cone, balsa, BNC-50BD, 4.5", flared ogive, Firecat</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15010,7 +15010,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     </NoseCone>
     <!-- Semroc BNC-50C is upscale of Centuri PNC-71 -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-50C</PartNumber>
       <Description>Nose cone, balsa, BNC-50C, 1.3", conical</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15024,7 +15024,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     <!-- Semroc BNC-50CBB is rescale of Canaroc BN-200B.  Long conical shape makes it look
          like the "BB" suffix may mean Black Brant -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-50CBB</PartNumber>
       <Description>Nose cone, balsa, BNC-50CBB, 4.7", conical</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15037,7 +15037,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     </NoseCone>
     <!-- Semroc BNC-50CPB is rescale of Canaroc PN-200B.  -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-50CPB</PartNumber>
       <Description>Nose cone, balsa, BNC-50CPB, 2.1", bezier</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15050,7 +15050,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     </NoseCone>
     <!-- Semroc BNC-50G is a 5.85:1 ogive  -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-50G</PartNumber>
       <Description>Nose cone, balsa, BNC-50G, 5.7", ogive</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15064,7 +15064,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     <!-- Semroc BNC-50G3 is a 3:1 ogive -->
     <!-- SOURCE ERROR: BNC-50G3 Semroc legacy and new sites both describe BNC-50G3 as a #9 cone -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-50G3</PartNumber>
       <Description>Nose cone, balsa, BNC-50G3, 2.93", 3:1 ogive</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15078,7 +15078,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     <!-- Semroc BNC-50G4 is a 4:1 ogive -->
     <!-- SOURCE ERROR: BNC-50G4 Semroc legacy and new sites both describe BNC-50G4 as a #9 cone -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-50G4</PartNumber>
       <Description>Nose cone, balsa, BNC-50G4, 3.9", 4:1 ogive</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15092,7 +15092,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     <!-- Semroc BNC-50G5 is a 5:1 ogive
          SOURCE ERROR: BNC-50G5 Semroc legacy and new sites both describe this as a #9 cone -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-50G5</PartNumber>
       <Description>Nose cone, balsa, BNC-50G5, 4.9", 5:1 ogive</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15106,7 +15106,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     <!-- Semroc BNC-50HJ is Honest John flared ogive, no Estes counterpart
          Unlike BNC-50AO, this part has the full shape and does not need a shroud -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-50HJ</PartNumber>
       <Description>Nose cone, balsa, BNC-50HJ, 6.0", flared ogive, Honest John</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15120,7 +15120,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     </NoseCone>
     <!-- BNC-50JE is a slightly flared "capsule" shape (not Mercury/Gemini).  Not a repro -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-50JE</PartNumber>
       <Description>Nose cone, balsa, BNC-50JE, 4.1", capsule shape</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15134,7 +15134,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     </NoseCone>
     <!-- BNC-50J is an Estes repro -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-50J</PartNumber>
       <Description>Nose cone, balsa, BNC-50J, 1.37", elliptical</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15147,7 +15147,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     </NoseCone>
     <!-- Semroc BNC-50K is an Estes repro -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-50K</PartNumber>
       <Description>Nose cone, balsa, BNC-50K, 2.75", ogive</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15161,7 +15161,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     <!-- Semroc BNC-50KS is a BNC-50K but with "short shoulder".  Not a repro.
          *** actual shoulder length unknown but less than 0.5" *** -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-50KS</PartNumber>
       <Description>Nose cone, balsa, BNC-50KS, 2.75", ogive, short shoulder</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15175,7 +15175,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     <!-- Semroc BNC-50KP is a balsa version of Estes PNC-50K, which has a very slight
          shape difference from the BNC-50. -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-50KP</PartNumber>
       <Description>Nose cone, balsa, BNC-50KP, 2.75", ogive, PNC-50K shape</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15189,7 +15189,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     <!-- Semroc BNC-50MA is a Mercury/Atlas capsule.  Not a repro.  Mass from Semroc
          legacy site -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-50MA</PartNumber>
       <Description>Nose cone, balsa, BNC-50MA, 2.2", Mercury Atlas capsule</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15203,7 +15203,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     </NoseCone>
     <!-- Semroc BNC-50NA is for Nike Ajax -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-50NA</PartNumber>
       <Description>Nose cone, balsa, BNC-50NA, 6.0", conical, Nike Ajax</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15216,7 +15216,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     </NoseCone>
     <!-- Semroc BNC-50P is an upscale of the Estes Spaceman nose cone.  Mass from Semroc legacy site -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-50P</PartNumber>
       <Description>Nose cone, balsa, BNC-50P, 1.8", bulbous, Spaceman upscale</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15229,7 +15229,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
       <Length Unit="in">1.8</Length>
     </NoseCone>
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-50SF1</PartNumber>
       <Description>Nose cone, balsa, BNC-50SF1, 3.0", conical</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15242,7 +15242,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     </NoseCone>
     <!-- SEMROC BNC-50SF2 is a hybrid shape, approx 1" cone with 2" cylinder behind it.  Mass from Semroc legacy site -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-50SF1</PartNumber>
       <Description>Nose cone, balsa, BNC-50SF1, 3.0", cylinder-conical combo</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15255,7 +15255,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
       <Length Unit="in">3.0</Length>
     </NoseCone>
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-50SF3</PartNumber>
       <Description>Nose cone, balsa, BNC-50SF3, 3.0", ogive</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15267,7 +15267,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
       <Length Unit="in">3.0</Length>
     </NoseCone>
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-50SF4</PartNumber>
       <Description>Nose cone, balsa, BNC-50SF4, 3.0", elliptical</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15281,7 +15281,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     <!-- SEMROC BNC-50SF5 is a "straight" nose cone with a 90 degree flat face.  Mass from Semroc legacy site.
          To model drag better, you should create a very short cone with a 2.9" cylinder behind it. -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-50SF5</PartNumber>
       <Description>Nose cone, balsa, BNC-50SF5, 3.0", cylinder with flat face</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15297,7 +15297,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
          The actual shape (based on an actual Estes PNC-50V) is a 4.75" cone with a 1.0" cylinder section behind it.
          Mass for the balsa version from Semroc legacy site. -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-50V</PartNumber>
       <Description>Nose cone, balsa, BNC-50V, 5.75", conical-cylinder hybrid</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15310,7 +15310,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
       <Length Unit="in">5.75</Length>
     </NoseCone>
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-50X</PartNumber>
       <Description>Nose cone, balsa, BNC-50X, 3.25", elliptical</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15322,7 +15322,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
       <Length Unit="in">3.25</Length>
     </NoseCone>
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-50Y</PartNumber>
       <Description>Nose cone, balsa, BNC-50Y, 4.4", ogive</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15335,7 +15335,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     </NoseCone>
     <!-- SEMROC BNC-50YP is an exact match for the Estes PNC-50Y, which is 0.1" shorter than BNC-50Y.  -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-50YP</PartNumber>
       <Description>Nose cone, balsa, BNC-50YP, 4.3", ogive, PNC-50Y shape</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15355,7 +15355,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1016 is old Semroc NB-404, 1.6" ogive, shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BC-1016</PartNumber>
         <Description>Nose cone, balsa, ST-10, 1.6", ogive, old Semroc NB-404</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15373,7 +15373,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
          Shoulder len 0.75" (scaled dwg)
     -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BC-1016C, BC-1016CO</PartNumber>
         <Description>Nose cone, balsa, ST-10, 1.6", round tip cone, Centuri Orion downscale</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15387,7 +15387,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1017 is downscale of Centuri PNC-231, shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BC-1017</PartNumber>
         <Description>Nose cone, balsa, ST-10, 1.7", round tip cone, Centuri PNC-231 downscale</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15401,7 +15401,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1019 is upscale of old Semroc NB-204, shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BC-1019</PartNumber>
         <Description>Nose cone, balsa, ST-10, 1.9", ogive, upscale of old Semroc NB-204</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15416,7 +15416,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     <!-- BC-1020 is upscale of Estes Mark II nose cone, shoulder 0.69", spherical tip
          radius 0.4" (scaled dwg) -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BC-1020</PartNumber>
         <Description>Nose cone, balsa, ST-10, 2.0", spherical tip, upscale of Estes Mark II</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15430,7 +15430,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1020E is ellipsoid, equivalent to Centuri BC-101, shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BC-1020E</PartNumber>
         <Description>Nose cone, balsa, ST-10, 2.0", ellipsoid, Centuri BC-101</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15444,7 +15444,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1022 is upscale of Centuri PNC-70, shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BC-1022</PartNumber>
         <Description>Nose cone, balsa, ST-10, 2.2", ellipsoid, upscale of Centuri PNC-70</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15461,7 +15461,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     <!-- SOURCE ERROR: BC-1023 given length on legacy site is 2.3", but scaled dwg is 2.25".
          Looks like part number length rounding propagated into the description.  -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BC-1023</PartNumber>
         <Description>Nose cone, balsa, BC-1023, 2.25", ellipsoid, downscale of Coaster Centauri</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15477,7 +15477,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     <!-- SOURCE ERROR: BC-1023C given length on legacy site is 2.3", but scaled dwg is 2.25".
          Looks like part number length rounding propagated into the description.  -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BC-1023C</PartNumber>
         <Description>Nose cone, balsa, ST-10, 2.25", ogive, downscale of Centuri BC-1636</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15491,7 +15491,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1024 is old Semroc NB-406, shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BC-1024</PartNumber>
         <Description>Nose cone, balsa, ST-10, 2.4", ogive, old Semroc NB-406</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15507,7 +15507,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     <!-- SOURCE ERROR: BC-1028 length on legacy site is 2.8", but scaled dwg is 2.75".
          Looks like part number length rounding propagated into the description.  -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BC-1028</PartNumber>
         <Description>Nose cone, balsa, ST-10, 2.75", ogive, upscale of Estes BNC-5E</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15521,7 +15521,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-1029 is upscale of Estes BNC-50K.  Len 2.9", shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BC-1029</PartNumber>
         <Description>Nose cone, balsa, ST-10, 2.9", ogive, upscale of Estes BNC-50K</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15535,7 +15535,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1031 is upscale of Centuri PNC-73.  Length 3.1", shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BC-1031</PartNumber>
         <Description>Nose cone, balsa, ST-10, 3.1", ellipsoid, upscale of Centuri PNC-73</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15549,7 +15549,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1032 is generic 3:1 ogive.  Length 3.2", shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BC-1032</PartNumber>
         <Description>Nose cone, balsa, ST-10, 3.2", 3:1 ogive</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15563,7 +15563,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1033 is downscale of Estes PNC-80K.  Len 3.3", shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BC-1033</PartNumber>
         <Description>Nose cone, balsa, ST-10, 3.3", ogive, downscale of Estes PNC-80K</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15578,7 +15578,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     <!-- BC-1037 listed on old Semroc site as "Centuri BC-10x".  Len 3.7", shoulder len 0.69" (scaled dwg).
          It no longer appears on the 2018 Semroc/e-rockets site. *** what was this? *** -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BC-1037</PartNumber>
         <Description>Nose cone, balsa, ST-10, 3.7", ogive, Centuri BC-10x</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15592,7 +15592,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1037N is upscale of Estes BNC-30N.  Length 3.7", shoulder len 0.69" (scaed dwg) -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BC-1037N</PartNumber>
         <Description>Nose cone, balsa, ST-10, 3.7", ogive, upscale of Estes BNC-30N</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15607,7 +15607,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     <!-- BC-1038 is a capsule shape, Centuri BC-108.  Len 4.13", shoulder 0.69" (scaled dwg) -->
     <!-- SOURCE ERROR:  BC-1038 given length on legacy site is 3.8", but scaled drawing gives 4.13". -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BC-1038</PartNumber>
         <Description>Nose cone, balsa, ST-10, 4.13", caapsule, Centuri BC-108</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15622,7 +15622,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1038B is a fat ogive, downscale of Centuri BC-175B, len 3.8", shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BC-1038B</PartNumber>
         <Description>Nose cone, balsa, ST-10, 3.8", fat ogive, downscale of Centuri BC-175B</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15636,7 +15636,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1039 is Centuri BC-103, old Semroc NB-410, len 3.9", shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BC-1039</PartNumber>
         <Description>Nose cone, balsa, ST-10, 3.9", ogive, Centuri BC-103, old Semroc NB-410</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15653,7 +15653,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
          Length 4.0", shoulder len 0.65", each "hat" section is 0.75" long (scaled dwg 130ppi)
     -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BC-1040</PartNumber>
         <Description>Nose cone, balsa, ST-10, 4.0", special zig-zag</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15668,7 +15668,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1041 is Centuri BC-105, cone with 0.63" cylinder aft. Len 4.1", shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BC-1041</PartNumber>
         <Description>Nose cone, balsa, ST-10, 4.1", conical+cylinder, Centuri BC-105</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15682,7 +15682,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1041G is upscale of Centuri PNC-76 blowmolded cone.  Len 4.1", shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BC-1041G</PartNumber>
         <Description>Nose cone, balsa, ST-10, 4.1", ellipsoid, Centuri PNC-76 upscale, PN BC-1041GG</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15696,7 +15696,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1041P is Centuri PNC-103.  Len 4.1", shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BC-1041P</PartNumber>
         <Description>Nose cone, balsa, ST-10, 4.1", ellipsoid, Centuri PNC-103 shape, PN BC-1041P</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15710,7 +15710,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1042 is generic 4:1 ogive.  Len 4.2", shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BC-1042</PartNumber>
         <Description>Nose cone, balsa, ST-10, 4.2", 4:1 ogive</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15724,7 +15724,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1042AC is downscale of Estes BNC-55AC.  Len 4.2", shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BC-1042AC</PartNumber>
         <Description>Nose cone, balsa, ST-10, 4.2", secant ogive, Estes BNC-55AC downscale, PN BC-1042AC</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15740,7 +15740,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
          Used ellipsoid shape to get best moments of inertia. -->
     <!-- SOURCE ERROR: BC-1043 length given on legacy site as 4.3", but drawing scales to 4.46" -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BC-1043</PartNumber>
         <Description>Nose cone, balsa, ST-10, 4.46", flared double cone, Centuri PNC-102 shape, PN BC-1043</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15755,7 +15755,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1045 is generic 4.5" ogive, no reference given.  Len 4.5", shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BC-1045</PartNumber>
         <Description>Nose cone, balsa, ST-10, 4.5", ogive</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15772,7 +15772,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
          This is not the exact same nose cone shape as BC-1045.
     -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BC-1045RR</PartNumber>
         <Description>Nose cone, balsa, ST-10, 4.65", ogive, nose plus tube coupler</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15786,7 +15786,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1045P is Centuri PNC-106, ogive, len 4.5", shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BC-1045P</PartNumber>
         <Description>Nose cone, balsa, ST-10, 4.5", rounded ogive, Centuri PNC-106 shape, PN BC-1045P</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15802,7 +15802,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
          Length is 4.98", shoulder len 0.69" (scaled dwg) -->
     <!-- SOURCE ERROR:  BC-1048 length given on legacy site as 4.8", but drawing scales to 4.98" -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BC-1048</PartNumber>
         <Description>Nose cone, balsa, ST-10, 4.98", rounded tip ogive</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15817,7 +15817,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     <!-- BC-1050 is a generic slightly rounded tip ogive.  Semroc legacy says "Centuri PNC-10x"
          Length 5.0", shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BC-1050</PartNumber>
         <Description>Nose cone, balsa, ST-10, 5.0", rounded-tip ogive</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15831,7 +15831,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1051 is 5.1" cone, old Semroc NB-413.  Len 5.1", shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BC-1051</PartNumber>
         <Description>Nose cone, balsa, ST-10, 5.1", conical, old Semroc NB-413</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15845,7 +15845,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1052 is 5.2" ogive, Centuri BC-107.  Len 5.2", shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BC-1052</PartNumber>
         <Description>Nose cone, balsa, ST-10, 5.2", ogive, Centuri BC-107</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15859,7 +15859,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1056 is 5.6" ogive, upscale of Estes BNC-5W.  Len 5.6", shoulder len 0.62" (scaled dwg) -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BC-1056</PartNumber>
         <Description>Nose cone, balsa, ST-10, 5.6", ogive, upscale of Estes BNC-5W</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15875,7 +15875,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
          The deviation from simple conical doesn't justify a mass override here. 
          Len 6.3", shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BC-1063</PartNumber>
         <Description>Nose cone, balsa, BC-1063, 6.3", flared conical, 1/16 Nike Smoke</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15895,7 +15895,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     <!-- BNC-51MR is a 1/70 scale Mercury-Redstone capsule for BT-51.
          Conical shape is approximate.  Mass is from Semroc legacy site. -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-51MR</PartNumber>
       <Description>Nose cone, balsa, BNC-50MR, 1.79", Mercury capsule</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15916,7 +15916,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     <!-- SEMROC BNC-52AG is a 1/242 scale Apollo CM/SM/LM section.  Shape is complex so I approximate
          as conical and apply the mass from theSemroc legacy site.  Shoulder len from Estes BNC-52AG. -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-52AG</PartNumber>
       <Description>Nose cone, balsa, BNC-52AG, 3.25", 1/242 Apollo CM/SM/LM section</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15931,7 +15931,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- SEMROC BNC-52G matches the Estes Thor Agena B capsule.  Mass from Semroc legacy site. -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-52G</PartNumber>
       <Description>Nose cone, balsa, BNC-52G, 1.25", Thor Agena B capsule</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15951,7 +15951,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     <!-- BC-1121 is rounded tip cone, Cineroc shape downscale.  Len 2.15", shoulder len 0.69" (scaled dwg)  -->
     <!-- SOURCE ERROR: BC-1121 len is given as 2.1" but drawing scales to 2.15" -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1121</PartNumber>
       <Description>Nose cone, balsa, ST-11, 2.15", rounded tip cone, Cineroc shape downscale</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15965,7 +15965,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1122 is downscale of old Semroc NB-808.  Len 2.2", shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1122</PartNumber>
       <Description>Nose cone, balsa, ST-11, 2.2", ogive, downscale of old Semroc NB-808</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15980,7 +15980,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     <!-- BC-1135 is 3.55" ellipsoid, FSI HNC-101 shape.  Len 3.55", shoulder len 0.83" (scaled dwg) -->
     <!-- SOURCE ERROR: BC-1135 len is given as 3.5" but drawing scales to 3.55" -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1135</PartNumber>
       <Description>Nose cone, balsa, ST-11, 3.55", ellipsoid, FSI HNC-101 shape</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -15994,7 +15994,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1135G is generic 3:1 ogive.  Len 3.5", shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1135G</PartNumber>
       <Description>Nose cone, balsa, ST-11, 3.5", 3:1 ogive</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16008,7 +16008,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1147 is generic 4:1 ogive.  Len 4.7", shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1147</PartNumber>
       <Description>Nose cone, balsa, ST-11, 4.7", 4:1 ogive</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16022,7 +16022,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1149 is downscale of Estes PNC-55AC.  Len 4.9", shoulder len 0.82" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1149</PartNumber>
       <Description>Nose cone, balsa, ST-11, 4.9", secant ogive, downscale of Estes PNC-55AC</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16037,7 +16037,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     <!-- BC-1150 is a 5.0" curved capsule.  Conical is decent approximation for mass.
          Len 5.0", shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1150</PartNumber>
       <Description>Nose cone, balsa, ST-11, 5.0", capsule shape</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16052,7 +16052,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     <!-- BC-1155 is a conic with short cylindrical section aft, 1/10 WAC Corporal
          Len 5.5", shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1155</PartNumber>
       <Description>Nose cone, balsa, ST-11, 5.5", 1/10 scale WAC Corporal</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16067,7 +16067,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     <!-- BC-1159 is generic 5:1 ogive.  Len 5.81", shoulder len 0.69" (scaled dwg) -->
     <!-- SOURCE ERROR: BC-1159 len is given as 5.9" but drawing scales to 5.81" -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1159</PartNumber>
       <Description>Nose cone, balsa, ST-11, 5.81", 5:1 ogive</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16081,7 +16081,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1180 is generic 8.0" ogive.  Len 8.0", shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1180</PartNumber>
       <Description>Nose cone, balsa, ST-11, 8.0", ogive</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16099,7 +16099,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
          Length and shoulder length scaled from drawing on legacy site.
     -->
     <Transition>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BTC-11SC [R]</PartNumber>
         <Description>Transition, balsa, BTC-11SC, tailcone, drilled 18mm, PN BTC-11SC</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16122,7 +16122,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-11518 is 1.8" ellipsoid.  Len 1.8", shoulder len 0.82" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-11518</PartNumber>
       <Description>Nose cone, balsa, LT-115, 1.8", ellipsoid, PN BC-11518</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16136,7 +16136,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-11524 is 2.4" ellipsoid (called Bezier).  Len 2.4", shoulder len 0.82" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-11524</PartNumber>
       <Description>Nose cone, balsa, LT-115, 2.4", ellipsoid, PN BC-11524</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16150,7 +16150,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-11534 is a 3.4" ogive. Len 3.4", shoulder len 0.58" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-11534</PartNumber>
       <Description>Nose cone, balsa, LT-115, 3.4", ogive, PN BC-11534</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16165,7 +16165,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     <!-- BC-11535 is 3.5" round tip ogive (called Bezier), clone of Centuri BC-115A
          Len 3.5", shoulder len 0.82" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-11535</PartNumber>
       <Description>Nose cone, balsa, LT-115, 3.5", round tip ogive, Centuri BC-115A, PN BC-11535</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16179,7 +16179,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-11544 is a 4.4" ogive.  Len 4.4", shoulder len 0.82" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-11544</PartNumber>
       <Description>Nose cone, balsa, LT-115, 4.4", ogive, PN BC-11544</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16193,7 +16193,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-11546 is a 4.6" ogive.  Len 4.6", shoulder len 0.82" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-11546</PartNumber>
       <Description>Nose cone, balsa, LT-115, 4.6", ogive, PN BC-11546</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16207,7 +16207,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-11549 is 4.9" round tip ogive, clone of Centuri BC-115B.  Len 4.9", shoulder len 0.82" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-11549</PartNumber>
       <Description>Nose cone, balsa, LT-115, 4.9", round tip ogive, Centuri BC-115B, PN BC-11549</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16222,7 +16222,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     <!-- BC-11554 is a 5.4" ogive, designated "Nike Herc 13mm".  Unclear how this differs from BC-11554G. 
          Len 5.4", shoulder len 0.82" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-11554</PartNumber>
       <Description>Nose cone, balsa, LT-115, 5.4", ogive, Nike Herc 13mm, PN BC-11554</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16236,7 +16236,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-11554G is a 5.4" ogive.  Len 5.4", shoulder len 0.82" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-11554G</PartNumber>
       <Description>Nose cone, balsa, LT-115, 5.4", ogive, PN BC-11554G</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16250,7 +16250,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-11560 is a 6.0" ogive.  Len 6.0", shoulder len 0.82" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-11560</PartNumber>
       <Description>Nose cone, balsa, LT-115, 6.0", ogive, PN BC-11560</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16269,7 +16269,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- SEMROC BNC-55AA is clone of Estes BNC-55A -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-55AA</PartNumber>
         <Description>Nose cone, balsa, BNC-55AA, 3.125", ogive</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16283,7 +16283,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- SEMROC BNC-55AC is clone of Estes BNC-55AC -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-55AC</PartNumber>
         <Description>Nose cone, balsa, BNC-55AC, 5.375", ogive</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16297,7 +16297,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- SEMROC BNC-55ACP is modified clone of Estes BNC-55AC with pointed nose tip -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-55ACP</PartNumber>
         <Description>Nose cone, balsa, BNC-55ACP, 5.375", ogive, pointed tip BNC-55AC</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16316,7 +16316,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
          away from any OpenRocket shape that we use a mass override.  Shoulder len estimated from Semroc drawing.
     -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-55AM</PartNumber>
         <Description>Nose cone, balsa, BNC-55AM, 4.2", rounded cone</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16332,7 +16332,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- SEMROC BNC-55AO is clone of Estes BNC-55AO (K-48 Bandit etc.).  OR built in file has typo as "BNC-55AD" -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-55AO</PartNumber>
         <Description>Nose cone, balsa, BNC-55AO, 5.0", elliptical</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16346,7 +16346,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- SEMROC BNC-55B is upscale of Estes BNC-20B.  Shoulder length scaled from BNC-20B 5/16" -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-55AB</PartNumber>
         <Description>Nose cone, balsa, BNC-55B, 3.0", elliptical</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16362,7 +16362,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
          Semroc drawing
     -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-55BE</PartNumber>
         <Description>Nose cone, balsa, BNC-55BE, 1.75", dual conic (Vostok)</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16376,7 +16376,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- SEMROC BNC-55CO is downscale of Centuri PNC-231.  Shoulder len estimated from Semroc drawing -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-55CO</PartNumber>
         <Description>Nose cone, balsa, BNC-55CO, 2.2", rounded conical, Centuri PNC-231 downscale</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16392,7 +16392,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
          Ellipsoid is pretty good shape approximation for mass/CG
     -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-55CT</PartNumber>
         <Description>Nose cone, balsa, BNC-55CT, 2.7", ellipsoid/conic, Centuri PNC-132 shape</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16406,7 +16406,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- SEMROC BNC-55D is clone of Estes PNC-55D ramjet nacelle (Sea Dart).  Shape is approximation, mass override used. -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-55D</PartNumber>
         <Description>Nose cone, balsa, BNC-55D, 3.7", ramjet nacelle, Sea Dart PNC-55D shape</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16425,7 +16425,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
          never to date mada a Delta II scale kit. You could model the aerodynamics of this correctly with 3 separate
          components.  Here I make it to the actual size, but OR will complain about size discontinuity. -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-55D2</PartNumber>
         <Description>Nose cone, balsa, BNC-55D2, 3.0", Delta II payload fairing shape</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16442,7 +16442,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
          drawing the shoulder is considerably shorter than the Estes one so I estimated it at 5/8" long.
     -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-55EX</PartNumber>
         <Description>Nose cone, balsa, BNC-55EX, 3.375", ogive, Estes PNC-55EX shape</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16456,7 +16456,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- SEMROC BNC-55F is a clone of Estes BNC-55F (V-2).  Dimensions from the Estes version. -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-55F</PartNumber>
         <Description>Nose cone, balsa, BNC-55F, 3.875", ogive</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16474,7 +16474,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
          OpenRocket cannot model the drilled geometry for mass/inertia so I have to use a mass override.
     -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-55FD</PartNumber>
         <Description>Nose cone, balsa, BNC-55FD, 3.875", ogive, drilled</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16489,7 +16489,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- SEMROC BNC-55G3 is a pure 3:1 ogive.  No Estes equivalent. Shoulder length estimated. -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-55G3</PartNumber>
         <Description>Nose cone, balsa, BNC-55G3, 4.0", ogive</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16503,7 +16503,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- SEMROC BNC-55G4 is a pure 4:1 ogive.  No Estes equivalent. Shoulder length estimated. -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-55G4</PartNumber>
         <Description>Nose cone, balsa, BNC-55G4, 5.3", ogive</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16517,7 +16517,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- SEMROC BNC-55G5 is a pure 5:1 ogive.  No Estes equivalent. Shoulder length estimated. -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-55G5</PartNumber>
         <Description>Nose cone, balsa, BNC-55G5, 6.6", ogive</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16531,7 +16531,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- SEMROC BNC-55GT is a 1/90 scale Gemini capsule. No Estes equivalent. -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-55GT</PartNumber>
         <Description>Nose cone, balsa, BNC-55GT, 2.3", Gemini-Titan capsule</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16546,7 +16546,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- SEMROC BNC-55HJ (Honest John) is equivalent to Estes PNC-55HJ (for which we have no info) -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-55HJ</PartNumber>
         <Description>Nose cone, balsa, BNC-55HJ, 8.4", flared ogive, Honest John shape</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16562,7 +16562,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     <!-- SEMROC BNC-55KP is used in the Semroc Der V-1.5, which is a downscale of Estes Der V-3.
          ref Der V-1.5 instructions on Semroc site -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-55KP</PartNumber>
         <Description>Nose cone, balsa, BNC-55KP, 4.2", ogive, Estes Der V-3 downscale</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16578,7 +16578,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
          The legacy Semroc site erroneously lists this as "Haack-Van Karden"
      -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-55HV</PartNumber>
         <Description>Nose cone, balsa, BNC-55HV, 3.8", Haack/von Karman</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16592,7 +16592,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- SEMROC BNC-55LP is a downscale of the Semroc BNC-60LP / Estes PNC-60L -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-55LP</PartNumber>
         <Description>Nose cone, balsa, BNC-55LP, 3.0", ellipsoid, Estes PNC-60L downscale</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16608,7 +16608,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
          there are no clues in Brohm, and there are no other online references.
     -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-55PT</PartNumber>
         <Description>Nose cone, balsa, BNC-55PT, 6.2", tri-conic</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16626,7 +16626,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
          Actual diam is 1.39" though Semroc legacy site doesn't reflect that.
     -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-55SC</PartNumber>
         <Description>Nose cone, balsa, BNC-55SC, 7.4", LTV Scout payload fairing</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16641,7 +16641,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- SEMROC BNC-55SH is ogive for scale Sandhawk (per Semroc legacy site).  May be equivalent to Estes PNC-55EK. -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-55SH</PartNumber>
         <Description>Nose cone, balsa, BNC-55SH, 3.5", ogive, Sandhawk scale</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16655,7 +16655,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- SEMROC BNC-55V is "V2 scale" ogive 4.3" long. Compare to BNC-55F at 3.8" long.  No Estes equivalent known.  -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-55V</PartNumber>
         <Description>Nose cone, balsa, BNC-55V, 4.3", ogive, V-2 scale</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16669,7 +16669,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- SEMROC BNC-55VD is "V2 scale" ogive 4.3" long, drilled to about .75" diam x 2" long. No Estes equivalent known.  -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-55VD</PartNumber>
         <Description>Nose cone, balsa, BNC-55V, 4.3", ogive, drilled, V-2 scale</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16684,7 +16684,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- SEMROC BNC-55WC is WAC Corporal scale shape.  It is conical with a short (3/4" or so) cylindrical section at rear. -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-55WC</PartNumber>
         <Description>Nose cone, balsa, BNC-55WC, 6.2", conical+cylinder, WAC Corporal scale</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16698,7 +16698,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- SEMROC BNC-55X is upscale of Estes BNC-50X -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-55X</PartNumber>
         <Description>Nose cone, balsa, BNC-55X, 4.1", ellipsoid, BNC-50X upscale</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16712,7 +16712,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- SEMROC BNC-55Y is upscale of Estes BNC-50Y -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-55X</PartNumber>
         <Description>Nose cone, balsa, BNC-55Y, 5.9", ogive, BNC-50Y upscale</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16727,7 +16727,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     <!-- SEMROC BTC-55VZ is tailcone drilled through for 18mm motor tube.  Estes BTC-55Z had 0.5" shoulder.
          Has smoother taper than BTC-55Z and (per Semroc legacy site) is 0.01 oz lighter than BTC-55Z. -->
     <Transition>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BTC-55VZ [R]</PartNumber>
         <Description>Transition, balsa, BTC-55VZ, reducing</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16747,7 +16747,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
          Differs from Semroc BTC-55VZ in having "heavy taper" (per new Semroc site) and is slightly heavier than BTC-55VZ.
     -->
     <Transition>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BTC-55Z [R]</PartNumber>
         <Description>Transition, balsa, BTC-55Z, reducing</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16772,7 +16772,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1315 is Centuri Orion shape.  Len 1.5", shoulder len 0.58" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1315</PartNumber>
       <Description>Nose cone, balsa, ST-13, 1.5", rounded tip cone, Centuri Orion shape</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16786,7 +16786,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1319 is Centuri BC-130.  Len 1.9", shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1319</PartNumber>
       <Description>Nose cone, balsa, ST-13, 1.9", ellipsoid, Centuri BC-130</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16801,7 +16801,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     <!-- BC-1321 is 2.1" ellipsoid, no cross-compatibility specified.  
          Len 2.1", shoulder len 0.58" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1321</PartNumber>
       <Description>Nose cone, balsa, ST-13, 2.1", ellipsoid</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16815,7 +16815,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1327 is Centuri PNC-132 shape, 2.7" length, shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1327</PartNumber>
       <Description>Nose cone, balsa, ST-13, 2.7", ellipsoid, Centuri PNC-132 shape, PN BC-1327</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16829,7 +16829,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1327S is same as BC-1327, 2.7" len with shorter 0.48" shoulder (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1327S</PartNumber>
       <Description>Nose cone, balsa, ST-13, 2.7", ellipsoid, short shoulder, Centuri PNC-132 shape</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16844,7 +16844,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     <!-- BC-1328 is upscale of Centuri BC-101.  Len 2.75", shoulder len 0.69" (scaled dwg) -->
     <!--- SOURCE ERROR: BC-1328 length given as 2.8", but drawing scales to 2.75" -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1328</PartNumber>
       <Description>Nose cone, balsa, ST-13, 2.75", ellipsoid, upscale of Centuri BC-101</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16858,7 +16858,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1329 is Centuri BC-132.  Len 2.9", shoulder 0.69" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1329</PartNumber>
       <Description>Nose cone, balsa, ST-13, 2.9", ogive, Centuri BC-132</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16872,7 +16872,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1330 is 3.0" generic ogive, shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1330</PartNumber>
       <Description>Nose cone, balsa, ST-13, 3.0", ogive</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16886,7 +16886,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1331 is generic 3.1" elliptical, shoulder 0.69" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1331</PartNumber>
       <Description>Nose cone, balsa, ST-13, 3.1", ellipsoid</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16900,7 +16900,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1336 is FSI NC-123 shape, len 3.6", shoulder 0.72" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1336</PartNumber>
       <Description>Nose cone, balsa, ST-13, 3.6", ogive, FSI NC-123 shape</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16914,7 +16914,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1338 is upscale of Estes BNC-50K, len 3.8", shoulder 0.57" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1338</PartNumber>
       <Description>Nose cone, balsa, ST-13, 3.8", ogive, upscale of Estes BNC-50K</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16928,7 +16928,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1338B is downscale of Centuri BC-225B, shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1338B</PartNumber>
       <Description>Nose cone, balsa, ST-13, 3.8", ogive, downscale of Centuri BC-225B</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16942,7 +16942,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1339 is Centuri BC-135 clone, len 3.9", shoulder 0.69" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1339</PartNumber>
       <Description>Nose cone, balsa, ST-13, 3.9", rounded ogive, Centuri BC-135, PN BC-1339</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16956,7 +16956,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1340 is a 4.0" slightly flared ogive (1.5" diam), shoulder 0.69" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1340</PartNumber>
       <Description>Nose cone, balsa, ST-13, 4.0", flared ogive</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16971,7 +16971,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1340D is a BC-1340 drilled with .75" x 2.0" deep for weight (ref Semroc legacy site scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1340D</PartNumber>
       <Description>Nose cone, balsa, ST-13, 4.0", flared ogive, drilled 0.75" x 2.0" deep</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -16986,7 +16986,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1340G is a generic 3:1 ogive, len 4.0", shoulder 0.69" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1340G</PartNumber>
       <Description>Nose cone, balsa, ST-13, 4.0", 3:1 ogive</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17001,7 +17001,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     <!-- BC-1344 is a generic 4.4" long ogive, no cross-compatibility specified.
          Len 4.4", shoulder 0.69" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1344</PartNumber>
       <Description>Nose cone, balsa, ST-13, 4.4", ogive</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17015,7 +17015,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1345 is upscale of Estes BNC-50X elliptical, len 4.5", shoulder 0.69" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1345</PartNumber>
       <Description>Nose cone, balsa, ST-13, 4.5", ellipsoid, upscale of Estes BNC-50X</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17029,7 +17029,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1349 is upscale of Centuri PNC-83, len 4.9", shoulder 0.69" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1349</PartNumber>
       <Description>Nose cone, balsa, ST-13, 4.9", ellipsoid, upscale of Centuri PNC-83</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17045,7 +17045,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     <!-- SOURCE ERROR: BC-1350 appears in the legacy site table http://www.semroc.com/Store/Products/NoseCones.asp
          but does not appear in the All > nose cones > balsa parts product query -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1350</PartNumber>
       <Description>Nose cone, balsa, ST-13, 5.0", ellipsoid</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17059,7 +17059,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1352 is generic 5.25" ellipsoid, shoulder 0.69" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1352</PartNumber>
       <Description>Nose cone, balsa, ST-13, 5.25", ellipsoid</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17073,7 +17073,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1353 is 5.3" secant ogive, shoulder 0.69" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1353</PartNumber>
       <Description>Nose cone, balsa, ST-13, 5.3", secant ogive</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17087,7 +17087,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1353F is 5.3" elliptical, FSI NC-121 shape, shoulder 0.97" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1353F</PartNumber>
       <Description>Nose cone, balsa, ST-13, 5.3", ellipsoid, FSI NC-121 shape</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17101,7 +17101,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1354 is generic 4:1 ogive, len 5.4", shoulder 0.69" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1354</PartNumber>
       <Description>Nose cone, balsa, ST-13, 5.4", 4:1 ogive</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17115,7 +17115,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1354C 5.4" ellipsoid is upscale of Centuri BC-76, shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1354C</PartNumber>
       <Description>Nose cone, balsa, ST-13, 5.4", ellipsoid, upscale of Centuri BC-76</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17129,7 +17129,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1364 6.4" rounded ogive is Centuri PNC-136 clone, shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1364</PartNumber>
       <Description>Nose cone, balsa, ST-13, 6.4", rounded tip ogive, Centuri PNC-136 shape, PN BC-1364</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17144,7 +17144,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     <!-- BC-1364A rounded tip ogive is Estes PNC-56A clone (see extensive notes in Estes file about PNC-56's)
          Len 6.4", shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1364A</PartNumber>
       <Description>Nose cone, balsa, ST-13, 6.4", ellipsoid</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17158,7 +17158,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1367 is generic 5:1 ogive, len 6.7", shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1367</PartNumber>
       <Description>Nose cone, balsa, ST-13, 6.7", 5:1 ogive</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17172,7 +17172,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1371 7.1" ogive is upscale of Centuri BC-89, shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1371</PartNumber>
       <Description>Nose cone, balsa, ST-13, 7.1", ogive, upscale of Centuri BC-89</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17190,7 +17190,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-12525 is 2.5" ogive.  Len 2.5", shoulder len 0.82" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-12525</PartNumber>
       <Description>Nose cone, balsa, LT-125, 2.5", ogive, PN BC-12525</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17205,7 +17205,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     <!-- BC-12536 is 3.6" slightly rounded tip ogive, clone of Centuri BC-125A.
          Len 3.6", shoulder len 0.82" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-12536</PartNumber>
       <Description>Nose cone, balsa, LT-125, 3.6", ogive, Centuri BC-125A, PN BC-12536</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17219,7 +17219,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-12545 is 4.5" ellipsoid, upscale of Estes BNC-50X.  Len 4.5", shoulder len 0.82" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-12545</PartNumber>
       <Description>Nose cone, balsa, LT-125, 4.5", ellipsoid, upscale of Estes BNC-50X, PN BC-12545</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17233,7 +17233,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-12548 is 4.8" ogive, upscale of Centuri BC-727.  Len 4.8", shoulder len 0.82" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-12548</PartNumber>
       <Description>Nose cone, balsa, LT-125, 4.8", ogive, upscale of Centuri BC-727, PN BC-12548</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17247,7 +17247,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-12553 is 5.3" rounded ogive (closer to ellipsoid).  Len 5.3", shoulder len 0.82" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-12553</PartNumber>
       <Description>Nose cone, balsa, LT-125, 5.3", ellipsoid, PN BC-12553</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17261,7 +17261,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-12555 is 5.5" ogive, clone of Centuri BC-125B.  Len 5.5", shoulder len 0.82" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-12555</PartNumber>
       <Description>Nose cone, balsa, LT-125, 5.5", ogive, Centuri BC-125B, PN BC-12555</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17275,7 +17275,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-12558 is 5.8" ogive, upscale of Centuri BC-733. Len 5.8", shoulder len 0.82" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-12558</PartNumber>
       <Description>Nose cone, balsa, LT-125, 5.8", ogive, Centuri BC-733 upscale, PN BC-12558</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17289,7 +17289,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-12561 is 6.1" ogive, upscale of Centuri BC-735.  Len 6.1", shoulder len 0.82" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-12561</PartNumber>
       <Description>Nose cone, balsa, LT-125, 6.1", ogive, Centuri BC-735 upscale, PN BC-12561</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17303,7 +17303,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-125105 is 10.5" flared ogive, upscale of Centuri BC-760.  Len 10.5", shoulder 0.82" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-125105</PartNumber>
       <Description>Nose cone, balsa, LT-125, 10.5", flared ogive, Centur BC-760 upscale, PN BC-125105</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17323,7 +17323,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-58A8 8.0" ogive described as "Arcas 1/3 scale #8".  See also BNC-58AC for another Arcas variant. -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-58A8</PartNumber>
       <Description>Nose cone, balsa, BT-58, 8.0", ogive, PN BNC-58A8, Arcas 1/3 scale</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17337,7 +17337,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-58AR 8.8" ogive described as "1/4 scale Arcon" -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-58AR</PartNumber>
       <Description>Nose cone, balsa, BT-58, 8.8", ogive, PN BNC-58AR, Arcon 1/4 scale</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17351,7 +17351,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-58AB 8.8" ogive described as "Deci-Scale Aerobee Standard" -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-58AB</PartNumber>
       <Description>Nose cone, balsa, BT-58, 8.8", ogive, PN BNC-58AB, Aerobee standard deci-scale</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17365,7 +17365,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-58AC 6.1" secant ogive described as "secant conical...For 1/3 Scale Arcas" -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-58AC</PartNumber>
       <Description>Nose cone, balsa, BT-58, 6.1", secant ogive, PN BNC-58AC, Arcas 1/3 scale</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17379,7 +17379,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-58AF 4.5" conical described as "For 1/10 Scale Astrobee F" -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-58AF</PartNumber>
       <Description>Nose cone, balsa, BT-58, 4.5", conical, PN BNC-58AF, Astrobee F 1/10 scale</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17393,7 +17393,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-58AP 1.2" conical capsule described as "1.2 inch capsule", PN implies Apollo capsule -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-58AP</PartNumber>
       <Description>Nose cone, balsa, BT-58, 1.2", conical, PN BNC-58AP, Apollo capsule shape</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17407,7 +17407,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-58B 3.5" ellipsoid -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-58B</PartNumber>
       <Description>Nose cone, balsa, BT-58, 3.5", ellipsoid, PN BNC-58B</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17421,7 +17421,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-58G 2.2" rounded conical capsule described as "upscale of BNC-52G" -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-58G</PartNumber>
       <Description>Nose cone, balsa, BT-58, 2.2", capsule, PN BNC-58G, upscale of BNC-52G</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17435,7 +17435,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-58G3 is 3:1 5.3" ogive -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-58G3</PartNumber>
       <Description>Nose cone, balsa, BT-58, 5.3", ogive, PN BNC-58G3, 3:1 ogive</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17449,7 +17449,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-58G4 is 4:1 6.9" ogive -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-58G4</PartNumber>
       <Description>Nose cone, balsa, BT-58, 6.9", ogive, PN BNC-58G4, 4:1 ogive</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17463,7 +17463,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-58G5 is 5:1 8.4" ogive -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-58G4</PartNumber>
       <Description>Nose cone, balsa, BT-58, 8.4", ogive, PN BNC-58G5, 5:1 ogive</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17477,7 +17477,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-58HD is 4.6" ogive -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-58HD</PartNumber>
       <Description>Nose cone, balsa, BT-58, 4.6", ogive, PN BNC-58HD</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17491,7 +17491,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-58MA is 4.0" Mercury Atlas capsule -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-58MA</PartNumber>
       <Description>Nose cone, balsa, BT-58, 4.0", Mercury Atlas Capsule, PN BNC-58MA</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17506,7 +17506,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-58MX is 6.4" ogive -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-58MX</PartNumber>
       <Description>Nose cone, balsa, BT-58, 6.4", ogive, PN BNC-58MX</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17520,7 +17520,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-58P is 3.0" secant ogive -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-58P</PartNumber>
       <Description>Nose cone, balsa, BT-58, 3.0", secant ogive, PN BNC-58P</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17534,7 +17534,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-58PD is 3.0" secant ogive, drilled 0.75" x approx 2.0" -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-58PD</PartNumber>
       <Description>Nose cone, balsa, BT-58, 3.0", secant ogive, drilled, PN BNC-58P</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17549,7 +17549,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-58SS is 3.1" modified ellipsoid, called "Bezier" -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-58SS</PartNumber>
       <Description>Nose cone, balsa, BT-58, 3.1", modified ellipsoid, PN BNC-58SS</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17565,7 +17565,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
          Aft OD and shoulder lengths estimated
     -->
     <Transition>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BTC-58AY [R]</PartNumber>
         <Description>Transition, balsa, BT-58, 3.9", ogive, reducing, PN BTC-58AY, Arcon 1/4 scale</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17583,7 +17583,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BTC-58MX is a 3.9" ogive section tailcone, drilled for 18mm MMT.  Aft OD and shoulder length estimated from drawing. -->
     <Transition>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BTC-58MX [R]</PartNumber>
         <Description>Transition, balsa, BT-58, 3.9", ogive, reducing, PN BTC-58MX</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17605,7 +17605,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-15044 is 4.4" conical, upscale of Estes BNC-5S, shoulder len 0.98" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-15044</PartNumber>
       <Description>Nose cone, balsa, LT-150, 4.4", conical, Estes BNC-5S upscale, PN BC-15044</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17619,7 +17619,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-15066 is 6.6" ogive, upscale of Estes BNC-5AX, shoulder len 0.98" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-15066</PartNumber>
       <Description>Nose cone, balsa, LT-150, 6.6", ogive, Estes BNC-5AX upscale, PN BC-15066</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17633,7 +17633,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-15070 is 7.0" ogive, upscale of Estes BNC-50Y, shoulder 0.98" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-15070</PartNumber>
       <Description>Nose cone, balsa, LT-150, 7.0", ogive, Estes BNC-50Y upscale, PN BC-15070</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17647,7 +17647,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-15080 is 8.0" ogive, upscale of Centuri BC-845, shoulder len 0.98" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-15080</PartNumber>
       <Description>Nose cone, balsa, LT-150, 8.0", round tip ogive, Centuri BC-845 upscale, PN BC-15080</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17661,7 +17661,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-15081 is 8.1" ogive, upscale of Centuri PNC-89, shoulder len 0.98" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-15081</PartNumber>
       <Description>Nose cone, balsa, LT-150, 8.1", round tip ogive, Centuri PNC-89 upscale, PN BC-15081</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17681,7 +17681,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-60AB is Gemini capsule, dimensions from Estes, mass from Semroc -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-60AB</PartNumber>
         <Description>Nose cone, balsa, BT-60, 2.625", Gemini Capsule, PN BNC-60AB</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17697,7 +17697,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     <!-- BNC-60AC is 6.7" secant ogive, determined to be upscale of BNC-55AC. Shoulder length scaled from Semroc drawing
          on legacy site -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-60AC</PartNumber>
         <Description>Nose cone, balsa, BT-60, 7.25", secant ogive, Estes BNC-55AC upscale, PN BNC-60AC</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17711,7 +17711,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-60AH is 6.6" elliptical, clone of Estes PNC-60AH (note that length differs from previous Estes BNC-60AH) -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-60AH</PartNumber>
         <Description>Nose cone, balsa, BT-60, 6.6", ellipsoid, Estes PNC-60AH clone, PN BNC-60AH</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17725,7 +17725,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-60AHD is 6.6" elliptical, clone of Estes PNC-60AH, drilled 0.75 x 4.0" deep -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-60AHD</PartNumber>
         <Description>Nose cone, balsa, BT-60, 6.6", ellipsoid, drilled 0.75 x 4.0", Estes PNC-60AH clone, PN BNC-60AHD</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17743,7 +17743,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
          BNC-60AK also appears in Brohm and on the Semroc parts list page for K-41/#1241.
     -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-60AK</PartNumber>
         <Description>Nose cone, balsa, BT-60, 3.0", Mercury Capsule, PN BNC-60AK</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17758,7 +17758,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-60AL (K-43/#1243 Mars Lander).  Dimensions, PN and weight from 1974 parts catalog -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-60AL</PartNumber>
         <Description>Nose cone, balsa, BT-60, 1.25", Mars Lander, PN BNC-60AL</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17774,7 +17774,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     <!-- BNC-60AM is 5.1" round tip cone+cylinder, upscale of Estes BNC-20AM for Stinger etc. 
          shoulder length scaled from Semroc legacy drawing -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-60AM</PartNumber>
         <Description>Nose cone, balsa, BT-60, 5.1", round tip cone + cylinder, PN BNC-60AM</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17788,7 +17788,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-60AO is 7.0" ellipsoid.  Inexact upscale of BNC/PNC-55AO, exact would only be 6.1" long -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-60AO</PartNumber>
         <Description>Nose cone, balsa, BT-60, 7.0", ellipsoid, PN BNC-60AO</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17802,7 +17802,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-60AS is 8.3" ogive, upscale of Centuri BC-1052 -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-60AS</PartNumber>
         <Description>Nose cone, balsa, BT-60, 8.3", ogive, Centuri BC-1052 upscale, PN BNC-60AS</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17816,7 +17816,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-60BC is a 4.2" ramjet nacelle, upscale of BNC-50BC -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-60BC</PartNumber>
         <Description>Nose cone, balsa, BT-60, 4.2", ramjet nacelle, PN BNC-60BC</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17831,7 +17831,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-60C is 0.9" clone of the plastic Camroc nose cone shape (called flat spherical) -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-60C</PartNumber>
         <Description>Nose cone, balsa, BT-60, 0.9", flat spherical, Estes Camroc NC shape, PN BNC-60C</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17845,7 +17845,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-60CO is a 2.6" round tip cone, downscale of Centuri PNC-231 -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-60CO</PartNumber>
         <Description>Nose cone, balsa, BT-60, 2.6", round tip cone, Centuri PNC-231 downscale, PN BNC-60CO</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17859,7 +17859,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-60G3 is a generic 4.9" 3:1 ogive -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-60G3</PartNumber>
         <Description>Nose cone, balsa, BT-60, 4.9", 3:1 ogive, PN BNC-60G3</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17873,7 +17873,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-60G36 is a generic 5.9" 3.6:1 ogive -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-60G36</PartNumber>
         <Description>Nose cone, balsa, BT-60, 5.9", 3.6:1 ogive, PN BNC-60G36</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17887,7 +17887,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-60G4 is a generic 6.6" 4:1 ogive -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-60G4</PartNumber>
         <Description>Nose cone, balsa, BT-60, 6.6", 4:1 ogive, PN BNC-60G4</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17901,7 +17901,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-60G5 is a generic 8.2" 5:1 ogive -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-60G5</PartNumber>
         <Description>Nose cone, balsa, BT-60, 8.2", 5:1 ogive, PN BNC-60G5</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17915,7 +17915,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-60GMR is 3.8" capsule, called "Goony Mercury Redstone" -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-60GMR</PartNumber>
         <Description>Nose cone, balsa, BT-60, 3.8", goony Mercury Redstone capsule, PN BNC-60GMR</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17930,7 +17930,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-60GT is 2.8" 1/70 scale Gemini capsule -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-60GT</PartNumber>
         <Description>Nose cone, balsa, BT-60, 2.8", Gemini capsule 1/70, PN BNC-60GT</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17944,7 +17944,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-60K is a 4.6" ogive, upscale of Estes BNC-50K -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-60K</PartNumber>
         <Description>Nose cone, balsa, BT-60, 4.6", ogive, Estes BNC-50K upscale, PN BNC-60K</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17958,7 +17958,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-60KP is a 4.4" ellipsoid, upscale of Estes PNC-50K (which differs from BNC-50) -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-60KP</PartNumber>
         <Description>Nose cone, balsa, BT-60, 4.4", ellipsoid, Estes PNC-50K upscale, PN BNC-60KP</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17972,7 +17972,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-60L is a 3.1" ellipsoid (called rounded ogive), clone of Estes BNC-60L -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-60L</PartNumber>
         <Description>Nose cone, balsa, BT-60, 3.1", ellipsoid, Estes BNC-60L clone, PN BNC-60L</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -17986,7 +17986,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-60LP is a 2.7" ellipsoid, clone of Estes PNC-60L (which differs from BNC-60L) -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-60LP</PartNumber>
         <Description>Nose cone, balsa, BT-60, 2.7", ellipsoid, Estes PNC-60L clone, PN BNC-60LP</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18001,7 +18001,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     <!-- BNC-60LV is a 3.1" ellipsoid (called Bezier), clone of Vern Estes's original Big Bertha nose cone
          It's a little different shape than BNC-60L, the aft portion is fatter. -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-60LV</PartNumber>
         <Description>Nose cone, balsa, BT-60, 3.1", ellipsoid, Vern Estes original Big Bertha clone, PN BNC-60LV</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18015,7 +18015,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-60MS is a 2.6" ellipsoid.  It is not the same shape as Estes PNC-60MS, which is 3.125" long -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-60MS</PartNumber>
         <Description>Nose cone, balsa, BT-60, 2.6", ellipsoid, PN BNC-60MS</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18030,7 +18030,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     <!-- BNC-60NA is a slightly rounded tip 4.75" ogive, clone of Estes PNC-60NA for D-Region Tomahawk etc, though Semroc
          fails to note this.  Using the 4.75" length derived for the Estes part. -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-60NA</PartNumber>
         <Description>Nose cone, balsa, BT-60, 4.75", ogive, Estes PNC-60NA clone, PN BNC-60NA</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18044,7 +18044,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-60NS is 10.0" flared conical, Nike Smoke shape (though Semroc fails to note this) -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-60NS</PartNumber>
         <Description>Nose cone, balsa, BT-60, 10.0", flared conical, Nike Smoke shape, PN BNC-60NS</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18058,7 +18058,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BT-60OR IS A 1.6" very round tip conical shape.  *** what is this for? No Brohm listing.  *** -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-60OR</PartNumber>
         <Description>Nose cone, balsa, BT-60, 1.6", very round tip conical, PN BNC-60OR</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18072,7 +18072,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BT-60PE is 8.0" tri-conic Pershing missile shape (though Semroc fails to note that) -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-60PE</PartNumber>
         <Description>Nose cone, balsa, BT-60, 8.0", tri-conic, Pershing missile shape, PN BNC-60PE</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18086,7 +18086,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BT-60PED is 8.0" tri-conic Pershing missile shape (though Semroc fails to note that), drilled 0.75" x 4.0" -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-60PED</PartNumber>
         <Description>Nose cone, balsa, BT-60, 8.0", tri-conic, drilled, Pershing missile shape, PN BNC-60PED</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18101,7 +18101,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-60RL is 8.4" ogive, clone of Estes PNC-60RL shape -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-60RL</PartNumber>
         <Description>Nose cone, balsa, BT-60, 8.4", ogive, Estes PNC-60RL clone, PN BNC-60RL</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18115,7 +18115,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-60R is a 6.4" conical, upscale of Estes BNC-20R -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-60R</PartNumber>
         <Description>Nose cone, balsa, BT-60, 6.4", conical, Estes BNC-20R upscale, PN BNC-60R</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18129,7 +18129,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-60SM is an 8.0" conical -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-60SM</PartNumber>
         <Description>Nose cone, balsa, BT-60, 8.0", conical, PN BNC-60SM</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18145,7 +18145,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
          SOURCE ERROR: BNC-60SU is called an ogive on Semroc legacy and 2017 sites ***
     -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-60SU</PartNumber>
         <Description>Nose cone, balsa, BT-60, 6.4", capsule/payload, PN BNC-60SU</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18160,7 +18160,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-60SV is an 8.1" round tip ogive.  No known Estes equivalent. -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-60SV</PartNumber>
         <Description>Nose cone, balsa, BT-60, 8.1", round tip ogive, PN BNC-60SV</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18175,7 +18175,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     <!-- BNC-60T is a 2.8" capsule shape, clone of Estes BNC-60T which is 2.875" long with 0.5" shoulder per 1974 CPC.
          The Semroc drawing scales to 2.83", which totally fails to resolve the length question.  I adopt the Estes value. -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-60T</PartNumber>
         <Description>Nose cone, balsa, BT-60, 2.8", Mercury capsule, Estes BNC-60T clone, PN BNC-60T</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18190,7 +18190,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-60V is 5.25" ogive, V-2 scale shape.  Not a clone; Estes has never had a BT-60 V-2.  -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-60V</PartNumber>
         <Description>Nose cone, balsa, BT-60, 5.2", ogive, V-2 scale, PN BNC-60V</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18204,7 +18204,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-60V is 5.25" ogive, V-2 scale shape, drilled 0.75" x 3.0" deep.  -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-60VD</PartNumber>
         <Description>Nose cone, balsa, BT-60, 5.2", ogive, V-2 scale, drilled 0.75 x 3.0", PN BNC-60VD</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18219,7 +18219,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-60YP is 7.25" ogive, upscale of Estes PNC-50Y -->    
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-60YP</PartNumber>
         <Description>Nose cone, balsa, BT-60, 7.25", ogive, Estes PNC-50Y upscale, PN BNC-60YP</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18233,7 +18233,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BTC-60CY is 1.5" conical tailcone, drilled for 24mm MMT.  Aft diameter estimated. -->
     <Transition>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BTC-60CY [R]</PartNumber>
         <Description>Transition, balsa, BT-60, 1.5", conical, reducing, drilled 24mm, PN BTC-60CY</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18251,7 +18251,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BTC-60LZ is a BNC-60L drilled for 18mm motor tube -->
     <Transition>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BTC-60LZ [R]</PartNumber>
         <Description>Transition, balsa, BT-60, 2.8", ellipsoid, reducing, drilled 18mm BNC-60L, PN BTC-60LZ</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18269,7 +18269,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BTC-60VY is 3.7" ogive, drilled for 24mm motor mount tube -->
     <Transition>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BTC-60VY [R]</PartNumber>
         <Description>Transition, balsa, BT-60, 3.7", ogive, reducing, drilled 24mm, PN BTC-60VY</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18287,7 +18287,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BTC-60VZ is 3.7" ogive, drilled for 18mm motor mount tube -->
     <Transition>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BTC-60VZ [R]</PartNumber>
         <Description>Transition, balsa, BT-60, 3.7", ogive, reducing, drilled 18mm, PN BTC-60VZ</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18312,7 +18312,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1623J is 2.3" very blunt ogive, upscale of Estes BNC-50J, shoulder len 0.77" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1623J</PartNumber>
       <Description>Nose cone, balsa, ST-16, 2.3", blunt ogive, Estes BNC-50J upscale, PN BC-1623J</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18326,7 +18326,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1625 is 2.5" ellipsoid, clone of Centuri BC-160, shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1625</PartNumber>
       <Description>Nose cone, balsa, ST-16, 2.5", ellipsoid, Centuri BC-160, PN BC-1625</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18340,7 +18340,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1625P is 2.5" ellipsoid, shape clone of Centuri PNC-160, shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1625P</PartNumber>
       <Description>Nose cone, balsa, ST-16, 2.5", ellipsoid, Centuri PNC-160 shape, PN BC-1625P</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18354,7 +18354,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1631 is 3.1" ogive, clone of old Semroc NB-808, shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1631</PartNumber>
       <Description>Nose cone, balsa, ST-16, 3.1", ogive, old Semroc NB-808 clone, PN BC-1631</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18368,7 +18368,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1633 is 3.3" capsule shape, clone of Centuri BC-164, shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1633</PartNumber>
       <Description>Nose cone, balsa, ST-16, 3.3", capsule, Centuri BC-164, PN BC-1633</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18383,7 +18383,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1634 is 3.4" ogive, clone of Centuri BC-162, shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1634</PartNumber>
       <Description>Nose cone, balsa, ST-16, 3.4", ogive, Centuri BC-162, PN BC-1634</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18397,7 +18397,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1636 is 3.6" "rounded ogive", shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1636</PartNumber>
       <Description>Nose cone, balsa, ST-16, 3.6", rounded ogive, PN BC-1636</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18411,7 +18411,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1646 is 4.6" ogive, upscale of Estes BNC-50K, shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1646</PartNumber>
       <Description>Nose cone, balsa, ST-16, 4.6", ogive, Estes BNC-50K upscale, PN BC-1646</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18425,7 +18425,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1647 is 4.7" ogive, upscale of Estes BNC-30E, shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1647</PartNumber>
       <Description>Nose cone, balsa, ST-16, 4.7", ogive, Estes BNC-30E upscale, PN BC-1647</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18442,7 +18442,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
          shows it to be exactly the same drawing as for BC-1646 but with the label changed to BC-1648. This error
          has propagated to the new eRockets site.  Are manufactured BC-1648's actually only 4.6" long? -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1648</PartNumber>
       <Description>Nose cone, balsa, ST-16, 4.8", ogive, PN BC-1648</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18456,7 +18456,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1649 is generic 4.9" 3:1 ogive, shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1649</PartNumber>
       <Description>Nose cone, balsa, ST-16, 4.9", 3:1 ogive, PN BC-1649</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18470,7 +18470,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1650 is 5.0" ogive, clone of old Semroc NB-813, shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1650</PartNumber>
       <Description>Nose cone, balsa, ST-16, 5.0", ogive, old Semroc NB-813 clone, PN BC-1650</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18484,7 +18484,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1654 is 5.4" ellipsoid, upscale of Estes BNC-50X, shoulder len 0.82" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1654</PartNumber>
       <Description>Nose cone, balsa, ST-16, 5.4", ellipsoid, Estes BNC-50X upscale, PN BC-1654</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18498,7 +18498,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1655 is 5.5" ogive, clone of Centuri PNC-165, shoulder len 0.82" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1655</PartNumber>
       <Description>Nose cone, balsa, ST-16, 5.5", ogive, Centuri PNC-165 shape, PN BC-1655</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18512,7 +18512,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1660 is 6.0" ogive, clone of FSI NC-152, shoulder len 1.08" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1660</PartNumber>
       <Description>Nose cone, balsa, ST-16, 6.0", ogive, FSI NC-152 clone, PN BC-1660</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18526,7 +18526,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1661D is a 6.1 ogive drilled 0.75" x 4.0", Centuri V-2 shape, shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1661D</PartNumber>
       <Description>Nose cone, balsa, ST-16, 6.1", ogive, drilled 0.75" x 4.0", Centuri V-2 shape, PN BC-1661</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18540,7 +18540,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1666 is generic 6.6" 4:1 ogive, shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1666</PartNumber>
       <Description>Nose cone, balsa, ST-16, 6.6", 4:1 ogive, PN BC-1666</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18554,7 +18554,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1667 is a 6.75 ellipsoid (called parabolic), shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1667</PartNumber>
       <Description>Nose cone, balsa, ST-16, 6.75", ellipsoid, PN BC-1667</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18568,7 +18568,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1672 is 7.2" ogive, designated "Nike Herc 18mm" on legacy site only, shoulder len 0.86" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1672</PartNumber>
       <Description>Nose cone, balsa, ST-16, 7.2", ogive, Nike Hercules, PN BC-1672</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18590,7 +18590,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     <!-- SOURCE ERROR: BC-1674 legacy site gives length 7.4", but drawing scales to 7.25" on both legacy and
          new eRockets sites -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1674</PartNumber>
       <Description>Nose cone, balsa, ST-16, 7.4" nominal, ogive, Estes BNC-50Y upscale, PN BC-1674</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18604,7 +18604,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1682 is generic 8.2" 5:1 ogive, shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1682</PartNumber>
       <Description>Nose cone, balsa, ST-16, 8.2", 5:1 ogive, PN BC-1682</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18618,7 +18618,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-16100 is a 10.0" flared bi-conic, Nike Smoke 1/10 scale shape, shoulder 0.77" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-16100</PartNumber>
       <Description>Nose cone, balsa, ST-16, 10.0", flared conical, Nike Smoke 1/10 scale, PN BC-16100</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18633,7 +18633,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     <!-- BC-16103 is a 10.3" flared conical (called ogive), Centuri BC-86 upscale, similar to Honest John shape
          Shoulder length 0.69" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-16103</PartNumber>
       <Description>Nose cone, balsa, ST-16, 10.3", flared ogive, Centuri BC-86 upscale, PN BC-16103</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18648,7 +18648,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BTC-16V2 is a 4" ogive tailcone, V-2 scale shape, drilled for 18mm motor tube. -->
     <Transition>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BTC-16V2 [R]</PartNumber>
         <Description>Transition, balsa, ST-16, 4.0", ogive, reducing, drilled 18mm, V-2 scale, PN BTC-16V2</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18672,7 +18672,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
          eRockets/semroc website.  It matches no known tube size. Shoulder diameter is an estimate from an
          oblique photo, no mfg drawing is given. -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-16836</PartNumber>
       <Description>Nose cone, balsa, special 1.75" OD, 3.165", ellipsoid, PN BC-16836</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18692,7 +18692,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-65AF is 4.0" ellipsoid -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-65AF</PartNumber>
       <Description>Nose cone, balsa, PST-65, 4.0", ellipsoid, PN BNC-65AF</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18706,7 +18706,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-65L is 3.4" ellipsoid -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-65L</PartNumber>
       <Description>Nose cone, balsa, PST-65, 3.4", ellipsoid, PN BNC-65L</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18725,7 +18725,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1828 is 2.8" ellipsoid, shoulder 0.69" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1828</PartNumber>
       <Description>Nose cone, balsa, ST-18, 2.8", ellipsoid, PN BC-1828</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18739,7 +18739,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1828D is 2.8" ellipsoid, drilled 0.75" x 2.0", shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1828D</PartNumber>
       <Description>Nose cone, balsa, ST-18, 2.8", ellipsoid, drilled 0.75" x 2.0", PN BC-1828D</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18754,7 +18754,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1829D is an unusual 2.9" bi-ellipsoid, drilled 0.75" x 2.5", shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1829D</PartNumber>
       <Description>Nose cone, balsa, ST-18, 2.9", bi-ellipsoid, drilled 0.75" x 2.5", PN BC-1829D</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18768,7 +18768,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1834 is a 3.4" rounded conical, Estes Cineroc nose shape, shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1834</PartNumber>
       <Description>Nose cone, balsa, ST-18, 3.4", round tip cone, Estes Cineroc shape, PN BC-1834</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18783,7 +18783,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1835 is generic 3.5" ellipsoid, shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1835</PartNumber>
       <Description>Nose cone, balsa, ST-18, 3.5", ellipsoid, PN BC-1835</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18797,7 +18797,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1837 is a 3.7" irregular ellipsoid, upscale of Centuri PNC-132, shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1837</PartNumber>
       <Description>Nose cone, balsa, ST-18, 3.7", ellipsoid, Centuri PNC-132 upscale, PN BC-1837</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18811,7 +18811,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1840 is a 4.0" round tip ogive, shoulder len 0.76" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1840</PartNumber>
       <Description>Nose cone, balsa, ST-18, 4.0", round tip ogive, PN BC-1840</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18825,7 +18825,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1842 is a 4.2" ellipsoid (called ogive), upscale of Estes BNC-20B, shoulder len 0.69" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1842</PartNumber>
       <Description>Nose cone, balsa, ST-18, 4.2", ellipsoid, Estes BNC-20B upscale, PN BC-1842</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18839,7 +18839,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1845 is 4.5" fat ogive, shoulder len 0.76" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1845</PartNumber>
       <Description>Nose cone, balsa, ST-18, 4.5", fat ogive, PN BC-1845</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18853,7 +18853,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1848 is a 4.8" round tip fat ogive, shoulder len 0.75" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1848</PartNumber>
       <Description>Nose cone, balsa, ST-18, 4.8", round tip ogive, PN BC-1848</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18867,7 +18867,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1853 is a 5.3" secant ogive, upscale of Estes BNC-55F, shoulder len 0.67" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1853</PartNumber>
       <Description>Nose cone, balsa, ST-18, 5.3", secant ogive, Estes BNC-55F upscale, PN BC-1853</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18881,7 +18881,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1856 is a generic 5.6" 3:1 ogive, shoulder len 0.67" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1856</PartNumber>
       <Description>Nose cone, balsa, ST-18, 5.6", 3:1 ogive, PN BC-1856</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18895,7 +18895,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1859 is a 5.9" ogive, V-2 1/35 scale, shoulder len 0.68" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1859</PartNumber>
       <Description>Nose cone, balsa, ST-18, 5.9", ogive, V-2 1/35 scale, PN BC-1859</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18909,7 +18909,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1859D is 5.9" ogive, V-2 1/35 scale, drilled 0.74" x 4.0", shoulder len 0.68" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1859D</PartNumber>
       <Description>Nose cone, balsa, ST-18, 5.9", ogive, V-2 1/35 scale, drilled 0.74" x 4.0", PN BC-1859D</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18924,7 +18924,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1861 is 6.1" ellipsoid, upscale of Estes BNC-56X, shoulder len 0.97" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1861</PartNumber>
       <Description>Nose cone, balsa, ST-18, 6.1", ellipsoid, Estes BNC-50X upscale, PN BC-1861</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18938,7 +18938,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1869 is a 6.9" ogive, upscale of Estes BNC-20N, shoulder len 0.68" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1869</PartNumber>
       <Description>Nose cone, balsa, ST-18, 6.9", ogive, Estes BNC-20N upscale, PN BC-1869</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18952,7 +18952,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1869C is a 6.9" conical, upscale of Estes BNC-20R, shoulder len 0.68" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1869C</PartNumber>
       <Description>Nose cone, balsa, ST-18, 6.9", conical, Estes BNC-20R upscale, PN BC-1869C</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18966,7 +18966,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1874 is generic 7.4" 4:1 ogive, shoulder len 0.68" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1874</PartNumber>
       <Description>Nose cone, balsa, ST-18, 7.4", 4:1 ogive, PN BC-1874</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18980,7 +18980,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-1892 is generic 9.2" 5:1 ogive, shoulder len 0.67" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-1892</PartNumber>
       <Description>Nose cone, balsa, ST-18, 9.2", 5:1 ogive, PN BC-1892</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -18994,7 +18994,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BTC-18VY is 4.1" ogive tailcone, V-2 1/35 scale, drilled 24mm, shoulder len 0.57" (scaled dwg) -->
     <Transition>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BTC-18VY [R]</PartNumber>
         <Description>Transition, balsa, ST-18, 4.1", ogive, reducing, drilled 24mm, V-2 1/35 scale, PN BTC-18VY</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -19019,7 +19019,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-17535 is 3.5" ogive, upscale of Estes BNC-60L, shoulder len 1.08" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-17535</PartNumber>
       <Description>Nose cone, balsa, LT-175, 3.5", ogive, Estes BNC-60L upscale, PN BC-17535</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -19033,7 +19033,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-17541 is 4.1" ogive, clone of Centuri BC-175A, shoulder len 1.08" (scaled dwg). -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-17541</PartNumber>
       <Description>Nose cone, balsa, LT-175, 4.1", ogive, Centuri BC-175A, PN BC-17541</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -19047,7 +19047,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-17560 is 6.0" ogive, shoulder len 0.98" (scaled dwg).  -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-17560</PartNumber>
       <Description>Nose cone, balsa, LT-175, 6.0", ogive, PN BC-17560</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -19061,7 +19061,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-17561 is 6.1" ellipsoid, upscale of Estes BNC-50X, shoulder len 1.08" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-17561</PartNumber>
       <Description>Nose cone, balsa, LT-175, 6.1", ellipsoid, Estes BNC-50X upscale, PN BC-17561</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -19075,7 +19075,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-17567 is 6.7" ogive, clone of Centuri BC-175B, shoulder len 1.08" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-17567</PartNumber>
       <Description>Nose cone, balsa, LT-175, 6.7", ogive, Centuri BC-175B, PN BC-17567</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -19089,7 +19089,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-17581 is 8.1" ogive, upscale of Estes PNC-50Y, shoulder len 0.88" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-17581</PartNumber>
       <Description>Nose cone, balsa, LT-175, 8.1", ogive, Estes PNC-50Y upscale, PN BC-17581</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -19104,7 +19104,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     <!-- BC-17582 is 8.2" ogive-conical, clone of Centuri BC-175C, shoulder len 1.08" (scaled dwg).
          The scaled dwg comes to about 8.1" long but I'm not flagging that as an error. -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-17582</PartNumber>
       <Description>Nose cone, balsa, LT-175, 8.2", conic+ogive, Centuri BC-175C, PN BC-17582</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -19118,7 +19118,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-17585 is 8.5" ogive, shoulder len 0.98" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-17585</PartNumber>
       <Description>Nose cone, balsa, LT-175, 8.5", ogive, PN BC-17585</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -19132,7 +19132,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-17590 is 9.0" conical, upscale of old Semroc NB-413, shoulder len 1.08" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-17590</PartNumber>
       <Description>Nose cone, balsa, LT-175, 9.0", conical, old Semroc NB-413 upscale, PN BC-17590</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -19146,7 +19146,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BC-17592 is 9.2" ogive, upscale of Centuri BC-107, shoulder len 1.08" (scaled dwg) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BC-17592</PartNumber>
       <Description>Nose cone, balsa, LT-175, 9.2", ogive, Centuri BC-107 upscale, PN BC-17592</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -19456,7 +19456,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BTC-20BB is a 3.0" complex nozzle section drilled for 29mm motor tube, shoulder len 1.08" (scaled dwg) -->
     <Transition>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BTC-20BB [R]</PartNumber>
         <Description>Transition, balsa, ST-20, 3.0", complex nozzle, reducing, drilled 29mm, PN BTC-20BB</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -19542,7 +19542,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-70AJ is 4.25" ogive, clone of Estes BNC-70AJ -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-70AJ</PartNumber>
         <Description>Nose cone, balsa, BT-70, 4.25" ogive, Estes BNC-70AJ clone, PN BNC-70AJ</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -19556,7 +19556,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-70AO is 8.4" ellipsoid, upscale of Estes BNC-55AO -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-70AO</PartNumber>
         <Description>Nose cone, balsa, BT-70, 8.4" ellipsoid, upscale of Estes BNC-55AO, PN BNC-70AO</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -19570,7 +19570,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-70AP is 1.7" conicala, Apollo capsule shape -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-70AP</PartNumber>
         <Description>Nose cone, balsa, BT-70, 1.7" conical, Apollo capsule, PN BNC-70AP</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -19584,7 +19584,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-70B is 7.0" ogive -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-70B</PartNumber>
         <Description>Nose cone, balsa, BT-70, 7.0" ogive, PN BNC-70B</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -19598,7 +19598,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-70C is 2.5" rounded tip cone -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-70C</PartNumber>
         <Description>Nose cone, balsa, BT-70, 2.5" round tip cone, PN BNC-70C</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -19612,7 +19612,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-70CT is a dual shape with the front 2/3 being an ellipsoid and the last 1/3 being a shallow conic -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-70CT</PartNumber>
         <Description>Nose cone, balsa, BT-70, 4.5" ellipsoid+conic, PN BNC-70CT</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -19626,7 +19626,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-70CP is 11.1" slightly round tip ogive, upscale of BC-845P -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-70CP</PartNumber>
         <Description>Nose cone, balsa, BT-70, 11.1" round tip ogive, upscale of BC-845P, PN BNC-70CP</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -19640,7 +19640,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-70D is 5.0" ogive -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-70D</PartNumber>
         <Description>Nose cone, balsa, BT-70, 5.0" ogive, PN BNC-70D</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -19654,7 +19654,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-70G3 is 6.7" 3:1 ogive -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-70G3</PartNumber>
         <Description>Nose cone, balsa, BT-70, 6.7" 3:1 ogive, PN BNC-70G3</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -19668,7 +19668,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-70G4 is 8.9" 4:1 ogive -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-70G4</PartNumber>
         <Description>Nose cone, balsa, BT-70, 8.9" 4:1 ogive, PN BNC-70G4</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -19682,7 +19682,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-70MS is 3.5" ellipsoid, upscale of BNC-60MS -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-70MS</PartNumber>
         <Description>Nose cone, balsa, BT-70, 3.5" ellipsoid, PN BNC-70MS</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -19696,7 +19696,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-70NH is 9.8" ogive -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-70NH</PartNumber>
         <Description>Nose cone, balsa, BT-70, 9.8" ogive, PN BNC-70NH</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -19713,7 +19713,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
          SOURCE ERROR: BNC-70PE incorrectly called "ogive" on both old and new sites, not identified as Pershing shape ***
     -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-70PE</PartNumber>
         <Description>Nose cone, balsa, BT-70, 11.6" tri-conic, Pershing missile shape, PN BNC-70PE</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -19728,7 +19728,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     <!-- BNC-70PED is drilled version of BNC-70PE.  Drilling dimensions not given
          but drawing on legacy site makes it look about 0.75" x 6" deep.  Mass override used since it's 0.15 oz lighter. -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-70PED</PartNumber>
         <Description>Nose cone, balsa, BT-70, 11.6" tri-conic, Pershing missile shape, drilled, PN BNC-70PED</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -19743,7 +19743,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-70TT is 7.2" ogive, says "Tin-Tin" on legacy site. Drawing on legacy site shows a noticeably short shoulder. -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-70TT</PartNumber>
         <Description>Nose cone, balsa, BT-70, 7.2" ogive, Tin-Tin shape, PN BNC-70TT</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -19757,7 +19757,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-70V is 7.1" ogive, V-2 scale shape -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-70V</PartNumber>
         <Description>Nose cone, balsa, BT-70, 7.1" ogive, V-2 scale, PN BNC-70V</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -19771,7 +19771,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-70VD is BNC-70V (7.1" ogive) drilled 0.75 x 4" for nose weight -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-70VD</PartNumber>
         <Description>Nose cone, balsa, BT-70, 7.1" ogive, drilled, PN BNC-70VD, V-2 scale</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -19788,7 +19788,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
          SOURCE ERROR: BNC-70X neither new nor old Semroc sites mention it's a BNC-50X upscale ***
     -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-70X</PartNumber>
         <Description>Nose cone, balsa, BT-70, 7.3" ellipsoid, PN BNC-70X, upscale of Estes BNC-50X</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -19809,7 +19809,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-70HAC is 9.2" secant ogive, upscale of Estes BNC-55AC -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-70HAC</PartNumber>
         <Description>Nose cone, balsa, BTH-70, 9.2" secant ogive, PN BNC-70HAC, upscale of Estes BNC-55AC</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -19823,7 +19823,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-70HAJ is 4.25" ogive, Estes BNC-70AJ shape -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-70HAJ</PartNumber>
         <Description>Nose cone, balsa, BTH-70, 4.25" ogive, PN BNC-70HAJ, Estes BNC-70AJ shape</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -19837,7 +19837,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-70HAO is 8.4" ellipsoid, upscale of Estes BNC-55AO -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-70HAO</PartNumber>
         <Description>Nose cone, balsa, BTH-70, 8.4" ellipsoid, PN BNC-70HAO, upscale of Estes BNC-55AO</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -19851,7 +19851,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-70HB is 7.0" ogive -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-70HB</PartNumber>
         <Description>Nose cone, balsa, BTH-70, 7.0" ogive, PN BNC-70HB</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -19866,7 +19866,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     <!-- BNC-70HCT is a dual shape with the front 2/3 being an ellipsoid and the last 1/3 being a shallow conic
     -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-70HCT</PartNumber>
         <Description>Nose cone, balsa, BTH-70, 4.5" ellipsoid+conic, PN BNC-70HCT</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -19880,7 +19880,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-70HD is 5.0" ogive -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-70HD</PartNumber>
         <Description>Nose cone, balsa, BTH-70, 5.0" ogive, PN BNC-70HD</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -19894,7 +19894,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-70HP is a 7.5" rounded ogive -->
     <NoseCone>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BNC-70HP</PartNumber>
         <Description>Nose cone, balsa, BTH-70, 7.5" rounded ogive, PN BNC-70HP</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -19909,7 +19909,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     <!-- BTC-70HY is a straight conic tailcone drilled for 24mm MMT, length 1.75", shoulder 0.57"
          mass from legacy site. -->
     <Transition>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BTC-70HY [R]</PartNumber>
         <Description>Transition, balsa, BT-70, 1.75 in, conical, reducing, PN BTC-70HY</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -19928,7 +19928,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BTC-70VY is a 5.0" ogive tailcone drilled for 24mm MMT, mass from legacy site -->
     <Transition>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BTC-70VY [R]</PartNumber>
         <Description>Transition, balsa, BT-70, 5.0", ogive, reducing, PN BTC-70VY</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -20160,7 +20160,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-80AC is 10.6" secant ogive, upscale of Estes BNC-55AC. -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-80AC</PartNumber>
       <Description>Nose cone, balsa, BT-80, 10.6", secant ogive, PN BNC-80AC, upscale of Estes BNC-55AC</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -20174,7 +20174,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-80AH is 10.5" ellipsoid (called ogive by Semroc) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-80AH</PartNumber>
       <Description>Nose cone, balsa, BNC-80AH, 10.5", ellipsoid, PN BNC-80AH</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -20188,7 +20188,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-80AO is 9.8" ellipsoid, upscale of Estes BNC-50AO -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-80AO</PartNumber>
       <Description>Nose cone, balsa, BT-80, 9.8", ellipsoid, PN BNC-80AO</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -20202,7 +20202,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-80BB is Estes PNC-80BB Super Big Bertha shape -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-80BB</PartNumber>
       <Description>Nose cone, balsa, BT-80, 4.0", ellipsoid, PN BNC-80BB, Estes PNC-80BB shape</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -20216,7 +20216,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-80CO is 4.2" round tip cone -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-80CO</PartNumber>
       <Description>Nose cone, balsa, BT-80, 4.2", round tip cone, PN BNC-80CO</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -20230,7 +20230,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-80MR is Mercury Redstone capsule shape -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-80MR</PartNumber>
       <Description>Nose cone, balsa, BT-80, 4.2", Mercury capsule, PN BNC-80MR</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -20244,7 +20244,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-80D is 5.0" ogive -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-80D</PartNumber>
       <Description>Nose cone, balsa, BT-80, 5.0", fat ogive, PN BNC-80D</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -20258,7 +20258,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-80F is 8.5" ogive, upscale of Estes BNC-55F -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-80F</PartNumber>
       <Description>Nose cone, balsa, BT-80, 8.5", ogive, PN BNC-80F</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -20272,7 +20272,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-80G3 is 8.8" 3:1 ogive -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-80G3</PartNumber>
       <Description>Nose cone, balsa, BT-80, 8.8", 3;1 ogive, PN BNC-80G3</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -20286,7 +20286,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-80G4 is 10.4" 4:1 ogive -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-80G4</PartNumber>
       <Description>Nose cone, balsa, BT-80, 10.4", 4:1 ogive, PN BNC-80G4</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -20300,7 +20300,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-80K is 8.2" ogive -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-80K</PartNumber>
       <Description>Nose cone, balsa, BT-80, 8.2", ogive, PN BNC-80K</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -20314,7 +20314,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-80KA is 7.33" ogive -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-80KA</PartNumber>
       <Description>Nose cone, balsa, BT-80, 7.3", ogive, PN BNC-80KA</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -20328,7 +20328,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-80C is straight 6.5" conical -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-80C</PartNumber>
       <Description>Nose cone, balsa, BT-80, 6.5", conical, PN BNC-80C</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -20342,7 +20342,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-80KP is 6.9" rounded ogive -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-80KP</PartNumber>
       <Description>Nose cone, balsa, BT-80, 6.9", rounded ogive, PN BNC-80KP</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -20356,7 +20356,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-80L is 5.1" ellipsoid (called bezier) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-80L</PartNumber>
       <Description>Nose cone, balsa, BT-80, 5.1", ellipsoid, PN BNC-80HL</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -20370,7 +20370,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-80V is 8.4" ogive, V-2 scale -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-80V</PartNumber>
       <Description>Nose cone, balsa, BT-80, 5.1", ogive, PN BNC-80V, V-2 scale</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -20384,7 +20384,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-80VD is 8.4" ogive, V-2 scale, drilled 0.75" x about 5" deep (est. from legacy site drawing) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-80VD</PartNumber>
       <Description>Nose cone, balsa, BT-80, 5.1", ogive, drilled, PN BNC-80V, V-2 scale</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -20399,7 +20399,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-80VE is 4.9" ogive -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-80VE</PartNumber>
       <Description>Nose cone, balsa, BT-80, 4.9", ogive, PN BNC-80VE</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -20413,7 +20413,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-80X is 9.8" ellipsoid, upscale of Estes BNC-50X -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-80X</PartNumber>
       <Description>Nose cone, balsa, BT-80, 9.8", ellipsoid, PN BNC-80X, upscale of Estes BNC-50X</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -20427,7 +20427,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-80Y is 11.5" ogive, upscale of Estes BNC-50Y -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-80Y</PartNumber>
       <Description>Nose cone, balsa, BT-80, 11.5", ogive, PN BNC-80Y, upscale of Estes BNC-50Y</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -20441,7 +20441,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BTC-80VY is 5.9" ogive tailcone drilled for 24mm MMT -->
     <Transition>
-        <Manufacturer>Semroc</Manufacturer>
+        <Manufacturer>SEMROC</Manufacturer>
         <PartNumber>BTC-80VY [R]</PartNumber>
         <Description>Transition, balsa, BTC-80VY, reducing</Description>
         <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -20466,7 +20466,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-80HAC is 10.6" secant ogive, upscale of Estes BNC-55AC. See alaso BNC-80HACS -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-80HACS</PartNumber>
       <Description>Nose cone, balsa, BTH-80, 10.6" secant ogive, PN BNC-80HACS, upscale of Estes BNC-55AC</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -20482,7 +20482,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
          may actually have had different shoulder size than BNC-80HAC, though listed sizes are the same.
          Appears only on Semroc legacy site, no longer listed on website in Dec 2017. -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-80HACS</PartNumber>
       <Description>Nose cone, balsa, BNC-80HACS, 10.6", secant ogive, upscale of Estes BNC-55AC</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -20496,7 +20496,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-80HAH is 10.5" ellipsoid (called ogive by Semroc) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-80HAH</PartNumber>
       <Description>Nose cone, balsa, BNC-80HAH, 10.5", ellipsoid</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -20510,7 +20510,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-80HAO is 9.8" ellipsoid, upscale of Estes BNC-50AO -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-80HAO</PartNumber>
       <Description>Nose cone, balsa, BNC-80HAO, 9.8", ellipsoid</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -20524,7 +20524,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-80HBB is Estes PNC-80BB Super Big Bertha shape -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-80HBB</PartNumber>
       <Description>Nose cone, balsa, BNC-80HBB, 4.0", ellipsoid, Estes PNC-80BB shape</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -20538,7 +20538,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-80HCO is 4.2" round tip cone -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-80HCO</PartNumber>
       <Description>Nose cone, balsa, BNC-80HCO, 4.2", round tip cone</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -20552,7 +20552,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-80HD is 5.0" ogive -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-80HD</PartNumber>
       <Description>Nose cone, balsa, BNC-80HD, 5.0", fat ogive</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -20566,7 +20566,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-80HK is 8.2" ogive -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-80HK</PartNumber>
       <Description>Nose cone, balsa, BNC-80HK, 8.2", ogive</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -20580,7 +20580,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-80HKA is 7.33" ogive -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-80HKA</PartNumber>
       <Description>Nose cone, balsa, BNC-80HKA, 7.3", ogive</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -20594,7 +20594,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     
     <!-- BNC-80HKP is 6.9" rounded ogive -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-80HKP</PartNumber>
       <Description>Nose cone, balsa, BNC-80HKP, 6.9", rounded ogive</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -20608,7 +20608,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-80HL is 5.1" ellipsoid (called bezier) -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-80HL</PartNumber>
       <Description>Nose cone, balsa, BNC-80HL, 5.1", ellipsoid</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -20622,7 +20622,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-80HVE is 4.9" ogive -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-80HVE</PartNumber>
       <Description>Nose cone, balsa, BNC-80HVE, 4.9", ogive</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
@@ -20636,7 +20636,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BNC-80HX is 9.8" ellipsoid, upscale of Estes BNC-50X -->
     <NoseCone>
-      <Manufacturer>Semroc</Manufacturer>
+      <Manufacturer>SEMROC</Manufacturer>
       <PartNumber>BNC-80HX</PartNumber>
       <Description>Nose cone, balsa, BNC-80HX, 9.8", ellipsoid, upscale of Estes BNC-50X</Description>
       <Material Type="BULK">Balsa, bulk, 7lb/ft3</Material>
