@@ -163,7 +163,7 @@ none known
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>Q21085</PartNumber>
             <Description>Tube coupler, plastic, 30mm, 2", PN Q21085</Description>
-            <Material Type="BULK">Polystyrene, bulk</Material>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
             <InsideDiameter Unit="mm">27.0</InsideDiameter>
             <OutsideDiameter Unit="mm">29.0</OutsideDiameter>
             <Length Unit="in">2.0</Length>
@@ -189,7 +189,7 @@ none known
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>Q21086, 3535</PartNumber>
             <Description>Tube coupler, plastic, 35mm, 2.125", PN Q21086</Description>
-            <Material Type="BULK">Polystyrene, bulk</Material>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
             <InsideDiameter Unit="mm">32.0</InsideDiameter>
             <OutsideDiameter Unit="mm">34.0</OutsideDiameter>
             <Length Unit="in">2.125</Length>
@@ -424,7 +424,7 @@ none known
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>T403000, Q9525</PartNumber>
             <Description>Body tube, paper, 40mm, white, 30", PN T403000/Q9525</Description>
-            <Material Type="BULK">Paper</Material>
+            <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
             <InsideDiameter Unit="mm">39.0</InsideDiameter>
             <OutsideDiameter Unit="mm">40.0</OutsideDiameter>
             <Length Unit="in">30.0</Length>
@@ -436,7 +436,7 @@ none known
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>Q11511</PartNumber>
             <Description>Body tube, paper, 40mm, white, 18", PN Q11511</Description>
-            <Material Type="BULK">Paper</Material>
+            <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
             <InsideDiameter Unit="in">1.530</InsideDiameter>
             <OutsideDiameter Unit="in">1.570</OutsideDiameter>
             <Length Unit="in">18.0</Length>
@@ -448,7 +448,7 @@ none known
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>T502400, Q11700</PartNumber>
             <Description>Body tube, paper, 50mm, white, 24", PN T502400/Q11700</Description>
-            <Material Type="BULK">Paper</Material>
+            <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
             <InsideDiameter Unit="in">1.921</InsideDiameter>
             <OutsideDiameter Unit="in">1.970</OutsideDiameter>
             <Length Unit="in">24.0</Length>
@@ -460,7 +460,7 @@ none known
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>Q11701</PartNumber>
             <Description>Body tube, paper, 50mm, white, 18", PN Q11701</Description>
-            <Material Type="BULK">Paper</Material>
+            <Material Type="BULK">Paper, spiral kraft glassine, Estes avg, bulk</Material>
             <InsideDiameter Unit="in">1.92</InsideDiameter>
             <OutsideDiameter Unit="in">1.97</OutsideDiameter>
             <Length Unit="in">18.0</Length>
@@ -645,7 +645,7 @@ none known
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>CR2924, Q14022</PartNumber>
             <Description>Centering ring, fiber, 25mm to 30mm, 0.5", PN Q14022</Description>
-            <Material Type="BULK">Paper</Material>
+            <Material Type="BULK">Fiber, bulk</Material>
             <InsideDiameter Unit="mm">28.8</InsideDiameter>
             <OutsideDiameter Unit="mm">25.25</OutsideDiameter>
             <Length Unit="in">0.50</Length>
@@ -717,7 +717,7 @@ none known
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>PNC15, Q20050</PartNumber>
             <Description>Nose cone, plastic, 15mm, white, ogive, 1.0", PN PNC15/Q20050</Description>
-            <Material Type="BULK">Polystyrene, bulk</Material>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
             <Mass Unit="g">2.3</Mass>
             <Shape>OGIVE</Shape>
             <OutsideDiameter Unit="mm">15.0</OutsideDiameter>
@@ -732,7 +732,7 @@ none known
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>PNC20, Q20075</PartNumber>
             <Description>Nose cone, plastic, 20mm, black, ogive, 2.5", PN PNC20/Q20075</Description>
-            <Material Type="BULK">Polystyrene, bulk</Material>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
             <Mass Unit="g">2.8</Mass>
             <Shape>OGIVE</Shape>
             <OutsideDiameter Unit="mm">20.0</OutsideDiameter>
@@ -749,7 +749,7 @@ none known
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>PNC25</PartNumber>
             <Description>Nose cone, plastic, 25mm, ogive, 3.125", PN PNC25</Description>
-            <Material Type="BULK">Polystyrene, bulk</Material>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
             <Mass Unit="g">7.1</Mass>
             <Shape>OGIVE</Shape>
             <OutsideDiameter Unit="mm">25.0</OutsideDiameter>
@@ -765,7 +765,7 @@ none known
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>PNC30, Q20304</PartNumber>
             <Description>Nose cone, plastic, 30mm, black, ogive, 3.25", PN PNC30/Q20304</Description>
-            <Material Type="BULK">Polystyrene, bulk</Material>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
             <Mass Unit="g">14.2</Mass>
             <Shape>OGIVE</Shape>
             <OutsideDiameter Unit="mm">30.0</OutsideDiameter>
@@ -781,7 +781,7 @@ none known
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>PNC35, Q20200</PartNumber>
             <Description>Nose cone, plastic, 35mm, white, ogive, 4.25", PN PNC35/Q20200</Description>
-            <Material Type="BULK">Polystyrene, bulk</Material>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
             <Mass Unit="g">10.2</Mass>
             <Shape>OGIVE</Shape>
             <OutsideDiameter Unit="mm">35.0</OutsideDiameter>
@@ -797,7 +797,7 @@ none known
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>PNC35B2, Q20222</PartNumber>
             <Description>Nose cone, plastic, 35mm, white, X-15 shape, 4.5", PN PNC35B2/Q20222</Description>
-            <Material Type="BULK">Polystyrene, bulk</Material>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
             <Mass Unit="g">12.2</Mass>
             <Shape>OGIVE</Shape>
             <OutsideDiameter Unit="mm">35.0</OutsideDiameter>
@@ -818,7 +818,7 @@ none known
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>PNC35Nike, Q20201</PartNumber>
             <Description>Nose cone, plastic, 35mm, white, Nike Smoke, 8.0", PN PNC35Nike/Q20201</Description>
-            <Material Type="BULK">Polystyrene, bulk</Material>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
             <Mass Unit="g">23.5</Mass>
             <Shape>CONICAL</Shape>
             <OutsideDiameter Unit="mm">35.0</OutsideDiameter>
@@ -837,7 +837,7 @@ none known
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>PNC35Egg, Q20224</PartNumber>
             <Description>Nose cone, plastic, 35mm, black, egg capsule, 5.0", PN PNC35Egg/Q20224</Description>
-            <Material Type="BULK">Polystyrene, bulk</Material>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
             <Mass Unit="g">25.0</Mass>
             <Shape>OGIVE</Shape>
             <OutsideDiameter Unit="mm">35.0</OutsideDiameter>
@@ -853,7 +853,7 @@ none known
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>PNC40, Q20400</PartNumber>
             <Description>Nose cone, plastic, 40mm, white, ellipsoid, 2.5", PN PNC40/Q20400</Description>
-            <Material Type="BULK">Polystyrene, bulk</Material>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
             <Mass Unit="g">11.3</Mass>
             <Shape>ELLIPSOID</Shape>
             <OutsideDiameter Unit="mm">40.0</OutsideDiameter>
@@ -869,7 +869,7 @@ none known
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>PNC50, Q20250</PartNumber>
             <Description>Nose cone, plastic, 50mm, white, ogive, 6.0", PN PNC50/Q20250</Description>
-            <Material Type="BULK">Polystyrene, bulk</Material>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
             <Mass Unit="g">42.5</Mass>
             <Shape>OGIVE</Shape>
             <OutsideDiameter Unit="mm">50.0</OutsideDiameter>
@@ -887,7 +887,7 @@ none known
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>2520, Q21057</PartNumber>
             <Description>Transition, plastic, 20mm to 25mm, black, increasing, 0.5" length</Description>
-            <Material Type="BULK">Polystyrene, bulk</Material>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
             <Mass Unit="g">5.7</Mass>
             <Shape>CONICAL</Shape>
             <ForeOutsideDiameter Unit="mm">20.0</ForeOutsideDiameter>
@@ -904,7 +904,7 @@ none known
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>2520 [R], Q21057 [R]</PartNumber>
             <Description>Transition, plastic, 25mm to 20mm, black, decreasing, 0.5" length</Description>
-            <Material Type="BULK">Polystyrene, bulk</Material>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
             <Mass Unit="g">5.7</Mass>
             <Shape>CONICAL</Shape>
             <ForeOutsideDiameter Unit="mm">25.0</ForeOutsideDiameter>
@@ -929,7 +929,7 @@ none known
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>3025 [R], Q21061 [R]</PartNumber>
             <Description>Transition, plastic, 30mm to 25mm, black, decreasing, 0.5" length</Description>
-            <Material Type="BULK">Polystyrene, bulk</Material>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
             <Mass Unit="g">7.7</Mass>
             <Shape>CONICAL</Shape>
             <ForeOutsideDiameter Unit="mm">30.0</ForeOutsideDiameter>
@@ -946,7 +946,7 @@ none known
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>3025, Q21061</PartNumber>
             <Description>Transition, plastic, 25mm to 30mm, black, increasing, 0.5" length</Description>
-            <Material Type="BULK">Polystyrene, bulk</Material>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
             <Mass Unit="g">7.7</Mass>
             <Shape>CONICAL</Shape>
             <ForeOutsideDiameter Unit="mm">25.0</ForeOutsideDiameter>
@@ -965,7 +965,7 @@ none known
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>3525 [R], Q21052 [R]</PartNumber>
             <Description>Tranasition, plastic, 35mm to 25mm, white, decreasing, 0.75" length</Description>
-            <Material Type="BULK">Polystyrene, bulk</Material>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
             <Mass Unit="g">7.1</Mass>
             <Shape>CONICAL</Shape>
             <ForeOutsideDiameter Unit="mm">35.0</ForeOutsideDiameter>
@@ -982,7 +982,7 @@ none known
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>3525, Q21052</PartNumber>
             <Description>Transition, plastic, 25mm to 35mm, white, increasing, 0.75" length</Description>
-            <Material Type="BULK">Polystyrene, bulk</Material>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
             <Mass Unit="g">7.1</Mass>
             <Shape>CONICAL</Shape>
             <ForeOutsideDiameter Unit="mm">25.0</ForeOutsideDiameter>
@@ -1036,7 +1036,7 @@ none known
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>3530 [R], Q21056 [R]</PartNumber>
             <Description>Transition, plastic, 35mm to 30mm, white, decreasing, 0.75" length</Description>
-            <Material Type="BULK">Polystyrene, bulk</Material>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
             <Mass Unit="g">6.4</Mass>
             <Shape>CONICAL</Shape>
             <ForeOutsideDiameter Unit="mm">35.0</ForeOutsideDiameter>
@@ -1053,7 +1053,7 @@ none known
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>3530, Q21056</PartNumber>
             <Description>Transition, plastic, 30mm to 35mm, white, increasing, 0.75" length</Description>
-            <Material Type="BULK">Polystyrene, bulk</Material>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
             <Mass Unit="g">6.4</Mass>
             <Shape>CONICAL</Shape>
             <ForeOutsideDiameter Unit="mm">30.0</ForeOutsideDiameter>
@@ -1079,7 +1079,7 @@ none known
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>3530_short [R], Q21071 [R]</PartNumber>
             <Description>Transition, plastic, 35mm to 30mm, black, decreasing, 0.5" length</Description>
-            <Material Type="BULK">Polystyrene, bulk</Material>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
             <Mass Unit="g">10.9</Mass>
             <Shape>CONICAL</Shape>
             <ForeOutsideDiameter Unit="mm">35.0</ForeOutsideDiameter>
@@ -1096,7 +1096,7 @@ none known
             <Manufacturer>Quest</Manufacturer>
             <PartNumber>3530_short, Q21071</PartNumber>
             <Description>Transition, plastic, 30mm to 35mm, black, increasing, 0.5" length</Description>
-            <Material Type="BULK">Polystyrene, bulk</Material>
+            <Material Type="BULK">Polystyrene, cast, bulk</Material>
             <Mass Unit="g">10.9</Mass>
             <Shape>CONICAL</Shape>
             <ForeOutsideDiameter Unit="mm">30.0</ForeOutsideDiameter>
