@@ -801,7 +801,7 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
 
       <!-- FT16 38mm G12 thin wall switch band -->
       <!--
-           SOURCE ERROR: Madcow website shows "FT11-010" desination for 38mm switch bands.
+           SOURCE ERROR: Madcow website shows "FT11-010" destination for 38mm switch bands.
       -->
       <BodyTube>
         <Manufacturer>Madcow</Manufacturer>
@@ -1642,7 +1642,7 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
            nose cone is not fixed by the manufacturer.
 
            About mass of metal tip nose cones: The density of aluminum at 2.7 g/cm3 is a little more
-           than that of fiberglass (1.8-2.2 g/cm3). Metal tip nose cones will weight slighly more
+           than that of fiberglass (1.8-2.2 g/cm3). Metal tip nose cones will weight slightly more
            than composite tip versions and have their CG slightly further forward, but the delta is
            not that large and OpenRocket has no good way to model this in a single component.  For
            highest accuracy in mass, CG and moments of inertia, you can add a small mass object at

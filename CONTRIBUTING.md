@@ -27,7 +27,7 @@ Here are some typical problem types:
 
 * Parts that insert into OpenRocket with zero mass (indicates a problem in the material definition)
 * Seeing a "discontinuity in diameter" message unexpectedly with supposedly compatible parts
-* Parts that cause an error when a .ork file containing that part is saved (usually indiates a bad character in the part number) 
+* Parts that cause an error when a .ork file containing that part is saved (usually indicates a bad character in the part number) 
 
 If you see a problem but don't know how or where it should get fixed, please go ahead and file a GitHub issue for it.
 This is also be a good way to provide general information that doesn't seem to have a specific home in the

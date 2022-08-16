@@ -362,7 +362,7 @@ Parts from #9701 Ventris
       </NoseCone>
       <!-- PSII 3.0" series nose cone PN 72753, 17.4" modified cone used in #9704 Nike Smoke
            Length obtained by photogrammetry on picture in Nike Smoke instructions
-           The shape is really a 16.75" increasing cone to about 3.1" diam, follwed by a
+           The shape is really a 16.75" increasing cone to about 3.1" diam, followed by a
            .65" decreasing cone back to 3.0" at the base of the nose.  Mass unknown.
       -->
       <NoseCone>

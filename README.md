@@ -868,7 +868,7 @@ that are slightly too large to fit inside the outer tube.  Verify your dimension
 ### Metal Tip Fiberglass Nose Cones
 
 The density of aluminum at 2.7 g/cm3 is a little more than that of fiberglass (1.8 to 2.2
-g/cm3). Metal tip nose cones will weigh slighly more than composite tip versions and have
+g/cm3). Metal tip nose cones will weigh slightly more than composite tip versions and have
 their CG slightly further forward, but the delta is not that large and OpenRocket has no
 good way to model this in a single component.  For highest accuracy in mass, CG and
 moments of inertia, you can add a small mass object at the nose cone tip to make up the
@@ -903,7 +903,7 @@ correct.
 
 ### Parachute / Streamer Descent Performance Simulation
 
-OpenRocket has very basic parachute / streamer perforamnce modeling that is not suitable
+OpenRocket has very basic parachute / streamer performance modeling that is not suitable
 for anything more than a first order estimate of descent rate.  A better
 parachute descent rate calculator can be found on the Fruity Chutes website here:
 [Fruity Chutes Descent Rate Calculator](https://fruitychutes.com/help_for_parachutes/parachute-descent-rate-calculator.htm).
