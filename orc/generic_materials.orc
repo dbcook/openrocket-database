@@ -1248,7 +1248,7 @@ attributes.  This seems to have no effect; looks like everything is actually kg/
             <Type>LINE</Type>
         </Material>
         
-        <!-- Rod wraapping nylon thread (for competition parachutes).
+        <!-- Rod wrapping nylon thread (for competition parachutes).
              Sizes exist(ed) 00, A, B, C, D, E, EE.  Most mfrs only make A and D.  ProWrap gives diameters:
                  A   0.006" diameter
                  D   0.010" diameter

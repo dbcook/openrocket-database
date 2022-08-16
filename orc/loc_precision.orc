@@ -61,7 +61,7 @@ generic_materials.orc.
   SBT-3.90-6S   (6 slots, used in Ultimate)
 
 * Phenolic tubing (claimed flexible) has reappeared on the LOC website in fall 2018.  It is
-said to be the saem size as the cardboard tubing.  Only the 1.52 and 5.38 sizes can be selected
+said to be the same size as the cardboard tubing.  Only the 1.52 and 5.38 sizes can be selected
 in the shop, though the "additional information" tab shows all sizes from 1.52 through 7.51.
 
 CENTERING RINGS AND LAUNCH LUGS:

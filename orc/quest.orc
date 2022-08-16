@@ -1006,7 +1006,7 @@ none known
              the background grid; it looks like another photo of the 25/20 mm part.
 
              The website description and photo for 21056 indicate black color, but the photo is obviously
-             of the wrong part - the exposed length and shoulder proportions are toally wrong.  A newly
+             of the wrong part - the exposed length and shoulder proportions are totally wrong.  A newly
              purchased part in late 2018 is white, as is another example from a Striker AGM kit.  
              On a 2018 invoice for a purchased part, the Q21056 description is just "35mm/30mm Reducer",
              while for Q21071 it's "35mm/30mm Reducer Black".  I also have a 21071 purchased at the same

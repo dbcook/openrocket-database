@@ -39,7 +39,7 @@ Classic parts cross reference: http://www.semroc.com/Store/scripts/xref.asp
    This chart lists cross-references for Semroc PNs matching Centuri PNs.
    It's notable for tabulatingg the years of production for Centuri and FSI parts.
    It appears that certain Semroc parts listed there may have never actually existed because the
-   Semroc PNs don't appear anywhere else on either the leggacy or new site.
+   Semroc PNs don't appear anywhere else on either the legacy or new site.
    These "unimplemented" Semroc PNs are:
       BC-1057  = Centuri BC-109
       BC-27567 = Centuri BC-275B
@@ -4604,7 +4604,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
 
     <!-- BTH-80 -->
     <!-- BTH-80 and Aerotech 2.6 dimensions are effectively identical.  The sizes given on
-         the eRockets 2017 tube size list are slighly discrepant, and the BTH-80 wall thickness
+         the eRockets 2017 tube size list are slightly discrepant, and the BTH-80 wall thickness
          is incorrectly given as .050 when all other sources indicate .041
          I am adopting the dimensions ID = 2.558, OD = 2.640 (wall .041) per the original
          SEMROC chart.  This makes the most sense since it has ID identical to original
@@ -12147,7 +12147,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
       <ShoulderLength Unit="in">0.25</ShoulderLength>
       <Length Unit="in">2.5</Length>
     </NoseCone>
-    <!-- BNC-5RA from Estes #0893 Red Alert (1991-1992). Max diamter of flared part is
+    <!-- BNC-5RA from Estes #0893 Red Alert (1991-1992). Max diameter of flared part is
          0.81" and weight is 0.10 oz per Semroc legacy NC table ***shoulder length
          unconfirmed*** -->
     <NoseCone>
@@ -13119,7 +13119,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     <!-- ===================================== -->
     <!--
          *** BC-721CN nacelle cone/nozzle set not included, need rear taper diameter ***
-         *** BC-726CN cone/nozzle set not included, need individal dimensions ***
+         *** BC-726CN cone/nozzle set not included, need individual dimensions ***
     -->
 
     <!-- BC-708 is 0.95" cone (called 0.8"), shoulder 0.42" -->
