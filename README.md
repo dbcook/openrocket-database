@@ -26,6 +26,10 @@ System compatibility:  works anywhere OpenRocket can run
 
 ## Release Notes
 
+0.9.3.5 - 16 Aug 2022
+* Fixes
+  * PR #12 from luzpaz, corrects various spelling typos in comments
+
 0.9.3.4 - 15 Aug 2022
 * Fixes from issue #11 reported by davesrocketshop
   * quest - fix a number of broken units refs for plastic parts and tubes
