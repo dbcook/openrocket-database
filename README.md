@@ -26,6 +26,10 @@ System compatibility:  works anywhere OpenRocket can run
 
 ## Release Notes
 
+0.9.3.6 - 12 Sep 2022
+* Fixes
+  * Issue #13 - wrong diameters for publicmissiles QT2.1
+
 0.9.3.5 - 16 Aug 2022
 * Fixes
   * PR #12 from luzpaz, corrects various spelling typos in comments
