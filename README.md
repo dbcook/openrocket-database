@@ -10,8 +10,8 @@ OpenRocket jar file.
 Installing this package does not change how OpenRocket __works__ in any way.  It only changes what
 components are available for selection in the menus.
 
-As of the 2022 OpenRocket beta releases the old built-in database has been removed, and *this* database is
-now being installed along with OpenRocket.  Now you don't have to do anything special to install it.
+As of the 2022 OpenRocket beta releases, this database is automatically installed along with OpenRocket,
+and you don't have to do anything special to install it.
 
 For the old OpenRocket 15.03, you have to do a slightly technical installation.
 It's not very complicated, but there's a bit of command line work.  You'll need to be able to use a `git`
@@ -29,6 +29,7 @@ System compatibility:  works anywhere OpenRocket can run
 0.9.3.6 - 12 Sep 2022
 * Fixes
   * Issue #14 - wrong diameters for publicmissiles QT2.1
+  * Fix introduction to not say the legacy database is gone
 
 0.9.3.5 - 16 Aug 2022
 * Fixes
