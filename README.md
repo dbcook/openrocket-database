@@ -249,10 +249,10 @@ somewhat Mac centric because that's what I use most.
 | ----- | ----- | ----- |
 | `Estes.orc`              | Yes  | 100% - split - see new files below
 | `loc_precision.orc`      | Yes  | 100% 
-| `semroc.orc`             | Yes  | 99% - believed complete, some cleanup continues
+| `semroc.orc`             | Yes  | 100% - believed complete, SEMROC website died, ending cleanup efforts
 | `bluetube.orc`           | Yes  | 100% - tubes and couplers are done, still needs CRs and NCs
 | `Quest.orc`              | Yes  | 98% - everything known is done
-| `bms.orc`                | Yes  | -- won't do for now, mostly Estes size compatible
+| `bms.orc`                | Yes  | -- mfr data is incomplete but I may do the documented parts
 | `Fliskits.orc`           | Yes  | -- Won't do, few or no unique parts
 | `giantleaprocketry.orc`  | Yes  | 95% - totally new file created, many old errors fixed
 | `publicmissiles.orc`     | Yes  | 75% - need to finish centering rings and glassed couplers
@@ -265,6 +265,7 @@ somewhat Mac centric because that's what I use most.
 | `madcow.orc`             | No   | 99%
 | `top_flight.orc`         | No   | 100%
 | `competition_chutes.orc` | No   | 100%
+| `modelrocket.us`         | No.  | -- worth doing; they have their own line of tubes, nose cones and rings
 
 
 There are files I may never do, or do in very abbreviated form.
@@ -364,9 +365,6 @@ drastically limited our ability to get parts data.  Estes production now works r
   contract manufacturer package up a lot of individual parts.
 * A few Estes kits - typically small production run scale models - are
   actually produced in Penrose.
-
-These facts have some consequences:
-
 * Customer service requests for incomplete or damaged kits are handled by sending an
   entire new kit; the parts are not separately inventoried by Estes.
 * Newer kits have no PNs listed in the kit instructions, since the parts
@@ -430,7 +428,7 @@ No Centuri parts file is provided with the stock OpenRocket.
 Fortunately, the SEMROC online listings provide data for many Centuri-compatible tubes and nose cones.
 Given SEMROC's attention to detail, the SEMROC dimensions for Centuri parts can be
 considered authoritative when they exist, unless analysis clearly shows errors.  However, even the
-SEMROC listings are incomplete; there are many blank entries for manufacturer PN in the SEMROC
+SEMROC listings are incomplete; there were many blank entries for manufacturer PN in the SEMROC
 Centuri kit cross-reference pages.
 
 Overall, we can probably construct a reasonable Centuri parts file, but it may be impossible
@@ -446,9 +444,12 @@ Dimensional data from LOC Precision is notoriously incomplete and error-filled, 
 been able to resolve most of it using Apogee's tabulated data and some measurements of actual parts.
 In the Barber/Turicik era the website data has been improving.
 
+In 2022 LOC Precision acquired the hobby rocket business of Public Missiles Ltd (PML).  PML's
+former website publicmissiles.com has gone offline as of September 2022.
+
 #### SEMROC
 
-SEMROC is unique in that a majority of its parts are dimensionally exact reproductions of
+SEMROC (now a part of eRockets.biz) is unique in that a majority of its parts are dimensionally exact reproductions of
 classic Estes and Centuri parts.  The late Carl McLawhorn was a fanatic about getting those things
 right, and data from the SEMROC legacy website has helped resolve
 uncertainties about some obscure Estes parts, especially tubes and nose cones.  eRockets acquired
@@ -528,7 +529,7 @@ BMS is operated by Bill and Mary Saindon of Pahrump, NV.  Much of the BMS busine
 balsa parts, but body tubes and Aerotech motors are also available.  Lists of
 tubes and balsa parts are on the [BMS website](https://balsamachining.com).
 
-The balsa parts lists do not show shoulder lengths, while the tube listings
+The balsa parts lists mostly do not show shoulder lengths, while the tube listings
 give full dimensions.  No mass/weight data is given.  BMS makes a significant number
 of their own unique centering rings.
 
@@ -764,9 +765,8 @@ and Madcow data.
 
 Apogee does make a few own-design parts, including the foam egg protectors and nose cones widely used by
 TARC teams, and foam ejection plugs used in NAR/FAI competition.  I don't believe they make any tubes or
-nose cones that aren't available elsewhere.  Separating these out
-from all the OEM parts would be tedious, but it could be possible to assemble a small
-Apogee file with the important parts.
+nose cones that aren't available elsewhere.  A very small Apogee file has been built listing
+the TARC foam parts.
 
 #### Wildman Rocketry
 
@@ -820,6 +820,8 @@ e.g. all tube families are shown as having "Kraft phenolic" material.  This file
 evidenced by the absence of the fiberglass tube line, the presence of the now-vanished
 Dynawind+Magnaframe tubes, and significant changes to the nose cone and centering ring product lines.
 
+Nonetheless the Giant Leap file here has been updated with the best available information.
+
 ### Missing Manufacturers
 
 There are several product lines from legacy and major manufacturers - especially high
@@ -837,13 +839,14 @@ this database.
 * ModelRockets.us (Discount Rocketry), offers tubes with heavier wall than Estes, and various
   plastic nose cones.  Notable for being one of the smaller vendors with actual manufacturing
   capability.
-* Very small manufacturers including Kopter, Pine Cap Assoc., US Rockets, ASP, etc.
-* Canaroc
+* Very small manufacturers including Kopter, Pine Cap Assoc., US Rockets, ASP, etc.  Many of these
+  made only kits.  ASP does offer some competition parts.
+* Canaroc (reported long defunct in 2011 along with its parent Irwin Group of Toronto)
 * High power kit and parts vendors
   * Wildman
   * Rocketry Warehouse (pre Madcow acquisition)
   * Polecat Aerospace (pre Madcow acquisition)
-* Fruity, Rocketman, Sky Angle, and B2 nylon parachutes
+* Recovery specialists: Fruity, Rocketman, Sky Angle, and B2 parachutes
 
 ## OpenRocket Usage and Quirks
 
@@ -1005,7 +1008,9 @@ In the OpenRocket source tree, the .orc files are extremely stale and no one has
 recently.  The most recent change to the Estes file was in April 2014, and the rest have
 not changed since 2013 or before.
 
-The new 2022 OpenRocket betas have adopted *this* database.
+The new 2022 OpenRocket betas have adopted *this* database.  At present the betas also contain
+the legacy 15.03 database, which can be activated with a "show legacy" option in the component
+selection dialog.
 
 ### OpenRocket Data File Search Path
 
@@ -1017,7 +1022,7 @@ items of that type.
 The general search order for database files is:
 
 * Items existing in the active document (we still need details on this from a code dive)
-* Files included in the OpenRocket jar under `datafiles/presets/system.ser` (no longer true in 2022 betas)
+* Files included in the OpenRocket jar under `datafiles/presets/system.ser` (possibly no longer true in 2022 betas)
 * External .orc files in platform-dependent locations, as described below
 
 #### Windows External File Locations
@@ -1128,7 +1133,7 @@ Line density:  g/cm, oz/in
 In the stock built-in OpenRocket databases, all materials are specified in g/cm3, g/cm2 or g/m.
 
 For __components__ you use the "Unit" attribute in the component definitions to
-specify other units as desired.  In the standard OpenRocket presets files they are all
+specify other units as desired.  In the standard OpenRocket presets files they were all
 metric, even for American parts, which makes checking the dimensions against the USA
 manufacturers' Imperial units specs very laborious.  In my custom .orc files I have
 specified the units to be those of the manufacturer's published data to make it easier to
