@@ -162,8 +162,8 @@ Using this file:
             <PartNumber>QT-2.1</PartNumber>
             <Description>Body tube, Quantum polymer, 2.1, gray, 36.0"</Description>
             <Material Type="BULK">PML Quantum polymer</Material>
-            <InsideDiameter Unit="in">1.145</InsideDiameter>
-            <OutsideDiameter Unit="in">1.269</OutsideDiameter>
+            <InsideDiameter Unit="in">2.152</InsideDiameter>
+            <OutsideDiameter Unit="in">2.278</OutsideDiameter>
             <Length Unit="in">36.0</Length>
         </BodyTube>
 
