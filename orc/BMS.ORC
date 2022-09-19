@@ -5,8 +5,7 @@ All data directly from BMS website https://www.balsamachining.com/
 by Stephen J. Heilman  sj_h1@live.com 
 
 
-This file provides separate entries for each part per the original BMS part numbering scheme with
-prefixes and suffixes such as "T20-34".  The newer non-significant all-numeric part numbers are also included in the PartNumber and Description string where known.  Be aware that there are many conflicts in the BMS assigned PNs.
+This file provides separate entries for each part per the original BMS part numbering scheme with prefixes and suffixes such as "T20-34".  The newer non-significant all-numeric part numbers are also included in the PartNumber and Description string where known.  Be aware that there are many conflicts in the BMS assigned PNs.
 
 Many items are based on part definitions from the stock OpenRocket component files, but with various cleanups and fixes:
 
@@ -47,9 +46,10 @@ Using this file:
             and about 8 lb/ft3 for larger ones, but they are very inconsistent.
         -->
 		<!-- BMS does not give weigths for tubes so it is assumed to be the same as the Estes tubes. -->
+		<!-- 7lb/ft3 balsa -->
 		<Material UnitsOfMeasure="kg/m3">
 			<Name>Balsa, bulk, BMS typical</Name>
-			<Density>160.2</Density>
+			<Density>112.0</Density>
 			<Type>BULK</Type>
 		</Material>
 		<Material UnitsOfMeasure="kg/m3">
@@ -1649,6 +1649,7 @@ Using this file:
 			<OutsideDiameter Unit="in">2.930</OutsideDiameter>
 			<Length Unit="in">0.125</Length>
 		</CenteringRing>
+		<!-- Bulkheads -->
 		<BulkHead>
 			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
 			<PartNumber>BHT70-F</PartNumber>
@@ -1739,6 +1740,479 @@ Using this file:
 			<OutsideDiameter Unit="in">2.855</OutsideDiameter>
 			<Length Unit="in">0.125</Length>
 		</BulkHead>
+		<!-- BMS does not spectify shoulder length. Assumed 0.5, unless its a Estes clone which its value is used -->
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BMS20Q</PartNumber>
+			<Description>0.736x0.710x1.75 Slightly longer version of 20B, fits BT20, PN BMS20Q</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>ELLIPSOID</Shape>
+			<OutsideDiameter Unit="in">0.736</OutsideDiameter>
+			<ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.500</ShoulderLength>
+			<Length Unit="in">1.750</Length>
+		</NoseCone>
+		<!-- aft diameter is not specified on website, best guess applied -->
+		<Transition>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BMS20V2B</PartNumber>
+			<Description>0.736x0.710x1.63, V2 Boat-tail with 10mm bored hole, fits BT20, PN BMS20V2B</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>ELLIPSOID</Shape>
+			<ForeOutsideDiameter Unit="in">0.736</ForeOutsideDiameter>
+			<ForeShoulderDiameter Unit="in">0.710</ForeShoulderDiameter>
+			<ForeShoulderLength Unit="in">0.5</ForeShoulderLength>
+			<AftOutsideDiameter Unit="in">0.5</AftOutsideDiameter>
+			<AftShoulderDiameter Unit="in">0.000</AftShoulderDiameter>
+			<AftShoulderLength Unit="in">0.000</AftShoulderLength>
+			<Length Unit="in">1.630</Length>
+		</Transition>
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BMS20V2C</PartNumber>
+			<Description>0.736x0.710x2.25, V2 Nose Cone w/bored hole, fits BT20, PN BMS20V2C</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>OGIVE</Shape>
+			<OutsideDiameter Unit="in">0.736</OutsideDiameter>
+			<ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.630</ShoulderLength>
+			<Length Unit="in">2.25</Length>
+		</NoseCone>
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BMS50Q</PartNumber>
+			<Description>0.976x0.950x2.25, fits BT50, PN BMS50Q</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>ELLIPSOID</Shape>
+			<OutsideDiameter Unit="in">0.976</OutsideDiameter>
+			<ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.630</ShoulderLength>
+			<Length Unit="in">2.25</Length>
+		</NoseCone>
+		<!-- BMS50HJ is a Honest John Nose cone and is currently supports im OR -->
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BMS50V2B</PartNumber>
+			<Description>0.976x0.950x2.20, V2 Boat-tail with bored BT5 hole, fits BT50, PN BMS50V2B</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>ELLIPSOID</Shape>
+			<OutsideDiameter Unit="in">0.976</OutsideDiameter>
+			<ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.630</ShoulderLength>
+			<Length Unit="in">2.20</Length>
+		</NoseCone>
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BMS50V2C</PartNumber>
+			<Description>0.976x0.950x3.00, V2 cone with bored hole, fits BT50, PN BMS50V2C</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>OGIVE</Shape>
+			<OutsideDiameter Unit="in">0.976</OutsideDiameter>
+			<ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.630</ShoulderLength>
+			<Length Unit="in">3.000</Length>
+		</NoseCone>
+		<!-- BMS55HJ is a Honest John Nose cone and is currently supports im OR -->
+		<!-- Aft diameter is not specified and is just a best guess -->
+		<Transition>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BMS60V2B</PartNumber>
+			<Description>1.637x1.595x3.70, V2 Boat-tail with bored BT20 hole, fits BT60, PN BMS60V2B</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>ELLIPSOID</Shape>
+			<ForeOutsideDiameter Unit="in">1.63</ForeOutsideDiameter>
+			<ForeShoulderDiameter Unit="in">1.595</ForeShoulderDiameter>
+			<ForeShoulderLength Unit="in">0.5</ForeShoulderLength>
+			<AftOutsideDiameter Unit="in">0.750</AftOutsideDiameter>
+			<AftShoulderDiameter Unit="in">0.000</AftShoulderDiameter>
+			<AftShoulderLength Unit="in">0.000</AftShoulderLength>
+			<Length Unit="in">3.700</Length>
+		</Transition>
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BMS60V2C</PartNumber>
+			<Description>1.635x1.595x5.25, V2 cone with 4 inch deep bored hole, fits BT60, PN BMS60V2C</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>OGIVE</Shape>
+			<OutsideDiameter Unit="in">1.635</OutsideDiameter>
+			<ShoulderDiameter Unit="in">1.595</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.500</ShoulderLength>
+			<Length Unit="in">5.25</Length>
+		</NoseCone>
+		<!-- Complex shap not supportes by OR 
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BMS70AB</PartNumber>
+			<Description>2.217x2.180x4.45, Gemini Titan - 820101, fits BT70, PN BMS70AB</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>OGIVE</Shape>
+			<OutsideDiameter Unit="in">2.217</OutsideDiameter>
+			<ShoulderDiameter Unit="in">2.180</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.500</ShoulderLength>
+			<Length Unit="in">4.45</Length>
+		</NoseCone>
+		-->
+		<!-- Aft diameter is not specified and is just a best guess -->
+		<Transition>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BMSV2BT1</PartNumber>
+			<Description>1.637x1.595x3.70, V2 Boat-tail with bored BT50 hole, fits BT60, PN BMSV2BT1</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>ELLIPSOID</Shape>
+			<ForeOutsideDiameter Unit="in">1.63</ForeOutsideDiameter>
+			<ForeShoulderDiameter Unit="in">1.595</ForeShoulderDiameter>
+			<ForeShoulderLength Unit="in">0.5</ForeShoulderLength>
+			<AftOutsideDiameter Unit="in">0.990</AftOutsideDiameter>
+			<AftShoulderDiameter Unit="in">0.000</AftShoulderDiameter>
+			<AftShoulderLength Unit="in">0.000</AftShoulderLength>
+			<Length Unit="in">3.700</Length>
+		</Transition>
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC10A</PartNumber>
+			<Description>0.720x0.706x0.80, Streak, fits BT10, PN BNC10A</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>OGIVE</Shape>
+			<OutsideDiameter Unit="in">0.720</OutsideDiameter>
+			<ShoulderDiameter Unit="in">0.706</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.500</ShoulderLength>
+			<Length Unit="in">0.8</Length>
+		</NoseCone>
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC20A</PartNumber>
+			<Description>0.736x0.710x0.71, Short version of BNC20B, fits BT20, PN BNC20A</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>OGIVE</Shape>
+			<OutsideDiameter Unit="in">0.736</OutsideDiameter>
+			<ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.500</ShoulderLength>
+			<Length Unit="in">0.71</Length>
+		</NoseCone>
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC20AM</PartNumber>
+			<Description>0.736x0.710x2.00, Estes Classic, fits BT20, PN BNC20AM</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>ELLIPSOID</Shape>
+			<OutsideDiameter Unit="in">0.736</OutsideDiameter>
+			<ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.500</ShoulderLength>
+			<Length Unit="in">2.00</Length>
+		</NoseCone>
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC20AZ</PartNumber>
+			<Description>0.736x0.710x2.40, Estes Classic, fits BT20, PN BNC20AZ</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>PARABOLIC</Shape>
+			<OutsideDiameter Unit="in">0.736</OutsideDiameter>
+			<ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.500</ShoulderLength>
+			<Length Unit="in">2.40</Length>
+		</NoseCone>
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC20B</PartNumber>
+			<Description>0.736x0.710x1.60, Estes Classic, fits BT20, PN BNC20B</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>ELLIPSOID</Shape>
+			<OutsideDiameter Unit="in">0.736</OutsideDiameter>
+			<ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.500</ShoulderLength>
+			<Length Unit="in">1.60</Length>
+		</NoseCone>
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC-20J</PartNumber>
+			<Description>0.736x0.710x0.78, BT20 version of BNC50J, fits BT20, PN BNC-20L</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>ELLIPSOID</Shape>
+			<OutsideDiameter Unit="in">0.736</OutsideDiameter>
+			<ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.50</ShoulderLength>
+			<Length Unit="in">0.78</Length>
+		</NoseCone>
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC-20L</PartNumber>
+			<Description>0.736x0.710x1.40, 	Estes CYL-Ogive, fits BT20, BNC-20L, PN BNC-20L</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>ELLIPSOID</Shape>
+			<OutsideDiameter Unit="in">0.736</OutsideDiameter>
+			<ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.50</ShoulderLength>
+			<Length Unit="in">1.4</Length>
+		</NoseCone>
+		<!-- BNC-20N 70236 ref 1975 catalog, 0.08 oz -->
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC-20N, 70236</PartNumber>
+			<Description>0.736x0.710x2.70, Estes Classic, fits BT20, PN BNC-20N</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>OGIVE</Shape>
+			<OutsideDiameter Unit="in">0.736</OutsideDiameter>
+			<ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.50</ShoulderLength>
+			<Length Unit="in">2.70</Length>
+		</NoseCone>
+		<!-- BNC-20P 70238 (Spaceman only), shape is approximation, 0.07 oz , taken from Estes parts-->
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC-20P, 70238</PartNumber>
+			<Description>0.736x0.710x1.30, spaceman, fits BT20, PN BNC-20P</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Mass Unit="oz">0.07</Mass>
+			<Filled>true</Filled>
+			<Shape>ELLIPSOID</Shape>
+			<OutsideDiameter Unit="in">0.90</OutsideDiameter>
+			<ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.437</ShoulderLength>
+			<Length Unit="in">1.30</Length>
+		</NoseCone>
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC-20R, 70240</PartNumber>
+			<Description>0.736x0.710x2.75, Estes Classic, fits BT20, PN BNC-20R</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>CONICAL</Shape>
+			<OutsideDiameter Unit="in">0.736</OutsideDiameter>
+			<ShoulderDiameter Unit="in">0.711</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.375</ShoulderLength>
+			<Length Unit="in">2.75</Length>
+		</NoseCone>
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC-20Y, 70241</PartNumber>
+			<Description>0.736x0.710x1.05, Estes Classic, fits BT20, PN BNC-20Y</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>CONICAL</Shape>
+			<OutsideDiameter Unit="in">0.736</OutsideDiameter>
+			<ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.375</ShoulderLength>
+			<Length Unit="in">1.05</Length>
+		</NoseCone>
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC30D</PartNumber>
+			<Description>0.767x0.722x1.45, Scout Sprite, fits BT30, PN BNC30D</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>CONICAL</Shape>
+			<OutsideDiameter Unit="in">0.767</OutsideDiameter>
+			<ShoulderDiameter Unit="in">0.722</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.500</ShoulderLength>
+			<Length Unit="in">1.45</Length>
+		</NoseCone>
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC30E</PartNumber>
+			<Description>0.767x0.725x2.19, Estes-CYL-Ogive, fits BT30, PN BNC30E</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>OGIVE</Shape>
+			<OutsideDiameter Unit="in">0.767</OutsideDiameter>
+			<ShoulderDiameter Unit="in">0.725</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.500</ShoulderLength>
+			<Length Unit="in">2.19</Length>
+		</NoseCone>
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC30N</PartNumber>
+			<Description>0.767x0.725x2.75, 	BT30 Ogive, fits BT30, PN BNC30N</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>OGIVE</Shape>
+			<OutsideDiameter Unit="in">0.767</OutsideDiameter>
+			<ShoulderDiameter Unit="in">0.725</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.500</ShoulderLength>
+			<Length Unit="in">2.750</Length>
+		</NoseCone>
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC50AC</PartNumber>
+			<Description>0.976x0.950x3.80, BT50 version of BNC55AC, fits BT50, PN BNC50AC</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>OGIVE</Shape>
+			<OutsideDiameter Unit="in">0.976</OutsideDiameter>
+			<ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.500</ShoulderLength>
+			<Length Unit="in">3.800</Length>
+		</NoseCone>
+		<!-- BNC50AD is an Honest John and too complex for OR -->
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC50BA</PartNumber>
+			<Description>0.976x0.950x1.13, Estes Classic (2 piece), fits BT50, PN BNC50BA</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>CONICAL</Shape>
+			<OutsideDiameter Unit="in">0.976</OutsideDiameter>
+			<ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.500</ShoulderLength>
+			<Length Unit="in">1.13</Length>
+		</NoseCone>
+		<!-- BNC-50BA (old BOMARC #0657) ref Semroc legacy website.
+             conical shape looks like best match.  Semroc weight given as 0.05 oz -->
+		<!-- length not given on website, assumed to be the same as the Estes-->
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC50BC</PartNumber>
+			<Description>0.976x0.950, 2 Piece cone, fits BT50, PN BNC50BC</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>CONICAL</Shape>
+			<OutsideDiameter Unit="in">0.976</OutsideDiameter>
+			<ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.500</ShoulderLength>
+			<Length Unit="in">2.75</Length>
+		</NoseCone>
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC50G</PartNumber>
+			<Description>0.976x0.950x1.35, Thor-Agena Nose Cone, fits BT50, PN BNC50G</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>ELLIPSOID</Shape>
+			<OutsideDiameter Unit="in">0.976</OutsideDiameter>
+			<ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.500</ShoulderLength>
+			<Length Unit="in">1.35</Length>
+		</NoseCone>
+       <NoseCone>
+            <Manufacturer>BalsaMachiningQQQ</Manufacturer>
+            <PartNumber>BNC50J</PartNumber>
+            <Description>0.976x0.950x1.37, Estes Classic, fits BT50, PN BNC50J</Description>
+            <Material Type="BULK">Balsa, bulk, BMS typical</Material>
+            <Filled>true</Filled>
+            <Shape>ELLIPSOID</Shape>
+            <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.50</ShoulderLength>
+            <Length Unit="in">1.37</Length>
+        </NoseCone>
+        <!-- BNC-50K ref 1975 catalog -->
+        <NoseCone>
+            <Manufacturer>BalsaMachiningQQQ</Manufacturer>
+            <PartNumber>BNC50K</PartNumber>
+            <Description>0.976x0.950x2.75, Estes Classic, fits BT50, PN BNC50K</Description>
+            <Material Type="BULK">Balsa, bulk, BMS typical</Material>
+            <Filled>true</Filled>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.50</ShoulderLength>
+            <Length Unit="in">2.75</Length>
+        </NoseCone>
+        <NoseCone>
+            <Manufacturer>BalsaMachiningQQQ</Manufacturer>
+            <PartNumber>BNC50X, 70264</PartNumber>
+            <Description>0.976x0.950x3.30,	Sprint, fits BT50, PN BNC50X</Description>
+            <Material Type="BULK">Balsa, bulk, BMS typical</Material>
+            <Filled>true</Filled>
+            <Shape>ELLIPSOID</Shape>
+            <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.50</ShoulderLength>
+            <Length Unit="in">3.300</Length>
+        </NoseCone>
+        <NoseCone>
+            <Manufacturer>BalsaMachiningQQQ</Manufacturer>
+            <PartNumber>BNC50Y, 70266</PartNumber>
+            <Description>0.976x0.950x4.35, Estes Classic, fits BT50, PN BNC50Y</Description>
+            <Material Type="BULK">Balsa, bulk, BMS typical</Material>
+            <Mass Unit="oz">0.16</Mass>
+            <Filled>true</Filled>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">0.976</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.375</ShoulderLength>
+            <Length Unit="in">4.375</Length>
+        </NoseCone>
+        <NoseCone>
+            <Manufacturer>BalsaMachiningQQQ</Manufacturer>
+            <PartNumber>BNC52G</PartNumber>
+            <Description>1.010x0.995x1.35, Thor-Agena B nose cone, fits BT52, PN BNC52G</Description>
+            <Material Type="BULK">Balsa, bulk, BMS typical</Material>
+            <Mass Unit="oz">0.056</Mass>
+            <Filled>true</Filled>
+            <Shape>CONICAL</Shape>
+            <OutsideDiameter Unit="in">1.010</OutsideDiameter>
+            <ShoulderDiameter Unit="in">0.995</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.50</ShoulderLength>
+            <Length Unit="in">1.35</Length>
+        </NoseCone>
+        <NoseCone>
+            <Manufacturer>BalsaMachiningQQQ</Manufacturer>
+            <PartNumber>BNC55AC</PartNumber>
+            <Description>1.325x1.283x5.40, Estes-Secant-Ogive, fits BT55, PN BNC55AC</Description>
+            <Material Type="BULK">Balsa, bulk, BMS typical</Material>
+            <Filled>true</Filled>
+            <Shape>OGIVE</Shape>
+            <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+            <ShoulderDiameter Unit="in">1.283</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.375</ShoulderLength>
+            <Length Unit="in">5.400</Length>
+        </NoseCone>
+        <NoseCone>
+            <Manufacturer>BalsaMachiningQQQ</Manufacturer>
+            <PartNumber>BNC55AM</PartNumber>
+            <Description>1.325x1.283x4.20, Estes, fits BT55, PN BNC55AM</Description>
+            <Material Type="BULK">Balsa, bulk, BMS typical</Material>
+            <Mass Unit="oz">0.27</Mass>
+            <Filled>true</Filled>
+            <Shape>ELLIPSOID</Shape>
+            <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+            <ShoulderDiameter Unit="in">1.283</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.75</ShoulderLength>
+            <Length Unit="in">4.2</Length>
+        </NoseCone>
+        <NoseCone>
+            <Manufacturer>BalsaMachiningQQQ</Manufacturer>
+            <PartNumber>BNC55AO</PartNumber>
+            <Description>1.325x1.283x5.00, Goblin, fits BT55, PN BNC55AO</Description>
+            <Material Type="BULK">Balsa, bulk, BMS typical</Material>
+            <Filled>true</Filled>
+            <Shape>ELLIPSOID</Shape>
+            <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+            <ShoulderDiameter Unit="in">1.283</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.75</ShoulderLength>
+            <Length Unit="in">5.000</Length>
+        </NoseCone>
+        <NoseCone>
+            <Manufacturer>BalsaMachiningQQQ</Manufacturer>
+            <PartNumber>BNC55BE</PartNumber>
+            <Description>1.325x1.283x1.60,Estes Classic, fits BT55, PN BNC55BE</Description>
+            <Material Type="BULK">Balsa, bulk, BMS typical</Material>
+            <Filled>true</Filled>
+            <Shape>CONICAL</Shape>
+            <OutsideDiameter Unit="in">1.325</OutsideDiameter>
+            <ShoulderDiameter Unit="in">1.283</ShoulderDiameter>
+            <ShoulderLength Unit="in">0.75</ShoulderLength>
+            <Length Unit="in">1.600</Length>
+        </NoseCone>
+     		
 	</Components>
 </OpenRocketComponent>
 
