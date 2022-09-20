@@ -1765,7 +1765,7 @@ Using this file:
 			<Description>0.736x0.710x1.63, V2 Boat-tail with 10mm bored hole, fits BT20, PN BMS20V2B</Description>
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
-			<Shape>ELLIPSOID</Shape>
+			<Shape>OGIVE</Shape>
 			<ForeOutsideDiameter Unit="in">0.736</ForeOutsideDiameter>
 			<ForeShoulderDiameter Unit="in">0.710</ForeShoulderDiameter>
 			<ForeShoulderLength Unit="in">0.5</ForeShoulderLength>
@@ -1849,7 +1849,7 @@ Using this file:
 			<Shape>OGIVE</Shape>
 			<OutsideDiameter Unit="in">1.635</OutsideDiameter>
 			<ShoulderDiameter Unit="in">1.595</ShoulderDiameter>
-			<ShoulderLength Unit="in">0.500</ShoulderLength>
+			<ShoulderLength Unit="in">0.750</ShoulderLength>
 			<Length Unit="in">5.25</Length>
 		</NoseCone>
 		<!-- Complex shap not supportes by OR 
@@ -1873,7 +1873,7 @@ Using this file:
 			<Description>1.637x1.595x3.70, V2 Boat-tail with bored BT50 hole, fits BT60, PN BMSV2BT1</Description>
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
-			<Shape>ELLIPSOID</Shape>
+			<Shape>OGIVE</Shape>
 			<ForeOutsideDiameter Unit="in">1.63</ForeOutsideDiameter>
 			<ForeShoulderDiameter Unit="in">1.595</ForeShoulderDiameter>
 			<ForeShoulderLength Unit="in">0.5</ForeShoulderLength>
@@ -2262,7 +2262,7 @@ Using this file:
 			<Shape>OGIVE</Shape>
 			<OutsideDiameter Unit="in">0.544</OutsideDiameter>
 			<ShoulderDiameter Unit="in">0.518</ShoulderDiameter>
-			<ShoulderLength Unit="in">0.250</ShoulderLength>
+			<ShoulderLength Unit="in">0.500</ShoulderLength>
 			<Length Unit="in">2.17</Length>
 		</NoseCone>
 		<!-- complex jet intake, only approximated here -->
@@ -2299,7 +2299,7 @@ Using this file:
 			<Shape>OGIVE</Shape>
 			<OutsideDiameter Unit="in">0.544</OutsideDiameter>
 			<ShoulderDiameter Unit="in">0.518</ShoulderDiameter>
-			<ShoulderLength Unit="in">0.250</ShoulderLength>
+			<ShoulderLength Unit="in">0.4</ShoulderLength>
 			<Length Unit="in">2.72</Length>
 		</NoseCone>
 		<NoseCone>
@@ -2605,19 +2605,7 @@ Using this file:
 			<Shape>OGIVE</Shape>
 			<OutsideDiameter Unit="in">1.325</OutsideDiameter>
 			<ShoulderDiameter Unit="in">1.283</ShoulderDiameter>
-			<ShoulderLength Unit="in">0.750</ShoulderLength>
-			<Length Unit="in">4.15</Length>
-		</NoseCone>
-		<NoseCone>
-			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
-			<PartNumber>BTC55Z</PartNumber>
-			<Description>1.325x1.283x4.15, V2 Boat-tail with bored BT20 hole, fits BT55, PN BTC55Z</Description>
-			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
-			<Filled>true</Filled>
-			<Shape>OGIVE</Shape>
-			<OutsideDiameter Unit="in">1.325</OutsideDiameter>
-			<ShoulderDiameter Unit="in">1.283</ShoulderDiameter>
-			<ShoulderLength Unit="in">0.750</ShoulderLength>
+			<ShoulderLength Unit="in">0.900</ShoulderLength>
 			<Length Unit="in">4.15</Length>
 		</NoseCone>
 		<!-- shoulder length not specified for BTC55Z -->
@@ -2627,7 +2615,7 @@ Using this file:
 			<Description>1.325x1.283x3.00, V2 Boat-tail with bored BT20 hole, fits BT55, PN BTC55Z</Description>
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
-			<Shape>ELLIPSOID</Shape>
+			<Shape>OGIVE</Shape>
 			<ForeOutsideDiameter Unit="in">1.325</ForeOutsideDiameter>
 			<ForeShoulderDiameter Unit="in">1.283</ForeShoulderDiameter>
 			<ForeShoulderLength Unit="in">0.5</ForeShoulderLength>
@@ -2646,7 +2634,7 @@ Using this file:
 			<Shape>OGIVE</Shape>
 			<OutsideDiameter Unit="in">1.040</OutsideDiameter>
 			<ShoulderDiameter Unit="in">1.000</ShoulderDiameter>
-			<ShoulderLength Unit="in">0.750</ShoulderLength>
+			<ShoulderLength Unit="in">0.500</ShoulderLength>
 			<Length Unit="in">5.250</Length>
 		</NoseCone>
 		<!-- CENBC79 shoulder length not specified -->
@@ -2659,7 +2647,7 @@ Using this file:
 			<Shape>CONICAL</Shape>
 			<OutsideDiameter Unit="in">0.795</OutsideDiameter>
 			<ShoulderDiameter Unit="in">0.725</ShoulderDiameter>
-			<ShoulderLength Unit="in">0.750</ShoulderLength>
+			<ShoulderLength Unit="in">0.500</ShoulderLength>
 			<Length Unit="in">2.600</Length>
 		</NoseCone>
 		<!-- CENBC86 is an Honest John nose which is to complex for OR -->
@@ -2909,7 +2897,7 @@ Using this file:
 			<ForeShoulderLength Unit="in">0.75</ForeShoulderLength>
 			<AftOutsideDiameter Unit="in">1.637</AftOutsideDiameter>
 			<AftShoulderDiameter Unit="in">1.595</AftShoulderDiameter>
-			<AftShoulderLength Unit="in">0.500</AftShoulderLength>
+			<AftShoulderLength Unit="in">1.000</AftShoulderLength>
 			<Length Unit="in">2.000</Length>
 		</Transition>
 		<Transition>
@@ -2924,7 +2912,7 @@ Using this file:
 			<ForeShoulderLength Unit="in">0.75</ForeShoulderLength>
 			<AftOutsideDiameter Unit="in">1.637</AftOutsideDiameter>
 			<AftShoulderDiameter Unit="in">1.595</AftShoulderDiameter>
-			<AftShoulderLength Unit="in">0.500</AftShoulderLength>
+			<AftShoulderLength Unit="in">0.7500</AftShoulderLength>
 			<Length Unit="in">3.750</Length>
 		</Transition>
 		<!-- TA520 missing parameters -->
@@ -2985,10 +2973,10 @@ Using this file:
 			<Shape>CONICAL</Shape>
 			<ForeOutsideDiameter Unit="in">0.541</ForeOutsideDiameter>
 			<ForeShoulderDiameter Unit="in">0.515</ForeShoulderDiameter>
-			<ForeShoulderLength Unit="in">0.500</ForeShoulderLength>
+			<ForeShoulderLength Unit="in">0.750</ForeShoulderLength>
 			<AftOutsideDiameter Unit="in">1.325</AftOutsideDiameter>
 			<AftShoulderDiameter Unit="in">1.283</AftShoulderDiameter>
-			<AftShoulderLength Unit="in">0.500</AftShoulderLength>
+			<AftShoulderLength Unit="in">0.750</AftShoulderLength>
 			<Length Unit="in">2.750</Length>
 		</Transition>
 		<!-- TA5560 missing parameters -->
@@ -2999,12 +2987,12 @@ Using this file:
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
-			<ForeOutsideDiameter Unit="in">0.541</ForeOutsideDiameter>
-			<ForeShoulderDiameter Unit="in">0.515</ForeShoulderDiameter>
-			<ForeShoulderLength Unit="in">0.500</ForeShoulderLength>
+			<ForeOutsideDiameter Unit="in">1.637</ForeOutsideDiameter>
+			<ForeShoulderDiameter Unit="in">1.280</ForeShoulderDiameter>
+			<ForeShoulderLength Unit="in">1.000</ForeShoulderLength>
 			<AftOutsideDiameter Unit="in">1.637</AftOutsideDiameter>
 			<AftShoulderDiameter Unit="in">1.595</AftShoulderDiameter>
-			<AftShoulderLength Unit="in">0.500</AftShoulderLength>
+			<AftShoulderLength Unit="in">1.000</AftShoulderLength>
 			<Length Unit="in">1.000</Length>
 		</Transition>
 		<!-- TA5560A missing parameters, says both 1.3" and 1.25" long -->
@@ -3015,13 +3003,13 @@ Using this file:
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
-			<ForeOutsideDiameter Unit="in">0.541</ForeOutsideDiameter>
-			<ForeShoulderDiameter Unit="in">0.515</ForeShoulderDiameter>
-			<ForeShoulderLength Unit="in">0.500</ForeShoulderLength>
+			<ForeOutsideDiameter Unit="in">1.637</ForeOutsideDiameter>
+			<ForeShoulderDiameter Unit="in">1.280</ForeShoulderDiameter>
+			<ForeShoulderLength Unit="in">0.750</ForeShoulderLength>
 			<AftOutsideDiameter Unit="in">1.637</AftOutsideDiameter>
 			<AftShoulderDiameter Unit="in">1.595</AftShoulderDiameter>
-			<AftShoulderLength Unit="in">0.500</AftShoulderLength>
-			<Length Unit="in">1.250</Length>
+			<AftShoulderLength Unit="in">0.750</AftShoulderLength>
+			<Length Unit="in">1.300</Length>
 		</Transition>
 		<Transition>
 			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
@@ -3036,7 +3024,7 @@ Using this file:
 			<AftOutsideDiameter Unit="in">2.217</AftOutsideDiameter>
 			<AftShoulderDiameter Unit="in">2.175</AftShoulderDiameter>
 			<AftShoulderLength Unit="in">0.750</AftShoulderLength>
-			<Length Unit="in">1.75</Length>
+			<Length Unit="in">1.500</Length>
 		</Transition>
 		<!-- TA6080 missing parameters-->
 		<Transition>
@@ -3048,10 +3036,10 @@ Using this file:
 			<Shape>CONICAL</Shape>
 			<ForeOutsideDiameter Unit="in">1.637</ForeOutsideDiameter>
 			<ForeShoulderDiameter Unit="in">1.595</ForeShoulderDiameter>
-			<ForeShoulderLength Unit="in">0.750</ForeShoulderLength>
+			<ForeShoulderLength Unit="in">1.250</ForeShoulderLength>
 			<AftOutsideDiameter Unit="in">2.600</AftOutsideDiameter>
 			<AftShoulderDiameter Unit="in">2.560</AftShoulderDiameter>
-			<AftShoulderLength Unit="in">0.750</AftShoulderLength>
+			<AftShoulderLength Unit="in">1.500</AftShoulderLength>
 			<Length Unit="in">2.250</Length>
 		</Transition>
 		<!-- TA7080 missing parameters-->
@@ -3064,10 +3052,10 @@ Using this file:
 			<Shape>CONICAL</Shape>
 			<ForeOutsideDiameter Unit="in">2.217</ForeOutsideDiameter>
 			<ForeShoulderDiameter Unit="in">2.175</ForeShoulderDiameter>
-			<ForeShoulderLength Unit="in">0.750</ForeShoulderLength>
+			<ForeShoulderLength Unit="in">1.400</ForeShoulderLength>
 			<AftOutsideDiameter Unit="in">2.600</AftOutsideDiameter>
 			<AftShoulderDiameter Unit="in">2.560</AftShoulderDiameter>
-			<AftShoulderLength Unit="in">0.750</AftShoulderLength>
+			<AftShoulderLength Unit="in">1.400</AftShoulderLength>
 			<Length Unit="in">2.000</Length>
 		</Transition>
 		<!-- TA70300 missing parameters-->
