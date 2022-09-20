@@ -182,6 +182,11 @@ Using this file:
 			<Density>680.0</Density>
 			<Type>BULK</Type>
 		</Material>
+		<Material UnitsOfMeasure="kg/cm3">
+			<Name>Polystyrene, cast, bulk</Name>
+			<Density>1050.0</Density>
+			<Type>BULK</Type>
+		</Material>
 	</Materials>
 	<Components>
 		<!-- Body Tubes -->
@@ -2100,119 +2105,1006 @@ Using this file:
 			<ShoulderLength Unit="in">0.500</ShoulderLength>
 			<Length Unit="in">1.35</Length>
 		</NoseCone>
-       <NoseCone>
-            <Manufacturer>BalsaMachiningQQQ</Manufacturer>
-            <PartNumber>BNC50J</PartNumber>
-            <Description>0.976x0.950x1.37, Estes Classic, fits BT50, PN BNC50J</Description>
-            <Material Type="BULK">Balsa, bulk, BMS typical</Material>
-            <Filled>true</Filled>
-            <Shape>ELLIPSOID</Shape>
-            <OutsideDiameter Unit="in">0.976</OutsideDiameter>
-            <ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
-            <ShoulderLength Unit="in">0.50</ShoulderLength>
-            <Length Unit="in">1.37</Length>
-        </NoseCone>
-        <!-- BNC-50K ref 1975 catalog -->
-        <NoseCone>
-            <Manufacturer>BalsaMachiningQQQ</Manufacturer>
-            <PartNumber>BNC50K</PartNumber>
-            <Description>0.976x0.950x2.75, Estes Classic, fits BT50, PN BNC50K</Description>
-            <Material Type="BULK">Balsa, bulk, BMS typical</Material>
-            <Filled>true</Filled>
-            <Shape>OGIVE</Shape>
-            <OutsideDiameter Unit="in">0.976</OutsideDiameter>
-            <ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
-            <ShoulderLength Unit="in">0.50</ShoulderLength>
-            <Length Unit="in">2.75</Length>
-        </NoseCone>
-        <NoseCone>
-            <Manufacturer>BalsaMachiningQQQ</Manufacturer>
-            <PartNumber>BNC50X, 70264</PartNumber>
-            <Description>0.976x0.950x3.30,	Sprint, fits BT50, PN BNC50X</Description>
-            <Material Type="BULK">Balsa, bulk, BMS typical</Material>
-            <Filled>true</Filled>
-            <Shape>ELLIPSOID</Shape>
-            <OutsideDiameter Unit="in">0.976</OutsideDiameter>
-            <ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
-            <ShoulderLength Unit="in">0.50</ShoulderLength>
-            <Length Unit="in">3.300</Length>
-        </NoseCone>
-        <NoseCone>
-            <Manufacturer>BalsaMachiningQQQ</Manufacturer>
-            <PartNumber>BNC50Y, 70266</PartNumber>
-            <Description>0.976x0.950x4.35, Estes Classic, fits BT50, PN BNC50Y</Description>
-            <Material Type="BULK">Balsa, bulk, BMS typical</Material>
-            <Mass Unit="oz">0.16</Mass>
-            <Filled>true</Filled>
-            <Shape>OGIVE</Shape>
-            <OutsideDiameter Unit="in">0.976</OutsideDiameter>
-            <ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
-            <ShoulderLength Unit="in">0.375</ShoulderLength>
-            <Length Unit="in">4.375</Length>
-        </NoseCone>
-        <NoseCone>
-            <Manufacturer>BalsaMachiningQQQ</Manufacturer>
-            <PartNumber>BNC52G</PartNumber>
-            <Description>1.010x0.995x1.35, Thor-Agena B nose cone, fits BT52, PN BNC52G</Description>
-            <Material Type="BULK">Balsa, bulk, BMS typical</Material>
-            <Mass Unit="oz">0.056</Mass>
-            <Filled>true</Filled>
-            <Shape>CONICAL</Shape>
-            <OutsideDiameter Unit="in">1.010</OutsideDiameter>
-            <ShoulderDiameter Unit="in">0.995</ShoulderDiameter>
-            <ShoulderLength Unit="in">0.50</ShoulderLength>
-            <Length Unit="in">1.35</Length>
-        </NoseCone>
-        <NoseCone>
-            <Manufacturer>BalsaMachiningQQQ</Manufacturer>
-            <PartNumber>BNC55AC</PartNumber>
-            <Description>1.325x1.283x5.40, Estes-Secant-Ogive, fits BT55, PN BNC55AC</Description>
-            <Material Type="BULK">Balsa, bulk, BMS typical</Material>
-            <Filled>true</Filled>
-            <Shape>OGIVE</Shape>
-            <OutsideDiameter Unit="in">1.325</OutsideDiameter>
-            <ShoulderDiameter Unit="in">1.283</ShoulderDiameter>
-            <ShoulderLength Unit="in">0.375</ShoulderLength>
-            <Length Unit="in">5.400</Length>
-        </NoseCone>
-        <NoseCone>
-            <Manufacturer>BalsaMachiningQQQ</Manufacturer>
-            <PartNumber>BNC55AM</PartNumber>
-            <Description>1.325x1.283x4.20, Estes, fits BT55, PN BNC55AM</Description>
-            <Material Type="BULK">Balsa, bulk, BMS typical</Material>
-            <Mass Unit="oz">0.27</Mass>
-            <Filled>true</Filled>
-            <Shape>ELLIPSOID</Shape>
-            <OutsideDiameter Unit="in">1.325</OutsideDiameter>
-            <ShoulderDiameter Unit="in">1.283</ShoulderDiameter>
-            <ShoulderLength Unit="in">0.75</ShoulderLength>
-            <Length Unit="in">4.2</Length>
-        </NoseCone>
-        <NoseCone>
-            <Manufacturer>BalsaMachiningQQQ</Manufacturer>
-            <PartNumber>BNC55AO</PartNumber>
-            <Description>1.325x1.283x5.00, Goblin, fits BT55, PN BNC55AO</Description>
-            <Material Type="BULK">Balsa, bulk, BMS typical</Material>
-            <Filled>true</Filled>
-            <Shape>ELLIPSOID</Shape>
-            <OutsideDiameter Unit="in">1.325</OutsideDiameter>
-            <ShoulderDiameter Unit="in">1.283</ShoulderDiameter>
-            <ShoulderLength Unit="in">0.75</ShoulderLength>
-            <Length Unit="in">5.000</Length>
-        </NoseCone>
-        <NoseCone>
-            <Manufacturer>BalsaMachiningQQQ</Manufacturer>
-            <PartNumber>BNC55BE</PartNumber>
-            <Description>1.325x1.283x1.60,Estes Classic, fits BT55, PN BNC55BE</Description>
-            <Material Type="BULK">Balsa, bulk, BMS typical</Material>
-            <Filled>true</Filled>
-            <Shape>CONICAL</Shape>
-            <OutsideDiameter Unit="in">1.325</OutsideDiameter>
-            <ShoulderDiameter Unit="in">1.283</ShoulderDiameter>
-            <ShoulderLength Unit="in">0.75</ShoulderLength>
-            <Length Unit="in">1.600</Length>
-        </NoseCone>
-     		
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC50J</PartNumber>
+			<Description>0.976x0.950x1.37, Estes Classic, fits BT50, PN BNC50J</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>ELLIPSOID</Shape>
+			<OutsideDiameter Unit="in">0.976</OutsideDiameter>
+			<ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.50</ShoulderLength>
+			<Length Unit="in">1.37</Length>
+		</NoseCone>
+		<!-- BNC-50K ref 1975 catalog -->
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC50K</PartNumber>
+			<Description>0.976x0.950x2.75, Estes Classic, fits BT50, PN BNC50K</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>OGIVE</Shape>
+			<OutsideDiameter Unit="in">0.976</OutsideDiameter>
+			<ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.50</ShoulderLength>
+			<Length Unit="in">2.75</Length>
+		</NoseCone>
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC50X, 70264</PartNumber>
+			<Description>0.976x0.950x3.30,	Sprint, fits BT50, PN BNC50X</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>ELLIPSOID</Shape>
+			<OutsideDiameter Unit="in">0.976</OutsideDiameter>
+			<ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.50</ShoulderLength>
+			<Length Unit="in">3.300</Length>
+		</NoseCone>
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC50Y, 70266</PartNumber>
+			<Description>0.976x0.950x4.35, Estes Classic, fits BT50, PN BNC50Y</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Mass Unit="oz">0.16</Mass>
+			<Filled>true</Filled>
+			<Shape>OGIVE</Shape>
+			<OutsideDiameter Unit="in">0.976</OutsideDiameter>
+			<ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.375</ShoulderLength>
+			<Length Unit="in">4.375</Length>
+		</NoseCone>
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC52G</PartNumber>
+			<Description>1.010x0.995x1.35, Thor-Agena B nose cone, fits BT52, PN BNC52G</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Mass Unit="oz">0.056</Mass>
+			<Filled>true</Filled>
+			<Shape>CONICAL</Shape>
+			<OutsideDiameter Unit="in">1.010</OutsideDiameter>
+			<ShoulderDiameter Unit="in">0.995</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.50</ShoulderLength>
+			<Length Unit="in">1.35</Length>
+		</NoseCone>
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC55AC</PartNumber>
+			<Description>1.325x1.283x5.40, Estes-Secant-Ogive, fits BT55, PN BNC55AC</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>OGIVE</Shape>
+			<OutsideDiameter Unit="in">1.325</OutsideDiameter>
+			<ShoulderDiameter Unit="in">1.283</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.375</ShoulderLength>
+			<Length Unit="in">5.400</Length>
+		</NoseCone>
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC55AM</PartNumber>
+			<Description>1.325x1.283x4.20, Estes, fits BT55, PN BNC55AM</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Mass Unit="oz">0.27</Mass>
+			<Filled>true</Filled>
+			<Shape>ELLIPSOID</Shape>
+			<OutsideDiameter Unit="in">1.325</OutsideDiameter>
+			<ShoulderDiameter Unit="in">1.283</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.75</ShoulderLength>
+			<Length Unit="in">4.2</Length>
+		</NoseCone>
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC55AO</PartNumber>
+			<Description>1.325x1.283x5.00, Goblin, fits BT55, PN BNC55AO</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>ELLIPSOID</Shape>
+			<OutsideDiameter Unit="in">1.325</OutsideDiameter>
+			<ShoulderDiameter Unit="in">1.283</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.75</ShoulderLength>
+			<Length Unit="in">5.000</Length>
+		</NoseCone>
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC55BE</PartNumber>
+			<Description>1.325x1.283x1.60,Estes Classic, fits BT55, PN BNC55BE</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>CONICAL</Shape>
+			<OutsideDiameter Unit="in">1.325</OutsideDiameter>
+			<ShoulderDiameter Unit="in">1.283</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.75</ShoulderLength>
+			<Length Unit="in">1.600</Length>
+		</NoseCone>
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC55C</PartNumber>
+			<Description>1.325x1.283x4.50, Long Conical, fits BT55, PN BNC55C</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>CONICAL</Shape>
+			<OutsideDiameter Unit="in">1.325</OutsideDiameter>
+			<ShoulderDiameter Unit="in">1.283</ShoulderDiameter>
+			<ShoulderLength Unit="in">1.000</ShoulderLength>
+			<Length Unit="in">4.500</Length>
+		</NoseCone>
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BMS55F</PartNumber>
+			<Description>1.325x1.283x4.20, V2 Nose Cone, fits BT55, PN BMS55F</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>OGIVE</Shape>
+			<OutsideDiameter Unit="in">1.325</OutsideDiameter>
+			<ShoulderDiameter Unit="in">1.283</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.630</ShoulderLength>
+			<Length Unit="in">4.200</Length>
+		</NoseCone>
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC55O61</PartNumber>
+			<Description>1.325x1.283x6.00, BT55 4.5:1 Ogive, fits BT55, PN BNC55O61</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>OGIVE</Shape>
+			<OutsideDiameter Unit="in">1.325</OutsideDiameter>
+			<ShoulderDiameter Unit="in">1.283</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.630</ShoulderLength>
+			<Length Unit="in">6.000</Length>
+		</NoseCone>
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC5AW</PartNumber>
+			<Description>0.544x0.518x2.17, Estes-Ogive, fits BT5, PN BNC5AW</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>OGIVE</Shape>
+			<OutsideDiameter Unit="in">0.544</OutsideDiameter>
+			<ShoulderDiameter Unit="in">0.518</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.250</ShoulderLength>
+			<Length Unit="in">2.17</Length>
+		</NoseCone>
+		<!-- complex jet intake, only approximated here -->
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC5BA</PartNumber>
+			<Description>0.544x0.518x0.60, 	BT5 Bomarc jet intake nozzel, fits BT5, PN BNC5BA</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>OGIVE</Shape>
+			<OutsideDiameter Unit="in">0.544</OutsideDiameter>
+			<ShoulderDiameter Unit="in">0.518</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.40</ShoulderLength>
+			<Length Unit="in">0.600</Length>
+		</NoseCone>
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC5E</PartNumber>
+			<Description>0.544x0.518x1.38, Estes Classic, fits BT5, PN BNC5E</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>OGIVE</Shape>
+			<OutsideDiameter Unit="in">0.544</OutsideDiameter>
+			<ShoulderDiameter Unit="in">0.518</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.50</ShoulderLength>
+			<Length Unit="in">1.38</Length>
+		</NoseCone>
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC5O51</PartNumber>
+			<Description>0.544x0.518x2.72, BT5 5:1 Ogive, fits BT5, PN BNC5O51</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>OGIVE</Shape>
+			<OutsideDiameter Unit="in">0.544</OutsideDiameter>
+			<ShoulderDiameter Unit="in">0.518</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.250</ShoulderLength>
+			<Length Unit="in">2.72</Length>
+		</NoseCone>
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC5S</PartNumber>
+			<Description>0.544x0.518x1.50, Estes Classic, fits BT5, PN BNC5S</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>CONICAL</Shape>
+			<OutsideDiameter Unit="in">0.544</OutsideDiameter>
+			<ShoulderDiameter Unit="in">0.518</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.250</ShoulderLength>
+			<Length Unit="in">1.500</Length>
+		</NoseCone>
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC5V</PartNumber>
+			<Description>0.544x0.518x0.75, Estes Classic, fits BT5, PN BNC5V</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>ELLIPSOID</Shape>
+			<OutsideDiameter Unit="in">0.544</OutsideDiameter>
+			<ShoulderDiameter Unit="in">0.518</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.250</ShoulderLength>
+			<Length Unit="in">0.750</Length>
+		</NoseCone>
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC5W</PartNumber>
+			<Description>0.544x0.518x2.80, Estes Classic, fits BT5, PN BNC5W</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>OGIVE</Shape>
+			<OutsideDiameter Unit="in">0.544</OutsideDiameter>
+			<ShoulderDiameter Unit="in">0.518</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.50</ShoulderLength>
+			<Length Unit="in">2.800</Length>
+		</NoseCone>
+		<!-- BNC60AB Gemini Titan - Estes is too complex a shape for OR -->
+		<!-- Estes BNC-60AH is longer 7.25 -->
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC60AH</PartNumber>
+			<Description>1.637x1.595x6.60, Estes Classic, fits BT60, PN BNC60AH</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>ELLIPSOID</Shape>
+			<OutsideDiameter Unit="in">1.637</OutsideDiameter>
+			<ShoulderDiameter Unit="in">1.595</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.50</ShoulderLength>
+			<Length Unit="in">6.60</Length>
+		</NoseCone>
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC60C</PartNumber>
+			<Description>1.637x1.595x4.30, 2.6:1 Conical, fits BT60, PN BNC60C</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>CONICAL</Shape>
+			<OutsideDiameter Unit="in">1.637</OutsideDiameter>
+			<ShoulderDiameter Unit="in">1.595</ShoulderDiameter>
+			<ShoulderLength Unit="in">1.000</ShoulderLength>
+			<Length Unit="in">4.300</Length>
+		</NoseCone>
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC60G</PartNumber>
+			<Description>1.637x1.595x3.50, Ogive, fits BT60, PN BNC60G</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>OGIVE</Shape>
+			<OutsideDiameter Unit="in">1.637</OutsideDiameter>
+			<ShoulderDiameter Unit="in">1.595</ShoulderDiameter>
+			<ShoulderLength Unit="in">1.000</ShoulderLength>
+			<Length Unit="in">3.500</Length>
+		</NoseCone>
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC60H</PartNumber>
+			<Description>1.637x1.595x4.50, Ogive, fits BT60, PN BNC60H</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>OGIVE</Shape>
+			<OutsideDiameter Unit="in">1.637</OutsideDiameter>
+			<ShoulderDiameter Unit="in">1.595</ShoulderDiameter>
+			<ShoulderLength Unit="in">1.000</ShoulderLength>
+			<Length Unit="in">4.500</Length>
+		</NoseCone>
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC60L</PartNumber>
+			<Description>1.637x1.595x3.13, Estes Classic, fits BT60, PN BNC60L</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>ELLIPSOID</Shape>
+			<OutsideDiameter Unit="in">1.637</OutsideDiameter>
+			<ShoulderDiameter Unit="in">1.595</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.750</ShoulderLength>
+			<Length Unit="in">3.13</Length>
+		</NoseCone>
+		<!-- BMS text BNC60MS says length 2.50, but drawing is 4.50 -->
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC60MS</PartNumber>
+			<Description>1.637x1.595x4.50, Big Bertha, fits BT60, PN BNC60MS</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>ELLIPSOID</Shape>
+			<OutsideDiameter Unit="in">1.637</OutsideDiameter>
+			<ShoulderDiameter Unit="in">1.595</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.750</ShoulderLength>
+			<Length Unit="in">2.500</Length>
+		</NoseCone>
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC70AJ</PartNumber>
+			<Description>2.217x2.180x4.40, Estes Classic, fits BT70, PN BNC70AJ</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>OGIVE</Shape>
+			<OutsideDiameter Unit="in">2.217</OutsideDiameter>
+			<ShoulderDiameter Unit="in">2.180</ShoulderDiameter>
+			<ShoulderLength Unit="in">1.000</ShoulderLength>
+			<Length Unit="in">4.500</Length>
+		</NoseCone>
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC70BB</PartNumber>
+			<Description>2.217x2.180x3.35, Eliptical, fits BT70, PN BNC70BB</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>ELLIPSOID</Shape>
+			<OutsideDiameter Unit="in">2.217</OutsideDiameter>
+			<ShoulderDiameter Unit="in">2.180</ShoulderDiameter>
+			<ShoulderLength Unit="in">1.000</ShoulderLength>
+			<Length Unit="in">3.350</Length>
+		</NoseCone>
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC70BBH</PartNumber>
+			<Description>2.245x2.180x3.35, Eliptical (fits T80H), fits BT70, PN BNC70BBH</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>ELLIPSOID</Shape>
+			<OutsideDiameter Unit="in">2.245</OutsideDiameter>
+			<ShoulderDiameter Unit="in">2.180</ShoulderDiameter>
+			<ShoulderLength Unit="in">1.000</ShoulderLength>
+			<Length Unit="in">3.350</Length>
+		</NoseCone>
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC70D</PartNumber>
+			<Description>2.245x2.180x2.10, Conical, fits BT70, PN BNC70D</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>ELLIPSOID</Shape>
+			<OutsideDiameter Unit="in">2.245</OutsideDiameter>
+			<ShoulderDiameter Unit="in">2.180</ShoulderDiameter>
+			<ShoulderLength Unit="in">1.000</ShoulderLength>
+			<Length Unit="in">2.150</Length>
+		</NoseCone>
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC70G</PartNumber>
+			<Description>2.245x2.180x4.20, 1.9:1 Ogive, fits BT70, PN BNC70G</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>OGIVE</Shape>
+			<OutsideDiameter Unit="in">2.245</OutsideDiameter>
+			<ShoulderDiameter Unit="in">2.180</ShoulderDiameter>
+			<ShoulderLength Unit="in">1.000</ShoulderLength>
+			<Length Unit="in">4.200</Length>
+		</NoseCone>
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC70K</PartNumber>
+			<Description>2.245x2.180x7.00, Long Ogive with blunt tip, fits BT70, PN BNC70K</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>OGIVE</Shape>
+			<OutsideDiameter Unit="in">2.245</OutsideDiameter>
+			<ShoulderDiameter Unit="in">2.180</ShoulderDiameter>
+			<ShoulderLength Unit="in">1.000</ShoulderLength>
+			<Length Unit="in">7.000</Length>
+		</NoseCone>
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC70KH</PartNumber>
+			<Description>2.245x2.180x7.00, Long Ogive - blint tip (fits T70H), fits BT70, PN BNC70KH</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>OGIVE</Shape>
+			<OutsideDiameter Unit="in">2.245</OutsideDiameter>
+			<ShoulderDiameter Unit="in">2.180</ShoulderDiameter>
+			<ShoulderLength Unit="in">1.000</ShoulderLength>
+			<Length Unit="in">7.000</Length>
+		</NoseCone>
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC80BB</PartNumber>
+			<Description>2.600x2.588x4.00, Eliptical, fits BT80, PN BNC80BB</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>ELLIPSOID</Shape>
+			<OutsideDiameter Unit="in">2.600</OutsideDiameter>
+			<ShoulderDiameter Unit="in">2.588</ShoulderDiameter>
+			<ShoulderLength Unit="in">1.500</ShoulderLength>
+			<Length Unit="in">4.000</Length>
+		</NoseCone>
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>PNC80BB</PartNumber>
+			<Description>2.600x2.588x4.00, Eliptical - Hollow plastic nose cone, fits BT80, PN PNC80BB</Description>
+			<Material Type="BULK">Polystyrene, cast, bulk</Material>
+			<Filled>true</Filled>
+			<Shape>ELLIPSOID</Shape>
+			<OutsideDiameter Unit="in">2.600</OutsideDiameter>
+			<ShoulderDiameter Unit="in">2.588</ShoulderDiameter>
+			<ShoulderLength Unit="in">1.500</ShoulderLength>
+			<Length Unit="in">4.000</Length>
+		</NoseCone>
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC80BBH</PartNumber>
+			<Description>2.600x2.588x4.00, Eliptical, fits T80H, PN BNC80BBH</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>ELLIPSOID</Shape>
+			<OutsideDiameter Unit="in">2.640</OutsideDiameter>
+			<ShoulderDiameter Unit="in">2.588</ShoulderDiameter>
+			<ShoulderLength Unit="in">1.500</ShoulderLength>
+			<Length Unit="in">4.000</Length>
+		</NoseCone>
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC80K</PartNumber>
+			<Description>2.600x2.588x8.25, Long Ogive with blunt tip, fits BT80, PN BNC80K</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>OGIVE</Shape>
+			<OutsideDiameter Unit="in">2.600</OutsideDiameter>
+			<ShoulderDiameter Unit="in">2.588</ShoulderDiameter>
+			<ShoulderLength Unit="in">1.500</ShoulderLength>
+			<Length Unit="in">8.250</Length>
+		</NoseCone>
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC80KH</PartNumber>
+			<Description>2.600x2.588x8.25, Long Ogive with blunt tip, fits T80H, PN BNC80KH</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>OGIVE</Shape>
+			<OutsideDiameter Unit="in">2.640</OutsideDiameter>
+			<ShoulderDiameter Unit="in">2.588</ShoulderDiameter>
+			<ShoulderLength Unit="in">1.500</ShoulderLength>
+			<Length Unit="in">8.250</Length>
+		</NoseCone>
+		<!-- BNC8O41 shoulder length not specified -->
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC8O41</PartNumber>
+			<Description>0.908x0.865x3.50, ST-8 4:1 Ogive, fits ST-8, PN BNC8O41</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>OGIVE</Shape>
+			<OutsideDiameter Unit="in">0.908</OutsideDiameter>
+			<ShoulderDiameter Unit="in">0.865</ShoulderDiameter>
+			<ShoulderLength Unit="in">1.000</ShoulderLength>
+			<Length Unit="in">3.500</Length>
+		</NoseCone>
+		<!-- BNC300BB shoulder length not specified -->
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BNC300BB</PartNumber>
+			<Description>3.000x2.930x4.30, Eliptical for 3.0 inch dia. fits T300 tube, PN BNC300BB</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>ELLIPSOID</Shape>
+			<OutsideDiameter Unit="in">3.000</OutsideDiameter>
+			<ShoulderDiameter Unit="in">2.930</ShoulderDiameter>
+			<ShoulderLength Unit="in">1.000</ShoulderLength>
+			<Length Unit="in">4.300</Length>
+		</NoseCone>
+		<!-- PNC300K shoulder length not specified -->
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>PNC300K</PartNumber>
+			<Description>3.000x2.930x11.00, PLASTIC Ogive, fits T300 tube, PN PNC300K</Description>
+			<Material Type="BULK">Polystyrene, cast, bulk</Material>
+			<Filled>true</Filled>
+			<Shape>OGIVE</Shape>
+			<OutsideDiameter Unit="in">3.000</OutsideDiameter>
+			<ShoulderDiameter Unit="in">2.930</ShoulderDiameter>
+			<ShoulderLength Unit="in">1.000</ShoulderLength>
+			<Length Unit="in">11.000</Length>
+		</NoseCone>
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BOMARC</PartNumber>
+			<Description>1.325x1.283x4.15, Estes Citation BOMARC (bored hole), fits BT55, PN BOMARC</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>OGIVE</Shape>
+			<OutsideDiameter Unit="in">1.325</OutsideDiameter>
+			<ShoulderDiameter Unit="in">1.283</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.750</ShoulderLength>
+			<Length Unit="in">4.15</Length>
+		</NoseCone>
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BTC55Z</PartNumber>
+			<Description>1.325x1.283x4.15, V2 Boat-tail with bored BT20 hole, fits BT55, PN BTC55Z</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>OGIVE</Shape>
+			<OutsideDiameter Unit="in">1.325</OutsideDiameter>
+			<ShoulderDiameter Unit="in">1.283</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.750</ShoulderLength>
+			<Length Unit="in">4.15</Length>
+		</NoseCone>
+		<!-- shoulder length not specified for BTC55Z -->
+		<Transition>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>BTC55Z</PartNumber>
+			<Description>1.325x1.283x3.00, V2 Boat-tail with bored BT20 hole, fits BT55, PN BTC55Z</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>ELLIPSOID</Shape>
+			<ForeOutsideDiameter Unit="in">1.325</ForeOutsideDiameter>
+			<ForeShoulderDiameter Unit="in">1.283</ForeShoulderDiameter>
+			<ForeShoulderLength Unit="in">0.5</ForeShoulderLength>
+			<AftOutsideDiameter Unit="in">0.5</AftOutsideDiameter>
+			<AftShoulderDiameter Unit="in">0.000</AftShoulderDiameter>
+			<AftShoulderLength Unit="in">0.800</AftShoulderLength>
+			<Length Unit="in">3.000</Length>
+		</Transition>
+		<!-- BSPEJ no shape parameter -->
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>CENBC107</PartNumber>
+			<Description>1.040x1.000x5.25, Centuri Ogive, PN CENBC107</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>OGIVE</Shape>
+			<OutsideDiameter Unit="in">1.040</OutsideDiameter>
+			<ShoulderDiameter Unit="in">1.000</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.750</ShoulderLength>
+			<Length Unit="in">5.250</Length>
+		</NoseCone>
+		<!-- CENBC79 shoulder length not specified -->
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>CENBC79</PartNumber>
+			<Description>0.795x0.725x2.60, Centuri Conical, PN CENBC79</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>CONICAL</Shape>
+			<OutsideDiameter Unit="in">0.795</OutsideDiameter>
+			<ShoulderDiameter Unit="in">0.725</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.750</ShoulderLength>
+			<Length Unit="in">2.600</Length>
+		</NoseCone>
+		<!-- CENBC86 is an Honest John nose which is to complex for OR -->
+		<!-- CENBC86 shoulder length not specified -->
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>CENBC89</PartNumber>
+			<Description>0.900x0.850x5.50, Centuri Ogive, PN CENBC89</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>OGIVE</Shape>
+			<OutsideDiameter Unit="in">0.920</OutsideDiameter>
+			<ShoulderDiameter Unit="in">0.863</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.750</ShoulderLength>
+			<Length Unit="in">6.000</Length>
+		</NoseCone>
+		<Transition>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>CENV2BT</PartNumber>
+			<Description>1.685x1.595x3.40, V2 B-tail w/bored hole for BT20 - Centuri, PN CENV2BT</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>ELLIPSOID</Shape>
+			<ForeOutsideDiameter Unit="in">1.685</ForeOutsideDiameter>
+			<ForeShoulderDiameter Unit="in">1.595</ForeShoulderDiameter>
+			<ForeShoulderLength Unit="in">0.5</ForeShoulderLength>
+			<AftOutsideDiameter Unit="in">0.800</AftOutsideDiameter>
+			<AftShoulderDiameter Unit="in">0.000</AftShoulderDiameter>
+			<AftShoulderLength Unit="in">0</AftShoulderLength>
+			<Length Unit="in">3.400</Length>
+		</Transition>
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>CENV2NC</PartNumber>
+			<Description>1.673x1.590x5.50, Centuri V2 nose cone w/ bored hole, PN CENV2NC</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>OGIVE</Shape>
+			<OutsideDiameter Unit="in">1.673</OutsideDiameter>
+			<ShoulderDiameter Unit="in">1.590</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.750</ShoulderLength>
+			<Length Unit="in">5.500</Length>
+		</NoseCone>
+		<NoseCone>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>MARSLNDR</PartNumber>
+			<Description>1.637x0.595x1.00, Mars Lander, fits BT60  PN MARSLNDR</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>ELLIPSOID</Shape>
+			<OutsideDiameter Unit="in">1.673</OutsideDiameter>
+			<ShoulderDiameter Unit="in">1.590</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.500</ShoulderLength>
+			<Length Unit="in">1.000</Length>
+		</NoseCone>
+		<BulkHead>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>NB10</PartNumber>
+			<Description>10.55mmx2 inch Bulkheads fits BT10</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<OutsideDiameter Unit="mm">10.55</OutsideDiameter>
+			<Length Unit="in">2.00</Length>
+		</BulkHead>
+		<BulkHead>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>NB20-2</PartNumber>
+			<Description>0.710x2.00 Nose Block 2 inch, Bulkheads fits BT20</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<OutsideDiameter Unit="mm">0.422</OutsideDiameter>
+			<Length Unit="in">2.00</Length>
+		</BulkHead>
+		<BulkHead>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>NB50-2</PartNumber>
+			<Description>0.950X2.00, BT50 Nose Block 2 inch, fits BT50</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<OutsideDiameter Unit="mm">0.950</OutsideDiameter>
+			<Length Unit="in">2.00</Length>
+		</BulkHead>
+		<BulkHead>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>NB55-2</PartNumber>
+			<Description>1.283X2.00, BT55 Nose Block 2 inch, fits BT55</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<OutsideDiameter Unit="mm">1.283</OutsideDiameter>
+			<Length Unit="in">2.00</Length>
+		</BulkHead>
+		<BulkHead>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>NB55-3</PartNumber>
+			<Description>1.283X2.00, BT55 Nose Block 3 inch, fits BT55</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<OutsideDiameter Unit="mm">1.283</OutsideDiameter>
+			<Length Unit="in">3.00</Length>
+		</BulkHead>
+		<BulkHead>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>NB60-4</PartNumber>
+			<Description>1.595X4.00, BT60 Nose Block 3 inch, fits BT60</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<OutsideDiameter Unit="mm">1.595</OutsideDiameter>
+			<Length Unit="in">4.00</Length>
+		</BulkHead>
+		<BulkHead>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>NB70-4</PartNumber>
+			<Description>2.180X4.00, BT70 Nose Block 4 inch, fits BT70</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<OutsideDiameter Unit="mm">2.180</OutsideDiameter>
+			<Length Unit="in">4.00</Length>
+		</BulkHead>
+		<BulkHead>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>NB80-4</PartNumber>
+			<Description>2.558X4.00, BT80 Nose Block 4 inch, fits BT80</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<OutsideDiameter Unit="mm">2.558</OutsideDiameter>
+			<Length Unit="in">4.00</Length>
+		</BulkHead>
+		<Transition>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>TA2050</PartNumber>
+			<Description>Transition T20 to T50 2 in long, PN TA2050</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>CONICAL</Shape>
+			<ForeOutsideDiameter Unit="in">0.736</ForeOutsideDiameter>
+			<ForeShoulderDiameter Unit="in">0.710</ForeShoulderDiameter>
+			<ForeShoulderLength Unit="in">0.5</ForeShoulderLength>
+			<AftOutsideDiameter Unit="in">0.976</AftOutsideDiameter>
+			<AftShoulderDiameter Unit="in">0.950</AftShoulderDiameter>
+			<AftShoulderLength Unit="in">0.500</AftShoulderLength>
+			<Length Unit="in">2.000</Length>
+		</Transition>
+		<Transition>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>TA2050A</PartNumber>
+			<Description>Transition T20 to T50 2 in long, PN TA2050A</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>CONICAL</Shape>
+			<ForeOutsideDiameter Unit="in">0.736</ForeOutsideDiameter>
+			<ForeShoulderDiameter Unit="in">0.710</ForeShoulderDiameter>
+			<ForeShoulderLength Unit="in">0.5</ForeShoulderLength>
+			<AftOutsideDiameter Unit="in">0.976</AftOutsideDiameter>
+			<AftShoulderDiameter Unit="in">0.950</AftShoulderDiameter>
+			<AftShoulderLength Unit="in">0.500</AftShoulderLength>
+			<Length Unit="in">1.000</Length>
+		</Transition>
+		<!-- TA2055 NO dimentions specified -->
+		<Transition>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>TA2055</PartNumber>
+			<Description>transition T20 to T55 1.5 in long, PN TA2055</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>CONICAL</Shape>
+			<ForeOutsideDiameter Unit="in">0.736</ForeOutsideDiameter>
+			<ForeShoulderDiameter Unit="in">0.710</ForeShoulderDiameter>
+			<ForeShoulderLength Unit="in">0.5</ForeShoulderLength>
+			<AftOutsideDiameter Unit="in">1.325</AftOutsideDiameter>
+			<AftShoulderDiameter Unit="in">1.283</AftShoulderDiameter>
+			<AftShoulderLength Unit="in">0.500</AftShoulderLength>
+			<Length Unit="in">2.000</Length>
+		</Transition>
+		<!-- TA2060 NO dimentions specified -->
+		<Transition>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>TA2060</PartNumber>
+			<Description>transition T20 to T60 1.5 in long, PN TA2060</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>CONICAL</Shape>
+			<ForeOutsideDiameter Unit="in">0.736</ForeOutsideDiameter>
+			<ForeShoulderDiameter Unit="in">0.710</ForeShoulderDiameter>
+			<ForeShoulderLength Unit="in">0.5</ForeShoulderLength>
+			<AftOutsideDiameter Unit="in">1.637</AftOutsideDiameter>
+			<AftShoulderDiameter Unit="in">1.595</AftShoulderDiameter>
+			<AftShoulderLength Unit="in">0.500</AftShoulderLength>
+			<Length Unit="in">1.500</Length>
+		</Transition>
+		<!-- TA2070 NO dimentions specified -->
+		<Transition>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>TA2070</PartNumber>
+			<Description>transition T20 to T70 2.0 in long, PN TA2060</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>CONICAL</Shape>
+			<ForeOutsideDiameter Unit="in">0.736</ForeOutsideDiameter>
+			<ForeShoulderDiameter Unit="in">0.710</ForeShoulderDiameter>
+			<ForeShoulderLength Unit="in">0.5</ForeShoulderLength>
+			<AftOutsideDiameter Unit="in">2.217</AftOutsideDiameter>
+			<AftShoulderDiameter Unit="in">2.175</AftShoulderDiameter>
+			<AftShoulderLength Unit="in">0.500</AftShoulderLength>
+			<Length Unit="in">2.000</Length>
+		</Transition>
+		<!-- TA5055 NO dimentions specified -->
+		<Transition>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>TA5055</PartNumber>
+			<Description>transition T50 to T55 1.0 in long, PN TA5055</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>CONICAL</Shape>
+			<ForeOutsideDiameter Unit="in">0.976</ForeOutsideDiameter>
+			<ForeShoulderDiameter Unit="in">0.950</ForeShoulderDiameter>
+			<ForeShoulderLength Unit="in">0.5</ForeShoulderLength>
+			<AftOutsideDiameter Unit="in">1.325</AftOutsideDiameter>
+			<AftShoulderDiameter Unit="in">1.283</AftShoulderDiameter>
+			<AftShoulderLength Unit="in">0.500</AftShoulderLength>
+			<Length Unit="in">1.000</Length>
+		</Transition>
+		<!-- TA5055L NO dimentions specified -->
+		<Transition>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>TA5055L</PartNumber>
+			<Description>transition T50 to T55 1.0 in long, PN TA5055L</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>CONICAL</Shape>
+			<ForeOutsideDiameter Unit="in">0.976</ForeOutsideDiameter>
+			<ForeShoulderDiameter Unit="in">0.950</ForeShoulderDiameter>
+			<ForeShoulderLength Unit="in">0.5</ForeShoulderLength>
+			<AftOutsideDiameter Unit="in">1.325</AftOutsideDiameter>
+			<AftShoulderDiameter Unit="in">1.283</AftShoulderDiameter>
+			<AftShoulderLength Unit="in">0.500</AftShoulderLength>
+			<Length Unit="in">1.500</Length>
+		</Transition>
+		<Transition>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>TA5060</PartNumber>
+			<Description>Transition T50 to T60 2 in long, PN TA5060</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>CONICAL</Shape>
+			<ForeOutsideDiameter Unit="in">0.976</ForeOutsideDiameter>
+			<ForeShoulderDiameter Unit="in">0.950</ForeShoulderDiameter>
+			<ForeShoulderLength Unit="in">0.75</ForeShoulderLength>
+			<AftOutsideDiameter Unit="in">1.637</AftOutsideDiameter>
+			<AftShoulderDiameter Unit="in">1.595</AftShoulderDiameter>
+			<AftShoulderLength Unit="in">0.500</AftShoulderLength>
+			<Length Unit="in">2.000</Length>
+		</Transition>
+		<Transition>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>TA5060C</PartNumber>
+			<Description>Thor-Agena B Transition, PN TA5060C</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>CONICAL</Shape>
+			<ForeOutsideDiameter Unit="in">0.976</ForeOutsideDiameter>
+			<ForeShoulderDiameter Unit="in">0.950</ForeShoulderDiameter>
+			<ForeShoulderLength Unit="in">0.75</ForeShoulderLength>
+			<AftOutsideDiameter Unit="in">1.637</AftOutsideDiameter>
+			<AftShoulderDiameter Unit="in">1.595</AftShoulderDiameter>
+			<AftShoulderLength Unit="in">0.500</AftShoulderLength>
+			<Length Unit="in">3.750</Length>
+		</Transition>
+		<!-- TA520 missing parameters -->
+		<Transition>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>TA520</PartNumber>
+			<Description>Transition T5 to T20 0.78 in long, PN TA520</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>CONICAL</Shape>
+			<ForeOutsideDiameter Unit="in">0.541</ForeOutsideDiameter>
+			<ForeShoulderDiameter Unit="in">0.515</ForeShoulderDiameter>
+			<ForeShoulderLength Unit="in">0.500</ForeShoulderLength>
+			<AftOutsideDiameter Unit="in">0.736</AftOutsideDiameter>
+			<AftShoulderDiameter Unit="in">0.710</AftShoulderDiameter>
+			<AftShoulderLength Unit="in">0.500</AftShoulderLength>
+			<Length Unit="in">0.78</Length>
+		</Transition>
+		<!-- TA5260C T60 parameters switched on BMS drawing-->
+		<Transition>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>TA5260C</PartNumber>
+			<Description>Thor-Agena B Transition, PN TA5260C</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>CONICAL</Shape>
+			<ForeOutsideDiameter Unit="in">1.014</ForeOutsideDiameter>
+			<ForeShoulderDiameter Unit="in">1.000</ForeShoulderDiameter>
+			<ForeShoulderLength Unit="in">0.750</ForeShoulderLength>
+			<AftOutsideDiameter Unit="in">1.637</AftOutsideDiameter>
+			<AftShoulderDiameter Unit="in">1.595</AftShoulderDiameter>
+			<AftShoulderLength Unit="in">0.750</AftShoulderLength>
+			<Length Unit="in">3.75</Length>
+		</Transition>
+		<!-- TA550 missing parameters -->
+		<Transition>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>TA550</PartNumber>
+			<Description>Transition T5 to T50 1.0 in long, PN TA550</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>CONICAL</Shape>
+			<ForeOutsideDiameter Unit="in">0.541</ForeOutsideDiameter>
+			<ForeShoulderDiameter Unit="in">0.515</ForeShoulderDiameter>
+			<ForeShoulderLength Unit="in">0.500</ForeShoulderLength>
+			<AftOutsideDiameter Unit="in">0.976</AftOutsideDiameter>
+			<AftShoulderDiameter Unit="in">0.950</AftShoulderDiameter>
+			<AftShoulderLength Unit="in">0.500</AftShoulderLength>
+			<Length Unit="in">1.000</Length>
+		</Transition>
+		<!-- TA555 missing parameters -->
+		<Transition>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>TA555</PartNumber>
+			<Description>Transiition T5 to T55 2.75 in long, PN TA555</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>CONICAL</Shape>
+			<ForeOutsideDiameter Unit="in">0.541</ForeOutsideDiameter>
+			<ForeShoulderDiameter Unit="in">0.515</ForeShoulderDiameter>
+			<ForeShoulderLength Unit="in">0.500</ForeShoulderLength>
+			<AftOutsideDiameter Unit="in">1.325</AftOutsideDiameter>
+			<AftShoulderDiameter Unit="in">1.283</AftShoulderDiameter>
+			<AftShoulderLength Unit="in">0.500</AftShoulderLength>
+			<Length Unit="in">2.750</Length>
+		</Transition>
+		<!-- TA5560 missing parameters -->
+		<Transition>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>TA5560</PartNumber>
+			<Description>Transition T55 to T60 1 long, PN TA5560</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>CONICAL</Shape>
+			<ForeOutsideDiameter Unit="in">0.541</ForeOutsideDiameter>
+			<ForeShoulderDiameter Unit="in">0.515</ForeShoulderDiameter>
+			<ForeShoulderLength Unit="in">0.500</ForeShoulderLength>
+			<AftOutsideDiameter Unit="in">1.637</AftOutsideDiameter>
+			<AftShoulderDiameter Unit="in">1.595</AftShoulderDiameter>
+			<AftShoulderLength Unit="in">0.500</AftShoulderLength>
+			<Length Unit="in">1.000</Length>
+		</Transition>
+		<!-- TA5560A missing parameters, says both 1.3" and 1.25" long -->
+		<Transition>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>TA5560A</PartNumber>
+			<Description>Transition T55 to T60 1.25 long, PN TA5560A</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>CONICAL</Shape>
+			<ForeOutsideDiameter Unit="in">0.541</ForeOutsideDiameter>
+			<ForeShoulderDiameter Unit="in">0.515</ForeShoulderDiameter>
+			<ForeShoulderLength Unit="in">0.500</ForeShoulderLength>
+			<AftOutsideDiameter Unit="in">1.637</AftOutsideDiameter>
+			<AftShoulderDiameter Unit="in">1.595</AftShoulderDiameter>
+			<AftShoulderLength Unit="in">0.500</AftShoulderLength>
+			<Length Unit="in">1.250</Length>
+		</Transition>
+		<Transition>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>TA6070</PartNumber>
+			<Description>Transition T60 to T80 1.75 long, PN TA6070</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>CONICAL</Shape>
+			<ForeOutsideDiameter Unit="in">1.637</ForeOutsideDiameter>
+			<ForeShoulderDiameter Unit="in">1.595</ForeShoulderDiameter>
+			<ForeShoulderLength Unit="in">0.500</ForeShoulderLength>
+			<AftOutsideDiameter Unit="in">2.217</AftOutsideDiameter>
+			<AftShoulderDiameter Unit="in">2.175</AftShoulderDiameter>
+			<AftShoulderLength Unit="in">0.750</AftShoulderLength>
+			<Length Unit="in">1.75</Length>
+		</Transition>
+		<!-- TA6080 missing parameters-->
+		<Transition>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>TA6080</PartNumber>
+			<Description>Transition T60 to T80 2.25 in long, PN TA6080</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>CONICAL</Shape>
+			<ForeOutsideDiameter Unit="in">1.637</ForeOutsideDiameter>
+			<ForeShoulderDiameter Unit="in">1.595</ForeShoulderDiameter>
+			<ForeShoulderLength Unit="in">0.750</ForeShoulderLength>
+			<AftOutsideDiameter Unit="in">2.600</AftOutsideDiameter>
+			<AftShoulderDiameter Unit="in">2.560</AftShoulderDiameter>
+			<AftShoulderLength Unit="in">0.750</AftShoulderLength>
+			<Length Unit="in">2.250</Length>
+		</Transition>
+		<!-- TA7080 missing parameters-->
+		<Transition>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>TA7080</PartNumber>
+			<Description>Transition T70 to T80 2 in long, PN TA7080</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>CONICAL</Shape>
+			<ForeOutsideDiameter Unit="in">2.217</ForeOutsideDiameter>
+			<ForeShoulderDiameter Unit="in">2.175</ForeShoulderDiameter>
+			<ForeShoulderLength Unit="in">0.750</ForeShoulderLength>
+			<AftOutsideDiameter Unit="in">2.600</AftOutsideDiameter>
+			<AftShoulderDiameter Unit="in">2.560</AftShoulderDiameter>
+			<AftShoulderLength Unit="in">0.750</AftShoulderLength>
+			<Length Unit="in">2.000</Length>
+		</Transition>
+		<!-- TA70300 missing parameters-->
+		<Transition>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>TA70300</PartNumber>
+			<Description>Transition (taper length=2.5 inch), PN TA70300</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>CONICAL</Shape>
+			<ForeOutsideDiameter Unit="in">2.217</ForeOutsideDiameter>
+			<ForeShoulderDiameter Unit="in">2.175</ForeShoulderDiameter>
+			<ForeShoulderLength Unit="in">0.750</ForeShoulderLength>
+			<AftOutsideDiameter Unit="in">3.000</AftOutsideDiameter>
+			<AftShoulderDiameter Unit="in">2.930</AftShoulderDiameter>
+			<AftShoulderLength Unit="in">0.750</AftShoulderLength>
+			<Length Unit="in">2.500</Length>
+		</Transition>
+		<!-- TA80300 missing parameters-->
+		<Transition>
+			<Manufacturer>BalsaMachiningQQQ</Manufacturer>
+			<PartNumber>TA80300</PartNumber>
+			<Description>Transition (taper length=2.5 inch), PN TA80300</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>CONICAL</Shape>
+			<ForeOutsideDiameter Unit="in">2.600</ForeOutsideDiameter>
+			<ForeShoulderDiameter Unit="in">2.560</ForeShoulderDiameter>
+			<ForeShoulderLength Unit="in">0.750</ForeShoulderLength>
+			<AftOutsideDiameter Unit="in">3.000</AftOutsideDiameter>
+			<AftShoulderDiameter Unit="in">2.930</AftShoulderDiameter>
+			<AftShoulderLength Unit="in">0.750</AftShoulderLength>
+			<Length Unit="in">2.500</Length>
+		</Transition>
+
+
+
 	</Components>
 </OpenRocketComponent>
 
