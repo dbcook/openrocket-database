@@ -181,6 +181,14 @@ the former should be lighter because of the larger center hole. -->
             <Type>SURFACE</Type>
         </Material>
 
+        <!-- LOC plywood centering rings are Baltic birch (private communication from Dave Barber, Sep 17 2022) -->
+        <Material UnitsOfMeasure="g/cm3">
+            <Name>Plywood, Baltic birch, bulk</Name>
+            <Density>680.0</Density>
+            <Type>BULK</Type>
+        </Material>
+
+
       </Materials>
 
       <Components>
@@ -201,15 +209,26 @@ the former should be lighter because of the larger center hole. -->
              On 2018 website the SKU has changed to MMT-0.75 and is only shown as available in 2.75" length
              *** SOURCE ERROR: on 2018 website, 18mm motor mount tube is given as 2.75" in the menu dropdown, but the
              SKU is "MMT-0.75x6", and the listed dimension is "6 x .75 x .75 in".  The weight is also given as 0.0156 oz,
-             suspiciously identical to the weight given for the MMT-0.95x6 tube. -->
+             suspiciously identical to the weight given for the MMT-0.95x6 tube. 
+             Dimensions are no longer given on the 2022 website, and the only length is 2.75"
+        -->
         <BodyTube>
             <Manufacturer>LOC Precision</Manufacturer>
-            <PartNumber>MMT-0.71</PartNumber>
+            <PartNumber>MMT-0.71-34</PartNumber>
             <Description>Body tube, paper, MMT-0.71 18mm, 34.0"</Description>
             <Material Type="BULK">Paper, kraft glassine, LOC tube avg</Material>
             <InsideDiameter Unit="in">0.715</InsideDiameter>
             <OutsideDiameter Unit="in">0.765</OutsideDiameter>
             <Length Unit="in">34.0</Length>
+        </BodyTube>
+        <BodyTube>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>MMT-0.71-2.75</PartNumber>
+            <Description>Body tube, paper, MMT-0.71 18mm, 2.75"</Description>
+            <Material Type="BULK">Paper, kraft glassine, LOC tube avg</Material>
+            <InsideDiameter Unit="in">0.715</InsideDiameter>
+            <OutsideDiameter Unit="in">0.765</OutsideDiameter>
+            <Length Unit="in">2.75</Length>
         </BodyTube>
 
         <!-- MMT-0.95 - ID, OD and .025 wall per LOC 1980s catalogs and 2018 website, discount rocketry comparable weight 1.30 oz.
@@ -245,22 +264,38 @@ the former should be lighter because of the larger center hole. -->
         </BodyTube>
         <!-- MMT-1.52 mass 118 g / 4.13 oz per apogee, 4.5 oz per discountrocketry, 3.25 oz 2010
              accessories catalog
-             .055 wall per 2010 parts order form
+             .055 wall per 2010 parts order form, 0.0475 wall listed on 2022 website.
+             2022 website also gives ID 1.52 and OD 1.625, slightly different than previous
+             values of 1.525 and 1.635.  I have adopted these updated dimensions.
              Apogee lists as "BT-1.52 / MMT-1.52"
              The Apogee mass value gives a somewhat low density (776) vs ~860 for others, but it
              looks real. I measured a vintage 1990 full length MMT-1.52 at 114.5 gm and a 15" length
              (2016 LOC Aura kit) at 51.5 gm implying 116gm for 34" length -->
-        <!-- *** SOURCE ERROR: 2018 website gives wrong dimensions (and probably weight) for MMT-1.58x11.
-             Dimensions are given as "11 x 2.14 x 2.14 in" - that's 54mm tube.  -->
         <BodyTube>
             <Manufacturer>LOC Precision</Manufacturer>
             <PartNumber>BT-1.52, MMT-1.52</PartNumber>
             <Description>Body tube, paper, BT-1.52/MMT-1.52 38mm, 34.0"</Description>
             <Material Type="BULK">Paper, kraft glassine, LOC tube avg</Material>
-            <InsideDiameter Unit="in">1.525</InsideDiameter>
-            <OutsideDiameter Unit="in">1.635</OutsideDiameter>
+            <InsideDiameter Unit="in">1.52</InsideDiameter>
+            <OutsideDiameter Unit="in">1.625</OutsideDiameter>
             <Length Unit="in">34.0</Length>
         </BodyTube>
+
+        <!-- BT-1.9 - somewhere between 2018 and 2022, LOC added a 1.90" airframe tube,
+             however, assuming the 1.90" is ID as for all other LOC tubes, the OD is missing from the website. Assuming this has a .040 wall,
+             making the OD 1.98"  If this is intended to be Aerotech compatible, that is
+             not the right size though, the Aerotech 1.9 tube has OD 1.88 and ID 1.80"
+            -->
+            <BodyTube>
+                <Manufacturer>LOC Precision</Manufacturer>
+                <PartNumber>BT-1.9</PartNumber>
+                <Description>Body tube, paper, BT-1.9, 34.0"</Description>
+                <Material Type="BULK">Paper, kraft glassine, LOC tube avg</Material>
+                <InsideDiameter Unit="in">1.90</InsideDiameter>
+                <OutsideDiameter Unit="in">1.98</OutsideDiameter>
+                <Length Unit="in">34.0</Length>
+            </BodyTube>
+    
         <!-- MMT-2.14 mass 192 g / 6.72 oz per Apogee, 0.24 lb (3.84 oz) per LOC 2018 website, 7.50 oz per LOC 2010 accessories
              catalog.  Apparently has .060 wall.  Apogee lists as "BT-2.14 / MMT-2.14".  On 2018 website, SKU has changed to
              MMT-54 -->
@@ -568,6 +603,220 @@ the former should be lighter because of the larger center hole. -->
             <Length Unit="in">22.0</Length>
             <Thickness Unit="in">0.111</Thickness>
         </NoseCone>
+
+        <!-- Plywood centering rings - Baltic Birch -->
+        <!-- As of September 2022, thicknesses for all LOC brand centering rings are published on locprecision.com.
+             The material is confirmed as Baltic birch by a LOC owner
+             LOC does not precisely specify the ID/OD, so we use the size of the relevant cardboard tube with
+             a 0.003" clearance as follows
+                       ring OD   ring ID
+             18mm MMT            0.768    Use value for old MMT-0.71 which had OD 0.765
+             LBT-50    0.947     1.003
+             BT-1.14   1.137     1.213
+             BT-1.52   1.522     1.638
+             BT-1.9    1.897     1.983    Assuming ID is 1.90 consistent with all other LOC tube nomenclature
+             BT-2.14   2.137     2.263
+             BT-2.56   2.557     2.633
+             BT-3.00   2.997     3.103
+             BT-3.9    3.897     4.003
+             BT-5.38   5.377     5.543
+             BT-7.51   7.512     7.678
+
+             ***TBD*** For LOC cardboard tube couplers the IDs are not specified.
+            
+            -->
+
+        <!-- 1.52 to 29mm MMT, 1/4" thick -->
+        <CenteringRing>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>CR-1.52-29mm</PartNumber>
+            <Description>Centering ring, plywood, 1.52 to 29mm, 1/4"</Description>
+            <Material Type="BULK">Plywood, Baltic birch, bulk</Material>
+            <InsideDiameter Unit="in">1.213</InsideDiameter>
+            <OutsideDiameter Unit="in">1.522</OutsideDiameter>
+            <Length Unit="in">0.250</Length>
+        </CenteringRing>
+
+        <!-- 1.52 to 24mm LOC LBT-50, 1/8" thick -->
+        <CenteringRing>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>CR-1.52-24mm</PartNumber>
+            <Description>Centering ring, plywood, 1.52 to 24mm, 1/8"</Description>
+            <Material Type="BULK">Plywood, Baltic birch, bulk</Material>
+            <InsideDiameter Unit="in">1.003</InsideDiameter>
+            <OutsideDiameter Unit="in">1.522</OutsideDiameter>
+            <Length Unit="in">0.125</Length>
+        </CenteringRing>
+
+        <!-- 1.52 to 18mm MMT-0.71, 1/8" thick -->
+        <CenteringRing>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>CR-1.52-18mm</PartNumber>
+            <Description>Centering ring, plywood, 1.52 to 18mm, 1/8"</Description>
+            <Material Type="BULK">Plywood, Baltic birch, bulk</Material>
+            <InsideDiameter Unit="in">0.739</InsideDiameter>
+            <OutsideDiameter Unit="in">1.522</OutsideDiameter>
+            <Length Unit="in">0.125</Length>
+        </CenteringRing>
+
+        <!-- 1.9 to 29mm MMT, 1/4" thick -->
+        <CenteringRing>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>CR-1.90-29mm</PartNumber>
+            <Description>Centering ring, plywood, 1.9 to 29mm, 1/4"</Description>
+            <Material Type="BULK">Plywood, Baltic birch, bulk</Material>
+            <InsideDiameter Unit="in">1.213</InsideDiameter>
+            <OutsideDiameter Unit="in">1.897</OutsideDiameter>
+            <Length Unit="in">0.250</Length>
+        </CenteringRing>
+
+        <!-- 1.9 to 24mm MMT, 1/8" thick -->
+        <CenteringRing>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>CR-1.90-24mm</PartNumber>
+            <Description>Centering ring, plywood, 1.9 to 24mm, 1/8"</Description>
+            <Material Type="BULK">Plywood, Baltic birch, bulk</Material>
+            <InsideDiameter Unit="in">1.003</InsideDiameter>
+            <OutsideDiameter Unit="in">1.897</OutsideDiameter>
+            <Length Unit="in">0.125</Length>
+        </CenteringRing>
+
+        <!-- CR-2.14-38mm, 1/4" thick -->
+        <CenteringRing>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>CR-2.14-38mm</PartNumber>
+            <Description>Centering ring, plywood, 2.14 to 38mm, 1/4"</Description>
+            <Material Type="BULK">Plywood, Baltic birch, bulk</Material>
+            <InsideDiameter Unit="in">1.638</InsideDiameter>
+            <OutsideDiameter Unit="in">2.137</OutsideDiameter>
+            <Length Unit="in">0.250</Length>
+        </CenteringRing>
+
+        <!-- CR-2.14-29mm, 1/8" thick -->
+        <CenteringRing>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>CR-2.14-29mm</PartNumber>
+            <Description>Centering ring, plywood, 2.14 to 29mm, 1/8"</Description>
+            <Material Type="BULK">Plywood, Baltic birch, bulk</Material>
+            <InsideDiameter Unit="in">1.213</InsideDiameter>
+            <OutsideDiameter Unit="in">2.137</OutsideDiameter>
+            <Length Unit="in">0.125</Length>
+        </CenteringRing>
+
+        <!-- CR-2.14-24mm, 1/8" thick -->
+        <CenteringRing>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>CR-2.14-24mm</PartNumber>
+            <Description>Centering ring, plywood, 2.14 to 24mm, 1/8"</Description>
+            <Material Type="BULK">Plywood, Baltic birch, bulk</Material>
+            <InsideDiameter Unit="in">1.003</InsideDiameter>
+            <OutsideDiameter Unit="in">2.137</OutsideDiameter>
+            <Length Unit="in">0.125</Length>
+        </CenteringRing>
+
+        <!-- CR-2.56-38mm, 1/8" thick -->
+        <CenteringRing>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>CR-2.56-38mm</PartNumber>
+            <Description>Centering ring, plywood, 2.56 to 38mm, 1/8"</Description>
+            <Material Type="BULK">Plywood, Baltic birch, bulk</Material>
+            <InsideDiameter Unit="in">1.638</InsideDiameter>
+            <OutsideDiameter Unit="in">2.557</OutsideDiameter>
+            <Length Unit="in">0.125</Length>
+        </CenteringRing>
+
+        <!-- CR-2.56-29MM, 1/8" thick -->
+        <CenteringRing>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>CR-2.56-29mm</PartNumber>
+            <Description>Centering ring, plywood, 2.56 to 29mm, 1/8"</Description>
+            <Material Type="BULK">Plywood, Baltic birch, bulk</Material>
+            <InsideDiameter Unit="in">1.213</InsideDiameter>
+            <OutsideDiameter Unit="in">2.557</OutsideDiameter>
+            <Length Unit="in">0.125</Length>
+        </CenteringRing>
+
+        <!-- CR-2.56-24MM, 1/8" thick -->
+        <CenteringRing>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>CR-2.56-24mm</PartNumber>
+            <Description>Centering ring, plywood, 2.56 to 24mm, 1/8"</Description>
+            <Material Type="BULK">Plywood, Baltic birch, bulk</Material>
+            <InsideDiameter Unit="in">1.003</InsideDiameter>
+            <OutsideDiameter Unit="in">2.557</OutsideDiameter>
+            <Length Unit="in">0.125</Length>
+        </CenteringRing>
+
+        <!-- CR-2.56-3x24mm, 1/8" thick, cluster -->
+        <!-- CR-2.56-4x18mm, 1/8" thick, cluster -->
+
+        <!-- CRTC-2.56-38mm, 1/8" thick, fits tube coupler -->
+        <!-- CRTC-2.56-29MM, 1/8" thick, fits tube coupler -->
+        <!-- CRTC-2.56-24MM, 1/8" thick, fits tube coupler -->
+        <!-- CRTC-2.56-3x24mm, 1/8" thick, cluster, fits tube coupler -->
+        <!-- CRTC-2.56-4x18mm, 1/8" thick, cluster, fits tube coupler -->
+
+        <!-- CR-3.00-54mm, 1/4" thick, notched for harness -->
+        <!-- CR-3.00-38mm, 1/4" thick -->
+        <!-- CR-3.00-29mm, 1/8" thick -->
+        <!-- CR-3.00-24mm, 1/8" thick -->
+        <!-- CR-3.00-2x29mm, 1/8" thick, cluster -->
+        <!-- CR-3.00-3x29mm, 1/4" thick, cluster -->
+        <!-- CR-3.00-4x24mm, 1/8" thick, cluster -->
+
+        <!-- CR-3.90-75mm, 1/4" thick, notched for harness -->
+        <!-- CR-3.90-54mm, 1/4" thick -->
+        <!-- CR-3.90-38mm, 1/4" thick -->
+        <!-- CR-3.90-29mm, 1/8" thick -->
+        <!-- LNR-3.90-54mm3S, 1/4" thick, slotted for 3 fins .25 thick -->
+        <!-- LNR-3.90-54mm4S, 1/4" thick, slotted for 4 fins .25 thick -->
+        <!-- CR-3.90-3x29mm, 1/4" thick, cluster -->
+        <!-- CR-3.90-4x29mm, 1/4" thick, cluster -->
+        <!-- CR-3.90-7x29mm, 1/4" thick, cluster -->
+        <!-- CR-3.90-3x38mm, 1/4" thick, cluster -->
+        <!-- CR-3.90-1x38mm-3x24mm, 1/4" thick, cluster -->
+
+        <!-- CR-5.38-98mm, 1/4" thick -->
+        <!-- CR-5.38-75mm, 1/4" thick -->
+        <!-- CR-5.38-54mm, 1/4" thick -->
+        <!-- CR-5.38-38mm, 1/4" thick -->
+        <!-- LNR-5.38-54mm3S25, 1/4" thick, slotted for 3 fins .25 thick -->
+        <!-- LNR-5.38-54mm4S25, 1/4" thick, slotted for 4 fins .25 thick -->
+        <!-- LNR-5.38-75mm3S375, 1/4" thick, slotted for 3 fins .375 thick -->
+        <!-- LNR-5.38-75mm4S375, 1/4" thick, slotted for 4 fins .375 thick -->
+        <!-- CR-5.38-4x29mm, 1/4" thick, cluster -->
+        <!-- CR-5.38-1x38mm4x29mm, 1/4" thick, cluster -->
+        <!-- CR-5.38-4x38mm, 1/4" thick, cluster -->
+        <!-- CR-5.38-3x38mm2x29mm, 1/4" thick, cluster -->
+        <!-- CR-5.38-5x38mm, 1/4" thick, cluster -->
+        <!-- CR-5.38-7x38mm, 1/4" thick, cluster -->
+        <!-- CR-5.38-1x544mm4x29mm, 1/4" thick, cluster -->
+
+        <!-- CR-7.51-98mm, 1/4" thick -->
+        <!-- CR-7.51-75mm, 1/4" thick -->
+        <!-- CR-7.51-54mm, 1/4" thick -->
+        <!-- CR-7.51-38mm, 1/4" thick -->
+        <!-- CR-7.51-1x54mm4x29mm, 1/4" thick, cluster -->
+        <!-- CR-7.51-1x54mm4x38mm, 1/4" thick, cluster -->
+        <!-- CR-7.51-5x54mm, 1/4" thick, cluster -->
+        <!-- CR-7.51-7x54mm, 1/4" thick, cluster -->
+        <!-- CR-7.51-1x75mm4x38mm, 1/4" thick, cluster -->
+        <!-- CR-7.51-1x75mm4x38mm4x29mm, 1/4" thick, cluster -->
+        <!-- CR-7.51-1x98mm4x29mm, 1/4" thick, cluster -->
+        <!-- CR-7.51-1x98mm8x29mm, 1/4" thick, cluster -->
+
+
+        <!-- Solid bulkheads.  Note inconsistent PN format -->
+        <!-- BA-152 solid bulkhead, 1/8" thick, fits tube coupler -->
+        <!-- BA-1.9 solid bulkhead, fits tube coupler, *** no thickness given *** -->
+        <!-- BA-214 solid bulkhead, 1/8" thick, fits tube coupler -->
+        <!-- BA-256 solid bulkhead, 1/8" thick, fits tube coupler -->
+        <!-- BA-3.00 solid bulkhead, 1/4" thick, fits tube coupler -->
+        <!-- BA-3.90 solid bulkhead, 1/4" thick, fits tube coupler -->
+        <!-- BA-5.38 solid bulkhead, 1/4" thick, fits tube coupler -->
+        <!-- BA-7.51 solid bulkhead, 1/4" thick, fits tube coupler -->
+        <!-- *** ADDING HERE *** -->
+
 
         <!-- LOC nylon flat sheet parachutes -->
         <!-- Historically LOC made their own parachutes, which were originally sewn by
