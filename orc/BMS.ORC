@@ -27,8 +27,9 @@ Using this file:
     When you start up OpenRocket and use the "from Database..." option when selecting components,
     you will see a LOT more BMS components than before.  Unfortunately unless you do some advanced
     surgery to remove the built-ins from your OpenRocket jar, you will have some duplicating entries
-    from the baked-in OpenRocket components.  You can easily recognize the new components from this
-    file because they will have much longer descriptions.
+    from the baked-in OpenRocket components.  You can easily recognize the new components from this file because they will have much longer descriptions and these use "BalsaMachining" instead of "BalsaMachining.com" as the manufacturer.
+	
+	Shoulder lengths were set to values provided by Bill Saindon of BMS. All shoulder diameters adjusted to .003" smaller than the tube they fit.
 
 -->
 <!--     -->
@@ -185,6 +186,16 @@ Using this file:
 		<Material UnitsOfMeasure="kg/cm3">
 			<Name>Polystyrene, cast, bulk</Name>
 			<Density>1050.0</Density>
+			<Type>BULK</Type>
+		</Material>
+		<Material UnitsOfMeasure="kg/m">
+			<Name>Delrin</Name>
+			<Density>1420</Density>
+			<Type>BULK</Type>
+		</Material>
+		<Material UnitsOfMeasure="kg/m">
+			<Name>Nylon</Name>
+			<Density>1150</Density>
 			<Type>BULK</Type>
 		</Material>
 	</Materials>
@@ -1745,7 +1756,6 @@ Using this file:
 			<OutsideDiameter Unit="in">2.855</OutsideDiameter>
 			<Length Unit="in">0.125</Length>
 		</BulkHead>
-		<!-- BMS does not spectify shoulder length. Assumed 0.5, unless its a Estes clone which its value is used -->
 		<NoseCone>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>BMS20Q</PartNumber>
@@ -1754,7 +1764,7 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>ELLIPSOID</Shape>
 			<OutsideDiameter Unit="in">0.736</OutsideDiameter>
-			<ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+			<ShoulderDiameter Unit="in">0.707</ShoulderDiameter>
 			<ShoulderLength Unit="in">0.500</ShoulderLength>
 			<Length Unit="in">1.750</Length>
 		</NoseCone>
@@ -1767,9 +1777,9 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>OGIVE</Shape>
 			<ForeOutsideDiameter Unit="in">0.736</ForeOutsideDiameter>
-			<ForeShoulderDiameter Unit="in">0.710</ForeShoulderDiameter>
+			<ForeShoulderDiameter Unit="in">0.707</ForeShoulderDiameter>
 			<ForeShoulderLength Unit="in">0.5</ForeShoulderLength>
-			<AftOutsideDiameter Unit="in">0.5</AftOutsideDiameter>
+			<AftOutsideDiameter Unit="in">0.0</AftOutsideDiameter>
 			<AftShoulderDiameter Unit="in">0.000</AftShoulderDiameter>
 			<AftShoulderLength Unit="in">0.000</AftShoulderLength>
 			<Length Unit="in">1.630</Length>
@@ -1782,8 +1792,8 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>OGIVE</Shape>
 			<OutsideDiameter Unit="in">0.736</OutsideDiameter>
-			<ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
-			<ShoulderLength Unit="in">0.630</ShoulderLength>
+			<ShoulderDiameter Unit="in">0.707</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.750</ShoulderLength>
 			<Length Unit="in">2.25</Length>
 		</NoseCone>
 		<NoseCone>
@@ -1794,8 +1804,8 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>ELLIPSOID</Shape>
 			<OutsideDiameter Unit="in">0.976</OutsideDiameter>
-			<ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
-			<ShoulderLength Unit="in">0.630</ShoulderLength>
+			<ShoulderDiameter Unit="in">0.947</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.500</ShoulderLength>
 			<Length Unit="in">2.25</Length>
 		</NoseCone>
 		<!-- BMS50HJ is a Honest John Nose cone and is currently supports im OR -->
@@ -1807,8 +1817,8 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>ELLIPSOID</Shape>
 			<OutsideDiameter Unit="in">0.976</OutsideDiameter>
-			<ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
-			<ShoulderLength Unit="in">0.630</ShoulderLength>
+			<ShoulderDiameter Unit="in">0.947</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.400</ShoulderLength>
 			<Length Unit="in">2.20</Length>
 		</NoseCone>
 		<NoseCone>
@@ -1819,8 +1829,8 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>OGIVE</Shape>
 			<OutsideDiameter Unit="in">0.976</OutsideDiameter>
-			<ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
-			<ShoulderLength Unit="in">0.630</ShoulderLength>
+			<ShoulderDiameter Unit="in">0.947</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.400</ShoulderLength>
 			<Length Unit="in">3.000</Length>
 		</NoseCone>
 		<!-- BMS55HJ is a Honest John Nose cone and is currently supports im OR -->
@@ -1833,9 +1843,9 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>ELLIPSOID</Shape>
 			<ForeOutsideDiameter Unit="in">1.63</ForeOutsideDiameter>
-			<ForeShoulderDiameter Unit="in">1.595</ForeShoulderDiameter>
-			<ForeShoulderLength Unit="in">0.5</ForeShoulderLength>
-			<AftOutsideDiameter Unit="in">0.750</AftOutsideDiameter>
+			<ForeShoulderDiameter Unit="in">1.592</ForeShoulderDiameter>
+			<ForeShoulderLength Unit="in">0.50</ForeShoulderLength>
+			<AftOutsideDiameter Unit="in">0.00</AftOutsideDiameter>
 			<AftShoulderDiameter Unit="in">0.000</AftShoulderDiameter>
 			<AftShoulderLength Unit="in">0.000</AftShoulderLength>
 			<Length Unit="in">3.700</Length>
@@ -1848,11 +1858,11 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>OGIVE</Shape>
 			<OutsideDiameter Unit="in">1.635</OutsideDiameter>
-			<ShoulderDiameter Unit="in">1.595</ShoulderDiameter>
+			<ShoulderDiameter Unit="in">1.592</ShoulderDiameter>
 			<ShoulderLength Unit="in">0.750</ShoulderLength>
 			<Length Unit="in">5.25</Length>
 		</NoseCone>
-		<!-- Complex shap not supportes by OR 
+		<!-- Complex shape not supportes by OR 
 		<NoseCone>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>BMS70AB</PartNumber>
@@ -1875,9 +1885,9 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>OGIVE</Shape>
 			<ForeOutsideDiameter Unit="in">1.63</ForeOutsideDiameter>
-			<ForeShoulderDiameter Unit="in">1.595</ForeShoulderDiameter>
-			<ForeShoulderLength Unit="in">0.5</ForeShoulderLength>
-			<AftOutsideDiameter Unit="in">0.990</AftOutsideDiameter>
+			<ForeShoulderDiameter Unit="in">1.592</ForeShoulderDiameter>
+			<ForeShoulderLength Unit="in">0.750</ForeShoulderLength>
+			<AftOutsideDiameter Unit="in">0.000</AftOutsideDiameter>
 			<AftShoulderDiameter Unit="in">0.000</AftShoulderDiameter>
 			<AftShoulderLength Unit="in">0.000</AftShoulderLength>
 			<Length Unit="in">3.700</Length>
@@ -1890,8 +1900,8 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>OGIVE</Shape>
 			<OutsideDiameter Unit="in">0.720</OutsideDiameter>
-			<ShoulderDiameter Unit="in">0.706</ShoulderDiameter>
-			<ShoulderLength Unit="in">0.500</ShoulderLength>
+			<ShoulderDiameter Unit="in">0.703</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.7500</ShoulderLength>
 			<Length Unit="in">0.8</Length>
 		</NoseCone>
 		<NoseCone>
@@ -1902,7 +1912,7 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>OGIVE</Shape>
 			<OutsideDiameter Unit="in">0.736</OutsideDiameter>
-			<ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+			<ShoulderDiameter Unit="in">0.707</ShoulderDiameter>
 			<ShoulderLength Unit="in">0.500</ShoulderLength>
 			<Length Unit="in">0.71</Length>
 		</NoseCone>
@@ -1914,7 +1924,7 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>ELLIPSOID</Shape>
 			<OutsideDiameter Unit="in">0.736</OutsideDiameter>
-			<ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+			<ShoulderDiameter Unit="in">0.707</ShoulderDiameter>
 			<ShoulderLength Unit="in">0.500</ShoulderLength>
 			<Length Unit="in">2.00</Length>
 		</NoseCone>
@@ -1926,7 +1936,7 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>PARABOLIC</Shape>
 			<OutsideDiameter Unit="in">0.736</OutsideDiameter>
-			<ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+			<ShoulderDiameter Unit="in">0.707</ShoulderDiameter>
 			<ShoulderLength Unit="in">0.500</ShoulderLength>
 			<Length Unit="in">2.40</Length>
 		</NoseCone>
@@ -1938,7 +1948,7 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>ELLIPSOID</Shape>
 			<OutsideDiameter Unit="in">0.736</OutsideDiameter>
-			<ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+			<ShoulderDiameter Unit="in">0.707</ShoulderDiameter>
 			<ShoulderLength Unit="in">0.500</ShoulderLength>
 			<Length Unit="in">1.60</Length>
 		</NoseCone>
@@ -1950,7 +1960,7 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>ELLIPSOID</Shape>
 			<OutsideDiameter Unit="in">0.736</OutsideDiameter>
-			<ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+			<ShoulderDiameter Unit="in">0.707</ShoulderDiameter>
 			<ShoulderLength Unit="in">0.50</ShoulderLength>
 			<Length Unit="in">0.78</Length>
 		</NoseCone>
@@ -1962,7 +1972,7 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>ELLIPSOID</Shape>
 			<OutsideDiameter Unit="in">0.736</OutsideDiameter>
-			<ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+			<ShoulderDiameter Unit="in">0.707</ShoulderDiameter>
 			<ShoulderLength Unit="in">0.50</ShoulderLength>
 			<Length Unit="in">1.4</Length>
 		</NoseCone>
@@ -1975,7 +1985,7 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>OGIVE</Shape>
 			<OutsideDiameter Unit="in">0.736</OutsideDiameter>
-			<ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+			<ShoulderDiameter Unit="in">0.707</ShoulderDiameter>
 			<ShoulderLength Unit="in">0.50</ShoulderLength>
 			<Length Unit="in">2.70</Length>
 		</NoseCone>
@@ -1989,8 +1999,8 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>ELLIPSOID</Shape>
 			<OutsideDiameter Unit="in">0.90</OutsideDiameter>
-			<ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
-			<ShoulderLength Unit="in">0.437</ShoulderLength>
+			<ShoulderDiameter Unit="in">0.707</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.5</ShoulderLength>
 			<Length Unit="in">1.30</Length>
 		</NoseCone>
 		<NoseCone>
@@ -2001,7 +2011,7 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
 			<OutsideDiameter Unit="in">0.736</OutsideDiameter>
-			<ShoulderDiameter Unit="in">0.711</ShoulderDiameter>
+			<ShoulderDiameter Unit="in">0.707</ShoulderDiameter>
 			<ShoulderLength Unit="in">0.375</ShoulderLength>
 			<Length Unit="in">2.75</Length>
 		</NoseCone>
@@ -2013,7 +2023,7 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
 			<OutsideDiameter Unit="in">0.736</OutsideDiameter>
-			<ShoulderDiameter Unit="in">0.710</ShoulderDiameter>
+			<ShoulderDiameter Unit="in">0.707</ShoulderDiameter>
 			<ShoulderLength Unit="in">0.375</ShoulderLength>
 			<Length Unit="in">1.05</Length>
 		</NoseCone>
@@ -2037,7 +2047,7 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>OGIVE</Shape>
 			<OutsideDiameter Unit="in">0.767</OutsideDiameter>
-			<ShoulderDiameter Unit="in">0.725</ShoulderDiameter>
+			<ShoulderDiameter Unit="in">0.722</ShoulderDiameter>
 			<ShoulderLength Unit="in">0.500</ShoulderLength>
 			<Length Unit="in">2.19</Length>
 		</NoseCone>
@@ -2049,7 +2059,7 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>OGIVE</Shape>
 			<OutsideDiameter Unit="in">0.767</OutsideDiameter>
-			<ShoulderDiameter Unit="in">0.725</ShoulderDiameter>
+			<ShoulderDiameter Unit="in">0.722</ShoulderDiameter>
 			<ShoulderLength Unit="in">0.500</ShoulderLength>
 			<Length Unit="in">2.750</Length>
 		</NoseCone>
@@ -2061,8 +2071,8 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>OGIVE</Shape>
 			<OutsideDiameter Unit="in">0.976</OutsideDiameter>
-			<ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
-			<ShoulderLength Unit="in">0.500</ShoulderLength>
+			<ShoulderDiameter Unit="in">0.947</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.7500</ShoulderLength>
 			<Length Unit="in">3.800</Length>
 		</NoseCone>
 		<!-- BNC50AD is an Honest John and too complex for OR -->
@@ -2074,7 +2084,7 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
 			<OutsideDiameter Unit="in">0.976</OutsideDiameter>
-			<ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
+			<ShoulderDiameter Unit="in">0.947</ShoulderDiameter>
 			<ShoulderLength Unit="in">0.500</ShoulderLength>
 			<Length Unit="in">1.13</Length>
 		</NoseCone>
@@ -2089,7 +2099,7 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
 			<OutsideDiameter Unit="in">0.976</OutsideDiameter>
-			<ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
+			<ShoulderDiameter Unit="in">0.947</ShoulderDiameter>
 			<ShoulderLength Unit="in">0.500</ShoulderLength>
 			<Length Unit="in">2.75</Length>
 		</NoseCone>
@@ -2101,7 +2111,7 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>ELLIPSOID</Shape>
 			<OutsideDiameter Unit="in">0.976</OutsideDiameter>
-			<ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
+			<ShoulderDiameter Unit="in">0.947</ShoulderDiameter>
 			<ShoulderLength Unit="in">0.500</ShoulderLength>
 			<Length Unit="in">1.35</Length>
 		</NoseCone>
@@ -2113,7 +2123,7 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>ELLIPSOID</Shape>
 			<OutsideDiameter Unit="in">0.976</OutsideDiameter>
-			<ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
+			<ShoulderDiameter Unit="in">0.947</ShoulderDiameter>
 			<ShoulderLength Unit="in">0.50</ShoulderLength>
 			<Length Unit="in">1.37</Length>
 		</NoseCone>
@@ -2126,7 +2136,7 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>OGIVE</Shape>
 			<OutsideDiameter Unit="in">0.976</OutsideDiameter>
-			<ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
+			<ShoulderDiameter Unit="in">0.947</ShoulderDiameter>
 			<ShoulderLength Unit="in">0.50</ShoulderLength>
 			<Length Unit="in">2.75</Length>
 		</NoseCone>
@@ -2138,7 +2148,7 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>ELLIPSOID</Shape>
 			<OutsideDiameter Unit="in">0.976</OutsideDiameter>
-			<ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
+			<ShoulderDiameter Unit="in">0.947</ShoulderDiameter>
 			<ShoulderLength Unit="in">0.50</ShoulderLength>
 			<Length Unit="in">3.300</Length>
 		</NoseCone>
@@ -2151,7 +2161,7 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>OGIVE</Shape>
 			<OutsideDiameter Unit="in">0.976</OutsideDiameter>
-			<ShoulderDiameter Unit="in">0.950</ShoulderDiameter>
+			<ShoulderDiameter Unit="in">0.947</ShoulderDiameter>
 			<ShoulderLength Unit="in">0.375</ShoulderLength>
 			<Length Unit="in">4.375</Length>
 		</NoseCone>
@@ -2176,8 +2186,8 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>OGIVE</Shape>
 			<OutsideDiameter Unit="in">1.325</OutsideDiameter>
-			<ShoulderDiameter Unit="in">1.283</ShoulderDiameter>
-			<ShoulderLength Unit="in">0.375</ShoulderLength>
+			<ShoulderDiameter Unit="in">1.280</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.500</ShoulderLength>
 			<Length Unit="in">5.400</Length>
 		</NoseCone>
 		<NoseCone>
@@ -2189,7 +2199,7 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>ELLIPSOID</Shape>
 			<OutsideDiameter Unit="in">1.325</OutsideDiameter>
-			<ShoulderDiameter Unit="in">1.283</ShoulderDiameter>
+			<ShoulderDiameter Unit="in">1.280</ShoulderDiameter>
 			<ShoulderLength Unit="in">0.75</ShoulderLength>
 			<Length Unit="in">4.2</Length>
 		</NoseCone>
@@ -2201,7 +2211,7 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>ELLIPSOID</Shape>
 			<OutsideDiameter Unit="in">1.325</OutsideDiameter>
-			<ShoulderDiameter Unit="in">1.283</ShoulderDiameter>
+			<ShoulderDiameter Unit="in">1.280</ShoulderDiameter>
 			<ShoulderLength Unit="in">0.75</ShoulderLength>
 			<Length Unit="in">5.000</Length>
 		</NoseCone>
@@ -2213,7 +2223,7 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
 			<OutsideDiameter Unit="in">1.325</OutsideDiameter>
-			<ShoulderDiameter Unit="in">1.283</ShoulderDiameter>
+			<ShoulderDiameter Unit="in">1.280</ShoulderDiameter>
 			<ShoulderLength Unit="in">0.75</ShoulderLength>
 			<Length Unit="in">1.600</Length>
 		</NoseCone>
@@ -2225,7 +2235,7 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
 			<OutsideDiameter Unit="in">1.325</OutsideDiameter>
-			<ShoulderDiameter Unit="in">1.283</ShoulderDiameter>
+			<ShoulderDiameter Unit="in">1.280</ShoulderDiameter>
 			<ShoulderLength Unit="in">1.000</ShoulderLength>
 			<Length Unit="in">4.500</Length>
 		</NoseCone>
@@ -2237,8 +2247,8 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>OGIVE</Shape>
 			<OutsideDiameter Unit="in">1.325</OutsideDiameter>
-			<ShoulderDiameter Unit="in">1.283</ShoulderDiameter>
-			<ShoulderLength Unit="in">0.630</ShoulderLength>
+			<ShoulderDiameter Unit="in">1.280</ShoulderDiameter>
+			<ShoulderLength Unit="in">1.000</ShoulderLength>
 			<Length Unit="in">4.200</Length>
 		</NoseCone>
 		<NoseCone>
@@ -2249,8 +2259,8 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>OGIVE</Shape>
 			<OutsideDiameter Unit="in">1.325</OutsideDiameter>
-			<ShoulderDiameter Unit="in">1.283</ShoulderDiameter>
-			<ShoulderLength Unit="in">0.630</ShoulderLength>
+			<ShoulderDiameter Unit="in">1.280</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.750</ShoulderLength>
 			<Length Unit="in">6.000</Length>
 		</NoseCone>
 		<NoseCone>
@@ -2261,7 +2271,7 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>OGIVE</Shape>
 			<OutsideDiameter Unit="in">0.544</OutsideDiameter>
-			<ShoulderDiameter Unit="in">0.518</ShoulderDiameter>
+			<ShoulderDiameter Unit="in">0.512</ShoulderDiameter>
 			<ShoulderLength Unit="in">0.500</ShoulderLength>
 			<Length Unit="in">2.17</Length>
 		</NoseCone>
@@ -2274,7 +2284,7 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>OGIVE</Shape>
 			<OutsideDiameter Unit="in">0.544</OutsideDiameter>
-			<ShoulderDiameter Unit="in">0.518</ShoulderDiameter>
+			<ShoulderDiameter Unit="in">0.512</ShoulderDiameter>
 			<ShoulderLength Unit="in">0.40</ShoulderLength>
 			<Length Unit="in">0.600</Length>
 		</NoseCone>
@@ -2286,7 +2296,7 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>OGIVE</Shape>
 			<OutsideDiameter Unit="in">0.544</OutsideDiameter>
-			<ShoulderDiameter Unit="in">0.518</ShoulderDiameter>
+			<ShoulderDiameter Unit="in">0.512</ShoulderDiameter>
 			<ShoulderLength Unit="in">0.50</ShoulderLength>
 			<Length Unit="in">1.38</Length>
 		</NoseCone>
@@ -2298,8 +2308,8 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>OGIVE</Shape>
 			<OutsideDiameter Unit="in">0.544</OutsideDiameter>
-			<ShoulderDiameter Unit="in">0.518</ShoulderDiameter>
-			<ShoulderLength Unit="in">0.4</ShoulderLength>
+			<ShoulderDiameter Unit="in">0.512</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.5</ShoulderLength>
 			<Length Unit="in">2.72</Length>
 		</NoseCone>
 		<NoseCone>
@@ -2310,7 +2320,7 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
 			<OutsideDiameter Unit="in">0.544</OutsideDiameter>
-			<ShoulderDiameter Unit="in">0.518</ShoulderDiameter>
+			<ShoulderDiameter Unit="in">0.512</ShoulderDiameter>
 			<ShoulderLength Unit="in">0.250</ShoulderLength>
 			<Length Unit="in">1.500</Length>
 		</NoseCone>
@@ -2322,7 +2332,7 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>ELLIPSOID</Shape>
 			<OutsideDiameter Unit="in">0.544</OutsideDiameter>
-			<ShoulderDiameter Unit="in">0.518</ShoulderDiameter>
+			<ShoulderDiameter Unit="in">0.512</ShoulderDiameter>
 			<ShoulderLength Unit="in">0.250</ShoulderLength>
 			<Length Unit="in">0.750</Length>
 		</NoseCone>
@@ -2334,7 +2344,7 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>OGIVE</Shape>
 			<OutsideDiameter Unit="in">0.544</OutsideDiameter>
-			<ShoulderDiameter Unit="in">0.518</ShoulderDiameter>
+			<ShoulderDiameter Unit="in">0.512</ShoulderDiameter>
 			<ShoulderLength Unit="in">0.50</ShoulderLength>
 			<Length Unit="in">2.800</Length>
 		</NoseCone>
@@ -2348,8 +2358,8 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>ELLIPSOID</Shape>
 			<OutsideDiameter Unit="in">1.637</OutsideDiameter>
-			<ShoulderDiameter Unit="in">1.595</ShoulderDiameter>
-			<ShoulderLength Unit="in">0.50</ShoulderLength>
+			<ShoulderDiameter Unit="in">1.592</ShoulderDiameter>
+			<ShoulderLength Unit="in">1.000</ShoulderLength>
 			<Length Unit="in">6.60</Length>
 		</NoseCone>
 		<NoseCone>
@@ -2360,7 +2370,7 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
 			<OutsideDiameter Unit="in">1.637</OutsideDiameter>
-			<ShoulderDiameter Unit="in">1.595</ShoulderDiameter>
+			<ShoulderDiameter Unit="in">1.592</ShoulderDiameter>
 			<ShoulderLength Unit="in">1.000</ShoulderLength>
 			<Length Unit="in">4.300</Length>
 		</NoseCone>
@@ -2372,7 +2382,7 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>OGIVE</Shape>
 			<OutsideDiameter Unit="in">1.637</OutsideDiameter>
-			<ShoulderDiameter Unit="in">1.595</ShoulderDiameter>
+			<ShoulderDiameter Unit="in">1.592</ShoulderDiameter>
 			<ShoulderLength Unit="in">1.000</ShoulderLength>
 			<Length Unit="in">3.500</Length>
 		</NoseCone>
@@ -2384,7 +2394,7 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>OGIVE</Shape>
 			<OutsideDiameter Unit="in">1.637</OutsideDiameter>
-			<ShoulderDiameter Unit="in">1.595</ShoulderDiameter>
+			<ShoulderDiameter Unit="in">1.592</ShoulderDiameter>
 			<ShoulderLength Unit="in">1.000</ShoulderLength>
 			<Length Unit="in">4.500</Length>
 		</NoseCone>
@@ -2396,7 +2406,7 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>ELLIPSOID</Shape>
 			<OutsideDiameter Unit="in">1.637</OutsideDiameter>
-			<ShoulderDiameter Unit="in">1.595</ShoulderDiameter>
+			<ShoulderDiameter Unit="in">1.592</ShoulderDiameter>
 			<ShoulderLength Unit="in">0.750</ShoulderLength>
 			<Length Unit="in">3.13</Length>
 		</NoseCone>
@@ -2409,7 +2419,7 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>ELLIPSOID</Shape>
 			<OutsideDiameter Unit="in">1.637</OutsideDiameter>
-			<ShoulderDiameter Unit="in">1.595</ShoulderDiameter>
+			<ShoulderDiameter Unit="in">1.592</ShoulderDiameter>
 			<ShoulderLength Unit="in">0.750</ShoulderLength>
 			<Length Unit="in">2.500</Length>
 		</NoseCone>
@@ -2421,7 +2431,7 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>OGIVE</Shape>
 			<OutsideDiameter Unit="in">2.217</OutsideDiameter>
-			<ShoulderDiameter Unit="in">2.180</ShoulderDiameter>
+			<ShoulderDiameter Unit="in">2.172</ShoulderDiameter>
 			<ShoulderLength Unit="in">1.000</ShoulderLength>
 			<Length Unit="in">4.500</Length>
 		</NoseCone>
@@ -2433,7 +2443,7 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>ELLIPSOID</Shape>
 			<OutsideDiameter Unit="in">2.217</OutsideDiameter>
-			<ShoulderDiameter Unit="in">2.180</ShoulderDiameter>
+			<ShoulderDiameter Unit="in">2.172</ShoulderDiameter>
 			<ShoulderLength Unit="in">1.000</ShoulderLength>
 			<Length Unit="in">3.350</Length>
 		</NoseCone>
@@ -2445,7 +2455,7 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>ELLIPSOID</Shape>
 			<OutsideDiameter Unit="in">2.245</OutsideDiameter>
-			<ShoulderDiameter Unit="in">2.180</ShoulderDiameter>
+			<ShoulderDiameter Unit="in">2.172</ShoulderDiameter>
 			<ShoulderLength Unit="in">1.000</ShoulderLength>
 			<Length Unit="in">3.350</Length>
 		</NoseCone>
@@ -2457,7 +2467,7 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>ELLIPSOID</Shape>
 			<OutsideDiameter Unit="in">2.245</OutsideDiameter>
-			<ShoulderDiameter Unit="in">2.180</ShoulderDiameter>
+			<ShoulderDiameter Unit="in">2.172</ShoulderDiameter>
 			<ShoulderLength Unit="in">1.000</ShoulderLength>
 			<Length Unit="in">2.150</Length>
 		</NoseCone>
@@ -2469,7 +2479,7 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>OGIVE</Shape>
 			<OutsideDiameter Unit="in">2.245</OutsideDiameter>
-			<ShoulderDiameter Unit="in">2.180</ShoulderDiameter>
+			<ShoulderDiameter Unit="in">2.172</ShoulderDiameter>
 			<ShoulderLength Unit="in">1.000</ShoulderLength>
 			<Length Unit="in">4.200</Length>
 		</NoseCone>
@@ -2481,7 +2491,7 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>OGIVE</Shape>
 			<OutsideDiameter Unit="in">2.245</OutsideDiameter>
-			<ShoulderDiameter Unit="in">2.180</ShoulderDiameter>
+			<ShoulderDiameter Unit="in">2.172</ShoulderDiameter>
 			<ShoulderLength Unit="in">1.000</ShoulderLength>
 			<Length Unit="in">7.000</Length>
 		</NoseCone>
@@ -2493,7 +2503,7 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>OGIVE</Shape>
 			<OutsideDiameter Unit="in">2.245</OutsideDiameter>
-			<ShoulderDiameter Unit="in">2.180</ShoulderDiameter>
+			<ShoulderDiameter Unit="in">2.172</ShoulderDiameter>
 			<ShoulderLength Unit="in">1.000</ShoulderLength>
 			<Length Unit="in">7.000</Length>
 		</NoseCone>
@@ -2517,7 +2527,7 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>ELLIPSOID</Shape>
 			<OutsideDiameter Unit="in">2.600</OutsideDiameter>
-			<ShoulderDiameter Unit="in">2.588</ShoulderDiameter>
+			<ShoulderDiameter Unit="in">2.557</ShoulderDiameter>
 			<ShoulderLength Unit="in">1.500</ShoulderLength>
 			<Length Unit="in">4.000</Length>
 		</NoseCone>
@@ -2529,7 +2539,7 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>ELLIPSOID</Shape>
 			<OutsideDiameter Unit="in">2.640</OutsideDiameter>
-			<ShoulderDiameter Unit="in">2.588</ShoulderDiameter>
+			<ShoulderDiameter Unit="in">2.557</ShoulderDiameter>
 			<ShoulderLength Unit="in">1.500</ShoulderLength>
 			<Length Unit="in">4.000</Length>
 		</NoseCone>
@@ -2541,7 +2551,7 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>OGIVE</Shape>
 			<OutsideDiameter Unit="in">2.600</OutsideDiameter>
-			<ShoulderDiameter Unit="in">2.588</ShoulderDiameter>
+			<ShoulderDiameter Unit="in">2.557</ShoulderDiameter>
 			<ShoulderLength Unit="in">1.500</ShoulderLength>
 			<Length Unit="in">8.250</Length>
 		</NoseCone>
@@ -2553,11 +2563,10 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>OGIVE</Shape>
 			<OutsideDiameter Unit="in">2.640</OutsideDiameter>
-			<ShoulderDiameter Unit="in">2.588</ShoulderDiameter>
+			<ShoulderDiameter Unit="in">2.557</ShoulderDiameter>
 			<ShoulderLength Unit="in">1.500</ShoulderLength>
 			<Length Unit="in">8.250</Length>
 		</NoseCone>
-		<!-- BNC8O41 shoulder length not specified -->
 		<NoseCone>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>BNC8O41</PartNumber>
@@ -2566,11 +2575,10 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>OGIVE</Shape>
 			<OutsideDiameter Unit="in">0.908</OutsideDiameter>
-			<ShoulderDiameter Unit="in">0.865</ShoulderDiameter>
-			<ShoulderLength Unit="in">1.000</ShoulderLength>
+			<ShoulderDiameter Unit="in">0.862</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.500</ShoulderLength>
 			<Length Unit="in">3.500</Length>
 		</NoseCone>
-		<!-- BNC300BB shoulder length not specified -->
 		<NoseCone>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>BNC300BB</PartNumber>
@@ -2579,11 +2587,10 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>ELLIPSOID</Shape>
 			<OutsideDiameter Unit="in">3.000</OutsideDiameter>
-			<ShoulderDiameter Unit="in">2.930</ShoulderDiameter>
-			<ShoulderLength Unit="in">1.000</ShoulderLength>
+			<ShoulderDiameter Unit="in">2.927</ShoulderDiameter>
+			<ShoulderLength Unit="in">1.500</ShoulderLength>
 			<Length Unit="in">4.300</Length>
 		</NoseCone>
-		<!-- PNC300K shoulder length not specified -->
 		<NoseCone>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>PNC300K</PartNumber>
@@ -2592,8 +2599,8 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>OGIVE</Shape>
 			<OutsideDiameter Unit="in">3.000</OutsideDiameter>
-			<ShoulderDiameter Unit="in">2.930</ShoulderDiameter>
-			<ShoulderLength Unit="in">1.000</ShoulderLength>
+			<ShoulderDiameter Unit="in">2.927</ShoulderDiameter>
+			<ShoulderLength Unit="in">3.000</ShoulderLength>
 			<Length Unit="in">11.000</Length>
 		</NoseCone>
 		<NoseCone>
@@ -2605,10 +2612,9 @@ Using this file:
 			<Shape>OGIVE</Shape>
 			<OutsideDiameter Unit="in">1.325</OutsideDiameter>
 			<ShoulderDiameter Unit="in">1.283</ShoulderDiameter>
-			<ShoulderLength Unit="in">0.900</ShoulderLength>
+			<ShoulderLength Unit="in">0.750</ShoulderLength>
 			<Length Unit="in">4.15</Length>
 		</NoseCone>
-		<!-- shoulder length not specified for BTC55Z -->
 		<Transition>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>BTC55Z</PartNumber>
@@ -2621,7 +2627,7 @@ Using this file:
 			<ForeShoulderLength Unit="in">0.5</ForeShoulderLength>
 			<AftOutsideDiameter Unit="in">0.5</AftOutsideDiameter>
 			<AftShoulderDiameter Unit="in">0.000</AftShoulderDiameter>
-			<AftShoulderLength Unit="in">0.800</AftShoulderLength>
+			<AftShoulderLength Unit="in">0.000</AftShoulderLength>
 			<Length Unit="in">3.000</Length>
 		</Transition>
 		<!-- BSPEJ no shape parameter -->
@@ -2637,7 +2643,6 @@ Using this file:
 			<ShoulderLength Unit="in">0.500</ShoulderLength>
 			<Length Unit="in">5.250</Length>
 		</NoseCone>
-		<!-- CENBC79 shoulder length not specified -->
 		<NoseCone>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>CENBC79</PartNumber>
@@ -2651,7 +2656,6 @@ Using this file:
 			<Length Unit="in">2.600</Length>
 		</NoseCone>
 		<!-- CENBC86 is an Honest John nose which is to complex for OR -->
-		<!-- CENBC86 shoulder length not specified -->
 		<NoseCone>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>CENBC89</PartNumber>
@@ -2672,7 +2676,7 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>ELLIPSOID</Shape>
 			<ForeOutsideDiameter Unit="in">1.685</ForeOutsideDiameter>
-			<ForeShoulderDiameter Unit="in">1.595</ForeShoulderDiameter>
+			<ForeShoulderDiameter Unit="in">1.592</ForeShoulderDiameter>
 			<ForeShoulderLength Unit="in">0.5</ForeShoulderLength>
 			<AftOutsideDiameter Unit="in">0.800</AftOutsideDiameter>
 			<AftShoulderDiameter Unit="in">0.000</AftShoulderDiameter>
@@ -2700,7 +2704,7 @@ Using this file:
 			<Shape>ELLIPSOID</Shape>
 			<OutsideDiameter Unit="in">1.673</OutsideDiameter>
 			<ShoulderDiameter Unit="in">1.590</ShoulderDiameter>
-			<ShoulderLength Unit="in">0.500</ShoulderLength>
+			<ShoulderLength Unit="in">0.750</ShoulderLength>
 			<Length Unit="in">1.000</Length>
 		</NoseCone>
 		<BulkHead>
@@ -2783,10 +2787,10 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
 			<ForeOutsideDiameter Unit="in">0.736</ForeOutsideDiameter>
-			<ForeShoulderDiameter Unit="in">0.710</ForeShoulderDiameter>
+			<ForeShoulderDiameter Unit="in">0.707</ForeShoulderDiameter>
 			<ForeShoulderLength Unit="in">0.5</ForeShoulderLength>
 			<AftOutsideDiameter Unit="in">0.976</AftOutsideDiameter>
-			<AftShoulderDiameter Unit="in">0.950</AftShoulderDiameter>
+			<AftShoulderDiameter Unit="in">0.947</AftShoulderDiameter>
 			<AftShoulderLength Unit="in">0.500</AftShoulderLength>
 			<Length Unit="in">2.000</Length>
 		</Transition>
@@ -2797,13 +2801,28 @@ Using this file:
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
-			<ForeOutsideDiameter Unit="in">0.736</ForeOutsideDiameter>
-			<ForeShoulderDiameter Unit="in">0.710</ForeShoulderDiameter>
+			<ForeOutsideDiameter Unit="in">0.976</ForeOutsideDiameter>
+			<ForeShoulderDiameter Unit="in">0.947</ForeShoulderDiameter>
 			<ForeShoulderLength Unit="in">0.5</ForeShoulderLength>
-			<AftOutsideDiameter Unit="in">0.976</AftOutsideDiameter>
-			<AftShoulderDiameter Unit="in">0.950</AftShoulderDiameter>
+			<AftOutsideDiameter Unit="in">0.736</AftOutsideDiameter>
+			<AftShoulderDiameter Unit="in">0.707</AftShoulderDiameter>
 			<AftShoulderLength Unit="in">0.500</AftShoulderLength>
 			<Length Unit="in">2.000</Length>
+		</Transition>
+		<Transition>
+			<Manufacturer>BalsaMachining</Manufacturer>
+			<PartNumber>TA2050A</PartNumber>
+			<Description>Transition T20 to T50 2 in long, PN TA2050A</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>CONICAL</Shape>
+			<ForeOutsideDiameter Unit="in">0.736</ForeOutsideDiameter>
+			<ForeShoulderDiameter Unit="in">0.736</ForeShoulderDiameter>
+			<ForeShoulderLength Unit="in">0.500</ForeShoulderLength>
+			<AftOutsideDiameter Unit="in">0.976</AftOutsideDiameter>
+			<AftShoulderDiameter Unit="in">0.947</AftShoulderDiameter>
+			<AftShoulderLength Unit="in">0.5</AftShoulderLength>
+			<Length Unit="in">1.000</Length>
 		</Transition>
 		<Transition>
 			<Manufacturer>BalsaMachining</Manufacturer>
@@ -2813,14 +2832,13 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
 			<ForeOutsideDiameter Unit="in">0.976</ForeOutsideDiameter>
-			<ForeShoulderDiameter Unit="in">0.950</ForeShoulderDiameter>
+			<ForeShoulderDiameter Unit="in">0.947</ForeShoulderDiameter>
 			<ForeShoulderLength Unit="in">0.500</ForeShoulderLength>
 			<AftOutsideDiameter Unit="in">0.736</AftOutsideDiameter>
-			<AftShoulderDiameter Unit="in">0.710</AftShoulderDiameter>
+			<AftShoulderDiameter Unit="in">0.707</AftShoulderDiameter>
 			<AftShoulderLength Unit="in">0.5</AftShoulderLength>
 			<Length Unit="in">1.000</Length>
 		</Transition>
-		<!-- TA2055 NO dimentions specified -->
 		<Transition>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>TA2055</PartNumber>
@@ -2829,11 +2847,11 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
 			<ForeOutsideDiameter Unit="in">0.736</ForeOutsideDiameter>
-			<ForeShoulderDiameter Unit="in">0.710</ForeShoulderDiameter>
+			<ForeShoulderDiameter Unit="in">0.707</ForeShoulderDiameter>
 			<ForeShoulderLength Unit="in">0.5</ForeShoulderLength>
 			<AftOutsideDiameter Unit="in">1.325</AftOutsideDiameter>
 			<AftShoulderDiameter Unit="in">1.283</AftShoulderDiameter>
-			<AftShoulderLength Unit="in">0.500</AftShoulderLength>
+			<AftShoulderLength Unit="in">0.7500</AftShoulderLength>
 			<Length Unit="in">2.000</Length>
 		</Transition>
 		<Transition>
@@ -2845,9 +2863,9 @@ Using this file:
 			<Shape>CONICAL</Shape>
 			<ForeOutsideDiameter Unit="in">1.325</ForeOutsideDiameter>
 			<ForeShoulderDiameter Unit="in">1.283</ForeShoulderDiameter>
-			<ForeShoulderLength Unit="in">0.500</ForeShoulderLength>
+			<ForeShoulderLength Unit="in">0.7500</ForeShoulderLength>
 			<AftOutsideDiameter Unit="in">0.736</AftOutsideDiameter>
-			<AftShoulderDiameter Unit="in">0.710</AftShoulderDiameter>
+			<AftShoulderDiameter Unit="in">0.707</AftShoulderDiameter>
 			<AftShoulderLength Unit="in">0.5</AftShoulderLength>
 			<Length Unit="in">2.000</Length>
 		</Transition>
@@ -2860,11 +2878,11 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
 			<ForeOutsideDiameter Unit="in">0.736</ForeOutsideDiameter>
-			<ForeShoulderDiameter Unit="in">0.710</ForeShoulderDiameter>
-			<ForeShoulderLength Unit="in">0.5</ForeShoulderLength>
+			<ForeShoulderDiameter Unit="in">0.707</ForeShoulderDiameter>
+			<ForeShoulderLength Unit="in">0.750</ForeShoulderLength>
 			<AftOutsideDiameter Unit="in">1.637</AftOutsideDiameter>
-			<AftShoulderDiameter Unit="in">1.595</AftShoulderDiameter>
-			<AftShoulderLength Unit="in">0.500</AftShoulderLength>
+			<AftShoulderDiameter Unit="in">1.592</AftShoulderDiameter>
+			<AftShoulderLength Unit="in">0.7500</AftShoulderLength>
 			<Length Unit="in">1.500</Length>
 		</Transition>
 		<Transition>
@@ -2875,11 +2893,11 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
 			<ForeOutsideDiameter Unit="in">1.637</ForeOutsideDiameter>
-			<ForeShoulderDiameter Unit="in">1.595</ForeShoulderDiameter>
-			<ForeShoulderLength Unit="in">0.5</ForeShoulderLength>
+			<ForeShoulderDiameter Unit="in">1.592</ForeShoulderDiameter>
+			<ForeShoulderLength Unit="in">0.750</ForeShoulderLength>
 			<AftOutsideDiameter Unit="in">0.736</AftOutsideDiameter>
-			<AftShoulderDiameter Unit="in">0.710</AftShoulderDiameter>
-			<AftShoulderLength Unit="in">0.500</AftShoulderLength>
+			<AftShoulderDiameter Unit="in">0.707</AftShoulderDiameter>
+			<AftShoulderLength Unit="in">0.7500</AftShoulderLength>
 			<Length Unit="in">1.500</Length>
 		</Transition>
 		<!-- TA2070 NO dimentions specified -->
@@ -2891,11 +2909,11 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
 			<ForeOutsideDiameter Unit="in">0.736</ForeOutsideDiameter>
-			<ForeShoulderDiameter Unit="in">0.710</ForeShoulderDiameter>
-			<ForeShoulderLength Unit="in">0.5</ForeShoulderLength>
+			<ForeShoulderDiameter Unit="in">0.707</ForeShoulderDiameter>
+			<ForeShoulderLength Unit="in">0.75</ForeShoulderLength>
 			<AftOutsideDiameter Unit="in">2.217</AftOutsideDiameter>
 			<AftShoulderDiameter Unit="in">2.175</AftShoulderDiameter>
-			<AftShoulderLength Unit="in">0.500</AftShoulderLength>
+			<AftShoulderLength Unit="in">1.500</AftShoulderLength>
 			<Length Unit="in">2.000</Length>
 		</Transition>
 		<Transition>
@@ -2907,10 +2925,10 @@ Using this file:
 			<Shape>CONICAL</Shape>
 			<ForeOutsideDiameter Unit="in">2.217</ForeOutsideDiameter>
 			<ForeShoulderDiameter Unit="in">2.175</ForeShoulderDiameter>
-			<ForeShoulderLength Unit="in">0.5</ForeShoulderLength>
+			<ForeShoulderLength Unit="in">1.5</ForeShoulderLength>
 			<AftOutsideDiameter Unit="in">0.736</AftOutsideDiameter>
-			<AftShoulderDiameter Unit="in">0.710</AftShoulderDiameter>
-			<AftShoulderLength Unit="in">0.500</AftShoulderLength>
+			<AftShoulderDiameter Unit="in">0.707</AftShoulderDiameter>
+			<AftShoulderLength Unit="in">0.7500</AftShoulderLength>
 			<Length Unit="in">2.000</Length>
 		</Transition>
 		<!-- TA5055 NO dimentions specified -->
@@ -2922,11 +2940,11 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
 			<ForeOutsideDiameter Unit="in">0.976</ForeOutsideDiameter>
-			<ForeShoulderDiameter Unit="in">0.950</ForeShoulderDiameter>
-			<ForeShoulderLength Unit="in">0.5</ForeShoulderLength>
+			<ForeShoulderDiameter Unit="in">0.947</ForeShoulderDiameter>
+			<ForeShoulderLength Unit="in">0.75</ForeShoulderLength>
 			<AftOutsideDiameter Unit="in">1.325</AftOutsideDiameter>
 			<AftShoulderDiameter Unit="in">1.283</AftShoulderDiameter>
-			<AftShoulderLength Unit="in">0.500</AftShoulderLength>
+			<AftShoulderLength Unit="in">0.870</AftShoulderLength>
 			<Length Unit="in">1.000</Length>
 		</Transition>
 		<Transition>
@@ -2938,13 +2956,12 @@ Using this file:
 			<Shape>CONICAL</Shape>
 			<ForeOutsideDiameter Unit="in">1.325</ForeOutsideDiameter>
 			<ForeShoulderDiameter Unit="in">1.283</ForeShoulderDiameter>
-			<ForeShoulderLength Unit="in">0.5</ForeShoulderLength>
+			<ForeShoulderLength Unit="in">0.870</ForeShoulderLength>
 			<AftOutsideDiameter Unit="in">0.976</AftOutsideDiameter>
-			<AftShoulderDiameter Unit="in">0.950</AftShoulderDiameter>
-			<AftShoulderLength Unit="in">0.500</AftShoulderLength>
+			<AftShoulderDiameter Unit="in">0.947</AftShoulderDiameter>
+			<AftShoulderLength Unit="in">0.750</AftShoulderLength>
 			<Length Unit="in">1.000</Length>
 		</Transition>
-		<!-- TA5055L NO dimentions specified -->
 		<Transition>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>TA5055L</PartNumber>
@@ -2953,11 +2970,11 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
 			<ForeOutsideDiameter Unit="in">0.976</ForeOutsideDiameter>
-			<ForeShoulderDiameter Unit="in">0.950</ForeShoulderDiameter>
-			<ForeShoulderLength Unit="in">0.5</ForeShoulderLength>
+			<ForeShoulderDiameter Unit="in">0.947</ForeShoulderDiameter>
+			<ForeShoulderLength Unit="in">0.620</ForeShoulderLength>
 			<AftOutsideDiameter Unit="in">1.325</AftOutsideDiameter>
 			<AftShoulderDiameter Unit="in">1.283</AftShoulderDiameter>
-			<AftShoulderLength Unit="in">0.500</AftShoulderLength>
+			<AftShoulderLength Unit="in">0.7500</AftShoulderLength>
 			<Length Unit="in">1.500</Length>
 		</Transition>
 		<Transition>
@@ -2969,10 +2986,10 @@ Using this file:
 			<Shape>CONICAL</Shape>
 			<ForeOutsideDiameter Unit="in">1.325</ForeOutsideDiameter>
 			<ForeShoulderDiameter Unit="in">1.283</ForeShoulderDiameter>
-			<ForeShoulderLength Unit="in">0.5</ForeShoulderLength>
+			<ForeShoulderLength Unit="in">0.750</ForeShoulderLength>
 			<AftOutsideDiameter Unit="in">0.976</AftOutsideDiameter>
 			<AftShoulderDiameter Unit="in">0.950</AftShoulderDiameter>
-			<AftShoulderLength Unit="in">0.500</AftShoulderLength>
+			<AftShoulderLength Unit="in">0.620</AftShoulderLength>
 			<Length Unit="in">1.500</Length>
 		</Transition>
 		<Transition>
@@ -2983,10 +3000,10 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
 			<ForeOutsideDiameter Unit="in">0.976</ForeOutsideDiameter>
-			<ForeShoulderDiameter Unit="in">0.950</ForeShoulderDiameter>
+			<ForeShoulderDiameter Unit="in">0.947</ForeShoulderDiameter>
 			<ForeShoulderLength Unit="in">0.75</ForeShoulderLength>
 			<AftOutsideDiameter Unit="in">1.637</AftOutsideDiameter>
-			<AftShoulderDiameter Unit="in">1.595</AftShoulderDiameter>
+			<AftShoulderDiameter Unit="in">1.592</AftShoulderDiameter>
 			<AftShoulderLength Unit="in">1.000</AftShoulderLength>
 			<Length Unit="in">2.000</Length>
 		</Transition>
@@ -2998,10 +3015,10 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
 			<ForeOutsideDiameter Unit="in">1.637</ForeOutsideDiameter>
-			<ForeShoulderDiameter Unit="in">1.595</ForeShoulderDiameter>
+			<ForeShoulderDiameter Unit="in">1.592</ForeShoulderDiameter>
 			<ForeShoulderLength Unit="in">1.000</ForeShoulderLength>
 			<AftOutsideDiameter Unit="in">0.976</AftOutsideDiameter>
-			<AftShoulderDiameter Unit="in">0.950</AftShoulderDiameter>
+			<AftShoulderDiameter Unit="in">0.947</AftShoulderDiameter>
 			<AftShoulderLength Unit="in">0.75</AftShoulderLength>
 			<Length Unit="in">2.000</Length>
 		</Transition>
@@ -3013,11 +3030,11 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
 			<ForeOutsideDiameter Unit="in">0.976</ForeOutsideDiameter>
-			<ForeShoulderDiameter Unit="in">0.950</ForeShoulderDiameter>
-			<ForeShoulderLength Unit="in">0.75</ForeShoulderLength>
+			<ForeShoulderDiameter Unit="in">0.947</ForeShoulderDiameter>
+			<ForeShoulderLength Unit="in">1.000</ForeShoulderLength>
 			<AftOutsideDiameter Unit="in">1.637</AftOutsideDiameter>
-			<AftShoulderDiameter Unit="in">1.595</AftShoulderDiameter>
-			<AftShoulderLength Unit="in">0.7500</AftShoulderLength>
+			<AftShoulderDiameter Unit="in">1.592</AftShoulderDiameter>
+			<AftShoulderLength Unit="in">0.750</AftShoulderLength>
 			<Length Unit="in">3.750</Length>
 		</Transition>
 		<Transition>
@@ -3028,11 +3045,11 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
 			<ForeOutsideDiameter Unit="in">1.637</ForeOutsideDiameter>
-			<ForeShoulderDiameter Unit="in">1.595</ForeShoulderDiameter>
-			<ForeShoulderLength Unit="in">0.75</ForeShoulderLength>
+			<ForeShoulderDiameter Unit="in">1.592</ForeShoulderDiameter>
+			<ForeShoulderLength Unit="in">0.750</ForeShoulderLength>
 			<AftOutsideDiameter Unit="in">0.976</AftOutsideDiameter>
-			<AftShoulderDiameter Unit="in">0.950</AftShoulderDiameter>
-			<AftShoulderLength Unit="in">0.7500</AftShoulderLength>
+			<AftShoulderDiameter Unit="in">0.947</AftShoulderDiameter>
+			<AftShoulderLength Unit="in">1.000</AftShoulderLength>
 			<Length Unit="in">3.750</Length>
 		</Transition>
 		<!-- TA520 missing parameters -->
@@ -3044,10 +3061,10 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
 			<ForeOutsideDiameter Unit="in">0.541</ForeOutsideDiameter>
-			<ForeShoulderDiameter Unit="in">0.515</ForeShoulderDiameter>
+			<ForeShoulderDiameter Unit="in">0.512</ForeShoulderDiameter>
 			<ForeShoulderLength Unit="in">0.500</ForeShoulderLength>
 			<AftOutsideDiameter Unit="in">0.736</AftOutsideDiameter>
-			<AftShoulderDiameter Unit="in">0.710</AftShoulderDiameter>
+			<AftShoulderDiameter Unit="in">0.707</AftShoulderDiameter>
 			<AftShoulderLength Unit="in">0.500</AftShoulderLength>
 			<Length Unit="in">0.78</Length>
 		</Transition>
@@ -3059,10 +3076,10 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
 			<ForeOutsideDiameter Unit="in">0.736</ForeOutsideDiameter>
-			<ForeShoulderDiameter Unit="in">0.710</ForeShoulderDiameter>
+			<ForeShoulderDiameter Unit="in">0.707</ForeShoulderDiameter>
 			<ForeShoulderLength Unit="in">0.500</ForeShoulderLength>
 			<AftOutsideDiameter Unit="in">0.541</AftOutsideDiameter>
-			<AftShoulderDiameter Unit="in">0.515</AftShoulderDiameter>
+			<AftShoulderDiameter Unit="in">0.512</AftShoulderDiameter>
 			<AftShoulderLength Unit="in">0.500</AftShoulderLength>
 			<Length Unit="in">0.78</Length>
 		</Transition>
@@ -3078,7 +3095,7 @@ Using this file:
 			<ForeShoulderDiameter Unit="in">1.000</ForeShoulderDiameter>
 			<ForeShoulderLength Unit="in">0.750</ForeShoulderLength>
 			<AftOutsideDiameter Unit="in">1.637</AftOutsideDiameter>
-			<AftShoulderDiameter Unit="in">1.595</AftShoulderDiameter>
+			<AftShoulderDiameter Unit="in">1.592</AftShoulderDiameter>
 			<AftShoulderLength Unit="in">0.750</AftShoulderLength>
 			<Length Unit="in">3.75</Length>
 		</Transition>
@@ -3090,7 +3107,7 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
 			<ForeOutsideDiameter Unit="in">1.637</ForeOutsideDiameter>
-			<ForeShoulderDiameter Unit="in">1.595</ForeShoulderDiameter>
+			<ForeShoulderDiameter Unit="in">1.592</ForeShoulderDiameter>
 			<ForeShoulderLength Unit="in">0.750</ForeShoulderLength>
 			<AftOutsideDiameter Unit="in">1.014</AftOutsideDiameter>
 			<AftShoulderDiameter Unit="in">1.000</AftShoulderDiameter>
@@ -3106,11 +3123,11 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
 			<ForeOutsideDiameter Unit="in">0.541</ForeOutsideDiameter>
-			<ForeShoulderDiameter Unit="in">0.515</ForeShoulderDiameter>
+			<ForeShoulderDiameter Unit="in">0.512</ForeShoulderDiameter>
 			<ForeShoulderLength Unit="in">0.500</ForeShoulderLength>
 			<AftOutsideDiameter Unit="in">0.976</AftOutsideDiameter>
-			<AftShoulderDiameter Unit="in">0.950</AftShoulderDiameter>
-			<AftShoulderLength Unit="in">0.500</AftShoulderLength>
+			<AftShoulderDiameter Unit="in">0.947</AftShoulderDiameter>
+			<AftShoulderLength Unit="in">0.620</AftShoulderLength>
 			<Length Unit="in">1.000</Length>
 		</Transition>
 		<Transition>
@@ -3121,14 +3138,13 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
 			<ForeOutsideDiameter Unit="in">0.976</ForeOutsideDiameter>
-			<ForeShoulderDiameter Unit="in">0.950</ForeShoulderDiameter>
-			<ForeShoulderLength Unit="in">0.500</ForeShoulderLength>
+			<ForeShoulderDiameter Unit="in">0.947</ForeShoulderDiameter>
+			<ForeShoulderLength Unit="in">0.620</ForeShoulderLength>
 			<AftOutsideDiameter Unit="in">0.541</AftOutsideDiameter>
-			<AftShoulderDiameter Unit="in">0.515</AftShoulderDiameter>
+			<AftShoulderDiameter Unit="in">0.512</AftShoulderDiameter>
 			<AftShoulderLength Unit="in">0.500</AftShoulderLength>
 			<Length Unit="in">1.000</Length>
 		</Transition>
-		<!-- TA555 missing parameters -->
 		<Transition>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>TA555</PartNumber>
@@ -3137,7 +3153,7 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
 			<ForeOutsideDiameter Unit="in">0.541</ForeOutsideDiameter>
-			<ForeShoulderDiameter Unit="in">0.515</ForeShoulderDiameter>
+			<ForeShoulderDiameter Unit="in">0.512</ForeShoulderDiameter>
 			<ForeShoulderLength Unit="in">0.750</ForeShoulderLength>
 			<AftOutsideDiameter Unit="in">1.325</AftOutsideDiameter>
 			<AftShoulderDiameter Unit="in">1.283</AftShoulderDiameter>
@@ -3155,11 +3171,10 @@ Using this file:
 			<ForeShoulderDiameter Unit="in">1.283</ForeShoulderDiameter>
 			<ForeShoulderLength Unit="in">0.750</ForeShoulderLength>
 			<AftOutsideDiameter Unit="in">0.541</AftOutsideDiameter>
-			<AftShoulderDiameter Unit="in">0.515</AftShoulderDiameter>
+			<AftShoulderDiameter Unit="in">0.512</AftShoulderDiameter>
 			<AftShoulderLength Unit="in">0.750</AftShoulderLength>
 			<Length Unit="in">2.750</Length>
 		</Transition>
-		<!-- TA5560 missing parameters -->
 		<Transition>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>TA5560</PartNumber>
@@ -3168,10 +3183,10 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
 			<ForeOutsideDiameter Unit="in">1.325</ForeOutsideDiameter>
-			<ForeShoulderDiameter Unit="in">1.280</ForeShoulderDiameter>
-			<ForeShoulderLength Unit="in">1.000</ForeShoulderLength>
+			<ForeShoulderDiameter Unit="in">1.283</ForeShoulderDiameter>
+			<ForeShoulderLength Unit="in">0.820</ForeShoulderLength>
 			<AftOutsideDiameter Unit="in">1.637</AftOutsideDiameter>
-			<AftShoulderDiameter Unit="in">1.595</AftShoulderDiameter>
+			<AftShoulderDiameter Unit="in">1.592</AftShoulderDiameter>
 			<AftShoulderLength Unit="in">1.000</AftShoulderLength>
 			<Length Unit="in">1.000</Length>
 		</Transition>
@@ -3183,14 +3198,13 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
 			<ForeOutsideDiameter Unit="in">1.637</ForeOutsideDiameter>
-			<ForeShoulderDiameter Unit="in">1.595</ForeShoulderDiameter>
+			<ForeShoulderDiameter Unit="in">1.592</ForeShoulderDiameter>
 			<ForeShoulderLength Unit="in">1.000</ForeShoulderLength>
 			<AftOutsideDiameter Unit="in">1.325</AftOutsideDiameter>
-			<AftShoulderDiameter Unit="in">1.280</AftShoulderDiameter>
-			<AftShoulderLength Unit="in">1.000</AftShoulderLength>
+			<AftShoulderDiameter Unit="in">1.283</AftShoulderDiameter>
+			<AftShoulderLength Unit="in">0.820</AftShoulderLength>
 			<Length Unit="in">1.000</Length>
 		</Transition>
-		<!-- TA5560A missing parameters, says both 1.3" and 1.25" long -->
 		<Transition>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>TA5560A</PartNumber>
@@ -3199,10 +3213,10 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
 			<ForeOutsideDiameter Unit="in">1.325</ForeOutsideDiameter>
-			<ForeShoulderDiameter Unit="in">1.280</ForeShoulderDiameter>
-			<ForeShoulderLength Unit="in">0.750</ForeShoulderLength>
+			<ForeShoulderDiameter Unit="in">1.283</ForeShoulderDiameter>
+			<ForeShoulderLength Unit="in">0.820</ForeShoulderLength>
 			<AftOutsideDiameter Unit="in">1.637</AftOutsideDiameter>
-			<AftShoulderDiameter Unit="in">1.595</AftShoulderDiameter>
+			<AftShoulderDiameter Unit="in">1.592</AftShoulderDiameter>
 			<AftShoulderLength Unit="in">0.750</AftShoulderLength>
 			<Length Unit="in">1.300</Length>
 		</Transition>
@@ -3214,11 +3228,11 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
 			<ForeOutsideDiameter Unit="in">1.637</ForeOutsideDiameter>
-			<ForeShoulderDiameter Unit="in">1.595</ForeShoulderDiameter>
+			<ForeShoulderDiameter Unit="in">1.592</ForeShoulderDiameter>
 			<ForeShoulderLength Unit="in">0.750</ForeShoulderLength>
 			<AftOutsideDiameter Unit="in">1.325</AftOutsideDiameter>
-			<AftShoulderDiameter Unit="in">1.280</AftShoulderDiameter>
-			<AftShoulderLength Unit="in">0.750</AftShoulderLength>
+			<AftShoulderDiameter Unit="in">1.283</AftShoulderDiameter>
+			<AftShoulderLength Unit="in">0.820</AftShoulderLength>
 			<Length Unit="in">1.300</Length>
 		</Transition>
 		<Transition>
@@ -3229,8 +3243,8 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
 			<ForeOutsideDiameter Unit="in">1.637</ForeOutsideDiameter>
-			<ForeShoulderDiameter Unit="in">1.595</ForeShoulderDiameter>
-			<ForeShoulderLength Unit="in">0.500</ForeShoulderLength>
+			<ForeShoulderDiameter Unit="in">1.592</ForeShoulderDiameter>
+			<ForeShoulderLength Unit="in">1.500</ForeShoulderLength>
 			<AftOutsideDiameter Unit="in">2.217</AftOutsideDiameter>
 			<AftShoulderDiameter Unit="in">2.175</AftShoulderDiameter>
 			<AftShoulderLength Unit="in">0.750</AftShoulderLength>
@@ -3247,11 +3261,10 @@ Using this file:
 			<ForeShoulderDiameter Unit="in">2.175</ForeShoulderDiameter>
 			<ForeShoulderLength Unit="in">0.750</ForeShoulderLength>
 			<AftOutsideDiameter Unit="in">1.637</AftOutsideDiameter>
-			<AftShoulderDiameter Unit="in">1.595</AftShoulderDiameter>
+			<AftShoulderDiameter Unit="in">1.592</AftShoulderDiameter>
 			<AftShoulderLength Unit="in">0.500</AftShoulderLength>
 			<Length Unit="in">1.500</Length>
 		</Transition>
-		<!-- TA6080 missing parameters-->
 		<Transition>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>TA6080</PartNumber>
@@ -3260,7 +3273,7 @@ Using this file:
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
 			<ForeOutsideDiameter Unit="in">1.637</ForeOutsideDiameter>
-			<ForeShoulderDiameter Unit="in">1.595</ForeShoulderDiameter>
+			<ForeShoulderDiameter Unit="in">1.592</ForeShoulderDiameter>
 			<ForeShoulderLength Unit="in">1.250</ForeShoulderLength>
 			<AftOutsideDiameter Unit="in">2.600</AftOutsideDiameter>
 			<AftShoulderDiameter Unit="in">2.560</AftShoulderDiameter>
@@ -3278,7 +3291,7 @@ Using this file:
 			<ForeShoulderDiameter Unit="in">2.560</ForeShoulderDiameter>
 			<ForeShoulderLength Unit="in">1.500</ForeShoulderLength>
 			<AftOutsideDiameter Unit="in">1.637</AftOutsideDiameter>
-			<AftShoulderDiameter Unit="in">1.595</AftShoulderDiameter>
+			<AftShoulderDiameter Unit="in">1.592</AftShoulderDiameter>
 			<AftShoulderLength Unit="in">1.250</AftShoulderLength>
 			<Length Unit="in">2.250</Length>
 		</Transition>
@@ -3292,10 +3305,10 @@ Using this file:
 			<Shape>CONICAL</Shape>
 			<ForeOutsideDiameter Unit="in">2.217</ForeOutsideDiameter>
 			<ForeShoulderDiameter Unit="in">2.175</ForeShoulderDiameter>
-			<ForeShoulderLength Unit="in">1.400</ForeShoulderLength>
+			<ForeShoulderLength Unit="in">1.250</ForeShoulderLength>
 			<AftOutsideDiameter Unit="in">2.600</AftOutsideDiameter>
 			<AftShoulderDiameter Unit="in">2.560</AftShoulderDiameter>
-			<AftShoulderLength Unit="in">1.400</AftShoulderLength>
+			<AftShoulderLength Unit="in">1.620</AftShoulderLength>
 			<Length Unit="in">2.000</Length>
 		</Transition>
 		<Transition>
@@ -3307,13 +3320,12 @@ Using this file:
 			<Shape>CONICAL</Shape>
 			<ForeOutsideDiameter Unit="in">2.600</ForeOutsideDiameter>
 			<ForeShoulderDiameter Unit="in">2.560</ForeShoulderDiameter>
-			<ForeShoulderLength Unit="in">1.400</ForeShoulderLength>
+			<ForeShoulderLength Unit="in">1.620</ForeShoulderLength>
 			<AftOutsideDiameter Unit="in">2.217</AftOutsideDiameter>
 			<AftShoulderDiameter Unit="in">2.175</AftShoulderDiameter>
-			<AftShoulderLength Unit="in">1.400</AftShoulderLength>
+			<AftShoulderLength Unit="in">1.250</AftShoulderLength>
 			<Length Unit="in">2.000</Length>
 		</Transition>
-		<!-- TA70300 missing parameters-->
 		<Transition>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>TA70300</PartNumber>
@@ -3323,43 +3335,27 @@ Using this file:
 			<Shape>CONICAL</Shape>
 			<ForeOutsideDiameter Unit="in">2.217</ForeOutsideDiameter>
 			<ForeShoulderDiameter Unit="in">2.175</ForeShoulderDiameter>
-			<ForeShoulderLength Unit="in">0.750</ForeShoulderLength>
+			<ForeShoulderLength Unit="in">1.500</ForeShoulderLength>
 			<AftOutsideDiameter Unit="in">3.000</AftOutsideDiameter>
 			<AftShoulderDiameter Unit="in">2.930</AftShoulderDiameter>
-			<AftShoulderLength Unit="in">0.750</AftShoulderLength>
-			<Length Unit="in">2.500</Length>
-		</Transition>
-		<Transition>
-			<Manufacturer>BalsaMachining</Manufacturer>
-			<PartNumber>TA70300</PartNumber>
-			<Description>Transition (taper length=2.5 inch), PN TA70300</Description>
-			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
-			<Filled>true</Filled>
-			<Shape>CONICAL</Shape>
-			<ForeOutsideDiameter Unit="in">2.217</ForeOutsideDiameter>
-			<ForeShoulderDiameter Unit="in">2.175</ForeShoulderDiameter>
-			<ForeShoulderLength Unit="in">0.750</ForeShoulderLength>
-			<AftOutsideDiameter Unit="in">3.000</AftOutsideDiameter>
-			<AftShoulderDiameter Unit="in">2.930</AftShoulderDiameter>
-			<AftShoulderLength Unit="in">0.750</AftShoulderLength>
+			<AftShoulderLength Unit="in">1.500</AftShoulderLength>
 			<Length Unit="in">2.500</Length>
 		</Transition>
 		<Transition>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>TA70300[R]</PartNumber>
-			<Description>Reversed, Transition (taper length=2.5 inch), PN TA70300</Description>
+			<Description>Transition (taper length=2.5 inch), PN TA70300</Description>
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
 			<ForeOutsideDiameter Unit="in">3.000</ForeOutsideDiameter>
 			<ForeShoulderDiameter Unit="in">2.930</ForeShoulderDiameter>
-			<ForeShoulderLength Unit="in">0.750</ForeShoulderLength>
+			<ForeShoulderLength Unit="in">1.500</ForeShoulderLength>
 			<AftOutsideDiameter Unit="in">2.217</AftOutsideDiameter>
 			<AftShoulderDiameter Unit="in">2.175</AftShoulderDiameter>
-			<AftShoulderLength Unit="in">0.750</AftShoulderLength>
+			<AftShoulderLength Unit="in">1.500</AftShoulderLength>
 			<Length Unit="in">2.500</Length>
 		</Transition>
-		<!-- TA80300 missing parameters-->
 		<Transition>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>TA80300</PartNumber>
@@ -3369,10 +3365,10 @@ Using this file:
 			<Shape>CONICAL</Shape>
 			<ForeOutsideDiameter Unit="in">2.600</ForeOutsideDiameter>
 			<ForeShoulderDiameter Unit="in">2.560</ForeShoulderDiameter>
-			<ForeShoulderLength Unit="in">0.750</ForeShoulderLength>
+			<ForeShoulderLength Unit="in">1.500</ForeShoulderLength>
 			<AftOutsideDiameter Unit="in">3.000</AftOutsideDiameter>
 			<AftShoulderDiameter Unit="in">2.930</AftShoulderDiameter>
-			<AftShoulderLength Unit="in">0.750</AftShoulderLength>
+			<AftShoulderLength Unit="in">1.750</AftShoulderLength>
 			<Length Unit="in">2.500</Length>
 		</Transition>
 		<Transition>
@@ -3384,12 +3380,51 @@ Using this file:
 			<Shape>CONICAL</Shape>
 			<ForeOutsideDiameter Unit="in">3.000</ForeOutsideDiameter>
 			<ForeShoulderDiameter Unit="in">2.930</ForeShoulderDiameter>
-			<ForeShoulderLength Unit="in">0.750</ForeShoulderLength>
+			<ForeShoulderLength Unit="in">1.750</ForeShoulderLength>
 			<AftOutsideDiameter Unit="in">2.600</AftOutsideDiameter>
 			<AftShoulderDiameter Unit="in">2.560</AftShoulderDiameter>
-			<AftShoulderLength Unit="in">0.750</AftShoulderLength>
+			<AftShoulderLength Unit="in">1.500</AftShoulderLength>
 			<Length Unit="in">2.500</Length>
 		</Transition>
+<!-- implemented in OR 22.02 beta 5, need more info from BMS-->
+<!--
+		<RailButton>
+			<Manufacturer>BalsaMachining</Manufacturer>
+			<PartNumber>SNRB</PartNumber>
+			<Description>ONE small white delrin rail button	0.375diamx0.3 high with 8-32x1/2 screw</Description>
+			<Material Type="BULK">Delrin</Material>
+			<Finish>Polished</Finish>
+			<OuterDiameter Unit="in">0.375</OuterDiameter>
+			<InnerDiameter Unit="in">0.250</InnerDiameter>
+			<Height Unit="in">0.300</Height>
+			<BaseHeight Unit="in">0.050</BaseHeight>
+			<FlangeHeight Unit="in">0.125</FlangeHeight>
+			<ScrewHeight Unit="in">0.050</ScrewHeight>
+			<DragCoefficient></DragCoefficient>		
+			<Mass Unit="g">0</Mass>		
+			<ScrewMass Unit="g"></ScrewMass>		
+			<NutMass Unit="g"></NutMass>		
+		</RailButton>
+		
+		<RailButton>
+			<Manufacturer>BalsaMachining</Manufacturer>
+			<PartNumber>LNRB</PartNumber>
+			<Description>ONE LARGE white delrin rail button	0.5diamx0.565 high with 10-24x0.870 screw</Description>
+			<Material Type="BULK">Delrin</Material>
+			<Finish>Polished</Finish>
+			<OuterDiameter Unit="in">0.500</OuterDiameter>
+			<InnerDiameter Unit="in">0.250</InnerDiameter>
+			<Height Unit="in">0.565</Height>
+			<BaseHeight Unit="in">0.050</BaseHeight>
+			<FlangeHeight Unit="in">0.125</FlangeHeight>
+			<ScrewHeight Unit="in">0.050</ScrewHeight>
+			<DragCoefficient></DragCoefficient>		
+			<Mass Unit="g"></Mass>		
+			<ScrewMass Unit="g"></ScrewMass>		
+			<NutMass Unit="g"></NutMass>		
+		</RailButton>
+-->			
+
 	</Components>
 </OpenRocketComponent>
 
