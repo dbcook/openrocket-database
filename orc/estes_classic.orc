@@ -5115,11 +5115,9 @@ Known issues:
 
         <!--
             PNC-80BB (#2018 Super Big Bertha, #1273 Fat Boy) 4 inch ellipsoid, blow molded
-            Dimensions partially derived, looking for more definitive
             According to Brohm NC list and the Fat Boy instructions this is the *same* PN used on the Fat Boy; thus the
             "PNC-80FB" designation found only on RocketReviews is bogus.
-            Length estimate:  Analysis of Fat Boy and Super Big Bertha catalog lengths vs known tube lengths and fin
-            sweep estimates puts length of PNC-80BB between 4 and 4 3/8".
+            Length:  Not provided by Estes but BMS lists the length of this nose cone as 4.0" so I consider this length confirmed.
         -->
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
