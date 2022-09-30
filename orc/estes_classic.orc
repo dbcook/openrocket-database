@@ -4258,6 +4258,10 @@ Known issues:
             BNC-70AJ, ref 1977 catalog and 1974 custom parts catalog, rounded tip ogive, 0.85 oz
             PN 70300 in 1974 custom parts catalog, then was PN 8019 in catalogs thru 1984, changed
             back to PN 70300 in 1985 catalog.
+            NOTE: we have obtained a scan of the original Estes design drawing which shows the
+            intended length as 4.4".  However various catalogs all list the length as 4.25"; since
+            that is the *published* data we have to go with that, and it may well be that the as-built
+            parts were closer to 4.25" long.
         -->
         <NoseCone>
             <Manufacturer>Estes</Manufacturer>
