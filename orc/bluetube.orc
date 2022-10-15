@@ -15,7 +15,7 @@ sizes, and also sell nose cones of unspecified origin.
 
 The stock OpenRocket bluetube.orc only lists tubes and couplers; it does not have any of the
 bulkheads, rings or nose cones currently listed by ARR.  We should be able to add the bulkheads
-and centering rings; howeever the nose cones sold by ARR have no dimensions listed.  It's not
+and centering rings; however the nose cones sold by ARR have no dimensions listed.  It's not
 clear from where they are sourced.
 
 Dimension Evolution over Time
