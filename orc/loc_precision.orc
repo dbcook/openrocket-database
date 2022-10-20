@@ -612,18 +612,32 @@ the former should be lighter because of the larger center hole. -->
                        ring OD   ring ID
              18mm MMT            0.768    Use value for old MMT-0.71 which had OD 0.765
              LBT-50    0.947     1.003
-             BT-1.14   1.137     1.213
-             BT-1.52   1.522     1.638
+             BT-1.14   1.137     1.213    29mm
+             BT-1.52   1.522     1.638    38mm
              BT-1.9    1.897     1.983    Assuming ID is 1.90 consistent with all other LOC tube nomenclature
-             BT-2.14   2.137     2.263
+             BT-2.14   2.137     2.263    54mm
              BT-2.56   2.557     2.633
-             BT-3.00   2.997     3.103
-             BT-3.9    3.897     4.003
+             BT-3.00   2.997     3.103    75mm
+             BT-3.9    3.897     4.003    98mm
              BT-5.38   5.377     5.543
              BT-7.51   7.512     7.678
 
-             ***TBD*** For LOC cardboard tube couplers the IDs are not specified.
-            
+             For LOC cardboard tube couplers the IDs are not officially specified, but we have them from Apogee
+             Series     ring ID
+             TC-1.14    1.003
+             TC-1.52    1.395
+             TC-2.14    2.014
+             STC-2.14   1.752
+             TC-2.56    2.476
+             STC-2.56   2.242
+             TC-3.00    2.877
+             STC-3.00   2.622
+             TC-3.90    3.811
+             STC-3.90   3.552
+             TC-5.38    5.269
+             STC-5.38   4.977
+             TC-7.51    7.395
+             STC-7.51   6.992
             -->
 
         <!-- 1.52 to 29mm MMT, 1/4" thick -->
@@ -751,25 +765,157 @@ the former should be lighter because of the larger center hole. -->
         <!-- CR-2.56-4x18mm, 1/8" thick, cluster -->
 
         <!-- CRTC-2.56-38mm, 1/8" thick, fits tube coupler -->
+        <CenteringRing>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>CRTC-2.56-38mm</PartNumber>
+            <Description>Centering ring, plywood, 2.56 coupler to 38mm, 1/8"</Description>
+            <Material Type="BULK">Plywood, Baltic birch, bulk</Material>
+            <InsideDiameter Unit="in">1.638</InsideDiameter>
+            <OutsideDiameter Unit="in">2.476</OutsideDiameter>
+            <Length Unit="in">0.125</Length>
+        </CenteringRing>
+
         <!-- CRTC-2.56-29MM, 1/8" thick, fits tube coupler -->
+        <CenteringRing>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>CRTC-2.56-29mm</PartNumber>
+            <Description>Centering ring, plywood, 2.56 coupler to 29mm, 1/8"</Description>
+            <Material Type="BULK">Plywood, Baltic birch, bulk</Material>
+            <InsideDiameter Unit="in">1.213</InsideDiameter>
+            <OutsideDiameter Unit="in">2.476</OutsideDiameter>
+            <Length Unit="in">0.125</Length>
+        </CenteringRing>
+
+
         <!-- CRTC-2.56-24MM, 1/8" thick, fits tube coupler -->
+        <CenteringRing>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>CRTC-2.56-24mm</PartNumber>
+            <Description>Centering ring, plywood, 2.56 coupler to 24mm, 1/8"</Description>
+            <Material Type="BULK">Plywood, Baltic birch, bulk</Material>
+            <InsideDiameter Unit="in">1.003</InsideDiameter>
+            <OutsideDiameter Unit="in">2.476</OutsideDiameter>
+            <Length Unit="in">0.125</Length>
+        </CenteringRing>
+
         <!-- CRTC-2.56-3x24mm, 1/8" thick, cluster, fits tube coupler -->
         <!-- CRTC-2.56-4x18mm, 1/8" thick, cluster, fits tube coupler -->
 
         <!-- CR-3.00-54mm, 1/4" thick, notched for harness -->
+        <CenteringRing>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>CR-3.00-54mm</PartNumber>
+            <Description>Centering ring, plywood, 3.00 to 54mm, harness notch, 1/4"</Description>
+            <Material Type="BULK">Plywood, Baltic birch, bulk</Material>
+            <InsideDiameter Unit="in">2.263</InsideDiameter>
+            <OutsideDiameter Unit="in">2.997</OutsideDiameter>
+            <Length Unit="in">0.250</Length>
+        </CenteringRing>
+
         <!-- CR-3.00-38mm, 1/4" thick -->
+        <CenteringRing>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>CR-3.00-38mm</PartNumber>
+            <Description>Centering ring, plywood, 3.00 to 38mm, 1/4"</Description>
+            <Material Type="BULK">Plywood, Baltic birch, bulk</Material>
+            <InsideDiameter Unit="in">1.638</InsideDiameter>
+            <OutsideDiameter Unit="in">2.997</OutsideDiameter>
+            <Length Unit="in">0.250</Length>
+        </CenteringRing>
+
         <!-- CR-3.00-29mm, 1/8" thick -->
+        <CenteringRing>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>CR-3.00-29mm</PartNumber>
+            <Description>Centering ring, plywood, 3.00 to 29mm, 1/4"</Description>
+            <Material Type="BULK">Plywood, Baltic birch, bulk</Material>
+            <InsideDiameter Unit="in">1.213</InsideDiameter>
+            <OutsideDiameter Unit="in">2.997</OutsideDiameter>
+            <Length Unit="in">0.250</Length>
+        </CenteringRing>
+
         <!-- CR-3.00-24mm, 1/8" thick -->
+        <CenteringRing>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>CR-3.00-24mm</PartNumber>
+            <Description>Centering ring, plywood, 3.00 to 24mm, 1/4"</Description>
+            <Material Type="BULK">Plywood, Baltic birch, bulk</Material>
+            <InsideDiameter Unit="in">1.003</InsideDiameter>
+            <OutsideDiameter Unit="in">2.997</OutsideDiameter>
+            <Length Unit="in">0.250</Length>
+        </CenteringRing>
+
         <!-- CR-3.00-2x29mm, 1/8" thick, cluster -->
         <!-- CR-3.00-3x29mm, 1/4" thick, cluster -->
         <!-- CR-3.00-4x24mm, 1/8" thick, cluster -->
 
         <!-- CR-3.90-75mm, 1/4" thick, notched for harness -->
+        <CenteringRing>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>CR-3.90-75mm</PartNumber>
+            <Description>Centering ring, plywood, 3.00 to 75mm, harness notch, 1/4"</Description>
+            <Material Type="BULK">Plywood, Baltic birch, bulk</Material>
+            <InsideDiameter Unit="in">3.103</InsideDiameter>
+            <OutsideDiameter Unit="in">3.897</OutsideDiameter>
+            <Length Unit="in">0.250</Length>
+        </CenteringRing>
+
+
         <!-- CR-3.90-54mm, 1/4" thick -->
+        <CenteringRing>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>CR-3.90-54mm</PartNumber>
+            <Description>Centering ring, plywood, 3.00 to 54mm, 1/4"</Description>
+            <Material Type="BULK">Plywood, Baltic birch, bulk</Material>
+            <InsideDiameter Unit="in">2.263</InsideDiameter>
+            <OutsideDiameter Unit="in">3.897</OutsideDiameter>
+            <Length Unit="in">0.250</Length>
+        </CenteringRing>
+
         <!-- CR-3.90-38mm, 1/4" thick -->
+        <CenteringRing>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>CR-3.90-38mm</PartNumber>
+            <Description>Centering ring, plywood, 3.00 to 38mm, 1/4"</Description>
+            <Material Type="BULK">Plywood, Baltic birch, bulk</Material>
+            <InsideDiameter Unit="in">1.638</InsideDiameter>
+            <OutsideDiameter Unit="in">3.897</OutsideDiameter>
+            <Length Unit="in">0.250</Length>
+        </CenteringRing>
+
         <!-- CR-3.90-29mm, 1/8" thick -->
+        <CenteringRing>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>CR-3.90-29mm</PartNumber>
+            <Description>Centering ring, plywood, 3.00 to 29mm, 1/4"</Description>
+            <Material Type="BULK">Plywood, Baltic birch, bulk</Material>
+            <InsideDiameter Unit="in">1.213</InsideDiameter>
+            <OutsideDiameter Unit="in">3.897</OutsideDiameter>
+            <Length Unit="in">0.250</Length>
+        </CenteringRing>
+
         <!-- LNR-3.90-54mm3S, 1/4" thick, slotted for 3 fins .25 thick -->
+        <CenteringRing>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>LNR-3.90-54mm3S</PartNumber>
+            <Description>Centering ring, plywood, 3.00 to 54mm, 3 fin notches for 0.25 thick, 1/4"</Description>
+            <Material Type="BULK">Plywood, Baltic birch, bulk</Material>
+            <InsideDiameter Unit="in">2.263</InsideDiameter>
+            <OutsideDiameter Unit="in">3.897</OutsideDiameter>
+            <Length Unit="in">0.250</Length>
+        </CenteringRing>
+
         <!-- LNR-3.90-54mm4S, 1/4" thick, slotted for 4 fins .25 thick -->
+        <CenteringRing>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>LNR-3.90-54mm4S</PartNumber>
+            <Description>Centering ring, plywood, 3.00 to 54mm, 4 fin notches for 0.25 thick, 1/4"</Description>
+            <Material Type="BULK">Plywood, Baltic birch, bulk</Material>
+            <InsideDiameter Unit="in">2.263</InsideDiameter>
+            <OutsideDiameter Unit="in">3.897</OutsideDiameter>
+            <Length Unit="in">0.250</Length>
+        </CenteringRing>
+
         <!-- CR-3.90-3x29mm, 1/4" thick, cluster -->
         <!-- CR-3.90-4x29mm, 1/4" thick, cluster -->
         <!-- CR-3.90-7x29mm, 1/4" thick, cluster -->
@@ -777,13 +923,93 @@ the former should be lighter because of the larger center hole. -->
         <!-- CR-3.90-1x38mm-3x24mm, 1/4" thick, cluster -->
 
         <!-- CR-5.38-98mm, 1/4" thick -->
+        <CenteringRing>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>CR-5.38-98mm</PartNumber>
+            <Description>Centering ring, plywood, 5.38 to 98mm, 1/4"</Description>
+            <Material Type="BULK">Plywood, Baltic birch, bulk</Material>
+            <InsideDiameter Unit="in">4.003</InsideDiameter>
+            <OutsideDiameter Unit="in">5.377</OutsideDiameter>
+            <Length Unit="in">0.250</Length>
+        </CenteringRing>
+
         <!-- CR-5.38-75mm, 1/4" thick -->
+        <CenteringRing>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>CR-5.38-75mm</PartNumber>
+            <Description>Centering ring, plywood, 5.38 to 75mm, 1/4"</Description>
+            <Material Type="BULK">Plywood, Baltic birch, bulk</Material>
+            <InsideDiameter Unit="in">3.103</InsideDiameter>
+            <OutsideDiameter Unit="in">5.377</OutsideDiameter>
+            <Length Unit="in">0.250</Length>
+        </CenteringRing>
+
         <!-- CR-5.38-54mm, 1/4" thick -->
+        <CenteringRing>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>CR-5.38-54mm</PartNumber>
+            <Description>Centering ring, plywood, 5.38 to 54mm, 1/4"</Description>
+            <Material Type="BULK">Plywood, Baltic birch, bulk</Material>
+            <InsideDiameter Unit="in">2.263</InsideDiameter>
+            <OutsideDiameter Unit="in">5.377</OutsideDiameter>
+            <Length Unit="in">0.250</Length>
+        </CenteringRing>
+
         <!-- CR-5.38-38mm, 1/4" thick -->
+        <CenteringRing>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>CR-5.38-38mm</PartNumber>
+            <Description>Centering ring, plywood, 5.38 to 38mm, 1/4"</Description>
+            <Material Type="BULK">Plywood, Baltic birch, bulk</Material>
+            <InsideDiameter Unit="in">1.638</InsideDiameter>
+            <OutsideDiameter Unit="in">5.377</OutsideDiameter>
+            <Length Unit="in">0.250</Length>
+        </CenteringRing>
+
         <!-- LNR-5.38-54mm3S25, 1/4" thick, slotted for 3 fins .25 thick -->
+        <CenteringRing>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>LNR-5.38-54mm3S25</PartNumber>
+            <Description>Centering ring, plywood, 5.38 to 54mm, 3 fin slots for 0.25 thick, 1/4"</Description>
+            <Material Type="BULK">Plywood, Baltic birch, bulk</Material>
+            <InsideDiameter Unit="in">2.263</InsideDiameter>
+            <OutsideDiameter Unit="in">5.377</OutsideDiameter>
+            <Length Unit="in">0.250</Length>
+        </CenteringRing>
+
         <!-- LNR-5.38-54mm4S25, 1/4" thick, slotted for 4 fins .25 thick -->
+        <CenteringRing>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>LNR-5.38-54mm4S25</PartNumber>
+            <Description>Centering ring, plywood, 5.38 to 54mm, 4 fin slots for 0.25 thick, 1/4"</Description>
+            <Material Type="BULK">Plywood, Baltic birch, bulk</Material>
+            <InsideDiameter Unit="in">2.263</InsideDiameter>
+            <OutsideDiameter Unit="in">5.377</OutsideDiameter>
+            <Length Unit="in">0.250</Length>
+        </CenteringRing>
+
         <!-- LNR-5.38-75mm3S375, 1/4" thick, slotted for 3 fins .375 thick -->
+        <CenteringRing>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>LNR-5.38-75mm3S375</PartNumber>
+            <Description>Centering ring, plywood, 5.38 to 75mm, 3 fin slots for 0.375 thick, 1/4"</Description>
+            <Material Type="BULK">Plywood, Baltic birch, bulk</Material>
+            <InsideDiameter Unit="in">3.103</InsideDiameter>
+            <OutsideDiameter Unit="in">5.377</OutsideDiameter>
+            <Length Unit="in">0.250</Length>
+        </CenteringRing>
+
         <!-- LNR-5.38-75mm4S375, 1/4" thick, slotted for 4 fins .375 thick -->
+        <CenteringRing>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>LNR-5.38-75mm4S375</PartNumber>
+            <Description>Centering ring, plywood, 5.38 to 75mm, 4 fin slots for 0.375 thick, 1/4"</Description>
+            <Material Type="BULK">Plywood, Baltic birch, bulk</Material>
+            <InsideDiameter Unit="in">3.103</InsideDiameter>
+            <OutsideDiameter Unit="in">5.377</OutsideDiameter>
+            <Length Unit="in">0.250</Length>
+        </CenteringRing>
+
         <!-- CR-5.38-4x29mm, 1/4" thick, cluster -->
         <!-- CR-5.38-1x38mm4x29mm, 1/4" thick, cluster -->
         <!-- CR-5.38-4x38mm, 1/4" thick, cluster -->
@@ -793,9 +1019,49 @@ the former should be lighter because of the larger center hole. -->
         <!-- CR-5.38-1x544mm4x29mm, 1/4" thick, cluster -->
 
         <!-- CR-7.51-98mm, 1/4" thick -->
+        <CenteringRing>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>CR-7.51-98mm</PartNumber>
+            <Description>Centering ring, plywood, 7.51 to 98mm, 1/4"</Description>
+            <Material Type="BULK">Plywood, Baltic birch, bulk</Material>
+            <InsideDiameter Unit="in">4.003</InsideDiameter>
+            <OutsideDiameter Unit="in">7.512</OutsideDiameter>
+            <Length Unit="in">0.250</Length>
+        </CenteringRing>
+
         <!-- CR-7.51-75mm, 1/4" thick -->
+        <CenteringRing>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>CR-7.51-75mm</PartNumber>
+            <Description>Centering ring, plywood, 7.51 to 75mm, 1/4"</Description>
+            <Material Type="BULK">Plywood, Baltic birch, bulk</Material>
+            <InsideDiameter Unit="in">3.103</InsideDiameter>
+            <OutsideDiameter Unit="in">7.512</OutsideDiameter>
+            <Length Unit="in">0.250</Length>
+        </CenteringRing>
+
         <!-- CR-7.51-54mm, 1/4" thick -->
+        <CenteringRing>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>CR-7.51-54mm</PartNumber>
+            <Description>Centering ring, plywood, 7.51 to 54mm, 1/4"</Description>
+            <Material Type="BULK">Plywood, Baltic birch, bulk</Material>
+            <InsideDiameter Unit="in">2.263</InsideDiameter>
+            <OutsideDiameter Unit="in">7.512</OutsideDiameter>
+            <Length Unit="in">0.250</Length>
+        </CenteringRing>
+
         <!-- CR-7.51-38mm, 1/4" thick -->
+        <CenteringRing>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>CR-7.51-38mm</PartNumber>
+            <Description>Centering ring, plywood, 7.51 to 38mm, 1/4"</Description>
+            <Material Type="BULK">Plywood, Baltic birch, bulk</Material>
+            <InsideDiameter Unit="in">1.638</InsideDiameter>
+            <OutsideDiameter Unit="in">7.512</OutsideDiameter>
+            <Length Unit="in">0.250</Length>
+        </CenteringRing>
+
         <!-- CR-7.51-1x54mm4x29mm, 1/4" thick, cluster -->
         <!-- CR-7.51-1x54mm4x38mm, 1/4" thick, cluster -->
         <!-- CR-7.51-5x54mm, 1/4" thick, cluster -->
@@ -806,15 +1072,18 @@ the former should be lighter because of the larger center hole. -->
         <!-- CR-7.51-1x98mm8x29mm, 1/4" thick, cluster -->
 
 
-        <!-- Solid bulkheads.  Note inconsistent PN format -->
+        <!-- Solid bulkheads that fit inside tube couplers.  Note inconsistent PN format
+             *** Normally AvBay end caps would fit inside airframe tubes and be flush with tube coupler sides ***.
+        -->
         <!-- BA-152 solid bulkhead, 1/8" thick, fits tube coupler -->
-        <!-- BA-1.9 solid bulkhead, fits tube coupler, *** no thickness given *** -->
+        <!-- BA-1.9 solid bulkhead, fits tube coupler, *** no thickness given, assuming 1/8" *** -->
         <!-- BA-214 solid bulkhead, 1/8" thick, fits tube coupler -->
         <!-- BA-256 solid bulkhead, 1/8" thick, fits tube coupler -->
         <!-- BA-3.00 solid bulkhead, 1/4" thick, fits tube coupler -->
         <!-- BA-3.90 solid bulkhead, 1/4" thick, fits tube coupler -->
         <!-- BA-5.38 solid bulkhead, 1/4" thick, fits tube coupler -->
         <!-- BA-7.51 solid bulkhead, 1/4" thick, fits tube coupler -->
+
         <!-- *** ADDING HERE *** -->
 
 
@@ -827,13 +1096,170 @@ the former should be lighter because of the larger center hole. -->
              1.7oz ripstop nylon with reasonable paracord sizes. Some are complete nonsense,
              such as having the LHPC-48 be 28 gm *heavier* than the LHPC-58.  (actually those
              would match a lot better if they were swapped!)  So I've just
-             used a best guess at the materials and allow OpenRocket to compute the mass.  -->
+             used a best guess at the materials and allow OpenRocket to compute the mass. 
 
-        <!-- LP-12, mass given as 9.7 gm, calculated 7.13 .  LOC 2018 website gives 0.0625 lb = 1 oz -->
+             On the late 2022 website, the lineup of parachutes is again different from
+             the 2018 array of:
+                LP-12, LP-14, LP-18, LP-28, LP-36
+                LHPC-36, LHPC-48, LHPC-58, LHPC-78, LHPC-86 (seemingly already dead in 2018)
+             The 2022 lineup drops all part numbers, and masses are no longer specified.  Sizes 50"
+             and below all have spill holes now.  They do specify 1.9oz coated ripstop nylon material,
+             and the photos make it look like the shrouds are ordinary paracord.  The 12" chute has
+             been dropped.  This is NOT the Top Flight line, sizes and material weight are different.
+                14" 6-line, 18" 6-line, 21" 6-line, 24" 6-line, 28" 8-line, 36" 10-line, 42" 10-line,
+                50" 10-line, 58" 10-line, 78" 16-line, 96" 16-line.
+        -->
+
+        <!--
+            ============================
+            LOC Parachutes, 2022 website
+            ============================
+            Created PNs like LP-xx-2022 since none assigned by LOC
+        -->
+        <!-- 14", spill hole, 6 lines -->
+        <Parachute>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>LP-14-2022</PartNumber>
+            <Description>Parachute, 14 in., 1.9oz nylon, 6 lines, spill hole</Description>
+            <Material Type="SURFACE">Nylon fabric, ripstop, 1.9 oz actual</Material>
+            <Diameter Unit="in">14.0</Diameter>
+            <Sides>6</Sides>
+            <LineCount>6</LineCount>
+            <LineLength Unit="in">14.0</LineLength>
+            <LineMaterial Type="LINE">Nylon Paracord, 110 lb, 1/16 in. dia.</LineMaterial>
+        </Parachute>
+        <!-- 18", spill hole, 8 lines -->
+        <Parachute>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>LP-18-2022</PartNumber>
+            <Description>Parachute, 18 in., 1.9oz nylon, 8 lines, spill hole</Description>
+            <Material Type="SURFACE">Nylon fabric, ripstop, 1.9 oz actual</Material>
+            <Diameter Unit="in">18.0</Diameter>
+            <Sides>8</Sides>
+            <LineCount>8</LineCount>
+            <LineLength Unit="in">18.0</LineLength>
+            <LineMaterial Type="LINE">Nylon Paracord, 110 lb, 1/16 in. dia.</LineMaterial>
+        </Parachute>
+        <!-- 21", spill hole, 8 lines -->
+        <Parachute>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>LP-21-2022</PartNumber>
+            <Description>Parachute, 21 in., 1.9oz nylon, 8 lines, spill hole</Description>
+            <Material Type="SURFACE">Nylon fabric, ripstop, 1.9 oz actual</Material>
+            <Diameter Unit="in">21.0</Diameter>
+            <Sides>8</Sides>
+            <LineCount>8</LineCount>
+            <LineLength Unit="in">21.0</LineLength>
+            <LineMaterial Type="LINE">Nylon Paracord, 110 lb, 1/16 in. dia.</LineMaterial>
+        </Parachute>
+        <!-- 24", spill hole, 8 lines -->
+        <Parachute>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>LP-24-2022</PartNumber>
+            <Description>Parachute, 24 in., 1.9oz nylon, 8 lines, spill hole</Description>
+            <Material Type="SURFACE">Nylon fabric, ripstop, 1.9 oz actual</Material>
+            <Diameter Unit="in">24.0</Diameter>
+            <Sides>8</Sides>
+            <LineCount>8</LineCount>
+            <LineLength Unit="in">24.0</LineLength>
+            <LineMaterial Type="LINE">Nylon Paracord, 110 lb, 1/16 in. dia.</LineMaterial>
+        </Parachute>
+        <!-- 28", spill hole, 10 lines -->
+        <Parachute>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>LP-28-2022</PartNumber>
+            <Description>Parachute, 28 in., 1.9oz nylon, 10 lines, spill hole</Description>
+            <Material Type="SURFACE">Nylon fabric, ripstop, 1.9 oz actual</Material>
+            <Diameter Unit="in">28.0</Diameter>
+            <Sides>10</Sides>
+            <LineCount>10</LineCount>
+            <LineLength Unit="in">28.0</LineLength>
+            <LineMaterial Type="LINE">Nylon Paracord, 275 lb, 2.38 mm dia.</LineMaterial>
+        </Parachute>
+        <!-- 36", spill hole, 10 lines -->
+        <Parachute>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>LP-36-2022</PartNumber>
+            <Description>Parachute, 36 in., 1.9oz nylon, 10 lines, spill hole</Description>
+            <Material Type="SURFACE">Nylon fabric, ripstop, 1.9 oz actual</Material>
+            <Diameter Unit="in">36.0</Diameter>
+            <Sides>10</Sides>
+            <LineCount>10</LineCount>
+            <LineLength Unit="in">36.0</LineLength>
+            <LineMaterial Type="LINE">Nylon Paracord, 275 lb, 2.38 mm dia.</LineMaterial>
+        </Parachute>
+        <!-- 42", spill hole, 10 lines -->
+        <Parachute>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>LP-42-2022</PartNumber>
+            <Description>Parachute, 42 in., 1.9oz nylon, 10 lines, spill hole</Description>
+            <Material Type="SURFACE">Nylon fabric, ripstop, 1.9 oz actual</Material>
+            <Diameter Unit="in">42.0</Diameter>
+            <Sides>10</Sides>
+            <LineCount>10</LineCount>
+            <LineLength Unit="in">42.0</LineLength>
+            <LineMaterial Type="LINE">Nylon Paracord, 275 lb, 2.38 mm dia.</LineMaterial>
+        </Parachute>
+        <!-- 50", spill hole, 10 lines -->
+        <Parachute>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>LP-50-2022</PartNumber>
+            <Description>Parachute, 50 in., 1.9oz nylon, 10 lines, spill hole</Description>
+            <Material Type="SURFACE">Nylon fabric, ripstop, 1.9 oz actual</Material>
+            <Diameter Unit="in">50.0</Diameter>
+            <Sides>10</Sides>
+            <LineCount>10</LineCount>
+            <LineLength Unit="in">50.0</LineLength>
+            <LineMaterial Type="LINE">Nylon Paracord, 275 lb, 2.38 mm dia.</LineMaterial>
+        </Parachute>
+        <!-- 58", no spill hole, 10 lines -->
+        <Parachute>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>LP-58-2022</PartNumber>
+            <Description>Parachute, 58 in., 1.9oz nylon, 10 lines, no spill hole</Description>
+            <Material Type="SURFACE">Nylon fabric, ripstop, 1.9 oz actual</Material>
+            <Diameter Unit="in">58.0</Diameter>
+            <Sides>10</Sides>
+            <LineCount>10</LineCount>
+            <LineLength Unit="in">58.0</LineLength>
+            <LineMaterial Type="LINE">Nylon Paracord, 275 lb, 2.38 mm dia.</LineMaterial>
+        </Parachute>
+        <!-- 78", no spill hole, 16 lines -->
+        <Parachute>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>LP-78-2022</PartNumber>
+            <Description>Parachute, 78 in., 1.9oz nylon, 16 lines, no spill hole</Description>
+            <Material Type="SURFACE">Nylon fabric, ripstop, 1.9 oz actual</Material>
+            <Diameter Unit="in">78.0</Diameter>
+            <Sides>16</Sides>
+            <LineCount>16</LineCount>
+            <LineLength Unit="in">78.0</LineLength>
+            <LineMaterial Type="LINE">Nylon Paracord, 275 lb, 2.38 mm dia.</LineMaterial>
+        </Parachute>
+        <!-- 96", no spill hole, 16 lines -->
+        <Parachute>
+            <Manufacturer>LOC Precision</Manufacturer>
+            <PartNumber>LP-96-2022</PartNumber>
+            <Description>Parachute, 96 in., 1.9oz nylon, 16 lines, no spill hole</Description>
+            <Material Type="SURFACE">Nylon fabric, ripstop, 1.9 oz actual</Material>
+            <Diameter Unit="in">96.0</Diameter>
+            <Sides>16</Sides>
+            <LineCount>16</LineCount>
+            <LineLength Unit="in">96.0</LineLength>
+            <LineMaterial Type="LINE">Nylon Paracord, 275 lb, 2.38 mm dia.</LineMaterial>
+        </Parachute>
+
+        <!--
+            ============================
+            LOC Parachutes, 2018 website
+            ============================
+        -->
+
+        <!-- LP-12, mass given as 9.7 gm, calculated 7.13 .  LOC 2018 website gave 0.0625 lb = 1 oz -->
         <Parachute>
             <Manufacturer>LOC Precision</Manufacturer>
             <PartNumber>LP-12</PartNumber>
-            <Description>Parachute, 12 in., nylon, 6 lines</Description>
+            <Description>Parachute, 12 in., nylon, 6 lines, 2018</Description>
             <Material Type="SURFACE">Nylon fabric, ripstop, 1.9 oz actual</Material>
             <Diameter Unit="in">12.0</Diameter>
             <Sides>6</Sides>
@@ -846,7 +1272,7 @@ the former should be lighter because of the larger center hole. -->
         <Parachute>
             <Manufacturer>LOC Precision</Manufacturer>
             <PartNumber>LP-14</PartNumber>
-            <Description>Parachute, 14 in., nylon, 6 lines</Description>
+            <Description>Parachute, 14 in., nylon, 6 lines, 2018</Description>
             <Material Type="SURFACE">Nylon fabric, ripstop, 1.9 oz actual</Material>
             <Diameter Unit="in">14.0</Diameter>
             <Sides>6</Sides>
@@ -861,7 +1287,7 @@ the former should be lighter because of the larger center hole. -->
         <Parachute>
             <Manufacturer>LOC Precision</Manufacturer>
             <PartNumber>LP-18</PartNumber>
-            <Description>Parachute, 18 in., nylon, 6 lines</Description>
+            <Description>Parachute, 18 in., nylon, 6 lines, 2018</Description>
             <Material Type="SURFACE">Nylon fabric, ripstop, 1.9 oz actual</Material>
             <Diameter Unit="in">18.0</Diameter>
             <Sides>6</Sides>
@@ -874,7 +1300,7 @@ the former should be lighter because of the larger center hole. -->
         <Parachute>
             <Manufacturer>LOC Precision</Manufacturer>
             <PartNumber>LP-28</PartNumber>
-            <Description>Parachute, 28 in., nylon, 8 lines</Description>
+            <Description>Parachute, 28 in., nylon, 8 lines, 2018</Description>
             <Material Type="SURFACE">Nylon fabric, ripstop, 1.9 oz actual</Material>
             <Diameter Unit="in">28.0</Diameter>
             <Sides>8</Sides>
@@ -890,7 +1316,7 @@ the former should be lighter because of the larger center hole. -->
         <Parachute>
             <Manufacturer>LOC Precision</Manufacturer>
             <PartNumber>LHPC-36</PartNumber>
-            <Description>Parachute, 36 in., nylon, 10 lines</Description>
+            <Description>Parachute, 36 in., nylon, 10 lines, 2018</Description>
             <Material Type="SURFACE">Nylon fabric, ripstop, 1.9 oz actual</Material>
             <Diameter Unit="in">36.0</Diameter>
             <Sides>10</Sides>
@@ -904,7 +1330,7 @@ the former should be lighter because of the larger center hole. -->
         <Parachute>
             <Manufacturer>LOC Precision</Manufacturer>
             <PartNumber>LHPC-48</PartNumber>
-            <Description>Paraachute, 48 in., nylon, 10 lines</Description>
+            <Description>Paraachute, 48 in., nylon, 10 lines, 2018</Description>
             <Material Type="SURFACE">Nylon fabric, ripstop, 1.9 oz actual</Material>
             <Diameter Unit="in">48.00</Diameter>
             <Sides>10</Sides>
@@ -917,7 +1343,7 @@ the former should be lighter because of the larger center hole. -->
         <Parachute>
             <Manufacturer>LOC Precision</Manufacturer>
             <PartNumber>LHPC-58</PartNumber>
-            <Description>Parachute, 58 in., nylon, 10 lines</Description>
+            <Description>Parachute, 58 in., nylon, 10 lines, 2018</Description>
             <Material Type="SURFACE">Nylon fabric, ripstop, 1.9 oz actual</Material>
             <Diameter Unit="in">58.0</Diameter>
             <Sides>10</Sides>
@@ -930,7 +1356,7 @@ the former should be lighter because of the larger center hole. -->
         <Parachute>
             <Manufacturer>LOC Precision</Manufacturer>
             <PartNumber>LHPC-78</PartNumber>
-            <Description>Parachute, 78 in., nylon, 16 lines</Description>
+            <Description>Parachute, 78 in., nylon, 16 lines, 2018</Description>
             <Material Type="SURFACE">Nylon fabric, ripstop, 1.9 oz actual</Material>
             <Diameter Unit="in">78.0</Diameter>
             <Sides>16</Sides>
@@ -939,13 +1365,13 @@ the former should be lighter because of the larger center hole. -->
             <LineMaterial Type="LINE">Nylon Paracord, 275 lb, 2.38 mm dia.</LineMaterial>
         </Parachute>
 
-        <!-- The 86" parachute is mentioned in the 2017 website update but cannot be selected.
-             It is completely gone from the 2018 website.  -->
+        <!-- The 86" parachute was mentioned in the 2017 website update but could not be selected.
+             It was completely gone from the 2018 website.  -->
         <!-- LHPC-86, mass given as 453.6 gm (crude conversion from 16 oz?), calculated 400 gm -->
         <Parachute>
             <Manufacturer>LOC Precision</Manufacturer>
             <PartNumber>LHPC-86</PartNumber>
-            <Description>Parachute, 86 in., nylon, 16 lines</Description>
+            <Description>Parachute, 86 in., nylon, 16 lines, 2017</Description>
             <Material Type="SURFACE">Nylon fabric, ripstop, 1.9 oz actual</Material>
             <Diameter Unit="in">86.0</Diameter>
             <Sides>16</Sides>
@@ -969,7 +1395,7 @@ the former should be lighter because of the larger center hole. -->
         <!-- AR-3.00-2.14 with smaller shoulder forward (increasing diam), 4 oz per LOC
              LOC gives overall length 8.0", taper length 3.12"; we apportion the rest for shoulder
              lengths.
-             1989 LOC catalog gives weight 5.5 oz, 2017 LOC site save "4 oz"
+             1989 LOC catalog gives weight 5.5 oz, 2017 LOC site says "4 oz"
              I opted for 4.0 oz until we get better data.
         -->
         <Transition>
