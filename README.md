@@ -26,6 +26,21 @@ System compatibility:  works anywhere OpenRocket can run
 
 ## Release Notes
 
+0.9.4.0
+* Fixes
+  * Estes_classic: improve documentation of PNC-80BB
+* Additions
+  * BMS: add new file and authoritative documentation of nose cone shoulder lengths
+  * Estes: add original BNC-70AJ drawing and notes on discrepancy with catalog listings
+  * LOC: add new parachute lineup from 2022 website
+
+0.9.3.7
+* Fixes
+  * LOC: slightly adjust size of BT-1.52/MMT-1.52 to match 2022 website spec
+* Additions
+  * LOC: add LOC brand plywood centering rings now that we have data
+  * LOC: add new BT-1.9 tube and 2.75" length of MMT-0.71
+
 0.9.3.6 - 12 Sep 2022
 * Fixes
   * Issue #14 - wrong diameters for publicmissiles QT2.1
