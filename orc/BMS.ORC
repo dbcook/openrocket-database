@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!--
-All data directly from BMS website https://www.balsamachining.com/
+OpenRocket parts database file for Balsa Machining.
+Copyright (c) 2022 by Stephen J. Heilman  (sj_h1@live.com) and Dave Cook (caveduck17@gmail.com)
+See the LICENSE file for usage information, restrictions and warranty disclaimer.
 
-by Stephen J. Heilman  sj_h1@live.com 
+All data has been obtained directly from the BMS website https://www.balsamachining.com/ and from
+some personal communications with Bill Saindon, the owner of BMS.
 
+The data here is current as of December 1, 2022.
 
-This file provides separate entries for each part per the original BMS part numbering scheme with prefixes and suffixes such as "T20-34".  The newer non-significant all-numeric part numbers are also included in the PartNumber and Description string where known.  Be aware that there are many conflicts in the BMS assigned PNs.
-
-Many items are based on part definitions from the stock OpenRocket component files, but with various cleanups and fixes:
-
-    * Descriptions normalized to comma-separated list of attributes in increasing specificity
-    * Material types all matched to generic_materials.orc
-    * Dimension units changed to those specified in reference materials such as catalogs
-    * Excess significant digits removed from dimensions; generally kept 3-4 significant figures
-    * Numerous dimension/mass/material/part number errors fixed (sorry, WAY too many to list)
-    * Mass overrides have been eliminated wherever feasible
+Be aware that there are many inconsistencies in the BMS part numbers, especially for nose cones.
 
 Using this file:
     Drop this file in the OS-dependent location where OpenRocket looks for component databases:
@@ -26,10 +21,14 @@ Using this file:
 
     When you start up OpenRocket and use the "from Database..." option when selecting components,
     you will see a LOT more BMS components than before.  Unfortunately unless you do some advanced
-    surgery to remove the built-ins from your OpenRocket jar, you will have some duplicating entries
-    from the baked-in OpenRocket components.  You can easily recognize the new components from this file because they will have much longer descriptions and these use "BalsaMachining" instead of "BalsaMachining.com" as the manufacturer.
+    surgery to remove the built-ins from your OpenRocket 15.03 jar, you will have some duplicating entries
+    from the baked-in OpenRocket components.
+	You can easily recognize the new components from this file because they will have longer descriptions
+	and these use "BalsaMachining" instead of "BalsaMachining.com" as the manufacturer.
 	
-	Shoulder lengths were set to values provided by Bill Saindon of BMS. All shoulder diameters adjusted to .003" smaller than the tube they fit.
+Shoulder lengths for nose cones and transitions are all missing from the website and have been
+set to values provided by Bill Saindon. 
+All nose cone and transition shoulder diameters have been set to .003" smaller than the tube they fit.
 
 -->
 <!--     -->
@@ -46,7 +45,7 @@ Using this file:
             BMS catalog weights for balsa parts imply a typical density of about 10 lb/ft3 for smaller cones
             and about 8 lb/ft3 for larger ones, but they are very inconsistent.
         -->
-		<!-- BMS does not give weights for tubes but we do have some actual measurements from which it was
+		<!-- BMS does not give weights for tubes but we do have some actual measurements from which it was seen
 		     that the average density is typical for kraft glassine tubes -->
 		<!-- 7lb/ft3 balsa -->
 		<Material UnitsOfMeasure="kg/m3">
@@ -206,7 +205,6 @@ Using this file:
 			Body Tubes
 			=======================================================================================
 		-->
-		<!-- All data from 2022 BMS website -->
 		<BodyTube>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>T2-34</PartNumber>
@@ -685,7 +683,7 @@ Using this file:
 			<Length Unit="in">1</Length>
 		</TubeCoupler>
 		<!-- Heavy wall (0.080) coupler for T52 -->
-		<!-- *** SOURCE ERROR: size looks wrong on 2022 BMS website -->
+		<!-- *** SOURCE ERROR: BMS C52H-34 size looks wrong on 2022 BMS website -->
 		<TubeCoupler>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>C52H-34</PartNumber>
@@ -695,7 +693,7 @@ Using this file:
 			<OutsideDiameter Unit="in">1.137</OutsideDiameter>
 			<Length Unit="in">34</Length>
 		</TubeCoupler>
-		<!-- *** SOURCE ERROR: size looks wrong on 2022 BMS website -->
+		<!-- *** SOURCE ERROR: BMS C52H-4 size looks wrong on 2022 BMS website -->
 		<TubeCoupler>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>C52H-4</PartNumber>
@@ -1452,7 +1450,7 @@ Using this file:
 		</CenteringRing>
 		<!-- *** SOURCE ERROR: for CR50MF70-W, the BMS website description and the PN indicate lite-ply,
 			but the thickness is given as 0.05 which is characteristic of the fiber rings and not of any
-			other plywood rings, and afaik lite-ply is not available upstream in 0.05 thickness.
+			other plywood rings, and lite-ply is not available upstream in 0.05 thickness.
 			Adopted thickness of 0.125" until proven otherwise.
 		-->
 		<CenteringRing>
@@ -2946,8 +2944,23 @@ Using this file:
 			<Length Unit="in">2.600</Length>
 		</NoseCone>
 
-		<!-- *** TODO: CENBC86 is an Honest John type - do approximation with mass override as in other cases 
-			 Need to get mass from BMS -->
+		<!-- CENBC86 is an Honest John type - used approximation with mass override from
+			 SEMROC BC-86 but with slightly different BMS max diam and length -->
+
+		<NoseCone>
+			<Manufacturer>BalsaMachining</Manufacturer>
+			<PartNumber>CENBC86</PartNumber>
+			<Description>Nose cone, balsa, ST8, Honest John shape, 6.0" long, PN CENBC86</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Mass Unit="oz">0.28</Mass>
+			<Filled>true</Filled>
+			<Shape>OGIVE</Shape>
+			<OutsideDiameter Unit="in">0.920</OutsideDiameter>
+			<ShoulderDiameter Unit="in">0.863</ShoulderDiameter>
+			<ShoulderLength Unit="in">0.68</ShoulderLength>
+			<Length Unit="in">6.0</Length>
+		</NoseCone>
+		  
 
 		<!-- CENBC89 is Centuri BC-89 equivalent -->
 		<NoseCone>
@@ -2957,8 +2970,8 @@ Using this file:
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
 			<Shape>OGIVE</Shape>
-			<OutsideDiameter Unit="in">0.920</OutsideDiameter>
-			<ShoulderDiameter Unit="in">0.863</ShoulderDiameter>
+			<OutsideDiameter Unit="in">0.900</OutsideDiameter>
+			<ShoulderDiameter Unit="in">0.850</ShoulderDiameter>
 			<ShoulderLength Unit="in">0.750</ShoulderLength>
 			<Length Unit="in">6.000</Length>
 		</NoseCone>
@@ -3012,82 +3025,104 @@ Using this file:
 			<Length Unit="in">5.500</Length>
 		</NoseCone>
 
+		<!-- 
+			=======================================================================================
+			Nose blocks (long solid balsa bulkheads / couplers)
+			=======================================================================================
+		-->
+
+		<!-- NB10 is for 10.55 mm tube, not the same size as T10 -->
 		<BulkHead>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>NB10</PartNumber>
-			<Description>10.55mmx2 inch Bulkheads fits BT10</Description>
+			<Description>Bulkhead, balsa, for 10.5mm tube, 2.0" long, PN NB10</Description>
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
-			<OutsideDiameter Unit="mm">10.55</OutsideDiameter>
+			<OutsideDiameter Unit="in">0.422</OutsideDiameter>
 			<Length Unit="in">2.00</Length>
 		</BulkHead>
+
 		<BulkHead>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>NB20-2</PartNumber>
-			<Description>0.710x2.00 Nose Block 2 inch, Bulkheads fits BT20</Description>
+			<Description>Bulkhead, balsa, BT20, 2.0" long, PN NB20-2</Description>
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
 			<OutsideDiameter Unit="mm">0.422</OutsideDiameter>
 			<Length Unit="in">2.00</Length>
 		</BulkHead>
+
 		<BulkHead>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>NB50-2</PartNumber>
-			<Description>0.950X2.00, BT50 Nose Block 2 inch, fits BT50</Description>
+			<Description>Bulkhead, balsa, BT50, 2.0" long, PN NB50-2</Description>
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
 			<OutsideDiameter Unit="mm">0.950</OutsideDiameter>
 			<Length Unit="in">2.00</Length>
 		</BulkHead>
+
 		<BulkHead>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>NB55-2</PartNumber>
-			<Description>1.283X2.00, BT55 Nose Block 2 inch, fits BT55</Description>
+			<Description>Bulkhead, balsa, BT55, 2.0" long, PN NB55-2</Description>
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
 			<OutsideDiameter Unit="mm">1.283</OutsideDiameter>
 			<Length Unit="in">2.00</Length>
 		</BulkHead>
+
 		<BulkHead>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>NB55-3</PartNumber>
-			<Description>1.283X2.00, BT55 Nose Block 3 inch, fits BT55</Description>
+			<Description>Bulkhead, balsa, BT55, 3.0" long, PN NB55-3</Description>
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
 			<OutsideDiameter Unit="mm">1.283</OutsideDiameter>
 			<Length Unit="in">3.00</Length>
 		</BulkHead>
+
 		<BulkHead>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>NB60-4</PartNumber>
-			<Description>1.595X4.00, BT60 Nose Block 3 inch, fits BT60</Description>
+			<Description>Bulkhead, balsa, BT60, 3.0" long, PN NB60-3</Description>
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
 			<OutsideDiameter Unit="mm">1.595</OutsideDiameter>
 			<Length Unit="in">4.00</Length>
 		</BulkHead>
+
 		<BulkHead>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>NB70-4</PartNumber>
-			<Description>2.180X4.00, BT70 Nose Block 4 inch, fits BT70</Description>
+			<Description>Bulkhead, balsa, BT70, 4.0" long, PN NB70-4</Description>
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
 			<OutsideDiameter Unit="mm">2.180</OutsideDiameter>
 			<Length Unit="in">4.00</Length>
 		</BulkHead>
+
 		<BulkHead>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>NB80-4</PartNumber>
+			<Description>Bulkhead, balsa, BT80, 4.0" long, PN NB80-4</Description>
 			<Description>2.558X4.00, BT80 Nose Block 4 inch, fits BT80</Description>
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
 			<OutsideDiameter Unit="mm">2.558</OutsideDiameter>
 			<Length Unit="in">4.00</Length>
 		</BulkHead>
+
+		<!-- 
+			=======================================================================================
+			Transitions aka Reducers
+			=======================================================================================
+		-->
+		<!-- TA2050: T20 to T50. 2" long -->
 		<Transition>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>TA2050</PartNumber>
-			<Description>Transition T20 to T50 2 in long, PN TA2050</Description>
+			<Description>Transition, balsa, T20 to T50, conical, 2.0" long, increasing, PN TA2050</Description>
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
@@ -3099,10 +3134,11 @@ Using this file:
 			<AftShoulderLength Unit="in">0.500</AftShoulderLength>
 			<Length Unit="in">2.000</Length>
 		</Transition>
+
 		<Transition>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>TA2050[R]</PartNumber>
-			<Description>Transition T20 to T50 2 in long, PN TA2050</Description>
+			<Description>Transition, balsa, T50 to T20, conical, 2.0" long, reducing, PN TA2050</Description>
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
@@ -3114,10 +3150,12 @@ Using this file:
 			<AftShoulderLength Unit="in">0.500</AftShoulderLength>
 			<Length Unit="in">2.000</Length>
 		</Transition>
+
+		<!-- TA2050A: T20 to T50. 1" long -->
 		<Transition>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>TA2050A</PartNumber>
-			<Description>Transition T20 to T50 2 in long, PN TA2050A</Description>
+			<Description>Transition, balsa, T20 to T50, conical, 1.0" long, increasing, PN TA2050A</Description>
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
@@ -3129,10 +3167,11 @@ Using this file:
 			<AftShoulderLength Unit="in">0.5</AftShoulderLength>
 			<Length Unit="in">1.000</Length>
 		</Transition>
+
 		<Transition>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>TA2050A[R]</PartNumber>
-			<Description>Reversed, Transition T20 to T50 2 in long, PN TA2050A</Description>
+			<Description>Transition, balsa, T50 to T20, conical, 1.0" long, reducing, PN TA2050A</Description>
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
@@ -3144,10 +3183,12 @@ Using this file:
 			<AftShoulderLength Unit="in">0.5</AftShoulderLength>
 			<Length Unit="in">1.000</Length>
 		</Transition>
+
+		<!-- TA2055: T20 to T55, 2" long -->
 		<Transition>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>TA2055</PartNumber>
-			<Description>transition T20 to T55 1.5 in long, PN TA2055</Description>
+			<Description>Transition, balsa, T20 to T55, conical, 2.0" long, increasing, PN TA2055</Description>
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
@@ -3159,10 +3200,11 @@ Using this file:
 			<AftShoulderLength Unit="in">0.7500</AftShoulderLength>
 			<Length Unit="in">2.000</Length>
 		</Transition>
+
 		<Transition>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>TA2055[R]</PartNumber>
-			<Description>Reversed, transition T20 to T55 1.5 in long, PN TA2055</Description>
+			<Description>Transition, balsa, T55 to T20, conical, 2.0" long, reducing, PN TA2055</Description>
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
@@ -3174,11 +3216,14 @@ Using this file:
 			<AftShoulderLength Unit="in">0.5</AftShoulderLength>
 			<Length Unit="in">2.000</Length>
 		</Transition>
-		<!-- TA2060 NO dimentions specified -->
+
+		<!-- TA2060 -->
+		<!-- ***SOURCE ERROR: TA2060 description says 0.84" long, while length column in table gives 1.0".  Adopting 1.0"
+		 -->
 		<Transition>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>TA2060</PartNumber>
-			<Description>transition T20 to T60 1.5 in long, PN TA2060</Description>
+			<Description>Transition, balsa, T20 to T60, 1.0" long, increasing, PN TA2060</Description>
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
@@ -3188,12 +3233,13 @@ Using this file:
 			<AftOutsideDiameter Unit="in">1.637</AftOutsideDiameter>
 			<AftShoulderDiameter Unit="in">1.592</AftShoulderDiameter>
 			<AftShoulderLength Unit="in">0.7500</AftShoulderLength>
-			<Length Unit="in">1.500</Length>
+			<Length Unit="in">1.000</Length>
 		</Transition>
+
 		<Transition>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>TA2060[R]</PartNumber>
-			<Description>Reversed, transition T20 to T60 1.5 in long, PN TA2060</Description>
+			<Description>Transition, balsa, T20 to T60, 1.0" long, decreasing, PN TA2060</Description>
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
@@ -3203,13 +3249,14 @@ Using this file:
 			<AftOutsideDiameter Unit="in">0.736</AftOutsideDiameter>
 			<AftShoulderDiameter Unit="in">0.707</AftShoulderDiameter>
 			<AftShoulderLength Unit="in">0.7500</AftShoulderLength>
-			<Length Unit="in">1.500</Length>
+			<Length Unit="in">1.00</Length>
 		</Transition>
-		<!-- TA2070 NO dimentions specified -->
+
+		<!-- TA2070 -->
 		<Transition>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>TA2070</PartNumber>
-			<Description>transition T20 to T70 2.0 in long, PN TA2060</Description>
+			<Description>Transition, balsa, T20 to T70, 2.0" long, increasing, PN TA2070</Description>
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
@@ -3224,7 +3271,7 @@ Using this file:
 		<Transition>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>TA2070[R]</PartNumber>
-			<Description>Reversed, transition T20 to T70 2.0 in long, PN TA2060</Description>
+			<Description>Transition, balsa, T20 to T70, 2.0" long, decreasing, PN TA2070</Description>
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
@@ -3236,11 +3283,12 @@ Using this file:
 			<AftShoulderLength Unit="in">0.7500</AftShoulderLength>
 			<Length Unit="in">2.000</Length>
 		</Transition>
-		<!-- TA5055 NO dimentions specified -->
+
+		<!-- TA5055 1.0" long -->
 		<Transition>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>TA5055</PartNumber>
-			<Description>transition T50 to T55 1.0 in long, PN TA5055</Description>
+			<Description>Transition, balsa, T50 to T55, 1.0" long, increasing, PN TA5055</Description>
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
@@ -3250,12 +3298,12 @@ Using this file:
 			<AftOutsideDiameter Unit="in">1.325</AftOutsideDiameter>
 			<AftShoulderDiameter Unit="in">1.283</AftShoulderDiameter>
 			<AftShoulderLength Unit="in">0.870</AftShoulderLength>
-			<Length Unit="in">1.000</Length>
+			<Length Unit="in">1.0</Length>
 		</Transition>
 		<Transition>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>TA5055[R]</PartNumber>
-			<Description>Reversed, transition T50 to T55 1.0 in long, PN TA5055</Description>
+			<Description>Transition, balsa, T50 to T55, 1.0" long, decreasing, PN TA5055</Description>
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
@@ -3265,12 +3313,14 @@ Using this file:
 			<AftOutsideDiameter Unit="in">0.976</AftOutsideDiameter>
 			<AftShoulderDiameter Unit="in">0.947</AftShoulderDiameter>
 			<AftShoulderLength Unit="in">0.750</AftShoulderLength>
-			<Length Unit="in">1.000</Length>
+			<Length Unit="in">1.0</Length>
 		</Transition>
+
+		<!-- TA5055L 1.5" long -->
 		<Transition>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>TA5055L</PartNumber>
-			<Description>transition T50 to T55 1.0 in long, PN TA5055L</Description>
+			<Description>Transition, balsa, T50 to T55, 1.5" long, increasing, PN TA5055L</Description>
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
@@ -3285,7 +3335,7 @@ Using this file:
 		<Transition>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>TA5055L[R]</PartNumber>
-			<Description>Reversed, transition T50 to T55 1.0 in long, PN TA5055L</Description>
+			<Description>Transition, balsa, T50 to T55, 1.5" long, decreasing, PN TA5055L</Description>
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
@@ -3297,10 +3347,12 @@ Using this file:
 			<AftShoulderLength Unit="in">0.620</AftShoulderLength>
 			<Length Unit="in">1.500</Length>
 		</Transition>
+
+		<!-- TA5060 -->
 		<Transition>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>TA5060</PartNumber>
-			<Description>Transition T50 to T60 2 in long, PN TA5060</Description>
+			<Description>Transition, balsa, T50 to T60, 2.0" long, increasing, PN TA5060</Description>
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
@@ -3315,7 +3367,7 @@ Using this file:
 		<Transition>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>TA5060[R]</PartNumber>
-			<Description>Reversed, Transition T50 to T60 2 in long, PN TA5060</Description>
+			<Description>Transition, balsa, T50 to T60, 2.0" long, decreasing, PN TA5060</Description>
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
@@ -3327,13 +3379,14 @@ Using this file:
 			<AftShoulderLength Unit="in">0.75</AftShoulderLength>
 			<Length Unit="in">2.000</Length>
 		</Transition>
+
 		<Transition>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>TA5060C</PartNumber>
-			<Description>Thor-Agena B Transition, PN TA5060C</Description>
+			<Description>Transition, balsa, T50 to T60, 3.75" long, increasing, Thor-Agena B type, PN TA5060C</Description>
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
-			<Shape>CONICAL</Shape>
+			<Shape>OGIVE</Shape>
 			<ForeOutsideDiameter Unit="in">0.976</ForeOutsideDiameter>
 			<ForeShoulderDiameter Unit="in">0.947</ForeShoulderDiameter>
 			<ForeShoulderLength Unit="in">1.000</ForeShoulderLength>
@@ -3345,10 +3398,10 @@ Using this file:
 		<Transition>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>TA5060C[R]</PartNumber>
-			<Description>Reversed, Thor-Agena B Transition, PN TA5060C</Description>
+			<Description>Transition, balsa, T50 to T60, 3.75" long, decreasing, Thor-Agena B type, PN TA5060C</Description>
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
-			<Shape>CONICAL</Shape>
+			<Shape>OGIVE</Shape>
 			<ForeOutsideDiameter Unit="in">1.637</ForeOutsideDiameter>
 			<ForeShoulderDiameter Unit="in">1.592</ForeShoulderDiameter>
 			<ForeShoulderLength Unit="in">0.750</ForeShoulderLength>
@@ -3357,11 +3410,13 @@ Using this file:
 			<AftShoulderLength Unit="in">1.000</AftShoulderLength>
 			<Length Unit="in">3.750</Length>
 		</Transition>
-		<!-- TA520 missing parameters -->
+
+		<!-- TA520 -->
+		<!-- ***SOURCE ERROR: BMS TA520 length in description is 0.78" long, but in table it's 0.75" long.  Adopting 0.75" -->
 		<Transition>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>TA520</PartNumber>
-			<Description>Transition T5 to T20 0.78 in long, PN TA520</Description>
+			<Description>Transition, balsa, T5 to T20, 0.75" long, increasing, PN TA520</Description>
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
@@ -3371,12 +3426,12 @@ Using this file:
 			<AftOutsideDiameter Unit="in">0.736</AftOutsideDiameter>
 			<AftShoulderDiameter Unit="in">0.707</AftShoulderDiameter>
 			<AftShoulderLength Unit="in">0.500</AftShoulderLength>
-			<Length Unit="in">0.78</Length>
+			<Length Unit="in">0.75</Length>
 		</Transition>
 		<Transition>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>TA520[R]</PartNumber>
-			<Description>Reversed, Transition T5 to T20 0.78 in long, PN TA520</Description>
+			<Description>Transition, balsa, T5 to T20, 0.75" long, decreasing, PN TA520</Description>
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
@@ -3386,13 +3441,15 @@ Using this file:
 			<AftOutsideDiameter Unit="in">0.541</AftOutsideDiameter>
 			<AftShoulderDiameter Unit="in">0.512</AftShoulderDiameter>
 			<AftShoulderLength Unit="in">0.500</AftShoulderLength>
-			<Length Unit="in">0.78</Length>
+			<Length Unit="in">0.75</Length>
 		</Transition>
-		<!-- TA5260C T60 parameters switched on BMS drawing-->
+
+		<!-- TA5260C -->
+		<!-- ***SOURCE ERROR: BMS TA5260C - the T60 ID and OD are labeled backwards on the drawing-->
 		<Transition>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>TA5260C</PartNumber>
-			<Description>Thor-Agena B Transition, PN TA5260C</Description>
+			<Description>Transition, balsa, T52 to T60, 3.75" long, increasing, Thor-Agena B type, PN TA5260C</Description>
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
@@ -3407,7 +3464,7 @@ Using this file:
 		<Transition>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>TA5260C[R]</PartNumber>
-			<Description>Reversed, Thor-Agena B Transition, PN TA5260C</Description>
+			<Description>Transition, balsa, T52 to T60, 3.75" long, decreasing, Thor-Agena B type, PN TA5260C</Description>
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
@@ -3419,11 +3476,12 @@ Using this file:
 			<AftShoulderLength Unit="in">0.750</AftShoulderLength>
 			<Length Unit="in">3.75</Length>
 		</Transition>
-		<!-- TA550 missing parameters -->
+
+		<!-- TA550 -->
 		<Transition>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>TA550</PartNumber>
-			<Description>Transition T5 to T50 1.0 in long, PN TA550</Description>
+			<Description>Transition, balsa, T5 to T50, 1.0" long, increasing, PN TA550</Description>
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
@@ -3438,7 +3496,7 @@ Using this file:
 		<Transition>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>TA550[R]</PartNumber>
-			<Description>Reversed, Transition T5 to T50 1.0 in long, PN TA550</Description>
+			<Description>Transition, balsa, T5 to T50, 1.0" long, decreasing, PN TA550</Description>
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
@@ -3450,10 +3508,12 @@ Using this file:
 			<AftShoulderLength Unit="in">0.500</AftShoulderLength>
 			<Length Unit="in">1.000</Length>
 		</Transition>
+
+		<!-- TA555 -->
 		<Transition>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>TA555</PartNumber>
-			<Description>Transiition T5 to T55 2.75 in long, PN TA555</Description>
+			<Description>Transition, balsa, T5 to T55, 2.75" long, increasing, PN TA555</Description>
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
@@ -3463,12 +3523,12 @@ Using this file:
 			<AftOutsideDiameter Unit="in">1.325</AftOutsideDiameter>
 			<AftShoulderDiameter Unit="in">1.283</AftShoulderDiameter>
 			<AftShoulderLength Unit="in">0.750</AftShoulderLength>
-			<Length Unit="in">2.750</Length>
+			<Length Unit="in">2.75</Length>
 		</Transition>
 		<Transition>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>TA555[R]</PartNumber>
-			<Description>Reversed, Transiition T5 to T55 2.75 in long, PN TA555</Description>
+			<Description>Transition, balsa, T5 to T55, 2.75" long, increasing, PN TA555</Description>
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
@@ -3478,12 +3538,14 @@ Using this file:
 			<AftOutsideDiameter Unit="in">0.541</AftOutsideDiameter>
 			<AftShoulderDiameter Unit="in">0.512</AftShoulderDiameter>
 			<AftShoulderLength Unit="in">0.750</AftShoulderLength>
-			<Length Unit="in">2.750</Length>
+			<Length Unit="in">2.75</Length>
 		</Transition>
+
+		<!-- TA5560 1.0" long -->
 		<Transition>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>TA5560</PartNumber>
-			<Description>Transition T55 to T60 1 long, PN TA5560</Description>
+			<Description>Transition, balsa, T55 to T60, 1.0" long, increasing, PN TA5560</Description>
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
@@ -3498,7 +3560,7 @@ Using this file:
 		<Transition>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>TA5560[R]</PartNumber>
-			<Description>Reversed, Transition T55 to T60 1 long, PN TA5560</Description>
+			<Description>Transition, balsa, T55 to T60, 1.0" long, decreasing, PN TA5560</Description>
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
@@ -3510,10 +3572,12 @@ Using this file:
 			<AftShoulderLength Unit="in">0.820</AftShoulderLength>
 			<Length Unit="in">1.000</Length>
 		</Transition>
+
+		<!-- TA5560A - 1.25" long -->
 		<Transition>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>TA5560A</PartNumber>
-			<Description>Transition T55 to T60 1.25 long, PN TA5560A</Description>
+			<Description>Transition, balsa, T55 to T60, 1.25" long, increasing, PN TA5560A</Description>
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
@@ -3523,12 +3587,12 @@ Using this file:
 			<AftOutsideDiameter Unit="in">1.637</AftOutsideDiameter>
 			<AftShoulderDiameter Unit="in">1.592</AftShoulderDiameter>
 			<AftShoulderLength Unit="in">0.750</AftShoulderLength>
-			<Length Unit="in">1.300</Length>
+			<Length Unit="in">1.25</Length>
 		</Transition>
 		<Transition>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>TA5560A[R]</PartNumber>
-			<Description>Transition T55 to T60 1.25 long, PN TA5560A</Description>
+			<Description>Transition, balsa, T55 to T60, 1.25" long, decreasing, PN TA5560A</Description>
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
@@ -3538,12 +3602,14 @@ Using this file:
 			<AftOutsideDiameter Unit="in">1.325</AftOutsideDiameter>
 			<AftShoulderDiameter Unit="in">1.283</AftShoulderDiameter>
 			<AftShoulderLength Unit="in">0.820</AftShoulderLength>
-			<Length Unit="in">1.300</Length>
+			<Length Unit="in">1.25</Length>
 		</Transition>
+
+		<!-- TA6070 -->
 		<Transition>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>TA6070</PartNumber>
-			<Description>Transition T60 to T80 1.75 long, PN TA6070</Description>
+			<Description>Transition, balsa, T60 to T70, 1.5" long, increasing, PN TA6070</Description>
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
@@ -3558,7 +3624,7 @@ Using this file:
 		<Transition>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>TA6070[R]</PartNumber>
-			<Description>Reversed,Transition T60 to T80 1.75 long, PN TA6070</Description>
+			<Description>Transition, balsa, T60 to T70, 1.5" long, deincreasing, PN TA6070</Description>
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
@@ -3570,10 +3636,12 @@ Using this file:
 			<AftShoulderLength Unit="in">0.500</AftShoulderLength>
 			<Length Unit="in">1.500</Length>
 		</Transition>
+
+		<!-- TA6080 -->
 		<Transition>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>TA6080</PartNumber>
-			<Description>Transition T60 to T80 2.25 in long, PN TA6080</Description>
+			<Description>Transition, balsa, T60 to T80, 2.25" long, increasing, PN TA6080</Description>
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
@@ -3588,7 +3656,7 @@ Using this file:
 		<Transition>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>TA6080[R]</PartNumber>
-			<Description>Reversed, Transition T60 to T80 2.25 in long, PN TA6080</Description>
+			<Description>Transition, balsa, T60 to T80, 2.25" long, decreasing, PN TA6080</Description>
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
@@ -3600,11 +3668,12 @@ Using this file:
 			<AftShoulderLength Unit="in">1.250</AftShoulderLength>
 			<Length Unit="in">2.250</Length>
 		</Transition>
-		<!-- TA7080 missing parameters-->
+
+		<!-- TA7080 -->
 		<Transition>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>TA7080</PartNumber>
-			<Description>Transition T70 to T80 2 in long, PN TA7080</Description>
+			<Description>Transition, balsa, T70 to T80, 2.0" long, increasing, PN TA7080</Description>
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
@@ -3619,7 +3688,7 @@ Using this file:
 		<Transition>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>TA7080[R]</PartNumber>
-			<Description>Reversed, Transition T70 to T80 2 in long, PN TA7080</Description>
+			<Description>Transition, balsa, T70 to T80, 2.0" long, decreasing, PN TA7080</Description>
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
@@ -3631,10 +3700,12 @@ Using this file:
 			<AftShoulderLength Unit="in">1.250</AftShoulderLength>
 			<Length Unit="in">2.000</Length>
 		</Transition>
+
+		<!-- TA70300 -->
 		<Transition>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>TA70300</PartNumber>
-			<Description>Transition (taper length=2.5 inch), PN TA70300</Description>
+			<Description>Transition, balsa, T70 to T300, 2.5" long, increasing, PN TA70300</Description>
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
@@ -3649,7 +3720,7 @@ Using this file:
 		<Transition>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>TA70300[R]</PartNumber>
-			<Description>Transition (taper length=2.5 inch), PN TA70300</Description>
+			<Description>Transition, balsa, T70 to T300, 2.5" long, decreasing, PN TA70300</Description>
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
@@ -3661,10 +3732,12 @@ Using this file:
 			<AftShoulderLength Unit="in">1.500</AftShoulderLength>
 			<Length Unit="in">2.500</Length>
 		</Transition>
+
+		<!-- TA80300 -->
 		<Transition>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>TA80300</PartNumber>
-			<Description>Transition (taper length=2.5 inch), PN TA80300</Description>
+			<Description>Transition, balsa, T80 to T300, 2.5" long, increasing, PN TA80300</Description>
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
@@ -3679,7 +3752,7 @@ Using this file:
 		<Transition>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>TA80300[R]</PartNumber>
-			<Description>Reversed, Transition (taper length=2.5 inch), PN TA80300</Description>
+			<Description>Transition, balsa, T80 to T300, 2.5" long, decreasing, PN TA80300</Description>
 			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
 			<Filled>true</Filled>
 			<Shape>CONICAL</Shape>
@@ -3691,6 +3764,7 @@ Using this file:
 			<AftShoulderLength Unit="in">1.500</AftShoulderLength>
 			<Length Unit="in">2.500</Length>
 		</Transition>
+
 <!-- implemented in OR 22.02 beta 5, need more info from BMS-->
 <!--
 		<RailButton>
