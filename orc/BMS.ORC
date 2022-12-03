@@ -547,14 +547,15 @@ All nose cone and transition shoulder diameters have been set to .003" smaller t
 		-->
 		<!-- 
 			BMS does not specity inner, outer diameters, wall thickness for launch lugs
+			Used Estes values for the 1/8 and 3/16" sizes which should be very close
 		 -->
 		<LaunchLug>
 			<Manufacturer>BalsaMachining</Manufacturer>
 			<PartNumber>LL18-125</PartNumber>
 			<Description>Launch lug, 1/8", 1.25 in. length, PN LL18-125</Description>
 			<Material Type="BULK">Paper, spiral kraft glassine, BMS avg, bulk</Material>
-			<InsideDiameter Unit="in">0.125</InsideDiameter>
-			<OutsideDiameter Unit="in">1.25</OutsideDiameter>
+			<InsideDiameter Unit="in">0.156</InsideDiameter>
+			<OutsideDiameter Unit="in">0.173</OutsideDiameter>
 			<Length Unit="in">1.25</Length>
 		</LaunchLug>
 		<LaunchLug>
@@ -562,8 +563,8 @@ All nose cone and transition shoulder diameters have been set to .003" smaller t
 			<PartNumber>LL18-1200</PartNumber>
 			<Description>Launch lug, 1/8", 12 in. length, PN LL18-1200</Description>
 			<Material Type="BULK">Paper, spiral kraft glassine, BMS avg, bulk</Material>
-			<InsideDiameter Unit="in">0.125</InsideDiameter>
-			<OutsideDiameter Unit="in">1.25</OutsideDiameter>
+			<InsideDiameter Unit="in">0.156</InsideDiameter>
+			<OutsideDiameter Unit="in">0.173</OutsideDiameter>
 			<Length Unit="in">12</Length>
 		</LaunchLug>
 		<LaunchLug>
@@ -571,8 +572,8 @@ All nose cone and transition shoulder diameters have been set to .003" smaller t
 			<PartNumber>LL316-200</PartNumber>
 			<Description>Launch lug, 3/16", 2 in. length, PN LL316-200</Description>
 			<Material Type="BULK">Paper, spiral kraft glassine, BMS avg, bulk</Material>
-			<InsideDiameter Unit="in">0.187</InsideDiameter>
-			<OutsideDiameter Unit="in">0.187</OutsideDiameter>
+			<InsideDiameter Unit="in">0.210</InsideDiameter>
+			<OutsideDiameter Unit="in">0.227</OutsideDiameter>
 			<Length Unit="in">2</Length>
 		</LaunchLug>
 		<LaunchLug>
@@ -580,8 +581,8 @@ All nose cone and transition shoulder diameters have been set to .003" smaller t
 			<PartNumber>LL316-1200</PartNumber>
 			<Description>Launch lug, 3/16", 12 in. length, PN LL316-1200</Description>
 			<Material Type="BULK">Paper, spiral kraft glassine, BMS avg, bulk</Material>
-			<InsideDiameter Unit="in">0.187</InsideDiameter>
-			<OutsideDiameter Unit="in">0.187</OutsideDiameter>
+			<InsideDiameter Unit="in">0.210</InsideDiameter>
+			<OutsideDiameter Unit="in">0.227</OutsideDiameter>
 			<Length Unit="in">12</Length>
 		</LaunchLug>
 		<!-- T14LL is an oddball, 0.010 different than LL14 -->
