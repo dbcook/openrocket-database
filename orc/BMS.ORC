@@ -618,6 +618,8 @@ All nose cone and transition shoulder diameters have been set to .003" smaller t
 			=======================================================================================
 			Tube Couplers
 			=======================================================================================
+			***TODO: Fix up densities, they should not be all different per tube size.
+			There is a data problem somewhere.
 		-->
 
 		<TubeCoupler>
@@ -3119,6 +3121,169 @@ All nose cone and transition shoulder diameters have been set to .003" smaller t
 			Transitions aka Reducers
 			=======================================================================================
 		-->
+		<!-- TA520 -->
+		<!-- ***SOURCE ERROR: BMS TA520 length in description is 0.78" long, but in table it's 0.75" long.  Adopting 0.75" -->
+		<Transition>
+			<Manufacturer>BalsaMachining</Manufacturer>
+			<PartNumber>TA520</PartNumber>
+			<Description>Transition, balsa, T5 to T20, 0.75" long, increasing, PN TA520</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>CONICAL</Shape>
+			<ForeOutsideDiameter Unit="in">0.541</ForeOutsideDiameter>
+			<ForeShoulderDiameter Unit="in">0.512</ForeShoulderDiameter>
+			<ForeShoulderLength Unit="in">0.500</ForeShoulderLength>
+			<AftOutsideDiameter Unit="in">0.736</AftOutsideDiameter>
+			<AftShoulderDiameter Unit="in">0.707</AftShoulderDiameter>
+			<AftShoulderLength Unit="in">0.500</AftShoulderLength>
+			<Length Unit="in">0.75</Length>
+		</Transition>
+		<Transition>
+			<Manufacturer>BalsaMachining</Manufacturer>
+			<PartNumber>TA520[R]</PartNumber>
+			<Description>Transition, balsa, T5 to T20, 0.75" long, decreasing, PN TA520</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>CONICAL</Shape>
+			<ForeOutsideDiameter Unit="in">0.736</ForeOutsideDiameter>
+			<ForeShoulderDiameter Unit="in">0.707</ForeShoulderDiameter>
+			<ForeShoulderLength Unit="in">0.500</ForeShoulderLength>
+			<AftOutsideDiameter Unit="in">0.541</AftOutsideDiameter>
+			<AftShoulderDiameter Unit="in">0.512</AftShoulderDiameter>
+			<AftShoulderLength Unit="in">0.500</AftShoulderLength>
+			<Length Unit="in">0.75</Length>
+		</Transition>
+
+		<!-- TA5260C -->
+		<!-- ***SOURCE ERROR: BMS TA5260C - the T60 ID and OD are labeled backwards on the drawing-->
+		<Transition>
+			<Manufacturer>BalsaMachining</Manufacturer>
+			<PartNumber>TA5260C</PartNumber>
+			<Description>Transition, balsa, T52 to T60, 3.75" long, increasing, Thor-Agena B type, PN TA5260C</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>CONICAL</Shape>
+			<ForeOutsideDiameter Unit="in">1.014</ForeOutsideDiameter>
+			<ForeShoulderDiameter Unit="in">1.000</ForeShoulderDiameter>
+			<ForeShoulderLength Unit="in">0.750</ForeShoulderLength>
+			<AftOutsideDiameter Unit="in">1.637</AftOutsideDiameter>
+			<AftShoulderDiameter Unit="in">1.592</AftShoulderDiameter>
+			<AftShoulderLength Unit="in">0.750</AftShoulderLength>
+			<Length Unit="in">3.75</Length>
+		</Transition>
+		<Transition>
+			<Manufacturer>BalsaMachining</Manufacturer>
+			<PartNumber>TA5260C[R]</PartNumber>
+			<Description>Transition, balsa, T52 to T60, 3.75" long, decreasing, Thor-Agena B type, PN TA5260C</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>CONICAL</Shape>
+			<ForeOutsideDiameter Unit="in">1.637</ForeOutsideDiameter>
+			<ForeShoulderDiameter Unit="in">1.592</ForeShoulderDiameter>
+			<ForeShoulderLength Unit="in">0.750</ForeShoulderLength>
+			<AftOutsideDiameter Unit="in">1.014</AftOutsideDiameter>
+			<AftShoulderDiameter Unit="in">1.000</AftShoulderDiameter>
+			<AftShoulderLength Unit="in">0.750</AftShoulderLength>
+			<Length Unit="in">3.75</Length>
+		</Transition>
+
+		<!-- TA550 -->
+		<Transition>
+			<Manufacturer>BalsaMachining</Manufacturer>
+			<PartNumber>TA550</PartNumber>
+			<Description>Transition, balsa, T5 to T50, 1.0" long, increasing, PN TA550</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>CONICAL</Shape>
+			<ForeOutsideDiameter Unit="in">0.541</ForeOutsideDiameter>
+			<ForeShoulderDiameter Unit="in">0.512</ForeShoulderDiameter>
+			<ForeShoulderLength Unit="in">0.500</ForeShoulderLength>
+			<AftOutsideDiameter Unit="in">0.976</AftOutsideDiameter>
+			<AftShoulderDiameter Unit="in">0.947</AftShoulderDiameter>
+			<AftShoulderLength Unit="in">0.620</AftShoulderLength>
+			<Length Unit="in">1.000</Length>
+		</Transition>
+		<Transition>
+			<Manufacturer>BalsaMachining</Manufacturer>
+			<PartNumber>TA550[R]</PartNumber>
+			<Description>Transition, balsa, T5 to T50, 1.0" long, decreasing, PN TA550</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>CONICAL</Shape>
+			<ForeOutsideDiameter Unit="in">0.976</ForeOutsideDiameter>
+			<ForeShoulderDiameter Unit="in">0.947</ForeShoulderDiameter>
+			<ForeShoulderLength Unit="in">0.620</ForeShoulderLength>
+			<AftOutsideDiameter Unit="in">0.541</AftOutsideDiameter>
+			<AftShoulderDiameter Unit="in">0.512</AftShoulderDiameter>
+			<AftShoulderLength Unit="in">0.500</AftShoulderLength>
+			<Length Unit="in">1.000</Length>
+		</Transition>
+
+		<!-- TA555 -->
+		<Transition>
+			<Manufacturer>BalsaMachining</Manufacturer>
+			<PartNumber>TA555</PartNumber>
+			<Description>Transition, balsa, T5 to T55, 2.75" long, increasing, PN TA555</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>CONICAL</Shape>
+			<ForeOutsideDiameter Unit="in">0.541</ForeOutsideDiameter>
+			<ForeShoulderDiameter Unit="in">0.512</ForeShoulderDiameter>
+			<ForeShoulderLength Unit="in">0.750</ForeShoulderLength>
+			<AftOutsideDiameter Unit="in">1.325</AftOutsideDiameter>
+			<AftShoulderDiameter Unit="in">1.283</AftShoulderDiameter>
+			<AftShoulderLength Unit="in">0.750</AftShoulderLength>
+			<Length Unit="in">2.75</Length>
+		</Transition>
+		<Transition>
+			<Manufacturer>BalsaMachining</Manufacturer>
+			<PartNumber>TA555[R]</PartNumber>
+			<Description>Transition, balsa, T5 to T55, 2.75" long, increasing, PN TA555</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>CONICAL</Shape>
+			<ForeOutsideDiameter Unit="in">1.325</ForeOutsideDiameter>
+			<ForeShoulderDiameter Unit="in">1.283</ForeShoulderDiameter>
+			<ForeShoulderLength Unit="in">0.750</ForeShoulderLength>
+			<AftOutsideDiameter Unit="in">0.541</AftOutsideDiameter>
+			<AftShoulderDiameter Unit="in">0.512</AftShoulderDiameter>
+			<AftShoulderLength Unit="in">0.750</AftShoulderLength>
+			<Length Unit="in">2.75</Length>
+		</Transition>
+
+		<!-- TA5560 1.0" long -->
+		<Transition>
+			<Manufacturer>BalsaMachining</Manufacturer>
+			<PartNumber>TA5560</PartNumber>
+			<Description>Transition, balsa, T55 to T60, 1.0" long, increasing, PN TA5560</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>CONICAL</Shape>
+			<ForeOutsideDiameter Unit="in">1.325</ForeOutsideDiameter>
+			<ForeShoulderDiameter Unit="in">1.283</ForeShoulderDiameter>
+			<ForeShoulderLength Unit="in">0.820</ForeShoulderLength>
+			<AftOutsideDiameter Unit="in">1.637</AftOutsideDiameter>
+			<AftShoulderDiameter Unit="in">1.592</AftShoulderDiameter>
+			<AftShoulderLength Unit="in">1.000</AftShoulderLength>
+			<Length Unit="in">1.000</Length>
+		</Transition>
+		<Transition>
+			<Manufacturer>BalsaMachining</Manufacturer>
+			<PartNumber>TA5560[R]</PartNumber>
+			<Description>Transition, balsa, T55 to T60, 1.0" long, decreasing, PN TA5560</Description>
+			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
+			<Filled>true</Filled>
+			<Shape>CONICAL</Shape>
+			<ForeOutsideDiameter Unit="in">1.637</ForeOutsideDiameter>
+			<ForeShoulderDiameter Unit="in">1.592</ForeShoulderDiameter>
+			<ForeShoulderLength Unit="in">1.000</ForeShoulderLength>
+			<AftOutsideDiameter Unit="in">1.325</AftOutsideDiameter>
+			<AftShoulderDiameter Unit="in">1.283</AftShoulderDiameter>
+			<AftShoulderLength Unit="in">0.820</AftShoulderLength>
+			<Length Unit="in">1.000</Length>
+		</Transition>
+
+
 		<!-- TA2050: T20 to T50. 2" long -->
 		<Transition>
 			<Manufacturer>BalsaMachining</Manufacturer>
@@ -3412,167 +3577,6 @@ All nose cone and transition shoulder diameters have been set to .003" smaller t
 			<Length Unit="in">3.750</Length>
 		</Transition>
 
-		<!-- TA520 -->
-		<!-- ***SOURCE ERROR: BMS TA520 length in description is 0.78" long, but in table it's 0.75" long.  Adopting 0.75" -->
-		<Transition>
-			<Manufacturer>BalsaMachining</Manufacturer>
-			<PartNumber>TA520</PartNumber>
-			<Description>Transition, balsa, T5 to T20, 0.75" long, increasing, PN TA520</Description>
-			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
-			<Filled>true</Filled>
-			<Shape>CONICAL</Shape>
-			<ForeOutsideDiameter Unit="in">0.541</ForeOutsideDiameter>
-			<ForeShoulderDiameter Unit="in">0.512</ForeShoulderDiameter>
-			<ForeShoulderLength Unit="in">0.500</ForeShoulderLength>
-			<AftOutsideDiameter Unit="in">0.736</AftOutsideDiameter>
-			<AftShoulderDiameter Unit="in">0.707</AftShoulderDiameter>
-			<AftShoulderLength Unit="in">0.500</AftShoulderLength>
-			<Length Unit="in">0.75</Length>
-		</Transition>
-		<Transition>
-			<Manufacturer>BalsaMachining</Manufacturer>
-			<PartNumber>TA520[R]</PartNumber>
-			<Description>Transition, balsa, T5 to T20, 0.75" long, decreasing, PN TA520</Description>
-			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
-			<Filled>true</Filled>
-			<Shape>CONICAL</Shape>
-			<ForeOutsideDiameter Unit="in">0.736</ForeOutsideDiameter>
-			<ForeShoulderDiameter Unit="in">0.707</ForeShoulderDiameter>
-			<ForeShoulderLength Unit="in">0.500</ForeShoulderLength>
-			<AftOutsideDiameter Unit="in">0.541</AftOutsideDiameter>
-			<AftShoulderDiameter Unit="in">0.512</AftShoulderDiameter>
-			<AftShoulderLength Unit="in">0.500</AftShoulderLength>
-			<Length Unit="in">0.75</Length>
-		</Transition>
-
-		<!-- TA5260C -->
-		<!-- ***SOURCE ERROR: BMS TA5260C - the T60 ID and OD are labeled backwards on the drawing-->
-		<Transition>
-			<Manufacturer>BalsaMachining</Manufacturer>
-			<PartNumber>TA5260C</PartNumber>
-			<Description>Transition, balsa, T52 to T60, 3.75" long, increasing, Thor-Agena B type, PN TA5260C</Description>
-			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
-			<Filled>true</Filled>
-			<Shape>CONICAL</Shape>
-			<ForeOutsideDiameter Unit="in">1.014</ForeOutsideDiameter>
-			<ForeShoulderDiameter Unit="in">1.000</ForeShoulderDiameter>
-			<ForeShoulderLength Unit="in">0.750</ForeShoulderLength>
-			<AftOutsideDiameter Unit="in">1.637</AftOutsideDiameter>
-			<AftShoulderDiameter Unit="in">1.592</AftShoulderDiameter>
-			<AftShoulderLength Unit="in">0.750</AftShoulderLength>
-			<Length Unit="in">3.75</Length>
-		</Transition>
-		<Transition>
-			<Manufacturer>BalsaMachining</Manufacturer>
-			<PartNumber>TA5260C[R]</PartNumber>
-			<Description>Transition, balsa, T52 to T60, 3.75" long, decreasing, Thor-Agena B type, PN TA5260C</Description>
-			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
-			<Filled>true</Filled>
-			<Shape>CONICAL</Shape>
-			<ForeOutsideDiameter Unit="in">1.637</ForeOutsideDiameter>
-			<ForeShoulderDiameter Unit="in">1.592</ForeShoulderDiameter>
-			<ForeShoulderLength Unit="in">0.750</ForeShoulderLength>
-			<AftOutsideDiameter Unit="in">1.014</AftOutsideDiameter>
-			<AftShoulderDiameter Unit="in">1.000</AftShoulderDiameter>
-			<AftShoulderLength Unit="in">0.750</AftShoulderLength>
-			<Length Unit="in">3.75</Length>
-		</Transition>
-
-		<!-- TA550 -->
-		<Transition>
-			<Manufacturer>BalsaMachining</Manufacturer>
-			<PartNumber>TA550</PartNumber>
-			<Description>Transition, balsa, T5 to T50, 1.0" long, increasing, PN TA550</Description>
-			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
-			<Filled>true</Filled>
-			<Shape>CONICAL</Shape>
-			<ForeOutsideDiameter Unit="in">0.541</ForeOutsideDiameter>
-			<ForeShoulderDiameter Unit="in">0.512</ForeShoulderDiameter>
-			<ForeShoulderLength Unit="in">0.500</ForeShoulderLength>
-			<AftOutsideDiameter Unit="in">0.976</AftOutsideDiameter>
-			<AftShoulderDiameter Unit="in">0.947</AftShoulderDiameter>
-			<AftShoulderLength Unit="in">0.620</AftShoulderLength>
-			<Length Unit="in">1.000</Length>
-		</Transition>
-		<Transition>
-			<Manufacturer>BalsaMachining</Manufacturer>
-			<PartNumber>TA550[R]</PartNumber>
-			<Description>Transition, balsa, T5 to T50, 1.0" long, decreasing, PN TA550</Description>
-			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
-			<Filled>true</Filled>
-			<Shape>CONICAL</Shape>
-			<ForeOutsideDiameter Unit="in">0.976</ForeOutsideDiameter>
-			<ForeShoulderDiameter Unit="in">0.947</ForeShoulderDiameter>
-			<ForeShoulderLength Unit="in">0.620</ForeShoulderLength>
-			<AftOutsideDiameter Unit="in">0.541</AftOutsideDiameter>
-			<AftShoulderDiameter Unit="in">0.512</AftShoulderDiameter>
-			<AftShoulderLength Unit="in">0.500</AftShoulderLength>
-			<Length Unit="in">1.000</Length>
-		</Transition>
-
-		<!-- TA555 -->
-		<Transition>
-			<Manufacturer>BalsaMachining</Manufacturer>
-			<PartNumber>TA555</PartNumber>
-			<Description>Transition, balsa, T5 to T55, 2.75" long, increasing, PN TA555</Description>
-			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
-			<Filled>true</Filled>
-			<Shape>CONICAL</Shape>
-			<ForeOutsideDiameter Unit="in">0.541</ForeOutsideDiameter>
-			<ForeShoulderDiameter Unit="in">0.512</ForeShoulderDiameter>
-			<ForeShoulderLength Unit="in">0.750</ForeShoulderLength>
-			<AftOutsideDiameter Unit="in">1.325</AftOutsideDiameter>
-			<AftShoulderDiameter Unit="in">1.283</AftShoulderDiameter>
-			<AftShoulderLength Unit="in">0.750</AftShoulderLength>
-			<Length Unit="in">2.75</Length>
-		</Transition>
-		<Transition>
-			<Manufacturer>BalsaMachining</Manufacturer>
-			<PartNumber>TA555[R]</PartNumber>
-			<Description>Transition, balsa, T5 to T55, 2.75" long, increasing, PN TA555</Description>
-			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
-			<Filled>true</Filled>
-			<Shape>CONICAL</Shape>
-			<ForeOutsideDiameter Unit="in">1.325</ForeOutsideDiameter>
-			<ForeShoulderDiameter Unit="in">1.283</ForeShoulderDiameter>
-			<ForeShoulderLength Unit="in">0.750</ForeShoulderLength>
-			<AftOutsideDiameter Unit="in">0.541</AftOutsideDiameter>
-			<AftShoulderDiameter Unit="in">0.512</AftShoulderDiameter>
-			<AftShoulderLength Unit="in">0.750</AftShoulderLength>
-			<Length Unit="in">2.75</Length>
-		</Transition>
-
-		<!-- TA5560 1.0" long -->
-		<Transition>
-			<Manufacturer>BalsaMachining</Manufacturer>
-			<PartNumber>TA5560</PartNumber>
-			<Description>Transition, balsa, T55 to T60, 1.0" long, increasing, PN TA5560</Description>
-			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
-			<Filled>true</Filled>
-			<Shape>CONICAL</Shape>
-			<ForeOutsideDiameter Unit="in">1.325</ForeOutsideDiameter>
-			<ForeShoulderDiameter Unit="in">1.283</ForeShoulderDiameter>
-			<ForeShoulderLength Unit="in">0.820</ForeShoulderLength>
-			<AftOutsideDiameter Unit="in">1.637</AftOutsideDiameter>
-			<AftShoulderDiameter Unit="in">1.592</AftShoulderDiameter>
-			<AftShoulderLength Unit="in">1.000</AftShoulderLength>
-			<Length Unit="in">1.000</Length>
-		</Transition>
-		<Transition>
-			<Manufacturer>BalsaMachining</Manufacturer>
-			<PartNumber>TA5560[R]</PartNumber>
-			<Description>Transition, balsa, T55 to T60, 1.0" long, decreasing, PN TA5560</Description>
-			<Material Type="BULK">Balsa, bulk, BMS typical</Material>
-			<Filled>true</Filled>
-			<Shape>CONICAL</Shape>
-			<ForeOutsideDiameter Unit="in">1.637</ForeOutsideDiameter>
-			<ForeShoulderDiameter Unit="in">1.592</ForeShoulderDiameter>
-			<ForeShoulderLength Unit="in">1.000</ForeShoulderLength>
-			<AftOutsideDiameter Unit="in">1.325</AftOutsideDiameter>
-			<AftShoulderDiameter Unit="in">1.283</AftShoulderDiameter>
-			<AftShoulderLength Unit="in">0.820</AftShoulderLength>
-			<Length Unit="in">1.000</Length>
-		</Transition>
 
 		<!-- TA5560A - 1.25" long -->
 		<Transition>
