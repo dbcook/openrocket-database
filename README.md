@@ -26,6 +26,12 @@ System compatibility:  works anywhere OpenRocket can run
 
 ## Release Notes
 
+1.0.0.1
+* Major updates
+  * BMS: various additions and corrections
+  * Rocketarium: new file but not reviewed
+  * README: update to current situation
+
 0.9.4.0
 * Fixes
   * Estes_classic: improve documentation of PNC-80BB
@@ -151,12 +157,26 @@ System compatibility:  works anywhere OpenRocket can run
 
 Release notes from older versions can be seen [here](docs/release_notes_archive.md)
 
+## WARNINGS
+
+### DO NOT ASSUME THAT ANY INFORMATION IN THIS DATABASE IS CORRECT FOR YOUR APPLICATION.
+
+Users should ALWAYS WEIGH AND MEASURE YOUR ACTUAL PARTS and use
+those values in your OpenRocket simulation.  Database errors, unannounced revisions
+to parts, and manufacturing variances can all cause OpenRocket to give incorrect
+CG and CP locations, and hence incorrect stability margin estimates.
+
+### DO NOT ASSUME THAT YOUR ROCKET WILL BE STABLE JUST BECAUSE OpenRocket SAYS IT IS.
+
+OpenRocket relies on mathematics that are only *approximations*. It cannot handle
+many cases, especially those involving asymmetric lift/drag.
+
 
 ## Installing and Uninstalling
 
 ### Installing with OpenRocket 2022 releases
 
-You don't have to do anything special.  This is the default database for the new OpenRocket.
+You don't have to do anything.  This is the default database for the new OpenRocket.
 
 ### Installing with OpenRocket 15.03 (last stable release from 2015)
 
@@ -194,7 +214,7 @@ git clone https://github.com/dbcook/openrocket-database.git
 mklink /D %APPDATA%\OpenRocket\Components C:\openrocket-database\orc
 ```
 
-### Uninstalling with OpenRocket 15.03
+### Uninstalling from OpenRocket 15.03
 
 General procedure:
 1. Delete the symlink you created during the installation procedure.
@@ -224,18 +244,17 @@ Please don't report problems on TRF, via email, etc. - use GitHub issues; others
 ## Features and improvements
 
 * Detailed documentation on how the components database works, and much info about restrictions and limitations.
-* Much research data added as comments in the files
+* Much research data added as comments in the XML .orc files
 * Mass overrides mostly removed - material densities set correctly
 * Mass data for tubing analyzed to remove outliers and derive correct average densities
 * Master materials reference file built, with heavily researched data
 * Estes file vastly enhanced: added missing parts, PNs, Pro Series II parts, many errors fixed
 * Semroc: many errors and conflicts resolved, missing parts added
 * LOC Precision:  many conflicts and errors resolved, parachutes added
-* New manufacturer files added: Top Flight, Madcow, MPC, generic chutes/streamers
+* BMS: complete coverage, updated to latest website specs
+* New manufacturer files added: Top Flight, Madcow, MPC, Rocketarium, generic chutes/streamers
 
 ## State of the Project
-
-
 
 2022: now making minor updates only
 
@@ -247,14 +266,15 @@ side, plus LOC and Madcow on the high power side.
 Indexing of new Estes parts is no longer possible, and corrections to the Semroc parts are also now
 impossible since the legacy Semroc web server has crashed irrecoverably.
 
-The information about how OpenRocket databases work
+The information about how OpenRocket databases work in version 15.03
 has been through several iterations including code dives and is pretty accurate, but it's
 somewhat Mac centric because that's what I use most.
 
 ### Possible Updates
 
+* Add discountrocketry / modelrockets.us file - they source their own tubes and some nose cones
 * Build a separate Centuri file (but compatible tubes and nose cones are in the Semroc file)
-* Review / upgrade BMS, PML, and GLR stock files
+* Review / upgrade PML and GLR stock files
 * Add Bluetube / Always Ready Rocketry centering rings (and nose cones if possible)
 * Add historic FSI and CMR parts, though they are no longer available anywhere
 
@@ -267,15 +287,16 @@ somewhat Mac centric because that's what I use most.
 | `semroc.orc`             | Yes  | 100% - believed complete, SEMROC website died, ending cleanup efforts
 | `bluetube.orc`           | Yes  | 100% - tubes and couplers are done, still needs CRs and NCs
 | `Quest.orc`              | Yes  | 98% - everything known is done
-| `bms.orc`                | Yes  | -- mfr data is incomplete but I may do the documented parts
+| `bms.orc`                | Yes  | 99% - updated with direct info from BMS
 | `Fliskits.orc`           | Yes  | -- Won't do, few or no unique parts
 | `giantleaprocketry.orc`  | Yes  | 95% - totally new file created, many old errors fixed
 | `publicmissiles.orc`     | Yes  | 75% - need to finish centering rings and glassed couplers
 | `apogee.orc`             | No   | 75% - New file added with TARC foam NCs and egg protectors
+| `rocketarium.orc`        | No   | 75% - ready for detailed validation
 | `fsi.orc`                | No   | -- won't do for now, historical completeness only
 | `cmr.orc`                | No   | -- won't do for now, historical completeness only
 | `mpc.orc`                | No   | 98% - all known data included
-| `estes_classic.orc`      | No   | 98% - classic era parts are complete
+| `estes_classic.orc`      | No   | 99% - classic era parts are complete
 | `estes_ps2.orc`          | No   | 98%
 | `madcow.orc`             | No   | 99%
 | `top_flight.orc`         | No   | 100%
@@ -455,12 +476,15 @@ LOC Precision was an early high power kit vendor, founded in 1986 by Ron and Deb
 It was acquired in late 2000 by Barry Lynch when Ron and Deb retired, and most recently sold in
 November 2016 to Dave Barber and Jason Turicik of Plymouth, WI. (source: LOC website 2018)
 
-Dimensional data from LOC Precision is notoriously incomplete and error-filled, but I've
-been able to resolve most of it using Apogee's tabulated data and some measurements of actual parts.
-In the Barber/Turicik era the website data has been improving.
+Dimensional data from LOC Precision prior to the Barber/Turicik era is notoriously incomplete
+and error-filled, but I've was able to resolve most of it using Apogee's tabulated data and
+some measurements of actual parts.  In the Barber/Turicik era the website data has improved but
+there are still gaps.
 
 In 2022 LOC Precision acquired the hobby rocket business of Public Missiles Ltd (PML).  PML's
-former website publicmissiles.com has gone offline as of September 2022.
+former website publicmissiles.com has gone offline as of September 2022, resulting in the loss
+of some parts data.  Many of these parts have reappeared on the LOC website, but often without
+dimensions and weights.
 
 #### SEMROC
 
@@ -546,7 +570,8 @@ tubes and balsa parts are on the [BMS website](https://balsamachining.com).
 
 The balsa parts lists mostly do not show shoulder lengths, while the tube listings
 give full dimensions.  No mass/weight data is given.  BMS makes a significant number
-of their own unique centering rings.
+of their own unique centering rings.  Bill Saindon has privately provided a list
+of shoulder lengths for all the balsa parts that have shoulders.
 
 The BMS part numbering is somewhat Estes-like, but with considerable modifications.
 The classic Estes tube series numbers (5, 20, 50, 55, 60, 70, 80) appear
@@ -554,7 +579,7 @@ somewhere in the BMS part number.  Other designations are used for Centuri
 compatible items.
 
 In addition to their own stocked parts, BMS also makes custom balsa parts for other
-rocket kit makers.
+rocket kit makers.  These are not listed in this database.
 
 #### Fliskits
 
@@ -677,7 +702,7 @@ MMI. Quest was originally called Quest Aerospace Education, Inc.
 and was based in Phoenix.  Later it was reported operating from Colorado.  Most recently it became
 a division of RCS RMS, Inc. (parent company of Aerotech) in about 2016, and operates from Cedar City, UT.
 Quest formerly sold 18mm and 20mm black powder motors, which have been discontinued in 2017-2018
-(reportedly due to sourcing problems in China) in favor of "Q-Jet" composite A through D motors designed
+(reportedly due to sourcing problems in China) in favor of "Q-Jet" composite A through E motors designed
 by Aerotech.
 
 The [Quest website](https://www.questaerospace.com/) has good dimensions for most body tubes, but
@@ -721,7 +746,7 @@ plans appear to be for Micromaxx sized models.
 Comparing the instructions reveals that Quest used product number 1005 for two completely 
 different models, the Tracer and the Starhawk.
 
-The `quest.orc` included with stock OpenRocket has many errors.  I constructed a completely
+The `quest.orc` included with stock OpenRocket 15.03 had many errors.  I constructed a completely
 new Quest file with better dimensions; however the masses are all computed volumetrically and
 are mostly unverified.
 
@@ -840,13 +865,11 @@ Nonetheless the Giant Leap file here has been updated with the best available in
 ### Missing Manufacturers
 
 There are several product lines from legacy and major manufacturers - especially high
-power vendors - that are not represented in the stock OpenRocket.  Some of these are now covered in
+power vendors - that were not represented in OpenRocket 15.03.  Some of these are now covered in
 this database.
 
 * Centuri (many cloneable kits with parts different than Estes).  The Semroc parts file contains
   many closely compatible parts including all nose cones and tube sizes.
-* Apogee Components / Tim van Milligan. They mostly sell other vendors' parts, but they do source
-  some unique ones, e.g. foam egg protectors for TARC.
 * Apogee Components / Ed LaCroix.  The original Apogee made competition parts that the later
   Apogee under Tim van Milligan did not carry forward.  
 * CMR (long defunct but had unique tube sizes)
@@ -889,7 +912,7 @@ they are pretty heavy and the CG actually moves a fair amount.
 
 The 'match fore diameter' (the field name varies slightly) option in the parts selection
 dialogs is very useful for narrowing the giant list to potentially compatible parts.
-However, it is buggy and when choosing couplers or inner tubes it sometimes shows parts
+However, in 15.03 it is buggy and when choosing couplers or inner tubes it sometimes shows parts
 that are slightly too large to fit inside the outer tube.  Verify your dimensions!
 
 ### Metal Tip Fiberglass Nose Cones
@@ -1173,7 +1196,9 @@ Force:  N, lbf, kgf
 Impulse:  Ns, lbf*s
 ```
 
-### OpenRocket .orc Database File Limitations
+### OpenRocket 15.03 .orc Database File Limitations
+
+NOTE: information in this section has not been updated for the OpenRocket 2022 betas.
 
 There are some pretty serious limitations on what can be specified in the .orc component
 database files.  Some of these could potentially be fixed easily; others are more
