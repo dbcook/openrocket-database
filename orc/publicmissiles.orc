@@ -4,9 +4,14 @@ Public Missiles Ltd. (PML) parts file for OpenRocket
 
 See the file LICENSE in this distribution for license information.
 
-This file provides parts definitions for SEMROC products.  It has been rebuilt from scratch
+This file provides parts definitions for PML products.  It has been rebuilt from scratch
 based on the current publicmissiles.com website, with a few legacy parts inserted that were
 mentioned in the original OpenRocket 15.03 publicmissiles.orc.
+
+NOTE: Around the end of 2021, the PML sport rocket product line was sold to LOC Precision, and the
+old PML website was taken down.  This file is not believed to be complete, but there is currently
+no way to get parts data.  LOC now lists various PML parts on their website, but dimension and mass
+data is almost completely nonexistent there.
 
 Using this file:
     Recommended:  See installation instructions in top level README.
