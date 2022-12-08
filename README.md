@@ -26,6 +26,14 @@ System compatibility:  works anywhere OpenRocket can run
 
 ## Release Notes
 
+1.0.0.2
+* Additions
+  * Top Flight: add all streamers from Dec 2022 website
+  * publicmissiles: added missing full length couplers CTF-xx
+* Fixes
+  * Rocketarium: remove all nylon parachutes and streamers - they are resale from TopFlight and PML/LOC
+  * Rocketarium: remove all phenolic tubes and couplers - they are OEM from PML and exist in that file.
+
 1.0.0.1
 * Major updates
   * BMS: various additions and corrections

@@ -2,17 +2,20 @@
 <!--
 top_flight.orc - Top Flight Parachutes component file for OpenRocket
 
-Copyright 2017 by Dave Cook  NAR 21953  caveduck17@gmail.com
+Copyright 2017-2022 by Dave Cook  NAR 21953  caveduck17@gmail.com
 
 See the file LICENSE in this distribution for license information.
 
+Top Flight Recovery (topflightrecoveryllc.homestead.com)
+This website is not easily discoverable by Google search as they do not own
+a top level domain.
 
 Top Flight gives good size, nylon thickness, and number of shrouds for its parachutes.
 However, they do not specify the mass or packing volume for their chutes, nor much information
 about the paracord used for the shroud lines.
 
-This file contains all parachutes listed on the Top Flight website as of March 2017 except
-the X-type chutes, which OpenRocket does not handle.
+This file contains all parachutes and streamers listed on the Top Flight website 
+as of December 2022  except the X-type chutes, which OpenRocket does not handle.
 
 
 TODO: verify masses against actual parachutes.
@@ -58,7 +61,9 @@ TODO: verify masses against actual parachutes.
     <Components>
 
         <!--
+            ========================================================
             Top Flight regular 1.7oz nylon flat sheet parachutes
+            ========================================================
         -->
 
         <!-- PAR-9 -->
@@ -243,7 +248,11 @@ TODO: verify masses against actual parachutes.
             <LineMaterial Type="LINE">Nylon Paracord, 275 lb, 2.38 mm dia.</LineMaterial>
         </Parachute>
 
-        <!-- Thin-Mill Series with 1.1oz nylon -->
+        <!-- 
+            ========================================================
+            Thin-Mill series parachutes with 1.1oz nylon
+            ========================================================
+         -->
         <!-- PAR-9TM -->
         <Parachute>
             <Manufacturer>Top Flight Recovery</Manufacturer>
@@ -387,7 +396,11 @@ TODO: verify masses against actual parachutes.
             <LineMaterial Type="LINE">Nylon Paracord, 275 lb, 2.38 mm dia.</LineMaterial>
         </Parachute>
 
-        <!-- Crossfire series, all 6 panel, with 1/8 flat braid nylon lines -->
+        <!--
+            =============================================================================
+            Crossfire series parachutes, all 6 panel, with 1/8 flat braid nylon lines
+            =============================================================================
+        -->
         <!-- Line length increased by 1/2 canopy diam to account for going over the top -->
 
         <!-- CF-24 -->
@@ -506,6 +519,148 @@ TODO: verify masses against actual parachutes.
             <LineLength Unit="in">216.0</LineLength>
             <LineMaterial Type="LINE">Nylon cord, flat braid, 325 lb, 1/8 in.</LineMaterial>
         </Parachute>
+        <!-- 
+            =============================================================================
+            Streamers, standard thickness 1.7oz ripstop nylon
+            =============================================================================
+            Actual thicknesses are hard to find.  Ottertex quotes thickness of their 1.9oz
+            ripstop as 0.12mm which is 0.0047".  Scaling from this we get a thickness
+            of 0.0042" for 1.7oz and 0.0027" for 1.1oz "thin" nylon.
+        -->
+		<Streamer>
+			<Manufacturer>Top Flight Recovery</Manufacturer>
+			<PartNumber>ST-20</PartNumber>
+			<Description>Streamer, nylon 1.7oz, 2 x 20 in., PN ST-20</Description>
+			<Material Type="SURFACE">Nylon fabric, ripstop, 1.7 oz actual</Material>
+			<Width Unit="in">2.0</Width>
+			<Length Unit="in">20.0</Length>
+			<Thickness Unit="in">0.0042</Thickness>
+		</Streamer>
+		<Streamer>
+			<Manufacturer>Top Flight Recovery</Manufacturer>
+			<PartNumber>ST-40</PartNumber>
+			<Description>Streamer, nylon 1.7oz, 4 x 40 in., PN ST-40</Description>
+			<Material Type="SURFACE">Nylon fabric, ripstop, 1.7 oz actual</Material>
+			<Width Unit="in">4.0</Width>
+			<Length Unit="in">40.0</Length>
+			<Thickness Unit="in">0.0042</Thickness>
+		</Streamer>
+		<Streamer>
+			<Manufacturer>Top Flight Recovery</Manufacturer>
+			<PartNumber>ST-60</PartNumber>
+			<Description>Streamer, nylon 1.7oz, 6 x 60 in., PN ST-60</Description>
+			<Material Type="SURFACE">Nylon fabric, ripstop, 1.7 oz actual</Material>
+			<Width Unit="in">6.0</Width>
+			<Length Unit="in">60.0</Length>
+			<Thickness Unit="in">0.0042</Thickness>
+		</Streamer>
+		<Streamer>
+			<Manufacturer>Top Flight Recovery</Manufacturer>
+			<PartNumber>ST-70</PartNumber>
+			<Description>Streamer, nylon 1.7oz, 7 X 70 in., PN ST-70</Description>
+			<Material Type="SURFACE">Nylon fabric, ripstop, 1.7 oz actual</Material>
+			<Width Unit="in">7.0</Width>
+			<Length Unit="in">70.0</Length>
+			<Thickness Unit="in">0.0042</Thickness>
+		</Streamer>
+
+        <!-- 
+            =============================================================================
+            Streamers, thin 1.1oz ripstop nylon
+            =============================================================================
+        -->
+		<Streamer>
+			<Manufacturer>Top Flight Recovery</Manufacturer>
+			<PartNumber>ST-20TM</PartNumber>
+			<Description>Streamer, nylon 1.1oz, 2 x 20 in., PN ST-20TM</Description>
+			<Material Type="SURFACE">Nylon fabric, ripstop, 1.1 oz actual</Material>
+			<Width Unit="in">2.0</Width>
+			<Length Unit="in">20.0</Length>
+			<Thickness Unit="in">0.0027</Thickness>
+		</Streamer>
+		<Streamer>
+			<Manufacturer>Top Flight Recovery</Manufacturer>
+			<PartNumber>ST-40TM</PartNumber>
+			<Description>Streamer, nylon 1.1oz, 4 x 40 in., PN ST-40TM</Description>
+			<Material Type="SURFACE">Nylon fabric, ripstop, 1.1 oz actual</Material>
+			<Width Unit="in">4.0</Width>
+			<Length Unit="in">40.0</Length>
+			<Thickness Unit="in">0.0027</Thickness>
+		</Streamer>
+		<Streamer>
+			<Manufacturer>Top Flight Recovery</Manufacturer>
+			<PartNumber>ST-60TM</PartNumber>
+			<Description>Streamer, nylon 1.1oz, 6 x 60 in., PN ST-60TM</Description>
+			<Material Type="SURFACE">Nylon fabric, ripstop, 1.1 oz actual</Material>
+			<Width Unit="in">6.0</Width>
+			<Length Unit="in">60.0</Length>
+			<Thickness Unit="in">0.0027</Thickness>
+		</Streamer>
+		<Streamer>
+			<Manufacturer>Top Flight Recovery</Manufacturer>
+			<PartNumber>ST-70TM</PartNumber>
+			<Description>Streamer, nylon 1.1oz, 7 X 70 in., PN ST-70TM</Description>
+			<Material Type="SURFACE">Nylon fabric, ripstop, 1.1 oz actual</Material>
+			<Width Unit="in">7.0</Width>
+			<Length Unit="in">70.0</Length>
+			<Thickness Unit="in">0.0027</Thickness>
+		</Streamer>
+
+        <!-- 
+            =============================================================================
+            Ultra Streamers, with flat nylon braid stitched around the border
+            =============================================================================
+            Top Flight does not say but it's a good guess that these are based on the
+            regular 1.7oz ripstop, with additional flat cord around the edge.
+            Using the same specs as the standard weight streamers but bumping the
+            thickness to 0.0065"
+            ***TODO: get the actual masses
+        -->
+		<Streamer>
+			<Manufacturer>Top Flight Recovery</Manufacturer>
+			<PartNumber>UST-60</PartNumber>
+			<Description>Streamer, nylon 1.7oz, with flat braid, 4 x 60 in., PN UST-60</Description>
+			<Material Type="SURFACE">Nylon fabric, ripstop, 1.7 oz actual</Material>
+			<Width Unit="in">4.0</Width>
+			<Length Unit="in">60.0</Length>
+			<Thickness Unit="in">0.0065</Thickness>
+		</Streamer>
+		<Streamer>
+			<Manufacturer>Top Flight Recovery</Manufacturer>
+			<PartNumber>UST-70</PartNumber>
+			<Description>Streamer, nylon 1.7oz, with flat braid, 5 X 70 in., PN UST-70</Description>
+			<Material Type="SURFACE">Nylon fabric, ripstop, 1.7 oz actual</Material>
+			<Width Unit="in">5.0</Width>
+			<Length Unit="in">70.0</Length>
+			<Thickness Unit="in">0.0065</Thickness>
+		</Streamer>
+		<Streamer>
+			<Manufacturer>Top Flight Recovery</Manufacturer>
+			<PartNumber>UST-80</PartNumber>
+			<Description>Streamer, nylon 1.7oz, with flat braid, 6 X 80 in., PN UST-80</Description>
+			<Material Type="SURFACE">Nylon fabric, ripstop, 1.7 oz actual</Material>
+			<Width Unit="in">6.0</Width>
+			<Length Unit="in">80.0</Length>
+			<Thickness Unit="in">0.0065</Thickness>
+		</Streamer>
+		<Streamer>
+			<Manufacturer>Top Flight Recovery</Manufacturer>
+			<PartNumber>UST-90</PartNumber>
+			<Description>Streamer, nylon 1.7oz, with flat braid, 7 X 90 in., PN UST-90</Description>
+			<Material Type="SURFACE">Nylon fabric, ripstop, 1.7 oz actual</Material>
+			<Width Unit="in">7.0</Width>
+			<Length Unit="in">90.0</Length>
+			<Thickness Unit="in">0.0065</Thickness>
+		</Streamer>
+		<Streamer>
+			<Manufacturer>Top Flight Recovery</Manufacturer>
+			<PartNumber>UST-100</PartNumber>
+			<Description>Streamer, nylon 1.7oz, with flat braid, 8 X 100 in., PN UST-100</Description>
+			<Material Type="SURFACE">Nylon fabric, ripstop, 1.7 oz actual</Material>
+			<Width Unit="in">8.0</Width>
+			<Length Unit="in">100.0</Length>
+			<Thickness Unit="in">0.0065</Thickness>
+		</Streamer>
 
       </Components>
 </OpenRocketComponent>

@@ -601,6 +601,9 @@ Using this file:
             <OutsideDiameter Unit="in">7.512</OutsideDiameter>
             <Length Unit="in">12.0</Length>
         </TubeCoupler>
+        <!-- *** SOURCE ERROR: length of PML CT-11.4 was given as 36" on the last 2022 edition of the
+            publicmissiles.com website.  That's not possible unless the weight is MUCH too low.
+         -->
         <TubeCoupler>
             <Manufacturer>Public Missiles</Manufacturer>
             <PartNumber>CT-11.4</PartNumber>
@@ -609,6 +612,78 @@ Using this file:
             <InsideDiameter Unit="in">11.16</InsideDiameter>
             <OutsideDiameter Unit="in">11.41</OutsideDiameter>
             <Length Unit="in">16.0</Length>
+        </TubeCoupler>
+
+        <!-- 
+            =============================================================
+            Full-length phenolic tube couplers
+            =============================================================
+            Existence of these was discovered from the Rocketarium Dec 2022 website.
+            Information was found in the archive.org snapshot of publicmissiles.com
+            from January 2022.
+         -->
+         <TubeCoupler>
+            <Manufacturer>Public Missiles</Manufacturer>
+            <PartNumber>CTF-1.5</PartNumber>
+            <Description>Tube coupler, phenolic, 1.5, 36.0" long</Description>
+            <Material Type="BULK">PML kraft phenolic</Material>
+            <InsideDiameter Unit="in">1.40</InsideDiameter>
+            <OutsideDiameter Unit="in">1.524</OutsideDiameter>
+            <Length Unit="in">36.0</Length>
+        </TubeCoupler>
+        <TubeCoupler>
+            <Manufacturer>Public Missiles</Manufacturer>
+            <PartNumber>CTF-2.1</PartNumber>
+            <Description>Tube coupler, phenolic, 2.1, 36.0" long</Description>
+            <Material Type="BULK">PML kraft phenolic</Material>
+            <InsideDiameter Unit="in">2.027</InsideDiameter>
+            <OutsideDiameter Unit="in">2.151</OutsideDiameter>
+            <Length Unit="in">4.0</Length>
+        </TubeCoupler>
+        <TubeCoupler>
+            <Manufacturer>Public Missiles</Manufacturer>
+            <PartNumber>CTF-2.5</PartNumber>
+            <Description>Tube coupler, phenolic, 2.5, 36.0" long</Description>
+            <Material Type="BULK">PML kraft phenolic</Material>
+            <InsideDiameter Unit="in">2.437</InsideDiameter>
+            <OutsideDiameter Unit="in">2.560</OutsideDiameter>
+            <Length Unit="in">36.0</Length>
+        </TubeCoupler>
+        <TubeCoupler>
+            <Manufacturer>Public Missiles</Manufacturer>
+            <PartNumber>CTF-3.0</PartNumber>
+            <Description>Tube coupler, phenolic, 3.0, 36.0" long</Description>
+            <Material Type="BULK">PML kraft phenolic</Material>
+            <InsideDiameter Unit="in">2.88</InsideDiameter>
+            <OutsideDiameter Unit="in">3.002</OutsideDiameter>
+            <Length Unit="in">36.0</Length>
+        </TubeCoupler>
+        <TubeCoupler>
+            <Manufacturer>Public Missiles</Manufacturer>
+            <PartNumber>CTF-3.9</PartNumber>
+            <Description>Tube coupler, phenolic, 3.9, 36.0" long</Description>
+            <Material Type="BULK">PML kraft phenolic</Material>
+            <InsideDiameter Unit="in">3.776</InsideDiameter>
+            <OutsideDiameter Unit="in">3.900</OutsideDiameter>
+            <Length Unit="in">36.0</Length>
+        </TubeCoupler>
+        <TubeCoupler>
+            <Manufacturer>Public Missiles</Manufacturer>
+            <PartNumber>CTF-6.0</PartNumber>
+            <Description>Tube coupler, phenolic, 6.0, 48.0" long</Description>
+            <Material Type="BULK">PML kraft phenolic</Material>
+            <InsideDiameter Unit="in">5.859</InsideDiameter>
+            <OutsideDiameter Unit="in">6.007</OutsideDiameter>
+            <Length Unit="in">48.0</Length>
+        </TubeCoupler>
+        <TubeCoupler>
+            <Manufacturer>Public Missiles</Manufacturer>
+            <PartNumber>CTF-7.5</PartNumber>
+            <Description>Tube coupler, phenolic, 7.5, 48.0" long</Description>
+            <Material Type="BULK">PML kraft phenolic</Material>
+            <InsideDiameter Unit="in">7.352</InsideDiameter>
+            <OutsideDiameter Unit="in">7.512</OutsideDiameter>
+            <Length Unit="in">48.0</Length>
         </TubeCoupler>
 
         <!-- TODO: fiberglassed phenolic tube couplers -->

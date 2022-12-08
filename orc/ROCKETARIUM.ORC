@@ -469,10 +469,12 @@ Using this file:
 			<OutsideDiameter Unit="in">1.720</OutsideDiameter>
 			<Length Unit="in">18.4</Length>
 		</BodyTube>
+		<!-- The 1.9" tube is described as made by Aerotech.
+			Leaving this one in place for now as there is no Aerotech file in the database. -->
 		<BodyTube>
 			<Manufacturer>Rocketarium</Manufacturer>
 			<PartNumber>1.9" Body Tube</PartNumber>
-			<Description>1.9" Body Tube. 22.75" Long, PN 1.9" Body Tube</Description>
+			<Description>Body Tube, paper, white, 1.9", 22.75" Long, made by Aerotech, PN 1.9" Body Tube</Description>
 			<Material Type="BULK">Paper, spiral kraft glassine, bulk</Material>
 			<InsideDiameter Unit="in">1.800</InsideDiameter>
 			<OutsideDiameter Unit="in">1.880</OutsideDiameter>
@@ -521,60 +523,6 @@ Using this file:
 			<Material Type="BULK">Paper, spiral kraft glassine, 4", bulk</Material>
 			<InsideDiameter Unit="in">3.900</InsideDiameter>
 			<OutsideDiameter Unit="in">4.010</OutsideDiameter>
-			<Length Unit="in">36</Length>
-		</BodyTube>
-		<BodyTube>
-			<Manufacturer>Rocketarium</Manufacturer>
-			<PartNumber>1.1" (29) Phenolic Tube</PartNumber>
-			<Description>1.1" (29) Phenolic Tube. 36" (P), PN 1.1" (29) Phenolic Tube</Description>
-			<Material Type="BULK">Phenolic, kraft, bulk</Material>
-			<InsideDiameter Unit="in">1.145</InsideDiameter>
-			<OutsideDiameter Unit="in">1.279</OutsideDiameter>
-			<Length Unit="in">36</Length>
-		</BodyTube>
-		<BodyTube>
-			<Manufacturer>Rocketarium</Manufacturer>
-			<PartNumber>1.5" (38) Phenolic Tube</PartNumber>
-			<Description>1.5" (38) Phenolic Tube. 36" (P), PN 1.5" (38) Phenolic Tube</Description>
-			<Material Type="BULK">Phenolic, kraft, bulk</Material>
-			<InsideDiameter Unit="in">1.525</InsideDiameter>
-			<OutsideDiameter Unit="in">1.649</OutsideDiameter>
-			<Length Unit="in">36</Length>
-		</BodyTube>
-		<BodyTube>
-			<Manufacturer>Rocketarium</Manufacturer>
-			<PartNumber>2.1" Phenolic Tube</PartNumber>
-			<Description>2.1" Phenolic Tube. 36" (P), PN 2.1" Phenolic Tube</Description>
-			<Material Type="BULK">Phenolic, kraft, bulk</Material>
-			<InsideDiameter Unit="in">2.152</InsideDiameter>
-			<OutsideDiameter Unit="in">2.276</OutsideDiameter>
-			<Length Unit="in">36</Length>
-		</BodyTube>
-		<BodyTube>
-			<Manufacturer>Rocketarium</Manufacturer>
-			<PartNumber>2.6" Phenolic Tube</PartNumber>
-			<Description>2.6" Phenolic Tube. 36" Long, PN 2.6" Phenolic Tube</Description>
-			<Material Type="BULK">Phenolic, kraft, bulk</Material>
-			<InsideDiameter Unit="in">2.540</InsideDiameter>
-			<OutsideDiameter Unit="in">2.675</OutsideDiameter>
-			<Length Unit="in">36</Length>
-		</BodyTube>
-		<BodyTube>
-			<Manufacturer>Rocketarium</Manufacturer>
-			<PartNumber>3" Phenolic Tube</PartNumber>
-			<Description>3" Phenolic Tube. 36" Long, PN 3" Phenolic Tube</Description>
-			<Material Type="BULK">Phenolic, kraft, bulk</Material>
-			<InsideDiameter Unit="in">3.002</InsideDiameter>
-			<OutsideDiameter Unit="in">3.126</OutsideDiameter>
-			<Length Unit="in">36</Length>
-		</BodyTube>
-		<BodyTube>
-			<Manufacturer>Rocketarium</Manufacturer>
-			<PartNumber>3.9" Phenolic Tube</PartNumber>
-			<Description>3.9" Phenolic Tube. 36" Long, PN 3.9" Phenolic Tube</Description>
-			<Material Type="BULK">Phenolic, kraft, bulk</Material>
-			<InsideDiameter Unit="in">3.9</InsideDiameter>
-			<OutsideDiameter Unit="in">4.024</OutsideDiameter>
 			<Length Unit="in">36</Length>
 		</BodyTube>
 		<BodyTube>
@@ -940,108 +888,8 @@ Using this file:
 			<OutsideDiameter Unit="in">3.9</OutsideDiameter>
 			<Length Unit="in">8</Length>
 		</TubeCoupler>
-		<TubeCoupler>
-			<Manufacturer>Rocketarium</Manufacturer>
-			<PartNumber>1.5 Phenolic Tube Coupler</PartNumber>
-			<Description>1.5 X 3 Phenolic Tube Coupler, PN 1.5 Phenolic Tube Coupler</Description>
-			<Material Type="BULK">Phenolic, kraft, bulk</Material>
-			<InsideDiameter Unit="in">1.405</InsideDiameter>
-			<OutsideDiameter Unit="in">1.52</OutsideDiameter>
-			<Length Unit="in">3</Length>
-		</TubeCoupler>
-		<TubeCoupler>
-			<Manufacturer>Rocketarium</Manufacturer>
-			<PartNumber>2.1 Phenolic Tube Coupler</PartNumber>
-			<Description>2.1 X 4 Phenolic Tube Coupler, PN 2.1 Phenolic Tube Coupler</Description>
-			<Material Type="BULK">Phenolic, kraft, bulk</Material>
-			<InsideDiameter Unit="in">1.405</InsideDiameter>
-			<OutsideDiameter Unit="in">1.52</OutsideDiameter>
-			<Length Unit="in">4</Length>
-		</TubeCoupler>
-		<TubeCoupler>
-			<Manufacturer>Rocketarium</Manufacturer>
-			<PartNumber>2.5 Phenolic Tube Coupler</PartNumber>
-			<Description>2.5 X 5 Phenolic Tube Coupler, PN 2.5 Phenolic Tube Coupler</Description>
-			<Material Type="BULK">Phenolic, kraft, bulk</Material>
-			<InsideDiameter Unit="in">1.405</InsideDiameter>
-			<OutsideDiameter Unit="in">1.52</OutsideDiameter>
-			<Length Unit="in">5</Length>
-		</TubeCoupler>
-		<TubeCoupler>
-			<Manufacturer>Rocketarium</Manufacturer>
-			<PartNumber>3.0 Phenolic Tube Coupler</PartNumber>
-			<Description>3.0 X 5 Phenolic Tube Coupler, PN 3.0 Phenolic Tube Coupler</Description>
-			<Material Type="BULK">Phenolic, kraft, bulk</Material>
-			<InsideDiameter Unit="in">1.405</InsideDiameter>
-			<OutsideDiameter Unit="in">1.52</OutsideDiameter>
-			<Length Unit="in">5</Length>
-		</TubeCoupler>
-		<TubeCoupler>
-			<Manufacturer>Rocketarium</Manufacturer>
-			<PartNumber>3.9" Phenolic Tube Coupler</PartNumber>
-			<Description>3.9" X 7 Phenolic Tube Coupler, PN 3.9" Phenolic Tube Coupler</Description>
-			<Material Type="BULK">Phenolic, kraft, bulk</Material>
-			<InsideDiameter Unit="in">1.405</InsideDiameter>
-			<OutsideDiameter Unit="in">1.52</OutsideDiameter>
-			<Length Unit="in">7</Length>
-		</TubeCoupler>
-		<TubeCoupler>
-			<Manufacturer>Rocketarium</Manufacturer>
-			<PartNumber>1.5" Phenolic Full-Length Coupler</PartNumber>
-			<Description>1.5" X 36 Phenolic Full-Length Coupler, PN 1.5" Phenolic Full-Length Coupler</Description>
-			<Material Type="BULK">Phenolic, kraft, bulk</Material>
-			<InsideDiameter Unit="in">1.405</InsideDiameter>
-			<OutsideDiameter Unit="in">1.52</OutsideDiameter>
-			<Length Unit="in">7</Length>
-		</TubeCoupler>
-		<TubeCoupler>
-			<Manufacturer>Rocketarium</Manufacturer>
-			<PartNumber>2.1" Phenolic Full-Length Coupler</PartNumber>
-			<Description>2.1" X 36 Phenolic Full-Length Coupler, PN 2.1" Phenolic Full-Length Coupler</Description>
-			<Material Type="BULK">Phenolic, kraft, bulk</Material>
-			<InsideDiameter Unit="in">2.025</InsideDiameter>
-			<OutsideDiameter Unit="in">2.145</OutsideDiameter>
-			<Length Unit="in">36</Length>
-		</TubeCoupler>
-		<TubeCoupler>
-			<Manufacturer>Rocketarium</Manufacturer>
-			<PartNumber>2.5" Phenolic Full-Length Coupler</PartNumber>
-			<Description>2.5" X 36 Phenolic Full-Length Coupler, PN 2.5" Phenolic Full-Length Coupler</Description>
-			<Material Type="BULK">Phenolic, kraft, bulk</Material>
-			<InsideDiameter Unit="in">2.43</InsideDiameter>
-			<OutsideDiameter Unit="in">2.554</OutsideDiameter>
-			<Length Unit="in">36</Length>
-		</TubeCoupler>
-		<TubeCoupler>
-			<Manufacturer>Rocketarium</Manufacturer>
-			<PartNumber>3" Phenolic Full-Length Coupler</PartNumber>
-			<Description>3" X 36 Phenolic Full-Length Coupler, PN 3" Phenolic Full-Length Coupler</Description>
-			<Material Type="BULK">Phenolic, kraft, bulk</Material>
-			<InsideDiameter Unit="in">2.865</InsideDiameter>
-			<OutsideDiameter Unit="in">2.983</OutsideDiameter>
-			<Length Unit="in">36</Length>
-		</TubeCoupler>
-		<TubeCoupler>
-			<Manufacturer>Rocketarium</Manufacturer>
-			<PartNumber>3.9" Phenolic Full-Length Coupler</PartNumber>
-			<Description>3.9" X 36 Phenolic Full-Length Coupler, PN 3.9" Phenolic Full-Length Coupler</Description>
-			<Material Type="BULK">Phenolic, kraft, bulk</Material>
-			<InsideDiameter Unit="in">3.76</InsideDiameter>
-			<OutsideDiameter Unit="in">3.88</OutsideDiameter>
-			<Length Unit="in">36</Length>
-		</TubeCoupler>
-		<TubeCoupler>
-			<Manufacturer>Rocketarium</Manufacturer>
-			<PartNumber>BT-50 Tube Couplers (T)</PartNumber>
-			<Description>BT-50 X 1.75 Tube Couplers (T), PN BT-50 Tube Couplers (T)</Description>
-			<Material Type="BULK">Paper, kraft, heavy, bulk</Material>
-			<InsideDiameter Unit="in">0.91</InsideDiameter>
-			<OutsideDiameter Unit="in">0.95</OutsideDiameter>
-			<Length Unit="in">1.750</Length>
-		</TubeCoupler>
-		<!--- Need weight of all parachutes -->
-		<!--- There were no arachutes in the legacy OR -->
-		<!--- Number of sides and number of lines not named on website, guessed 6 -->
+
+		<!--- Rocketarium-made plastic parachutes, all six sided as shown in photos. -->
 		<Parachute>
 			<Manufacturer>Rocketarium</Manufacturer>
 			<PartNumber>Parachute, 12 in, Plastic</PartNumber>
@@ -1054,8 +902,6 @@ Using this file:
 			<LineLength Unit="in">12.0</LineLength>
 			<LineMaterial Type="LINE">Carpet Thread</LineMaterial>
 		</Parachute>
-		<!--- There were no arachutes in the legacy OR -->
-		<!--- Number of sides and number of lines not named on website, guessed 6 -->
 		<Parachute>
 			<Manufacturer>Rocketarium</Manufacturer>
 			<PartNumber>Parachute, 15 in, Plastic</PartNumber>
@@ -1080,425 +926,14 @@ Using this file:
 			<LineLength Unit="in">18.0</LineLength>
 			<LineMaterial Type="LINE">Carpet Thread</LineMaterial>
 		</Parachute>
-		<!--- There were no arachutes in the legacy OR -->
-		<!--- Number of sides and number of lines not named on website, guessed 6 -->
-		<Parachute>
-			<Manufacturer>Rocketarium</Manufacturer>
-			<PartNumber>Parachute, 9 in, Nylon </PartNumber>
-			<Description>Parachute, 9 in., nylon, 6 linespn Parachute, Neon Orange PN Parachute, 9 in, Nylon</Description>
-			<Material Type="SURFACE">Nylon fabric, ripstop, 1.7 oz actual</Material>
-			<Diameter Unit="in">9.0</Diameter>
-			<Sides>6</Sides>
-			<LineCount>6</LineCount>
-			<LineLength Unit="in">9.0</LineLength>
-			<LineMaterial Type="LINE">Nylon Paracord, 110 lb, 1/16 in. dia.</LineMaterial>
-		</Parachute>
-		<!--- There were no arachutes in the legacy OR -->
-		<!--- Number of sides and number of lines not named on website, guessed 6 -->
-		<Parachute>
-			<Manufacturer>Rocketarium</Manufacturer>
-			<PartNumber>Parachute, 9 in, Nylon, Thin Mil</PartNumber>
-			<Description>Parachute, 9 in., nylon, 6 lines PN Parachute, Neon Orange PN Parachute, 9 in, Nylon, Thin Mil</Description>
-			<Material Type="SURFACE">Nylon fabric, ripstop, 1.1 oz actual</Material>
-			<Diameter Unit="in">9.0</Diameter>
-			<Sides>6</Sides>
-			<LineCount>6</LineCount>
-			<LineLength Unit="in">9.0</LineLength>
-			<LineMaterial Type="LINE">Nylon Paracord, 110 lb, 1/16 in. dia.</LineMaterial>
-		</Parachute>
-		<!--- There were no arachutes in the legacy OR -->
-		<!--- Number of sides and number of lines not named on website, guessed 6 -->
-		<Parachute>
-			<Manufacturer>Rocketarium</Manufacturer>
-			<PartNumber>Parachute, 12 in, Nylon </PartNumber>
-			<Description>Parachute, 12 in., nylon, 6 linespn Parachute, Neon Orange PN Parachute, 12 in, Nylon</Description>
-			<Material Type="SURFACE">Nylon fabric, ripstop, 1.7 oz actual</Material>
-			<Diameter Unit="in">12.0</Diameter>
-			<Sides>6</Sides>
-			<LineCount>6</LineCount>
-			<LineLength Unit="in">12.0</LineLength>
-			<LineMaterial Type="LINE">Nylon Paracord, 110 lb, 1/16 in. dia.</LineMaterial>
-		</Parachute>
-		<!--- There were no arachutes in the legacy OR -->
-		<!--- Number of sides and number of lines not named on website, guessed 6 -->
-		<Parachute>
-			<Manufacturer>Rocketarium</Manufacturer>
-			<PartNumber>Parachute, 12 in, Nylon, Thin Mil</PartNumber>
-			<Description>Parachute, 12 in., nylon, 6 lines PN Parachute, Neon Orange PN Parachute, 12 in, Nylon, Thin Mil</Description>
-			<Material Type="SURFACE">Nylon fabric, ripstop, 1.1 oz actual</Material>
-			<Diameter Unit="in">12.0</Diameter>
-			<Sides>6</Sides>
-			<LineCount>6</LineCount>
-			<LineLength Unit="in">12.0</LineLength>
-			<LineMaterial Type="LINE">Nylon Paracord, 110 lb, 1/16 in. dia.</LineMaterial>
-		</Parachute>
-		<!--- There were no arachutes in the legacy OR -->
-		<!--- Number of sides and number of lines not named on website, guessed 6 -->
-		<Parachute>
-			<Manufacturer>Rocketarium</Manufacturer>
-			<PartNumber>Parachute, 15 in, Nylon </PartNumber>
-			<Description>Parachute, 15 in., nylon, 6 linespn Parachute, Neon Orange PN Parachute, 15 in, Nylon</Description>
-			<Material Type="SURFACE">Nylon fabric, ripstop, 1.7 oz actual</Material>
-			<Diameter Unit="in">15.0</Diameter>
-			<Sides>6</Sides>
-			<LineCount>6</LineCount>
-			<LineLength Unit="in">15.0</LineLength>
-			<LineMaterial Type="LINE">Nylon Paracord, 110 lb, 1/16 in. dia.</LineMaterial>
-		</Parachute>
-		<!--- There were no arachutes in the legacy OR -->
-		<!--- Number of sides and number of lines not named on website, guessed 6 -->
-		<Parachute>
-			<Manufacturer>Rocketarium</Manufacturer>
-			<PartNumber>Parachute, 15 in, Nylon, Thin Mil</PartNumber>
-			<Description>Parachute, 15 in., nylon, 6 lines PN Parachute, Neon Orange PN Parachute, 15 in, Nylon, Thin Mil</Description>
-			<Material Type="SURFACE">Nylon fabric, ripstop, 1.1 oz actual</Material>
-			<Diameter Unit="in">9.0</Diameter>
-			<Sides>6</Sides>
-			<LineCount>6</LineCount>
-			<LineLength Unit="in">15.0</LineLength>
-			<LineMaterial Type="LINE">Nylon Paracord, 110 lb, 1/16 in. dia.</LineMaterial>
-		</Parachute>
-		<!--- There were no arachutes in the legacy OR -->
-		<!--- Number of sides and number of lines not named on website, guessed 6 -->
-		<Parachute>
-			<Manufacturer>Rocketarium</Manufacturer>
-			<PartNumber>Parachute, 18 in, Nylon </PartNumber>
-			<Description>Parachute, 18 in., nylon, 6 linespn Parachute, Neon Orange PN Parachute, 18 in, Nylon</Description>
-			<Material Type="SURFACE">Nylon fabric, ripstop, 1.7 oz actual</Material>
-			<Diameter Unit="in">18.0</Diameter>
-			<Sides>6</Sides>
-			<LineCount>6</LineCount>
-			<LineLength Unit="in">18.0</LineLength>
-			<LineMaterial Type="LINE">Nylon Paracord, 110 lb, 1/16 in. dia.</LineMaterial>
-		</Parachute>
-		<!--- There were no arachutes in the legacy OR -->
-		<!--- Number of sides and number of lines not named on website, guessed 6 -->
-		<Parachute>
-			<Manufacturer>Rocketarium</Manufacturer>
-			<PartNumber>Parachute, 18 in, Nylon, Thin Mil</PartNumber>
-			<Description>Parachute, 18 in., nylon, 6 lines PN Parachute, Neon Orange PN Parachute, 18 in, Nylon, Thin Mil</Description>
-			<Material Type="SURFACE">Nylon fabric, ripstop, 1.1 oz actual</Material>
-			<Diameter Unit="in">18.0</Diameter>
-			<Sides>6</Sides>
-			<LineCount>6</LineCount>
-			<LineLength Unit="in">18.0</LineLength>
-			<LineMaterial Type="LINE">Nylon Paracord, 110 lb, 1/16 in. dia.</LineMaterial>
-		</Parachute>
-		<!--- There were no arachutes in the legacy OR -->
-		<!--- Number of sides and number of lines not named on website, guessed 6 -->
-		<Parachute>
-			<Manufacturer>Rocketarium</Manufacturer>
-			<PartNumber>Parachute, 15 in, Nylon </PartNumber>
-			<Description>Parachute, 15 in., nylon, 6 linespn Parachute, Neon Orange PN Parachute, 15 in, Nylon</Description>
-			<Material Type="SURFACE">Nylon fabric, ripstop, 1.7 oz actual</Material>
-			<Diameter Unit="in">15.0</Diameter>
-			<Sides>6</Sides>
-			<LineCount>6</LineCount>
-			<LineLength Unit="in">15.0</LineLength>
-			<LineMaterial Type="LINE">Nylon Paracord, 110 lb, 1/16 in. dia.</LineMaterial>
-		</Parachute>
-		<!--- There were no arachutes in the legacy OR -->
-		<!--- Number of sides and number of lines not named on website, guessed 6 -->
-		<Parachute>
-			<Manufacturer>Rocketarium</Manufacturer>
-			<PartNumber>Parachute, 15 in, Nylon, Thin Mil</PartNumber>
-			<Description>Parachute, 15 in., nylon, 6 lines PN Parachute, Neon Orange PN Parachute, 15 in, Nylon, Thin Mil</Description>
-			<Material Type="SURFACE">Nylon fabric, ripstop, 1.1 oz actual</Material>
-			<Diameter Unit="in">15.0</Diameter>
-			<Sides>6</Sides>
-			<LineCount>6</LineCount>
-			<LineLength Unit="in">15.0</LineLength>
-			<LineMaterial Type="LINE">Nylon Paracord, 110 lb, 1/16 in. dia.</LineMaterial>
-		</Parachute>
-		<!--- There were no arachutes in the legacy OR -->
-		<!--- Number of sides and number of lines not named on website, guessed 6 -->
-		<Parachute>
-			<Manufacturer>Rocketarium</Manufacturer>
-			<PartNumber>Parachute, 24 in, Nylon </PartNumber>
-			<Description>Parachute, 24 in., nylon, 6 linespn Parachute, Neon Orange PN Parachute, 24 in, Nylon</Description>
-			<Material Type="SURFACE">Nylon fabric, ripstop, 1.7 oz actual</Material>
-			<Diameter Unit="in">24.0</Diameter>
-			<Sides>6</Sides>
-			<LineCount>6</LineCount>
-			<LineLength Unit="in">24.0</LineLength>
-			<LineMaterial Type="LINE">Nylon Paracord, 110 lb, 1/16 in. dia.</LineMaterial>
-		</Parachute>
-		<!--- There were no arachutes in the legacy OR -->
-		<!--- Number of sides and number of lines not named on website, guessed 6 -->
-		<Parachute>
-			<Manufacturer>Rocketarium</Manufacturer>
-			<PartNumber>Parachute, 24 in, Nylon, Thin Mil</PartNumber>
-			<Description>Parachute, 24 in., nylon, 6 lines PN Parachute, Neon Orange PN Parachute, 24 in, Nylon, Thin Mil</Description>
-			<Material Type="SURFACE">Nylon fabric, ripstop, 1.7 oz actual</Material>
-			<Diameter Unit="in">9.0</Diameter>
-			<Sides>6</Sides>
-			<LineCount>6</LineCount>
-			<LineLength Unit="in">24.0</LineLength>
-			<LineMaterial Type="LINE">Nylon Paracord, 110 lb, 1/16 in. dia.</LineMaterial>
-		</Parachute>
-		<!--- There were no arachutes in the legacy OR -->
-		<!--- Number of sides and number of lines not named on website, guessed 6 -->
-		<Parachute>
-			<Manufacturer>Rocketarium</Manufacturer>
-			<PartNumber>Parachute, 30 in, Nylon </PartNumber>
-			<Description>Parachute, 30 in., nylon, 8 linespn Parachute, Neon Orange PN Parachute, 30 in, Nylon</Description>
-			<Material Type="SURFACE">Nylon fabric, ripstop, 1.7 oz actual</Material>
-			<Diameter Unit="in">30.0</Diameter>
-			<Sides>8</Sides>
-			<LineCount>8</LineCount>
-			<LineLength Unit="in">30.0</LineLength>
-			<LineMaterial Type="LINE">Nylon Paracord, 110 lb, 1/16 in. dia.</LineMaterial>
-		</Parachute>
-		<!--- There were no arachutes in the legacy OR -->
-		<!--- Number of sides and number of lines not named on website, guessed 6 -->
-		<Parachute>
-			<Manufacturer>Rocketarium</Manufacturer>
-			<PartNumber>Parachute, 30 in, Nylon, Thin Mil</PartNumber>
-			<Description>Parachute, 30 in., nylon, 8 lines PN Parachute, Neon Orange PN Parachute, 30 in, Nylon, Thin Mil</Description>
-			<Material Type="SURFACE">Nylon fabric, ripstop, 1.7 oz actual</Material>
-			<Diameter Unit="in">30.0</Diameter>
-			<Sides>8</Sides>
-			<LineCount>8</LineCount>
-			<LineLength Unit="in">30.0</LineLength>
-			<LineMaterial Type="LINE">Nylon Paracord, 110 lb, 1/16 in. dia.</LineMaterial>
-		</Parachute>
-		<!--- There were no arachutes in the legacy OR -->
-		<!--- Number of sides and number of lines not named on website, guessed 6 -->
-		<Parachute>
-			<Manufacturer>Rocketarium</Manufacturer>
-			<PartNumber>Parachute, 36 in, Nylon </PartNumber>
-			<Description>Parachute, 36 in., nylon, 8 linespn Parachute, Neon Orange PN Parachute, 36 in, Nylon</Description>
-			<Material Type="SURFACE">Nylon fabric, ripstop, 1.7 oz actual</Material>
-			<Diameter Unit="in">36.0</Diameter>
-			<Sides>8</Sides>
-			<LineCount>8</LineCount>
-			<LineLength Unit="in">36.0</LineLength>
-			<LineMaterial Type="LINE">Nylon Paracord, 110 lb, 1/16 in. dia.</LineMaterial>
-		</Parachute>
-		<!--- There were no arachutes in the legacy OR -->
-		<!--- Number of sides and number of lines not named on website, guessed 6 -->
-		<Parachute>
-			<Manufacturer>Rocketarium</Manufacturer>
-			<PartNumber>Parachute, 36 in, Nylon, Thin Mil</PartNumber>
-			<Description>Parachute, 36 in., nylon, 8 lines PN Parachute, Neon Orange PN Parachute, 36 in, Nylon, Thin Mil</Description>
-			<Material Type="SURFACE">Nylon fabric, ripstop, 1.7 oz actual</Material>
-			<Diameter Unit="in">36.0</Diameter>
-			<Sides>8</Sides>
-			<LineCount>8</LineCount>
-			<LineLength Unit="in">36.0</LineLength>
-			<LineMaterial Type="LINE">Nylon Paracord, 110 lb, 1/16 in. dia.</LineMaterial>
-		</Parachute>
-		<!--- There were no arachutes in the legacy OR -->
-		<!--- Number of sides and number of lines not named on website, guessed 6 -->
-		<Parachute>
-			<Manufacturer>Rocketarium</Manufacturer>
-			<PartNumber>Parachute, 45 in, Nylon </PartNumber>
-			<Description>Parachute, 45 in., nylon, 8 linespn Parachute, Neon Orange PN Parachute, 45 in, Nylon</Description>
-			<Material Type="SURFACE">Nylon fabric, ripstop, 1.7 oz actual</Material>
-			<Diameter Unit="in">45.0</Diameter>
-			<Sides>8</Sides>
-			<LineCount>8</LineCount>
-			<LineLength Unit="in">45.0</LineLength>
-			<LineMaterial Type="LINE">Nylon Paracord, 110 lb, 1/16 in. dia.</LineMaterial>
-		</Parachute>
-		<!--- There were no arachutes in the legacy OR -->
-		<!--- Number of sides and number of lines not named on website, guessed 6 -->
-		<Parachute>
-			<Manufacturer>Rocketarium</Manufacturer>
-			<PartNumber>Parachute, 50 in, Nylon </PartNumber>
-			<Description>Parachute, 50 in., nylon, 8 linespn Parachute, Neon Orange PN Parachute, 50 in, Nylon</Description>
-			<Material Type="SURFACE">Nylon fabric, ripstop, 1.7 oz actual</Material>
-			<Diameter Unit="in">50.0</Diameter>
-			<Sides>8</Sides>
-			<LineCount>8</LineCount>
-			<LineLength Unit="in">50.0</LineLength>
-			<LineMaterial Type="LINE">Nylon Paracord, 110 lb, 1/16 in. dia.</LineMaterial>
-		</Parachute>
-		<!--- There were no arachutes in the legacy OR -->
-		<!--- Number of sides and number of lines not named on website, guessed 6 -->
-		<Parachute>
-			<Manufacturer>Rocketarium</Manufacturer>
-			<PartNumber>Parachute, 58 in, Nylon </PartNumber>
-			<Description>Parachute, 58 in., nylon, 8 linespn Parachute, Neon Orange PN Parachute, 58 in, Nylon</Description>
-			<Material Type="SURFACE">Nylon fabric, ripstop, 1.7 oz actual</Material>
-			<Diameter Unit="in">58.0</Diameter>
-			<Sides>8</Sides>
-			<LineCount>8</LineCount>
-			<LineLength Unit="in">58.0</LineLength>
-			<LineMaterial Type="LINE">Nylon Paracord, 110 lb, 1/16 in. dia.</LineMaterial>
-		</Parachute>
-		<!--- There were no arachutes in the legacy OR -->
-		<!--- Number of sides and number of lines not named on website, guessed 6 -->
-		<Parachute>
-			<Manufacturer>Rocketarium</Manufacturer>
-			<PartNumber>Parachute, 70 in, Nylon </PartNumber>
-			<Description>Parachute, 70 in., nylon, 16 linespn Parachute, Neon Orange PN Parachute, 58 in, Nylon</Description>
-			<Material Type="SURFACE">Nylon fabric, ripstop, 1.7 oz actual</Material>
-			<Diameter Unit="in">70.0</Diameter>
-			<Sides>16</Sides>
-			<LineCount>16</LineCount>
-			<LineLength Unit="in">70.0</LineLength>
-			<LineMaterial Type="LINE">Nylon Paracord, 110 lb, 1/16 in. dia.</LineMaterial>
-		</Parachute>
-		<!--- There were no arachutes in the legacy OR -->
-		<!--- Number of sides and number of lines not named on website, guessed 6 -->
-		<Parachute>
-			<Manufacturer>Rocketarium</Manufacturer>
-			<PartNumber>Parachute, 84 in, Nylon </PartNumber>
-			<Description>Parachute, 84 in., nylon, 16 linespn Parachute, Neon Orange PN Parachute, 58 in, Nylon</Description>
-			<Material Type="SURFACE">Nylon fabric, ripstop, 1.7 oz actual</Material>
-			<Diameter Unit="in">84.0</Diameter>
-			<Sides>16</Sides>
-			<LineCount>16</LineCount>
-			<LineLength Unit="in">84.0</LineLength>
-			<LineMaterial Type="LINE">Nylon Paracord, 110 lb, 1/16 in. dia.</LineMaterial>
-		</Parachute>
-		<!-- Conical chute are from PML -->
-		<Parachute>
-			<Manufacturer>Rocketarium</Manufacturer>
-			<PartNumber>PAR-18</PartNumber>
-			<Description>Parachute, nylon, conical, 18"</Description>
-			<Material Type="SURFACE">Rip stop nylon</Material>
-			<Mass Unit="oz">0.6</Mass>
-			<Diameter Unit="in">18.0</Diameter>
-			<Sides>8</Sides>
-			<LineCount>8</LineCount>
-			<LineLength Unit="in">18.0</LineLength>
-			<LineMaterial Type="LINE">Nylon Paracord, 110 lb, 1/16 in. dia.</LineMaterial>
-		</Parachute>
-		<Parachute>
-			<Manufacturer>Rocketarium</Manufacturer>
-			<PartNumber>PAR-24</PartNumber>
-			<Description>Parachute, nylon, conical, 24"</Description>
-			<Material Type="SURFACE">Rip stop nylon</Material>
-			<Mass Unit="oz">1.6</Mass>
-			<Diameter Unit="in">24.0</Diameter>
-			<Sides>8</Sides>
-			<LineCount>8</LineCount>
-			<LineLength Unit="in">24.0</LineLength>
-			<LineMaterial Type="LINE">Nylon Paracord, 110 lb, 1/16 in. dia.</LineMaterial>
-		</Parachute>
-		<Parachute>
-			<Manufacturer>Rocketarium</Manufacturer>
-			<PartNumber>PAR-30</PartNumber>
-			<Description>Parachute, nylon, conical, 30"</Description>
-			<Material Type="SURFACE">Rip stop nylon</Material>
-			<Mass Unit="oz">2.4</Mass>
-			<Diameter Unit="in">30.0</Diameter>
-			<Sides>8</Sides>
-			<LineCount>8</LineCount>
-			<LineLength Unit="in">30.0</LineLength>
-			<LineMaterial Type="LINE">Nylon Paracord, 110 lb, 1/16 in. dia.</LineMaterial>
-		</Parachute>
-		<Parachute>
-			<Manufacturer>Rocketarium</Manufacturer>
-			<PartNumber>PAR-36</PartNumber>
-			<Description>Parachute, nylon, conical, 36"</Description>
-			<Material Type="SURFACE">Rip stop nylon</Material>
-			<Mass Unit="oz">2.9</Mass>
-			<Diameter Unit="in">36.0</Diameter>
-			<Sides>8</Sides>
-			<LineCount>8</LineCount>
-			<LineLength Unit="in">36.0</LineLength>
-			<LineMaterial Type="LINE">Nylon Paracord, 110 lb, 1/16 in. dia.</LineMaterial>
-		</Parachute>
-		<Parachute>
-			<Manufacturer>Rocketarium</Manufacturer>
-			<PartNumber>PAR-48</PartNumber>
-			<Description>Parachute, nylon, conical, 48"</Description>
-			<Material Type="SURFACE">Rip stop nylon</Material>
-			<Mass Unit="oz">4.1</Mass>
-			<Diameter Unit="in">48.0</Diameter>
-			<Sides>8</Sides>
-			<LineCount>8</LineCount>
-			<LineLength Unit="in">48.0</LineLength>
-			<LineMaterial Type="LINE">Nylon Paracord, 275 lb, 2.38 mm dia.</LineMaterial>
-		</Parachute>
-		<Parachute>
-			<Manufacturer>Rocketarium</Manufacturer>
-			<PartNumber>PAR-54</PartNumber>
-			<Description>Parachute, nylon, conical, 54"</Description>
-			<Material Type="SURFACE">Rip stop nylon</Material>
-			<Mass Unit="oz">4.8</Mass>
-			<Diameter Unit="in">54.0</Diameter>
-			<Sides>8</Sides>
-			<LineCount>8</LineCount>
-			<LineLength Unit="in">54.0</LineLength>
-			<LineMaterial Type="LINE">Nylon Paracord, 275 lb, 2.38 mm dia.</LineMaterial>
-		</Parachute>
-		<!-- Top Flite crossfire -->
-		<!-- CF-24 -->
-		<Parachute>
-			<Manufacturer>Rocketarium</Manufacturer>
-			<PartNumber>CF-24</PartNumber>
-			<Description>Parachute, Crossfire, 24 in., nylon, 6 lines</Description>
-			<Material Type="SURFACE">Nylon fabric, ripstop, 1.7 oz actual</Material>
-			<Diameter Unit="in">24.0</Diameter>
-			<Sides>6</Sides>
-			<LineCount>6</LineCount>
-			<LineLength Unit="in">36.0</LineLength>
-			<LineMaterial Type="LINE">Nylon cord, flat braid, 325 lb, 1/8 in.</LineMaterial>
-		</Parachute>
-		<!-- CF-30 -->
-		<Parachute>
-			<Manufacturer>Rocketarium</Manufacturer>
-			<PartNumber>CF-30</PartNumber>
-			<Description>Parachute, Crossfire, 30 in., nylon, 6 lines</Description>
-			<Material Type="SURFACE">Nylon fabric, ripstop, 1.7 oz actual</Material>
-			<Diameter Unit="in">30.0</Diameter>
-			<Sides>6</Sides>
-			<LineCount>6</LineCount>
-			<LineLength Unit="in">45.0</LineLength>
-			<LineMaterial Type="LINE">Nylon cord, flat braid, 325 lb, 1/8 in.</LineMaterial>
-		</Parachute>
-		<!-- CF-36 -->
-		<Parachute>
-			<Manufacturer>Rocketarium</Manufacturer>
-			<PartNumber>CF-36</PartNumber>
-			<Description>Parachute, Crossfire, 36 in., nylon, 6 lines</Description>
-			<Material Type="SURFACE">Nylon fabric, ripstop, 1.7 oz actual</Material>
-			<Diameter Unit="in">36.0</Diameter>
-			<Sides>6</Sides>
-			<LineCount>6</LineCount>
-			<LineLength Unit="in">54.0</LineLength>
-			<LineMaterial Type="LINE">Nylon cord, flat braid, 325 lb, 1/8 in.</LineMaterial>
-		</Parachute>
-		<!-- CF-48 -->
-		<Parachute>
-			<Manufacturer>Rocketarium</Manufacturer>
-			<PartNumber>CF-48</PartNumber>
-			<Description>Parachute, Crossfire, 48 in., nylon, 6 lines</Description>
-			<Material Type="SURFACE">Nylon fabric, ripstop, 1.7 oz actual</Material>
-			<Diameter Unit="in">48.0</Diameter>
-			<Sides>6</Sides>
-			<LineCount>6</LineCount>
-			<LineLength Unit="in">72.0</LineLength>
-			<LineMaterial Type="LINE">Nylon cord, flat braid, 325 lb, 1/8 in.</LineMaterial>
-		</Parachute>
-		<!-- CF-60 -->
-		<Parachute>
-			<Manufacturer>Rocketarium</Manufacturer>
-			<PartNumber>CF-60</PartNumber>
-			<Description>Parachute, Crossfire, 60 in., nylon, 6 lines</Description>
-			<Material Type="SURFACE">Nylon fabric, ripstop, 1.7 oz actual</Material>
-			<Diameter Unit="in">60.0</Diameter>
-			<Sides>6</Sides>
-			<LineCount>6</LineCount>
-			<LineLength Unit="in">90.0</LineLength>
-			<LineMaterial Type="LINE">Nylon cord, flat braid, 325 lb, 1/8 in.</LineMaterial>
-		</Parachute>
-		<!-- CF-78 -->
-		<Parachute>
-			<Manufacturer>Rocketarium</Manufacturer>
-			<PartNumber>CF-78</PartNumber>
-			<Description>Parachute, Crossfire, 78 in., nylon, 6 lines</Description>
-			<Material Type="SURFACE">Nylon fabric, ripstop, 1.7 oz actual</Material>
-			<Diameter Unit="in">78.0</Diameter>
-			<Sides>6</Sides>
-			<LineCount>6</LineCount>
-			<LineLength Unit="in">117.0</LineLength>
-			<LineMaterial Type="LINE">Nylon cord, flat braid, 325 lb, 1/8 in.</LineMaterial>
-		</Parachute>
+
+		<!-- All standadr, thin-mill and crossfire nylon parachutes listed on the Rocketarium website are listed as being made by Top Flight
+			so they are not listed here -->
+
+		<!-- Conical chutes with spill hole are listed by Rocketarium as from PML/LOC.  They were in 
+			fact PML and are now listed on the LOC website, though LOC no longer shows the PNs.
+			In this database they are found in the PML file.
+		 -->
 		<!-- SJH -->
 		<!-- Centering rings -->
 		<CenteringRing>
@@ -2435,42 +1870,21 @@ Using this file:
 			<Length Unit="in">8.268</Length>
 		</NoseCone>
 
-
+		<!-- 
+			=======================
+			Plastic streamers
+			=======================
+		-->
+		<!-- ***TODO: material here is not correct, Rocketarium site says it's polypropylene and does not specify a thickness -->
 		<Streamer>
 			<Manufacturer>Rocketarium</Manufacturer>
-			<PartNumber>Streamer 2x20</PartNumber>
-			<Description>2x20, Streamer, PN Streamer 2x20</Description>
-			<Material Type="SURFACE">Nylon fabric, ripstop, 1.7 oz actual</Material>
-			<Width Unit="in">2.000</Width>
-			<Length Unit="in">20.000</Length>
-			<Thickness Unit="in">0.05</Thickness>
-		</Streamer>
-		<Streamer>
-			<Manufacturer>Rocketarium</Manufacturer>
-			<PartNumber>Streamer 4x40</PartNumber>
-			<Description>4x40, Streamer, PN Streamer 4x40</Description>
-			<Material Type="SURFACE">Nylon fabric, ripstop, 1.7 oz actual</Material>
-			<Width Unit="in">4.000</Width>
-			<Length Unit="in">40.000</Length>
-			<Thickness Unit="in">0.05</Thickness>
-		</Streamer>
-		<Streamer>
-			<Manufacturer>Rocketarium</Manufacturer>
-			<PartNumber>Streamer 6x60</PartNumber>
-			<Description>6x60, Streamer, PN Streamer 6x60</Description>
-			<Material Type="SURFACE">Nylon fabric, ripstop, 1.7 oz actual</Material>
-			<Width Unit="in">6.000</Width>
-			<Length Unit="in">60.000</Length>
-			<Thickness Unit="in">0.05</Thickness>
-		</Streamer>
-		<Streamer>
-			<Manufacturer>Rocketarium</Manufacturer>
-			<PartNumber>Streamer 1.25x17</PartNumber>
-			<Description>1.25x17, Streamer, PN Streamer 1.25x17</Description>
+			<PartNumber>1.25 x 17" Orange Plastic Streamer</PartNumber>
+			<Description>Streamer, 1.25 x 17", PN 1.25" x 17" Orange Plastic Streamer</Description>
 			<Material Type="SURFACE">Polyethylene film, HDPE, 1.0 mil, bare</Material>
 			<Width Unit="in">1.250</Width>
 			<Length Unit="in">17.000</Length>
 			<Thickness Unit="in">0.001</Thickness>
+			<Mass Unit="g">0.81</Mass>
 		</Streamer>
 		
 		
@@ -2516,24 +1930,3 @@ Using this file:
 -->
 	</Components>
 </OpenRocketComponent>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
