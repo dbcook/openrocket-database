@@ -219,7 +219,7 @@ Using this file:
 			<Density>786.07</Density>
 			<Type>BULK</Type>
 		</Material>
-		<Material UnitsOfMeasure="g/cm3">
+		<Material UnitsOfMeasure="kg/m3">
 			<Name>Phenolic, kraft, bulk</Name>
 			<Density>941.93</Density>
 			<Type>BULK</Type>
@@ -232,7 +232,7 @@ Using this file:
 		</Material>
 		<!-- From Estes/Centuri HDPE poly chute material (100% printed) is about 1 mil thick -->
 		<!-- This value is just the bare poly value for 1.0 mil thick, printed material may be a bit different -->
-		<Material UnitsOfMeasure="g/m2">
+		<Material UnitsOfMeasure="kg/m2">
 			<Name>Polyethylene film, HDPE, 1.0 mil, bare</Name>
 			<Density>0.0235</Density>
 			<Type>SURFACE</Type>
@@ -244,35 +244,35 @@ Using this file:
 			<Type>LINE</Type>
 		</Material>
 		<!-- 1.7oz ripstop nylon is standard parachute material -->
-		<Material UnitsOfMeasure="g/m2">
+		<Material UnitsOfMeasure="kg/m2">
 			<Name>Nylon fabric, ripstop, 1.7 oz actual</Name>
 			<Density>0.0527</Density>
 			<Type>SURFACE</Type>
 		</Material>
-		<Material UnitsOfMeasure="g/m">
+		<Material UnitsOfMeasure="kg/m">
 			<Name>Nylon Paracord, 110 lb, 1/16 in. dia.</Name>
 			<Density>0.00160</Density>
 			<Type>LINE</Type>
 		</Material>
-		<Material UnitsOfMeasure="g/cm3">
+		<Material UnitsOfMeasure="kg/m3">
 			<Name>Fiber, bulk</Name>
 			<Density>657.0</Density>
 			<Type>BULK</Type>
 		</Material>
 		<!-- Assumed to be the same as what was in Semroc -->
-		<Material UnitsOfMeasure="g/cm3">
+		<Material UnitsOfMeasure="kg/m3">
 			<Name>Plywood, light, bulk</Name>
 			<Density>352.4</Density>
 			<Type>BULK</Type>
 		</Material>
-		<!-- From bluryube.orc -->
+		<!-- From bluetube.orc -->
 		<!-- ARR website (2022) specifies they use Baltic birch plywood -->
-		<Material UnitsOfMeasure="g/cm3">
+		<Material UnitsOfMeasure="kg/m3">
 			<Name>Plywood, Baltic birch, bulk</Name>
 			<Density>680.0</Density>
 			<Type>BULK</Type>
 		</Material>
-		<Material UnitsOfMeasure="kg/cm3">
+		<Material UnitsOfMeasure="kg/m3">
 			<Name>Polystyrene, cast, bulk</Name>
 			<Density>1050.0</Density>
 			<Type>BULK</Type>
@@ -287,29 +287,29 @@ Using this file:
 			<Density>1150</Density>
 			<Type>BULK</Type>
 		</Material>
-		<Material UnitsOfMeasure="g/m">
+		<Material UnitsOfMeasure="kg/m">
 			<Name>Nylon Paracord, 110 lb, 1/16 in. dia.</Name>
 			<Density>0.00160</Density>
 			<Type>LINE</Type>
 		</Material>
-		<Material UnitsOfMeasure="g/m">
+		<Material UnitsOfMeasure="kg/m">
 			<Name>Nylon Paracord, 275 lb, 2.38 mm dia.</Name>
 			<Density>0.00350</Density>
 			<Type>LINE</Type>
 		</Material>
-		<Material UnitsOfMeasure="g/m">
+		<Material UnitsOfMeasure="kg/m">
 			<Name>Nylon cord, flat braid, 325 lb, 1/8 in.</Name>
 			<Density>0.00417</Density>
 			<Type>LINE</Type>
 		</Material>
 		<!--- Rocketerium uses TOP Flite for som of their chutes -->
-		<Material UnitsOfMeasure="g/m">
+		<Material UnitsOfMeasure="kg/m">
 			<Name>Nylon cord, flat braid, 325 lb, 1/8 in.</Name>
 			<Density>0.00417</Density>
 			<Type>LINE</Type>
 		</Material>
 		<!-- 1.1 oz is Top Flight thin mill material -->
-		<Material UnitsOfMeasure="g/m2">
+		<Material UnitsOfMeasure="kg/m2">
 			<Name>Nylon fabric, ripstop, 1.1 oz actual</Name>
 			<Density>0.0341</Density>
 			<Type>SURFACE</Type>
@@ -317,51 +317,51 @@ Using this file:
 		<!-- PML materials used in chutes -->
 		<!-- Ripstop nylon used in some parachutes and the streamer.  This is heavy, about 2.15 oz -->
 		<!-- *** Add to generic_materials.orc with appropriate name -->
-		<Material UnitsOfMeasure="g/m2">
+		<Material UnitsOfMeasure="kg/m2">
 			<Name>Rip stop nylon</Name>
 			<Density>0.06685</Density>
 			<Type>SURFACE</Type>
 		</Material>
 		<!-- shroud line material for small nylon parachutes -->
-		<Material UnitsOfMeasure="g/m">
+		<Material UnitsOfMeasure="kg/m">
 			<Name>Nylon Paracord, 110 lb, 1/16 in. dia.</Name>
 			<Density>0.00160</Density>
 			<Type>LINE</Type>
 		</Material>
 		<!-- BULK plywoods -->
-		<Material UnitsOfMeasure="g/cm3">
+		<Material UnitsOfMeasure="kg/m3">
 			<Name>Plywood, aircraft, 1/16 in. bulk</Name>
 			<Density>361.3</Density>
 			<Type>BULK</Type>
 		</Material>
-		<Material UnitsOfMeasure="g/cm3">
+		<Material UnitsOfMeasure="kg/m3">
 			<Name>Plywood, aircraft, 1/8 in. bulk</Name>
 			<Density>337.5</Density>
 			<Type>BULK</Type>
 		</Material>
-		<Material UnitsOfMeasure="g/cm3">
+		<Material UnitsOfMeasure="kg/m3">
 			<Name>Plywood, aircraft, 1/4 in. bulk</Name>
 			<Density>344.3</Density>
 			<Type>BULK</Type>
 		</Material>
-		<Material UnitsOfMeasure="g/cm3">
+		<Material UnitsOfMeasure="kg/m3f">
 			<Name>Plywood, aircraft, 3/16 in. bulk</Name>
 			<Density>344.3</Density>
 			<Type>BULK</Type>
 		</Material>
-		<Material UnitsOfMeasure="g/m2">
+		<Material UnitsOfMeasure="kg/m2">
 			<Name>Nylon fabric, ripstop, 1.7 oz actual</Name>
 			<Density>0.0527</Density>
 			<Type>SURFACE</Type>
 		</Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Polyethylene, HDPE, bulk</Name>
             <Density>950.0</Density>
             <Type>BULK</Type>
         </Material>
 		
 		<!-- Just a guess, no density could be found, will override in nosecones -->
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Polyethylene, HIPS, bulk</Name>
             <Density>950.0</Density>
             <Type>BULK</Type>

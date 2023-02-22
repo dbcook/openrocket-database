@@ -108,33 +108,33 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
 <OpenRocketComponent>
     <Version>0.1</Version>
     <Materials>
-        <Material UnitsOfMeasure="kg/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Paper, spiral kraft glassine, bulk</Name>
             <Density>798.85</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="kg/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Polystyrene, cast, bulk</Name>
             <Density>1050.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="kg/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Plywood, light, bulk</Name>
             <Density>352.4</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="kg/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Fiber, bulk</Name>
             <Density>657.0</Density>
             <Type>BULK</Type>
         </Material>
         <!-- G10 is quoted on MatWeb.com as 1.80 g/cc -->
-        <Material UnitsOfMeasure="kg/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Fiberglass, G10, bulk</Name>
             <Density>1800.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="kg/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Fiberglass, G12, filament wound tube, bulk</Name>
             <Density>1820.0</Density>
             <Type>BULK</Type>
@@ -143,7 +143,7 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
              The quoted weight of FWCF-29 is much less than it should be and probably
              implies there is considerable excess resin.
         -->
-        <Material UnitsOfMeasure="kg/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Carbon fiber epoxy composite, Madcow FWCF, bulk</Name>
             <Density>1250.0</Density>
             <Type>BULK</Type>
@@ -155,7 +155,7 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
         </Material>
 
         <!-- Madcow has very few balsa parts; I adopted 8 lb/ft3 balsa as a likely average -->
-        <Material UnitsOfMeasure="kg/cm3">
+        <Material UnitsOfMeasure="kg/m3">
           <Name>Balsa, bulk, 8 lb/ft3</Name>
           <Density>128.1</Density>
           <Type>BULK</Type>

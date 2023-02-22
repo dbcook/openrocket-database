@@ -36,14 +36,14 @@ Using this file:
 
         <!-- Birch ply used for centering rings -->
         <!-- *** why is this different than value for bulkheads? *** -->
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Aircraft plywood (Birch)</Name>
             <Density>725.0</Density>
             <Type>BULK</Type>
         </Material>
 
         <!-- Birch ply used for bulkheads -->
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Birch</Name>
             <Density>680.8</Density>
             <Type>BULK</Type>
@@ -51,7 +51,7 @@ Using this file:
 
         <!-- Phenolic tubes -->
         <!-- original OR 15.03 value was 958.7, I got 952.8 by density analysis of specs -->
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>PML kraft phenolic</Name>
             <Density>952.8</Density>
             <Type>BULK</Type>
@@ -60,7 +60,7 @@ Using this file:
         <!-- PML preglassed phenolic tubes -->
         <!-- Determined by density analysis of quoted weights and sizes
              Data is ~4x noisier than for quantum and regular phenolic tubes. -->
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>PML glassed phenolic</Name>
             <Density>1077.7</Density>
             <Type>BULK</Type>
@@ -68,14 +68,14 @@ Using this file:
 
         <!-- Quantum tube polymer: type of plastic TBD -->
         <!-- Determined from density analysis of quoted weights -->
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>PML Quantum polymer</Name>
             <Density>1072.8</Density>
             <Type>BULK</Type>
         </Material>
 
         <!-- Polystyrene used for nose cones -->
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Polystyrene PS</Name>
             <Density>1049.0</Density>
             <Type>BULK</Type>
@@ -83,7 +83,7 @@ Using this file:
 
         <!-- Fiberglass used in nose cones -->
         <!-- the original value of 128.1 was seriously wrong -->
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Fiberglass, generic, bulk</Name>
             <Density>1900.0</Density>
             <Type>BULK</Type>
@@ -91,42 +91,42 @@ Using this file:
 
         <!-- Ripstop nylon used in some parachutes and the streamer.  This is heavy, about 2.15 oz -->
         <!-- *** Add to generic_materials.orc with appropriate name -->
-        <Material UnitsOfMeasure="g/m2">
+        <Material UnitsOfMeasure="kg/m2">
             <Name>Rip stop nylon</Name>
             <Density>0.06685</Density>
             <Type>SURFACE</Type>
         </Material>
 
         <!-- shroud line material for small nylon parachutes -->
-        <Material UnitsOfMeasure="g/m">
+        <Material UnitsOfMeasure="kg/m">
             <Name>Nylon Paracord, 110 lb, 1/16 in. dia.</Name>
             <Density>0.00160</Density>
             <Type>LINE</Type>
         </Material>
 
         <!-- shroud line material for larger nylon parachutes -->
-        <Material UnitsOfMeasure="g/m">
+        <Material UnitsOfMeasure="kg/m">
             <Name>Nylon Paracord, 275 lb, 2.38 mm dia.</Name>
             <Density>0.00350</Density>
             <Type>LINE</Type>
         </Material>
 
         <!-- Brass used for large launch lugs -->
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Brass</Name>
             <Density>8554.0</Density>
             <Type>BULK</Type>
         </Material>
 
         <!-- Copper used for 3/4" launch lug -->
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Copper (rolled)</Name>
             <Density>8906.0</Density>
             <Type>BULK</Type>
         </Material>
 
         <!-- Urethane used for tailcones -->
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Urethane</Name>
             <Density>847.0</Density>
             <Type>BULK</Type>

@@ -62,7 +62,7 @@ none known
         <!-- Materials referenced in this file -->
 
         <!-- Phenolic kraft used for tube couplers -->
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Phenolic, kraft, bulk</Name>
             <Density>943.0</Density>
             <Type>BULK</Type>
@@ -76,28 +76,28 @@ none known
         </Material>
 
         <!-- Regular balsa -->
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
           <Name>Balsa, bulk, 7 lb/ft3</Name>
           <Density>112.0</Density>
           <Type>BULK</Type>
         </Material>
 
         <!-- injection molded plastic parts -->
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Polystyrene, cast, bulk</Name>
             <Density>1050.0</Density>
             <Type>BULK</Type>
         </Material>
 
         <!-- clear payload tubes -->
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Mylar, bulk</Name>
             <Density>1390.0</Density>
             <Type>BULK</Type>
         </Material>
 
         <!-- lower density fiber for thrust rings etc. -->
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Fiber, bulk</Name>
             <Density>657.0</Density>
             <Type>BULK</Type>

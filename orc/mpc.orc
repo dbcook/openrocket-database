@@ -26,56 +26,56 @@ lengths nor the weights:
 <OpenRocketComponent>
     <Version>0.1</Version>
     <Materials>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Paper, spiral kraft glassine, bulk</Name>
             <Density>798.85</Density>
             <Type>BULK</Type>
         </Material>
         
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Fiber, bulk</Name>
             <Density>657.0</Density>
             <Type>BULK</Type>
         </Material>
         
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
           <Name>Balsa, bulk, 5lb/ft3</Name>
           <Density>80.0</Density>
           <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
           <Name>Balsa, bulk, 6lb/ft3</Name>
           <Density>96.0</Density>
           <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
           <Name>Balsa, bulk, 7lb/ft3</Name>
           <Density>112.0</Density>
           <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
           <Name>Balsa, bulk, 8lb/ft3</Name>
           <Density>128.1</Density>
           <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
           <Name>Balsa, bulk, 10lb/ft3</Name>
           <Density>160.0</Density>
           <Type>BULK</Type>
         </Material>
         
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Polystyrene, cast, bulk</Name>
             <Density>1050.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Mylar, bulk</Name>
             <Density>1390.0</Density>
             <Type>BULK</Type>
         </Material>
 
-        <Material UnitsOfMeasure="g/m2">
+        <Material UnitsOfMeasure="kg/m2">
             <Name>Polyethylene film, HDPE, 1.0 mil, bare</Name>
             <Density>0.0235</Density>
             <Type>SURFACE</Type>

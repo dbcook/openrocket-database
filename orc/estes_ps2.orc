@@ -41,23 +41,23 @@ Parts from #9701 Ventris
             <Density>894.4</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="kg/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Polystyrene, cast, bulk</Name>
             <Density>1050.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Plywood, light, bulk</Name>
             <Density>352.4</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Fiber, bulk</Name>
             <Density>657.0</Density>
             <Type>BULK</Type>
         </Material>
         <!-- 1.7oz ripstop nylon is Top Flight and LOC standard parachute material -->
-        <Material UnitsOfMeasure="g/m2">
+        <Material UnitsOfMeasure="kg/m2">
             <Name>Nylon fabric, ripstop, 1.7 oz actual</Name>
             <Density>0.05764</Density>
             <Type>SURFACE</Type>

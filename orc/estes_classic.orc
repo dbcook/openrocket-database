@@ -111,14 +111,14 @@ Known issues:
             <Type>BULK</Type>
         </Material>
         <!-- fiber for centering rings from built-in semroc file -->
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Fiber, bulk</Name>
             <Density>657.0</Density>
             <Type>BULK</Type>
         </Material>
         
 
-        <Material UnitsOfMeasure="kg/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Polystyrene, cast, bulk</Name>
             <Density>1050.0</Density>
             <Type>BULK</Type>
@@ -135,7 +135,7 @@ Known issues:
         </Material>
         
         <!-- Mylar (polyester) density quoted by DuPont as 1.39 g/cc -->
-        <Material UnitsOfMeasure="kg/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Mylar, bulk</Name>
             <Density>1390.0</Density>
             <Type>BULK</Type>
@@ -145,13 +145,13 @@ Known issues:
         
         <!-- Estes/Centuri HDPE poly chute material (100% printed) is about 1 mil thick -->
         <!-- This value is just the bare poly value for 1.0 mil thick, printed material may be a bit different -->
-        <Material UnitsOfMeasure="g/m2">
+        <Material UnitsOfMeasure="kg/m2">
             <Name>Polyethylene film, HDPE, 1.0 mil, bare</Name>
             <Density>0.0235</Density>
             <Type>SURFACE</Type>
         </Material>
         
-        <Material UnitsOfMeasure="g/m2">
+        <Material UnitsOfMeasure="kg/m2">
             <Name>Nylon fabric, ripstop, 1.7 oz actual</Name>
             <Density>0.05764</Density>
             <Type>SURFACE</Type>

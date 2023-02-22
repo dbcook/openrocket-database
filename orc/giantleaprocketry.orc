@@ -3,22 +3,22 @@
     <Version>0.1</Version>
     <Materials>
         <!-- This value is appropriate for Baltic birch (full birch faced birch core) plywood -->
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Birch</Name>
             <Density>680.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Cardboard</Name>
             <Density>689.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Kraft phenolic</Name>
             <Density>959.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Polycarbonate</Name>
             <Density>1200.0</Density>
             <Type>BULK</Type>
@@ -30,7 +30,7 @@
             <Type>SURFACE</Type>
         </Material>
         <!-- Aluminum for ACME conformal lugs -->
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Aluminum, generic, bulk</Name>
             <Density>2698.9</Density>
             <Type>BULK</Type>

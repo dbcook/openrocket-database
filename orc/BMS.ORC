@@ -143,7 +143,7 @@ All nose cone and transition shoulder diameters have been set to .003" smaller t
 		</Material>
 		<!-- From Estes/Centuri HDPE poly chute material (100% printed) is about 1 mil thick -->
 		<!-- This value is just the bare poly value for 1.0 mil thick, printed material may be a bit different -->
-		<Material UnitsOfMeasure="g/m2">
+		<Material UnitsOfMeasure="kg/m2">
 			<Name>Polyethylene film, HDPE, 1.0 mil, bare</Name>
 			<Density>0.0235</Density>
 			<Type>SURFACE</Type>
@@ -155,35 +155,35 @@ All nose cone and transition shoulder diameters have been set to .003" smaller t
 			<Type>LINE</Type>
 		</Material>
 		<!-- 1.7oz ripstop nylon is standard parachute material -->
-		<Material UnitsOfMeasure="g/m2">
+		<Material UnitsOfMeasure="kg/m2">
 			<Name>Nylon fabric, ripstop, 1.7 oz actual</Name>
 			<Density>0.0527</Density>
 			<Type>SURFACE</Type>
 		</Material>
-		<Material UnitsOfMeasure="g/m">
+		<Material UnitsOfMeasure="kg/m">
 			<Name>Nylon Paracord, 110 lb, 1/16 in. dia.</Name>
 			<Density>0.00160</Density>
 			<Type>LINE</Type>
 		</Material>
-		<Material UnitsOfMeasure="g/cm3">
+		<Material UnitsOfMeasure="kg/m3">
 			<Name>Fiber, bulk</Name>
 			<Density>657.0</Density>
 			<Type>BULK</Type>
 		</Material>
 		<!-- Assumed to be the same as what was in Semroc -->
-		<Material UnitsOfMeasure="g/cm3">
+		<Material UnitsOfMeasure="kg/m3">
 			<Name>Plywood, light, bulk</Name>
 			<Density>352.4</Density>
 			<Type>BULK</Type>
 		</Material>
 		<!-- From bluryube.orc -->
 		<!-- ARR website (2022) specifies they use Baltic birch plywood -->
-		<Material UnitsOfMeasure="g/cm3">
+		<Material UnitsOfMeasure="kg/m3">
 			<Name>Plywood, Baltic birch, bulk</Name>
 			<Density>680.0</Density>
 			<Type>BULK</Type>
 		</Material>
-		<Material UnitsOfMeasure="kg/cm3">
+		<Material UnitsOfMeasure="kg/m3">
 			<Name>Polystyrene, cast, bulk</Name>
 			<Density>1050.0</Density>
 			<Type>BULK</Type>

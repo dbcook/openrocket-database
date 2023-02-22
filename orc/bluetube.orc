@@ -80,13 +80,13 @@ TC_5.5_12          Coupler for BT_5.5, 12" long
     <Version>0.1</Version>
     <Materials>
         <!-- Blue Tube density from measurements.  Standard deviation is 17.3 kg/m3 -->
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Vulcanized Fiber</Name>
             <Density>1153.5</Density>
             <Type>BULK</Type>
         </Material>
         <!-- ARR website (2022) specifies they use Baltic birch plywood -->
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Plywood, Baltic birch, bulk</Name>
             <Density>680.0</Density>
             <Type>BULK</Type>

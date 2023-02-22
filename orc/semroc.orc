@@ -88,31 +88,31 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
   <Materials>
 
     <!-- fiber for centering rings from built-in semroc file -->
-    <Material UnitsOfMeasure="kg/cm3">
+    <Material UnitsOfMeasure="kg/m3">
       <Name>Fiber, bulk</Name>
       <Density>657.0</Density>
       <Type>BULK</Type>
     </Material>
         
-    <Material UnitsOfMeasure="kg/cm3">
+    <Material UnitsOfMeasure="kg/m3">
       <Name>Plywood, light, bulk</Name>
       <Density>352.4</Density>
       <Type>BULK</Type>
     </Material>
     
-    <Material UnitsOfMeasure="kg/cm3">
+    <Material UnitsOfMeasure="kg/m3">
       <Name>Balsa, bulk, 6lb/ft3</Name>
       <Density>96.0</Density>
       <Type>BULK</Type>
     </Material>
     
-    <Material UnitsOfMeasure="kg/cm3">
+    <Material UnitsOfMeasure="kg/m3">
       <Name>Balsa, bulk, 7lb/ft3</Name>
       <Density>112.0</Density>
       <Type>BULK</Type>
     </Material>
 
-    <Material UnitsOfMeasure="kg/cm3">
+    <Material UnitsOfMeasure="kg/m3">
       <Name>Balsa, bulk, 8lb/ft3</Name>
       <Density>128.1</Density>
       <Type>BULK</Type>
@@ -145,7 +145,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     </Material>
 
     <!-- Mylar (polyester) density quoted by DuPont as 1.39 g/cc -->
-    <Material UnitsOfMeasure="kg/cm3">
+    <Material UnitsOfMeasure="kg/m3">
       <Name>Mylar, bulk</Name>
       <Density>1390.0</Density>
       <Type>BULK</Type>

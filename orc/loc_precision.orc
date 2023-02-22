@@ -125,23 +125,23 @@ the former should be lighter because of the larger center hole. -->
       <!-- LOC-specific materials for tube/couplers -->
         <!-- Average values for LOC tube, coupler and stiffener parts from spreadsheet density analysis of Apogee data
              These densities are a very good fit with everything but a few outliers -->
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Paper, kraft, LOC coupler avg</Name>
             <Density>789.6</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Paper, kraft, LOC coupler stiffener avg</Name>
             <Density>603.3</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Paper, kraft glassine, LOC tube avg</Name>
             <Density>855.2</Density>
             <Type>BULK</Type>
         </Material>
         <!-- The LOC MMTHD-3.00 and MMTHD-3.90 have much higher density -->
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Paper, kraft glassine, LOC MMTHD avg</Name>
             <Density>1220.6</Density>
             <Type>BULK</Type>
@@ -150,7 +150,7 @@ the former should be lighter because of the larger center hole. -->
         <!-- standard materials copied from generic_materials.orc -->
 
         <!-- LOC phenolic tubes are assumed to be generic Kraft phenolic til proven otherwise -->
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Phenolic, kraft, bulk</Name>
             <Density>943.0</Density>
             <Type>BULK</Type>
@@ -162,27 +162,27 @@ the former should be lighter because of the larger center hole. -->
             <Type>BULK</Type>
         </Material>
 
-        <Material UnitsOfMeasure="g/m">
+        <Material UnitsOfMeasure="kg/m">
             <Name>Nylon Paracord, 110 lb, 1/16 in. dia.</Name>
             <Density>0.00160</Density>
             <Type>LINE</Type>
         </Material>
 
-        <Material UnitsOfMeasure="g/m">
+        <Material UnitsOfMeasure="kg/m">
             <Name>Nylon Paracord, 275 lb, 2.38 mm dia.</Name>
             <Density>0.00350</Density>
             <Type>LINE</Type>
         </Material>
 
         <!-- 1.9 oz urethane coated ripstop nylon is LOC material per 2018 website -->
-        <Material UnitsOfMeasure="g/m2">
+        <Material UnitsOfMeasure="kg/m2">
             <Name>Nylon fabric, ripstop, 1.9 oz actual</Name>
             <Density>0.0589</Density>
             <Type>SURFACE</Type>
         </Material>
 
         <!-- LOC plywood centering rings are Baltic birch (private communication from Dave Barber, Sep 17 2022) -->
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Plywood, Baltic birch, bulk</Name>
             <Density>680.0</Density>
             <Type>BULK</Type>

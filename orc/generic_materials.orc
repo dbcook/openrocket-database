@@ -31,12 +31,12 @@ attributes.  This seems to have no effect; looks like everything is actually kg/
       <!-- ===================================== -->
 
       <!-- BULK paper -->
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Poster board, 6oz and 2oz nominal</Name>
             <Density>798.85</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Paper, spiral kraft glassine, bulk</Name>
             <Density>798.85</Density>
             <Type>BULK</Type>
@@ -62,7 +62,7 @@ attributes.  This seems to have no effect; looks like everything is actually kg/
              BlueTube-2.6   OD 2.66-2.67, ID 2.545
              Measured lengths of nominal 48" tubes ranges from 48.0" to 48 3/16"
         -->
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Blue Tube, bulk</Name>
             <Density>1162.0</Density>
             <Type>BULK</Type>
@@ -72,86 +72,86 @@ attributes.  This seems to have no effect; looks like everything is actually kg/
         
         <!-- Average values for LOC tube, coupler and stiffener parts from spreadsheet density analysis of Apogee data
              These densities are a very good fit with everything but a few outliers -->
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Paper, kraft, LOC coupler avg</Name>
             <Density>789.6</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Paper, kraft, LOC coupler stiffener avg</Name>
             <Density>603.3</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Paper, kraft glassine, LOC tube avg</Name>
             <Density>855.2</Density>
             <Type>BULK</Type>
         </Material>
         <!-- The LOC MMTHD-3.00 and MMTHD-3.90 have much higher density -->
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Paper, kraft glassine, LOC MMTHD avg</Name>
             <Density>1220.6</Density>
             <Type>BULK</Type>
         </Material>
 
         <!-- Paper product densities, many from paperonweb.com/density.htm -->
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Paper, tag, 0.53 g/cm3, bulk</Name>
             <Density>530.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Paper, corrugated medium, 0.61 g/cm3, bulk</Name>
             <Density>610.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Paper, bond, 0.75 g/cm3, bulk</Name>
             <Density>750.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Paper, bleached kraft, 0.83 g/cm3, bulk</Name>
             <Density>830.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Paper, cover, 0.92 g/cm3, bulk</Name>
             <Density>920.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Paper, coated, 1.13 g/cm3, bulk</Name>
             <Density>1130.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Paper, super calendared glassine, 1.30 g/cm3, bulk</Name>
             <Density>1300.0</Density>
             <Type>BULK</Type>
         </Material>
 
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Cardboard, 0.689 g/cm3, bulk</Name>
             <Density>689.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Paper, mailing tube, 0.8 g/cm3, bulk</Name>
             <Density>800.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Paper, mat board, 4-ply, 0.71 g/cm3, bulk</Name>
             <Density>710.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Paper, spiral/glassine tubing, thick wall, .769 g/cm3, bulk</Name>
             <Density>769.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Paper, spiral/glassine tubing, thin wall, .849 g/cm3, bulk</Name>
             <Density>849.0</Density>
             <Type>BULK</Type>
@@ -159,13 +159,13 @@ attributes.  This seems to have no effect; looks like everything is actually kg/
 
         <!-- This is from the OpenRocket semroc file and represents material used for
              spiral wound centering rings -->
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Fiber, bulk</Name>
             <Density>657.0</Density>
             <Type>BULK</Type>
         </Material>
         
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Fiber, vulcanized, bulk</Name>
             <Density>1250.0</Density>
             <Type>BULK</Type>
@@ -174,13 +174,13 @@ attributes.  This seems to have no effect; looks like everything is actually kg/
       <!-- BULK woods -->
       
         <!-- what the heck was "rocketwood"? -->
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Rocketwood, bulk</Name>
             <Density>529.1</Density>
             <Type>BULK</Type>
         </Material>
 
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
           <Name>Ash, bulk</Name>
           <Density>680.8</Density>
           <Type>BULK</Type>
@@ -189,103 +189,103 @@ attributes.  This seems to have no effect; looks like everything is actually kg/
         <!-- Balsa seen from rocketry vendors can range from 5-10 lb/ft3.
              The average inferred from various manufacturer's weight data is around
              7-8 lb/ft3 -->
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
           <Name>Balsa, bulk, 5 lb/ft3</Name>
           <Density>80.0</Density>
           <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
           <Name>Balsa, bulk, 6 lb/ft3</Name>
           <Density>96.0</Density>
           <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
           <Name>Balsa, bulk, 7 lb/ft3</Name>
           <Density>112.0</Density>
           <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
           <Name>Balsa, bulk, 8 lb/ft3</Name>
           <Density>128.1</Density>
           <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
           <Name>Balsa, bulk, 10 lb/ft3</Name>
           <Density>160.0</Density>
           <Type>BULK</Type>
         </Material>
         
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
           <Name>Basswood, bulk</Name>
           <Density>424.5</Density>
           <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
           <Name>Beech, bulk</Name>
           <Density>720.8</Density>
           <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
           <Name>Birch, bulk</Name>
           <Density>680.8</Density>
           <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
           <Name>Cork, bulk</Name>
           <Density>240.0</Density>
           <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
           <Name>Cottonwood, bulk</Name>
           <Density>416.0</Density>
           <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Fir, Douglas, bulk</Name>
             <Density>560.6</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Fir, White, bulk</Name>
             <Density>400.5</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Maple, hard, bulk</Name>
             <Density>632.7</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Oak, brown/red, bulk</Name>
             <Density>721.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Oak, white, bulk</Name>
             <Density>753.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Pine, white northern, bulk</Name>
             <Density>401.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Pine, white western, bulk</Name>
             <Density>432.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Poplar, yellow, bulk</Name>
             <Density>481.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Spruce, bulk</Name>
             <Density>448.5</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Sycamore, bulk</Name>
             <Density>560.6</Density>
             <Type>BULK</Type>
@@ -301,27 +301,27 @@ attributes.  This seems to have no effect; looks like everything is actually kg/
 
         <!-- "Light ply" plywood types, usually poplar based -->
 
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Plywood, light, bulk</Name>
             <Density>352.4</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Plywood, aircraft, 1/16 in. bulk</Name>
             <Density>361.3</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Plywood, aircraft, 1/8 in. bulk</Name>
             <Density>337.5</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Plywood, aircraft, 1/4 in. bulk</Name>
             <Density>344.3</Density>
             <Type>BULK</Type>
        </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Plywood, aircraft, 3/16 in. bulk</Name>
             <Density>344.3</Density>
             <Type>BULK</Type>
@@ -332,7 +332,7 @@ attributes.  This seems to have no effect; looks like everything is actually kg/
         <!-- Baltic birch and Russian birch are synonymous; they are full all-birch plywood.
           Sold in 3mm thickness increments in 1525 x 1525 mm square sheets.
           Nominal density of Baltic birch ply according to plywood.cc is 680 kg/m^3 -->
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Plywood, Baltic birch, bulk</Name>
             <Density>680.0</Density>
             <Type>BULK</Type>
@@ -345,7 +345,7 @@ attributes.  This seems to have no effect; looks like everything is actually kg/
             where they may have just divided down the number for the 1/4 sheet to low precision. There is
             no table of weights in the catalog like they have for the domestic plywood.
         -->
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Plywood, Baltic birch, Aircraft Spruce Finnish type, bulk</Name>
             <Density>707.0</Density>
             <Type>BULK</Type>
@@ -366,17 +366,17 @@ attributes.  This seems to have no effect; looks like everything is actually kg/
                  SIG 1/32" 3-ply
                  SIG 1/64" 3-ply
          -->
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Plywood, birch, Revell 1/8 in. bulk</Name>
             <Density>640.74</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Plywood, birch, Revell generic, bulk</Name>
             <Density>656.8</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Plywood, birch, LOC type, bulk</Name>
             <Density>725.0</Density>
             <Type>BULK</Type>
@@ -385,128 +385,128 @@ attributes.  This seems to have no effect; looks like everything is actually kg/
 
       <!-- BULK metals -->
         <!-- ***See if this is correct value for 6061*** -->
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Aluminum, generic, bulk</Name>
             <Density>2698.9</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Aluminum, 2024, bulk</Name>
             <Density>2780.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Aluminum, 7075, bulk</Name>
             <Density>2810.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Brass, bulk</Name>
             <Density>8553.9</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Copper, cast, bulk</Name>
             <Density>8682.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Copper, rolled, bulk</Name>
             <Density>8906.3</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Gold, 24 kt, bulk</Name>
             <Density>19286.2</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Iron, bulk</Name>
             <Density>7850.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Lead, bulk</Name>
             <Density>11340.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Magnesium, bulk</Name>
             <Density>1738.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Nickel, 200, bulk</Name>
             <Density>8890.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Nickel, 400, bulk</Name>
             <Density>8800.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Nickel, 600, bulk</Name>
             <Density>8410.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Nickel, 625, bulk</Name>
             <Density>8440.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Nickel, 718, bulk</Name>
             <Density>8230.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Nickel, C276, bulk</Name>
             <Density>8890.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Silver, bulk</Name>
             <Density>10490.0</Density>
             <Type>BULK</Type>
         </Material>
         <!-- *** These are not the most common SS varieties, need 316 etc. -->
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Stainless steel, 17-4PH, bulk</Name>
             <Density>7600.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Stainless steel, 17-5PH, bulk</Name>
             <Density>7800.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Stainless steel, 17-7PH, bulk</Name>
             <Density>7800.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Steel, generic rolled, bulk</Name>
             <Density>7850.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Steel, 4130, bulk</Name>
             <Density>7850.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Steel, 4340, bulk</Name>
             <Density>7850.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Titanium, bulk</Name>
             <Density>4500.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Zinc, bulk</Name>
             <Density>7135.0</Density>
             <Type>BULK</Type>
@@ -515,50 +515,50 @@ attributes.  This seems to have no effect; looks like everything is actually kg/
       <!-- BULK plastics -->
       <!-- ***Add 3D print materials:  PLA, ABS, Nylon, HIPS -->
 
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Cellulose acetate propionate, bulk</Name>
             <Density>1199.8</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Lexan, cast/extruded, bulk</Name>
             <Density>1218.0</Density>
             <Type>BULK</Type>
         </Material>
         <!-- Mylar (polyester) density quoted by DuPont as 1.39 g/cc -->
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Mylar, bulk</Name>
             <Density>1390.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Nylon, bulk</Name>
             <Density>1140.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>PVC, bulk</Name>
             <Density>1301.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Polycarbonate, cast/extruded, bulk</Name>
             <Density>1200.0</Density>
             <Type>BULK</Type>
         </Material>
         <!-- HDPE poly range given as 0.941 to 0.965 g/cm3 on usplastics.com -->
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Polyethylene, HDPE, bulk</Name>
             <Density>950.0</Density>
             <Type>BULK</Type>
         </Material>
         <!-- LDPE poly range given as 0.910 to 0.940 g/cm3 on usplastics.com and wikipedia -->
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Polyethylene, LDPE, bulk</Name>
             <Density>925.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Polystyrene, cast, bulk</Name>
             <Density>1050.0</Density>
             <Type>BULK</Type>
@@ -568,7 +568,7 @@ attributes.  This seems to have no effect; looks like everything is actually kg/
             <Density>946.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Urethane, (ethyl carbamate) bulk</Name>
             <Density>847.06</Density>
             <Type>BULK</Type>
@@ -576,27 +576,27 @@ attributes.  This seems to have no effect; looks like everything is actually kg/
       
       <!-- BULK resins -->
 
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Acrylic, cast, bulk</Name>
             <Density>1185.4</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Epoxy, West System 105/205, cured, bulk</Name>
             <Density>1180.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Epoxy, West System 105/206, cured, bulk</Name>
             <Density>1180.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Epoxy, West System 105/207, cured, bulk</Name>
             <Density>1150.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Epoxy, Cotronics 4525, cured, bulk</Name>
             <Density>1900.0</Density>
             <Type>BULK</Type>
@@ -605,13 +605,13 @@ attributes.  This seems to have no effect; looks like everything is actually kg/
       <!-- BULK composites -->
 
         <!-- This is density of carbon fiber itself, without resin -->
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Carbon fiber, bulk</Name>
             <Density>1740.0</Density>
             <Type>BULK</Type>
         </Material>
         <!-- Standard density of properly made carbon fiber composite -->
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Carbon fiber epoxy composite, bulk</Name>
             <Density>1600.0</Density>
             <Type>BULK</Type>
@@ -620,20 +620,20 @@ attributes.  This seems to have no effect; looks like everything is actually kg/
              The quoted weight of FWCF-29 is much less than it should be and probably
              implies there is considerable excess resin.
         -->
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Carbon fiber epoxy composite, Madcow FWCF, bulk</Name>
             <Density>1250.0</Density>
             <Type>BULK</Type>
         </Material>
         
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Kevlar epoxy composite, bulk</Name>
             <Density>1400.0</Density>
             <Type>BULK</Type>
         </Material>
 
         <!-- E-glass composite usually quoted at 1.90 -->
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Fiberglass, generic, bulk</Name>
             <Density>1900.0</Density>
             <Type>BULK</Type>
@@ -641,57 +641,57 @@ attributes.  This seems to have no effect; looks like everything is actually kg/
         <!-- G10 is glass cloth + epoxy, usually in convolute wound tubes -->
         <!-- G12 is filament wound -->
         <!-- G10 is quoted on MatWeb.com as 1.80 g/cc -->
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Fiberglass, G10, bulk</Name>
             <Density>1800.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Fiberglass, G12, filament wound generic, bulk</Name>
             <Density>1934.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Fiberglass, G12, filament wound tube, bulk</Name>
             <Density>1820.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Fiberglass, honeycomb, 0.125in, bulk</Name>
             <Density>461.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Fiberglass, honeycomb, 0.25in, bulk</Name>
             <Density>235.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Phenolic, bulk</Name>
             <Density>1905.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Phenolic, glassed, bulk</Name>
             <Density>1900.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Phenolic, kraft, bulk</Name>
             <Density>943.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Phenolic, kraft, glassed, bulk</Name>
             <Density>1153.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Phenolic, Magna tube type, bulk</Name>
             <Density>1100.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Quantum tubing, PML, bulk</Name>
             <Density>1100.0</Density>
             <Type>BULK</Type>
@@ -699,17 +699,17 @@ attributes.  This seems to have no effect; looks like everything is actually kg/
 
       <!-- BULK misc solids -->
       
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Chalk, powdered, fine</Name>
             <Density>1121.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Glass, window, bulk</Name>
             <Density>2579.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Graphite, 2.2 gm/cm3, bulk</Name>
             <Density>2200.0</Density>
             <Type>BULK</Type>
@@ -755,7 +755,7 @@ attributes.  This seems to have no effect; looks like everything is actually kg/
             <Density>0.00402</Density>
             <Type>LINE</Type>
         </Material>
-        <Material UnitsOfMeasure="kg/cm3">
+        <Material UnitsOfMeasure="kkg/m3">
             <Name>Elastic, flat, 3/8 in. width</Name>
             <Density>0.006087</Density>
             <Type>BULK</Type>
