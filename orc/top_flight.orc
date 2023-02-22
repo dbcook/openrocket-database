@@ -24,33 +24,33 @@ TODO: verify masses against actual parachutes.
     <Version>0.1</Version>
     <Materials>
 
-        <Material UnitsOfMeasure="g/m">
+        <Material UnitsOfMeasure="kg/m">
             <Name>Nylon Paracord, 110 lb, 1/16 in. dia.</Name>
             <Density>0.00160</Density>
             <Type>LINE</Type>
         </Material>
 
-        <Material UnitsOfMeasure="g/m">
+        <Material UnitsOfMeasure="kg/m">
             <Name>Nylon Paracord, 275 lb, 2.38 mm dia.</Name>
             <Density>0.00350</Density>
             <Type>LINE</Type>
         </Material>
 
-        <Material UnitsOfMeasure="g/m">
+        <Material UnitsOfMeasure="kg/m">
             <Name>Nylon cord, flat braid, 325 lb, 1/8 in.</Name>
             <Density>0.00417</Density>
             <Type>LINE</Type>
         </Material>
 
         <!-- 1.1 oz is Top Flight thin mill material -->
-        <Material UnitsOfMeasure="g/m2">
+        <Material UnitsOfMeasure="kg/m2">
             <Name>Nylon fabric, ripstop, 1.1 oz actual</Name>
             <Density>0.0341</Density>
             <Type>SURFACE</Type>
         </Material>
 
         <!-- 1.7oz ripstop nylon is Top Flight standard parachute material -->
-        <Material UnitsOfMeasure="g/m2">
+        <Material UnitsOfMeasure="kg/m2">
             <Name>Nylon fabric, ripstop, 1.7 oz actual</Name>
             <Density>0.0527</Density>
             <Type>SURFACE</Type>
