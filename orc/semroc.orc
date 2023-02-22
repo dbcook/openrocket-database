@@ -88,31 +88,31 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
   <Materials>
 
     <!-- fiber for centering rings from built-in semroc file -->
-    <Material UnitsOfMeasure="g/cm3">
+    <Material UnitsOfMeasure="kg/cm3">
       <Name>Fiber, bulk</Name>
       <Density>657.0</Density>
       <Type>BULK</Type>
     </Material>
         
-    <Material UnitsOfMeasure="g/cm3">
+    <Material UnitsOfMeasure="kg/cm3">
       <Name>Plywood, light, bulk</Name>
       <Density>352.4</Density>
       <Type>BULK</Type>
     </Material>
     
-    <Material UnitsOfMeasure="g/cm3">
+    <Material UnitsOfMeasure="kg/cm3">
       <Name>Balsa, bulk, 6lb/ft3</Name>
       <Density>96.0</Density>
       <Type>BULK</Type>
     </Material>
     
-    <Material UnitsOfMeasure="g/cm3">
+    <Material UnitsOfMeasure="kg/cm3">
       <Name>Balsa, bulk, 7lb/ft3</Name>
       <Density>112.0</Density>
       <Type>BULK</Type>
     </Material>
 
-    <Material UnitsOfMeasure="g/cm3">
+    <Material UnitsOfMeasure="kg/cm3">
       <Name>Balsa, bulk, 8lb/ft3</Name>
       <Density>128.1</Density>
       <Type>BULK</Type>
@@ -131,7 +131,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
         
     <!-- Estes/Centuri HDPE poly chute material (100% printed) is about 1 mil thick -->
     <!-- This value is just the bare poly value for 1.0 mil thick, printed material may be a bit different -->
-    <Material UnitsOfMeasure="g/m2">
+    <Material UnitsOfMeasure="kg/m2">
       <Name>Polyethylene film, HDPE, 1.0 mil, bare</Name>
       <Density>0.0235</Density>
       <Type>SURFACE</Type>
@@ -145,7 +145,7 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
     </Material>
 
     <!-- Mylar (polyester) density quoted by DuPont as 1.39 g/cc -->
-    <Material UnitsOfMeasure="g/cm3">
+    <Material UnitsOfMeasure="kg/cm3">
       <Name>Mylar, bulk</Name>
       <Density>1390.0</Density>
       <Type>BULK</Type>
