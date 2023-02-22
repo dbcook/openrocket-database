@@ -135,7 +135,7 @@ Known issues:
         </Material>
         
         <!-- Mylar (polyester) density quoted by DuPont as 1.39 g/cc -->
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/cm3">
             <Name>Mylar, bulk</Name>
             <Density>1390.0</Density>
             <Type>BULK</Type>
