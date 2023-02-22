@@ -108,7 +108,7 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
 <OpenRocketComponent>
     <Version>0.1</Version>
     <Materials>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/cm3">
             <Name>Paper, spiral kraft glassine, bulk</Name>
             <Density>798.85</Density>
             <Type>BULK</Type>
@@ -118,23 +118,23 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
             <Density>1050.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/cm3">
             <Name>Plywood, light, bulk</Name>
             <Density>352.4</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/cm3">
             <Name>Fiber, bulk</Name>
             <Density>657.0</Density>
             <Type>BULK</Type>
         </Material>
         <!-- G10 is quoted on MatWeb.com as 1.80 g/cc -->
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/cm3">
             <Name>Fiberglass, G10, bulk</Name>
             <Density>1800.0</Density>
             <Type>BULK</Type>
         </Material>
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/cm3">
             <Name>Fiberglass, G12, filament wound tube, bulk</Name>
             <Density>1820.0</Density>
             <Type>BULK</Type>
@@ -143,7 +143,7 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
              The quoted weight of FWCF-29 is much less than it should be and probably
              implies there is considerable excess resin.
         -->
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/cm3">
             <Name>Carbon fiber epoxy composite, Madcow FWCF, bulk</Name>
             <Density>1250.0</Density>
             <Type>BULK</Type>
@@ -155,39 +155,39 @@ SOURCE ERROR: Weights per foot of coupler tubes larger than FC30 are not given, 
         </Material>
 
         <!-- Madcow has very few balsa parts; I adopted 8 lb/ft3 balsa as a likely average -->
-        <Material UnitsOfMeasure="g/cm3">
+        <Material UnitsOfMeasure="kg/cm3">
           <Name>Balsa, bulk, 8 lb/ft3</Name>
           <Density>128.1</Density>
           <Type>BULK</Type>
         </Material>
 
-        <Material UnitsOfMeasure="g/m">
+        <Material UnitsOfMeasure="kg/m">
             <Name>Nylon Paracord, 110 lb, 1/16 in. dia.</Name>
             <Density>0.00160</Density>
             <Type>LINE</Type>
         </Material>
 
-        <Material UnitsOfMeasure="g/m">
+        <Material UnitsOfMeasure="kg/m">
             <Name>Nylon Paracord, 275 lb, 2.38 mm dia.</Name>
             <Density>0.00350</Density>
             <Type>LINE</Type>
         </Material>
 
-        <Material UnitsOfMeasure="g/m">
+        <Material UnitsOfMeasure="kg/m">
             <Name>Nylon cord, flat braid, 325 lb, 1/8 in.</Name>
             <Density>0.00417</Density>
             <Type>LINE</Type>
         </Material>
 
         <!-- 1.1 oz is Top Flight thin mill material -->
-        <Material UnitsOfMeasure="g/m2">
+        <Material UnitsOfMeasure="kg/m2">
             <Name>Nylon fabric, ripstop, 1.1 oz actual</Name>
             <Density>0.03735</Density>
             <Type>SURFACE</Type>
         </Material>
 
         <!-- 1.7oz ripstop nylon is Top Flight and LOC standard parachute material -->
-        <Material UnitsOfMeasure="g/m2">
+        <Material UnitsOfMeasure="kg/m2">
             <Name>Nylon fabric, ripstop, 1.7 oz actual</Name>
             <Density>0.05764</Density>
             <Type>SURFACE</Type>
