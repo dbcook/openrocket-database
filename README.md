@@ -26,6 +26,11 @@ System compatibility:  works anywhere OpenRocket can run
 
 ## Release Notes
 
+1.0.0.3
+* Fixes
+  * Everywhere: fix UnitsOfMeasure for materials densities to SI units (kg/m3 etc.)
+    THIS HAS NO IMPACT because OpenRocket does not parse UnitsOfMeasure for materials in .orc files
+
 1.0.0.2
 * Additions
   * Top Flight: add all streamers from Dec 2022 website
