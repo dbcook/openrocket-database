@@ -10,7 +10,7 @@ OpenRocket jar file.
 Installing this package does not change how OpenRocket __works__ in any way.  It only changes what
 components are available for selection in the menus.
 
-As of the 2022 OpenRocket beta releases, this database is automatically installed along with OpenRocket,
+As of the 2022.02 OpenRocket release (Feb 2023), this database is automatically installed along with OpenRocket,
 and you don't have to do anything special to install it.
 
 For the old OpenRocket 15.03, you have to do a slightly technical installation.
@@ -20,7 +20,7 @@ when it starts up.
 
 ## Compatibility
 
-OpenRocket compatibility:  OpenRocket 15.03 and 2022 beta releases.
+OpenRocket compatibility:  OpenRocket 15.03 and 2022.02 releases.
 
 System compatibility:  works anywhere OpenRocket can run
 
@@ -187,13 +187,16 @@ many cases, especially those involving asymmetric lift/drag.
 
 ## Installing and Uninstalling
 
-### Installing with OpenRocket 2022 releases
+### Installing with OpenRocket 22.xx releases
 
 You don't have to do anything.  This is the default database for the new OpenRocket.
 
+If you want to update OpenRocket 22.02+ to use a newer version of this database, the
+procedure given below for installing into OpenRocket 15.03 works for that.
+
 ### Installing with OpenRocket 15.03 (last stable release from 2015)
 
-For all OS types, I recommend you create a symlink to the cloned repo so that OpenRocket
+For all OS types, I recommend you create a symlink to the cloned git repo so that OpenRocket
 will find the components database there.  Doing it this way allows OpenRocket to
 automatically find the updated files after you do a 'git pull' to grab the latest version
 from GitHub.  Otherwise you would have to copy updated files to where OpenRocket expects them.
@@ -428,7 +431,7 @@ contract manufacturing works now guarantees that individual part details will no
 be publicly available unless the manufacturer goes to extra expense to provide it.
 
 As Estes shifted production to China, in addition to the issues created by
-contract manufacturing, several more things happened that affected the ability
+contract manufacturing, other things happened that affected the ability
 to get Estes parts info:
 
 * Even for parts that are listed separately on the Estes website, little or no
