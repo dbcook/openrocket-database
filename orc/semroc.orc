@@ -125,6 +125,13 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
       <Type>BULK</Type>
     </Material>
  
+    <!-- Mylar (polyester) density quoted by DuPont as 1.39 g/cc -->
+    <Material UnitsOfMeasure="kg/m3">
+      <Name>Mylar, bulk</Name>
+      <Density>1390.0</Density>
+      <Type>BULK</Type>
+    </Material>
+
 
     <!-- SURFACE (sheet) materials, only needed for parachute and streamer components -->
 
@@ -142,13 +149,6 @@ Finish rectifying nose cone shoulder lengths against drawings from legacy site
       <Name>Polyethylene film, HDPE, 2.0 mil, bare</Name>
       <Density>0.0470</Density>
       <Type>SURFACE</Type>
-    </Material>
-
-    <!-- Mylar (polyester) density quoted by DuPont as 1.39 g/cc -->
-    <Material UnitsOfMeasure="kg/m3">
-      <Name>Mylar, bulk</Name>
-      <Density>1390.0</Density>
-      <Type>BULK</Type>
     </Material>
 
 
