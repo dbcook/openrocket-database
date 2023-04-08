@@ -26,6 +26,10 @@ System compatibility:  works anywhere OpenRocket can run
 
 ## Release Notes
 
+1.0.0.4
+* Fixes
+  * PR30: Fix (inconsequential) wrong unit of measure specs for bulk nylon and delrin in BMS and Rocketarium files.
+
 1.0.0.3
 * Fixes
   * Everywhere: fix UnitsOfMeasure for materials densities to SI units (kg/m3 etc.)
