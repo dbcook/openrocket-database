@@ -657,7 +657,7 @@ Using this file:
 			<PartNumber>29mm Motor Mount tube 12" (TW)</PartNumber>
 			<Description>29mm Motor Mount tube 12" (TW), PN 29mm Motor Mount tube 12" (TW)</Description>
 			<Material Type="BULK">Paper, spiral kraft, Motor Mount, 29mm, 12", thick, bulk</Material>
-			<InsideDiameter Unit="in">1.147,</InsideDiameter>
+			<InsideDiameter Unit="in">1.147</InsideDiameter>
 			<OutsideDiameter Unit="in">1.233</OutsideDiameter>
 			<Length Unit="in">12</Length>
 		</BodyTube>
@@ -666,7 +666,7 @@ Using this file:
 			<PartNumber>29mm Motor Mount tube 18" (TW)</PartNumber>
 			<Description>29mm Motor Mount tube 18" (TW), PN 29mm Motor Mount tube 18" (TW)</Description>
 			<Material Type="BULK">Paper, spiral kraft, Motor Mount, 29mm, 12", thick, bulk</Material>
-			<InsideDiameter Unit="in">1.147,</InsideDiameter>
+			<InsideDiameter Unit="in">1.147</InsideDiameter>
 			<OutsideDiameter Unit="in">1.233</OutsideDiameter>
 			<Length Unit="in">18</Length>
 		</BodyTube>
