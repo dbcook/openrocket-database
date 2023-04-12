@@ -344,7 +344,7 @@ Using this file:
 			<Density>344.3</Density>
 			<Type>BULK</Type>
 		</Material>
-		<Material UnitsOfMeasure="kg/m3f">
+		<Material UnitsOfMeasure="kg/m3">
 			<Name>Plywood, aircraft, 3/16 in. bulk</Name>
 			<Density>344.3</Density>
 			<Type>BULK</Type>
