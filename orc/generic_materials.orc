@@ -755,7 +755,7 @@ attributes.  This seems to have no effect; looks like everything is actually kg/
             <Density>0.00402</Density>
             <Type>LINE</Type>
         </Material>
-        <Material UnitsOfMeasure="kkg/m3">
+        <Material UnitsOfMeasure="kg/m3">
             <Name>Elastic, flat, 3/8 in. width</Name>
             <Density>0.006087</Density>
             <Type>BULK</Type>
