@@ -266,7 +266,7 @@ TC_5.5_12          Coupler for BT_5.5, 12" long
         <!-- ================================ -->
 
         <!-- TC_1.15 available in 8" and 48" lengths -->
-        <BodyTube>
+        <TubeCoupler>
             <Manufacturer>Always Ready Rocketry</Manufacturer>
             <PartNumber>TC_1.15_8</PartNumber>
             <Description>Blue Tube coupler, 1.15", 8" len</Description>
@@ -274,8 +274,8 @@ TC_5.5_12          Coupler for BT_5.5, 12" long
             <InsideDiameter Unit="in">1.023</InsideDiameter>
             <OutsideDiameter Unit="in">1.147</OutsideDiameter>
             <Length Unit="in">8.0</Length>
-        </BodyTube>
-        <BodyTube>
+        </TubeCoupler>
+        <TubeCoupler>
             <Manufacturer>Always Ready Rocketry</Manufacturer>
             <PartNumber>TC_1.15_48</PartNumber>
             <Description>Blue Tube coupler, 1.15", 48" len</Description>
@@ -283,10 +283,10 @@ TC_5.5_12          Coupler for BT_5.5, 12" long
             <InsideDiameter Unit="in">1.023</InsideDiameter>
             <OutsideDiameter Unit="in">1.147</OutsideDiameter>
             <Length Unit="in">48.0</Length>
-        </BodyTube>
+        </TubeCoupler>
 
         <!-- TC-1.52 available in 8" and 48" lengths -->
-        <BodyTube>
+        <TubeCoupler>
             <Manufacturer>Always Ready Rocketry</Manufacturer>
             <PartNumber>TC_1.52_8</PartNumber>
             <Description>Blue Tube coupler, 1.52", 8" len</Description>
@@ -294,8 +294,8 @@ TC_5.5_12          Coupler for BT_5.5, 12" long
             <InsideDiameter Unit="in">1.393</InsideDiameter>
             <OutsideDiameter Unit="in">1.517</OutsideDiameter>
             <Length Unit="in">8.0</Length>
-        </BodyTube>
-        <BodyTube>
+        </TubeCoupler>
+        <TubeCoupler>
             <Manufacturer>Always Ready Rocketry</Manufacturer>
             <PartNumber>TC_1.52_48</PartNumber>
             <Description>Blue Tube coupler, 1.52", 48" len</Description>
@@ -303,10 +303,10 @@ TC_5.5_12          Coupler for BT_5.5, 12" long
             <InsideDiameter Unit="in">1.393</InsideDiameter>
             <OutsideDiameter Unit="in">1.517</OutsideDiameter>
             <Length Unit="in">48.0</Length>
-        </BodyTube>
+        </TubeCoupler>
 
         <!-- TC-2.15 available in 8" and 48" lengths -->>
-        <BodyTube>
+        <TubeCoupler>
             <Manufacturer>Always Ready Rocketry</Manufacturer>
             <PartNumber>TC_2.15_8</PartNumber>
             <Description>Blue Tube coupler, 2.15", 8" len</Description>
@@ -314,8 +314,8 @@ TC_5.5_12          Coupler for BT_5.5, 12" long
             <InsideDiameter Unit="in">2.023</InsideDiameter>
             <OutsideDiameter Unit="in">2.147</OutsideDiameter>
             <Length Unit="in">8.0</Length>
-        </BodyTube>
-        <BodyTube>
+        </TubeCoupler>
+        <TubeCoupler>
             <Manufacturer>Always Ready Rocketry</Manufacturer>
             <PartNumber>TC_2.15_48</PartNumber>
             <Description>Blue Tube coupler, 2.15", 48" len</Description>
@@ -323,10 +323,10 @@ TC_5.5_12          Coupler for BT_5.5, 12" long
             <InsideDiameter Unit="in">2.023</InsideDiameter>
             <OutsideDiameter Unit="in">2.147</OutsideDiameter>
             <Length Unit="in">48.0</Length>
-        </BodyTube>
+        </TubeCoupler>
 
         <!-- TC-2.56 available in 8" and 48" lengths -->>
-        <BodyTube>
+        <TubeCoupler>
             <Manufacturer>Always Ready Rocketry</Manufacturer>
             <PartNumber>TC_2.56_8</PartNumber>
             <Description>Blue Tube coupler, 2.56", 8" len</Description>
@@ -334,8 +334,8 @@ TC_5.5_12          Coupler for BT_5.5, 12" long
             <InsideDiameter Unit="in">2.433</InsideDiameter>
             <OutsideDiameter Unit="in">2.557</OutsideDiameter>
             <Length Unit="in">8.0</Length>
-        </BodyTube>
-        <BodyTube>
+        </TubeCoupler>
+        <TubeCoupler>
             <Manufacturer>Always Ready Rocketry</Manufacturer>
             <PartNumber>TC_2.56_48</PartNumber>
             <Description>Blue Tube coupler, 2.56", 48" len</Description>
@@ -343,10 +343,10 @@ TC_5.5_12          Coupler for BT_5.5, 12" long
             <InsideDiameter Unit="in">2.433</InsideDiameter>
             <OutsideDiameter Unit="in">2.557</OutsideDiameter>
             <Length Unit="in">48.0</Length>
-        </BodyTube>
+        </TubeCoupler>
 
         <!-- TC-3.00 available in 8" and 48" lengths -->>
-        <BodyTube>
+        <TubeCoupler>
             <Manufacturer>Always Ready Rocketry</Manufacturer>
             <PartNumber>TC_3.00_8</PartNumber>
             <Description>Blue Tube coupler, 3.00", 8" len</Description>
@@ -354,8 +354,8 @@ TC_5.5_12          Coupler for BT_5.5, 12" long
             <InsideDiameter Unit="in">2.873</InsideDiameter>
             <OutsideDiameter Unit="in">2.997</OutsideDiameter>
             <Length Unit="in">8.0</Length>
-        </BodyTube>
-        <BodyTube>
+        </TubeCoupler>
+        <TubeCoupler>
             <Manufacturer>Always Ready Rocketry</Manufacturer>
             <PartNumber>TC_3.00_48</PartNumber>
             <Description>Blue Tube coupler, 3.00", 48" len</Description>
@@ -363,10 +363,10 @@ TC_5.5_12          Coupler for BT_5.5, 12" long
             <InsideDiameter Unit="in">2.873</InsideDiameter>
             <OutsideDiameter Unit="in">2.997</OutsideDiameter>
             <Length Unit="in">48.0</Length>
-        </BodyTube>
+        </TubeCoupler>
 
         <!-- TC-3.90 available in 8" and 48" lengths -->>
-        <BodyTube>
+        <TubeCoupler>
             <Manufacturer>Always Ready Rocketry</Manufacturer>
             <PartNumber>TC_3.90_8</PartNumber>
             <Description>Blue Tube coupler, 3.90", 8" len</Description>
@@ -374,8 +374,8 @@ TC_5.5_12          Coupler for BT_5.5, 12" long
             <InsideDiameter Unit="in">3.773</InsideDiameter>
             <OutsideDiameter Unit="in">3.897</OutsideDiameter>
             <Length Unit="in">8.0</Length>
-        </BodyTube>
-        <BodyTube>
+        </TubeCoupler>
+        <TubeCoupler>
             <Manufacturer>Always Ready Rocketry</Manufacturer>
             <PartNumber>TC_3.90_48</PartNumber>
             <Description>Blue Tube coupler, 3.90", 48" len</Description>
@@ -383,10 +383,10 @@ TC_5.5_12          Coupler for BT_5.5, 12" long
             <InsideDiameter Unit="in">3.773</InsideDiameter>
             <OutsideDiameter Unit="in">3.897</OutsideDiameter>
             <Length Unit="in">48.0</Length>
-        </BodyTube>
+        </TubeCoupler>
 
         <!-- TC-5.5 available in 12", 16" and 48" lengths, 0.077" wall -->>
-        <BodyTube>
+        <TubeCoupler>
             <Manufacturer>Always Ready Rocketry</Manufacturer>
             <PartNumber>TC_5.5_12</PartNumber>
             <Description>Blue Tube coupler, 5.5", 12" len</Description>
@@ -394,8 +394,8 @@ TC_5.5_12          Coupler for BT_5.5, 12" long
             <InsideDiameter Unit="in">5.343</InsideDiameter>
             <OutsideDiameter Unit="in">5.497</OutsideDiameter>
             <Length Unit="in">12.0</Length>
-        </BodyTube>
-        <BodyTube>
+        </TubeCoupler>
+        <TubeCoupler>
             <Manufacturer>Always Ready Rocketry</Manufacturer>
             <PartNumber>TC_5.5_16</PartNumber>
             <Description>Blue Tube coupler, 5.5", 16" len</Description>
@@ -403,8 +403,8 @@ TC_5.5_12          Coupler for BT_5.5, 12" long
             <InsideDiameter Unit="in">5.343</InsideDiameter>
             <OutsideDiameter Unit="in">5.497</OutsideDiameter>
             <Length Unit="in">16.0</Length>
-        </BodyTube>
-        <BodyTube>
+        </TubeCoupler>
+        <TubeCoupler>
             <Manufacturer>Always Ready Rocketry</Manufacturer>
             <PartNumber>TC_5.5_48</PartNumber>
             <Description>Blue Tube coupler, 5.5", 48" len</Description>
@@ -412,10 +412,10 @@ TC_5.5_12          Coupler for BT_5.5, 12" long
             <InsideDiameter Unit="in">5.343</InsideDiameter>
             <OutsideDiameter Unit="in">5.497</OutsideDiameter>
             <Length Unit="in">48.0</Length>
-        </BodyTube>
+        </TubeCoupler>
 
         <!-- TC-6.0 available in 12", 16" and 48" lengths, 0.074" wall -->>
-        <BodyTube>
+        <TubeCoupler>
             <Manufacturer>Always Ready Rocketry</Manufacturer>
             <PartNumber>TC_6.0_12</PartNumber>
             <Description>Blue Tube coupler, 6.0", 12" len</Description>
@@ -423,8 +423,8 @@ TC_5.5_12          Coupler for BT_5.5, 12" long
             <InsideDiameter Unit="in">5.849</InsideDiameter>
             <OutsideDiameter Unit="in">5.997</OutsideDiameter>
             <Length Unit="in">12.0</Length>
-        </BodyTube>
-        <BodyTube>
+        </TubeCoupler>
+        <TubeCoupler>
             <Manufacturer>Always Ready Rocketry</Manufacturer>
             <PartNumber>TC_6.0_16</PartNumber>
             <Description>Blue Tube coupler, 6.0", 16" len</Description>
@@ -432,8 +432,8 @@ TC_5.5_12          Coupler for BT_5.5, 12" long
             <InsideDiameter Unit="in">5.849</InsideDiameter>
             <OutsideDiameter Unit="in">5.997</OutsideDiameter>
             <Length Unit="in">16.0</Length>
-        </BodyTube>
-        <BodyTube>
+        </TubeCoupler>
+        <TubeCoupler>
             <Manufacturer>Always Ready Rocketry</Manufacturer>
             <PartNumber>TC_6.0_48</PartNumber>
             <Description>Blue Tube coupler, 6.0", 48" len</Description>
@@ -441,10 +441,10 @@ TC_5.5_12          Coupler for BT_5.5, 12" long
             <InsideDiameter Unit="in">5.849</InsideDiameter>
             <OutsideDiameter Unit="in">5.997</OutsideDiameter>
             <Length Unit="in">48.0</Length>
-        </BodyTube>
+        </TubeCoupler>
 
         <!-- TC-7.5 available in 12", 16" and 48" lengths, 0.080" wall -->>
-        <BodyTube>
+        <TubeCoupler>
             <Manufacturer>Always Ready Rocketry</Manufacturer>
             <PartNumber>TC_7.5_12</PartNumber>
             <Description>Blue Tube coupler, 7.5", 12" len</Description>
@@ -452,8 +452,8 @@ TC_5.5_12          Coupler for BT_5.5, 12" long
             <InsideDiameter Unit="in">7.337</InsideDiameter>
             <OutsideDiameter Unit="in">7.497</OutsideDiameter>
             <Length Unit="in">12.0</Length>
-        </BodyTube>
-        <BodyTube>
+        </TubeCoupler>
+        <TubeCoupler>
             <Manufacturer>Always Ready Rocketry</Manufacturer>
             <PartNumber>TC_7.5_16</PartNumber>
             <Description>Blue Tube coupler, 7.5", 16" len</Description>
@@ -461,8 +461,8 @@ TC_5.5_12          Coupler for BT_5.5, 12" long
             <InsideDiameter Unit="in">7.337</InsideDiameter>
             <OutsideDiameter Unit="in">7.497</OutsideDiameter>
             <Length Unit="in">16.0</Length>
-        </BodyTube>
-        <BodyTube>
+        </TubeCoupler>
+        <TubeCoupler>
             <Manufacturer>Always Ready Rocketry</Manufacturer>
             <PartNumber>TC_7.5_48</PartNumber>
             <Description>Blue Tube coupler, 7.5", 48" len</Description>
@@ -470,7 +470,7 @@ TC_5.5_12          Coupler for BT_5.5, 12" long
             <InsideDiameter Unit="in">7.337</InsideDiameter>
             <OutsideDiameter Unit="in">7.497</OutsideDiameter>
             <Length Unit="in">48.0</Length>
-        </BodyTube>
+        </TubeCoupler>
 
         <!-- Centering Rings.  No dimensional or weight data given; using offsets from tube sizes. -->
         <!-- Up to 4" are 6mm Baltic Birch ply, 5.5" are 9mm ply, and 6.0 and 7.5" sizes are 12mm plywood -->
