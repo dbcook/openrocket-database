@@ -281,18 +281,18 @@ the former should be lighter because of the larger center hole. -->
             <Length Unit="in">34.0</Length>
         </BodyTube>
 
-        <!-- BT-1.9 - somewhere between 2018 and 2022, LOC added a 1.90" airframe tube,
-             however, assuming the 1.90" is ID as for all other LOC tubes, the OD is missing from the website. Assuming this has a .040 wall,
-             making the OD 1.98"  If this is intended to be Aerotech compatible, that is
-             not the right size though, the Aerotech 1.9 tube has OD 1.88 and ID 1.80"
+        <!-- BT-1.9 - somewhere between 2018 and 2022, LOC added a 1.90" airframe tube, which
+            initially did not have ID/OD listed on their website.  However by March 2024 this data is
+            now available.  It is approximately compatible with the Aerotech 1.90 tube though the 
+            LOC tube ID is 0.020 smaller.
             -->
             <BodyTube>
                 <Manufacturer>LOC Precision</Manufacturer>
                 <PartNumber>BT-1.9</PartNumber>
                 <Description>Body tube, paper, BT-1.9, 34.0"</Description>
                 <Material Type="BULK">Paper, kraft glassine, LOC tube avg</Material>
-                <InsideDiameter Unit="in">1.90</InsideDiameter>
-                <OutsideDiameter Unit="in">1.98</OutsideDiameter>
+                <InsideDiameter Unit="in">1.78</InsideDiameter>
+                <OutsideDiameter Unit="in">1.88</OutsideDiameter>
                 <Length Unit="in">34.0</Length>
             </BodyTube>
     
@@ -614,7 +614,7 @@ the former should be lighter because of the larger center hole. -->
              LBT-50    0.947     1.003
              BT-1.14   1.137     1.213    29mm
              BT-1.52   1.522     1.638    38mm
-             BT-1.9    1.897     1.983    Assuming ID is 1.90 consistent with all other LOC tube nomenclature
+             BT-1.9    1.777     1.883
              BT-2.14   2.137     2.263    54mm
              BT-2.56   2.557     2.633
              BT-3.00   2.997     3.103    75mm
@@ -680,7 +680,7 @@ the former should be lighter because of the larger center hole. -->
             <Description>Centering ring, plywood, 1.9 to 29mm, 1/4"</Description>
             <Material Type="BULK">Plywood, Baltic birch, bulk</Material>
             <InsideDiameter Unit="in">1.213</InsideDiameter>
-            <OutsideDiameter Unit="in">1.897</OutsideDiameter>
+            <OutsideDiameter Unit="in">1.777</OutsideDiameter>
             <Length Unit="in">0.250</Length>
         </CenteringRing>
 
@@ -691,7 +691,7 @@ the former should be lighter because of the larger center hole. -->
             <Description>Centering ring, plywood, 1.9 to 24mm, 1/8"</Description>
             <Material Type="BULK">Plywood, Baltic birch, bulk</Material>
             <InsideDiameter Unit="in">1.003</InsideDiameter>
-            <OutsideDiameter Unit="in">1.897</OutsideDiameter>
+            <OutsideDiameter Unit="in">1.777</OutsideDiameter>
             <Length Unit="in">0.125</Length>
         </CenteringRing>
 
