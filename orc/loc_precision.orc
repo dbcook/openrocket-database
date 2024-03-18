@@ -1727,7 +1727,7 @@ the former should be lighter because of the larger center hole. -->
             <Material Type="BULK">Paper, kraft, LOC coupler avg</Material>
             <InsideDiameter Unit="in">7.398</InsideDiameter>
             <OutsideDiameter Unit="in">7.508</OutsideDiameter>
-            <Length Unit="m">15.0</Length>
+            <Length Unit="in">15.0</Length>
         </TubeCoupler>
 
         <!-- Apogee gives length of 15.0" and mass 676g / 23.66 oz, and ID/OD.  LOC has length 14.0" -->
