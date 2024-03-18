@@ -20,11 +20,20 @@ when it starts up.
 
 ## Compatibility
 
-OpenRocket compatibility:  OpenRocket 15.03 and 2022.02 releases.
+OpenRocket compatibility:  OpenRocket 15.03 and 2022.02 and newer releases.
+
+Thus far this database does not use any of the new data fields present in the 2022+ OpenRocket releases
+that are incompatible with 15.03.  However, it is now about time to drop this backward
+compatibility.
 
 System compatibility:  works anywhere OpenRocket can run
 
 ## Release Notes
+
+1.0.0.5
+* Fixes
+  * PR34: ARR BlueTube couplers were incorrectly designated as body tubes
+  * LOC: Fix 1.90 tube and ring dimensions to match recently published website data
 
 1.0.0.4
 * Fixes
@@ -276,6 +285,7 @@ Please don't report problems on TRF, via email, etc. - use GitHub issues; others
 
 ## State of the Project
 
+2024: still in maintenance mode; planning to hand the project off to the OpenRocket dev community this year.
 2022: now making minor updates only
 
 2021: after 5+ years of development, I feel this project is mostly complete and the effort is at the point
@@ -294,13 +304,13 @@ somewhat Mac centric because that's what I use most.
 
 * Add discountrocketry / modelrockets.us file - they source their own tubes and some nose cones
 * Build a separate Centuri file (but compatible tubes and nose cones are in the Semroc file)
-* Review / upgrade PML and GLR stock files
-* Add Bluetube / Always Ready Rocketry centering rings (and nose cones if possible)
+* Review / upgrade PML stock file.  PML has been acquired by LOC however, with considerable
+  removal of data; maybe no longer feasible.
 * Add historic FSI and CMR parts, though they are no longer available anywhere
 
 ### Database Files Status
 
-| File                    | In Stock OR      |  Upgrade/Completion State       |
+| File                    | In OR 15.03      |  Upgrade/Completion State       |
 | ----- | ----- | ----- |
 | `Estes.orc`              | Yes  | 100% - split - see new files below
 | `loc_precision.orc`      | Yes  | 100% 
@@ -324,10 +334,12 @@ somewhat Mac centric because that's what I use most.
 | `modelrocket.us`         | No.  | -- worth doing; they have their own line of tubes, nose cones and rings
 
 
-There are files I may never do, or do in very abbreviated form.
+There are files I may never do, or do in very abbreviated form, or not finish.
 
 * Fliskits - Jim Flis ceased operations of Fliskits in 2018; no unique parts except nose cones.  A file exists
   in OR 15.03 but it has not been updated.
+* Public Missiles - acquired by LOC 2022-2023, former website has disappeared and LOC does not
+  list enough data to make finishing the file feasible.
 * CMR - the unique tube sizes are no longer made by anyone, so very limited usefulness.
 * FSI - same story as CMR with unique tube sizes that are no longer made by anyone.
 
@@ -504,7 +516,8 @@ there are still gaps.
 In 2022 LOC Precision acquired the hobby rocket business of Public Missiles Ltd (PML).  PML's
 former website publicmissiles.com has gone offline as of September 2022, resulting in the loss
 of some parts data.  Many of these parts have reappeared on the LOC website, but often without
-dimensions and weights.
+dimensions and weights.  The PML file here was being built from the original PML website and
+as things stand it cannot be completed due to lack of data.
 
 #### SEMROC
 
@@ -672,7 +685,7 @@ metric tubes.
 
 Despite the thin information, I have been able to build a relatively complete MPC parts file
 which is now included with this package.  Any parts that may have been created during
-the AVI ownership era have not been included yet.
+the AVI ownership era have not been included yet.  I do not think there are many.
 
 #### AVI (Aerospace Vehicles Inc.)
 
@@ -688,7 +701,8 @@ I do not believe that AVI actually produced enough unique parts to make an OpenR
 
 An interesting side note is that the AVI and FSI motor making equipment surfaced *again* circa
 2015 - in very poor condition (I saw photos at NARAM-58) - when David Lucas and the late Dave Bucher
-located and bought up residsual assets of FSI in an effort to restart production of some FSI products.
+located and bought up residsual assets of FSI in a short-lived attempt to restart production of some FSI products.
+See the FSI section for more details.
 
 #### Madcow Rocketry
 
@@ -792,9 +806,8 @@ The FSI restart is not known to have had individual parts on sale, and did not p
 any new motors.  In 2020 I was told privately that the new FSI has ceased operation and that the FSI
 assets are again for sale.
 
-It's likely that the modified old
-stock kits sold at NARAM-58 are now exceedingly rare, as they were made legitimately under the
-FSI name but no more than a few tens of them exist.
+The modified old stock FSI kits sold at NARAM-58 are exceedingly rare, as they were
+made legitimately under the FSI name but no more than a few tens of them exist.
 
 FSI had printed catalogs that provided good data on tube sizes, which have already been incorporated into
 `tube_data.txt`.  Catalogs were produced only sporadically, but the product line changed slowly.
@@ -825,8 +838,8 @@ and Madcow data.
 
 Apogee does make a few own-design parts, including the foam egg protectors and nose cones widely used by
 TARC teams, and foam ejection plugs used in NAR/FAI competition.  I don't believe they make any tubes or
-nose cones that aren't available elsewhere.  A very small Apogee file has been built listing
-the TARC foam parts.
+nose cones that aren't available elsewhere except a foam TARC nose cone.  
+A very small Apogee file has been built listing the TARC foam parts.
 
 #### Wildman Rocketry
 
@@ -897,8 +910,12 @@ this database.
 * ModelRockets.us (Discount Rocketry), offers tubes with heavier wall than Estes, and various
   plastic nose cones.  Notable for being one of the smaller vendors with actual manufacturing
   capability.
-* Very small manufacturers including Kopter, Pine Cap Assoc., US Rockets, ASP, etc.  Many of these
-  made only kits.  ASP does offer some competition parts.
+* Very small manufacturers, many of which made only kits:
+   * Kopter Rockets (Walt Senoski)
+   * Pine Cap Assoc. (proprietor unknown)
+   * US Rockets (Jerry Irvine)
+   * Aerospace Specialty Products (ASP, Andy Jackson)
+   * Qualified Competition Rockets (Ken Brown)
 * Canaroc (reported long defunct in 2011 along with its parent Irwin Group of Toronto)
 * High power kit and parts vendors
   * Wildman
@@ -1017,8 +1034,8 @@ and usable from the OpenRocket user interface.
   but there is no documented part number from the vendor.  For example, the 12.25 inch BT-5
   used in the Estes #2009 Rain Maker is assigned a PN of "BT-5_12.25in".
 
-* When multiple part numbers are known for a given item, they are given as a list in the
-  PartNumber field.
+* When multiple part numbers are known for a given item, they are given as a 
+  comma-delimited list in the PartNumber field.
 
 * Items not uniquely tied to any given manufacturer have been assigned a manufacturer name
   of "Generic xxxx", where xxxx (if present) may be a category like "competition".
@@ -1261,7 +1278,7 @@ structural.
    * Cannot define shock cord components at all
 * Additional problems not specific to .orc files:
    * OR does not model moments of inertia for hollow NC/transition shoulders
-   * OpenRocket only supports tubular launch lugs - no support for rail buttons or guides (maybe fixed in 2022 betas)
+   * OpenRocket only supports tubular launch lugs - no support for rail buttons or guides (fixed in 2022 betas)
    * No support for lug standoffs (maybe fixed in 2022 betas)
    * Cannot attach a mass object to a parachute (e.g. Chute Release device)
    * Cannot attach a mass object to a streamer
